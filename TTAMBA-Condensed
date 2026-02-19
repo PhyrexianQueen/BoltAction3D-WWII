@@ -1866,6 +1866,126 @@
 		],
 		"units": [
 			{
+				"name": "---------------------------------------",
+				"factions": [],
+				"availableIn": [
+					
+					{
+						"all": [{ "in": "Rifle Platoon" }]
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }]		
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }]		
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }]		
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }]		
+					}
+				],
+				"points": 0,
+				"models": 0,
+				"unlockedByLocal":
+					{
+						"quantityRequired":1000,
+						"key": "Splitter"
+					},
+				"sortPriority": 2,
+				"keywords": [],
+				"specialText": "Splitter, Stop Looking",
+				"equipment": []
+			},
+			{
+				"name": "------------------------------------------",
+				"factions": [],
+				"availableIn": [
+					
+					{
+						"all": [{ "in": "Rifle Platoon" }]
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }]		
+					}
+				],
+				"points": 0,
+				"models": 0,
+				"unlockedByLocal":
+					{
+						"quantityRequired":1000,
+						"key": "Splitter"
+					},
+				"sortPriority": 3,
+				"keywords": [],
+				"specialText": "Splitter, Stop Looking",
+				"equipment": []
+			},
+			{
+				"name": "-------------------------------------------",
+				"factions": [],
+				"availableIn": [
+					
+					{
+						"all": [{ "in": "Rifle Platoon" }]
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }]		
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }]		
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }]		
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }]		
+					}
+				],
+				"points": 0,
+				"models": 0,
+				"unlockedByLocal":
+					{
+						"quantityRequired":1000,
+						"key": "Splitter"
+					},
+				"sortPriority": 4,
+				"keywords": [],
+				"specialText": "Splitter, Stop Looking",
+				"equipment": []
+			},
+			{
+				"name": "--------------------------------------------",
+				"factions": [],
+				"availableIn": [
+					
+					{
+						"all": [{ "in": "Rifle Platoon" }]
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }]		
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }]		
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }]		
+					}
+				],
+				"points": 0,
+				"models": 0,
+				"unlockedByLocal":
+					{
+						"quantityRequired":1000,
+						"key": "Splitter"
+					},
+				"sortPriority": 5,
+				"keywords": [],
+				"specialText": "Splitter, Stop Looking",
+				"equipment": []
+			},
+			{
 				"name": "Company Commander",
 				"order":1,
 				"factions": [],
@@ -6809,7 +6929,7 @@
 				"equipment": ["Pistol","Rifle"]
 			},
 			{
-				"name": "Lone Sniper",
+				"name": "Sniper, Lone",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -10816,12 +10936,12 @@
 				"equipment": ["Light Mortar"]
 			},
 			{
-				"name": "Light Mortar Team (G)",
+				"name": "Light Mortar Team (G) Heavy Weapons Platoon",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
 					}
 				],
 				"points": 0,
@@ -11095,6 +11215,206 @@
 				],
 				"keywords": ["Period: E|M|L"],
 				"specialText": "1 Mortar Operator\n 1 Weapon Assitant",
+				"equipment": ["Light Mortar"]
+			},
+			{
+				"name": "Light Mortar Team (J)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Mortar",
+						"limit": 2,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 23,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 33,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 43,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Man",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": 1,
+						"addsModels": 1
+					},					
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Yamato Damashii (Paratroopers)"]
+					},
+					{
+						"name": "Yamato Damashii (Home Defence)",
+						"points": 0,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (Paratroopers)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (SNLF)",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (SNLF Vet)",
+						"points": 0,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Iron Discipline (SNLF)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Yamato Damashii (SNLF Vet)"],
+						"availableIn": ["Japan"],
+						"requireChooseOneKey": "reqSNLF"
+					},
+					{
+						"name": "Yamato Damashii (Veteran Jungle Fighters)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					}
+				],
+				"keywords": ["Period: E|M|L","Fanatics","Low Angle Fire"],
+				"specialText": "1 Mortar Operator\n 1 Weapon Assitants",
+				"equipment": ["Light Mortar"]
+			},
+			{
+				"name": "Light Mortar Team (J) Heavy Weapons Platoon",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 2,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 23,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 33,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 43,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Man",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": 1,
+						"addsModels": 1
+					},					
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Yamato Damashii (Paratroopers)"]
+					},
+					{
+						"name": "Yamato Damashii (Home Defence)",
+						"points": 0,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (Paratroopers)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (SNLF)",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (SNLF Vet)",
+						"points": 0,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Iron Discipline (SNLF)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Yamato Damashii (SNLF Vet)"],
+						"availableIn": ["Japan"],
+						"requireChooseOneKey": "reqSNLF"
+					},
+					{
+						"name": "Yamato Damashii (Veteran Jungle Fighters)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					}
+				],
+				"keywords": ["Period: E|M|L","Fanatics","Low Angle Fire"],
+				"specialText": "1 Mortar Operator\n 1 Weapon Assitants",
 				"equipment": ["Light Mortar"]
 			},
 			{
@@ -11500,6 +11820,112 @@
 				"equipment": ["Medium Mortar"]
 			},
 			{
+				"name": "Medium Mortar Team (J)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "AA Mines",
+						"points": 5
+					},
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": 1,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Yamato Damashii (Home Defence)",
+						"points": 0,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (Paratroopers)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (SNLF)",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (SNLF Vet)",
+						"points": 0,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Iron Discipline (SNLF)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Yamato Damashii (SNLF Vet)"],
+						"availableIn": ["Japan"],
+						"requireChooseOneKey": "reqSNLF"
+					},
+					{
+						"name": "Yamato Damashii (Veteran Jungle Fighters)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					}
+				],
+				"keywords": ["Period: E|M|L","Fanatics","No Smoke Rounds"],
+				"specialText": "1 Mortar Operator\n 2 Weapon Assitants",
+				"equipment": ["Medium Mortar"]
+			},
+			{
 				"name": "Heavy Mortar Team",
 				"factions": [],
 				"order": 1,
@@ -11702,6 +12128,62 @@
 					}
 				],
 				"keywords": ["Period: M|L"],
+				"specialText": "1 Mortar Operator\n 3 Weapon Assitants",
+				"equipment": ["Heavy Mortar"]
+			},
+			{
+				"name": "Heavy Mortar Team (J)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 46,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 84,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": 1,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": 2,
+						"addsModels": 1
+					}
+				],
+				"keywords": ["Period: E|M|L"],
 				"specialText": "1 Mortar Operator\n 3 Weapon Assitants",
 				"equipment": ["Heavy Mortar"]
 			},
@@ -11965,6 +12447,100 @@
 				],
 				"keywords": ["Period: M|L","Stubborn","Hitler's Buzzsaw"],
 				"specialText": "Campaign Unit from Italy - Soft Underbelly;\n1 MG Operator\n 2 Weapon Assitants",
+				"equipment": ["MMG"]
+			},
+			{
+				"name": "Medium Machine Gun (J)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Yamato Damashii (Home Defence)",
+						"points": 0,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (Paratroopers)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (SNLF)",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (SNLF Vet)",
+						"points": 0,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Iron Discipline (SNLF)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Yamato Damashii (SNLF Vet)"],
+						"availableIn": ["Japan"],
+						"requireChooseOneKey": "reqSNLF"
+					},
+					{
+						"name": "Yamato Damashii (Veteran Jungle Fighters)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					}
+				],
+				"keywords": ["Period: E|M|L","Fanatics"],
+				"specialText": "1 MG Operator\n 2 Weapon Assitants",
 				"equipment": ["MMG"]
 			},
 			{
@@ -15407,6 +15983,7 @@
 				"points": 0,
 				"models": 5,
 				"sortPriority": 3,
+				"unlockKey": "Columnist",
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -15451,6 +16028,7 @@
 				"points": 0,
 				"models": 5,
 				"sortPriority": 3,
+				"unlockKey": "Columnist",
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -15495,6 +16073,7 @@
 				"points": 0,
 				"models": 5,
 				"sortPriority": 3,
+				"unlockKey": "Columnist",
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -15597,6 +16176,7 @@
 				"points": 0,
 				"models": 5,
 				"sortPriority": 3,
+				"unlockKey": "Columnist",
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -15699,6 +16279,7 @@
 				"points": 0,
 				"models": 5,
 				"sortPriority": 3,
+				"unlockKey": "Columnist",
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -15786,6 +16367,7 @@
 				"points": 0,
 				"models": 5,
 				"sortPriority": 3,
+				"unlockKey": "Columnist",
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -15873,6 +16455,7 @@
 				"points": 0,
 				"models": 5,
 				"sortPriority": 3,
+				"unlockKey": "Columnist",
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -15956,6 +16539,7 @@
 				"points": 0,
 				"models": 5,
 				"sortPriority": 3,
+				"unlockKey": "Columnist",
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -16039,6 +16623,7 @@
 				"points": 0,
 				"models": 5,
 				"sortPriority": 3,
+				"unlockKey": "Columnist",
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -16127,6 +16712,7 @@
 				"points": 0,
 				"models": 5,
 				"sortPriority": 3,
+				"unlockKey": "Columnist",
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -16215,6 +16801,7 @@
 				"points": 0,
 				"models": 5,
 				"sortPriority": 3,
+				"unlockKey": "Columnist",
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -16310,6 +16897,7 @@
 				"points": 0,
 				"models": 5,
 				"sortPriority": 3,
+				"unlockKey": "Columnist",
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -16785,6 +17373,7 @@
 				"points": 0,
 				"models": 5,
 				"sortPriority": 3,
+				"unlockKey": "Columnist",
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -16841,6 +17430,7 @@
 				"points": 0,
 				"models": 5,
 				"sortPriority": 3,
+				"unlockKey": "Columnist",
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -16897,6 +17487,7 @@
 				"points": 0,
 				"models": 5,
 				"sortPriority": 3,
+				"unlockKey": "Columnist",
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -16973,6 +17564,7 @@
 				"points": 0,
 				"models": 5,
 				"sortPriority": 3,
+				"unlockKey": "Columnist",
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -17049,6 +17641,7 @@
 				"points": 0,
 				"models": 5,
 				"sortPriority": 3,
+				"unlockKey": "Columnist",
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -17150,6 +17743,7 @@
 				"points": 0,
 				"models": 5,
 				"sortPriority": 3,
+				"unlockKey": "Columnist",
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -17251,6 +17845,7 @@
 				"points": 0,
 				"models": 5,
 				"sortPriority": 3,
+				"unlockKey": "Columnist",
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -17341,6 +17936,7 @@
 				"points": 0,
 				"models": 5,
 				"sortPriority": 3,
+				"unlockKey": "Columnist",
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -17431,6 +18027,7 @@
 				"points": 0,
 				"models": 5,
 				"sortPriority": 3,
+				"unlockKey": "Columnist",
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -17509,6 +18106,7 @@
 				"points": 0,
 				"models": 5,
 				"sortPriority": 3,
+				"unlockKey": "Columnist",
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -17587,6 +18185,7 @@
 				"points": 0,
 				"models": 5,
 				"sortPriority": 3,
+				"unlockKey": "Columnist",
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -17674,6 +18273,7 @@
 				"points": 0,
 				"models": 5,
 				"sortPriority": 3,
+				"unlockKey": "Columnist",
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -17761,6 +18361,7 @@
 				"points": 0,
 				"models": 5,
 				"sortPriority": 3,
+				"unlockKey": "Columnist",
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -17842,6 +18443,7 @@
 				"points": 0,
 				"models": 5,
 				"sortPriority": 3,
+				"unlockKey": "Columnist",
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -17922,6 +18524,7 @@
 				"points": 0,
 				"models": 5,
 				"sortPriority": 3,
+				"unlockKey": "Columnist",
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -18017,6 +18620,7 @@
 				"points": 0,
 				"models": 5,
 				"sortPriority": 3,
+				"unlockKey": "Columnist",
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -18112,6 +18716,7 @@
 				"points": 0,
 				"models": 5,
 				"sortPriority": 3,
+				"unlockKey": "Columnist",
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -18172,6 +18777,7 @@
 				"points": 0,
 				"models": 5,
 				"sortPriority": 3,
+				"unlockKey": "Columnist",
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -18402,6 +19008,7 @@
 				"points": 0,
 				"models": 5,
 				"sortPriority": 3,
+				"unlockKey": "Columnist",
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -18474,6 +19081,7 @@
 				"points": 0,
 				"models": 5,
 				"sortPriority": 3,
+				"unlockKey": "Columnist",
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -18546,6 +19154,7 @@
 				"points": 0,
 				"models": 5,
 				"sortPriority": 3,
+				"unlockKey": "Columnist",
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -18624,6 +19233,7 @@
 				"points": 0,
 				"models": 5,
 				"sortPriority": 3,
+				"unlockKey": "Columnist",
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -18688,6 +19298,2802 @@
 				],
 				"keywords": ["Period: M|L","Green"],
 				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Ostruppen",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "Columnist",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 25,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"localLimit": 1
+					}
+				],
+				"keywords": ["Period: M|L","Shirkers"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Ostruppen",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "Columnist",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 25,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"localLimit": 1
+					}
+				],
+				"keywords": ["Period: M|L","Shirkers"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Panzergrenadiers",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "Columnist",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
+					},
+					{
+						"name": "NCO Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 4
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": 4
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"perModel": true
+					},
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
+					}
+				],
+				"keywords": ["Period: M|L","Mechanised Infantry"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Panzergrenadiers",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "Columnist",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
+					},
+					{
+						"name": "NCO Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 4
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": 4
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"perModel": true
+					},
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
+					}
+				],
+				"keywords": ["Period: M|L","Mechanised Infantry"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Replacement Army Unit",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "Columnist",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 25,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"localLimit": 2
+					}
+				],
+				"keywords": ["Period: L","Shirkers"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Replacement Army Unit",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "Columnist",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 25,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"localLimit": 2
+					}
+				],
+				"keywords": ["Period: L","Shirkers"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "ROA (Russian Liberation Army) Unit",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "Columnist",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 45,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"unlockedByLocal": ["Inexperienced"],
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"localLimit": 1
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"unlockedByLocal": ["Inexperienced"],
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: M|L","Fanatics"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "ROA (Russian Liberation Army) Unit",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "Columnist",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 45,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"unlockedByLocal": ["Inexperienced"],
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"localLimit": 1
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"unlockedByLocal": ["Inexperienced"],
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: M|L","Fanatics"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Sicherungs (Security) Battalion Unit",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "Columnist",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"localLimit": 1
+					}
+				],
+				"keywords": ["Period: M|L","Green"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": []
+			},{
+				"name": "Sicherungs (Security) Battalion Unit",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "Columnist",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"localLimit": 1
+					}
+				],
+				"keywords": ["Period: M|L","Green"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Spähtruppen",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 40,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 52,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Bicycle",
+						"points": 0,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": 1,
+						"maxKey": "restricted"
+					},
+					{
+						"name": "Gebirgsjäger Winter Equipment",
+						"points": 0,
+						"availableIn": ["Germany"],
+						"unlockedByLocal": "Defend the Fatherland! (Gebirgsjäger)"
+					},
+					{
+						"name": "Defend the Fatherland! (Fallschirmjäger)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "Defend the Fatherland! (Gebirgsjäger)",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "Infiltrators",
+						"points": 1,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": 1,
+						"maxKey": "restricted",
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"specialText": "1 NCO\n 3 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Spähtruppen",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 40,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 52,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Bicycle",
+						"points": 0,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": 1,
+						"maxKey": "restricted"
+					},
+					{
+						"name": "Gebirgsjäger Winter Equipment",
+						"points": 0,
+						"availableIn": ["Germany"],
+						"unlockedByLocal": "Defend the Fatherland! (Gebirgsjäger)"
+					},
+					{
+						"name": "Defend the Fatherland! (Fallschirmjäger)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "Defend the Fatherland! (Gebirgsjäger)",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "Infiltrators",
+						"points": 1,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": 1,
+						"maxKey": "restricted",
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"specialText": "1 NCO\n 3 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Strafbattalion Penal Unit",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "Columnist",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 25,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Inexperienced"],
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","Shirkers"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Strafbattalion Penal Unit",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "Columnist",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 25,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Inexperienced"],
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","Shirkers"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Volksgrenadier",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "Columnist",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 40,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 8,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "NCO Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"localLimit": 4
+					}
+				],
+				"keywords": ["Period: L","For the Fartherland"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Volksgrenadier",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "Columnist",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 40,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 8,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "NCO Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"localLimit": 4
+					}
+				],
+				"keywords": ["Period: L","For the Fartherland"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Volkssturm",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "Columnist",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"localLimit": 4
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced"]
+					}
+				],
+				"keywords": ["Period: L","Green"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Volkssturm",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "Columnist",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"localLimit": 4
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced"]
+					}
+				],
+				"keywords": ["Period: L","Green"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Waffen-SS Cavalry",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "Columnist",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 75,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 12,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": 2
+					},
+					{
+						"name": "Add Horses",
+						"points": 3,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: M|L","Fanatics"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Waffen-SS Cavalry",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "Columnist",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 75,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 12,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": 2
+					},
+					{
+						"name": "Add Horses",
+						"points": 3,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: M|L","Fanatics"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Waffen-SS Infantry (Early)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "Columnist",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 75,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Veteran"],
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M","Fanatics"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Waffen-SS Infantry (Early)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "Columnist",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 75,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Veteran"],
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M","Fanatics"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Waffen-SS Infantry (Late)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "Columnist",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 45,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 75,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 9,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 12,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "NCO Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 4
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Inexperienced"],
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: M|L","Fanatics","Mixed Quality"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Waffen-SS Infantry (Late)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "Columnist",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 45,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 75,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 9,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 12,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "NCO Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 1,
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Assault Rifle",
+						"points": 6,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "German LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 4
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Inexperienced"],
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: M|L","Fanatics","Mixed Quality"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "5th Columnist Group",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockedByLocal":
+					{
+						"quantityRequired":2,
+						"key": "Columnist"
+					},
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 30,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Demolition Charges",
+						"unlockedByLocal": ["Inexperienced"],
+						"points": 20
+					},
+					{
+						"name": "AT Grenades / Molotov Cocktails",
+						"unlockedByLocal": ["Inexperienced"],
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","Infiltrator","Independent Operative"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "5th Columnist Group",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockedByLocal":
+					{
+						"quantityRequired":2,
+						"key": "Columnist"
+					},
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 30,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Demolition Charges",
+						"unlockedByLocal": ["Inexperienced"],
+						"points": 20
+					},
+					{
+						"name": "AT Grenades / Molotov Cocktails",
+						"unlockedByLocal": ["Inexperienced"],
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","Infiltrator","Independent Operative"],
+				"specialText": "Does Not Count As Mandatory Squad; \n1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "5th Columnist Group",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockedByLocal":
+					{
+						"quantityRequired":1,
+						"key": "Columnist"
+					},
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 30,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Demolition Charges",
+						"unlockedByLocal": ["Inexperienced"],
+						"points": 20
+					},
+					{
+						"name": "AT Grenades / Molotov Cocktails",
+						"unlockedByLocal": ["Inexperienced"],
+						"points": 2,
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","Infiltrator","Independent Operative"],
+				"specialText": "Does Not Count As Mandatory Squad; \n1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Festung Unit",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "Columnist",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 4,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 4,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 20,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Inexperienced","Regular"],
+						"perModel": true
+					},
+					{
+						"name": "Shirkers",
+						"points": -3,
+						"unlockedByLocal": ["Inexperienced","Regular"],
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"specialText": "Campaign Unit from Italy - Soft Underbelly;\n 1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Festung Unit",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "Columnist",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 4,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 4,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 20,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Inexperienced","Regular"],
+						"perModel": true
+					},
+					{
+						"name": "Shirkers",
+						"points": -3,
+						"unlockedByLocal": ["Inexperienced","Regular"],
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"specialText": "Campaign Unit from Italy - Soft Underbelly;\n 1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Feldersatz",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "Columnist",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 20,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Inexperienced"],
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","Green"],
+				"specialText": "Campaign Unit from Italy - Soft Underbelly;\n 1 NCO\n 4 Riflemen",
+				"equipment": []
+			},{
+				"name": "Feldersatz",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "Columnist",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 20,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Inexperienced"],
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","Green"],
+				"specialText": "Campaign Unit from Italy - Soft Underbelly;\n 1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Hermann Göring Division Panzergrenadiers (Early)",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "Columnist",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 45,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 9,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 20,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Regular"],
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","Unprepared - HGD","Motorised Infantry"],
+				"specialText": "Campaign Unit from Italy - Soft Underbelly;\n 1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Hermann Göring Division Panzergrenadiers (Early)",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "Columnist",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 45,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 9,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 20,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Regular"],
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","Unprepared - HGD","Motorised Infantry"],
+				"specialText": "Campaign Unit from Italy - Soft Underbelly;\n 1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Hermann Göring Division Panzergrenadiers (Late)",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "Columnist",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 75,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 20,
+						"increment": true,
+						"max": "parentModels",
+						"unlockedByLocal": ["Regular","Veteran"],
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","Motorised Infantry"],
+				"specialText": "Campaign Unit from Italy - Soft Underbelly;\n 1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Hermann Göring Division Panzergrenadiers (Late)",
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "Columnist",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 75,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "German LMG",
+						"points": 20,
+						"increment": true,
+						"max": "parentModels",
+						"unlockedByLocal": ["Regular","Veteran"],
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M|L","Motorised Infantry"],
+				"specialText": "Campaign Unit from Italy - Soft Underbelly;\n 1 NCO\n 4 Riflemen",
 				"equipment": []
 			},
 			{
@@ -18801,492 +22207,7 @@
 				"specialText": "1 NCO\n 4 Riflemen",
 				"equipment": []
 			},
-			{
-				"name": "Ostruppen",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Inexperienced",
-						"points": 25,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 5,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 1,
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "German LMG",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "Panzerfaust",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"localLimit": 1
-					}
-				],
-				"keywords": ["Period: M|L","Shirkers"],
-				"specialText": "1 NCO\n 4 Riflemen",
-				"equipment": []
-			},
-			{
-				"name": "Ostruppen",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 4,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Inexperienced",
-						"points": 25,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 5,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 1,
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "German LMG",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "Panzerfaust",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"localLimit": 1
-					}
-				],
-				"keywords": ["Period: M|L","Shirkers"],
-				"specialText": "1 NCO\n 4 Riflemen",
-				"equipment": []
-			},
-			{
-				"name": "Panzergrenadiers",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Regular",
-						"points": 55,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Veteran",
-						"points": 70,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 11,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "Additional Men",
-						"points": 14,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"max": 1,
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "SMGs",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 3
-					},
-					{
-						"name": "NCO Assault Rifle",
-						"points": 6,
-						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"max": 1,
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "Assault Rifle",
-						"points": 6,
-						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 4
-					},
-					{
-						"name": "German LMG",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 2
-					},
-					{
-						"name": "Panzerfaust",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"max": 4
-					},
-					{
-						"name": "AT Grenades",
-						"points": 2,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"perModel": true
-					},
-					{
-						"name": "Defend the Fatherland! (Waffen-SS)",
-						"points": 2,
-						"perModel": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"availableIn": ["Germany"],
-						"chooseOneKey": "natRuGer"
-					}
-				],
-				"keywords": ["Period: M|L","Mechanised Infantry"],
-				"specialText": "1 NCO\n 4 Riflemen",
-				"equipment": []
-			},
-			{
-				"name": "Panzergrenadiers",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 4,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Regular",
-						"points": 55,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Veteran",
-						"points": 70,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 11,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "Additional Men",
-						"points": 14,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"max": 1,
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "SMGs",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 3
-					},
-					{
-						"name": "NCO Assault Rifle",
-						"points": 6,
-						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"max": 1,
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "Assault Rifle",
-						"points": 6,
-						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 4
-					},
-					{
-						"name": "German LMG",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 2
-					},
-					{
-						"name": "Panzerfaust",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"max": 4
-					},
-					{
-						"name": "AT Grenades",
-						"points": 2,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"perModel": true
-					},
-					{
-						"name": "Defend the Fatherland! (Waffen-SS)",
-						"points": 2,
-						"perModel": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"availableIn": ["Germany"],
-						"chooseOneKey": "natRuGer"
-					}
-				],
-				"keywords": ["Period: M|L","Mechanised Infantry"],
-				"specialText": "1 NCO\n 4 Riflemen",
-				"equipment": []
-			},
-			{
-				"name": "Replacement Army Unit",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Inexperienced",
-						"points": 25,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 5,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 1,
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "German LMG",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "Panzerfaust",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"localLimit": 2
-					}
-				],
-				"keywords": ["Period: L","Shirkers"],
-				"specialText": "1 NCO\n 4 Riflemen",
-				"equipment": []
-			},
-			{
-				"name": "Replacement Army Unit",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 4,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Inexperienced",
-						"points": 25,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 5,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 1,
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "German LMG",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "Panzerfaust",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"localLimit": 2
-					}
-				],
-				"keywords": ["Period: L","Shirkers"],
-				"specialText": "1 NCO\n 4 Riflemen",
-				"equipment": []
-			},
+			
 			{
 				"name": "Swedish Infantry Squad",
 				"factions": [],
@@ -19396,2233 +22317,6 @@
 				],
 				"keywords": ["Period: E|M|L"],
 				"specialText": "1 NCO\n 4 Riflemen",
-				"equipment": []
-			},
-			{
-				"name": "ROA (Russian Liberation Army) Unit",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Inexperienced",
-						"points": 45,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 5,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 1,
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "German LMG",
-						"points": 15,
-						"increment": true,
-						"max": "parentModels",
-						"unlockedByLocal": ["Inexperienced"],
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "Panzerfaust",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"localLimit": 1
-					},
-					{
-						"name": "Bicycles",
-						"points": 1,
-						"unlockedByLocal": ["Inexperienced"],
-						"perModel": true
-					}
-				],
-				"keywords": ["Period: M|L","Fanatics"],
-				"specialText": "1 NCO\n 4 Riflemen",
-				"equipment": []
-			},
-			{
-				"name": "ROA (Russian Liberation Army) Unit",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 4,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Inexperienced",
-						"points": 45,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 5,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 1,
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "German LMG",
-						"points": 15,
-						"increment": true,
-						"max": "parentModels",
-						"unlockedByLocal": ["Inexperienced"],
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "Panzerfaust",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"localLimit": 1
-					},
-					{
-						"name": "Bicycles",
-						"points": 1,
-						"unlockedByLocal": ["Inexperienced"],
-						"perModel": true
-					}
-				],
-				"keywords": ["Period: M|L","Fanatics"],
-				"specialText": "1 NCO\n 4 Riflemen",
-				"equipment": []
-			},
-			{
-				"name": "Sicherungs (Security) Battalion Unit",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Inexperienced",
-						"points": 35,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 5,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 1,
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "German LMG",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "Panzerfaust",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"localLimit": 1
-					}
-				],
-				"keywords": ["Period: M|L","Green"],
-				"specialText": "1 NCO\n 4 Riflemen",
-				"equipment": []
-			},{
-				"name": "Sicherungs (Security) Battalion Unit",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 4,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Inexperienced",
-						"points": 35,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 5,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 1,
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "German LMG",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "Panzerfaust",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"localLimit": 1
-					}
-				],
-				"keywords": ["Period: M|L","Green"],
-				"specialText": "1 NCO\n 4 Riflemen",
-				"equipment": []
-			},
-			{
-				"name": "Spähtruppen",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 0,
-				"models": 4,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Regular",
-						"points": 40,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Veteran",
-						"points": 52,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 10,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": 2,
-						"addsModels": 1
-					},
-					{
-						"name": "Additional Men",
-						"points": 13,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": 2,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"max": 1,
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "Bicycle",
-						"points": 0,
-						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"max": 1,
-						"maxKey": "restricted"
-					},
-					{
-						"name": "Gebirgsjäger Winter Equipment",
-						"points": 0,
-						"availableIn": ["Germany"],
-						"unlockedByLocal": "Defend the Fatherland! (Gebirgsjäger)"
-					},
-					{
-						"name": "Defend the Fatherland! (Fallschirmjäger)",
-						"points": 1,
-						"perModel": true,
-						"unlockedByLocal": ["Veteran"],
-						"chooseOneKey": "natRuGer"
-					},
-					{
-						"name": "Defend the Fatherland! (Gebirgsjäger)",
-						"points": 2,
-						"perModel": true,
-						"unlockedByLocal": ["Veteran"],
-						"chooseOneKey": "natRuGer"
-					},
-					{
-						"name": "Defend the Fatherland! (Waffen-SS)",
-						"points": 2,
-						"perModel": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"chooseOneKey": "natRuGer"
-					},
-					{
-						"name": "Infiltrators",
-						"points": 1,
-						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"max": 1,
-						"maxKey": "restricted",
-						"perModel": true
-					}
-				],
-				"keywords": ["Period: E|M|L"],
-				"specialText": "1 NCO\n 3 Riflemen",
-				"equipment": []
-			},
-			{
-				"name": "Spähtruppen",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 0,
-				"models": 4,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 4,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Regular",
-						"points": 40,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Veteran",
-						"points": 52,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 10,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": 2,
-						"addsModels": 1
-					},
-					{
-						"name": "Additional Men",
-						"points": 13,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": 2,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"max": 1,
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "Bicycle",
-						"points": 0,
-						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"max": 1,
-						"maxKey": "restricted"
-					},
-					{
-						"name": "Gebirgsjäger Winter Equipment",
-						"points": 0,
-						"availableIn": ["Germany"],
-						"unlockedByLocal": "Defend the Fatherland! (Gebirgsjäger)"
-					},
-					{
-						"name": "Defend the Fatherland! (Fallschirmjäger)",
-						"points": 1,
-						"perModel": true,
-						"unlockedByLocal": ["Veteran"],
-						"chooseOneKey": "natRuGer"
-					},
-					{
-						"name": "Defend the Fatherland! (Gebirgsjäger)",
-						"points": 2,
-						"perModel": true,
-						"unlockedByLocal": ["Veteran"],
-						"chooseOneKey": "natRuGer"
-					},
-					{
-						"name": "Defend the Fatherland! (Waffen-SS)",
-						"points": 2,
-						"perModel": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"chooseOneKey": "natRuGer"
-					},
-					{
-						"name": "Infiltrators",
-						"points": 1,
-						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"max": 1,
-						"maxKey": "restricted",
-						"perModel": true
-					}
-				],
-				"keywords": ["Period: E|M|L"],
-				"specialText": "1 NCO\n 3 Riflemen",
-				"equipment": []
-			},
-			{
-				"name": "Strafbattalion Penal Unit",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Inexperienced",
-						"points": 25,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 5,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 1,
-						"maxKey": "gun"
-					},
-					{
-						"name": "SMGs",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 2
-					},
-					{
-						"name": "German LMG",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "Panzerfaust",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 1
-					},
-					{
-						"name": "AT Grenades",
-						"points": 2,
-						"unlockedByLocal": ["Inexperienced"],
-						"perModel": true
-					}
-				],
-				"keywords": ["Period: E|M|L","Shirkers"],
-				"specialText": "1 NCO\n 4 Riflemen",
-				"equipment": []
-			},
-			{
-				"name": "Strafbattalion Penal Unit",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 4,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Inexperienced",
-						"points": 25,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 5,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 1,
-						"maxKey": "gun"
-					},
-					{
-						"name": "SMGs",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 2
-					},
-					{
-						"name": "German LMG",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "Panzerfaust",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 1
-					},
-					{
-						"name": "AT Grenades",
-						"points": 2,
-						"unlockedByLocal": ["Inexperienced"],
-						"perModel": true
-					}
-				],
-				"keywords": ["Period: E|M|L","Shirkers"],
-				"specialText": "1 NCO\n 4 Riflemen",
-				"equipment": []
-			},
-			{
-				"name": "Volksgrenadier",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Inexperienced",
-						"points": 40,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 8,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 1,
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "SMGs",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": "parentModels",
-						"maxKey": "gun"
-					},
-					{
-						"name": "NCO Assault Rifle",
-						"points": 6,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 1,
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "Assault Rifle",
-						"points": 6,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": "parentModels",
-						"maxKey": "gun"
-					},
-					{
-						"name": "German LMG",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "Panzerfaust",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"localLimit": 4
-					}
-				],
-				"keywords": ["Period: L","For the Fartherland"],
-				"specialText": "1 NCO\n 4 Riflemen",
-				"equipment": []
-			},
-			{
-				"name": "Volksgrenadier",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 4,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Inexperienced",
-						"points": 40,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 8,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 1,
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "SMGs",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": "parentModels",
-						"maxKey": "gun"
-					},
-					{
-						"name": "NCO Assault Rifle",
-						"points": 6,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 1,
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "Assault Rifle",
-						"points": 6,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": "parentModels",
-						"maxKey": "gun"
-					},
-					{
-						"name": "German LMG",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "Panzerfaust",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"localLimit": 4
-					}
-				],
-				"keywords": ["Period: L","For the Fartherland"],
-				"specialText": "1 NCO\n 4 Riflemen",
-				"equipment": []
-			},
-			{
-				"name": "Volkssturm",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Inexperienced",
-						"points": 35,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 7,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 1,
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "SMGs",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 2
-					},
-					{
-						"name": "Panzerfaust",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"localLimit": 4
-					},
-					{
-						"name": "Bicycles",
-						"points": 1,
-						"perModel": true,
-						"unlockedByLocal": ["Inexperienced"]
-					}
-				],
-				"keywords": ["Period: L","Green"],
-				"specialText": "1 NCO\n 4 Riflemen",
-				"equipment": []
-			},
-			{
-				"name": "Volkssturm",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 4,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Inexperienced",
-						"points": 35,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 7,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 1,
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "SMGs",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 2
-					},
-					{
-						"name": "Panzerfaust",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"localLimit": 4
-					},
-					{
-						"name": "Bicycles",
-						"points": 1,
-						"perModel": true,
-						"unlockedByLocal": ["Inexperienced"]
-					}
-				],
-				"keywords": ["Period: L","Green"],
-				"specialText": "1 NCO\n 4 Riflemen",
-				"equipment": []
-			},
-			{
-				"name": "Waffen-SS Cavalry",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Regular",
-						"points": 60,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Veteran",
-						"points": 75,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 12,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "Additional Men",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"max": 1,
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "SMGs",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 2
-					},
-					{
-						"name": "German LMG",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 2
-					},
-					{
-						"name": "Panzerfaust",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"max": 2
-					},
-					{
-						"name": "Add Horses",
-						"points": 3,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"perModel": true
-					}
-				],
-				"keywords": ["Period: M|L","Fanatics"],
-				"specialText": "1 NCO\n 4 Riflemen",
-				"equipment": []
-			},
-			{
-				"name": "Waffen-SS Cavalry",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 4,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Regular",
-						"points": 60,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Veteran",
-						"points": 75,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 12,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "Additional Men",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"max": 1,
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "SMGs",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 2
-					},
-					{
-						"name": "German LMG",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 2
-					},
-					{
-						"name": "Panzerfaust",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"max": 2
-					},
-					{
-						"name": "Add Horses",
-						"points": 3,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"perModel": true
-					}
-				],
-				"keywords": ["Period: M|L","Fanatics"],
-				"specialText": "1 NCO\n 4 Riflemen",
-				"equipment": []
-			},
-			{
-				"name": "Waffen-SS Infantry (Early)",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Veteran",
-						"points": 75,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": 1,
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "SMGs",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 2
-					},
-					{
-						"name": "German LMG",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "AT Grenades",
-						"points": 2,
-						"unlockedByLocal": ["Veteran"],
-						"perModel": true
-					}
-				],
-				"keywords": ["Period: E|M","Fanatics"],
-				"specialText": "1 NCO\n 4 Riflemen",
-				"equipment": []
-			},
-			{
-				"name": "Waffen-SS Infantry (Early)",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 4,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Veteran",
-						"points": 75,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": 1,
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "SMGs",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 2
-					},
-					{
-						"name": "German LMG",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "AT Grenades",
-						"points": 2,
-						"unlockedByLocal": ["Veteran"],
-						"perModel": true
-					}
-				],
-				"keywords": ["Period: E|M","Fanatics"],
-				"specialText": "1 NCO\n 4 Riflemen",
-				"equipment": []
-			},
-			{
-				"name": "Waffen-SS Infantry (Late)",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Inexperienced",
-						"points": 45,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Regular",
-						"points": 60,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Veteran",
-						"points": 75,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 9,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 7,
-						"addsModels": 1
-					},
-					{
-						"name": "Additional Men",
-						"points": 12,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": 7,
-						"addsModels": 1
-					},
-					{
-						"name": "Additional Men",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": 7,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 1,
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "SMGs",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": "parentModels",
-						"maxKey": "gun"
-					},
-					{
-						"name": "NCO Assault Rifle",
-						"points": 6,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 1,
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "Assault Rifle",
-						"points": 6,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": "parentModels",
-						"maxKey": "gun"
-					},
-					{
-						"name": "German LMG",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 2
-					},
-					{
-						"name": "Panzerfaust",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 4
-					},
-					{
-						"name": "AT Grenades",
-						"points": 2,
-						"unlockedByLocal": ["Inexperienced"],
-						"perModel": true
-					}
-				],
-				"keywords": ["Period: M|L","Fanatics","Mixed Quality"],
-				"specialText": "1 NCO\n 4 Riflemen",
-				"equipment": []
-			},
-			{
-				"name": "Waffen-SS Infantry (Late)",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 4,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Inexperienced",
-						"points": 45,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Regular",
-						"points": 60,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Veteran",
-						"points": 75,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 9,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 7,
-						"addsModels": 1
-					},
-					{
-						"name": "Additional Men",
-						"points": 12,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": 7,
-						"addsModels": 1
-					},
-					{
-						"name": "Additional Men",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": 7,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 1,
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "SMGs",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": "parentModels",
-						"maxKey": "gun"
-					},
-					{
-						"name": "NCO Assault Rifle",
-						"points": 6,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 1,
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "Assault Rifle",
-						"points": 6,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": "parentModels",
-						"maxKey": "gun"
-					},
-					{
-						"name": "German LMG",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 2
-					},
-					{
-						"name": "Panzerfaust",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 4
-					},
-					{
-						"name": "AT Grenades",
-						"points": 2,
-						"unlockedByLocal": ["Inexperienced"],
-						"perModel": true
-					}
-				],
-				"keywords": ["Period: M|L","Fanatics","Mixed Quality"],
-				"specialText": "1 NCO\n 4 Riflemen",
-				"equipment": []
-			},
-			{
-				"name": "5th Columnist Group",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 3,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Inexperienced",
-						"points": 30,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Demolition Charges",
-						"unlockedByLocal": ["Inexperienced"],
-						"points": 20
-					},
-					{
-						"name": "AT Grenades / Molotov Cocktails",
-						"unlockedByLocal": ["Inexperienced"],
-						"points": 2,
-						"perModel": true
-					}
-				],
-				"keywords": ["Period: E|M|L","Infiltrator","Independent Operative"],
-				"specialText": "1 NCO\n 4 Riflemen",
-				"equipment": []
-			},
-			{
-				"name": "5th Columnist Group",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 3,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Inexperienced",
-						"points": 30,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Demolition Charges",
-						"unlockedByLocal": ["Inexperienced"],
-						"points": 20
-					},
-					{
-						"name": "AT Grenades / Molotov Cocktails",
-						"unlockedByLocal": ["Inexperienced"],
-						"points": 2,
-						"perModel": true
-					}
-				],
-				"keywords": ["Period: E|M|L","Infiltrator","Independent Operative"],
-				"specialText": "Does Not Count As Mandatory Squad; \n1 NCO\n 4 Riflemen",
-				"equipment": []
-			},
-			{
-				"name": "Festung Unit",
-				"factions": [],
-				"order": 1,
-				"campaign": true,
-				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Inexperienced",
-						"points": 35,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Regular",
-						"points": 50,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 7,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 4,
-						"addsModels": 1
-					},
-					{
-						"name": "Additional Men",
-						"points": 11,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": 4,
-						"addsModels": 1
-					},
-					{
-						"name": "SMGs",
-						"points": 3,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 3,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "German LMG",
-						"points": 20,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "AT Grenades",
-						"points": 2,
-						"unlockedByLocal": ["Inexperienced","Regular"],
-						"perModel": true
-					},
-					{
-						"name": "Shirkers",
-						"points": -3,
-						"unlockedByLocal": ["Inexperienced","Regular"],
-						"perModel": true
-					}
-				],
-				"keywords": ["Period: E|M|L"],
-				"specialText": "Campaign Unit from Italy - Soft Underbelly;\n 1 NCO\n 4 Riflemen",
-				"equipment": []
-			},
-			{
-				"name": "Festung Unit",
-				"factions": [],
-				"order": 1,
-				"campaign": true,
-				"availableIn": [
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 4,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Inexperienced",
-						"points": 35,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Regular",
-						"points": 50,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 7,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 4,
-						"addsModels": 1
-					},
-					{
-						"name": "Additional Men",
-						"points": 11,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": 4,
-						"addsModels": 1
-					},
-					{
-						"name": "SMGs",
-						"points": 3,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 3,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "German LMG",
-						"points": 20,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "AT Grenades",
-						"points": 2,
-						"unlockedByLocal": ["Inexperienced","Regular"],
-						"perModel": true
-					},
-					{
-						"name": "Shirkers",
-						"points": -3,
-						"unlockedByLocal": ["Inexperienced","Regular"],
-						"perModel": true
-					}
-				],
-				"keywords": ["Period: E|M|L"],
-				"specialText": "Campaign Unit from Italy - Soft Underbelly;\n 1 NCO\n 4 Riflemen",
-				"equipment": []
-			},
-			{
-				"name": "Feldersatz",
-				"factions": [],
-				"order": 1,
-				"campaign": true,
-				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Inexperienced",
-						"points": 35,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 7,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 3,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "SMGs",
-						"points": 3,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "German LMG",
-						"points": 20,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "AT Grenades",
-						"points": 2,
-						"unlockedByLocal": ["Inexperienced"],
-						"perModel": true
-					}
-				],
-				"keywords": ["Period: E|M|L","Green"],
-				"specialText": "Campaign Unit from Italy - Soft Underbelly;\n 1 NCO\n 4 Riflemen",
-				"equipment": []
-			},{
-				"name": "Feldersatz",
-				"factions": [],
-				"order": 1,
-				"campaign": true,
-				"availableIn": [
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 4,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Inexperienced",
-						"points": 35,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 7,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 3,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "SMGs",
-						"points": 3,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "German LMG",
-						"points": 20,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "AT Grenades",
-						"points": 2,
-						"unlockedByLocal": ["Inexperienced"],
-						"perModel": true
-					}
-				],
-				"keywords": ["Period: E|M|L","Green"],
-				"specialText": "Campaign Unit from Italy - Soft Underbelly;\n 1 NCO\n 4 Riflemen",
-				"equipment": []
-			},
-			{
-				"name": "Hermann Göring Division Panzergrenadiers (Early)",
-				"factions": [],
-				"order": 1,
-				"campaign": true,
-				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Regular",
-						"points": 45,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 9,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 3,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "SMGs",
-						"points": 3,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "German LMG",
-						"points": 20,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 2
-					},
-					{
-						"name": "AT Grenades",
-						"points": 2,
-						"unlockedByLocal": ["Regular"],
-						"perModel": true
-					}
-				],
-				"keywords": ["Period: E|M|L","Unprepared - HGD","Motorised Infantry"],
-				"specialText": "Campaign Unit from Italy - Soft Underbelly;\n 1 NCO\n 4 Riflemen",
-				"equipment": []
-			},
-			{
-				"name": "Hermann Göring Division Panzergrenadiers (Early)",
-				"factions": [],
-				"order": 1,
-				"campaign": true,
-				"availableIn": [
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 4,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Regular",
-						"points": 45,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 9,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 3,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "SMGs",
-						"points": 3,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "German LMG",
-						"points": 20,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 2
-					},
-					{
-						"name": "AT Grenades",
-						"points": 2,
-						"unlockedByLocal": ["Regular"],
-						"perModel": true
-					}
-				],
-				"keywords": ["Period: E|M|L","Unprepared - HGD","Motorised Infantry"],
-				"specialText": "Campaign Unit from Italy - Soft Underbelly;\n 1 NCO\n 4 Riflemen",
-				"equipment": []
-			},
-			{
-				"name": "Hermann Göring Division Panzergrenadiers (Late)",
-				"factions": [],
-				"order": 1,
-				"campaign": true,
-				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Regular",
-						"points": 50,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Veteran",
-						"points": 75,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 10,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "Additional Men",
-						"points": 13,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "SMGs",
-						"points": 3,
-						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 3,
-						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "German LMG",
-						"points": 20,
-						"increment": true,
-						"max": "parentModels",
-						"unlockedByLocal": ["Regular","Veteran"],
-						"maxKey": "gun",
-						"localLimit": 2
-					},
-					{
-						"name": "AT Grenades",
-						"points": 2,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"perModel": true
-					}
-				],
-				"keywords": ["Period: E|M|L","Motorised Infantry"],
-				"specialText": "Campaign Unit from Italy - Soft Underbelly;\n 1 NCO\n 4 Riflemen",
-				"equipment": []
-			},
-			{
-				"name": "Hermann Göring Division Panzergrenadiers (Late)",
-				"factions": [],
-				"order": 1,
-				"campaign": true,
-				"availableIn": [
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 4,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Regular",
-						"points": 50,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Veteran",
-						"points": 75,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 10,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "Additional Men",
-						"points": 13,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "SMGs",
-						"points": 3,
-						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 3,
-						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "German LMG",
-						"points": 20,
-						"increment": true,
-						"max": "parentModels",
-						"unlockedByLocal": ["Regular","Veteran"],
-						"maxKey": "gun",
-						"localLimit": 2
-					},
-					{
-						"name": "AT Grenades",
-						"points": 2,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"perModel": true
-					}
-				],
-				"keywords": ["Period: E|M|L","Motorised Infantry"],
-				"specialText": "Campaign Unit from Italy - Soft Underbelly;\n 1 NCO\n 4 Riflemen",
 				"equipment": []
 			},
 			{
