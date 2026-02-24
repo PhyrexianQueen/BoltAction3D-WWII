@@ -9196,8 +9196,6 @@
 					{
 						"key": "Flamethrower",
 						"limit": 3,
-						"increment": true,
-						"max": 1,
 						"perParent": true
 					}
 				],
@@ -9332,6 +9330,99 @@
 				"equipment": ["Flamethrower - Team Weapon"]
 			},
 			{
+				"name": "Flamethrower Team (J)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Flamethrower",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"perModel": true
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Yamato Damashii (Paratroopers)"]
+					},
+					{
+						"name": "Yamato Damashii (Paratroopers)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (SNLF)",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (SNLF Vet)",
+						"points": 0,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Iron Discipline (SNLF)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Yamato Damashii (SNLF Vet)"],
+						"availableIn": ["Japan"],
+						"requireChooseOneKey": "reqSNLF"
+					},
+					{
+						"name": "Yamato Damashii (Veteran Jungle Fighters)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					}
+				],
+				"keywords": ["Period: E|M|L","Fanatics"],
+				"specialText": "1 Flamethrower Operator\n 1 Weapon Assitant",
+				"equipment": ["Flamethrower - Team Weapon"]
+			},
+			{
 				"name": "Flamethrower Team (US)",
 				"factions": [],
 				"order": 1,
@@ -9347,8 +9438,6 @@
 					{
 						"key": "Flamethrower",
 						"limit": 3,
-						"increment": true,
-						"max": 1,
 						"perParent": true
 					}
 				],
@@ -10605,6 +10694,295 @@
 				],
 				"keywords": ["Period: M|L","Engineers","Stubborn"],
 				"specialText": "Campaign Unit from Italy - Soft Underbelly;\n 1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "IJA Engineer Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "Ss-Ki",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 40,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 8,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO Shin Gunto Sword and Pistol",
+						"points": 0,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO Shin Gunto Sword and SMG",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO Shin Gunto Sword",
+						"points": 1,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"perModel": true
+					},
+					{
+						"name": "Demolition Charges",
+						"points": 20,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Yamato Damashii (Paratroopers)"]
+					},
+					{
+						"name": "Yamato Damashii (Home Defence)",
+						"points": 0,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (Paratroopers)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (SNLF)",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (SNLF Vet)",
+						"points": 0,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Iron Discipline (SNLF)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Yamato Damashii (SNLF Vet)"],
+						"availableIn": ["Japan"],
+						"requireChooseOneKey": "reqSNLF"
+					},
+					{
+						"name": "Yamato Damashii (Veteran Jungle Fighters)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					}
+				],
+				"keywords": ["Period: E|M|L","Engineers","Fanatics"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Pioneers",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "Ss-Ki",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO Shin Gunto Sword and Pistol",
+						"points": 0,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO Shin Gunto Sword and SMG",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO Shin Gunto Sword",
+						"points": 1,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"perModel": true
+					},
+					{
+						"name": "Flamethrower",
+						"points": 30,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					}
+				],
+				"keywords": ["Period: E|M|L","Engineers","Fanatics"],
+				"specialText": "1 NCO\n 4 Riflemen",
 				"equipment": []
 			},
 			{
@@ -22097,6 +22475,2278 @@
 				"equipment": []
 			},
 			{
+				"name": "Boeitai Squad, Bamboo Spear Fighters",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "JDog",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 10,
+						"addsModels": 1
+					},
+					{
+						"name": "Pistol",
+						"points": 1,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
+					},
+					{
+						"name": "Pistol",
+						"points": 1,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
+					}
+				],
+				"keywords": ["Period: L","Poor Morale","Green","Unpredictable"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["Sharpened Bamboo Spears"]
+			},
+			{
+				"name": "Boeitai Squad, Bamboo Spear Fighters",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "JDog",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 10,
+						"addsModels": 1
+					},
+					{
+						"name": "Pistol",
+						"points": 1,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
+					},
+					{
+						"name": "Pistol",
+						"points": 1,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
+					}
+				],
+				"keywords": ["Period: L","Poor Morale","Green","Unpredictable"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["Sharpened Bamboo Spears"]
+			},
+			{
+				"name": "IJA Grenadier Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 6,
+				"sortPriority": 3,
+				"unlockKey": "JDog",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 78,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 12,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 12,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO Shin Gunto Sword and Pistol",
+						"points": 0,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO Shin Gunto Sword and SMG",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO Shin Gunto Sword",
+						"points": 1,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "Type 89 Grenade Launcher",
+						"points": 25,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Yamato Damashii (Veteran Jungle Fighters)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					}
+				],
+				"keywords": ["Period: E|M","Fanatics","Type B"],
+				"specialText": "1 NCO\n 5 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "IJA Grenadier Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 6,
+				"sortPriority": 3,
+				"unlockKey": "JDog",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 78,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 12,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 12,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO Shin Gunto Sword and Pistol",
+						"points": 0,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO Shin Gunto Sword and SMG",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO Shin Gunto Sword",
+						"points": 1,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "Type 89 Grenade Launcher",
+						"points": 25,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Yamato Damashii (Veteran Jungle Fighters)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					}
+				],
+				"keywords": ["Period: E|M","Fanatics","Type B"],
+				"specialText": "1 NCO\n 5 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "IJA Infantry Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 7,
+				"sortPriority": 3,
+				"unlockKey": "JDog",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 91,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 8,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 8,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO Shin Gunto Sword and Pistol",
+						"points": 0,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO Shin Gunto Sword and SMG",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO Shin Gunto Sword",
+						"points": 1,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Type 89 Grenade Launcher",
+						"points": 25,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Yamato Damashii (Veteran Jungle Fighters)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					}
+				],
+				"keywords": ["Period: E|M|L","Fanatics","Type B"],
+				"specialText": "1 NCO\n 6 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "IJA Infantry Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 7,
+				"sortPriority": 3,
+				"unlockKey": "JDog",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 91,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 8,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 8,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO Shin Gunto Sword and Pistol",
+						"points": 0,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO Shin Gunto Sword and SMG",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO Shin Gunto Sword",
+						"points": 1,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Type 89 Grenade Launcher",
+						"points": 25,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Yamato Damashii (Veteran Jungle Fighters)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					}
+				],
+				"keywords": ["Period: E|M|L","Fanatics","Type B"],
+				"specialText": "1 NCO\n 6 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "IJA Paratrooper Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "JDog",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO Shin Gunto Sword and Pistol",
+						"points": 0,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO Shin Gunto Sword and SMG",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO Shin Gunto Sword",
+						"points": 1,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Pistols",
+						"points": -1,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "Type 89 Grenade Launcher",
+						"points": 25,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Giretsu",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Fanatics","Tough Fighters"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "IJA Paratrooper Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "JDog",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO Shin Gunto Sword and Pistol",
+						"points": 0,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO Shin Gunto Sword and SMG",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO Shin Gunto Sword",
+						"points": 1,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Pistols",
+						"points": -1,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "Type 89 Grenade Launcher",
+						"points": 25,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Giretsu",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Fanatics","Tough Fighters"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Indian National Army Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "JDog",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					}
+				],
+				"keywords": ["Period: M|L","Green","Indian National Army"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Indian National Army Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "JDog",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					}
+				],
+				"keywords": ["Period: M|L","Green","Indian National Army"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Japanese or Manchukuoan Cavalry Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "JDog",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 80,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 16,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO Shin Gunto Sword",
+						"points": 1,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					}
+				],
+				"keywords": ["Period: E|M|L","Cavalry","Fanatics"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["Cavalry Carbines"]
+			},
+			{
+				"name": "Japanese or Manchukuoan Cavalry Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "JDog",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 80,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 16,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO Shin Gunto Sword",
+						"points": 1,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					}
+				],
+				"keywords": ["Period: E|M|L","Cavalry","Fanatics"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["Cavalry Carbines"]
+			},
+			{
+				"name": "Sennyuu Infiltration Team",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"sortPriority": 3,
+				"unlockKey": "JDog",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 33,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 42,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO Shin Gunto Sword and Pistol",
+						"points": 0,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO Shin Gunto Sword",
+						"points": 1,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO Pistol",
+						"points": -1,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"chooseOneKey": "NCO",
+						"localLimit": 1
+					},
+					{
+						"name": "Pistols",
+						"points": -1,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "Rifles",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Traditional Weapons",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					}
+				],
+				"keywords": ["Period: M|L","Infiltrator","Fanatics"],
+				"specialText": "1 NCO\n 2 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Sennyuu Infiltration Team",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"sortPriority": 3,
+				"unlockKey": "JDog",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 33,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 42,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO Shin Gunto Sword and Pistol",
+						"points": 0,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO Shin Gunto Sword",
+						"points": 1,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO Pistol",
+						"points": -1,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"chooseOneKey": "NCO",
+						"localLimit": 1
+					},
+					{
+						"name": "Pistols",
+						"points": -1,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "Rifles",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Traditional Weapons",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					}
+				],
+				"keywords": ["Period: M|L","Infiltrator","Fanatics"],
+				"specialText": "1 NCO\n 2 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "SNLF Grenadier Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 6,
+				"sortPriority": 3,
+				"unlockKey": "JDog",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 42,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 85,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO Shin Gunto Sword and Pistol",
+						"points": 0,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO Shin Gunto Sword and SMG",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO Shin Gunto Sword",
+						"points": 1,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Type 89 Grenade Launcher",
+						"points": 25,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
+					},
+					{
+						"name": "Iron Discipline (SNLF)",
+						"points": 0,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"requireChooseOneKey": "reqSNLF"
+					}
+				],
+				"keywords": ["Period: E|M","Fanatics"],
+				"specialText": "1 NCO\n 5 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "SNLF Grenadier Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 6,
+				"sortPriority": 3,
+				"unlockKey": "JDog",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 42,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 85,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO Shin Gunto Sword and Pistol",
+						"points": 0,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO Shin Gunto Sword and SMG",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO Shin Gunto Sword",
+						"points": 1,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Type 89 Grenade Launcher",
+						"points": 25,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3
+					},
+					{
+						"name": "Iron Discipline (SNLF)",
+						"points": 0,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"requireChooseOneKey": "reqSNLF"
+					}
+				],
+				"keywords": ["Period: E|M","Fanatics"],
+				"specialText": "1 NCO\n 5 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "SNLF Paratrooper Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "JDog",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 75,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO Shin Gunto Sword and Pistol",
+						"points": 0,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO Shin Gunto Sword and SMG",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO Shin Gunto Sword",
+						"points": 1,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "Pistols",
+						"points": -1,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Type 89 Grenade Launcher",
+						"points": 25,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Iron Discipline (SNLF)",
+						"points": 0,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"requireChooseOneKey": "reqSNLF"
+					},
+					{
+						"name": "Giretsu",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Period: M|L","Fanatics","Tough Fighters"],
+				"specialText": "1 NCO\n 5 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "SNLF Paratrooper Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "JDog",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 75,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO Shin Gunto Sword and Pistol",
+						"points": 0,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO Shin Gunto Sword and SMG",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO Shin Gunto Sword",
+						"points": 1,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "Pistols",
+						"points": -1,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Type 89 Grenade Launcher",
+						"points": 25,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Iron Discipline (SNLF)",
+						"points": 0,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"requireChooseOneKey": "reqSNLF"
+					},
+					{
+						"name": "Giretsu",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Period: M|L","Fanatics","Tough Fighters"],
+				"specialText": "1 NCO\n 5 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "SNLF Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "JDog",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO Shin Gunto Sword and Pistol",
+						"points": 0,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO Shin Gunto Sword and SMG",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO Shin Gunto Sword",
+						"points": 1,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "Pistols",
+						"points": -1,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Type 89 Grenade Launcher",
+						"points": 25,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Iron Discipline (SNLF)",
+						"points": 0,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"requireChooseOneKey": "reqSNLF"
+					}
+				],
+				"keywords": ["Period: E|M|L","Fanatics"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "SNLF Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "JDog",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO Shin Gunto Sword and Pistol",
+						"points": 0,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO Shin Gunto Sword and SMG",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "NCO Shin Gunto Sword",
+						"points": 1,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"chooseOneKey": "NCO"
+					},
+					{
+						"name": "Pistols",
+						"points": -1,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Type 89 Grenade Launcher",
+						"points": 25,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Iron Discipline (SNLF)",
+						"points": 0,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"requireChooseOneKey": "reqSNLF"
+					}
+				],
+				"keywords": ["Period: E|M|L","Fanatics"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Volunteer Fighting Corps, Militia Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "JDog",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 10,
+						"addsModels": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Period: L","Fanatics","Green","Unpredictable"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Volunteer Fighting Corps, Militia Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"unlockKey": "JDog",
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 10,
+						"addsModels": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Period: L","Fanatics","Green","Unpredictable"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "War Dog Handlers",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockedByLocal":
+					{
+						"quantityRequired":2,
+						"key": "JDog"
+					},
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 15,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Handlers",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 3,
+						"addsModels": 1
+					},
+					{
+						"name": "Pistols",
+						"points": -1,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					}
+				],
+				"keywords": ["Period: E|M|L","Fanatics","Infiltrator","Spotting","Tough Fighters","Japanese War Dogs"],
+				"specialText": "1 Handler",
+				"equipment": []
+			},
+			{
+				"name": "War Dog Handlers",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockedByLocal":
+					{
+						"quantityRequired":1,
+						"key": "JDog"
+					},
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 15,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Handlers",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 3,
+						"addsModels": 1
+					},
+					{
+						"name": "Pistols",
+						"points": -1,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					}
+				],
+				"keywords": ["Period: E|M|L","Fanatics","Infiltrator","Spotting","Tough Fighters","Japanese War Dogs"],
+				"specialText": "1 Handler",
+				"equipment": []
+			},
+			{
 				"name": "Swedish Infantry Squad",
 				"factions": [],
 				"order": 1,
@@ -32892,6 +35542,1325 @@
 				],
 				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","Wheeled"],
 				"equipment": []
+			},
+			{
+				"name": "Heavy Artillery (J)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 6,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 102,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 145,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 189,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Yamato Damashii (SNLF)",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (SNLF Vet)",
+						"points": 0,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Iron Discipline (SNLF)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Yamato Damashii (SNLF Vet)"],
+						"availableIn": ["Japan"],
+						"requireChooseOneKey": "reqSNLF"
+					},
+					{
+						"name": "Yamato Damashii (Veteran Jungle Fighters)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					}
+				],
+				"keywords": ["Period: E|M|L","Fanatics"],
+				"specialText": "6 Crew Members",
+				"equipment": ["Heavy Howitzer Team","Gun Shield"]
+			},
+			{
+				"name": "Medium Artillery (J)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 67,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 95,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 124,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Yamato Damashii (SNLF)",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (SNLF Vet)",
+						"points": 0,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Iron Discipline (SNLF)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Yamato Damashii (SNLF Vet)"],
+						"availableIn": ["Japan"],
+						"requireChooseOneKey": "reqSNLF"
+					},
+					{
+						"name": "Yamato Damashii (Veteran Jungle Fighters)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					}
+				],
+				"keywords": ["Period: E|M|L","Fanatics"],
+				"specialText": "5 Crew Members",
+				"equipment": ["Medium Howitzer Team","Gun Shield"]
+			},
+			{
+				"name": "Light Artillery (Early War)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 39,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 72,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Yamato Damashii (SNLF)",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (SNLF Vet)",
+						"points": 0,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Iron Discipline (SNLF)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Yamato Damashii (SNLF Vet)"],
+						"availableIn": ["Japan"],
+						"requireChooseOneKey": "reqSNLF"
+					},
+					{
+						"name": "Yamato Damashii (Veteran Jungle Fighters)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					}
+				],
+				"keywords": ["Period: E","Fanatics"],
+				"specialText": "4 Crew Members",
+				"equipment": ["Light Howitzer Team"]
+			},
+			{
+				"name": "Light Artillery (Late War)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 39,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 72,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Armor-Piercing Shells",
+						"points": 5,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Yamato Damashii (SNLF)",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (SNLF Vet)",
+						"points": 0,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Iron Discipline (SNLF)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Yamato Damashii (SNLF Vet)"],
+						"availableIn": ["Japan"],
+						"requireChooseOneKey": "reqSNLF"
+					},
+					{
+						"name": "Yamato Damashii (Veteran Jungle Fighters)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					}
+				],
+				"keywords": ["Period: M|L","Fanatics"],
+				"specialText": "4 Crew Members",
+				"equipment": ["Light Howitzer Team"]
+			},
+			{
+				"name": "320mm Type 98 Spigot Mortar",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 39,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 72,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": 2,
+						"addsModels": 1
+					}
+				],
+				"keywords": ["Period: E|M|L","Fanatics","Immobile"],
+				"specialText": "4 Crew Members",
+				"equipment": ["320mm Mortar Team"]
+			},
+			{
+				"name": "47mm Type 1 Anti-Tank Gun",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 49,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 91,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Yamato Damashii (Paratroopers)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (SNLF)",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (SNLF Vet)",
+						"points": 0,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Iron Discipline (SNLF)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Yamato Damashii (SNLF Vet)"],
+						"availableIn": ["Japan"],
+						"requireChooseOneKey": "reqSNLF"
+					},
+					{
+						"name": "Yamato Damashii (Veteran Jungle Fighters)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					}
+				],
+				"keywords": ["Period: M|L","Fanatics"],
+				"specialText": "3 Crew Members",
+				"equipment": ["Medium AT Gun","Gun Shield"]
+			},
+			{
+				"name": "120mm Type 10 Anti-Air Gun",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 7,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 100,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 130,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Yamato Damashii (SNLF)",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (SNLF Vet)",
+						"points": 0,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Iron Discipline (SNLF)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Yamato Damashii (SNLF Vet)"],
+						"availableIn": ["Japan"],
+						"requireChooseOneKey": "reqSNLF"
+					}
+				],
+				"keywords": ["Period: E|M|L","Fanatics","Immobile","Flak"],
+				"specialText": "7 Crew Members",
+				"equipment": ["Medium Howitzer"]
+			},
+			{
+				"name": "75mm Type 41/Type 94 Mountain Gun (Early War)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Gun Shield",
+						"points": 5,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Yamato Damashii (Home Defence)",
+						"points": 0,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (Veteran Jungle Fighters)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					}
+				],
+				"keywords": ["Period: E","Fanatics","Fieldcraft"],
+				"specialText": "3 Crew Members",
+				"equipment": ["Light Howitzer"]
+			},
+			{
+				"name": "75mm Type 41/Type 94 Mountain Gun (Late War)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Armor-Piercing Shells",
+						"points": 5,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Gun Shield",
+						"points": 5,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Yamato Damashii (Home Defence)",
+						"points": 0,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (Veteran Jungle Fighters)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					}
+				],
+				"keywords": ["Period: M|L","Fanatics","Fieldcraft"],
+				"specialText": "3 Crew Members",
+				"equipment": ["Light Howitzer"]
+			},
+			{
+				"name": "75mm Type 88 Dual-Purpose Anti-Air Gun",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 88,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 125,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 163,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"addsModels": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Yamato Damashii (Paratroopers)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (SNLF)",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (SNLF Vet)",
+						"points": 0,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Iron Discipline (SNLF)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Yamato Damashii (SNLF Vet)"],
+						"availableIn": ["Japan"],
+						"requireChooseOneKey": "reqSNLF"
+					},
+					{
+						"name": "Yamato Damashii (Veteran Jungle Fighters)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					}
+				],
+				"keywords": ["Period: E|M|L","Fanatics","Versatile","Flak"],
+				"specialText": "3 Crew Members",
+				"equipment": ["Heavy AT Gun"]
+			},
+			{
+				"name": "70mm Type 92 Battalion Gun (Early War)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 28,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 40,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 52,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Yamato Damashii (Paratroopers)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (SNLF)",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (SNLF Vet)",
+						"points": 0,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Iron Discipline (SNLF)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Yamato Damashii (SNLF Vet)"],
+						"availableIn": ["Japan"],
+						"requireChooseOneKey": "reqSNLF"
+					},
+					{
+						"name": "Yamato Damashii (Veteran Jungle Fighters)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					}
+				],
+				"keywords": ["Period: E","Fanatics"],
+				"specialText": "3 Crew Members",
+				"equipment": ["Light Howitzer","Light Shell","Gun Shield"]
+			},
+			{
+				"name": "70mm Type 92 Battalion Gun (Late War)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 28,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 40,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 52,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Armor-Piercing Shells",
+						"points": 5,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Yamato Damashii (Paratroopers)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (SNLF)",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (SNLF Vet)",
+						"points": 0,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Iron Discipline (SNLF)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Yamato Damashii (SNLF Vet)"],
+						"availableIn": ["Japan"],
+						"requireChooseOneKey": "reqSNLF"
+					},
+					{
+						"name": "Yamato Damashii (Veteran Jungle Fighters)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					}
+				],
+				"keywords": ["Period: M|L","Fanatics"],
+				"specialText": "3 Crew Members",
+				"equipment": ["Light Howitzer","Light Shell","Gun Shield"]
+			},
+			{
+				"name": "13.2mm Type 93 Anti-Air Machine Gun Team",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 52,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 75,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 98,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "HMG",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Twin HMG",
+						"points": 20,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Yamato Damashii (Paratroopers)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (SNLF)",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (SNLF Vet)",
+						"points": 0,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Iron Discipline (SNLF)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Yamato Damashii (SNLF Vet)"],
+						"availableIn": ["Japan"],
+						"requireChooseOneKey": "reqSNLF"
+					},
+					{
+						"name": "Yamato Damashii (Veteran Jungle Fighters)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					}
+				],
+				"keywords": ["Period: E|M|L","Fanatics","Flak","Light AA","Team Weapon","Fixed"],
+				"specialText": "4 Crew Members",
+				"equipment": []
+			},
+			{
+				"name": "37mm Type 1/Type 94 Anti-Tank Gun",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Yamato Damashii (Paratroopers)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (SNLF)",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (SNLF Vet)",
+						"points": 0,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Iron Discipline (SNLF)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Yamato Damashii (SNLF Vet)"],
+						"availableIn": ["Japan"],
+						"requireChooseOneKey": "reqSNLF"
+					},
+					{
+						"name": "Yamato Damashii (Veteran Jungle Fighters)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					}
+				],
+				"keywords": ["Period: E|M|L","Fanatics"],
+				"specialText": "3 Crew Members",
+				"equipment": ["Light AT Gun","Gun Shield"]
+			},
+			{
+				"name": "20mm Type 98 Anti-Air Gun",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 25,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 46,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Yamato Damashii (Paratroopers)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (SNLF)",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (SNLF Vet)",
+						"points": 0,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Iron Discipline (SNLF)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Yamato Damashii (SNLF Vet)"],
+						"availableIn": ["Japan"],
+						"requireChooseOneKey": "reqSNLF"
+					},
+					{
+						"name": "Yamato Damashii (Veteran Jungle Fighters)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					}
+				],
+				"keywords": ["Period: E|M|L","Fanatics"],
+				"specialText": "3 Crew Members",
+				"equipment": ["Light Autocannon"]
+			},
+			{
+				"name": "20mm Type 4 Twin Anti-Air Gun",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 76,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Yamato Damashii (Paratroopers)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (SNLF)",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Yamato Damashii (SNLF Vet)",
+						"points": 0,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Iron Discipline (SNLF)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Yamato Damashii (SNLF Vet)"],
+						"availableIn": ["Japan"],
+						"requireChooseOneKey": "reqSNLF"
+					},
+					{
+						"name": "Yamato Damashii (Veteran Jungle Fighters)",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Japan"],
+						"chooseOneKey": "natRuJa"
+					}
+				],
+				"keywords": ["Period: E|M|L","Fanatics"],
+				"specialText": "3 Crew Members",
+				"equipment": ["Light Autocannon","x2"]
 			},
 			{
 				"name": "Bofors 20mm Pvlv m/40",
@@ -47998,6 +51967,1529 @@
 				],
 				"keywords": ["Period: E|M","Damage Value: 7+","Open Topped","Wheeled"],
 				"equipment": ["Hull Mounted LMG"]
+			},
+			{
+				"name": "Type 92 Hokoku-Go IJN Armored Car",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 75,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 90,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle - Radio",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"chooseOneKey": "Command"
+					},
+					{
+						"name": "Command Vehicle - Flags",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"chooseOneKey": "Command"
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Wheeled"],
+				"equipment": ["Turret Mounted MMG","Hull Mounted LMG"]
+			},
+			{
+				"name": "Renault Otsu-Gata",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 32,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 40,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Turret Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Turret Mounted Low Velocity Light AT Gun",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 30,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Command Vehicle - Radio",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"chooseOneKey": "Command"
+					},
+					{
+						"name": "Command Vehicle - Flags",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"chooseOneKey": "Command"
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","One Man Turret","Slow"],
+				"equipment": []
+			},
+			{
+				"name": "Soko Sagyo Ss-Ki Armored Work Vehicle",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockedByLocal":
+					{
+						"quantityRequired":1,
+						"key": "Ss-Ki"
+					},
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					},
+					{
+						"key": "Tanks",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 88,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 110,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 132,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Rear Mounted Small Flamthrower",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 5
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Bridging","Mine Rake","Multiple Flamethrowers","Small Vehicle Flamethrowers"],
+				"equipment": ["Hull Mounted MMG","Hull Mounted Infantry Flamethrower","Hull Mounted Left Facing Infantry Flamethrower","Hull Mounted Right Facing Infantry Flamethrower"]
+			},
+			{
+				"name": "Soko Sagyo Ss-Ki Armored Work Vehicle",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 88,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 110,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 132,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Rear Mounted Small Flamthrower",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 5
+					},
+					{
+						"name": "Command Vehicle - Radio",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"chooseOneKey": "Command"
+					},
+					{
+						"name": "Command Vehicle - Flags",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"chooseOneKey": "Command"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Bridging","Mine Rake","Multiple Flamethrowers","Small Vehicle Flamethrowers"],
+				"equipment": ["Hull Mounted MMG","Hull Mounted Infantry Flamethrower","Hull Mounted Left Facing Infantry Flamethrower","Hull Mounted Right Facing Infantry Flamethrower"]
+			},
+			{
+				"name": "Type 1 Chi-He Medium Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 88,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 110,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 132,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Rear Mounted Small Flamthrower",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 5
+					},
+					{
+						"name": "Command Vehicle - Radio",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"chooseOneKey": "Command"
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+","Radio","Weak Sides"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Rear Facing MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Type 1 Ho-Ni Tank Destroyer",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 96,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 120,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle - Radio",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"chooseOneKey": "Command"
+					},
+					{
+						"name": "Command Vehicle - Flags",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"chooseOneKey": "Command"
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Versatile","Open Topped"],
+				"equipment": ["Hull Mounted Medium AT Gun"]
+			},
+			{
+				"name": "Type 1 Ho-Ni II Tank Destroyer",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 116,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 140,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle - Radio",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"chooseOneKey": "Command"
+					},
+					{
+						"name": "Command Vehicle - Flags",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"chooseOneKey": "Command"
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Open Topped"],
+				"equipment": ["Hull Mounted Medium Howitzer Gun"]
+			},
+			{
+				"name": "Type 2 Ho-I Medium Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 140,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 175,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle - Radio",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"chooseOneKey": "Command"
+					},
+					{
+						"name": "Command Vehicle - Flags",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"chooseOneKey": "Command"
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+"],
+				"equipment": ["Turret Mounted Light Howitzer","Turret Mounted Rear MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Type 2 Ka-Mi Amphibious Light Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 76,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 95,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle - Radio",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"chooseOneKey": "Command"
+					},
+					{
+						"name": "Command Vehicle - Flags",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"chooseOneKey": "Command"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Amphibious","One Man Turret"],
+				"equipment": ["Turret Mounted Low Velocity Light AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Type 2 Ke-To Light Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 78,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 97,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle - Radio",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"chooseOneKey": "Command"
+					},
+					{
+						"name": "Command Vehicle - Flags",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"chooseOneKey": "Command"
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Weak Sides"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Type 3 Chi-Nu Medium Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 152,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 190,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle - Radio",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"chooseOneKey": "Command"
+					},
+					{
+						"name": "Command Vehicle - Flags",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"chooseOneKey": "Command"
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+"],
+				"equipment": ["Turret Mounted Medium AT Gun","Hull Mounted MMG"]
+			},
+			{
+				"name": "Type 3 Ho-Ni III Tank Destroyer",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 108,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 135,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle - Radio",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"chooseOneKey": "Command"
+					},
+					{
+						"name": "Command Vehicle - Flags",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"chooseOneKey": "Command"
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 8+"],
+				"equipment": ["Hull Mounted Medium AT Gun"]
+			},
+			{
+				"name": "Type 3 Ka-Chi Amphibious Medium Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 156,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 195,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle - Radio",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"chooseOneKey": "Command"
+					},
+					{
+						"name": "Command Vehicle - Flags",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"chooseOneKey": "Command"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+","Amphibious"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Type 4 Ho-Ro Assault Gun",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 140,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 175,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle - Radio",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"chooseOneKey": "Command"
+					},
+					{
+						"name": "Command Vehicle - Flags",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"chooseOneKey": "Command"
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Open Topped"],
+				"equipment": ["Hull Mounted Heavy Howitzer"]
+			},
+			{
+				"name": "Type 4 Ke-Nu Light Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 92,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 115,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle - Radio",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"chooseOneKey": "Command"
+					},
+					{
+						"name": "Command Vehicle - Flags",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"chooseOneKey": "Command"
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Open Topped"],
+				"equipment": ["Turret Mounted Light Howitzer","Turret Mounted Rear Facing MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Type 87 Armored Car",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 64,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 80,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 96,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle - Radio",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"chooseOneKey": "Command"
+					},
+					{
+						"name": "Command Vehicle - Flags",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"chooseOneKey": "Command"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Recce","Wheeled"],
+				"equipment": ["Turret Mounted MMG","x2"]
+			},
+			{
+				"name": "Type 89 I-Go Medium Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 96,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 120,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 144,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle - Radio",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"chooseOneKey": "Command"
+					},
+					{
+						"name": "Command Vehicle - Flags",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"chooseOneKey": "Command"
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 8+","Slow","Weak Sides"],
+				"equipment": ["Turret Mounted Light Howitzer","Turret Mounted Rear Facing MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Type 91 So-Mo Armored Car",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 48,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 72,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle - Radio",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"chooseOneKey": "Command"
+					},
+					{
+						"name": "Command Vehicle - Flags",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"chooseOneKey": "Command"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","Railroad Wheels","Wheeled"],
+				"specialText": "Transport: 6",
+				"equipment": ["Turret Mounted LMG"]
+			},
+			{
+				"name": "Type 91 Sumida Armored Car",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 48,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 72,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Forward Facing Hull Mounted LMG",
+						"points": 5,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Left Facing Hull Mounted LMG",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Right Facing Hull Mounted LMG",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Command Vehicle - Radio",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"chooseOneKey": "Command"
+					},
+					{
+						"name": "Command Vehicle - Flags",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"chooseOneKey": "Command"
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Railroad Wheels","Wheeled"],
+				"equipment": ["Turret Mounted MMG"]
+			},
+			{
+				"name": "Type 92 Heavy Armored 'Car'",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 72,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 90,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 108,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle - Radio",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"chooseOneKey": "Command"
+					},
+					{
+						"name": "Command Vehicle - Flags",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"chooseOneKey": "Command"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Recce"],
+				"equipment": ["Turret Mounted MMG","Hull Mounted HMG"]
+			},
+			{
+				"name": "Type 94 Tankette",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 56,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 84,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle - Radio",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"chooseOneKey": "Command"
+					},
+					{
+						"name": "Command Vehicle - Flags",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"chooseOneKey": "Command"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Recce"],
+				"equipment": ["Turret Mounted MMG"]
+			},
+			{
+				"name": "Type 95 Ha-Go Light Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 76,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 95,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 114,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle - Radio",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"chooseOneKey": "Command"
+					},
+					{
+						"name": "Command Vehicle - Flags",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"chooseOneKey": "Command"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","One Man Turret"],
+				"equipment": ["Turret Mounted Low Velocity Light AT Gun","Turret Mounted Rear Facing MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Type 95 Kurogane Reconnaissance Vehicle",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 41,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 45,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 49,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle - Radio",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"chooseOneKey": "Command"
+					},
+					{
+						"name": "Command Vehicle - Flags",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"chooseOneKey": "Command"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Flak","Recce","Wheeled"],
+				"equipment": ["Pintle Mounted MMG"]
+			},
+			{
+				"name": "Type 97 Kai Shinhoto Chi-Ha Medium Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 124,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 155,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 186,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle - Radio",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"chooseOneKey": "Command"
+					},
+					{
+						"name": "Command Vehicle - Flags",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"chooseOneKey": "Command"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 8+"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Rear Facing MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Type 97 Chi-Ha Medium Tank, Dug In",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 116,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 145,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 174,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle - Radio",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"chooseOneKey": "Command"
+					},
+					{
+						"name": "Command Vehicle - Flags",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"chooseOneKey": "Command"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+","Dug In"],
+				"equipment": ["Turret Mounted Light Howitzer","Turret Mounted Rear Facing MMG"]
+			},
+			{
+				"name": "Type 97 Chi-Ha Medium Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 108,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 135,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 162,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle - Radio",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"chooseOneKey": "Command"
+					},
+					{
+						"name": "Command Vehicle - Flags",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"chooseOneKey": "Command"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 8+"],
+				"equipment": ["Turret Mounted Light Howitzer","Turret Mounted Rear Facing MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Type 97 Rikuo Motorcycle and Sidecar",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 32,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 40,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 48,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle - Radio",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"chooseOneKey": "Command"
+					},
+					{
+						"name": "Command Vehicle - Flags",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"chooseOneKey": "Command"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Flak","Recce","Turn On the Spot","Wheeled"],
+				"equipment": ["Forward Facing Pintle Mounted LMG"]
+			},
+			{
+				"name": "Type 97 Shi-Ki Command Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 108,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 135,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 162,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 8+","Command Vehicle"],
+				"equipment": ["Turret Mounted Rear Facing MMG","Hull Mounted Light AT Gun"]
+			},
+			{
+				"name": "Type 97 Te-Ke Tankette",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 72,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 90,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 108,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Turret Mounted Low Velocity Light AT Gun",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Turret Mounted MMG",
+						"points": -30,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Recce","One Man Turret"],
+				"equipment": []
+			},
+			{
+				"name": "Type 98 Anti-Air Truck",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 36,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 45,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 54,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Stationary Firing Platform","Flak","Wheeled"],
+				"equipment": ["Platform Mounted Light Autocannon"]
+			},
+			{
+				"name": "Type 98 Ke-Ni Light Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 76,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 95,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 114,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Stationary Firing Platform","Flak","Wheeled"],
+				"equipment": ["Turret Mounted Low Velocity Light AT Gun","Turret Mounted Coaxial MMG"]
 			},
 			{
 				"name": "Tankette m/Carden-Loyd Mk V",
