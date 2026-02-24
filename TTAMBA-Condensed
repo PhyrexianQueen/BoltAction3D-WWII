@@ -36863,6 +36863,742 @@
 				"equipment": ["Light Autocannon","x2"]
 			},
 			{
+				"name": "General Purpose Trucks",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 22,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 28,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 34,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","Tow","Wheeled"],
+				"specialText": "Transport: 13\n Tow: L/M AT Gun, L Howitzer, L AA Gun",
+				"equipment": []
+			},
+			{
+				"name": "General Purpose Trucks - Recce",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 22,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 28,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 34,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Recce",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","Tow","Wheeled"],
+				"specialText": "Transport: 13\n Tow: L/M AT Gun, L Howitzer, L AA Gun",
+				"equipment": []
+			},
+			{
+				"name": "Light Trucks",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 18,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 23,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 28,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","Tow","Wheeled"],
+				"specialText": "Transport: 8\n Tow: L/M AT Gun, L Howitzer, L AA Gun",
+				"equipment": []
+			},
+			{
+				"name": "Light Trucks - Recce",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 18,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 23,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 28,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Recce",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","Tow","Wheeled"],
+				"specialText": "Transport: 8\n Tow: L/M AT Gun, L Howitzer, L AA Gun",
+				"equipment": []
+			},
+			{
+				"name": "Su-Ki 2-Ton Amphibious Truck",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 22,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 28,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 34,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","Amphibious","Wheeled"],
+				"specialText": "Transport: 13",
+				"equipment": []
+			},
+			{
+				"name": "Su-Ki 2-Ton Amphibious Truck - Recce",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 22,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 28,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 34,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Recce",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","Amphibious","Wheeled"],
+				"specialText": "Transport: 13",
+				"equipment": []
+			},
+			{
+				"name": "Type 1 Ho-Ha Half-Track",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 38,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 48,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 58,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Forward Facing Hull Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Hull Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Left Facing Hull Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Hull Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Transport","Tow","Half-Track","Open Topped"],
+				"specialText": "Transport: 13\n Tow: L/M AT Gun, L/M Howitzer, L AA Gun",
+				"equipment": []
+			},
+			{
+				"name": "Type 1 Ho-Ha Half-Track - Recce",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 38,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 48,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 58,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Recce",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Forward Facing Hull Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Hull Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Left Facing Hull Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Hull Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Transport","Tow","Half-Track","Open Topped"],
+				"specialText": "Transport: 13\n Tow: L/M AT Gun, L/M Howitzer, L AA Gun",
+				"equipment": []
+			},
+			{
+				"name": "Type 95 Kurogane",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 15,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 19,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 23,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","Wheeled"],
+				"specialText": "Transport: 4",
+				"equipment": []
+			},
+			{
+				"name": "Type 95 Kurogane - Recce",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 15,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 19,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 23,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Recce",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Forward Facing Hull Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Hull Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Left Facing Hull Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Rear Facing Hull Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","Wheeled"],
+				"specialText": "Transport: 4",
+				"equipment": []
+			},
+			{
+				"name": "Type 98 Ro-Ke Prime Mover",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 10,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 12,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 14,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","Tow","Slow"],
+				"specialText": "Transport: 6\n Tow: All",
+				"equipment": []
+			},
+			{
+				"name": "Type 98 Ro-Ke Prime Mover - Recce",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 10,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 12,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 14,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Recce",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","Tow","Slow"],
+				"specialText": "Transport: 6\n Tow: All",
+				"equipment": []
+			},
+			{
+				"name": "Type 98 Shi-Ke Prime Mover",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 8,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 10,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 12,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","Tow","Slow"],
+				"specialText": "Transport: 4\n Tow: All",
+				"equipment": []
+			},
+			{
+				"name": "Type 98 Shi-Ke Prime Mover - Recce",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 8,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 10,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 12,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Recce",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","Tow","Slow"],
+				"specialText": "Transport: 4\n Tow: All",
+				"equipment": []
+			},
+			{
+				"name": "Type 98 So-Da Carrier",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 33,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 41,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 49,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","Tow","Open Topped"],
+				"specialText": "Transport: 6\n Tow: L/M AT Gun, L/M Howitzer, L AA Gun",
+				"equipment": []
+			},
+			{
+				"name": "Type 98 So-Da Carrier - Recce",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Japan" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 33,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 41,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 49,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Recce",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","Tow","Open Topped"],
+				"specialText": "Transport: 6\n Tow: L/M AT Gun, L/M Howitzer, L AA Gun",
+				"equipment": []
+			},
+			{
 				"name": "Bofors 20mm Pvlv m/40",
 				"factions": [],
 				"order": 1,
