@@ -5134,6 +5134,9 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Japan" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
@@ -5159,7 +5162,7 @@
 						"requireChooseOneKey": "morale"
 					}
 				],
-				"keywords": ["Period: E|M|L","Damage Value: 6+","Ambulance","Medic","Medical Vehicle","Wheeled"],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Ambulance","Medical Vehicle","Wheeled"],
 				"equipment": []
 			},
 			{
@@ -6667,6 +6670,9 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
@@ -6804,6 +6810,30 @@
 						"unlockedByLocal": ["Regular","Veteran"],
 						"availableIn": ["Great Britain"],
 						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "Hammer and Sickle (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
+					},
+					{
+						"name": "Hammer and Sickle (Naval Brigade)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
+					},
+					{
+						"name": "Hammer and Sickle (NVKD)",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
 					},
 					{
 						"name": "Det Fria Kriget",
@@ -7495,11 +7525,18 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
 					}
 				],
 				"points": 0,
 				"models": 2,
 				"sortPriority": 4,
+				"unlockKey": "SUATTeam",
 				"limits": [
 					{
 						"key": "AT Team",
@@ -7520,8 +7557,17 @@
 					},
 					{
 						"name": "Veteran",
-						"points": 32,
+						"points": 33,
 						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Man",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"availableIn": ["Soviet Union"],
+						"max": 1,
+						"addsModels": 1
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger)",
@@ -7561,6 +7607,334 @@
 						"unlockedByLocal": ["Regular","Veteran"],
 						"availableIn": ["Germany"],
 						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "Hammer and Sickle (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
+					},
+					{
+						"name": "Hammer and Sickle (Naval Brigade)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
+					},
+					{
+						"name": "Hammer and Sickle (NVKD)",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
+					}
+				],
+				"keywords": ["Period: E|M"],
+				"specialText": "1 AT Rifle Operator\n 1 Weapon Assistant",
+				"equipment": ["Anti-Tank Rifle Team"]
+			},
+			{
+				"name": "Anti-Tank Rifle Team (SU)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 2,
+				"sortPriority": 4,
+				"unlockKey": "SUATTeamRifle",
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 18,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 25,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 33,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Man",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"availableIn": ["Soviet Union"],
+						"max": 1,
+						"addsModels": 1
+					},
+					{
+						"name": "Hammer and Sickle (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
+					},
+					{
+						"name": "Hammer and Sickle (Naval Brigade)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
+					},
+					{
+						"name": "Hammer and Sickle (NVKD)",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
+					}
+				],
+				"keywords": ["Period: E|M"],
+				"specialText": "1 AT Rifle Operator\n 1 Weapon Assistant",
+				"equipment": ["Anti-Tank Rifle Team"]
+			},
+			{
+				"name": "Anti-Tank Rifle Team (SU) Recce",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 2,
+				"sortPriority": 4,
+				"unlockKey": "SUATTeamRecce",
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 18,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 25,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 33,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Man",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"availableIn": ["Soviet Union"],
+						"max": 1,
+						"addsModels": 1
+					},
+					{
+						"name": "Hammer and Sickle (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
+					},
+					{
+						"name": "Hammer and Sickle (Naval Brigade)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
+					},
+					{
+						"name": "Hammer and Sickle (NVKD)",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
+					}
+				],
+				"keywords": ["Period: E|M"],
+				"specialText": "1 AT Rifle Operator\n 1 Weapon Assistant",
+				"equipment": ["Anti-Tank Rifle Team"]
+			},
+			{
+				"name": "Anti-Tank Rifle Team - RegSup",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 2,
+				"sortPriority": 4,
+				"unlockedByLocal":
+					{
+						"quantityRequired":1,
+						"key": "SUATTeamRifle"
+					},
+				"limits": [
+					{
+						"key": "SUATTeam",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 18,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 25,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 33,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Man",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"availableIn": ["Soviet Union"],
+						"max": 1,
+						"addsModels": 1
+					},
+					{
+						"name": "Hammer and Sickle (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
+					},
+					{
+						"name": "Hammer and Sickle (Naval Brigade)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
+					},
+					{
+						"name": "Hammer and Sickle (NVKD)",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
+					}
+				],
+				"keywords": ["Period: E|M"],
+				"specialText": "1 AT Rifle Operator\n 1 Weapon Assistant",
+				"equipment": ["Anti-Tank Rifle Team"]
+			},
+			{
+				"name": "Anti-Tank Rifle Team - RegSup Recce",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 2,
+				"sortPriority": 4,
+				"unlockedByLocal":
+					{
+						"quantityRequired":1,
+						"key": "SUATTeamRecce"
+					},
+				"limits": [
+					{
+						"key": "SUATTeam",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 18,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 25,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 33,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Man",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"availableIn": ["Soviet Union"],
+						"max": 1,
+						"addsModels": 1
+					},
+					{
+						"name": "Hammer and Sickle (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
+					},
+					{
+						"name": "Hammer and Sickle (Naval Brigade)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
+					},
+					{
+						"name": "Hammer and Sickle (NVKD)",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
 					}
 				],
 				"keywords": ["Period: E|M"],
@@ -7574,6 +7948,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Soviet Union" }]			
 					}
 				],
 				"points": 0,
@@ -7603,6 +7980,15 @@
 						"requireChooseOneKey": "morale"
 					},
 					{
+						"name": "Additional Man",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"availableIn": ["Soviet Union"],
+						"max": 1,
+						"addsModels": 1
+					},
+					{
 						"name": "Defend the Fatherland! (Gebirgsjäger)",
 						"points": 1,
 						"perModel": true,
@@ -7640,6 +8026,30 @@
 						"unlockedByLocal": ["Regular","Veteran"],
 						"availableIn": ["Germany"],
 						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "Hammer and Sickle (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
+					},
+					{
+						"name": "Hammer and Sickle (Naval Brigade)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
+					},
+					{
+						"name": "Hammer and Sickle (NVKD)",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
 					}
 				],
 				"keywords": ["Period: E|M"],
@@ -8431,7 +8841,6 @@
 				"specialText": "1 Soldier",
 				"equipment": []
 			},
-			
 			{
 				"name": "Nikuhaku - Suicide Anti-Tank Team",
 				"factions": [],
@@ -8617,6 +9026,612 @@
 				"keywords": ["Period: M|L","Fanatics","Infiltrator","Kamikaze","Extra Selection","Tank Hunters"],
 				"specialText": "1 Soldier",
 				"equipment": []
+			},
+			{
+				"name": "Tank Hunters Anti-Tank Team (Early War)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 22,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 28,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 34,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 17,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Naval Brigade SMGs",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Hammer and Sickle (Naval Brigade)"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "Hammer and Sickle (Naval Brigade)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
+					}
+				],
+				"keywords": ["Period: E","Infiltrator","Tough Tank Hunters","Tank Hunters"],
+				"specialText": "2 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Tank Hunters Anti-Tank Team (Early War) - Heavy Weapons Platoon",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 22,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 28,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 34,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 17,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Naval Brigade SMGs",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Hammer and Sickle (Naval Brigade)"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "Hammer and Sickle (Naval Brigade)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
+					}
+				],
+				"keywords": ["Period: E","Infiltrator","Tough Tank Hunters","Tank Hunters"],
+				"specialText": "2 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Tank Hunters Anti-Tank Team (Late War)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 22,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 28,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 34,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 17,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Naval Brigade SMGs",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Hammer and Sickle (Naval Brigade)"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Hammer and Sickle (Naval Brigade)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
+					}
+				],
+				"keywords": ["Period: M|L","Infiltrator","Tough Tank Hunters","Tank Hunters"],
+				"specialText": "2 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Tank Hunters Anti-Tank Team (Late War) - Heavy Weapons Platoon",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 22,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 28,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 34,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 17,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Naval Brigade SMGs",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Hammer and Sickle (Naval Brigade)"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Hammer and Sickle (Naval Brigade)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
+					}
+				],
+				"keywords": ["Period: M|L","Infiltrator","Tough Tank Hunters","Tank Hunters"],
+				"specialText": "2 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Ampulomet 'Molotov Launcher' Anti-Tank Team",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 28,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 40,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 52,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: E|M"],
+				"specialText": "3 Soldiers",
+				"equipment": ["Ampulomet"]
+			},
+			{
+				"name": "Ampulomet 'Molotov Launcher' Anti-Tank Team - Heavy Weapons Platoon",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 28,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 40,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 52,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: E|M"],
+				"specialText": "3 Soldiers",
+				"equipment": ["Ampulomet"]
+			},
+			{
+				"name": "Dog Mines Anti-Tank Team",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 26,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 36,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 46,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Handlers",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Handlers",
+						"points": 18,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Handlers and Dog Mines",
+						"points": 23,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					}
+				],
+				"keywords": ["Period: E|M","Tank Hunters"],
+				"specialText": "2 Soldiers\n 2 Dog Mines",
+				"equipment": ["Dog Mines","x2"]
+			},
+			{
+				"name": "Dog Mines Anti-Tank Team - Heavy Weapons Platoon",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 26,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 36,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 46,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Handlers",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Handlers",
+						"points": 18,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Handlers and Dog Mines",
+						"points": 23,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					}
+				],
+				"keywords": ["Period: E|M","Tank Hunters"],
+				"specialText": "2 Soldiers\n 2 Dog Mines",
+				"equipment": ["Dog Mines","x2"]
 			},
 			{
 				"name": "Boys Anti-Tank Rifle Team",
@@ -9186,6 +10201,9 @@
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
@@ -9233,6 +10251,13 @@
 						"availableIn": ["Germany"],
 						"unlockedByLocal": ["Regular","Veteran"],
 						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "SN-42 Body Armor",
+						"points": 5,
+						"availableIn": ["Soviet Union"],
+						"unlockedByLocal": ["Regular","Veteran"],
+						"perModel": true
 					},
 					{
 						"name": "Welbikes",
@@ -9315,6 +10340,30 @@
 						"unlockedByLocal": ["Regular","Veteran"],
 						"availableIn": ["Great Britain"],
 						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "Hammer and Sickle (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
+					},
+					{
+						"name": "Hammer and Sickle (Naval Brigade)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
+					},
+					{
+						"name": "Hammer and Sickle (NVKD)",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
 					},
 					{
 						"name": "Det Fria Kriget",
@@ -10986,6 +12035,197 @@
 				"equipment": []
 			},
 			{
+				"name": "Assault Engineer Squad (Early War)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"perModel": true
+					},
+					{
+						"name": "Flamethrower",
+						"points": 30,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Demolition Charges",
+						"points": 20,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "SN-42 Body Armor",
+						"points": 5,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E","Engineers"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Assault Engineer Squad (Late War)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"perModel": true
+					},
+					{
+						"name": "Flamethrower",
+						"points": 30,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"increment": true,
+						"max": 2
+					},
+					{
+						"name": "Demolition Charges",
+						"points": 20,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "SN-42 Body Armor",
+						"points": 5,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: M|L","Engineers"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
 				"name": "Engineer Squad",
 				"factions": [],
 				"order": 1,
@@ -11394,12 +12634,15 @@
 				"equipment": ["Light Mortar"]
 			},
 			{
-				"name": "Light Mortar Team (GB)",
+				"name": "Light Mortar Team (GB|SU)",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
 					}
 				],
 				"points": 0,
@@ -11488,6 +12731,30 @@
 						"unlockedByLocal": ["Regular","Veteran"],
 						"availableIn": ["Great Britain"],
 						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "Hammer and Sickle (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
+					},
+					{
+						"name": "Hammer and Sickle (Naval Brigade)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
+					},
+					{
+						"name": "Hammer and Sickle (NVKD)",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -11495,12 +12762,15 @@
 				"equipment": ["Light Mortar"]
 			},
 			{
-				"name": "Light Mortar Team (GB) Heavy Weapons Platoon",
+				"name": "Light Mortar Team (GB|SU) - Heavy Weapons platoon",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Soviet Union" }]			
 					}
 				],
 				"points": 0,
@@ -11589,6 +12859,30 @@
 						"unlockedByLocal": ["Regular","Veteran"],
 						"availableIn": ["Great Britain"],
 						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "Hammer and Sickle (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
+					},
+					{
+						"name": "Hammer and Sickle (Naval Brigade)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
+					},
+					{
+						"name": "Hammer and Sickle (NVKD)",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -11954,6 +13248,9 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
@@ -11996,6 +13293,7 @@
 						"availableIn": [
 							"Germany",
 							"Great Britain",
+							"Soviet Union",
 							"Sweden",
 							"United States of America"
 						]
@@ -12104,6 +13402,14 @@
 						"unlockedByLocal": ["Regular","Veteran"],
 						"availableIn": ["Great Britain"],
 						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "Hammer and Sickle (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
 					},
 					{
 						"name": "Det Fria Kriget",
@@ -12315,6 +13621,9 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
@@ -12357,6 +13666,7 @@
 						"availableIn": [
 							"Germany",
 							"Great Britain",
+							"Soviet Union",
 							"Sweden",
 							"United States of America"
 						]
@@ -12577,6 +13887,9 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
@@ -12619,6 +13932,18 @@
 						"availableIn": ["Great Britain"],
 						"chooseOneKey": "natRuGB",
 						"unlockedByLocal": "For King and Country! (Commandos)"
+					},
+					{
+						"name": "Gun Shield",
+						"points": 5,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					},
+					{
+						"name": "SN-42 Body Armor",
+						"points": 15,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
 					},
 					{
 						"name": "Skis",
@@ -12673,6 +13998,30 @@
 						"unlockedByLocal": ["Regular","Veteran"],
 						"availableIn": ["Great Britain"],
 						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "Hammer and Sickle (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
+					},
+					{
+						"name": "Hammer and Sickle (Naval Brigade)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
+					},
+					{
+						"name": "Hammer and Sickle (NVKD)",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
 					},
 					{
 						"name": "Det Fria Kriget",
@@ -12980,6 +14329,78 @@
 						"unlockedByLocal": ["Veteran"],
 						"availableIn": ["United States of America"],
 						"chooseOneKey": "natRuUSA"
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"specialText": "1 MG Operator\n 3 Weapon Assitants",
+				"equipment": ["HMG"]
+			},
+			{
+				"name": "DSHK Heavy Machine Gun Team",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 0,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 49,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 91,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Gun Shield",
+						"points": 5,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					},
+					{
+						"name": "Pintle Mounted Tripod",
+						"points": 5,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					},
+					{
+						"name": "Hammer and Sickle (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
 					}
 				],
 				"keywords": ["Period: E|M|L"],
@@ -30653,6 +32074,12 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Soviet Union" }]			
 					}
 				],
 				"points": 0,
@@ -30706,6 +32133,12 @@
 						"chooseOneKey": "natRuGer"
 					},
 					{
+						"name": "Integrated Tractor",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					},
+					{
 						"name": "Add Spotter",
 						"points": 10,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -30723,6 +32156,12 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Soviet Union" }]			
 					}
 				],
 				"points": 0,
@@ -30793,6 +32232,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Soviet Union" }]			
 					}
 				],
 				"points": 0,
@@ -30858,6 +32300,30 @@
 						"unlockedByLocal": ["Regular","Veteran"],
 						"availableIn": ["Germany"],
 						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "Hammer and Sickle (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
+					},
+					{
+						"name": "Hammer and Sickle (Naval Brigade)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
+					},
+					{
+						"name": "Hammer and Sickle (NVKD)",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
 					},
 					{
 						"name": "Add Spotter",
@@ -33716,7 +35182,7 @@
 				"equipment": ["Platform Mounted Heavy Autocannon"]
 			},
 			{
-				"name": "Light Artillery",
+				"name": "Light Artillery (GB)",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -33835,104 +35301,6 @@
 				"keywords": ["Period: E|M|L","Team Weapon","Fixed"],
 				"specialText": "3 Crew Members",
 				"equipment": ["Light Howitzer"]
-			},
-			{
-				"name": "Medium Artillery",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
-					}
-				],
-				"points": 0,
-				"models": 4,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Gun Team",
-						"limit": 4,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Inexperienced",
-						"points": 63,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Regular",
-						"points": 90,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Veteran",
-						"points": 117,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Add Spotter",
-						"points": 10,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": 1,
-						"addsModels": 1,
-						"availableIn": ["Great Britain"]
-					}
-				],
-				"keywords": ["Period: E|M|L","Team Weapon","Fixed","Gun Shield"],
-				"specialText": "4 Crew Members",
-				"equipment": ["Medium Howitzer"]
-			},
-			{
-				"name": "Heavy Artillery",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
-					}
-				],
-				"points": 98,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Gun Team",
-						"limit": 4,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Inexperienced",
-						"points": 98,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Regular",
-						"points": 140,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Veteran",
-						"points": 182,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Add Spotter",
-						"points": 10,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": 1,
-						"addsModels": 1,
-						"availableIn": ["Great Britain"]
-					}
-				],
-				"keywords": ["Period: E|M|L","Team Weapon","Fixed","Gun Shield"],
-				"specialText": "5 Crew Members",
-				"equipment": ["Heavy Howitzer"]
 			},
 			{
 				"name": "Land Mattress",
@@ -37597,6 +38965,465 @@
 				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","Tow","Open Topped"],
 				"specialText": "Transport: 6\n Tow: L/M AT Gun, L/M Howitzer, L AA Gun",
 				"equipment": []
+			},
+			{
+				"name": "25mm 72-K Model 1940 Anti-Air Gun",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 28,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 40,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 52,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: E|M|L","Flak"],
+				"specialText": "3 Crew Members",
+				"equipment": ["Platform Mounted Light Autocannon","Gun Shield"]
+			},
+			{
+				"name": "37mm 61-K 1939 Anti-Air Gun",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: E|M|L","Flak"],
+				"specialText": "4 Crew Members",
+				"equipment": ["Platform Mounted Heavy Autocannon"]
+			},
+			{
+				"name": "45mm Model 1937 Anti-Tank Gun",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"specialText": "3 Crew Members",
+				"equipment": ["Light AT Gun","Gun Shield"]
+			},
+			{
+				"name": "85mm Model 1939 Anti-Air Gun",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 100,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 130,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Gun Shield",
+						"points": 5,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"specialText": "5 Crew Members",
+				"equipment": ["Light AT Gun","Gun Shield"]
+			},
+			{
+				"name": "122mm A-19 Field Gun",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 95,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 135,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 175,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: E|M|L","Versatile"],
+				"specialText": "4 Crew Members",
+				"equipment": ["Heavy AT Gun","Gun Shield"]
+			},
+			{
+				"name": "100mm BS-3 Anti-Tank Gun",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 98,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 140,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 182,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: L"],
+				"specialText": "5 Crew Members",
+				"equipment": ["Super Heavy AT Gun","Gun Shield"]
+			},
+			{
+				"name": "M-30 Heavy Rocket Launcher",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 46,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 85,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: M|L","Multiple Launcher"],
+				"specialText": "5 Crew Members",
+				"equipment": ["Heavy Rocket Launcher"]
+			},
+			{
+				"name": "45mm M-42 Anti-Tank Gun",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 42,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 78,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: M|L","Improved Ballistics"],
+				"specialText": "5 Crew Members",
+				"equipment": ["Light AT Gun","Gun Shield"]
+			},
+			{
+				"name": "M-13 Mortar",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 100,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 130,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"addsModels": 1
+					}
+				],
+				"keywords": ["Period: M|L"],
+				"specialText": "5 Crew Members",
+				"equipment": ["Super Heavy Mortar"]
+			},
+			{
+				"name": "57mm ZiS-2 Anti-Tank Gun",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 85,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 110,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: M|L","Improved Ballistics"],
+				"specialText": "3 Crew Members",
+				"equipment": ["Medium AT Gun","Gun Shield"]
+			},
+			{
+				"name": "76mm ZiS-3 Divisional Gun",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 85,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 110,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Hammer and Sickle (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Soviet Union"],
+						"chooseOneKey": "natRuSU"
+					}
+				],
+				"keywords": ["Period: M|L","Versatile"],
+				"specialText": "4 Crew Members",
+				"equipment": ["Medium AT Gun","Gun Shield"]
 			},
 			{
 				"name": "Bofors 20mm Pvlv m/40",
