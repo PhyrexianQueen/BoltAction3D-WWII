@@ -14341,19 +14341,7 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Soviet Union" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
 				"points": 0,
@@ -18150,7 +18138,7 @@
 						"perModel": true
 					}
 				],
-				"keywords": ["Period: E|M|L","Behind Enemy Lines","Elite of the Elite!","Fanatics","Paranoia","Sabotage!","Tought Fighters"],
+				"keywords": ["Period: E|M|L","Behind Enemy Lines","Elite of the Elite!","Fanatics","Paranoia","Sabotage!","Tough Fighters"],
 				"specialText": "1 NCO\n 4 Riflemen",
 				"equipment": []
 			},
@@ -18238,7 +18226,7 @@
 						"perModel": true
 					}
 				],
-				"keywords": ["Period: E|M|L","Behind Enemy Lines","Elite of the Elite!","Fanatics","Paranoia","Sabotage!","Tought Fighters"],
+				"keywords": ["Period: E|M|L","Behind Enemy Lines","Elite of the Elite!","Fanatics","Paranoia","Sabotage!","Tough Fighters"],
 				"specialText": "1 NCO\n 4 Riflemen",
 				"equipment": []
 			},
@@ -26165,6 +26153,1846 @@
 				],
 				"keywords": ["Period: E|M|L","Fanatics","Infiltrator","Spotting","Tough Fighters","Japanese War Dogs"],
 				"specialText": "1 Handler",
+				"equipment": []
+			},
+			{
+				"name": "Airborne Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					},
+					{
+						"name": "Tough Fighters",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Stubborn"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Airborne Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					},
+					{
+						"name": "Tough Fighters",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Stubborn"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Cavalry Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Cavalry Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Cossacks (Early War)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: E","Behind Enemy Lines","Skilled Riders"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Cossacks (Early War)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: E","Behind Enemy Lines","Skilled Riders"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Cossacks (Late War)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: M|L","Behind Enemy Lines","Skilled Riders"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Cossacks (Late War)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: M|L","Behind Enemy Lines","Skilled Riders"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Guards Squad (Early War)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: E"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Guards Squad (Early War)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: E"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Guards Squad (Late War)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: M|L"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Guards Squad (Late War)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: M|L"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Light Machine Gun Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 2,
+						"maxKey": "gun"
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Light Machine Gun Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 2,
+						"maxKey": "gun"
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Motorcycle Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: E|M"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Motorcycle Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: E|M"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Naval Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Tough Fighters"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Naval Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Tough Fighters"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "NKVD Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 45,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 9,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 12,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "Guard Dog",
+						"points": 2,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": 2
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Fanatics"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "NKVD Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 45,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 9,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 12,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "Guard Dog",
+						"points": 2,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": 2
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Fanatics"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Partisan Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 15,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Green","Vengeance"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Partisan Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 15,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Green","Vengeance"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "People's Militia Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Unarmed Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Victory Banner",
+						"points": 20,
+						"limit": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Green"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "People's Militia Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Unarmed Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Victory Banner",
+						"points": 20,
+						"limit": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Green"],
+				"specialText": "1 NCO\n 4 Soldiers",
 				"equipment": []
 			},
 			{
@@ -26758,12 +28586,12 @@
 				"options": [
 					{
 						"name": "Veteran",
-						"points": 95,
+						"points": 75,
 						"requireChooseOneKey": "morale"
 					},
 					{
 						"name": "Additional Men",
-						"points": 13,
+						"points": 14,
 						"increment": true,
 						"unlockedByLocal": ["Veteran"],
 						"max": 5,
@@ -26822,7 +28650,7 @@
 						"perModel": true
 					}
 				],
-				"keywords": ["Period: E|M|L","Behind Enemy Lines","Stubborn","Cavalry"],
+				"keywords": ["Period: E|M|L","Behind Enemy Lines","Stubborn","Skilled Riders","Cavalry"],
 				"specialText": "1 NCO\n 4 Riflemen",
 				"equipment": []
 			},
@@ -26848,12 +28676,12 @@
 				"options": [
 					{
 						"name": "Veteran",
-						"points": 95,
+						"points": 75,
 						"requireChooseOneKey": "morale"
 					},
 					{
 						"name": "Additional Men",
-						"points": 13,
+						"points": 14,
 						"increment": true,
 						"unlockedByLocal": ["Veteran"],
 						"max": 5,
@@ -26912,7 +28740,7 @@
 						"perModel": true
 					}
 				],
-				"keywords": ["Period: E|M|L","Behind Enemy Lines","Stubborn","Cavalry"],
+				"keywords": ["Period: E|M|L","Behind Enemy Lines","Stubborn","Skilled Riders","Cavalry"],
 				"specialText": "1 NCO\n 4 Riflemen",
 				"equipment": []
 			},
@@ -31075,7 +32903,7 @@
 				"equipment": ["Turret Mounted F|R MMG and Turret Mounted F|L MMG"]
 			},
 			{
-				"name": "Landing Craft, Personnel (F) - Recce - Inexperienced",
+				"name": "Landing Craft, Personnel (F) - Recce",
 				"factions": [],
 				"specialText": "Transport: 36 / 1 Jeep & 16 Soldiers",
 				"order": 1,
@@ -35646,7 +37474,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Bedford QLT - Inexperienced",
+				"name": "Bedford QLT",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -35695,7 +37523,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Bedford QLT - Recce - Inexperienced",
+				"name": "Bedford QLT - Recce",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -35830,7 +37658,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Universal Carrier w/ Bren LMG - Inexperienced",
+				"name": "Universal Carrier w/ Bren LMG",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -36644,7 +38472,7 @@
 				"equipment": []
 			},
 			{
-				"name": "M3 / M5 'Stuart' Kangaroo - Inexperienced",
+				"name": "M3 / M5 'Stuart' Kangaroo",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -40987,7 +42815,7 @@
 				"equipment": []
 			},
 			{
-				"name": "LVT Amphibious Troop Transport - Recce - Inexperienced",
+				"name": "LVT Amphibious Troop Transport - Recce",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -43555,7 +45383,7 @@
 				"equipment": ["Forward Facing, 360° Light AT Gun"]
 			},
 			{
-				"name": "Borgward Wanze Ausf. C - Regular",
+				"name": "Borgward Wanze Ausf. C",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -44924,7 +46752,7 @@
 				"equipment": ["Main Turret Mounted Light Howitzer","Main Turret Mounted Coaxial Light AT Gun","Forward Turret F|R Mounted MMG","Rear Turret B|L Mounted MMG"]
 			},
 			{
-				"name": "Neubaufahrzeug Pzkpw V Man B Light Tank - Inexperienced",
+				"name": "Neubaufahrzeug Pzkpw V Man B Light Tank",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -45014,7 +46842,7 @@
 				"equipment": ["Platform Mounted Light Autocannon"]
 			},
 			{
-				"name": "Opel Blitz w/ Quad Flak 38 - Inexperienced",
+				"name": "Opel Blitz w/ Quad Flak 38",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -45851,7 +47679,7 @@
 				"equipment": ["Turret Mounted Light Autocannon","Turret Mounted Coaxial MMG"]
 			},
 			{
-				"name": "Panzer II Ausf L 'Luchs' Light Tank - Regular",
+				"name": "Panzer II Ausf L 'Luchs' Light Tank",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -46988,7 +48816,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Sd.Kfz 10/4 & 10/5 w/ 2cm Flak Anti-Air Vehicle - Inexperienced",
+				"name": "Sd.Kfz 10/4 & 10/5 w/ 2cm Flak Anti-Air Vehicle",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -48469,7 +50297,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Sd.Kfz 254 Mittlere Gepanzer Beobachtungskraftwagen - Regular",
+				"name": "Sd.Kfz 254 Mittlere Gepanzer Beobachtungskraftwagen",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -50430,7 +52258,6 @@
 				"keywords": ["Period: L","Damage Value: 8+"],
 				"equipment": ["Turret Mounted Light Autcannon","x2"]
 			},
-			
 			{
 				"name": "A17 'Tetrarch' Mk.VII Light Tank",
 				"factions": [],
@@ -54278,7 +56105,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Sexton I / Sexton II SPG - Inexperienced",
+				"name": "Sexton I / Sexton II SPG",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -56055,7 +57882,3496 @@
 				"equipment": ["Turret Mounted Low Velocity Light AT Gun","Turret Mounted Coaxial MMG"]
 			},
 			{
-				"name": "Tankette m/Carden-Loyd Mk V",
+				"name": "BA-10 Armored Car",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 96,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 120,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 144,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value:7+","Recce","Wheeled"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial LMG","Hull Mounted LMG"]
+			},
+			{
+				"name": "BA-20 Armored Car",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 52,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 78,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value:7+","Recce","Wheeled"],
+				"equipment": ["Turret Mounted LMG"]
+			},
+			{
+				"name": "BA-3/6 Heavy Armored Car",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 96,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 120,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 144,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: E","Damage Value:7+","Recce","Wheeled"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial LMG","Hull Mounted LMG"]
+			},
+			{
+				"name": "BA-64 Armored Car",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 48,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 72,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value:7+","Recce","Open Topped","Wheeled"],
+				"equipment": ["Turret Mounted LMG"]
+			},
+			{
+				"name": "BA-64B Armored Car",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 58,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 82,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value:7+","Recce","Wheeled"],
+				"equipment": ["Turret Mounted LMG"]
+			},
+			{
+				"name": "BA-64DShK Armored Car",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 73,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 85,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 97,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value:7+","Recce","Wheeled"],
+				"equipment": ["Turret Mounted HMG"]
+			},
+			{
+				"name": "BT-5 / BT-7 Light Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 108,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 135,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 97,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					},
+					{
+						"name": "Turret Mounted Light AT Gun",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "priWeapon",
+						"points": 0
+					},
+					{
+						"name": "Turret Mounted Light Howitzer",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "priWeapon",
+						"points": 0
+					},
+					{
+						"name": "Turret Mounted REar Facing MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 5
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value:8+","Fast"],
+				"equipment": ["Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Lend Lease A22 'Churchill' Mk.II Heavy Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 180,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 230,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 280,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 10+","Slow"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Lend Lease A22 'Churchill' Mk.III / Mk.IV Heavy Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 200,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 250,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 300,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 10+","Slow"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "D-8 Light Armored Car",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 52,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 78,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value:7+","Recce","Wheeled"],
+				"equipment": ["Hull Mounted LMG","Rear Facing Hull Mounted LMG"]
+			},
+			{
+				"name": "D-12 Light Armored Car",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 47,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 73,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value:7+","Recce","Open Topped","Wheeled"],
+				"equipment": ["Hull Mounted LMG","Turret Mounted LMG"]
+			},
+			{
+				"name": "FAI Light Armored Car",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 52,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 78,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value:7+","Recce","Wheeled"],
+				"equipment": ["Turret Mounted LMG"]
+			},
+			{
+				"name": "GAZ-67 'Jeep'",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 14,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 18,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 22,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "priWeapon",
+						"points": 0
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "priWeapon",
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value:6+","Recce","Wheeled"],
+				"specialText": "Tow: L AT Gun, L AA Gun",
+				"equipment": []
+			},
+			{
+				"name": "Lend Lease Valentine Mk.I-VIIA Medium Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 124,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 155,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 186,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: M","Damage Value: 9+","Slow"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "IS-2 Heavy Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 14,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 18,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 22,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 25
+					}
+				],
+				"keywords": ["Period: L","Damage Value:11+","Slow Load"],
+				"equipment": ["Turret Mounted Heavy AT Gun","Turret Mounted Coaxial MMG","Turret Mounted Rear Facing MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "IS-3 Heavy Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 360,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 450,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 540,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: L","Damage Value:10+","Reinforced Front Amor","Improved HE"],
+				"equipment": ["Turret Mounted Heavy AT Gun","Turret Mounted Coaxial MMG","Pintle Mounted MMG"]
+			},
+			{
+				"name": "ISU-122 Assault Gun",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 236,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 295,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 354,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 25
+					}
+				],
+				"keywords": ["Period: L","Damage Value:10+","Improved HE"],
+				"equipment": ["Turret Mounted Heavy AT Gun"]
+			},
+			{
+				"name": "Katyusha Rocket Launcher Truck",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 75,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 90,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value:6+","Multiple Launcher","Stationary Firing Platform","Wheeled"],
+				"equipment": ["Forward Facing Multiple Rocket Launcher"]
+			},
+			{
+				"name": "KV-1 Heavy Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 224,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 280,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 336,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 10+","Armored All Round","Slow"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Turret Mounted Rear Facing MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "KV-1S Heavy Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 204,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 260,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 316,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 10+"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Turret Mounted Rear Facing MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "KV-2 Heavy Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 236,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 295,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 354,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					},
+					{
+						"name": "Turret Mounted Coaxial MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "secWeapon",
+						"points": 0
+					},
+					{
+						"name": "Turret Mounted Coaxial Flamethrower",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "secWeapon",
+						"points": 10
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 10+","Slow","Slow Load"],
+				"equipment": ["Turret Mounted Heavy Howtizer","Turret Mounted Rear Facing MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "KV-8 Heavy Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 224,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 280,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 336,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 10+","Armored All Round","Slow"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial Flamethrower","Turret Mounted Rear Facing MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "IS-1 / KV-85 Heavy Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 236,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 295,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 354,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 10+"],
+				"equipment": ["Turret Mounted Heavy AT Gun","Turret Mounted Coaxial MMG","Turret Mounted Rear Facing MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Lend Lease A17 'Tetrarch' Mk.VII Light Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 105,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: M","Damage Value: 7+"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Lend Lease M10 'Wolverine' Tank Destroyer",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 128,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 160,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 192,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 25
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 8+","Open Topped"],
+				"equipment": ["Turret Mounted Heavy AT Gun"]
+			},
+			{
+				"name": "Lend Lease M16/M17 Multiple Gun Motor Carriage",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 100,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 125,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 150,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value:7+","Open Topped","Half Track"],
+				"equipment": ["Turret Mounted HMG","x4"]
+			},
+			{
+				"name": "OT-26 / OT-133 Light Flamethrower Tanks",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 84,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 105,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 126,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+"],
+				"equipment": ["Turret Mounted Flamethrower","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Lend Lease M3 'Lee' Medium Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 180,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 225,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: M","Damage Value:9+","Vulnerable","Improved HE","Easily Catches Fire"],
+				"equipment": ["Hull Mounted Medium AT Gun (M3 Lee)", "Turret Mounted Light AT Gun", "Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Lend Lease M3 'Stuart' Light Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 100,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 125,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 150,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 8+","Vulnerable"],
+				"equipment": ["Turret Mounted Light AT Gun", "Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Lend Lease M3 White Scout Car",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 54,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 68,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 82,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					},
+					{
+						"name": "Pintle Mounted MMG, B|L",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15
+					},
+					{
+						"name": "Pintle Mounted MMG, B|R",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value:7+","Open Topped","Wheeled"],
+				"equipment": ["Forward Facing Pintle Mounted HMG"]
+			},
+			{
+				"name": "Lend Lease M4 'Sherman' 75mm Medium Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 164,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 205,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 246,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 25
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+","Easily Catches Fire","Improved HE"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Lend Lease M4 A4 'Sherman' 75mm Medium Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 169,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 210,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 231,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 25
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+","Improved HE"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Lend Lease M4 'Sherman' 76mm Medium Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 180,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 225,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 270,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 25
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+"],
+				"equipment": ["Turret Mounted Heavy AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Lend Lease M5A1 'Stuart' Light Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 124,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 155,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 186,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15,
+						"chooseOneKey": "Pintle"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15,
+						"chooseOneKey": "Pintle"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value:8+","Extra Frontal Armor"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Lend Lease A12 'Matilda' Mk.II Medium Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 124,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 155,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 186,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: M","Damage Value: 9+","Slow"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Lend Lease Universal Carrier",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 4,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 45,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15
+					},
+					{
+						"name": "Hull Mounted LMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Hull Mounted Boys AT Rifle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Open Topped","Recce","Turn On the Spot"],
+				"equipment": []
+			},
+			{
+				"name": "SU-100 Assault Gun",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 196,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 245,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 294,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+"],
+				"equipment": ["Hull Mounted Super Heavy AT Gun"]
+			},
+			{
+				"name": "SU-122 Assault Gun",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 1156,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 195,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 234,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+"],
+				"equipment": ["Hull Mounted Medium Howitzer"]
+			},
+			{
+				"name": "SU-152 /ISU-152 Assault Gun",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 156,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 195,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 234,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 25
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 10+","Big Shell","Slow Load"],
+				"equipment": ["Hull Mounted Heavy Howitzer"]
+			},
+			{
+				"name": "SU-57 / T48 GMC Tank Destroyer",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 84,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 105,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 126,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					},
+					{
+						"name": "Rear Facing Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Half Track","Open Topped"],
+				"equipment": ["Hull Mounted Medium AT Gun"]
+			},
+			{
+				"name": "SU-76 Assault Gun",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 84,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 105,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 126,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					},
+					{
+						"name": "Armor Piercing Ammunition",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 35
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 8+","Open Topped"],
+				"equipment": ["Hull Mounted Light Howitzer"]
+			},
+			{
+				"name": "SU-76i Assault Gun",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 92,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 115,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 138,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					},
+					{
+						"name": "Armor Piercing Ammunition",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 35
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 8+"],
+				"equipment": ["Hull Mounted Light Howitzer"]
+			},
+			{
+				"name": "SU-85 Assault Gun",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 164,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 205,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 246,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+"],
+				"equipment": ["Hull Mounted Heavy AT Gun"]
+			},
+			{
+				"name": "ZiS-30 Tank Destroyer",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 88,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 110,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 7+","Open Topped"],
+				"equipment": ["Hull Mounted Medium AT Gun","Hull Mounted LMG"]
+			},
+			{
+				"name": "T-26A Light Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 52,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 78,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+"],
+				"equipment": ["Port Turret Mounted MMG","STBD Turret Mounted MMG"]
+			},
+			{
+				"name": "T-26B Light Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 84,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 105,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 126,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					},
+					{
+						"name": "Turret Mounted Rear Facing MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 5
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "T-28 Medium Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 84,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 105,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 126,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15
+					},
+					{
+						"name": "Turret Mounted Light Howitzer",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "priWeapon",
+						"points": 0
+					},
+					{
+						"name": "Turret Mounted Light AT Gun",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "priWeapon",
+						"points": 0
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 8+"],
+				"equipment": ["Turret Mounted Coaxial MMG","Turret Mounted Rear Facing MMG","Turret Mounted F|L MMG","Turret Mounted F|R MMG"]
+			},
+			{
+				"name": "T-28C Medium Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 94,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 115,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 136,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15
+					},
+					{
+						"name": "Turret Mounted Light Howitzer",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "priWeapon",
+						"points": 0
+					},
+					{
+						"name": "Turret Mounted Light AT Gun",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "priWeapon",
+						"points": 0
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 8+","Reinforced Front Armor","Slow"],
+				"equipment": ["Turret Mounted Coaxial MMG","Turret Mounted Rear Facing MMG","Turret Mounted F|L MMG","Turret Mounted F|R MMG"]
+			},
+			{
+				"name": "T-34/76 Medium Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 156,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 195,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 234,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 9+"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "OT-34 Medium Flamethrower Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 196,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 235,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 274,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 9+"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted Flamethrower"]
+			},
+			{
+				"name": "T-34/85 Medium Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 180,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 225,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 270,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+"],
+				"equipment": ["Turret Mounted Heavy AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "OT-34/85 Medium Flamethrower Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 220,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 265,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 310,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 9+"],
+				"equipment": ["Turret Mounted Heavy AT Gun","Turret Mounted Coaxial MMG","Hull Mounted Flamethrower"]
+			},
+			{
+				"name": "T-35 Heavy Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 219,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 274,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 329,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: E","Damage Value: 9+","Unreliable"],
+				"equipment": ["Turret Mounted Light Howitzer","Turret Mounted Coaxial MMG","Turret Mounted F|L MMG","Turret Mounted B|R MMG","Turret Mounted F|R Coaxial MMG","Turret Mounted F|R Light AT Gun","Turret Mounted B|L Coaxial MMG","Turret Mounted B|L Light AT Gun"]
+			},
+			{
+				"name": "T-37 Light Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 48,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 72,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Amphibious"],
+				"equipment": ["Turret Mounted MMG"]
+			},
+			{
+				"name": "T-40 Light Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 56,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 84,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Amphibious"],
+				"equipment": ["Turret Mounted HMG","Turret Mounted Coaxial MMG"]
+			},
+			
+			{
+				"name": "T-50 Light Infantry Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 96,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 120,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 144,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					},
+					{
+						"name": "Turret Mounted Coaxial MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 5
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 8+"],
+				"equipment": ["Turret Mounted Light AT Gun"]
+			},
+			{
+				"name": "T-60 Light Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 84,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 105,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 126,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 8+"],
+				"equipment": ["Turret Mounted Light Autocannon","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "T-70 Light Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 100,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 125,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 150,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 8+"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Tachanka Horse Drawn Cart",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockedByLocal":
+					{
+						"quantityRequired":1,
+						"key": "CT"
+					},
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 16,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 20,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 24,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 3+"],
+				"equipment": ["Rear Facing Hull Mounted MMG"]
+			},
+			{
+				"name": "The Bronekater Riverine Craft",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 180,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 225,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 270,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Front Turret Mounted MMG",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "turretA"
+					},
+					{
+						"name": "Front Turret Mounted Twin MMG",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "turretA"
+					},
+					{
+						"name": "Front Turret Mounted HMG",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "turretA"
+					},
+					{
+						"name": "Front Turret Mounted Twin HMG",
+						"points": 30,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "turretA"
+					},
+					{
+						"name": "Mid Turret Mounted MMG",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "turretB"
+					},
+					{
+						"name": "Mid Turret Mounted Twin MMG",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "turretB"
+					},
+					{
+						"name": "Mid Turret Mounted HMG",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "turretB"
+					},
+					{
+						"name": "Mid Turret Mounted Twin HMG",
+						"points": 30,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "turretB"
+					},
+					{
+						"name": "Back Turret Mounted MMG",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "turretC"
+					},
+					{
+						"name": "Back Turret Mounted Twin MMG",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "turretC"
+					},
+					{
+						"name": "Back Turret Mounted HMG",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "turretC"
+					},
+					{
+						"name": "Back Turret Mounted Twin HMG",
+						"points": 30,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "turretC"
+					},
+					{
+						"name": "Back Turret Mounted Medium AT Gun with Coaxial HMG",
+						"points": 65,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "turretC"
+					},
+					{
+						"name": "Back Turret Mounted Multiple Rocket Launcher",
+						"points": 65,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "turretC"
+					},
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 9+","Transport","Armored All Round","Armored Gun Boat","Waterborne"],
+				"specialText": "Transport: 12",
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Tokarev 4M Quad Maxim Gaz Anti-Air Truck",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 44,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 66,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Flak","Stationary Firing Platform"],
+				"equipment": ["Turret Mounted MMG","x4"]
+			},
+			{
+				"name": "T-34 Medium Tank, Tractor Factory",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 140,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle w/ Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"chooseOneKey": "command",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					},
+					{
+						"name": "No Optics",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "flaw",
+						"points": 0
+					},
+					{
+						"name": "Hastily Repaired",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "flaw",
+						"points": 0
+					},
+					{
+						"name": "Factory Worker Crew",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "flaw",
+						"points": 0
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 9+","Tractor Factory Flaw"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Tankette m/Carden-Loyd Mk VI",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -57114,7 +62430,7 @@
 				"equipment": ["Turret Mounted Super Heavy AT Gun","Coaxial MMG"]
 			},
 			{
-				"name": "Pvkv III - Inexperienced",
+				"name": "Pvkv III",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -57382,7 +62698,7 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
-				"points": 56,
+				"points": 0,
 				"models": 1,
 				"sortPriority": 3,
 				"limits": [
@@ -57473,7 +62789,7 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
-				"points": 168,
+				"points": 0,
 				"models": 1,
 				"sortPriority": 3,
 				"limits": [
@@ -57805,6 +63121,64 @@
 				"equipment": ["Pintle Mounted HMG","Turret Mounted Light Howitzer"]
 			},
 			{
+				"name": "Balao-Class Submarine",
+				"factions": [],
+				"order": 1,
+				"community": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 276,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 345,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 414,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Platform Mounted Heavy AT Gun",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Platform Mounted Super Heavy AT Gun",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 80,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 10+","Armored All Round","Open Topped","Waterborne","Deep Water Vessel"],
+				"specialText": "Transport: 20",
+				"equipment": ["Platform Mounted Heavy Autocannon","Platform Mounted Twin Light Autocannon"]
+			},
+			{
 				"name": "M12 Gun Motor Carriage",
 				"factions": [],
 				"order": 1,
@@ -57977,7 +63351,7 @@
 						"points": 10
 					}
 				],
-				"keywords": ["Period: M|L","Damage Value:7+","Open Topped"],
+				"keywords": ["Period: M|L","Damage Value:7+","Open Topped","Half Track"],
 				"equipment": ["Turret Mounted Heavy Autocannon","Turret Mounted HMG","x2"]
 			},
 			{
@@ -58021,7 +63395,7 @@
 						"points": 10
 					}
 				],
-				"keywords": ["Period: M|L","Damage Value:7+","Open Topped"],
+				"keywords": ["Period: M|L","Damage Value:7+","Open Topped","Half Track"],
 				"equipment": ["Turret Mounted HMG","x4"]
 			},
 			{
@@ -58327,7 +63701,7 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
-				"points": 96,
+				"points": 0,
 				"models": 1,
 				"sortPriority": 3,
 				"limits": [
@@ -58540,7 +63914,7 @@
 				"equipment": ["Hull Mounted Medium AT Gun (M3 Lee)", "Turret Mounted Light AT Gun", "Turret Mounted Coaxial MMG","Independent Turret Mounted MMG"]
 			},
 			{
-				"name": "M3 A3 'Lee' Medium Tank - Inexperienced",
+				"name": "M3 A3 'Lee' Medium Tank",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -58579,7 +63953,7 @@
 				"equipment": ["Hull Mounted Medium AT Gun (M3 Lee)","Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","Independent Turret Mounted MMG"]
 			},
 			{
-				"name": "M3 A5 'Lee' Medium Tank - Inexperienced",
+				"name": "M3 A5 'Lee' Medium Tank",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -58677,7 +64051,7 @@
 				"equipment": ["Turret Mounted Light AT Gun", "Turret Mounted Coaxial MMG","Hull Mounted MMG"]
 			},
 			{
-				"name": "M3 A1 'Stuart' Light Tank - Inexperienced",
+				"name": "M3 A1 'Stuart' Light Tank",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -58778,7 +64152,7 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
-				"points": 140,
+				"points": 0,
 				"models": 1,
 				"sortPriority": 3,
 				"limits": [
@@ -58905,7 +64279,7 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
-				"points": 54,
+				"points": 0,
 				"models": 1,
 				"limits": [
 					{
@@ -59733,7 +65107,7 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
-				"points": 208,
+				"points": 0,
 				"models": 1,
 				"sortPriority": 3,
 				"limits": [
