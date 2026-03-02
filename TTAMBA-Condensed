@@ -4736,7 +4736,7 @@
 						"chooseOneKey": "natRuJa"
 					}
 				],
-				"keywords": ["Period: E|M|","Fanatics","Strict Discipline","Fanatics"],
+				"keywords": ["Period: E|M","Fanatics","Strict Discipline","Fanatics"],
 				"specialText": "1 Officer",
 				"equipment": ["Pistol","Shin Gunto Sword"]
 			},
@@ -4798,7 +4798,7 @@
 						"points": 2
 					}
 				],
-				"keywords": ["Period: E|M|","Fanatics","Not One Step Back"],
+				"keywords": ["Period: E|M","Fanatics","Not One Step Back"],
 				"specialText": "1 Officer",
 				"equipment": []
 			},
@@ -27995,6 +27995,1147 @@
 				"specialText": "1 NCO\n 4 Soldiers",
 				"equipment": []
 			},
+			
+			{
+				"name": "Rifle Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Green"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Rifle Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Green"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Scout Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 3,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					},
+					{
+						"name": "Scouting Squad",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"],
+						"requireChooseOneKey": "keyword"
+					},
+					{
+						"name": "Infiltrating Squad",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"],
+						"requireChooseOneKey": "keyword"
+					}
+				],
+				"keywords": ["Period: M|L","Behind Enemy Lines"],
+				"specialText": "1 NCO\n 3 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Scout Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 3,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					},
+					{
+						"name": "Scouting Squad",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"],
+						"requireChooseOneKey": "keyword"
+					},
+					{
+						"name": "Infiltrating Squad",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"],
+						"requireChooseOneKey": "keyword"
+					}
+				],
+				"keywords": ["Period: M|L","Behind Enemy Lines"],
+				"specialText": "1 NCO\n 3 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Shtrafbat Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 25,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Guard Dog",
+						"points": 2,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Period: M|L","Shirkers"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Shtrafbat Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 25,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Guard Dog",
+						"points": 2,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Period: M|L","Shirkers"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Siberian Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Tough Fighters",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: M|L"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Siberian Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Tough Fighters",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: M|L"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Ski Troops Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: M|L"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["Skis"]
+			},
+			{
+				"name": "Ski Troops Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: M|L"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["Skis"]
+			},
+			{
+				"name": "Submachine Gun Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "LMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["SMGs"]
+			},
+			{
+				"name": "Submachine Gun Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "LMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["SMGs"]
+			},
+			{
+				"name": "Tank Riders Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 85,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 17,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "LMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					},
+					{
+						"name": "SN-42 Body Armor",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Tank Riders"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["SMGs"]
+			},
+			{
+				"name": "Tank Riders Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 85,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 17,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "LMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					},
+					{
+						"name": "SN-42 Body Armor",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Tank Riders"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["SMGs"]
+			},
+			{
+				"name": "Veteran Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 2,
+						"maxKey": "gun"
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"localLimit": 2
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					},
+					{
+						"name": "Tough Fighters",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: M|L"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Veteran Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 2,
+						"maxKey": "gun"
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"localLimit": 2
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					},
+					{
+						"name": "Tough Fighters",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Soviet Union"]
+					}
+				],
+				"keywords": ["Period: M|L"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
 			{
 				"name": "Swedish Infantry Squad",
 				"factions": [],
@@ -45418,7 +46559,7 @@
 						"points": 10
 					}
 				],
-				"keywords": ["Period: E|M|","Damage Value:7+","Open Topped", "Shaped Charge"],
+				"keywords": ["Period: E|M","Damage Value:7+","Open Topped", "Shaped Charge"],
 				"equipment": ["Forward Facing Recoilless Rocket Launcer"]
 			},
 			{
