@@ -34771,6 +34771,21 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
 					},
 					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
@@ -34824,6 +34839,9 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden" }]			
@@ -41310,6 +41328,21 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Soviet Union" }]			
 					}
 				],
 				"points": 0,
@@ -41347,6 +41380,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Japan" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
 					}
 				],
 				"points": 0,
@@ -42393,6 +42429,750 @@
 				"keywords": ["Period: M|L","Versatile"],
 				"specialText": "4 Crew Members",
 				"equipment": ["Medium AT Gun","Gun Shield"]
+			},
+			{
+				"name": "Aerosan",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 40,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","Open Topped","Winter Vehicle"],
+				"specialText": "Transport: 5 (Must be equipped with Skis)",
+				"equipment": ["Pintle Mounted Forward and Side Arc MMG"]
+			},
+			{
+				"name": "Aerosan - Recce",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 40,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Recce",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 7+","Transport","Open Topped","Winter Vehicle"],
+				"specialText": "Transport: 5 (Must be equipped with Skis)",
+				"equipment": ["Pintle Mounted Forward and Side Arc MMG"]
+			},
+			{
+				"name": "GAZ-67 'Jeep' - Transport",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 14,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 18,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 22,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","Tow","Wheeled"],
+				"specialText": "Transport: 3\n Tow: L AT Gun, L AA Gun",
+				"equipment": []
+			},
+			{
+				"name": "GAZ-67 'Jeep' - Recce",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 14,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 18,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 22,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Recce",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","Tow","Wheeled"],
+				"specialText": "Transport: 3\n Tow: L AT Gun, L AA Gun",
+				"equipment": []
+			},
+			{
+				"name": "Lend Lease Ford GPA",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 14,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 18,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 22,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","Tow","Wheeled","Amphibious"],
+				"specialText": "Transport: 3\n Tow: L AT Gun, L AA Gun",
+				"equipment": []
+			},
+			{
+				"name": "Lend Lease Ford GPA - Recce",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 14,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 18,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 22,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Recce",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 6+","Transport","Tow","Wheeled","Amphibious"],
+				"specialText": "Transport: 3\n Tow: L AT Gun, L AA Gun",
+				"equipment": []
+			},
+			{
+				"name": "Half-Tracked Truck",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 22,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 27,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 32,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted LMG",
+						"points": 10,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","Tow","Half Track"],
+				"specialText": "Transport: 12\n Tow: L/M AT Gun, L Howitzer, L AA Gun",
+				"equipment": []
+			},
+			{
+				"name": "Half-Tracked Truck - Recce",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 22,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 27,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 32,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Recce",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted LMG",
+						"points": 10,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: E|M|L","Damage Value: 6+","Transport","Tow","Half Track"],
+				"specialText": "Transport: 12\n Tow: L/M AT Gun, L Howitzer, L AA Gun",
+				"equipment": []
+			},
+			{
+				"name": "Lend Lease M2 Half Track",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 56,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 84,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 20,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","Tow","Half Track"],
+				"specialText": "Transport: 10\n Tow: L/M/H AT Gun, L/M Howitzer, L/H AA Gun",
+				"equipment": ["Forward Facing Pintle Mounted HMG"]
+			},
+			{
+				"name": "Lend Lease M2 Half Track - Recce",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 56,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 84,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Recce",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"points": 20,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","Tow","Half Track"],
+				"specialText": "Transport: 10\n Tow: L/M/H AT Gun, L/M Howitzer, L/H AA Gun",
+				"equipment": ["Forward Facing Pintle Mounted HMG"]
+			},
+			{
+				"name": "Lend Lease M3 White Scout Car Transport",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 54,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 68,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 82,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Pintle Mounted B|L MMG",
+						"points": 15,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Pintle Mounted B|R MMG",
+						"points": 15,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","Tow","Wheeled"],
+				"specialText": "Transport: 8\n Tow: L/M AT Gun, L Howitzer, L AA Gun",
+				"equipment": ["Forward Facing Pintle Mounted HMG"]
+			},
+			{
+				"name": "Lend Lease M3 White Scout Car Transport- Recce",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 54,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 68,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 82,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Recce",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Pintle Mounted B|L MMG",
+						"points": 15,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Pintle Mounted B|R MMG",
+						"points": 15,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","Tow","Wheeled"],
+				"specialText": "Transport: 8\n Tow: L/M AT Gun, L Howitzer, L AA Gun",
+				"equipment": ["Forward Facing Pintle Mounted HMG"]
+			},
+			{
+				"name": "Lend Lease Universal Carrier Transport",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 40,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15,
+						"requireChooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 30,
+						"requireChooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Hull Mounted LMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Hull Mounted Boys AT Rifle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","Tow","Turn On the Spot","Open Topped"],
+				"specialText": "Transport: 5\n Tow: L/M AT Gun",
+				"equipment": []
+			},
+			{
+				"name": "Lend Lease Universal Carrier Transport - Recce",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 54,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 68,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 82,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Recce",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15,
+						"requireChooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 30,
+						"requireChooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Hull Mounted LMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Hull Mounted Boys AT Rifle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","Tow","Turn On the Spot","Open Topped"],
+				"specialText": "Transport: 5\n Tow: L/M AT Gun",
+				"equipment": []
+			},
+			{
+				"name": "T-20 Komsomolets",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 37,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 46,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Transport","Tow","Open Topped"],
+				"specialText": "Transport: 6\n Tow: All",
+				"equipment": ["Hull Mounted LMG"]
+			},
+			{
+				"name": "T-20 Komsomolets - Recce",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Soviet Union" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 37,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 46,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 5,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Recce",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: E|M","Damage Value: 7+","Transport","Tow","Open Topped"],
+				"specialText": "Transport: 6\n Tow: All",
+				"equipment": ["Hull Mounted LMG"]
 			},
 			{
 				"name": "Bofors 20mm Pvlv m/40",
@@ -60972,7 +61752,14 @@
 					{
 						"name": "Pintle Mounted LMG",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"points": 15
+						"points": 15,
+						"requireChooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 30,
+						"requireChooseOneKey": "secWeapon"
 					},
 					{
 						"name": "Hull Mounted LMG",
