@@ -2450,6 +2450,20 @@
 						"points": 50
 					},
 					{
+						"name": "Victory Banner",
+						"points": 20,
+						"limit": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByLocalStat": [
+                            {
+                                "stat": "models",
+                                "modifier": "above",
+                                "value": 1
+                            }
+                        ],
+						"availableIn": ["Soviet Union"]
+					},
+					{
 						"name": "Defend the Fatherland! (Waffen-SS InEx)",
 						"points": 2,
 						"perModel": true,
@@ -4316,6 +4330,20 @@
 						"points": 50			
 					},
 					{
+						"name": "Victory Banner",
+						"points": 20,
+						"limit": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByLocalStat": [
+                            {
+                                "stat": "models",
+                                "modifier": "above",
+                                "value": 1
+                            }
+                        ],
+						"availableIn": ["Soviet Union"]
+					},
+					{
 						"name": "Defend the Fatherland! (Waffen-SS InEx)",
 						"points": 2,
 						"perModel": true,
@@ -4773,6 +4801,20 @@
 						"unlockedByLocal": ["Inexperienced"],
 						"max": 2,
 						"addsModels": 1
+					},
+					{
+						"name": "Victory Banner",
+						"points": 20,
+						"limit": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByLocalStat": [
+                            {
+                                "stat": "models",
+                                "modifier": "above",
+                                "value": 1
+                            }
+                        ],
+						"availableIn": ["Soviet Union"]
 					},
 					{
 						"name": "SMGs",
@@ -18839,7 +18881,14 @@
 						"name": "Motorcycles",
 						"points": 5,
 						"unlockedByLocal": ["Inexperienced"],
-						"perModel": true
+						"perModel": true,
+						"unlockedByLocalStat": [
+                            {
+                                "stat": "models",
+                                "modifier": "below",
+                                "value": 5
+                            }
+                        ]
 					}
 				],
 				"keywords": ["Period: E|M|L","Chained Dogs","Get Back in the Fight","Traffic Direction"],
@@ -27930,7 +27979,15 @@
 						"name": "Victory Banner",
 						"points": 20,
 						"limit": 1,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByLocalStat": [
+                            {
+                                "stat": "models",
+                                "modifier": "above",
+                                "value": 1
+                            }
+                        ],
+						"availableIn": ["Soviet Union"]
 					},
 					{
 						"name": "AT Grenades",
