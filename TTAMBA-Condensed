@@ -67902,6 +67902,86 @@
 				"equipment": ["Front Mounted MMG","Front Mounted Light Autocannon","Topside Twin Turret Mounted HMGs","Topside Turret Moutned MMG","Rear Mounted Light Autocannon"]
 			},
 			{
+				"name": "Messerschmitt Me-321 'Gigant' Heavy Cargo Glider",
+				"factions": [],
+				"community": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 168,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 210,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 252,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: E|M|L","Large Cargo Glider","Transport","Tow"],
+				"specialText": "Transport: 60 Soldiers or up to a 8+ Armored Vehicle / Artillery Gun and 30 Soldiers or \n Tow: All",
+				"equipment": []
+			},
+			{
+				"name": "Messerschmitt Me-323 'Gigant' Heavy Cargo Aircraft",
+				"factions": [],
+				"community": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"limits": [
+					{
+						"key": "Plane",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 256,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 320,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 384,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: M|L","Large Cargo Aircraft","Transport","Tow"],
+				"specialText": "Transport: 130 Soldiers or any Armored Vehicle except Maus / Artillery Gun and 60 Soldiers or \n Tow: All",
+				"equipment": []
+			},
+			{
 				"name": "Hawker Hurricane Fighter",
 				"factions": [],
 				"order": 1,
