@@ -161,8 +161,35 @@
 				"name": "Bulgaria"
 			},
 			{
-				"name": "China",
-				"community": true
+				"name": "Chinese Communists",
+				"community": true,
+				"additionalRules": [
+					"Flag - One soldier in an officer squad may replace all their weapons with a flag. Units within 12in may reroll failed Rally Order Tests; Zurn Mission Pack, Pg. 45",
+					"Geurilla Tactics - Chiense Regular and Veteran Infantry gain Fieldcraft; Zurn Mission Pack, Pg. 45",
+					"Localized Support - Chinese forces do not suffer the -1 penalty to arrive from Reserves or when Outflanking; Zurn Mission Pack, Pg. 45",
+					"Sparrow Tactics - At the start of the game, all of your Regular and Veteran infantry units may perform a free 9in move. This can trigger Ambush orders; Zurn Mission Pack, Pg. 45",
+					"Bodyguard - (Warlords and Nationalists Only) - If an Officer is wounded by a sniper, if there are squad memebers still alive, one of the other squad members may be removed instead; Zurn Mission Pack, Pg. 45"
+				]
+			},
+			{
+				"name": "Chinese Nationalists",
+				"community": true,
+				"additionalRules": [
+					"Flag - One soldier in an officer squad may replace all their weapons with a flag. Units within 12in may reroll failed Rally Order Tests; Zurn Mission Pack, Pg. 45",
+					"Geurilla Tactics - Chiense Regular and Veteran Infantry gain Fieldcraft; Zurn Mission Pack, Pg. 45",
+					"Localized Support - Chinese forces do not suffer the -1 penalty to arrive from Reserves or when Outflanking; Zurn Mission Pack, Pg. 45",
+					"Bodyguard - If an Officer is wounded by a sniper, if there are squad memebers still alive, one of the other squad members may be removed instead; Zurn Mission Pack, Pg. 45"
+				]
+			},
+			{
+				"name": "Chinese Warlords",
+				"community": true,
+				"additionalRules": [
+					"Flag - One soldier in an officer squad may replace all their weapons with a flag. Units within 12in may reroll failed Rally Order Tests; Zurn Mission Pack, Pg. 45",
+					"Geurilla Tactics - Chiense Regular and Veteran Infantry gain Fieldcraft; Zurn Mission Pack, Pg. 45",
+					"Localized Support - Chinese forces do not suffer the -1 penalty to arrive from Reserves or when Outflanking; Zurn Mission Pack, Pg. 45",
+					"Bodyguard - If an Officer is wounded by a sniper, if there are squad memebers still alive, one of the other squad members may be removed instead; Zurn Mission Pack, Pg. 45"
+				]
 			},
 			{
 				"name": "Finland"
@@ -1245,6 +1272,15 @@
 						"name": "Bulgaria"
 					},
 					{
+						"name": "Chinese Communists"
+					},
+					{
+						"name": "Chinese Nationalists"
+					},
+					{
+						"name": "Chinese Warlords"
+					},
+					{
 						"name": "Finland"
 					},
 					{
@@ -1307,6 +1343,15 @@
 					},
 					{
 						"name": "Bulgaria"
+					},
+					{
+						"name": "Chinese Communists"
+					},
+					{
+						"name": "Chinese Nationalists"
+					},
+					{
+						"name": "Chinese Warlords"
 					},
 					{
 						"name": "Finland"
@@ -1374,6 +1419,15 @@
 					},
 					{
 						"name": "Bulgaria"
+					},
+					{
+						"name": "Chinese Communists"
+					},
+					{
+						"name": "Chinese Nationalists"
+					},
+					{
+						"name": "Chinese Warlords"
 					},
 					{
 						"name": "Finland"
@@ -1449,6 +1503,15 @@
 						"name": "Bulgaria"
 					},
 					{
+						"name": "Chinese Communists"
+					},
+					{
+						"name": "Chinese Nationalists"
+					},
+					{
+						"name": "Chinese Warlords"
+					},
+					{
 						"name": "Finland"
 					},
 					{
@@ -1520,6 +1583,15 @@
 					},
 					{
 						"name": "Bulgaria"
+					},
+					{
+						"name": "Chinese Communists"
+					},
+					{
+						"name": "Chinese Nationalists"
+					},
+					{
+						"name": "Chinese Warlords"
 					},
 					{
 						"name": "Finland"
@@ -1595,6 +1667,15 @@
 						"name": "Bulgaria"
 					},
 					{
+						"name": "Chinese Communists"
+					},
+					{
+						"name": "Chinese Nationalists"
+					},
+					{
+						"name": "Chinese Warlords"
+					},
+					{
 						"name": "Finland"
 					},
 					{
@@ -1666,6 +1747,15 @@
 					},
 					{
 						"name": "Bulgaria"
+					},
+					{
+						"name": "Chinese Communists"
+					},
+					{
+						"name": "Chinese Nationalists"
+					},
+					{
+						"name": "Chinese Warlords"
 					},
 					{
 						"name": "Finland"
@@ -1741,6 +1831,15 @@
 						"name": "Bulgaria"
 					},
 					{
+						"name": "Chinese Communists"
+					},
+					{
+						"name": "Chinese Nationalists"
+					},
+					{
+						"name": "Chinese Warlords"
+					},
+					{
 						"name": "Finland"
 					},
 					{
@@ -1807,6 +1906,15 @@
 					},
 					{
 						"name": "Bulgaria"
+					},
+					{
+						"name": "Chinese Communists"
+					},
+					{
+						"name": "Chinese Nationalists"
+					},
+					{
+						"name": "Chinese Warlords"
 					},
 					{
 						"name": "Finland"
@@ -1997,6 +2105,15 @@
 						"all": [{ "in": "HQ Platoon" }, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "HQ Platoon" }, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon" }, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon" }, { "in": "Chinese Warlords" }]			
+					},
+					{
 						"all": [{ "in": "HQ Platoon" }, { "in": "France" }]			
 					},
 					{
@@ -2078,6 +2195,8 @@
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
+							"Chinese Communists",
+							"Chinese Nationalists",
 							"France",
 							"Greece",
 							"Hungary",
@@ -2098,6 +2217,8 @@
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
+							"Chinese Communists",
+							"Chinese Nationalists",
 							"Finland",
 							"France",
 							"Greece",
@@ -2119,6 +2240,8 @@
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
+							"Chinese Communists",
+							"Chinese Nationalists",
 							"Finland",
 							"France",
 							"Greece",
@@ -2137,6 +2260,7 @@
 						"addsModels": 1,
 						"unlockedByLocal": ["Inexperienced"],
 						"availableIn": [
+							"Chinese Warlords",
 							"Germany", 
 							"Hungary",
 							"Romania",
@@ -2152,6 +2276,7 @@
 						"addsModels": 1,
 						"unlockedByLocal": ["Regular"],
 						"availableIn": [
+							"Chinese Warlords",
 							"Germany",
 							"Hungary",
 							"Romania",
@@ -2167,6 +2292,7 @@
 						"addsModels": 1,
 						"unlockedByLocal": ["Veteran"],
 						"availableIn": [
+							"Chinese Warlords",
 							"Germany",
 							"Romania",
 							"Soviet Union",
@@ -2325,6 +2451,9 @@
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
+							"Chinese Communists",
+							"Chinese Nationalists",
+							"Chinese Warlords",
 							"France",
 							"Greece",
 							"Hungary",
@@ -2332,6 +2461,34 @@
 							"Netherlands",
 							"Norway",
 							"Poland"
+						]
+					},
+					{
+						"name": "Swords",
+						"points": 0,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": [
+							"Chinese Communists",
+							"Chinese Nationalists",
+							"Chinese Warlords"
+						]
+					},
+					{
+						"name": "SMGs",
+						"points": 0,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": [
+							"Chinese Communists",
+							"Chinese Nationalists",
+							"Chinese Warlords"
 						]
 					},
 					{
@@ -2442,6 +2599,31 @@
 						"perModel": true,
 						"availableIn": ["Great Britain"],
 						"unlockedByLocal": "For King and Country! (Airborne)"
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Chinese Warlords"]
+					},
+					{
+						"name": "Battle Flag",
+						"points": 0,
+						"limit": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByLocalStat": [
+                            {
+                                "stat": "models",
+                                "modifier": "above",
+                                "value": 1
+                            }
+                        ],
+						"availableIn": [
+							"Chinese Communists",
+							"Chinese Nationalists",
+							"Chinese Warlords"
+						]
 					},
 					{
 						"name": "Intelligence",
@@ -3974,6 +4156,51 @@
 						"all": [{ "in": "Artillery Platoon" }, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Chinese Warlords" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon" }, { "in": "France" }]			
 					},
 					{
@@ -4235,6 +4462,8 @@
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
+							"Chinese Communists",
+							"Chinese Nationalists",
 							"France",
 							"Greece",
 							"Hungary",
@@ -4255,6 +4484,7 @@
 						"addsModels": 1,
 						"unlockedByLocal": ["Inexperienced"],
 						"availableIn": [
+							"Chinese Warlords",
 							"Germany",
 							"Soviet Union",
 							"Polish Peoples Army (LWP)"
@@ -4282,6 +4512,8 @@
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
+							"Chinese Communists",
+							"Chinese Nationalists",
 							"France",
 							"Greece",
 							"Hungary",
@@ -4302,6 +4534,7 @@
 						"addsModels": 1,
 						"unlockedByLocal": ["Regular"],
 						"availableIn": [
+							"Chinese Warlords",
 							"Germany",
 							"Soviet Union",
 							"Polish Peoples Army (LWP)"
@@ -4329,6 +4562,8 @@
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
+							"Chinese Communists",
+							"Chinese Nationalists",
 							"France",
 							"Greece",
 							"Hungary",
@@ -4349,6 +4584,7 @@
 						"addsModels": 1,
 						"unlockedByLocal": ["Veteran"],
 						"availableIn": [
+							"Chinese Warlords",
 							"Germany",
 							"Soviet Union",
 							"Polish Peoples Army (LWP)"
@@ -4478,6 +4714,9 @@
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
+							"Chinese Communists",
+							"Chinese Nationalists",
+							"Chinese Warlords",
 							"France",
 							"Greece",
 							"Hungary",
@@ -4486,6 +4725,34 @@
 							"Norway",
 							"Partisans",
 							"Poland"
+						]
+					},
+					{
+						"name": "Swords",
+						"points": 0,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": [
+							"Chinese Communists",
+							"Chinese Nationalists",
+							"Chinese Warlords"
+						]
+					},
+					{
+						"name": "SMGs",
+						"points": 0,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": [
+							"Chinese Communists",
+							"Chinese Nationalists",
+							"Chinese Warlords"
 						]
 					},
 					{
@@ -4585,6 +4852,31 @@
 						"perModel": true,
 						"availableIn": ["Great Britain"],
 						"unlockedByLocal": "For King and Country! (Airborne)"
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Chinese Warlords"]
+					},
+					{
+						"name": "Battle Flag",
+						"points": 0,
+						"limit": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByLocalStat": [
+                            {
+                                "stat": "models",
+                                "modifier": "above",
+                                "value": 1
+                            }
+                        ],
+						"availableIn": [
+							"Chinese Communists",
+							"Chinese Nationalists",
+							"Chinese Warlords"
+						]
 					},
 					{
 						"name": "Gebirgsjäger Winter Equipment",
@@ -5017,6 +5309,59 @@
 				"equipment": ["Pistol","Shin Gunto Sword"]
 			},
 			{
+				"name": "Political Officer",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 2,
+				"limits": [
+					{
+						"key": "Special",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 15,
+						"availableIn": ["Chinese Communists"],
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Battle Flag",
+						"points": 0,
+						"limit": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByLocalStat": [
+                            {
+                                "stat": "models",
+                                "modifier": "above",
+                                "value": 1
+                            }
+                        ],
+						"availableIn": ["Chinese Communists"]
+					}
+				],
+				"keywords": ["Aggressive Motivation"],
+				"specialText": "1 Officer",
+				"equipment": ["Pistol"]
+			},
+			{
 				"name": "Kempeitai Officer",
 				"factions": [],
 				"order": 1,
@@ -5217,6 +5562,15 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Belgium)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Warlords)" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Finland" }]			
@@ -6141,6 +6495,24 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Finland" }]			
 					},
 					{
@@ -6233,11 +6605,48 @@
 					{
 						"name": "Regular",
 						"points": 75,
+						"availableIn": [
+							"Belgium",
+							"Bulgaria",
+							"Finland",
+							"France",
+							"Germany",
+							"Great Britain",
+							"Greece",
+							"Hungary",
+							"Italy",
+							"Netherlands",
+							"Norway",
+							"Poland",
+							"Romania",
+							"Sweden",
+							"United States of America"
+						],
 						"requireChooseOneKey": "morale"
 					},
 					{
 						"name": "Veteran",
 						"points": 90,
+						"availableIn": [
+							"Belgium",
+							"Bulgaria",
+							"Chinese Communists",
+							"Chinese Nationalists",
+							"Chinese Warlords",
+							"Finland",
+							"France",
+							"Germany",
+							"Great Britain",
+							"Greece",
+							"Hungary",
+							"Italy",
+							"Netherlands",
+							"Norway",
+							"Poland",
+							"Romania",
+							"Sweden",
+							"United States of America"
+						],
 						"requireChooseOneKey": "morale"
 					},
 					{
@@ -7095,6 +7504,15 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
 					},
@@ -10182,6 +10600,107 @@
 				"equipment": ["Anti-Tank Rifle"]
 			},
 			{
+				"name": "Suicide AT Team",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 14,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 20,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 26,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Infiltrators"],
+				"specialText": "1 Soldier",
+				"equipment": ["AT Mine"]
+			},
+			{
+				"name": "Suicide AT Team - Heavy Weapons Platoon",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 14,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 20,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 26,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Infiltrators"],
+				"specialText": "1 Soldier",
+				"equipment": ["AT Mine"]
+			},
+			{
 				"name": "Blacker Bombard Anti-Tank Team",
 				"factions": [],
 				"order": 1,
@@ -10479,6 +10998,24 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
@@ -10585,6 +11122,15 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
 					}
 				],
@@ -10687,6 +11233,15 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
 					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
 					},
@@ -12867,6 +13422,98 @@
 				"equipment": []
 			},
 			{
+				"name": "Light Mortar Team (C)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Mortar",
+						"limit": 2,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 21,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 30,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 39,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": [],
+				"specialText": "1 Mortar Operator\n 1 Weapon Assitants",
+				"equipment": ["Light Mortar"]
+			},
+			{
+				"name": "Light Mortar Team (C) Heavy Weapons Platoon",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 2,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 21,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 30,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 39,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": [],
+				"specialText": "1 Mortar Operator\n 1 Weapon Assitants",
+				"equipment": ["Light Mortar"]
+			},
+			{
 				"name": "Light Mortar Team (F|S)",
 				"factions": [],
 				"order": 1,
@@ -13979,15 +14626,24 @@
 				"equipment": ["Medium Mortar"]
 			},
 			{
-				"name": "Medium Mortar Team (F)",
+				"name": "Medium Mortar Team (C|F)",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
 					}
 				],
-				"points": 36,
+				"points": 0,
 				"models": 3,
 				"sortPriority": 3,
 				"limits": [
@@ -14132,6 +14788,61 @@
 				"keywords": ["Period: E|M|L","Fanatics","No Smoke Rounds"],
 				"specialText": "1 Mortar Operator\n 2 Weapon Assitants",
 				"equipment": ["Medium Mortar"]
+			},
+			{
+				"name": "Heavy Mortar Team (C)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 46,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 64,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": 1,
+						"addsModels": 1,
+						"availableIn": ["France"]
+					}
+				],
+				"keywords": [],
+				"specialText": "1 Mortar Operator\n 3 Weapon Assitants",
+				"equipment": ["Heavy Mortar"]
 			},
 			{
 				"name": "Heavy Mortar Team",
@@ -14416,13 +15127,22 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists" }]
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Nationalists" }]
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Warlords" }]
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Polish Peoples Army (LWP)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Polish Peoples Army (LWP)" }]
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Soviet Union" }]			
@@ -14458,6 +15178,15 @@
 					{
 						"name": "Veteran",
 						"points": 65,
+						"availableIn": [
+							"Chinese Nationalists",
+							"France",
+							"Great Britain",
+							"Polish Peoples Army (LWP)",
+							"Soviet Union",
+							"Sweden",
+							"United States of America"
+						],
 						"requireChooseOneKey": "morale"
 					},
 					{
@@ -14883,6 +15612,46 @@
 					}
 				],
 				"keywords": ["Period: E|M|L"],
+				"specialText": "1 MG Operator\n 3 Weapon Assitants",
+				"equipment": ["HMG"]
+			},
+			{
+				"name": "DSHK Heavy Machine Gun Team (CC)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists" }]			
+					}
+				],
+				"points": 0,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Pintle Mounted Tripod",
+						"points": 5,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": [],
 				"specialText": "1 MG Operator\n 3 Weapon Assitants",
 				"equipment": ["HMG"]
 			},
@@ -15851,6 +16620,1348 @@
 				"keywords": [],
 				"specialText": "1 NCO\n 4 Riflemen",
 				"equipment": []
+			},
+			{
+				"name": "Nationalist Infantry Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 7,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 91,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Upgrade LMG to MG34",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["LMG"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Engineers",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Initiative Trainin (Veteran Only)"],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Nationalist Infantry Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 7,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 91,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Upgrade LMG to MG34",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["LMG"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Engineers",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Initiative Training (Veteran Only)"],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Warlord Infantry Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 7,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 91,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Engineers",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Stubborn",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": [],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Warlord Infantry Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 7,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 91,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Engineers",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Stubborn",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": [],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Communist Infantry Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists" }]			
+					}
+				],
+				"points": 0,
+				"models": 7,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 91,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Engineers",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Fanatics",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": [],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Communist Infantry Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists" }]			
+					}
+				],
+				"points": 0,
+				"models": 7,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 91,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Engineers",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Fanatics",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": [],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Nationalist X and Y Force Infantry Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 7,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 56,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 77,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 98,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 8,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Automatic Rifle",
+						"points": 6,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Engineers",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Stubborn"],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Nationalist X and Y Force Infantry Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 7,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 56,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 77,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 98,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 8,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Automatic Rifle",
+						"points": 6,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Engineers",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Stubborn"],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Nationalist Big Sword Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 7,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 117,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 17,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Tough Fighters","Fanatics","Reckless Charge"],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
+				"equipment": ["Rifles and Swords"]
+			},
+			{
+				"name": "Nationalist Big Sword Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 7,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 117,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 17,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Tough Fighters","Fanatics","Reckless Charge"],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
+				"equipment": ["Rifles and Swords"]
+			},
+			{
+				"name": "Guerilla Cell",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 27,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 36,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 45,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 9,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Fanatics",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Chinese Communists"],
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Infiltrator","Fieldcraft"],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 2 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Guerilla Cell",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 27,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 36,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 45,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 9,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Fanatics",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Chinese Communists"],
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Infiltrator","Fieldcraft"],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 2 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Scout Team",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 45,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"availableIn": [
+							"Chinese Communists",
+							"Chinese Warlords"
+						],
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Stubborn",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Chinese Warlords"],
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Infiltrator","Behind Enemy Lines"],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 2 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Scout Team",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 45,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"availableIn": [
+							"Chinese Communists",
+							"Chinese Warlords"
+						],
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Stubborn",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Chinese Warlords"],
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Infiltrator","Behind Enemy Lines"],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 2 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Cavalry Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Stubborn",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Chinese Warlords"],
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Horses","Behind Enemy Lines"],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 5 Soldiers",
+				"equipment": ["Cavalry Carbines"]
+			},
+			{
+				"name": "Cavalry Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Stubborn",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Chinese Warlords"],
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Horses","Behind Enemy Lines"],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 5 Soldiers",
+				"equipment": ["Cavalry Carbines"]
 			},
 			{
 				"name": "Alarm Unit",
@@ -36262,6 +38373,1318 @@
 				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG"]
 			},
 			{
+				"name": "Light Anti-Tank Gun (C)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": [],
+				"specialText": "3 Crew Members",
+				"equipment": ["Light AT Gun","Gun Shield"]
+			},
+			{
+				"name": "Anti-Aircraft Gun",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 25,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 46,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": [],
+				"specialText": "3 Crew Members",
+				"equipment": ["Pintle Mounted Light Autocannon"]
+			},
+			{
+				"name": "Heavy Anti-Aircraft Gun",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 45,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 56,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": [],
+				"specialText": "3 Crew Members",
+				"equipment": ["Pintle Mounted Heavy Autocannon"]
+			},
+			{
+				"name": "Civilian Car (C)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 14,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 18,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 22,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Damage Value: 6+","Transport"],
+				"specialText": "Transport: 3",
+				"equipment": []
+			},
+			{
+				"name": "Civilian Car (C) - Recce",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 14,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 18,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 22,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Damage Value: 6+","Transport"],
+				"specialText": "Transport: 3",
+				"equipment": []
+			},
+			{
+				"name": "Jeep (C)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 14,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 18,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 22,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Damage Value: 6+","Transport","Tow"],
+				"specialText": "Transport: 3\n Tow: L AT Gun",
+				"equipment": []
+			},
+			{
+				"name": "Jeep (C) - Recce",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 14,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 18,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 22,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Damage Value: 6+","Transport","Tow"],
+				"specialText": "Transport: 3\n Tow: L AT Gun",
+				"equipment": []
+			},
+			{
+				"name": "Light Truck (C)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 18,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 23,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Front Facing Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Damage Value: 6+","Transport","Tow"],
+				"specialText": "Transport: 8\n Tow: L/M AT Gun; L Howitzer; L AA Gun",
+				"equipment": []
+			},
+			{
+				"name": "Light Truck (C) - Recce",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 18,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 23,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Front Facing Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Damage Value: 6+","Transport","Tow"],
+				"specialText": "Transport: 8\n Tow: L/M AT Gun; L Howitzer; L AA Gun",
+				"equipment": []
+			},
+			{
+				"name": "Medium Truck (C)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 22,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 27,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Front Facing Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Damage Value: 6+","Transport","Tow"],
+				"specialText": "Transport: 12\n Tow: L/M AT Gun; L Howitzer; L AA Gun",
+				"equipment": []
+			},
+			{
+				"name": "Medium Truck (C) - Recce",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 22,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 27,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Front Facing Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Damage Value: 6+","Transport","Tow"],
+				"specialText": "Transport: 12\n Tow: L/M AT Gun; L Howitzer; L AA Gun",
+				"equipment": []
+			},
+			{
+				"name": "Buessing-Nag Truck (C)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 24,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 29,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Front Facing Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Damage Value: 6+","Transport","Tow"],
+				"specialText": "Transport: 14\n Tow: L/M AT Gun; L/M Howitzer; L/H AA Gun",
+				"equipment": []
+			},
+			{
+				"name": "Buessing-Nag Truck (C) - Recce",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 24,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 29,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Front Facing Pintle Mounted MMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Damage Value: 6+","Transport","Tow"],
+				"specialText": "Transport: 14\n Tow: L/M AT Gun; L/M Howitzer; L/H AA Gun",
+				"equipment": []
+			},
+			{
+				"name": "Artillery Tractor (C)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 12,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 15,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Damage Value: 6+","Tow"],
+				"specialText": "Tow: Any",
+				"equipment": []
+			},
+			{
+				"name": "Artillery Tractor (C) - Recce",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 12,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 15,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Damage Value: 6+","Tow"],
+				"specialText": "Tow: Any",
+				"equipment": []
+			},
+			{
+				"name": "Armored Artillery Tractor (C)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 32,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Damage Value: 7+","Tow"],
+				"specialText": "Tow: Any",
+				"equipment": []
+			},
+			{
+				"name": "Armored Artillery Tractor (C) - Recce",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 32,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Damage Value: 7+","Tow"],
+				"specialText": "Tow: Any",
+				"equipment": []
+			},
+			{
+				"name": "Horse Drawn Limber (C)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 8,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 10,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Damage Value: 3+","Tow","Slow when Limbered"],
+				"specialText": "Tow: Any",
+				"equipment": []
+			},
+			{
+				"name": "Horse Drawn Limber (C) - Recce",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 8,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 10,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Damage Value: 3+","Tow","Slow when Limbered"],
+				"specialText": "Tow: Any",
+				"equipment": []
+			},
+			{
+				"name": "M3 White Scout Car (C)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 54,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 68,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 82,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Left/Rear Facing Pintle Mounted MMG",
+						"points": 15,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Right/Rear Facing Pintle Mounted MMG",
+						"points": 15,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Damage Value: 7+","Tow","Transport","Wheeled Vehicle"],
+				"specialText": "Transport: 8\n Tow: L/M AT Gun; L Howitzer; L AA Gun",
+				"equipment": ["Hull Mounted HMG"]
+			},
+			{
+				"name": "M3 White Scout Car (C) - Recce",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists" }]	
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 54,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 68,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 82,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Left/Rear Facing Pintle Mounted MMG",
+						"points": 15,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Right/Rear Facing Pintle Mounted MMG",
+						"points": 15,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Damage Value: 7+","Tow","Transport","Wheeled Vehicle"],
+				"specialText": "Transport: 8\n Tow: L/M AT Gun; L Howitzer; L AA Gun",
+				"equipment": ["Hull Mounted HMG"]
+			},
+			{
+				"name": "M2 Half Track Transport (C)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 56,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 84,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Hull Mounted HMG",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 5,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Rear Facing Pintle Mounted HMG",
+						"points": 15
+					},
+					{
+						"name": "Port Facing Pintle Mounted HMG",
+						"points": 15
+					},
+					{
+						"name": "STBD Facing Pintle Mounted HMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Damage Value: 7+","Tow","Transport","Half Track Vehicle","Open Topped"],
+				"specialText": "Transport: 10\n Tow: L/M/H AT Gun; L/M Howitzer; L/H AA Gun",
+				"equipment": []
+			},
+			{
+				"name": "M2 Half Track Transport (C) - Recce",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists" }]	
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 56,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 84,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Hull Mounted HMG",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"points": 5,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Rear Facing Pintle Mounted HMG",
+						"points": 15
+					},
+					{
+						"name": "Port Facing Pintle Mounted HMG",
+						"points": 15
+					},
+					{
+						"name": "STBD Facing Pintle Mounted HMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Damage Value: 7+","Tow","Transport","Half Track Vehicle","Open Topped"],
+				"specialText": "Transport: 10\n Tow: L/M/H AT Gun; L/M Howitzer; L/H AA Gun",
+				"equipment": []
+			},
+			{
+				"name": "Universal Carrier (C)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 40,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Hull Mounted LMG",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Hull Mounted AT Rifle",
+						"points": 10,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Damage Value: 7+","Tow","Transport","Open Topped","Turn on the Spot"],
+				"specialText": "Transport: 5\n Tow: L/M AT Gun",
+				"equipment": []
+			},
+			{
+				"name": "Universal Carrier (C) - Recce",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists" }]	
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 40,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Hull Mounted LMG",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Hull Mounted AT Rifle",
+						"points": 10,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Damage Value: 7+","Tow","Transport","Open Topped","Turn on the Spot"],
+				"specialText": "Transport: 5\n Tow: L/M AT Gun",
+				"equipment": []
+			},
+			{
 				"name": "Light Anti-Tank Gun",
 				"factions": [],
 				"order": 1,
@@ -36318,6 +39741,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists" }]			
+					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
 					}
@@ -36439,10 +39865,19 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
 					}
 				],
-				"points": 32,
+				"points": 0,
 				"models": 3,
 				"sortPriority": 3,
 				"limits": [
@@ -36469,6 +39904,17 @@
 						"requireChooseOneKey": "morale"
 					},
 					{
+						"name": "Additional Men",
+						"points": 5,
+						"increment": true,
+						"availableIn": [
+							"Chinese Communists",
+							"Chinese Warlords"
+						],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
 						"name": "Gun Shield",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 5
@@ -36483,6 +39929,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
 					}
@@ -36534,6 +39983,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
 					}
@@ -49060,6 +52512,1059 @@
 				"keywords": ["Period: E|M|L","Damage Value: 6+","Wheeled","Transport","Tow"],
 				"specialText": "Transport: 3\n Tow: L AT Gun",
 				"equipment": []
+			},
+			{
+				"name": "Renault FT-17/18 w/ MMG",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 24,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 30,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 36,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value: 7+","One Man Turret","Slow... Pitifully Slow"],
+				"equipment": ["Turret Mounted MMG"]
+			},
+			{
+				"name": "Renault FT-17/18 w/ Light AT Gun",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 54,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 66,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value: 7+","One Man Turret","Slow... Pitifully Slow"],
+				"equipment": ["Turret Mounted Low Velocity AT Gun"]
+			},
+			{
+				"name": "Vickers Carden-Lloyd M1931 Amphibious Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 48,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 72,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Top Armor",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 5
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value: 7+","Open Topped (without Top Armor)","Amphibious","Unreliable"],
+				"equipment": ["Hull Mounted MMG"]
+			},
+			{
+				"name": "Carden-Lloyd Mk VI Tankette",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 42,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 68,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Top Armor",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 5
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value: 7+","Open Topped (without Top Armor)"],
+				"equipment": ["Hull Mounted MMG"]
+			},
+			{
+				"name": "Panzer I (C)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 56,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value: 7+","Open Topped (without Top Armor)"],
+				"equipment": ["Turret Mounted Twin MMGs"]
+			},
+			{
+				"name": "Sutton Skunk Holt Armored Vehicle",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 82,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 100,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 124,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value: 7+","Slow","Undermanned"],
+				"equipment": ["Hull Mounted Twin Automatic Rifles","Rear Facing Hull Mounted Twin Medium Mortars"]
+			},
+			{
+				"name": "Captured Type 95 Ha-Go Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 76,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 95,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 114,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value: 7+","One Man Turret"],
+				"equipment": ["Turret Mounted Low Velocity Light AT Gun","Rear Facing Turret Mounted MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Captured Type 97 Chi-Ha Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 112,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 135,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 158,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value: 8+"],
+				"equipment": ["Turret Mounted Light Howitzer","Rear Facing Turret Mounted MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Captured Type 97 Kai Shinhoto Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 132,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 155,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 178,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value: 8+"],
+				"equipment": ["Turret Mounted Medium AT Gun","Rear Facing Turret Mounted MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Soviet BT-5 Light Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 102,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 125,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 148,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value: 8+"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Soviet BT-7 Light Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 102,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 125,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 148,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value: 8+"],
+				"equipment": ["Turret Mounted Light Howitzer","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "T-26 Model 1933 / Vickers 6-Ton Mk E Type B Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 91,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 105,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 119,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value: 7+"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "M3 A3 Stuart V Light Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 108,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 135,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 172,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Vulnerable",
+						"points": 0,
+						"requireChooseOneKey": "vul"
+					},
+					{
+						"name": "Non-Vulnerable",
+						"points": -15,
+						"requireChooseOneKey": "vul"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value: 8+"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "M4 Sherman 75mm Medium Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 168,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 210,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 262,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Easily Catches Fire",
+						"points": -5,
+						"requireChooseOneKey": "vul"
+					},
+					{
+						"name": "Easily Catches Fire and Thin Sides",
+						"points": -15,
+						"requireChooseOneKey": "vul"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value: 9+"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Universal Carrier w/ Mortar",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 80,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 90,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 100,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Hull Mounted LMG",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Hull Mounted AT Rifle",
+						"points": 10,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"points": 15
+					}
+				],
+				"keywords": ["Damage Value: 7+","Open Topped","Turn on the Spot"],
+				"specialText": "",
+				"equipment": ["Hull Mounted Medium Mortar"]
+			},
+			{
+				"name": "Citroen Kegresse B2 Armored Half-Track",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 56,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 69,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value: 7+","Recce"],
+				"equipment": ["Turret Mounted LMG"]
+			},
+			{
+				"name": "Sd.Kfz 221 Light Armored Car",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 42,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 78,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value: 7+","Recce"],
+				"equipment": ["Turret Mounted MMG"]
+			},
+			{
+				"name": "Sd.Kfz 222 Light Armored Car",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 72,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 90,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 108,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value: 7+","Recce"],
+				"equipment": ["Turret Mounted Light Autocannon","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "BA-10 Heavy Armored Car",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 112,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 125,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 138,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value: 7+","Recce"],
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial LMG","Hull Mounted LMG"]
+			},
+			{
+				"name": "BA-20M Heavy Armored Car",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 52,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 78,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Turret Mounted LMG",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Turret Mounted Flamethrower",
+						"points": 45,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value: 7+","Recce"],
+				"equipment": []
+			},
+			{
+				"name": "Captured Type 92 Hokoku-Go Armored Car",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Communists" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 61,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 75,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Damage Value: 7+","Recce"],
+				"equipment": ["Turret Mounted MMG","Hull Mounted LMG"]
+			},
+			{
+				"name": "M3 White Scout Car (C)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 54,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 68,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 82,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Left/Rear Facing Pintle Mounted MMG",
+						"points": 15,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Right/Rear Facing Pintle Mounted MMG",
+						"points": 15,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Damage Value: 7+","Wheeled Vehicle","Recce"],
+				"specialText": "",
+				"equipment": ["Hull Mounted HMG"]
 			},
 			{
 				"name": "Saint-Chamond",
