@@ -192,6 +192,11 @@
 				]
 			},
 			{
+				"name": "Denmark",
+				"community": true,
+				"additionalRules": ["TBC"]
+			},
+			{
 				"name": "Finland"
 			},
 			{
@@ -260,6 +265,11 @@
 			},
 			{
 				"name": "Romania"
+			},
+			{
+				"name": "Slovakia",
+				"community": true,
+				"additionalRules": ["TBC"]
 			},
 			{
 				"name": "Soviet Union"
@@ -5044,19 +5054,19 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon" }, { "in": "Greece" }]			
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Partisans" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon" }, { "in": "Greece" }]			
+						"all": [{ "in": "Recce Platoon" }, { "in": "Partisans" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon" }, { "in": "Greece" }]			
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Partisans" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Greece" }]			
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Partisans" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon" }, { "in": "Greece" }]			
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Partisans" }]			
 					}
 				],
 				"points": 0,
