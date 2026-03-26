@@ -23,7 +23,7 @@
 	},
     {
 		"property": "campaign",
-		"label": "Include Campaign Rules",
+		"label": "Include Official Campaign Rules",
 		"default": false
 	},
 	{
@@ -36,11 +36,6 @@
 		"label": "Include Compendium Rules",
 		"default": false
 	},
-    {
-		"property": "experimental",
-		"label": "Include Experimental Rules",
-		"default": false
-    },
     {
 		"property": "special",
 		"label": "Include Special Rules",
@@ -1804,7 +1799,7 @@
 				"name": "Air Support",
 				"unlimited": false,
 				"specialText": "These are optional experimental rules from the Bolt Action Community website. Not for Events unless stated in the packet or by the TO.\n Aircraft: 1",
-				"experimental": true,
+				"special": true,
 				"decreaseModelCount": 1,
 				"factions": [
 					{
