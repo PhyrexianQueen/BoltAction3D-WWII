@@ -274,10 +274,11 @@
 			{
 				"name": "Slovakia",
 				"community": true,
-				"additionalRules": ["TBC"]
+				"additionalRules": ["Take Cover - Any Infantry or Artillery unit with an Order other than Down may choose to change their order to Down when fired upon. If they do, that Order does not return to the bag at the end of the turn and does not remove Pins for keeping the Down Order; Zurn Mission Pack, Pg. 66","Jury-Riffed Machinery - Slovak Vehicles ignore One Pin when modifying their morale, but must still make an Order Test when they have One Pin; Zurn Mission Pack, Pg. 66","Limited Officers - Once Per game, when a Platoon Commander is killed, the nearest NCO is upgraded to a Platoon Commander; Zurn Mission Pack, Pg. 66"]
 			},
 			{
-				"name": "Soviet Union"
+				"name": "Soviet Union",
+				"additionalRules": ["The Great Patriotic War - Whenever an Infantry or Artillery Unit fails a morale check and would be desroyed as a result, take the test again and apply the second result; Bolt Action, 3rd Edition Soviet Union Army Book: Pg. 27","For the Motherland! - Every Inexperienced Unit that has one or more Pins and an enemy unit within 12in may take a test immediately before recieving an Order. Roll a D6. 4,5,6: Remove 1 Pin. 1,2,3: Nothing happens. You must still take an order test, even if no pins remain; Bolt Action, 3rd Edition Soviet Union Army Book: Pg. 27","Lack of Radios - During List Building, when giving a vehicle the Command Vehicle rule, instead of paying 10pts, you may instead take this rule for Free but reduce the range of Command Vehicle to 6in instead of 12in; Bolt Action, 3rd Edition Soviet Union Army Book: Pg. 28","MAssed Batteries - When rolling to determine Fire for Effect! during an Artillery Strike, roll 2 Dice instead of one and choose the higher value; Bolt Action, 3rd Edition Soviet Union Army Book: Pg. 28","Flying Tank - When a Soviet Forward Air Observer calls in an Air Strike, 4,5,6 are considered Ground-Attack Aircraft. Additionally, if a ground-attack aircraft type is rolled, driving away the aircraft requires 5 hits instead of the usual 3; Bolt Action, 3rd Edition Soviet Union Army Book: Pg. 28","Not One Step Back! - When a friendly Infantry Unit with 3 or more Models fails an Order Test within 6in of a Commissar, remove a model from the unit and re-roll the dice; Bolt Action, 3rd Edition Soviet Union Army Book: Pg. 28","Hammer and Sickle - Gain Access to the Airborne, NKVD, and Naval Brigade special rules; Bolt Action, 3rd Edition Soviet Union Army Book: Pg. 28"]
 			},
 			{
 				"name": "Sweden",
