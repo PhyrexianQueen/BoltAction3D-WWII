@@ -76740,9 +76740,6 @@
 				"factions": [],
 				"availableIn": [
 					{
-						"all": [{ "in": "Fortifications and Defenses"	}, { "in": "Danish Partisans" }]	
-					},
-					{
 						"all": [{ "in": "Fortifications and Defenses"	}, { "in": "Danish Regulars" }]	
 					}
 				],
@@ -76757,9 +76754,6 @@
 				"name": "Danish Weapon or Gun Pit",
 				"factions": [],
 				"availableIn": [
-					{
-						"all": [{ "in": "Fortifications and Defenses"	}, { "in": "Danish Partisans" }]	
-					},
 					{
 						"all": [{ "in": "Fortifications and Defenses"	}, { "in": "Danish Regulars" }]	
 					}
