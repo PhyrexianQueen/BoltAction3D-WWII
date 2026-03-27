@@ -192,9 +192,14 @@
 				]
 			},
 			{
-				"name": "Denmark",
+				"name": "Danish Regulars",
 				"community": true,
-				"additionalRules": ["TBC"]
+				"additionalRules": ["Copenhagen Reserves - Inexperienced Units gain Stubborn; Zurn Mission Pack, Pg. 59","Sealand Defenders - While in Cover, Infantry and Artillery Units add +1 to their Damage Value Table; Zurn Mission Pack, Pg. 59","Masnedo Fort Defenders - You may take 2 bunkers for free, you may trade out these bunkers for Gun Pits; Zurn Mission Pack, Pg. 59"]
+			},
+			{
+				"name": "Danish Partisans",
+				"community": true,
+				"additionalRules": ["Copenhagen Reserves - Inexperienced Units gain Stubborn; Zurn Mission Pack, Pg. 59","Sealand Defenders - While in Cover, Infantry and Artillery Units add +1 to their Damage Value Table; Zurn Mission Pack, Pg. 59","Partisan Activities - All Danish Infantry Sections gain the Fieldcraft Special Rule. Danish Artillery Units may start the game on Ambush if desired; Zurn Mission Pack, Pg. 59"]
 			},
 			{
 				"name": "Finland"
@@ -1291,6 +1296,12 @@
 						"name": "Chinese Warlords"
 					},
 					{
+						"name": "Danish Partisans"
+					},
+					{
+						"name": "Danish Regulars"
+					},
+					{
 						"name": "Finland"
 					},
 					{
@@ -1362,6 +1373,12 @@
 					},
 					{
 						"name": "Chinese Warlords"
+					},
+					{
+						"name": "Danish Partisans"
+					},
+					{
+						"name": "Danish Regulars"
 					},
 					{
 						"name": "Finland"
@@ -1438,6 +1455,12 @@
 					},
 					{
 						"name": "Chinese Warlords"
+					},
+					{
+						"name": "Danish Partisans"
+					},
+					{
+						"name": "Danish Regulars"
 					},
 					{
 						"name": "Finland"
@@ -1522,6 +1545,12 @@
 						"name": "Chinese Warlords"
 					},
 					{
+						"name": "Danish Partisans"
+					},
+					{
+						"name": "Danish Regulars"
+					},
+					{
 						"name": "Finland"
 					},
 					{
@@ -1602,6 +1631,12 @@
 					},
 					{
 						"name": "Chinese Warlords"
+					},
+					{
+						"name": "Danish Partisans"
+					},
+					{
+						"name": "Danish Regulars"
 					},
 					{
 						"name": "Finland"
@@ -1686,6 +1721,12 @@
 						"name": "Chinese Warlords"
 					},
 					{
+						"name": "Danish Partisans"
+					},
+					{
+						"name": "Danish Regulars"
+					},
+					{
 						"name": "Finland"
 					},
 					{
@@ -1766,6 +1807,12 @@
 					},
 					{
 						"name": "Chinese Warlords"
+					},
+					{
+						"name": "Danish Partisans"
+					},
+					{
+						"name": "Danish Regulars"
 					},
 					{
 						"name": "Finland"
@@ -1850,6 +1897,12 @@
 						"name": "Chinese Warlords"
 					},
 					{
+						"name": "Danish Partisans"
+					},
+					{
+						"name": "Danish Regulars"
+					},
+					{
 						"name": "Finland"
 					},
 					{
@@ -1925,6 +1978,12 @@
 					},
 					{
 						"name": "Chinese Warlords"
+					},
+					{
+						"name": "Danish Partisans"
+					},
+					{
+						"name": "Danish Regulars"
 					},
 					{
 						"name": "Finland"
@@ -2124,6 +2183,12 @@
 						"all": [{ "in": "HQ Platoon" }, { "in": "Chinese Warlords" }]			
 					},
 					{
+						"all": [{ "in": "HQ Platoon" }, { "in": "Danish Partisans" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon" }, { "in": "Danish Regulars" }]			
+					},
+					{
 						"all": [{ "in": "HQ Platoon" }, { "in": "France" }]			
 					},
 					{
@@ -2181,19 +2246,98 @@
 				],
 				"options": [
 					{
+						"name": "Inexperienced (Danish)",
+						"points": 42,
+						"requireChooseOneKey": "morale",
+						"availableIn": [
+							"Danish Partisans",
+							"Danish Regulars"
+						]
+					},
+					{
 						"name": "Inexperienced",
 						"points": 42,
-						"requireChooseOneKey": "morale"
+						"requireChooseOneKey": "morale",
+						"availableIn": [
+							"Belgium",
+							"Bulgaria",
+							"Chinese Communists",
+							"Chinese Nationalists",
+							"Chinese Warlords",
+							"Danish Partisans",
+							"Danish Regulars",
+							"Finland",
+							"France",
+							"Germany",
+							"Great Britain",
+							"Greece",
+							"Hungary",
+							"Italy",
+							"Japan",
+							"Netherlands",
+							"Partisans",
+							"Poland",
+							"Romania",
+							"Soviet Union",
+							"Sweden",
+							"United States of America"
+						]
 					},
 					{
 						"name": "Regular",
 						"points": 60,
-						"requireChooseOneKey": "morale"
+						"requireChooseOneKey": "morale",
+						"availableIn": [
+							"Belgium",
+							"Bulgaria",
+							"Chinese Communists",
+							"Chinese Nationalists",
+							"Chinese Warlords",
+							"Danish Partisans",
+							"Danish Regulars",
+							"Finland",
+							"France",
+							"Germany",
+							"Great Britain",
+							"Greece",
+							"Hungary",
+							"Italy",
+							"Japan",
+							"Netherlands",
+							"Partisans",
+							"Poland",
+							"Romania",
+							"Soviet Union",
+							"Sweden",
+							"United States of America"
+						]
 					},
 					{
 						"name": "Veteran",
 						"points": 78,
-						"requireChooseOneKey": "morale"
+						"requireChooseOneKey": "morale",
+						"availableIn": [
+							"Belgium",
+							"Bulgaria",
+							"Chinese Communists",
+							"Chinese Nationalists",
+							"Chinese Warlords",
+							"Finland",
+							"France",
+							"Germany",
+							"Great Britain",
+							"Greece",
+							"Hungary",
+							"Italy",
+							"Japan",
+							"Netherlands",
+							"Partisans",
+							"Poland",
+							"Romania",
+							"Soviet Union",
+							"Sweden",
+							"United States of America"
+						]
 					},	
 					{
 						"name": "Additional Men",
@@ -2201,12 +2345,14 @@
 						"increment": true,
 						"max": 2,
 						"addsModels": 1,
-						"unlockedByLocal": ["Inexperienced"],
+						"unlockedByLocal": ["Inexperienced (Danish)","Inexperienced"],
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
 							"Chinese Communists",
 							"Chinese Nationalists",
+							"Danish Partisans",
+							"Danish Regulars",
 							"France",
 							"Greece",
 							"Hungary",
@@ -2229,6 +2375,8 @@
 							"Bulgaria",
 							"Chinese Communists",
 							"Chinese Nationalists",
+							"Danish Partisans",
+							"Danish Regulars",
 							"Finland",
 							"France",
 							"Greece",
@@ -2457,13 +2605,15 @@
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 3,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByLocal": ["Inexperienced (Danish)","Inexperienced","Regular","Veteran"],
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
 							"Chinese Communists",
 							"Chinese Nationalists",
 							"Chinese Warlords",
+							"Danish Partisans",
+							"Danish Regulars",
 							"France",
 							"Greece",
 							"Hungary",
@@ -2494,11 +2644,13 @@
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 3,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByLocal": ["Inexperienced (Danish)","Inexperienced","Regular","Veteran"],
 						"availableIn": [
 							"Chinese Communists",
 							"Chinese Nationalists",
-							"Chinese Warlords"
+							"Chinese Warlords",
+							"Danish Partisans",
+							"Danish Regulars"
 						]
 					},
 					{
@@ -2811,7 +2963,7 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "HQ Platoon" }, { "in": "Japan" }]			
-					}
+					} 
 				],
 				"points": 0,
 				"models": 1,
@@ -4211,6 +4363,36 @@
 						"all": [{ "in": "Artillery Platoon" }, { "in": "Chinese Warlords" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Danish Partisans" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Danish Partisans" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Danish Partisans" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Danish Partisans" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Danish Partisans" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Danish Regulars" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Danish Regulars" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Danish Regulars" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Danish Regulars" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Danish Regulars" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon" }, { "in": "France" }]			
 					},
 					{
@@ -4448,19 +4630,96 @@
 				],
 				"options": [
 					{
+						"name": "Inexperienced (Danish)",
+						"points": 21,
+						"requireChooseOneKey": "morale",
+						"availableIn": [
+							"Danish Partisans",
+							"Danish Regulars"
+						]
+					},
+					{
 						"name": "Inexperienced",
 						"points": 21,
-						"requireChooseOneKey": "morale"
+						"requireChooseOneKey": "morale",
+						"availableIn": [
+							"Belgium",
+							"Bulgaria",
+							"Chinese Communists",
+							"Chinese Nationalists",
+							"Chinese Warlords",
+							"Finland",
+							"France",
+							"Germany",
+							"Great Britain",
+							"Greece",
+							"Hungary",
+							"Italy",
+							"Japan",
+							"Netherlands",
+							"Partisans",
+							"Poland",
+							"Romania",
+							"Soviet Union",
+							"Sweden",
+							"United States of America"
+						]
 					},
 					{
 						"name": "Regular",
 						"points": 30,
-						"requireChooseOneKey": "morale"
+						"requireChooseOneKey": "morale",
+						"availableIn": [
+							"Belgium",
+							"Bulgaria",
+							"Chinese Communists",
+							"Chinese Nationalists",
+							"Chinese Warlords",
+							"Danish Partisans",
+							"Danish Regulars",
+							"Finland",
+							"France",
+							"Germany",
+							"Great Britain",
+							"Greece",
+							"Hungary",
+							"Italy",
+							"Japan",
+							"Netherlands",
+							"Partisans",
+							"Poland",
+							"Romania",
+							"Soviet Union",
+							"Sweden",
+							"United States of America"
+						]
 					},
 					{
 						"name": "Veteran",
 						"points": 39,
-						"requireChooseOneKey": "morale"
+						"requireChooseOneKey": "morale",
+						"availableIn": [
+							"Belgium",
+							"Bulgaria",
+							"Chinese Communists",
+							"Chinese Nationalists",
+							"Chinese Warlords",
+							"Finland",
+							"France",
+							"Germany",
+							"Great Britain",
+							"Greece",
+							"Hungary",
+							"Italy",
+							"Japan",
+							"Netherlands",
+							"Partisans",
+							"Poland",
+							"Romania",
+							"Soviet Union",
+							"Sweden",
+							"United States of America"
+						]
 					},
 					{
 						"name": "Additional Men",
@@ -4468,12 +4727,14 @@
 						"increment": true,
 						"max": 2,
 						"addsModels": 1,
-						"unlockedByLocal": ["Inexperienced"],
+						"unlockedByLocal": ["Inexperienced (Danish)","Inexperienced"],
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
 							"Chinese Communists",
 							"Chinese Nationalists",
+							"Danish Partisans",
+							"Danish Regulars",
 							"France",
 							"Greece",
 							"Hungary",
@@ -4524,6 +4785,8 @@
 							"Bulgaria",
 							"Chinese Communists",
 							"Chinese Nationalists",
+							"Danish Partisans",
+							"Danish Regulars",
 							"France",
 							"Greece",
 							"Hungary",
@@ -4720,13 +4983,15 @@
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 3,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByLocal": ["Inexperienced (Danish)","Inexperienced","Regular","Veteran"],
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
 							"Chinese Communists",
 							"Chinese Nationalists",
 							"Chinese Warlords",
+							"Danish Partisans",
+							"Danish Regulars",
 							"France",
 							"Greece",
 							"Hungary",
@@ -4758,11 +5023,13 @@
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 3,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByLocal": ["Inexperienced (Danish)","Inexperienced","Regular","Veteran"],
 						"availableIn": [
 							"Chinese Communists",
 							"Chinese Nationalists",
-							"Chinese Warlords"
+							"Chinese Warlords",
+							"Danish Partisans",
+							"Danish Regulars"
 						]
 					},
 					{
@@ -5574,13 +5841,19 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Belgium)" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Warlords)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Warlords" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Danish Partisans" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Danish Regulars" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Finland" }]			
@@ -5630,12 +5903,58 @@
 					{
 						"name": "Regular",
 						"points": 23,
-						"requireChooseOneKey": "morale"
+						"requireChooseOneKey": "morale",
+						"availableIn": [
+							"Belgium",
+							"Bulgaria",
+							"Chinese Communists",
+							"Chinese Nationalists",
+							"Chinese Warlords",
+							"Danish Partisans",
+							"Danish Regulars",
+							"Finland",
+							"France",
+							"Germany",
+							"Great Britain",
+							"Greece",
+							"Hungary",
+							"Italy",
+							"Japan",
+							"Netherlands",
+							"Partisans",
+							"Poland",
+							"Romania",
+							"Soviet Union",
+							"Sweden",
+							"United States of America"
+						]
 					},
 					{
 						"name": "Veteran",
 						"points": 30,
-						"requireChooseOneKey": "morale"
+						"requireChooseOneKey": "morale",
+						"availableIn": [
+							"Belgium",
+							"Bulgaria",
+							"Chinese Communists",
+							"Chinese Nationalists",
+							"Chinese Warlords",
+							"Finland",
+							"France",
+							"Germany",
+							"Great Britain",
+							"Greece",
+							"Hungary",
+							"Italy",
+							"Japan",
+							"Netherlands",
+							"Partisans",
+							"Poland",
+							"Romania",
+							"Soviet Union",
+							"Sweden",
+							"United States of America"
+						]
 					},
 					{
 						"name": "Additional Men",
@@ -6523,6 +6842,18 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Danish Partisans" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Danish Partisans" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Danish Regulars" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Danish Regulars" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Finland" }]			
 					},
 					{
@@ -6618,6 +6949,8 @@
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
+							"Danish Partisans",
+							"Danish Regulars",
 							"Finland",
 							"France",
 							"Germany",
@@ -6735,6 +7068,8 @@
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
+							"Danish Partisans",
+							"Danish Regulars",
 							"Finland",
 							"France",
 							"Greece",
@@ -6752,6 +7087,8 @@
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
+							"Danish Partisans",
+							"Danish Regulars",
 							"Finland",
 							"France",
 							"Greece",
@@ -6784,6 +7121,8 @@
 						"availableIn": [
 							"Belgium",
 							"Bulgaria",
+							"Danish Partisans",
+							"Danish Regulars",
 							"Finland",
 							"France",
 							"Greece",
@@ -11588,6 +11927,351 @@
 				"equipment": ["Flamethrower - Team Weapon"]
 			},
 			{
+				"name": "Nationalist Infantry Engineer Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 7,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 77,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran (China)",
+						"points": 98,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran (China)"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran (China)"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran (China)"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Upgrade LMG to MG34",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["LMG"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran (China)"]
+					}
+				],
+				"keywords": ["Engineers"],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Warlord Infantry Engineer Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 7,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 77,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 98,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Stubborn",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Engineers"],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Communist Infantry Engineer Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Communists" }]			
+					}
+				],
+				"points": 0,
+				"models": 7,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 77,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 98,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Fanatics",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Engineers"],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Nationalist X and Y Force Engineer Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 7,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 63,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 84,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 105,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 1,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 12,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"unavailableWithLocal": ["Automatic Rifle"],
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Automatic Rifle",
+						"points": 6,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"unavailableWithLocal": ["LMG"],
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Stubborn","Engineers"],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
+				"equipment": []
+			},
+			{
 				"name": "Infantry Section (F)",
 				"factions": [],
 				"order": 1,
@@ -15844,6 +16528,1433 @@
 				"equipment": []
 			},
 			{
+				"name": "Nationalist Infantry Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 7,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran (China)",
+						"points": 91,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran (China)"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran (China)"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran (China)"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Upgrade LMG to MG34",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["LMG"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran (China)"]
+					}
+				],
+				"keywords": [],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Nationalist Infantry Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 7,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran (China)",
+						"points": 91,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran (China)"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran (China)"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Upgrade LMG to MG34",
+						"points": 5,
+						"increment": true,
+						"unlockedByLocal": ["LMG"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran (China)"]
+					}
+				],
+				"keywords": [],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Warlord Infantry Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 7,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 91,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Stubborn",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": [],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Warlord Infantry Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 7,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 91,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Stubborn",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": [],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Communist Infantry Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists" }]			
+					}
+				],
+				"points": 0,
+				"models": 7,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 91,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Fanatics",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": [],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Communist Infantry Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists" }]			
+					}
+				],
+				"points": 0,
+				"models": 7,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 91,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Fanatics",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": [],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Nationalist X and Y Force Infantry Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 7,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 56,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 77,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 98,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 8,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"unavailableWithLocal": ["Automatic Rifle"],
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Automatic Rifle",
+						"points": 6,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"unavailableWithLocal": ["LMG"],
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Stubborn"],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Nationalist X and Y Force Infantry Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 7,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 56,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 77,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 98,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 8,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"unavailableWithLocal": ["Automatic Rifle"],
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Automatic Rifle",
+						"points": 6,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"unavailableWithLocal": ["LMG"],
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Stubborn"],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Nationalist Big Sword Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 7,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 117,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 17,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Tough Fighters","Fanatics","Reckless Charge"],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
+				"equipment": ["Rifles and Swords"]
+			},
+			{
+				"name": "Nationalist Big Sword Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 7,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 117,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 17,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Tough Fighters","Fanatics","Reckless Charge"],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
+				"equipment": ["Rifles and Swords"]
+			},
+			{
+				"name": "Guerilla Cell",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 27,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 36,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 45,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 9,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Fanatics",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Chinese Communists"],
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Infiltrator","Fieldcraft"],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 2 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Guerilla Cell",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 27,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 36,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 45,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 9,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Fanatics",
+						"points": 2,
+						"perModel": true,
+						"availableIn": ["Chinese Communists"],
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Infiltrator","Fieldcraft"],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 2 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Scout Team",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 45,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"availableIn": [
+							"Chinese Communists",
+							"Chinese Warlords"
+						],
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Stubborn",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Chinese Warlords"],
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Infiltrator","Behind Enemy Lines"],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 2 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Scout Team",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 45,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"availableIn": [
+							"Chinese Communists",
+							"Chinese Warlords"
+						],
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Stubborn",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Chinese Warlords"],
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Infiltrator","Behind Enemy Lines"],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 2 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Cavalry Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Stubborn",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Chinese Warlords"],
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Horses","Behind Enemy Lines"],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 5 Soldiers",
+				"equipment": ["Cavalry Carbines"]
+			},
+			{
+				"name": "Cavalry Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Stubborn",
+						"points": 1,
+						"perModel": true,
+						"availableIn": ["Chinese Warlords"],
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Horses","Behind Enemy Lines"],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 5 Soldiers",
+				"equipment": ["Cavalry Carbines"]
+			},
+			{
+				"name": "Infantry Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Danish Partisans" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Danish Regulars" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced (Danish)",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced (Danish)"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced (Danish)","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					}
+				],
+				"keywords": [],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Cavalry Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Danish Partisans" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Danish Regulars" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced (Danish)",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced (Danish)"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced (Danish)","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					}
+				],
+				"keywords": [],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
 				"name": "Infantry Section",
 				"factions": [],
 				"order": 1,
@@ -16630,1348 +18741,6 @@
 				"keywords": [],
 				"specialText": "1 NCO\n 4 Riflemen",
 				"equipment": []
-			},
-			{
-				"name": "Nationalist Infantry Section",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
-					}
-				],
-				"points": 0,
-				"models": 7,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Regular",
-						"points": 70,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Veteran",
-						"points": 91,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 10,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": 7,
-						"addsModels": 1
-					},
-					{
-						"name": "Additional Men",
-						"points": 13,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": 7,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "LMG",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "Upgrade LMG to MG34",
-						"points": 5,
-						"increment": true,
-						"unlockedByLocal": ["LMG"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "Engineers",
-						"points": 1,
-						"perModel": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
-					},
-					{
-						"name": "AT Grenades",
-						"points": 2,
-						"perModel": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
-					}
-				],
-				"keywords": ["Initiative Trainin (Veteran Only)"],
-				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
-				"equipment": []
-			},
-			{
-				"name": "Nationalist Infantry Section",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists" }]			
-					}
-				],
-				"points": 0,
-				"models": 7,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 4,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Regular",
-						"points": 70,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Veteran",
-						"points": 91,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 10,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": 7,
-						"addsModels": 1
-					},
-					{
-						"name": "Additional Men",
-						"points": 13,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": 7,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "LMG",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "Upgrade LMG to MG34",
-						"points": 5,
-						"increment": true,
-						"unlockedByLocal": ["LMG"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "Engineers",
-						"points": 1,
-						"perModel": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
-					},
-					{
-						"name": "AT Grenades",
-						"points": 2,
-						"perModel": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
-					}
-				],
-				"keywords": ["Initiative Training (Veteran Only)"],
-				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
-				"equipment": []
-			},
-			{
-				"name": "Warlord Infantry Section",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Warlords" }]			
-					}
-				],
-				"points": 0,
-				"models": 7,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Regular",
-						"points": 70,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Veteran",
-						"points": 91,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 10,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": 7,
-						"addsModels": 1
-					},
-					{
-						"name": "Additional Men",
-						"points": 13,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": 7,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "LMG",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "Engineers",
-						"points": 1,
-						"perModel": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
-					},
-					{
-						"name": "Stubborn",
-						"points": 1,
-						"perModel": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
-					},
-					{
-						"name": "AT Grenades",
-						"points": 2,
-						"perModel": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
-					}
-				],
-				"keywords": [],
-				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
-				"equipment": []
-			},
-			{
-				"name": "Warlord Infantry Section",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords" }]			
-					}
-				],
-				"points": 0,
-				"models": 7,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 4,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Regular",
-						"points": 70,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Veteran",
-						"points": 91,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 10,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": 7,
-						"addsModels": 1
-					},
-					{
-						"name": "Additional Men",
-						"points": 13,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": 7,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "LMG",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "Engineers",
-						"points": 1,
-						"perModel": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
-					},
-					{
-						"name": "Stubborn",
-						"points": 1,
-						"perModel": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
-					},
-					{
-						"name": "AT Grenades",
-						"points": 2,
-						"perModel": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
-					}
-				],
-				"keywords": [],
-				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
-				"equipment": []
-			},
-			{
-				"name": "Communist Infantry Section",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists" }]			
-					}
-				],
-				"points": 0,
-				"models": 7,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Regular",
-						"points": 70,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Veteran",
-						"points": 91,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 10,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": 7,
-						"addsModels": 1
-					},
-					{
-						"name": "Additional Men",
-						"points": 13,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": 7,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "LMG",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "Engineers",
-						"points": 1,
-						"perModel": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
-					},
-					{
-						"name": "Fanatics",
-						"points": 1,
-						"perModel": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
-					},
-					{
-						"name": "AT Grenades",
-						"points": 2,
-						"perModel": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
-					}
-				],
-				"keywords": [],
-				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
-				"equipment": []
-			},
-			{
-				"name": "Communist Infantry Section",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists" }]			
-					}
-				],
-				"points": 0,
-				"models": 7,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 4,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Regular",
-						"points": 70,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Veteran",
-						"points": 91,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 10,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": 7,
-						"addsModels": 1
-					},
-					{
-						"name": "Additional Men",
-						"points": 13,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": 7,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "LMG",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "Engineers",
-						"points": 1,
-						"perModel": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
-					},
-					{
-						"name": "Fanatics",
-						"points": 1,
-						"perModel": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
-					},
-					{
-						"name": "AT Grenades",
-						"points": 2,
-						"perModel": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
-					}
-				],
-				"keywords": [],
-				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
-				"equipment": []
-			},
-			{
-				"name": "Nationalist X and Y Force Infantry Section",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
-					}
-				],
-				"points": 0,
-				"models": 7,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Inexperienced",
-						"points": 56,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Regular",
-						"points": 77,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Veteran",
-						"points": 98,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 8,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": 7,
-						"addsModels": 1
-					},
-					{
-						"name": "Additional Men",
-						"points": 11,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": 7,
-						"addsModels": 1
-					},
-					{
-						"name": "Additional Men",
-						"points": 14,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": 7,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "LMG",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "Automatic Rifle",
-						"points": 6,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "Engineers",
-						"points": 1,
-						"perModel": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
-					},
-					{
-						"name": "AT Grenades",
-						"points": 2,
-						"perModel": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
-					}
-				],
-				"keywords": ["Stubborn"],
-				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
-				"equipment": []
-			},
-			{
-				"name": "Nationalist X and Y Force Infantry Section",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists" }]			
-					}
-				],
-				"points": 0,
-				"models": 7,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 4,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Inexperienced",
-						"points": 56,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Regular",
-						"points": 77,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Veteran",
-						"points": 98,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 8,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": 7,
-						"addsModels": 1
-					},
-					{
-						"name": "Additional Men",
-						"points": 11,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": 7,
-						"addsModels": 1
-					},
-					{
-						"name": "Additional Men",
-						"points": 14,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": 7,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "LMG",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "Automatic Rifle",
-						"points": 6,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "Engineers",
-						"points": 1,
-						"perModel": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
-					},
-					{
-						"name": "AT Grenades",
-						"points": 2,
-						"perModel": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
-					}
-				],
-				"keywords": ["Stubborn"],
-				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
-				"equipment": []
-			},
-			{
-				"name": "Nationalist Big Sword Squad",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
-					}
-				],
-				"points": 0,
-				"models": 7,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Veteran",
-						"points": 117,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 17,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": 7,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 3,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "SMGs",
-						"points": 3,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 2
-					},
-					{
-						"name": "LMG",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "AT Grenades",
-						"points": 2,
-						"perModel": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
-					}
-				],
-				"keywords": ["Tough Fighters","Fanatics","Reckless Charge"],
-				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
-				"equipment": ["Rifles and Swords"]
-			},
-			{
-				"name": "Nationalist Big Sword Squad",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists" }]			
-					}
-				],
-				"points": 0,
-				"models": 7,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 4,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Veteran",
-						"points": 117,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 17,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": 7,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 3,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "SMGs",
-						"points": 3,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 2
-					},
-					{
-						"name": "LMG",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "AT Grenades",
-						"points": 2,
-						"perModel": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
-					}
-				],
-				"keywords": ["Tough Fighters","Fanatics","Reckless Charge"],
-				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
-				"equipment": ["Rifles and Swords"]
-			},
-			{
-				"name": "Guerilla Cell",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
-					}
-				],
-				"points": 0,
-				"models": 3,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Inexperienced",
-						"points": 27,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Regular",
-						"points": 36,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Veteran",
-						"points": 45,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 9,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 6,
-						"addsModels": 1
-					},
-					{
-						"name": "Additional Men",
-						"points": 11,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": 6,
-						"addsModels": 1
-					},
-					{
-						"name": "Additional Men",
-						"points": 14,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": 6,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "SMGs",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun"
-					},
-					{
-						"name": "LMG",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "AT Grenades",
-						"points": 2,
-						"perModel": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
-					},
-					{
-						"name": "Fanatics",
-						"points": 2,
-						"perModel": true,
-						"availableIn": ["Chinese Communists"],
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
-					}
-				],
-				"keywords": ["Infiltrator","Fieldcraft"],
-				"specialText": "Zurn Mission Pack;\n 1 NCO\n 2 Soldiers",
-				"equipment": []
-			},
-			{
-				"name": "Guerilla Cell",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists" }]			
-					}
-				],
-				"points": 0,
-				"models": 3,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 4,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Inexperienced",
-						"points": 27,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Regular",
-						"points": 36,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Veteran",
-						"points": 45,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 9,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 6,
-						"addsModels": 1
-					},
-					{
-						"name": "Additional Men",
-						"points": 11,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": 6,
-						"addsModels": 1
-					},
-					{
-						"name": "Additional Men",
-						"points": 14,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": 6,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "SMGs",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun"
-					},
-					{
-						"name": "LMG",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "AT Grenades",
-						"points": 2,
-						"perModel": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
-					},
-					{
-						"name": "Fanatics",
-						"points": 2,
-						"perModel": true,
-						"availableIn": ["Chinese Communists"],
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
-					}
-				],
-				"keywords": ["Infiltrator","Fieldcraft"],
-				"specialText": "Zurn Mission Pack;\n 1 NCO\n 2 Soldiers",
-				"equipment": []
-			},
-			{
-				"name": "Scout Team",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Warlords" }]			
-					}
-				],
-				"points": 0,
-				"models": 3,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Veteran",
-						"points": 45,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "SMGs",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun"
-					},
-					{
-						"name": "Horses",
-						"points": 3,
-						"perModel": true,
-						"availableIn": [
-							"Chinese Communists",
-							"Chinese Warlords"
-						],
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
-					},
-					{
-						"name": "Stubborn",
-						"points": 1,
-						"perModel": true,
-						"availableIn": ["Chinese Warlords"],
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
-					}
-				],
-				"keywords": ["Infiltrator","Behind Enemy Lines"],
-				"specialText": "Zurn Mission Pack;\n 1 NCO\n 2 Soldiers",
-				"equipment": []
-			},
-			{
-				"name": "Scout Team",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords" }]			
-					}
-				],
-				"points": 0,
-				"models": 3,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 4,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Veteran",
-						"points": 45,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "SMGs",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun"
-					},
-					{
-						"name": "Horses",
-						"points": 3,
-						"perModel": true,
-						"availableIn": [
-							"Chinese Communists",
-							"Chinese Warlords"
-						],
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
-					},
-					{
-						"name": "Stubborn",
-						"points": 1,
-						"perModel": true,
-						"availableIn": ["Chinese Warlords"],
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
-					}
-				],
-				"keywords": ["Infiltrator","Behind Enemy Lines"],
-				"specialText": "Zurn Mission Pack;\n 1 NCO\n 2 Soldiers",
-				"equipment": []
-			},
-			{
-				"name": "Cavalry Section",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Warlords" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Regular",
-						"points": 65,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 13,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "AT Grenades",
-						"points": 2,
-						"perModel": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
-					},
-					{
-						"name": "Stubborn",
-						"points": 1,
-						"perModel": true,
-						"availableIn": ["Chinese Warlords"],
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
-					}
-				],
-				"keywords": ["Horses","Behind Enemy Lines"],
-				"specialText": "Zurn Mission Pack;\n 1 NCO\n 5 Soldiers",
-				"equipment": ["Cavalry Carbines"]
-			},
-			{
-				"name": "Cavalry Section",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 4,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Regular",
-						"points": 65,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 13,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "AT Grenades",
-						"points": 2,
-						"perModel": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
-					},
-					{
-						"name": "Stubborn",
-						"points": 1,
-						"perModel": true,
-						"availableIn": ["Chinese Warlords"],
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
-					}
-				],
-				"keywords": ["Horses","Behind Enemy Lines"],
-				"specialText": "Zurn Mission Pack;\n 1 NCO\n 5 Soldiers",
-				"equipment": ["Cavalry Carbines"]
 			},
 			{
 				"name": "Alarm Unit",
@@ -26761,7 +27530,7 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+						"all": [{ "in": "Engineers Platoon"	}, { "in": "Great Britain" }]			
 					}
 				],
 				"points": 0,
@@ -26771,91 +27540,6 @@
 					{
 						"key": "Rifle Team",
 						"limit": 5,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Veteran",
-						"points": 105,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 17,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "Lieutenant George Cairns, VC",
-						"points": 25,
-						"unlockedByLocal": ["Veteran"],
-						"limit": 1,
-						"addsModels": 1
-					},
-					{
-						"name": "Burmese Scout",
-						"points": 40,
-						"unlockedByLocal": ["Veteran"],
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"localLimit": 1,
-						"maxKey": "gun"
-					},
-					{
-						"name": "SMGs",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun"
-					},
-					{
-						"name": "LMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"localLimit": 2,
-						"maxKey": "gun"
-					},
-					{
-						"name": "AT Grenades",
-						"points": 2,
-						"perModel": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"availableIn": ["Great Britain"]
-					}
-				],
-				"keywords": ["Period: L","Behind Enemy Lines","Ambush Tactics","Jungle Warefare Experts","Engineers"],
-				"specialText": "1 NCO\n 4 Soldiers",
-				"equipment": ["Demolitions Charge"]
-			},
-			{
-				"name": "Chindits Demolitions Team",
-				"factions": [],
-				"compendium": true,
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 4,
 						"perParent": true
 					}
 				],
