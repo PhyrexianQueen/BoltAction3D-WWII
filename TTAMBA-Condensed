@@ -1342,6 +1342,9 @@
 						"name": "Romania"
 					},
 					{
+						"name": "Slovakia"
+					},
+					{
 						"name": "Soviet Union"
 					},
 					{
@@ -1424,6 +1427,9 @@
 						"name": "Romania"
 					},
 					{
+						"name": "Slovakia"
+					},
+					{
 						"name": "Soviet Union"
 					},
 					{
@@ -1504,6 +1510,9 @@
 					},
 					{
 						"name": "Romania"
+					},
+					{
+						"name": "Slovakia"
 					},
 					{
 						"name": "Soviet Union"
@@ -1594,6 +1603,9 @@
 						"name": "Romania"
 					},
 					{
+						"name": "Slovakia"
+					},
+					{
 						"name": "Soviet Union"
 					},
 					{
@@ -1680,6 +1692,9 @@
 					},
 					{
 						"name": "Romania"
+					},
+					{
+						"name": "Slovakia"
 					},
 					{
 						"name": "Soviet Union"
@@ -1770,6 +1785,9 @@
 						"name": "Romania"
 					},
 					{
+						"name": "Slovakia"
+					},
+					{
 						"name": "Soviet Union"
 					},
 					{
@@ -1856,6 +1874,9 @@
 					},
 					{
 						"name": "Romania"
+					},
+					{
+						"name": "Slovakia"
 					},
 					{
 						"name": "Soviet Union"
@@ -1946,6 +1967,9 @@
 						"name": "Romania"
 					},
 					{
+						"name": "Slovakia"
+					},
+					{
 						"name": "Soviet Union"
 					},
 					{
@@ -2027,6 +2051,9 @@
 					},
 					{
 						"name": "Romania"
+					},
+					{
+						"name": "Slovakia"
 					},
 					{
 						"name": "Soviet Union"
@@ -2226,6 +2253,9 @@
 						"all": [{ "in": "HQ Platoon" }, { "in": "Romania" }]			
 					},
 					{
+						"all": [{ "in": "HQ Platoon" }, { "in": "Slovakia" }]			
+					},
+					{
 						"all": [{ "in": "HQ Platoon" }, { "in": "Soviet Union" }]			
 					},
 					{
@@ -2279,6 +2309,7 @@
 							"Partisans",
 							"Poland",
 							"Romania",
+							"Slovakia",
 							"Soviet Union",
 							"Sweden",
 							"United States of America"
@@ -2308,6 +2339,7 @@
 							"Partisans",
 							"Poland",
 							"Romania",
+							"Slovakia",
 							"Soviet Union",
 							"Sweden",
 							"United States of America"
@@ -2335,6 +2367,7 @@
 							"Partisans",
 							"Poland",
 							"Romania",
+							"Slovakia",
 							"Soviet Union",
 							"Sweden",
 							"United States of America"
@@ -2361,7 +2394,7 @@
 							"Netherlands",
 							"Norway",
 							"Poland",
-							"Sweden"
+							"Slovakia"
 						]
 					},
 					{
@@ -2386,7 +2419,7 @@
 							"Netherlands",
 							"Norway",
 							"Poland",
-							"Sweden"
+							"Slovakia"
 						]
 					},
 					{
@@ -2408,7 +2441,7 @@
 							"Netherlands",
 							"Norway",
 							"Poland",
-							"Sweden"
+							"Slovakia"
 						]
 					},
 					{
@@ -2424,7 +2457,8 @@
 							"Hungary",
 							"Romania",
 							"Soviet Union",
-							"Polish Peoples Army (LWP)"
+							"Polish Peoples Army (LWP)",
+							"Sweden"
 						]
 					},
 					{
@@ -2440,7 +2474,8 @@
 							"Hungary",
 							"Romania",
 							"Soviet Union",
-							"Polish Peoples Army (LWP)"
+							"Polish Peoples Army (LWP)",
+							"Sweden"
 						]
 					},
 					{
@@ -2455,7 +2490,8 @@
 							"Germany",
 							"Romania",
 							"Soviet Union",
-							"Polish Peoples Army (LWP)"
+							"Polish Peoples Army (LWP)",
+							"Sweden"
 						]
 					},
 					{
@@ -2621,6 +2657,7 @@
 							"Italy",
 							"Netherlands",
 							"Norway",
+							"Slovakia",
 							"Poland"
 						]
 					},
@@ -2651,7 +2688,8 @@
 							"Chinese Nationalists",
 							"Chinese Warlords",
 							"Danish Partisans",
-							"Danish Regulars"
+							"Danish Regulars",
+							"Slovakia"
 						]
 					},
 					{
@@ -2918,8 +2956,14 @@
 						"points": 2,
 						"perModel": true,
 						"unlockedByLocal": ["Regular","Veteran"],
-						"availableIn": ["Sweden"],
-						"chooseOneKey": "natRuSwe"
+						"availableIn": ["Sweden"]
+					},
+					{
+						"name": "Free Ranger",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -4125,9 +4169,6 @@
 						"all": [{ "in": "HQ Platoon" }, { "in": "Romania" }]			
 					},
 					{
-						"all": [{ "in": "HQ Platoon" }, { "in": "Sweden" }]			
-					},
-					{
 						"all": [{ "in": "HQ Platoon" }, { "in": "United States of America" }]			
 					}
 				],
@@ -4245,7 +4286,6 @@
 						"availableIn": ["Sweden"],
 						"chooseOneKey": "natRuSwe"
 					},
-					
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
 						"points": 1,
@@ -4574,6 +4614,21 @@
 						"all": [{ "in": "Artillery Platoon" }, { "in": "Romania" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Slovakia" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Slovakia" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Slovakia" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Slovakia" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Slovakia" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon" }, { "in": "Soviet Union" }]			
 					},
 					{
@@ -4661,6 +4716,7 @@
 							"Partisans",
 							"Poland",
 							"Romania",
+							"Slovakia",
 							"Soviet Union",
 							"Sweden",
 							"United States of America"
@@ -4690,6 +4746,7 @@
 							"Partisans",
 							"Poland",
 							"Romania",
+							"Slovakia",
 							"Soviet Union",
 							"Sweden",
 							"United States of America"
@@ -4717,6 +4774,7 @@
 							"Partisans",
 							"Poland",
 							"Romania",
+							"Slovakia",
 							"Soviet Union",
 							"Sweden",
 							"United States of America"
@@ -4745,7 +4803,7 @@
 							"Partisans",
 							"Poland",
 							"Romania",
-							"Sweden"
+							"Slovakia"
 						]
 					},
 					{
@@ -4759,7 +4817,8 @@
 							"Chinese Warlords",
 							"Germany",
 							"Soviet Union",
-							"Polish Peoples Army (LWP)"
+							"Polish Peoples Army (LWP)",
+							"Sweden"
 						]
 					},
 					{
@@ -4797,7 +4856,7 @@
 							"Partisans",
 							"Poland",
 							"Romania",
-							"Sweden"
+							"Slovakia"
 						]
 					},
 					{
@@ -4811,7 +4870,8 @@
 							"Chinese Warlords",
 							"Germany",
 							"Soviet Union",
-							"Polish Peoples Army (LWP)"
+							"Polish Peoples Army (LWP)",
+							"Sweden"
 						]
 					},
 					{
@@ -4847,7 +4907,7 @@
 							"Partisans",
 							"Poland",
 							"Romania",
-							"Sweden"
+							"Slovakia"
 						]
 					},
 					{
@@ -4861,7 +4921,8 @@
 							"Chinese Warlords",
 							"Germany",
 							"Soviet Union",
-							"Polish Peoples Army (LWP)"
+							"Polish Peoples Army (LWP)",
+							"Sweden"
 						]
 					},
 					{
@@ -5000,7 +5061,8 @@
 							"Netherlands",
 							"Norway",
 							"Partisans",
-							"Poland"
+							"Poland",
+							"Slovakia"
 						]
 					},
 					{
@@ -5030,7 +5092,8 @@
 							"Chinese Nationalists",
 							"Chinese Warlords",
 							"Danish Partisans",
-							"Danish Regulars"
+							"Danish Regulars",
+							"Slovakia"
 						]
 					},
 					{
@@ -5278,6 +5341,20 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"availableIn": ["Soviet Union"],
 						"chooseOneKey": "natRuSU"
+					},
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["Sweden"]
+					},
+					{
+						"name": "Free Ranger",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["Sweden"]
 					},
 					{
 						"name": "By Air, Land, and Sea (Airborne)",
@@ -5881,6 +5958,9 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Polish Peoples Army (LWP)" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Slovakia" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Soviet Union" }]			
 					},
 					{
@@ -5925,6 +6005,7 @@
 							"Partisans",
 							"Poland",
 							"Romania",
+							"Slovakia",
 							"Soviet Union",
 							"Sweden",
 							"United States of America"
@@ -5952,6 +6033,7 @@
 							"Partisans",
 							"Poland",
 							"Romania",
+							"Slovakia",
 							"Soviet Union",
 							"Sweden",
 							"United States of America"
@@ -6921,6 +7003,12 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Romania" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Slovakia" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Slovakia" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					},
 					{
@@ -6963,6 +7051,7 @@
 							"Norway",
 							"Poland",
 							"Romania",
+							"Slovakia",
 							"Sweden",
 							"United States of America"
 						],
@@ -6988,6 +7077,7 @@
 							"Norway",
 							"Poland",
 							"Romania",
+							"Slovakia",
 							"Sweden",
 							"United States of America"
 						],
@@ -13855,6 +13945,94 @@
 				"equipment": []
 			},
 			{
+				"name": "Infantry Engineer Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Slovakia" }]			
+					}
+				],
+				"points": 0,
+				"models": 6,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 48,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 66,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 84,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 8,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Engineers"],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
+				"equipment": []
+			},
+			{
 				"name": "Assault Engineer Squad (Early War)",
 				"factions": [],
 				"order": 1,
@@ -14046,13 +14224,340 @@
 				"equipment": []
 			},
 			{
-				"name": "Engineer Squad",
+				"name": "Swedish Infantry Squad",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
 					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 40,
+						"requireChooseOneKey": "morale"
 					},
+					{
+						"name": "Regular",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 8,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "Automatic Rifle",
+						"points": 6,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"perModel": true
+					},
+					{
+						"name": "Flamethrower",
+						"points": 30,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Demolition Charges",
+						"points": 20,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Sweden"]
+					},
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["Sweden"],
+						"chooseOneKey": "natRuSwe"
+					}
+				],
+				"keywords": ["Period: E|M|L","Engineers"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Free Ranger Squad (Early)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
+					}
+				],
+				"points": 0,
+				"models": 6,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 84,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "Automatic Rifle",
+						"points": 6,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"perModel": true
+					},
+					{
+						"name": "Flamethrower",
+						"points": 30,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Demolition Charges",
+						"points": 20,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "Skis",
+						"points": 1,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"perModel": true
+					},
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E","Behind Enemy Lines","Spotting","Engineers"],
+				"specialText": "1 NCO\n 5 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Free Ranger Squad (Late)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden" }]			
+					}
+				],
+				"points": 0,
+				"models": 6,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 84,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "Automatic Rifle",
+						"points": 6,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"perModel": true
+					},
+					{
+						"name": "Pansarskott m/45",
+						"points": 2,
+						"unlockedByLocal": ["Veteran"],
+						"increment": true,
+						"max": 2
+					},
+					{
+						"name": "Flamethrower",
+						"points": 30,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Demolition Charges",
+						"points": 20,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"increment": true,
+						"max": 1
+					},
+					{
+						"name": "Skis",
+						"points": 1,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"perModel": true
+					},
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: M|L","Behind Enemy Lines","Spotting","Engineers"],
+				"specialText": "1 NCO\n 5 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Engineer Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
 					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "United States of America" }]			
 					}
@@ -16022,6 +16527,9 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Polish Peoples Army (LWP)" }]
 					},
 					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Slovakia" }]			
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Soviet Union" }]			
 					},
 					{
@@ -16073,6 +16581,7 @@
 							"Partisans",
 							"Poland",
 							"Romania",
+							"Slovakia",
 							"Soviet Union",
 							"Sweden",
 							"United States of America"
@@ -16102,6 +16611,7 @@
 							"Partisans",
 							"Poland",
 							"Romania",
+							"Slovakia",
 							"Soviet Union",
 							"Sweden",
 							"United States of America"
@@ -16115,6 +16625,7 @@
 							"France",
 							"Great Britain",
 							"Polish Peoples Army (LWP)",
+							"Slovakia",
 							"Soviet Union",
 							"Sweden",
 							"United States of America"
@@ -31711,6 +32222,862 @@
 				"equipment": []
 			},
 			{
+				"name": "Infantry Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Slovakia" }]			
+					}
+				],
+				"points": 0,
+				"models": 6,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 42,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 78,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": [],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Infantry Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Slovakia" }]			
+					}
+				],
+				"points": 0,
+				"models": 6,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 42,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 78,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": [],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Mountain Infantry Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Slovakia" }]			
+					}
+				],
+				"points": 0,
+				"models": 6,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 66,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 84,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Fieldcraft"],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Mountain Infantry Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Slovakia" }]			
+					}
+				],
+				"points": 0,
+				"models": 6,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 66,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 84,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Fieldcraft"],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 6 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Paratrooper Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Slovakia" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Stubborn"],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Paratrooper Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Slovakia" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Stubborn"],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 4 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Dragoon Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Slovakia" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 80,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 16,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Tough Fighters",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Harassing Unit"],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 5 Soldiers",
+				"equipment": ["Cavalry Carbines"]
+			},
+			{
+				"name": "Dragoon Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Slovakia" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 80,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 16,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "Tough Fighters",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Harassing Unit"],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 5 Soldiers",
+				"equipment": ["Cavalry Carbines"]
+			},
+			{
+				"name": "Motorcycle Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Slovakia" }]			
+					}
+				],
+				"points": 0,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 72,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 4,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 18,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 4,
+						"addsModels": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": [],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 5 Soldiers",
+				"equipment": ["Motorcycles"]
+			},
+			{
+				"name": "Motorcycle Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Slovakia" }]			
+					}
+				],
+				"points": 0,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 72,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 4,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 18,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 4,
+						"addsModels": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": [],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 5 Soldiers",
+				"equipment": ["Motorcycles"]
+			},
+			{
+				"name": "Partisan Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Slovakia" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 15,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 15,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 3,
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": [],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 5 Soldiers",
+				"equipment": []
+			},
+			{
+				"name": "Partisan Section",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Slovakia" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 15,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 15,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 3,
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"localLimit": 1,
+						"maxKey": "gun"
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": [],
+				"specialText": "Zurn Mission Pack;\n 1 NCO\n 5 Soldiers",
+				"equipment": []
+			},
+			{
 				"name": "Airborne Squad",
 				"factions": [],
 				"order": 1,
@@ -34809,8 +36176,7 @@
 				"keywords": ["Period: E|M|L"],
 				"specialText": "1 NCO\n 4 Riflemen",
 				"equipment": []
-			},
-			
+			},			
 			{
 				"name": "Swedish Infantry Squad",
 				"factions": [],
@@ -34932,7 +36298,7 @@
 					}
 				],
 				"points": 0,
-				"models": 5,
+				"models": 6,
 				"sortPriority": 3,
 				"limits": [
 					{
@@ -34948,11 +36314,24 @@
 						"requireChooseOneKey": "morale"
 					},
 					{
+						"name": "Regular",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
 						"name": "Additional Men",
 						"points": 7,
 						"increment": true,
 						"unlockedByLocal": ["Inexperienced"],
-						"max": 5,
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 6,
 						"addsModels": 1
 					},
 					{
@@ -34963,15 +36342,6 @@
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 1
-					},
-					{
-						"name": "SMGs",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 2
 					},
 					{
 						"name": "Automatic Rifle",
@@ -34995,8 +36365,8 @@
 						"availableIn": ["Sweden"]
 					}
 				],
-				"keywords": ["Period: E|M|L"],
-				"specialText": "1 NCO\n 4 Riflemen",
+				"keywords": ["Period: E|M"],
+				"specialText": "1 NCO\n 5 Riflemen",
 				"equipment": []
 			},
 			{
@@ -35009,7 +36379,7 @@
 					}
 				],
 				"points": 0,
-				"models": 5,
+				"models": 6,
 				"sortPriority": 3,
 				"limits": [
 					{
@@ -35025,11 +36395,24 @@
 						"requireChooseOneKey": "morale"
 					},
 					{
+						"name": "Regular",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
 						"name": "Additional Men",
 						"points": 7,
 						"increment": true,
 						"unlockedByLocal": ["Inexperienced"],
-						"max": 5,
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 6,
 						"addsModels": 1
 					},
 					{
@@ -35040,15 +36423,6 @@
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 1
-					},
-					{
-						"name": "SMGs",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 2
 					},
 					{
 						"name": "Automatic Rifle",
@@ -35072,21 +36446,22 @@
 						"availableIn": ["Sweden"]
 					}
 				],
-				"keywords": ["Period: E|M|L"],
-				"specialText": "1 NCO\n 4 Riflemen",
+				"keywords": ["Period: E|M"],
+				"specialText": "1 NCO\n 5 Riflemen",
 				"equipment": []
 			},
 			{
-				"name": "Free Ranger Squad",
+				"name": "Swedish Royal Guard Squad",
 				"factions": [],
 				"order": 1,
+				"limit": 2,
 				"availableIn": [
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
 					}
 				],
 				"points": 0,
-				"models": 5,
+				"models": 6,
 				"sortPriority": 3,
 				"limits": [
 					{
@@ -35098,21 +36473,141 @@
 				"options": [
 					{
 						"name": "Regular",
-						"points": 70,
+						"points": 66,
 						"requireChooseOneKey": "morale"
 					},
 					{
 						"name": "Veteran",
-						"points": 85,
+						"points": 84,
 						"requireChooseOneKey": "morale"
 					},
 					{
 						"name": "Additional Men",
-						"points": 10,
+						"points": 11,
 						"increment": true,
 						"unlockedByLocal": ["Regular"],
-						"max": 5,
+						"max": 4,
 						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 4,
+						"addsModels": 1
+					},
+					{
+						"name": "Automatic Rifle",
+						"points": 6,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced"],
+						"availableIn": ["Sweden"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Tough Fighters"],
+				"specialText": "1 NCO\n 5 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Swedish Royal Guard Squad",
+				"factions": [],
+				"order": 1,
+				"limits": 2,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden" }]			
+					}
+				],
+				"points": 0,
+				"models": 6,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 66,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 84,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 4,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 4,
+						"addsModels": 1
+					},
+					{
+						"name": "Automatic Rifle",
+						"points": 6,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced"],
+						"availableIn": ["Sweden"]
+					}
+				],
+				"keywords": ["Period: E|M|L","Tough Fighters"],
+				"specialText": "1 NCO\n 5 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Free Ranger Squad (Early)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
+					}
+				],
+				"points": 0,
+				"models": 6,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 78,
+						"requireChooseOneKey": "morale"
 					},
 					{
 						"name": "Additional Men",
@@ -35124,7 +36619,7 @@
 					},
 					{
 						"name": "NCO SMG",
-						"points": 4,
+						"points": 3,
 						"increment": true,
 						"unlockedByLocal": ["Regular","Veteran"],
 						"max": "parentModels",
@@ -35133,12 +36628,11 @@
 					},
 					{
 						"name": "SMGs",
-						"points": 4,
+						"points": 3,
 						"increment": true,
 						"unlockedByLocal": ["Regular","Veteran"],
 						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 2
+						"maxKey": "gun"
 					},
 					{
 						"name": "Automatic Rifle",
@@ -35168,12 +36662,355 @@
 						"perModel": true
 					}
 				],
-				"keywords": ["Period: E|M|L"],
+				"keywords": ["Period: E","Behind Enemy Lines","Master of the Hunt"],
+				"specialText": "1 NCO\n 5 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Free Ranger Squad (Early)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden" }]			
+					}
+				],
+				"points": 0,
+				"models": 6,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 78,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "Automatic Rifle",
+						"points": 6,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"perModel": true
+					},
+					{
+						"name": "Skis",
+						"points": 1,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"perModel": true
+					},
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E","Behind Enemy Lines","Master of the Hunt"],
+				"specialText": "1 NCO\n 5 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Free Ranger Squad (Late)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
+					}
+				],
+				"points": 0,
+				"models": 6,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 78,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "Automatic Rifle",
+						"points": 6,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"perModel": true
+					},
+					{
+						"name": "Pansarskott m/45",
+						"points": 2,
+						"unlockedByLocal": ["Veteran"],
+						"increment": true,
+						"max": 2
+					},
+					{
+						"name": "Skis",
+						"points": 1,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"perModel": true
+					},
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: M|L","Behind Enemy Lines","Master of the Hunt"],
+				"specialText": "1 NCO\n 5 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Free Ranger Squad (Late)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden" }]			
+					}
+				],
+				"points": 0,
+				"models": 6,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 78,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "Automatic Rifle",
+						"points": 6,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"perModel": true
+					},
+					{
+						"name": "Pansarskott m/45",
+						"points": 2,
+						"unlockedByLocal": ["Veteran"],
+						"increment": true,
+						"max": 2
+					},
+					{
+						"name": "Skis",
+						"points": 1,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"perModel": true
+					},
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: M|L","Behind Enemy Lines","Master of the Hunt"],
+				"specialText": "1 NCO\n 5 Riflemen",
+				"equipment": []
+			},
+			{
+				"name": "Free Ranger Squad, Mounted (Early)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 90,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 18,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 9
+					},
+					{
+						"name": "Automatic Rifle",
+						"points": 6,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Veteran"],
+						"perModel": true
+					},
+					{
+						"name": "Skis",
+						"points": 1,
+						"unlockedByLocal": ["Veteran"],
+						"perModel": true
+					},
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"unlockedByLocal": ["Veteran"],
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E","Behind Enemy Lines","Tough Fighter","Spotting","Skilled Riders","Cavalry"],
 				"specialText": "1 NCO\n 4 Riflemen",
 				"equipment": []
 			},
 			{
-				"name": "Free Ranger Squad",
+				"name": "Free Ranger Squad, Mounted (Early)",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -35193,26 +37030,13 @@
 				],
 				"options": [
 					{
-						"name": "Regular",
-						"points": 70,
-						"requireChooseOneKey": "morale"
-					},
-					{
 						"name": "Veteran",
-						"points": 85,
+						"points": 90,
 						"requireChooseOneKey": "morale"
 					},
 					{
 						"name": "Additional Men",
-						"points": 10,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "Additional Men",
-						"points": 13,
+						"points": 18,
 						"increment": true,
 						"unlockedByLocal": ["Veteran"],
 						"max": 5,
@@ -35220,27 +37044,27 @@
 					},
 					{
 						"name": "NCO SMG",
-						"points": 4,
+						"points": 3,
 						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
+						"unlockedByLocal": ["Veteran"],
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 1
 					},
 					{
 						"name": "SMGs",
-						"points": 4,
+						"points": 3,
 						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
+						"unlockedByLocal": ["Veteran"],
 						"max": "parentModels",
 						"maxKey": "gun",
-						"localLimit": 2
+						"localLimit": 9
 					},
 					{
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
+						"unlockedByLocal": ["Veteran"],
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 1
@@ -35248,28 +37072,28 @@
 					{
 						"name": "AT Grenades",
 						"points": 2,
-						"unlockedByLocal": ["Regular","Veteran"],
+						"unlockedByLocal": ["Veteran"],
 						"perModel": true
 					},
 					{
 						"name": "Skis",
 						"points": 1,
-						"unlockedByLocal": ["Regular","Veteran"],
+						"unlockedByLocal": ["Veteran"],
 						"perModel": true
 					},
 					{
 						"name": "Det Fria Kriget",
 						"points": 2,
-						"unlockedByLocal": ["Regular","Veteran"],
+						"unlockedByLocal": ["Veteran"],
 						"perModel": true
 					}
 				],
-				"keywords": ["Period: E|M|L"],
+				"keywords": ["Period: E","Behind Enemy Lines","Tough Fighter","Spotting","Skilled Riders","Cavalry"],
 				"specialText": "1 NCO\n 4 Riflemen",
 				"equipment": []
 			},
 			{
-				"name": "Free Ranger Squad, Mounted",
+				"name": "Free Ranger Squad, Mounted (Late)",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -35290,12 +37114,12 @@
 				"options": [
 					{
 						"name": "Veteran",
-						"points": 75,
+						"points": 90,
 						"requireChooseOneKey": "morale"
 					},
 					{
 						"name": "Additional Men",
-						"points": 14,
+						"points": 18,
 						"increment": true,
 						"unlockedByLocal": ["Veteran"],
 						"max": 5,
@@ -35303,7 +37127,7 @@
 					},
 					{
 						"name": "NCO SMG",
-						"points": 4,
+						"points": 3,
 						"increment": true,
 						"unlockedByLocal": ["Veteran"],
 						"max": "parentModels",
@@ -35312,12 +37136,11 @@
 					},
 					{
 						"name": "SMGs",
-						"points": 4,
+						"points": 3,
 						"increment": true,
 						"unlockedByLocal": ["Veteran"],
 						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 9
+						"maxKey": "gun"
 					},
 					{
 						"name": "Automatic Rifle",
@@ -35354,12 +37177,12 @@
 						"perModel": true
 					}
 				],
-				"keywords": ["Period: E|M|L","Behind Enemy Lines","Stubborn","Skilled Riders","Cavalry"],
+				"keywords": ["Period: M|L","Behind Enemy Lines","Tough Fighter","Spotting","Skilled Riders","Cavalry"],
 				"specialText": "1 NCO\n 4 Riflemen",
 				"equipment": []
 			},
 			{
-				"name": "Free Ranger Squad, Mounted",
+				"name": "Free Ranger Squad, Mounted (Late)",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -35380,12 +37203,12 @@
 				"options": [
 					{
 						"name": "Veteran",
-						"points": 75,
+						"points": 90,
 						"requireChooseOneKey": "morale"
 					},
 					{
 						"name": "Additional Men",
-						"points": 14,
+						"points": 18,
 						"increment": true,
 						"unlockedByLocal": ["Veteran"],
 						"max": 5,
@@ -35393,7 +37216,7 @@
 					},
 					{
 						"name": "NCO SMG",
-						"points": 4,
+						"points": 3,
 						"increment": true,
 						"unlockedByLocal": ["Veteran"],
 						"max": "parentModels",
@@ -35402,12 +37225,11 @@
 					},
 					{
 						"name": "SMGs",
-						"points": 4,
+						"points": 3,
 						"increment": true,
 						"unlockedByLocal": ["Veteran"],
 						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 9
+						"maxKey": "gun"
 					},
 					{
 						"name": "Automatic Rifle",
@@ -35444,7 +37266,7 @@
 						"perModel": true
 					}
 				],
-				"keywords": ["Period: E|M|L","Behind Enemy Lines","Stubborn","Skilled Riders","Cavalry"],
+				"keywords": ["Period: M|L","Behind Enemy Lines","Tough Fighter","Spotting","Skilled Riders","Cavalry"],
 				"specialText": "1 NCO\n 4 Riflemen",
 				"equipment": []
 			},
