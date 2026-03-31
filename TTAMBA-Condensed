@@ -14318,7 +14318,7 @@
 					{
 						"name": "Flamethrower",
 						"points": 30,
-						"unlockedByLocal": ["Regular","Veteran"],
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"increment": true,
 						"max": "parentModels",
 						"maxKey": "gun",
@@ -14327,7 +14327,7 @@
 					{
 						"name": "Demolition Charges",
 						"points": 20,
-						"unlockedByLocal": ["Regular","Veteran"],
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"increment": true,
 						"max": 1
 					},
