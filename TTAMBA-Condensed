@@ -14224,7 +14224,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Swedish Infantry Squad",
+				"name": "Swedish Infantry Squad (Engineers)",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -14351,7 +14351,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Free Ranger Squad (Early)",
+				"name": "Free Ranger Squad (Early) (Engineers)",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -14449,7 +14449,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Free Ranger Squad (Late)",
+				"name": "Free Ranger Squad (Late) (Engineers)",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
