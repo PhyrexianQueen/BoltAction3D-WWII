@@ -36493,7 +36493,7 @@
 						"name": "Additional Men",
 						"points": 14,
 						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
+						"unlockedByLocal": ["Veteran"],
 						"max": 4,
 						"addsModels": 1
 					},
@@ -36501,7 +36501,7 @@
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
+						"unlockedByLocal": ["Regular","Veteran"],
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 2
@@ -36509,7 +36509,7 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"unlockedByLocal": ["Inexperienced"],
+						"unlockedByLocal": ["Regular","Veteran"],
 						"availableIn": ["Sweden"]
 					}
 				],
@@ -36560,7 +36560,7 @@
 						"name": "Additional Men",
 						"points": 14,
 						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
+						"unlockedByLocal": ["Veteran"],
 						"max": 4,
 						"addsModels": 1
 					},
@@ -36568,7 +36568,7 @@
 						"name": "Automatic Rifle",
 						"points": 6,
 						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
+						"unlockedByLocal": ["Regular","Veteran"],
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 2
@@ -36576,7 +36576,7 @@
 					{
 						"name": "Skis",
 						"points": 0,
-						"unlockedByLocal": ["Inexperienced"],
+						"unlockedByLocal": ["Regular","Veteran"],
 						"availableIn": ["Sweden"]
 					}
 				],
