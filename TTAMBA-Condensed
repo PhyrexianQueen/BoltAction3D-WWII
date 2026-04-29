@@ -3261,7 +3261,13 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "HQ Platoon" }, { "in": "Royal Italian Army (Regio Esercito)" }]			
-					} 
+					},
+					{
+						"all": [{ "in": "HQ Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon" }, { "in": "Italian Co-Belligerent Army" }]			
+					}
 				],
 				"points": 0,
 				"models": 1,
@@ -3356,14 +3362,20 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Alpini"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"]
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						]
 					},
 					{
 						"name": "Alpini",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -3371,7 +3383,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -3379,7 +3394,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -3387,7 +3405,10 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					}
 				],
@@ -4551,6 +4572,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "HQ Platoon" }, { "in": "Royal Italian Army (Regio Esercito)" }]		
+					},
+					{
+						"all": [{ "in": "HQ Platoon" }, { "in": "Italian National Republican Army" }]		
 					}
 				],
 				"points": 0,
@@ -4567,19 +4591,28 @@
 					{
 						"name": "Inexperienced",
 						"points": 17,
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"requireChooseOneKey": "morale"
 					},
 					{
 						"name": "Regular",
 						"points": 25,
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"requireChooseOneKey": "morale"
 					},
 					{
 						"name": "Veteran",
 						"points": 33,
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"requireChooseOneKey": "morale"
 					},
 					{
@@ -4593,14 +4626,20 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Alpini"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"]
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						]
 					},
 					{
 						"name": "Alpini",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -4608,7 +4647,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -4616,7 +4658,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -4624,7 +4669,10 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					}
 				],
@@ -6010,6 +6058,21 @@
 					},
 					{
 						"all": [{ "in": "Artillery Platoon" }, { "in": "Royal Italian Army (Regio Esercito)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
 					}
 				],
 				"points": 0,
@@ -6105,14 +6168,20 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Alpini"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"]
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						]
 					},
 					{
 						"name": "Alpini",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -6120,7 +6189,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -6128,7 +6200,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -6136,7 +6211,10 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					}
 				],
@@ -6753,6 +6831,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
 				],
@@ -6771,13 +6852,19 @@
 						"name": "Regular",
 						"points": 23,
 						"requireChooseOneKey": "morale",
-						"availableIn": ["Royal Italian Army (Regio Esercito)"]
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						]
 					},
 					{
 						"name": "Veteran",
 						"points": 30,
 						"requireChooseOneKey": "morale",
-						"availableIn": ["Royal Italian Army (Regio Esercito)"]
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						]
 					},
 					{
 						"name": "Additional Men",
@@ -6800,14 +6887,20 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Alpini"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"]
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						]
 					},
 					{
 						"name": "Alpini",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -6815,7 +6908,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -6823,7 +6919,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -6831,7 +6930,10 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					}
 				],
@@ -6886,6 +6988,9 @@
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Italian National Republican Army" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Japan" }]			
@@ -8074,6 +8179,12 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					},
 					{
@@ -8146,14 +8257,20 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Alpini"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"]
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						]
 					},
 					{
 						"name": "Alpini",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -8161,7 +8278,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -8169,7 +8289,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -8177,7 +8300,10 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					}
 				],
@@ -8191,6 +8317,12 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					},
 					{
@@ -8263,14 +8395,20 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Alpini"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"]
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						]
 					},
 					{
 						"name": "Alpini",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -8278,7 +8416,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -8286,7 +8427,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -8294,7 +8438,10 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					}
 				],
@@ -9150,6 +9297,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
 				],
@@ -9185,14 +9335,20 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Alpini"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"]
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						]
 					},
 					{
 						"name": "Alpini",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -9200,7 +9356,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -9208,7 +9367,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -9216,7 +9378,10 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					}
 				],
@@ -9497,7 +9662,16 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
 				],
 				"points": 0,
@@ -9536,15 +9710,17 @@
 						"name": "Winter Equipment",
 						"points": 0,
 						"perModel": true,
-						"unlockedByLocal": ["Alpini"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"]
+						"unlockedByLocal": ["Alpini"]
 					},
 					{
 						"name": "Alpini",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -9552,7 +9728,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -9560,7 +9739,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -9568,7 +9750,10 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					}
 				],
@@ -9581,6 +9766,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
@@ -9621,15 +9809,17 @@
 						"name": "Winter Equipment",
 						"points": 0,
 						"perModel": true,
-						"unlockedByLocal": ["Alpini"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"]
+						"unlockedByLocal": ["Alpini"]
 					},
 					{
 						"name": "Alpini",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -9637,7 +9827,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -9645,7 +9838,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -9653,7 +9849,10 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					}
 				],
@@ -10654,6 +10853,12 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Italian National Republican Army" }]			
 					}
 				],
 				"points": 0,
@@ -10720,6 +10925,66 @@
 						"unlockedByLocal": ["Regular","Veteran"],
 						"availableIn": ["Germany"],
 						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "Folgore AT Grenades",
+						"points": 3,
+						"unlockedByLocal": ["Paracadutisti"],
+						"perModel": true
+					},
+					{
+						"name": "Winter Equipment",
+						"points": 0,
+						"perModel": true,
+						"unlockedByLocal": ["Alpini"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						]
+					},
+					{
+						"name": "Alpini",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Bersaglieri",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Paracadutisti",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Camicie Nere",
+						"points": 0,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
 					}
 				],
 				"keywords": ["Period: M|L","Shaped Charge","Team Weapon"],
@@ -10731,6 +10996,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
 					}
@@ -10799,6 +11067,66 @@
 						"unlockedByLocal": ["Regular","Veteran"],
 						"availableIn": ["Germany"],
 						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "Folgore AT Grenades",
+						"points": 3,
+						"unlockedByLocal": ["Paracadutisti"],
+						"perModel": true
+					},
+					{
+						"name": "Winter Equipment",
+						"points": 0,
+						"perModel": true,
+						"unlockedByLocal": ["Alpini"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						]
+					},
+					{
+						"name": "Alpini",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Bersaglieri",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Paracadutisti",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Camicie Nere",
+						"points": 0,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
 					}
 				],
 				"keywords": ["Period: M|L","Shaped Charge","Team Weapon"],
@@ -13176,6 +13504,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
 				],
@@ -13223,14 +13554,20 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Alpini"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"]
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						]
 					},
 					{
 						"name": "Alpini",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -13238,7 +13575,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -13246,7 +13586,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -13254,7 +13597,10 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					}
 				],
@@ -15156,6 +15502,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
 				],
@@ -15276,14 +15625,20 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Alpini"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"]
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						]
 					},
 					{
 						"name": "Alpini",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -15291,7 +15646,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -15299,7 +15657,10 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					}
 				],
@@ -16875,10 +17236,9 @@
 						"name": "For King and Country! (Commandos) w/ SAS",
 						"points": 5,
 						"perModel": true,
-						"unlockedByLocal": ["Veteran"],
+						"unlockedByLocal": ["For King and Country! (Commandos)"],
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB",
-						"unlockedByLocal": "For King and Country! (Commandos)"
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country! (Guards)",
@@ -17014,10 +17374,9 @@
 						"name": "For King and Country! (Commandos) w/ SAS",
 						"points": 5,
 						"perModel": true,
-						"unlockedByLocal": ["Veteran"],
+						"unlockedByLocal": ["For King and Country! (Commandos)"],
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB",
-						"unlockedByLocal": "For King and Country! (Commandos)"
+						"chooseOneKey": "natRuGB"
 					},
 					{
 						"name": "For King and Country! (Guards)",
@@ -17055,11 +17414,15 @@
 				"keywords": ["Period: E|M|L"],
 				"specialText": "1 Mortar Operator\n 1 Weapon Assitant",
 				"equipment": ["Light Mortar"]
-			},{
+			},
+			{
 				"name": "Light Mortar Team (I)",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
@@ -17100,15 +17463,17 @@
 						"name": "Winter Equipment",
 						"points": 0,
 						"perModel": true,
-						"unlockedByLocal": ["Alpini"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"]
+						"unlockedByLocal": ["Alpini"]
 					},
 					{
 						"name": "Alpini",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -17116,7 +17481,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -17124,7 +17492,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -17132,7 +17503,10 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					}
 				],
@@ -17145,6 +17519,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
@@ -17185,15 +17562,17 @@
 						"name": "Winter Equipment",
 						"points": 0,
 						"perModel": true,
-						"unlockedByLocal": ["Alpini"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"]
+						"unlockedByLocal": ["Alpini"]
 					},
 					{
 						"name": "Alpini",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -17201,7 +17580,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -17209,7 +17591,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -17217,7 +17602,10 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					}
 				],
@@ -17924,6 +18312,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
 				],
@@ -17971,15 +18362,17 @@
 						"name": "Winter Equipment",
 						"points": 0,
 						"perModel": true,
-						"unlockedByLocal": ["Alpini"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"]
+						"unlockedByLocal": ["Alpini"]
 					},
 					{
 						"name": "Alpini",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -17987,7 +18380,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -17995,7 +18391,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -18003,7 +18402,10 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					}
 				],
@@ -18871,6 +19273,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
 				],
@@ -18910,15 +19315,17 @@
 						"name": "Winter Equipment",
 						"points": 0,
 						"perModel": true,
-						"unlockedByLocal": ["Alpini"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"]
+						"unlockedByLocal": ["Alpini"]
 					},
 					{
 						"name": "Alpini",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -18926,7 +19333,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -18934,7 +19344,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -18942,7 +19355,10 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					}
 				],
@@ -31979,6 +32395,194 @@
 				"equipment": ["Rifles"]
 			},
 			{
+				"name": "Esercito Repubblicano Infantry Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Italian National Republican Army" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Granatieri",
+						"points": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"perModel": true
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["Rifles"]
+			},
+			{
+				"name": "Esercito Repubblicano Infantry Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Italian National Republican Army" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Granatieri",
+						"points": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"perModel": true
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["Rifles"]
+			},
+			{
 				"name": "Divisione Costiera Squad",
 				"factions": [],
 				"order": 1,
@@ -32096,6 +32700,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
 				],
@@ -32197,6 +32804,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
@@ -32441,6 +33051,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
@@ -32509,6 +33122,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
@@ -32578,6 +33194,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
 				],
@@ -32638,6 +33257,9 @@
 					{
 						"name": "Monte Cervino",
 						"points": 1,
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)"
+						],
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"perModel": true
 					}
@@ -32652,6 +33274,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
 				],
@@ -32712,6 +33337,9 @@
 					{
 						"name": "Monte Cervino",
 						"points": 1,
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)"
+						],
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"perModel": true
 					}
@@ -32867,6 +33495,10 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
@@ -32937,6 +33569,10 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
@@ -33007,6 +33643,10 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
@@ -33078,6 +33718,10 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
@@ -33232,6 +33876,168 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 75,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Demolition Charges",
+						"points": 20,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"perModel": true
+					},
+					{
+						"name": "Arditi Camionettisti",
+						"points": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: M","Tough Fighters","Behind Enemy Lines"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["Rifles"]
+			},
+			{
+				"name": "'Decima Mas' Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Italian National Republican Army" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 75,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Demolition Charges",
+						"points": 20,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"perModel": true
+					},
+					{
+						"name": "Arditi Camionettisti",
+						"points": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: M","Tough Fighters","Behind Enemy Lines"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["Rifles"]
+			},
+			{
+				"name": "'Decima Mas' Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Italian National Republican Army" }]			
 					}
 				],
 				"points": 0,
@@ -33692,6 +34498,212 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 40,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 8,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"perModel": true
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M","Traffic Direction","Get Back in the Fight, Now!"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["Rifles"]
+			},
+			{
+				"name": "Republican National Guard Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Italian National Republican Army" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 40,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 8,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"perModel": true
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"perModel": true
+					}
+				],
+				"keywords": ["Period: E|M","Traffic Direction","Get Back in the Fight, Now!"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["Rifles"]
+			},
+			{
+				"name": "Republican National Guard Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Italian National Republican Army" }]			
 					}
 				],
 				"points": 0,
@@ -41075,7 +42087,6 @@
 				"name": "Swedish Royal Guard Squad",
 				"factions": [],
 				"order": 1,
-				"limits": 2,
 				"availableIn": [
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden" }]			
@@ -41089,6 +42100,11 @@
 						"key": "Rifle Team",
 						"limit": 4,
 						"perParent": true
+					},
+					{
+						"key": "RG",
+						"limit": 2,
+						"perParent": false
 					}
 				],
 				"options": [
@@ -47071,6 +48087,21 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Danish Regulars" }]			
 					},
 					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					},
 					{
@@ -47138,6 +48169,9 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Danish Regulars" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Italian National Republican Army" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]	
@@ -49186,6 +50220,21 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
 					},
 					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					},
 					{
@@ -49272,6 +50321,9 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Italian National Republican Army" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]	
@@ -50144,6 +51196,147 @@
 				"keywords": ["Period: E|M|L","Gun Shield"],
 				"specialText": "3 Crew Members",
 				"equipment": ["Medium AT Gun Team"]
+			},
+			{
+				"name": "75mm Pak 40 Heavy AT Gun",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 100,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 130,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Gebirgsjäger Winter Equipment",
+						"points": 0,
+						"availableIn": ["Germany"],
+						"unlockedByLocal": "Defend the Fatherland! (Gebirgsjäger)"
+					},
+					{
+						"name": "Defend the Fatherland! (Fallschirmjäger)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "Defend the Fatherland! (Gebirgsjäger)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "Defend the Fatherland! (Waffen-SS InEx)",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "Defend the Fatherland! (Waffen-SS)",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["Germany"],
+						"chooseOneKey": "natRuGer"
+					},
+					{
+						"name": "Folgore AT Grenades",
+						"points": 3,
+						"unlockedByLocal": ["Paracadutisti"],
+						"perModel": true
+					},
+					{
+						"name": "Winter Equipment",
+						"points": 0,
+						"perModel": true,
+						"unlockedByLocal": ["Alpini"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						]
+					},
+					{
+						"name": "Alpini",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Bersaglieri",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Paracadutisti",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Camicie Nere",
+						"points": 0,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
+					}
+				],
+				"keywords": ["Period: E|M|L","Gun Shield"],
+				"specialText": "4 Crew Members",
+				"equipment": ["Heavy AT Gun Team"]
 			},
 			{
 				"name": "75mm LG40 Light Howitzer",
@@ -54500,6 +55693,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
 				],
@@ -54534,15 +55730,17 @@
 						"name": "Winter Equipment",
 						"points": 0,
 						"perModel": true,
-						"unlockedByLocal": ["Alpini"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"]
+						"unlockedByLocal": ["Alpini"]
 					},
 					{
 						"name": "Alpini",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -54550,7 +55748,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -54558,7 +55759,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -54566,7 +55770,10 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					}
 				],
@@ -54579,6 +55786,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
@@ -54614,15 +55824,17 @@
 						"name": "Winter Equipment",
 						"points": 0,
 						"perModel": true,
-						"unlockedByLocal": ["Alpini"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"]
+						"unlockedByLocal": ["Alpini"]
 					},
 					{
 						"name": "Alpini",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -54630,7 +55842,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -54638,7 +55853,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -54646,7 +55864,10 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					}
 				],
@@ -54659,6 +55880,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
@@ -54700,15 +55924,17 @@
 						"name": "Winter Equipment",
 						"points": 0,
 						"perModel": true,
-						"unlockedByLocal": ["Alpini"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"]
+						"unlockedByLocal": ["Alpini"]
 					},
 					{
 						"name": "Alpini",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -54716,7 +55942,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -54724,7 +55953,10 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					}
 				],
@@ -54737,6 +55969,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
@@ -54773,7 +56008,10 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					}
 				],
@@ -54786,6 +56024,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
@@ -54826,15 +56067,17 @@
 						"name": "Winter Equipment",
 						"points": 0,
 						"perModel": true,
-						"unlockedByLocal": ["Alpini"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"]
+						"unlockedByLocal": ["Alpini"]
 					},
 					{
 						"name": "Alpini",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -54842,7 +56085,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -54850,7 +56096,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -54858,7 +56107,10 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					}
 				],
@@ -54871,6 +56123,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
@@ -54911,15 +56166,17 @@
 						"name": "Winter Equipment",
 						"points": 0,
 						"perModel": true,
-						"unlockedByLocal": ["Alpini"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"]
+						"unlockedByLocal": ["Alpini"]
 					},
 					{
 						"name": "Alpini",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -54927,7 +56184,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -54935,7 +56195,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -54943,7 +56206,10 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					}
 				],
@@ -54956,6 +56222,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
@@ -54996,15 +56265,17 @@
 						"name": "Winter Equipment",
 						"points": 0,
 						"perModel": true,
-						"unlockedByLocal": ["Alpini"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"]
+						"unlockedByLocal": ["Alpini"]
 					},
 					{
 						"name": "Alpini",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -55012,7 +56283,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -55020,7 +56294,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -55028,7 +56305,10 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					}
 				],
@@ -55041,6 +56321,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
@@ -55081,15 +56364,17 @@
 						"name": "Winter Equipment",
 						"points": 0,
 						"perModel": true,
-						"unlockedByLocal": ["Alpini"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"]
+						"unlockedByLocal": ["Alpini"]
 					},
 					{
 						"name": "Alpini",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -55097,7 +56382,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -55105,7 +56393,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -55113,7 +56404,10 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					}
 				],
@@ -55126,6 +56420,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
@@ -55166,15 +56463,17 @@
 						"name": "Winter Equipment",
 						"points": 0,
 						"perModel": true,
-						"unlockedByLocal": ["Alpini"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"]
+						"unlockedByLocal": ["Alpini"]
 					},
 					{
 						"name": "Alpini",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -55182,7 +56481,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -55190,7 +56492,10 @@
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					},
 					{
@@ -55198,7 +56503,10 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					}
 				],
@@ -55211,6 +56519,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
@@ -55246,7 +56557,10 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					}
 				],
@@ -55259,6 +56573,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
@@ -55300,7 +56617,10 @@
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"availableIn": ["Royal Italian Army (Regio Esercito)"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian National Republican Army"
+						],
 						"chooseOneKey": "natRuI"
 					}
 				],
@@ -55309,10 +56629,167 @@
 				"equipment": ["Platform Mounted Heavy Autocannon"]
 			},
 			{
+				"name": "Breda 61 Artillery Tractor",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 22,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 27,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 32,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 6+","Tow","Transport","Half-Track"],
+				"specialText": "Transport: 12\n Tow: Any",
+				"equipment": []
+			},
+			{
+				"name": "Breda 61 Artillery Tractor - Recce",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]	
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 22,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 27,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 32,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 6+","Tow","Transport","Half-Track"],
+				"specialText": "Transport: 12\n Tow: Any",
+				"equipment": []
+			},
+			{
+				"name": "SPA 35 Pretetto",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 52,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Tow","Transport","Wheeled"],
+				"specialText": "Transport: 10\n Tow: L/M AT Gyn, L Howitzer, L AA Gun",
+				"equipment": ["Froward Facing Pintle Mounted MMG"]
+			},
+			{
+				"name": "SPA 35 Pretetto - Recce",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]	
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 52,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Tow","Transport","Wheeled"],
+				"specialText": "Transport: 10\n Tow: L/M AT Gyn, L Howitzer, L AA Gun",
+				"equipment": ["Froward Facing Pintle Mounted MMG"]
+			},
+			{
 				"name": "Fiat 508CM",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					},
@@ -55358,6 +56835,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]	
 					}
 				],
@@ -55389,6 +56869,21 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					},
@@ -55434,6 +56929,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]	
 					}
 				],
@@ -55465,6 +56963,21 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					},
@@ -55515,6 +57028,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]	
 					}
 				],
@@ -55551,6 +57067,21 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					},
@@ -55600,6 +57131,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Italian National Republican Army" }]			
+					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]	
 					}
@@ -77028,6 +78562,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
 				],
@@ -77108,6 +78645,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
 				],
@@ -77157,6 +78697,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
 				],
@@ -77196,6 +78739,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
 				],
@@ -77234,6 +78780,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
@@ -77323,6 +78872,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
 				],
@@ -77372,6 +78924,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
 				],
@@ -77420,6 +78975,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
@@ -77526,6 +79084,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
 				],
@@ -77570,6 +79131,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
 				],
@@ -77613,6 +79177,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
@@ -77662,6 +79229,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
@@ -77746,6 +79316,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
 				],
@@ -77807,6 +79380,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
 				],
@@ -77855,6 +79431,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
@@ -77905,6 +79484,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
 				],
@@ -77949,6 +79531,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
 				],
@@ -77992,6 +79577,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
@@ -78081,6 +79669,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
 				],
@@ -78130,6 +79721,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
 				],
@@ -78174,6 +79768,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
@@ -78369,6 +79966,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
 				],
@@ -78412,6 +80012,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
@@ -78462,6 +80065,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
 				],
@@ -78511,6 +80117,221 @@
 				],
 				"keywords": ["Period: E|M","Damage Value: 6+","Wheeled","Recce","Turret on the Spot"],
 				"equipment": []
+			},
+			{
+				"name": "Autoblinda Lince",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 52,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 78,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Wheeled","Recce"],
+				"equipment": ["Hull Mounted MMG"]
+			},
+			{
+				"name": "P26/40 Heavy Tank",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 148,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 185,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+","Tracked","Vulnerable","Improved HE"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Semovente M42 da 75/34 Tank Destroyer",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 140,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 175,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Front Facing Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+","Tracked","Vulnerable","Improved HE"],
+				"equipment": ["Hull Mounted Medium AT Gun"]
+			},
+			{
+				"name": "Semovente M43 da 75/46 Tank Destroyer",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 190,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 238,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Front Facing Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 9+","Tracked","Reinforced Front Armor"],
+				"equipment": ["Hull Mounted Heavy AT Gun"]
+			},
+			{
+				"name": "Autoblinda Africa Settentrionale Italiana AS43 Armored Car",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 76,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 95,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 7+","Wheeled","Recce","Reinforced Front Armor"],
+				"equipment": ["Turret Mounted Light Autocannon"]
 			},
 			{
 				"name": "Type 91 Sumida Armored Car",
@@ -84087,14 +85908,6 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Tanks",
-						"limit": 5,
-						"perParent": true
-					}
-				],
 				"sortPriority": 3,
 				"limits": [
 					{
