@@ -52913,18 +52913,347 @@
 				"equipment": ["Medium Howitzer Team","Gun Shield"]
 			},
 			{
-				"name": "Light Artillery",
+				"name": "Medium Artillery (S)",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 77,
+						"requireChooseOneKey": "morale"
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Polish Peoples Army (LWP)" }]			
+						"name": "Regular",
+						"points": 100,
+						"requireChooseOneKey": "morale"
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Soviet Union" }]			
+						"name": "Add Spotter",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"addsModels": 1
+					}
+				],
+				"keywords": ["Period: E|M"],
+				"specialText": "4 Crew Members",
+				"equipment": ["Medium Howitzer Team","Gun Shield"]
+			},
+			{
+				"name": "Heavy Artillery (S)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 127,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 140,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"addsModels": 1
+					}
+				],
+				"keywords": ["Period: E|M"],
+				"specialText": "5 Crew Members",
+				"equipment": ["Heavy Howitzer Team","Gun Shield"]
+			},
+			{
+				"name": "Mountain Artillery (S)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 32,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 45,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 59,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"addsModels": 1
+					}
+				],
+				"keywords": ["Period: E|M"],
+				"specialText": "4 Crew Members",
+				"equipment": ["Light Howitzer Team"]
+			},
+			{
+				"name": "8.4cm Field Gun",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 30,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 40,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"addsModels": 1
+					}
+				],
+				"keywords": ["Period: E|M","Severely Outdated"],
+				"specialText": "3 Crew Members",
+				"equipment": ["Light Howitzer Team"]
+			},
+			{
+				"name": "10.5cm Mle 1881 Field Gun",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 4,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 67,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 90,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"addsModels": 1
+					}
+				],
+				"keywords": ["Period: E|M","Severely Outdated"],
+				"specialText": "4 Crew Members",
+				"equipment": ["Medium Howitzer Team"]
+			},
+			{
+				"name": "S-18/1100 AT Rifle Team",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 2,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 22,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 29,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Rotating AA Chasis",
+						"points": 2,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"addsModels": 1
+					}
+				],
+				"keywords": ["Period: E|M","Select Fire","Fixed","High Velocity"],
+				"specialText": "2 Crew Members",
+				"equipment": ["AT Rifle Team"]
+			},
+			{
+				"name": "20mm Oerlikon AA Gun",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 25,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Light Autocannon",
+						"points": 30,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": 3
+					}
+				],
+				"keywords": ["Period: E|M"],
+				"specialText": "3 Crew Members",
+				"equipment": ["Light Autocannon"]
+			},
+			{
+				"name": "7.5cm Flak Cannon",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 6,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 100,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Light Autocannon",
+						"points": 30,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": 3
+					}
+				],
+				"keywords": ["Period: E|M","Improvised Role"],
+				"specialText": "6 Crew Members",
+				"equipment": ["Rotating Platform Mounted Heavy AT Gun"]
+			},
+			{
+				"name": "24mm Tankbüchse 41 Light AT Gun",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Switzerland (GKZ)" }]			
 					}
 				],
 				"points": 0,
@@ -52949,8 +53278,144 @@
 						"requireChooseOneKey": "morale"
 					},
 					{
+						"name": "Bicycles",
+						"points": 5,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Period: E|M"],
+				"specialText": "3 Crew Members",
+				"equipment": ["Light AT Gun Team"]
+			},
+			{
+				"name": "4.7cm Infanteriekanone 35 Medium AT Gun",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: E|M"],
+				"specialText": "3 Crew Members",
+				"equipment": ["Medium AT Gun Team"]
+			},
+			{
+				"name": "4.7cm Infanteriekanone 35/41 Medium AT Gun",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 75,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: E|M"],
+				"specialText": "3 Crew Members",
+				"equipment": ["Medium AT Gun Team","Gun Shield"]
+			},
+			{
+				"name": "Light Artillery",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Polish Peoples Army (LWP)" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Soviet Union" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 35,
+						"availableIn": [
+							"Germany",
+							"Polish Peoples Army (LWP)",
+							"Soviet Union",
+							"Switzerland (GKZ)"
+						],
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 50,
+						"availableIn": [
+							"Germany",
+							"Polish Peoples Army (LWP)",
+							"Soviet Union",
+							"Switzerland (GKZ)"
+						],
+						"requireChooseOneKey": "morale"
+					},
+					{
 						"name": "Veteran",
 						"points": 65,
+						"availableIn": [
+							"Germany",
+							"Polish Peoples Army (LWP)",
+							"Soviet Union"
+						],
 						"requireChooseOneKey": "morale"
 					},
 					{
@@ -55706,7 +56171,7 @@
 						"points": 30,
 						"increment": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": 4
+						"max": 3
 					},
 					{
 						"name": "For King and Country! (Airborne)",
@@ -55742,7 +56207,7 @@
 				],
 				"keywords": ["Period: E|M|L","Team Weapon","Fixed"],
 				"specialText": "3 Crew Members",
-				"equipment": []
+				"equipment": ["Light Autocannon"]
 			},
 			{
 				"name": "3.7in QF Dual Purpose AA/AT Gun",
