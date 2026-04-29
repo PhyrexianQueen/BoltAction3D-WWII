@@ -80427,6 +80427,54 @@
 				"equipment": []
 			},
 			{
+				"name": "Breda 501 90/53 GMC",
+				"factions": [],
+				"order": 1,
+				"community": true,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 128,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 160,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 192,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Open Topped","Wheeled","Experimental"],
+				"equipment": ["Front and Side Facing Platform Mounted Heavy AT Gun","Rear Facing Pintle Mounted MMG","x2"]
+			},
+			{
 				"name": "Trucked Light Howitzers",
 				"factions": [],
 				"order": 1,
