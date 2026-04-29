@@ -16,21 +16,6 @@
     }
 ],
 "toggles": [
-	{
-		"property": "bluesky",
-		"label": "Include Blue Sky Campaign Rules",
-		"default": false
-	},
-    {
-		"property": "campaign",
-		"label": "Include Official Campaign Rules",
-		"default": false
-	},
-	{
-		"property": "community",
-		"label": "Include Community Rules",
-		"default": false
-    },
     {
 		"property": "compendium",
 		"label": "Include Compendium Rules",
@@ -40,7 +25,40 @@
 		"property": "special",
 		"label": "Include Special Rules",
 		"default": false
-    }
+    },
+    {
+		"property": "campaign",
+		"label": "Include Official (2ed) Campaign Rules",
+		"default": false
+	},
+	{
+		"property": "community",
+		"label": "Include Community Rules",
+		"default": false
+    },
+	{
+		"property": "GKZ",
+		"label": "Include G_K_Zhukov Community Rules",
+		"community": true,
+		"default": false
+    },
+	{
+		"property": "PL",
+		"label": "Include Phyrexian Labs Community Rules",
+		"community": true,
+		"default": false
+    },
+	{
+		"property": "ZC",
+		"label": "Include Zurn Central Community Rules",
+		"community": true,
+		"default": false
+    },
+	{
+		"property": "bluesky",
+		"label": "Include Blue Sky Campaign Rules",
+		"default": false
+	}
 ],
 "limits": [],
 "counts": [],
@@ -162,7 +180,7 @@
 			},
 			{
 				"name": "Chinese Communists (ZC)",
-				"community": true,
+				"ZC": true,
 				"additionalRules": [
 					"Flag - One soldier in an officer squad may replace all their weapons with a flag. Units within 12in may reroll failed Rally Order Tests; Zurn Mission Pack, Pg. 45",
 					"Geurilla Tactics - Chiense Regular and Veteran Infantry gain Fieldcraft; Zurn Mission Pack, Pg. 45",
@@ -172,8 +190,8 @@
 				]
 			},
 			{
-				"name": "Chinese Communists (ZC)",
-				"community": true,
+				"name": "Chinese Nationalists (ZC)",
+				"ZC": true,
 				"additionalRules": [
 					"Flag - One soldier in an officer squad may replace all their weapons with a flag. Units within 12in may reroll failed Rally Order Tests; Zurn Mission Pack, Pg. 45",
 					"Geurilla Tactics - Chiense Regular and Veteran Infantry gain Fieldcraft; Zurn Mission Pack, Pg. 45",
@@ -183,7 +201,7 @@
 			},
 			{
 				"name": "Chinese Warlords (ZC)",
-				"community": true,
+				"ZC": true,
 				"additionalRules": [
 					"Flag - One soldier in an officer squad may replace all their weapons with a flag. Units within 12in may reroll failed Rally Order Tests; Zurn Mission Pack, Pg. 45",
 					"Geurilla Tactics - Chiense Regular and Veteran Infantry gain Fieldcraft; Zurn Mission Pack, Pg. 45",
@@ -193,12 +211,12 @@
 			},
 			{
 				"name": "Danish Regulars (ZC)",
-				"community": true,
+				"ZC": true,
 				"additionalRules": ["Copenhagen Reserves - Inexperienced Units gain Stubborn; Zurn Mission Pack, Pg. 59","Sealand Defenders - While in Cover, Infantry and Artillery Units add +1 to their Damage Value Table; Zurn Mission Pack, Pg. 59","Masnedo Fort Defenders - You may take 2 bunkers for free, you may trade out these bunkers for Gun Pits; Zurn Mission Pack, Pg. 59"]
 			},
 			{
 				"name": "Danish Partisans (ZC)",
-				"community": true,
+				"ZC": true,
 				"additionalRules": ["Copenhagen Reserves - Inexperienced Units gain Stubborn; Zurn Mission Pack, Pg. 59","Sealand Defenders - While in Cover, Infantry and Artillery Units add +1 to their Damage Value Table; Zurn Mission Pack, Pg. 59","Partisan Activities - All Danish Infantry Sections gain the Fieldcraft Special Rule. Danish Artillery Units may start the game on Ambush if desired; Zurn Mission Pack, Pg. 59"]
 			},
 			{
@@ -231,10 +249,6 @@
 			},
 			{
 				"name": "Hungary"
-			},
-			{
-				"name": "Ireland",
-				"campaign": true
 			},
 			{
 				"name": "Italian Co-Belligerent Army",
@@ -298,7 +312,7 @@
 			},
 			{
 				"name": "Slovakia (ZC)",
-				"community": true,
+				"ZC": true,
 				"additionalRules": ["Take Cover - Any Infantry or Artillery unit with an Order other than Down may choose to change their order to Down when fired upon. If they do, that Order does not return to the bag at the end of the turn and does not remove Pins for keeping the Down Order; Zurn Mission Pack, Pg. 66","Jury-Riffed Machinery - Slovak Vehicles ignore One Pin when modifying their morale, but must still make an Order Test when they have One Pin; Zurn Mission Pack, Pg. 66","Limited Officers - Once Per game, when a Platoon Commander is killed, the nearest NCO is upgraded to a Platoon Commander; Zurn Mission Pack, Pg. 66"]
 			},
 			{
@@ -307,17 +321,17 @@
 			},
 			{
 				"name": "Sweden (PL)",
-				"community": true,
+				"PL": true,
 				"additionalRules": [
 					"120 Years of Peace - Each Platoon may only include 1 unit of Veteran Experience Level, excluding Officers. Any Inexperienced Unit gains the Green Rule for Free; Communiy Rules",
 					"Det Fria Kriget - Select Units gain access to Det Fria Kriget. For 2pt a Model, you may give any Regular or Veteran Unit Stubborn and Fieldcraft; Communiy Rules",
-					"Sweden (PL) wants to defend itself, can defend itself, and must defend itself! - Before an order test, if a unit has at least a pin, that unit may test to remove a pin before the order test; Communiy Rules",
+					"Sweden wants to defend itself, can defend itself, and must defend itself! - Before an order test, if a unit has at least a pin, that unit may test to remove a pin before the order test; Communiy Rules",
 					"The Callup - Infantry and Artillery Units do not apply the -1 penalty to hit during shooting for being Inexperienced as long as the Unit has 0 Pins; Communiy Rules"
 				]
 			},
 			{
 				"name": "Switzerland (GKZ)",
-				"community": true,
+				"GKZ": true,
 				"additionalRules": [
 					"Exceptional Marksmanship - When given a Fire Order, Swiss Soldiers armed with Rifles gain 2in of Range making Rifle Range 26in total; Armed Neutrality Communiy Rules: Pg. 3",
 					"Rather Die than Live in Slavery - When any Swiss Infantry Unit is reduced below 50% of its starting strength, gains Fanatics; Armed Neutrality Communiy Rules: Pg. 3",
@@ -1325,7 +1339,7 @@
 						"name": "Chinese Communists (ZC)"
 					},
 					{
-						"name": "Chinese Communists (ZC)"
+						"name": "Chinese Nationalists (ZC)"
 					},
 					{
 						"name": "Chinese Warlords (ZC)"
@@ -1416,7 +1430,7 @@
 						"name": "Chinese Communists (ZC)"
 					},
 					{
-						"name": "Chinese Communists (ZC)"
+						"name": "Chinese Nationalists (ZC)"
 					},
 					{
 						"name": "Chinese Warlords (ZC)"
@@ -1510,7 +1524,7 @@
 						"name": "Chinese Communists (ZC)"
 					},
 					{
-						"name": "Chinese Communists (ZC)"
+						"name": "Chinese Nationalists (ZC)"
 					},
 					{
 						"name": "Chinese Warlords (ZC)"
@@ -1610,7 +1624,7 @@
 						"name": "Chinese Communists (ZC)"
 					},
 					{
-						"name": "Chinese Communists (ZC)"
+						"name": "Chinese Nationalists (ZC)"
 					},
 					{
 						"name": "Chinese Warlords (ZC)"
@@ -1710,7 +1724,7 @@
 						"name": "Chinese Communists (ZC)"
 					},
 					{
-						"name": "Chinese Communists (ZC)"
+						"name": "Chinese Nationalists (ZC)"
 					},
 					{
 						"name": "Chinese Warlords (ZC)"
@@ -1810,7 +1824,7 @@
 						"name": "Chinese Communists (ZC)"
 					},
 					{
-						"name": "Chinese Communists (ZC)"
+						"name": "Chinese Nationalists (ZC)"
 					},
 					{
 						"name": "Chinese Warlords (ZC)"
@@ -1910,7 +1924,7 @@
 						"name": "Chinese Communists (ZC)"
 					},
 					{
-						"name": "Chinese Communists (ZC)"
+						"name": "Chinese Nationalists (ZC)"
 					},
 					{
 						"name": "Chinese Warlords (ZC)"
@@ -2010,7 +2024,7 @@
 						"name": "Chinese Communists (ZC)"
 					},
 					{
-						"name": "Chinese Communists (ZC)"
+						"name": "Chinese Nationalists (ZC)"
 					},
 					{
 						"name": "Chinese Warlords (ZC)"
@@ -2105,7 +2119,7 @@
 						"name": "Chinese Communists (ZC)"
 					},
 					{
-						"name": "Chinese Communists (ZC)"
+						"name": "Chinese Nationalists (ZC)"
 					},
 					{
 						"name": "Chinese Warlords (ZC)"
@@ -2320,7 +2334,7 @@
 						"all": [{ "in": "HQ Platoon" }, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "HQ Platoon" }, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "HQ Platoon" }, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon" }, { "in": "Chinese Warlords (ZC)" }]			
@@ -2377,6 +2391,9 @@
 						"all": [{ "in": "HQ Platoon" }, { "in": "Sweden (PL)" }]			
 					},
 					{
+						"all": [{ "in": "HQ Platoon" }, { "in": "Switzerland (GKZ)" }]			
+					},
+					{
 						"all": [{ "in": "HQ Platoon" }, { "in": "United States of America" }]			
 					}
 				],
@@ -2408,7 +2425,7 @@
 							"Belgium",
 							"Bulgaria",
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
@@ -2426,6 +2443,7 @@
 							"Slovakia (ZC)",
 							"Soviet Union",
 							"Sweden (PL)",
+							"Switzerland (GKZ)",
 							"United States of America"
 						]
 					},
@@ -2437,7 +2455,7 @@
 							"Belgium",
 							"Bulgaria",
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
@@ -2456,6 +2474,7 @@
 							"Slovakia (ZC)",
 							"Soviet Union",
 							"Sweden (PL)",
+							"Switzerland (GKZ)",
 							"United States of America"
 						]
 					},
@@ -2467,7 +2486,7 @@
 							"Belgium",
 							"Bulgaria",
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"Finland",
 							"France",
@@ -2484,6 +2503,7 @@
 							"Slovakia (ZC)",
 							"Soviet Union",
 							"Sweden (PL)",
+							"Switzerland (GKZ)",
 							"United States of America"
 						]
 					},	
@@ -2498,7 +2518,7 @@
 							"Belgium",
 							"Bulgaria",
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
 							"France",
@@ -2508,7 +2528,8 @@
 							"Netherlands",
 							"Norway",
 							"Poland",
-							"Slovakia (ZC)"
+							"Slovakia (ZC)",
+							"Switzerland (GKZ)"
 						]
 					},
 					{
@@ -2522,7 +2543,7 @@
 							"Belgium",
 							"Bulgaria",
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
 							"Finland",
@@ -2533,7 +2554,8 @@
 							"Netherlands",
 							"Norway",
 							"Poland",
-							"Slovakia (ZC)"
+							"Slovakia (ZC)",
+							"Switzerland (GKZ)"
 						]
 					},
 					{
@@ -2547,7 +2569,7 @@
 							"Belgium",
 							"Bulgaria",
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Finland",
 							"France",
 							"Greece",
@@ -2555,7 +2577,8 @@
 							"Netherlands",
 							"Norway",
 							"Poland",
-							"Slovakia (ZC)"
+							"Slovakia (ZC)",
+							"Switzerland (GKZ)"
 						]
 					},
 					{
@@ -2761,7 +2784,7 @@
 							"Belgium",
 							"Bulgaria",
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
@@ -2773,7 +2796,8 @@
 							"Netherlands",
 							"Norway",
 							"Slovakia (ZC)",
-							"Poland"
+							"Poland",
+							"Switzerland (GKZ)"
 						]
 					},
 					{
@@ -2786,7 +2810,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"availableIn": [
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)"
 						]
 					},
@@ -2800,12 +2824,13 @@
 						"unlockedByLocal": ["Inexperienced (Danish)","Inexperienced","Regular","Veteran"],
 						"availableIn": [
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
 							"Finland",
-							"Slovakia (ZC)"
+							"Slovakia (ZC)",
+							"Switzerland (GKZ)"
 						]
 					},
 					{
@@ -2938,7 +2963,7 @@
                         ],
 						"availableIn": [
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)"
 						]
 					},
@@ -4452,6 +4477,9 @@
 						"all": [{ "in": "HQ Platoon" }, { "in": "Romania" }]			
 					},
 					{
+						"all": [{ "in": "HQ Platoon" }, { "in": "Switzerland (GKZ)" }]			
+					},
+					{
 						"all": [{ "in": "HQ Platoon" }, { "in": "United States of America" }]			
 					}
 				],
@@ -4476,6 +4504,7 @@
 							"Hungary",
 							"Romania",
 							"Sweden (PL)",
+							"Switzerland (GKZ)",
 							"United States of America"
 						],
 						"requireChooseOneKey": "morale"
@@ -4490,6 +4519,7 @@
 							"Hungary",
 							"Romania",
 							"Sweden (PL)",
+							"Switzerland (GKZ)",
 							"United States of America"
 						],
 						"requireChooseOneKey": "morale"
@@ -4507,6 +4537,11 @@
 							"United States of America"
 						],
 						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Pistol",
+						"points": 1,
+						"availableIn": ["Switzerland (GKZ)"]
 					},
 					{
 						"name": "Welbikes",
@@ -4783,19 +4818,19 @@
 						"all": [{ "in": "Artillery Platoon" }, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon" }, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon" }, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Recce Platoon" }, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon" }, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon" }, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon" }, { "in": "Chinese Warlords (ZC)" }]			
@@ -5083,6 +5118,21 @@
 						"all": [{ "in": "Artillery Platoon" }, { "in": "Sweden (PL)" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Switzerland (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Switzerland (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Switzerland (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Switzerland (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Switzerland (GKZ)" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon" }, { "in": "United States of America" }]			
 					},
 					{
@@ -5126,7 +5176,7 @@
 							"Belgium",
 							"Bulgaria",
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"France",
 							"Germany",
@@ -5142,6 +5192,7 @@
 							"Slovakia (ZC)",
 							"Soviet Union",
 							"Sweden (PL)",
+							"Switzerland (GKZ)",
 							"United States of America"
 						]
 					},
@@ -5153,7 +5204,7 @@
 							"Belgium",
 							"Bulgaria",
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
@@ -5172,6 +5223,7 @@
 							"Slovakia (ZC)",
 							"Soviet Union",
 							"Sweden (PL)",
+							"Switzerland (GKZ)",
 							"United States of America"
 						]
 					},
@@ -5183,7 +5235,7 @@
 							"Belgium",
 							"Bulgaria",
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"Finland",
 							"France",
@@ -5200,6 +5252,7 @@
 							"Slovakia (ZC)",
 							"Soviet Union",
 							"Sweden (PL)",
+							"Switzerland (GKZ)",
 							"United States of America"
 						]
 					},
@@ -5214,7 +5267,7 @@
 							"Belgium",
 							"Bulgaria",
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
 							"France",
@@ -5226,7 +5279,8 @@
 							"Partisans",
 							"Poland",
 							"Romania",
-							"Slovakia (ZC)"
+							"Slovakia (ZC)",
+							"Switzerland (GKZ)"
 						]
 					},
 					{
@@ -5267,7 +5321,7 @@
 							"Belgium",
 							"Bulgaria",
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
 							"Finland",
@@ -5280,7 +5334,8 @@
 							"Partisans",
 							"Poland",
 							"Romania",
-							"Slovakia (ZC)"
+							"Slovakia (ZC)",
+							"Switzerland (GKZ)"
 						]
 					},
 					{
@@ -5321,7 +5376,7 @@
 							"Belgium",
 							"Bulgaria",
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Finland",
 							"France",
 							"Greece",
@@ -5332,7 +5387,8 @@
 							"Partisans",
 							"Poland",
 							"Romania",
-							"Slovakia (ZC)"
+							"Slovakia (ZC)",
+							"Switzerland (GKZ)"
 						]
 					},
 					{
@@ -5475,7 +5531,7 @@
 							"Belgium",
 							"Bulgaria",
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
@@ -5488,7 +5544,8 @@
 							"Norway",
 							"Partisans",
 							"Poland",
-							"Slovakia (ZC)"
+							"Slovakia (ZC)",
+							"Switzerland (GKZ)"
 						]
 					},
 					{
@@ -5501,7 +5558,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"availableIn": [
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)"
 						]
 					},
@@ -5515,12 +5572,13 @@
 						"unlockedByLocal": ["Inexperienced (Danish)","Inexperienced","Regular","Veteran"],
 						"availableIn": [
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
 							"Finland",
-							"Slovakia (ZC)"
+							"Slovakia (ZC)",
+							"Switzerland (GKZ)"
 						]
 					},
 					{
@@ -5643,7 +5701,7 @@
                         ],
 						"availableIn": [
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)"
 						]
 					},
@@ -6553,7 +6611,7 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -6598,6 +6656,9 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (PL)" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Switzerland (GKZ)" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
@@ -6620,7 +6681,7 @@
 							"Belgium",
 							"Bulgaria",
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
@@ -6639,6 +6700,7 @@
 							"Slovakia (ZC)",
 							"Soviet Union",
 							"Sweden (PL)",
+							"Switzerland (GKZ)",
 							"United States of America"
 						]
 					},
@@ -6650,7 +6712,7 @@
 							"Belgium",
 							"Bulgaria",
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"Finland",
 							"France",
@@ -7234,6 +7296,12 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (PL)" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Switzerland (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Switzerland (GKZ)" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
 					},
 					{
@@ -7311,7 +7379,8 @@
 						"localLimit": 2,
 						"availableIn": [
 							"France",
-							"Netherlands"
+							"Netherlands",
+							"Switzerland (GKZ)"
 						]
 					},
 					{
@@ -7339,7 +7408,8 @@
 						"localLimit": 1,
 						"availableIn": [
 							"France",
-							"Netherlands"
+							"Netherlands",
+							"Switzerland (GKZ)"
 						]
 					},
 					{
@@ -7377,7 +7447,8 @@
 						"localLimit": 3,
 						"availableIn": [
 							"France",
-							"Netherlands"
+							"Netherlands",
+							"Switzerland (GKZ)"
 						]
 					},
 					
@@ -7679,10 +7750,10 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -7781,6 +7852,12 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (PL)" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Switzerland (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Switzerland (GKZ)" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
 					},
 					{
@@ -7819,6 +7896,7 @@
 							"Romania",
 							"Slovakia (ZC)",
 							"Sweden (PL)",
+							"Switzerland (GKZ)",
 							"United States of America"
 						],
 						"requireChooseOneKey": "morale"
@@ -7830,7 +7908,7 @@
 							"Belgium",
 							"Bulgaria",
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"Finland",
 							"France",
@@ -7845,6 +7923,7 @@
 							"Romania",
 							"Slovakia (ZC)",
 							"Sweden (PL)",
+							"Switzerland (GKZ)",
 							"United States of America"
 						],
 						"requireChooseOneKey": "morale"
@@ -7930,7 +8009,8 @@
 							"Finland",
 							"France",
 							"Greece",
-							"Hungary"
+							"Hungary",
+							"Switzerland (GKZ)"
 						]
 					},
 					{
@@ -7949,7 +8029,8 @@
 							"Finland",
 							"France",
 							"Greece",
-							"Hungary"
+							"Hungary",
+							"Switzerland (GKZ)"
 						]
 					},
 					{
@@ -7983,7 +8064,8 @@
 							"Finland",
 							"France",
 							"Greece",
-							"Hungary"
+							"Hungary",
+							"Switzerland (GKZ)"
 						]
 					},
 					{
@@ -9012,7 +9094,7 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -9399,7 +9481,7 @@
 				"equipment": ["Sniper Rifle","Spotter's Pistol"]
 			},
 			{
-				"name": "Sniper (I)",
+				"name": "Sniper Team (I)",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -9503,6 +9585,36 @@
 				"keywords": ["Period: E|M","Infiltrator","Sniper","Team Weapon"],
 				"specialText": "1 Sniper\n 1 Sniper Spotter",
 				"equipment": ["Pistol","Rifle"]
+			},
+			{
+				"name": "Sniper Team (S)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "Sniper",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 67,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: E|M","Infiltrator","Sniper","Team Weapon","Spirit of William Tell"],
+				"specialText": "1 Sniper\n 1 Sniper Spotter",
+				"equipment": ["Sniper Rifle"]
 			},
 			{
 				"name": "Sniper, Lone",
@@ -9980,6 +10092,146 @@
 					}
 				],
 				"keywords": ["Period: E|M","Hi Rate of Fire","Fixed"],
+				"specialText": "1 Soldier \n 1 Weapon Assistant",
+				"equipment": ["AT Rifle"]
+			},
+			{
+				"name": "S-18/100 AT RIfle Team",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 18,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 25,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: E|M","Fixed"],
+				"specialText": "1 Soldier \n 1 Weapon Assistant",
+				"equipment": ["AT Rifle"]
+			},
+			{
+				"name": "S-18/100 AT RIfle Team - Heavy Weapons Platoon",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 18,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 25,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: E|M","Fixed"],
+				"specialText": "1 Soldier \n 1 Weapon Assistant",
+				"equipment": ["AT Rifle"]
+			},
+			{
+				"name": "S-18/1000 AT RIfle Team",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 20,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 27,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: E|M","Fixed","High Velocity"],
+				"specialText": "1 Soldier \n 1 Weapon Assistant",
+				"equipment": ["AT Rifle"]
+			},
+			{
+				"name": "S-18/1000 AT RIfle Team - Heavy Weapons Platoon",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 20,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 27,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: E|M","Fixed","High Velocity"],
 				"specialText": "1 Soldier \n 1 Weapon Assistant",
 				"equipment": ["AT Rifle"]
 			},
@@ -12806,10 +13058,10 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -12858,7 +13110,7 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -13335,7 +13587,7 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -13344,7 +13596,7 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -13459,7 +13711,7 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -13571,7 +13823,7 @@
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -14038,7 +14290,7 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					}
 				],
 				"points": 0,
@@ -14284,7 +14536,7 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					}
 				],
 				"points": 0,
@@ -16854,6 +17106,73 @@
 				"equipment": []
 			},
 			{
+				"name": "Swiss Engineers Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 3,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran (China)"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran (China)"],
+						"max": "parentModels",
+						"maxKey": "gun"
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran (China)"]
+					},
+					{
+						"name": "Mountain Engineer",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran (China)"]
+					}
+				],
+				"keywords": ["Period: E|M","Engineers","Fortress Switzerland"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["Rifles"]
+			},
+			{
 				"name": "Engineer Squad",
 				"factions": [],
 				"order": 1,
@@ -16993,7 +17312,7 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -17034,7 +17353,7 @@
 						"requireChooseOneKey": "morale",
 						"availableIn": [
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"Slovakia (ZC)"
 						]
@@ -17045,7 +17364,7 @@
 						"requireChooseOneKey": "morale",
 						"availableIn": [
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
@@ -17058,7 +17377,7 @@
 						"requireChooseOneKey": "morale",
 						"availableIn": [
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"Slovakia (ZC)"
 						]
@@ -17077,7 +17396,7 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -17118,7 +17437,7 @@
 						"requireChooseOneKey": "morale",
 						"availableIn": [
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"Slovakia (ZC)"
 						]
@@ -17129,7 +17448,7 @@
 						"requireChooseOneKey": "morale",
 						"availableIn": [
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
@@ -17142,7 +17461,7 @@
 						"requireChooseOneKey": "morale",
 						"availableIn": [
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"Slovakia (ZC)"
 						]
@@ -18282,6 +18601,9 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (PL)" }]			
 					},
 					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Switzerland (GKZ)" }]			
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
@@ -18324,6 +18646,7 @@
 							"Polish Peoples Army (LWP)",
 							"Soviet Union",
 							"Sweden (PL)",
+							"Switzerland (GKZ)",
 							"United States of America"
 						]
 					},
@@ -18499,7 +18822,7 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -18546,7 +18869,7 @@
 						"requireChooseOneKey": "morale",
 						"availableIn": [
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"France",
 							"Slovakia (ZC)"
@@ -18558,7 +18881,7 @@
 						"requireChooseOneKey": "morale",
 						"availableIn": [
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
@@ -18574,7 +18897,7 @@
 							"Belgium",
 							"Bulgaria",
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"Finland",
 							"France",
@@ -18836,7 +19159,7 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -19210,7 +19533,7 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists (ZC)" }]
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists (ZC)" }]
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Warlords (ZC)" }]
@@ -19241,6 +19564,9 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (PL)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Switzerland (GKZ)" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
@@ -19274,7 +19600,7 @@
 							"Belgium",
 							"Bulgaria",
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"France",
 							"Germany",
@@ -19290,6 +19616,7 @@
 							"Slovakia (ZC)",
 							"Soviet Union",
 							"Sweden (PL)",
+							"Switzerland (GKZ)",
 							"United States of America"
 						]
 					},
@@ -19301,7 +19628,7 @@
 							"Belgium",
 							"Bulgaria",
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
@@ -19320,6 +19647,7 @@
 							"Slovakia (ZC)",
 							"Soviet Union",
 							"Sweden (PL)",
+							"Switzerland (GKZ)",
 							"United States of America"
 						]
 					},
@@ -19327,7 +19655,7 @@
 						"name": "Veteran",
 						"points": 65,
 						"availableIn": [
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Finland",
 							"France",
 							"Great Britain",
@@ -20133,7 +20461,7 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					}
 				],
 				"points": 0,
@@ -20217,7 +20545,7 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					}
 				],
 				"points": 0,
@@ -20625,7 +20953,7 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					}
 				],
 				"points": 0,
@@ -20724,7 +21052,7 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					}
 				],
 				"points": 0,
@@ -20823,7 +21151,7 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					}
 				],
 				"points": 0,
@@ -20894,7 +21222,7 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					}
 				],
 				"points": 0,
@@ -20968,7 +21296,7 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					}
 				],
 				"points": 0,
@@ -21074,7 +21402,7 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					}
 				],
 				"points": 0,
@@ -21180,7 +21508,7 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -21250,7 +21578,7 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -21320,7 +21648,7 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -21377,7 +21705,7 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -43536,6 +43864,1150 @@
 				"equipment": []
 			},
 			{
+				"name": "Swiss Infantry (Early)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 9,
+						"addsModels": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Period: E"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["Rifles"]
+			},
+			{
+				"name": "Swiss Infantry (Early)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 9,
+						"addsModels": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Period: E"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["Rifles"]
+			},
+			{
+				"name": "Swiss Infantry (Middle)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Period: M"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["Rifles"]
+			},
+			{
+				"name": "Swiss Infantry (Middle)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Period: M"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["Rifles"]
+			},
+			{
+				"name": "Swiss Bicycle Infantry",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"unavailableWithLocal": ["Swiss MMG"],
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Swiss MMG",
+						"points": 20,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"unavailableWithLocal": ["LMG"],
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Period: E|M"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["Rifles","Bicycles"]
+			},
+			{
+				"name": "Swiss Bicycle Infantry",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"unavailableWithLocal": ["Swiss MMG"],
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Swiss MMG",
+						"points": 20,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"unavailableWithLocal": ["LMG"],
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Period: E|M"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["Rifles","Bicycles"]
+			},
+			{
+				"name": "Volunteer Border Guards",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 9,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Period: E|M","Ready and Waiting","Uncertain Mettle"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["Rifles"]
+			},
+			{
+				"name": "Volunteer Border Guards",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 9,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Period: E|M","Ready and Waiting","Uncertain Mettle"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["Rifles"]
+			},
+			{
+				"name": "Border Militia",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 25,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 9,
+						"addsModels": 1
+					}
+				],
+				"keywords": ["Period: E|M","Ready and Waiting"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["Rifles"]
+			},
+			{
+				"name": "Border Militia",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 25,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 9,
+						"addsModels": 1
+					}
+				],
+				"keywords": ["Period: E|M","Ready and Waiting"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["Rifles"]
+			},
+			{
+				"name": "Reserve Infantry",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 25,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 9,
+						"addsModels": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Period: E|M","Green"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["Rifles"]
+			},
+			{
+				"name": "Reserve Infantry",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 25,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 9,
+						"addsModels": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Period: E|M","Green"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["Rifles"]
+			},
+			{
+				"name": "Local Guard",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 25,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 7,
+						"addsModels": 1
+					}
+				],
+				"keywords": ["Period: E|M","Steady Shots","Creaky Knees"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["Rifles"]
+			},
+			{
+				"name": "Local Guard",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 25,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 7,
+						"addsModels": 1
+					}
+				],
+				"keywords": ["Period: E|M","Steady Shots","Creaky Knees"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["Rifles"]
+			},
+			{
+				"name": "Mountain Infantry",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 9,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 9,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Skis",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Period: E|M","Fieldcraft"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["Rifles"]
+			},
+			{
+				"name": "Mountain Infantry",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 9,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 9,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Skis",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Period: E|M","Fieldcraft"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["Rifles"]
+			},
+			{
+				"name": "Cavalry Troop",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 6,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 78,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					}
+				],
+				"keywords": ["Period: E|M","Cavalry","Tough Fighters (Mounted)"],
+				"specialText": "1 NCO\n 5 Soldiers",
+				"equipment": ["Cavalry Carbines (Rifles)"]
+			},
+			{
+				"name": "Cavalry Troop",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 6,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 78,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 7,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					}
+				],
+				"keywords": ["Period: E|M","Cavalry","Tough Fighters (Mounted)"],
+				"specialText": "1 NCO\n 5 Soldiers",
+				"equipment": ["Cavalry Carbines (Rifles)"]
+			},
+			{
+				"name": "Motorcycle Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 75,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					}
+				],
+				"keywords": ["Period: E|M"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["Rifles","Motocycles"]
+			},
+			{
+				"name": "Motorcycle Squad",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Switzerland (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"points": 75,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "LMG",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					}
+				],
+				"keywords": ["Period: E|M"],
+				"specialText": "1 NCO\n 4 Soldiers",
+				"equipment": ["Rifles","Motocycles"]
+			},
+			{
 				"name": "Local Defense Volunteer Squads",
 				"factions": [],
 				"compendium": true,
@@ -47535,7 +49007,7 @@
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -47579,7 +49051,7 @@
 						"requireChooseOneKey": "morale",
 						"availableIn": [
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"Slovakia (ZC)"
 						]
@@ -47590,7 +49062,7 @@
 						"requireChooseOneKey": "morale",
 						"availableIn": [
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
@@ -47604,7 +49076,7 @@
 						"requireChooseOneKey": "morale",
 						"availableIn": [
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"Finland",
 							"Slovakia (ZC)"
@@ -47630,7 +49102,7 @@
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -47671,7 +49143,7 @@
 						"requireChooseOneKey": "morale",
 						"availableIn": [
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"Slovakia (ZC)"
 						]
@@ -47682,7 +49154,7 @@
 						"requireChooseOneKey": "morale",
 						"availableIn": [
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
@@ -47695,7 +49167,7 @@
 						"requireChooseOneKey": "morale",
 						"availableIn": [
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"Slovakia (ZC)"
 						]
@@ -47711,7 +49183,7 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					}
 				],
 				"points": 0,
@@ -47766,19 +49238,19 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -47828,7 +49300,7 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -47878,19 +49350,19 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -47940,7 +49412,7 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -47990,19 +49462,19 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -48111,7 +49583,7 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -48172,19 +49644,19 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -48263,7 +49735,7 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -48318,19 +49790,19 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -48379,7 +49851,7 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -48428,19 +49900,19 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -48530,7 +50002,7 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -48584,19 +50056,19 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -48671,7 +50143,7 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -48722,19 +50194,19 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -48869,7 +50341,7 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -48917,19 +50389,19 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					}
 				],
 				"points": 0,
@@ -48971,7 +50443,7 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]	
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]	
 					}
 				],
 				"points": 0,
@@ -49013,19 +50485,19 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					}
 				],
 				"points": 0,
@@ -49079,7 +50551,7 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]	
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]	
 					}
 				],
 				"points": 0,
@@ -49133,19 +50605,19 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					}
 				],
 				"points": 0,
@@ -49191,7 +50663,7 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]	
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]	
 					}
 				],
 				"points": 0,
@@ -49807,7 +51279,7 @@
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -49854,7 +51326,7 @@
 						"requireChooseOneKey": "morale",
 						"availableIn": [
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"France",
 							"Slovakia (ZC)"
@@ -49866,7 +51338,7 @@
 						"requireChooseOneKey": "morale",
 						"availableIn": [
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
@@ -49881,7 +51353,7 @@
 						"requireChooseOneKey": "morale",
 						"availableIn": [
 							"Chinese Communists (ZC)",
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"Finland",
 							"France",
@@ -49916,7 +51388,7 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Danish Partisans (ZC)" }]			
@@ -49959,7 +51431,7 @@
 						"points": 72,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"France",
 							"Slovakia (ZC)"
 						]
@@ -49969,7 +51441,7 @@
 						"points": 85,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
 							"Finland",
@@ -49982,7 +51454,7 @@
 						"points": 99,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Finland",
 							"France",
 							"Slovakia (ZC)"
@@ -50010,7 +51482,7 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Danish Partisans (ZC)" }]			
@@ -50050,7 +51522,7 @@
 						"points": 122,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"France"
 						]
 					},
@@ -50059,7 +51531,7 @@
 						"points": 135,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
 							"Finland",
@@ -50071,7 +51543,7 @@
 						"points": 149,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
-							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
 							"Finland",
 							"France"
 						]
@@ -64997,7 +66469,7 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -65044,7 +66516,7 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -65091,7 +66563,7 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -65143,7 +66615,7 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					}
 				],
 				"points": 0,
@@ -65192,7 +66664,7 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					}
 				],
 				"points": 0,
@@ -65278,7 +66750,7 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -65328,7 +66800,7 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -65378,7 +66850,7 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
@@ -65428,7 +66900,7 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					}
 				],
 				"points": 0,
@@ -65475,7 +66947,7 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					}
 				],
 				"points": 0,
@@ -65519,7 +66991,7 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					}
 				],
 				"points": 0,
@@ -65563,7 +67035,7 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					}
 				],
 				"points": 0,
@@ -65622,7 +67094,7 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					}
 				],
 				"points": 0,
@@ -65676,7 +67148,7 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					}
 				],
 				"points": 0,
@@ -65774,7 +67246,7 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					}
 				],
 				"points": 0,
@@ -65818,7 +67290,7 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					}
 				],
 				"points": 0,
@@ -65865,7 +67337,7 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					}
 				],
 				"points": 0,
@@ -65912,7 +67384,7 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					}
 				],
 				"points": 0,
@@ -66008,7 +67480,7 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					}
 				],
 				"points": 0,
@@ -66668,7 +68140,7 @@
 			{
 				"name": "Saint-Chamond",
 				"factions": [],
-				"community": true,
+				"PL": true,
 				"order": 1,
 				"availableIn": [
 					{
@@ -80466,7 +81938,7 @@
 				"name": "Breda 501 90/53 GMC",
 				"factions": [],
 				"order": 1,
-				"community": true,
+				"PL": true,
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
@@ -88137,7 +89609,7 @@
 				"name": "Balao-Class Submarine",
 				"factions": [],
 				"order": 1,
-				"community": true,
+				"PL": true,
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
@@ -90882,7 +92354,7 @@
 			{
 				"name": "Bloch MB.162 Heavy Bomber",
 				"factions": [],
-				"community": true,
+				"PL": true,
 				"order": 1,
 				"availableIn": [
 					{
@@ -91041,7 +92513,7 @@
 			{
 				"name": "Heinkel He 177 'Greif' Heavy Bomber",
 				"factions": [],
-				"community": true,
+				"PL": true,
 				"order": 1,
 				"availableIn": [
 					{
@@ -91080,7 +92552,7 @@
 			{
 				"name": "Messerschmitt Me-321 'Gigant' Heavy Cargo Glider",
 				"factions": [],
-				"community": true,
+				"PL": true,
 				"order": 1,
 				"availableIn": [
 					{
@@ -91120,7 +92592,7 @@
 			{
 				"name": "Messerschmitt Me-323 'Gigant' Heavy Cargo Aircraft",
 				"factions": [],
-				"community": true,
+				"PL": true,
 				"order": 1,
 				"availableIn": [
 					{
@@ -91287,7 +92759,7 @@
 				"name": "De Havilland Mosquito Fighter-bomber",
 				"factions": [],
 				"order": 1,
-				"community": true,
+				"PL": true,
 				"availableIn": [
 					{
 						"all": [{ "in": "Air Support"	}, { "in": "Great Britain" }]			
@@ -91341,7 +92813,7 @@
 			{
 				"name": "Avro Lancaster Heavy Bomber",
 				"factions": [],
-				"community": true,
+				"PL": true,
 				"order": 1,
 				"availableIn": [
 					{
@@ -91532,7 +93004,7 @@
 			{
 				"name": "Piaggio P.108 Heavy Bomber",
 				"factions": [],
-				"community": true,
+				"PL": true,
 				"order": 1,
 				"availableIn": [
 					{
@@ -91685,7 +93157,7 @@
 			{
 				"name": "Mitsubishi G4M 'Betty' Medium Bomber",
 				"factions": [],
-				"community": true,
+				"PL": true,
 				"order": 1,
 				"availableIn": [
 					{
@@ -91850,7 +93322,7 @@
 			{
 				"name": "Petlyakov Pe-8 Heavy Bomber",
 				"factions": [],
-				"community": true,
+				"PL": true,
 				"order": 1,
 				"availableIn": [
 					{
@@ -92308,7 +93780,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"community": true,
+				"PL": true,
 				"limits": [
 					{
 						"key": "Plane",
@@ -92363,7 +93835,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"community": true,
+				"PL": true,
 				"limits": [
 					{
 						"key": "Plane",
@@ -92401,7 +93873,7 @@
 			{
 				"name": "Boeing B-17G 'Flying Fortress' Heavy Bomber",
 				"factions": [],
-				"community": true,
+				"PL": true,
 				"order": 1,
 				"availableIn": [
 					{
