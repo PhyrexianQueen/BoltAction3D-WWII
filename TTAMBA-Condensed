@@ -179,6 +179,13 @@
 				"name": "Bulgaria"
 			},
 			{
+				"name": "Czechoslovak Republic (GKZ)",
+				"GKZ": true,
+				"additionalRules": [
+					"A NAtion of Tinkerers - Each armored vehicle gains the ability to reroll a result on the damage chart but must keep the second result, once per game. Each Soft Skinned Vehicle may test with a D6 after being destroyed. 2-6, vehicle is destroyed. On a 1, the vehicle is not destroyed but gains a Crew Stunned result; No Peace in Our Time Communiy Rules: Pg. 4", "Intelligence Network - Before Deployment or Turn 1 for 'First Wave' Deployments, you may roll a D6. Draw up to that many of your opponents order dice from the bag to be deployed immediately. If the unit your opponent selects is Outflanking, place a die on the designated table edge for that unit; No Peace in Our Time Communiy Rules: Pg. 4", "Roar of the Twin-Tailed Lion - ; No Peace in Our Time Communiy Rules: Pg. 5",
+				]
+			},
+			{
 				"name": "Chinese Communists (ZC)",
 				"ZC": true,
 				"additionalRules": [
@@ -89864,6 +89871,386 @@
 				],
 				"keywords": ["Period: E|M","Damage Value:8+","Slow","One Man Turret","Armored All Round","Slow","Unreliable"],
 				"equipment": ["Turret Mounted Low Velocity Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "AE Phase 1 Concept Heavy Tank",
+				"factions": [],
+				"PL": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 252,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 315,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 378,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 10+","Multi-Propulsion","Experimental"],
+				"equipment": ["Turret Mounted Super Heavy AT Gun"]
+			},
+			{
+				"name": "T14 Heavy Tank",
+				"factions": [],
+				"PL": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 152,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 190,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 228,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 25
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 10+","Slow"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "T29 Heavy Tank",
+				"factions": [],
+				"PL": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 268,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 335,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 402,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 25
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 10+"],
+				"equipment": ["Turret Mounted Super Heavy AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "T34 Heavy Tank",
+				"factions": [],
+				"PL": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 276,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 345,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 414,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 25
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 10+"],
+				"equipment": ["Turret Mounted Super Heavy AT Gun","Twin Turret Mounted Coaxial HMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "T30 Heavy Tank",
+				"factions": [],
+				"PL": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 264,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 330,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 396,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 25
+					}
+				],
+				"keywords": ["Period: L","Damage Value: 10+","Heavy Shell"],
+				"equipment": ["Turret Mounted Super Heavy AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "T77E1 Anti-Air Vehicle",
+				"factions": [],
+				"PL": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 176,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 220,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 264,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 8+","Flak"],
+				"equipment": ["Sextet Turret Mounted HMGs"]
+			},
+			{
+				"name": "M6 Heavy Tank",
+				"factions": [],
+				"PL": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 280,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 350,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 420,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 10+","Gyro-Stabilisers"],
+				"equipment": ["Turret Mounted Heavy AT Gun","Turret Mounted Coaxial Light AT Gun","Twin Hull Mounted HMGs","Twin Hull Mounted MMGs","Pintle Mounted HMG","Turret Mounted MMG"]
+			},
+			{
+				"name": "M6A2E1 Heavy Tank",
+				"factions": [],
+				"PL": true,
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"points": 280,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"points": 350,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"points": 420,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 10+"],
+				"equipment": ["Turret Mounted Super Heavy AT Gun","Twin Hull Mounted HMGs","Twin Hull Mounted MMGs"]
 			},
 			{
 				"name": "Jeep, US Airborne, Armored",
