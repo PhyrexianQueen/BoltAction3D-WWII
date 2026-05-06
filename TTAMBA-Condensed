@@ -89103,17 +89103,17 @@
 				"options": [
 					{
 						"name": "Inexperienced",
-						"points": 148,
+						"points": 228,
 						"requireChooseOneKey": "morale"
 					},
 					{
 						"name": "Regular",
-						"points": 185,
+						"points": 285,
 						"requireChooseOneKey": "morale"
 					},
 					{
 						"name": "Veteran",
-						"points": 222,
+						"points": 342,
 						"requireChooseOneKey": "morale"
 					},
 					{
@@ -89122,8 +89122,8 @@
 						"points": 10
 					}
 				],
-				"keywords": ["Period: M|L","Damage Value: 9+","Open Topped"],
-				"equipment": ["Hull Mounted Medium AT Gun","Pintle Mounted MMG"]
+				"keywords": ["Period: M|L","Damage Value: 9+","Open Topped","Unreliable"],
+				"equipment": ["Hull Mounted Super Heavy AT Gun","Pintle Mounted MMG"]
 			},
 			{
 				"name": "L-62 Anti II",
