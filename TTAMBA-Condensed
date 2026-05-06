@@ -39,19 +39,19 @@
 	{
 		"property": "GKZ",
 		"label": "Include G_K_Zhukov Community Rules",
-		"community": true,
+		"unlockedBy": "community",
 		"default": false
     },
 	{
 		"property": "PL",
 		"label": "Include Phyrexian Labs Community Rules",
-		"community": true,
+		"unlockedBy": "community",
 		"default": false
     },
 	{
 		"property": "ZC",
 		"label": "Include Zurn Central Community Rules",
-		"community": true,
+		"unlockedBy": "community",
 		"default": false
     },
 	{
