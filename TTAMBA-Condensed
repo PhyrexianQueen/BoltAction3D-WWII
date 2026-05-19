@@ -281,7 +281,7 @@
 					"Alzo Zero! - Artillery Units may reroll any failed morale check; Bolt Action, 3rd Edition Armies of Italy Book: Pg. 21",
 					"Avanti! - Some units may be taken as Bersaglieri, Paracadutisti, Alpini, or Camicie Nere unless otherwise noted. This includes units from other army books; Bolt Action, 3rd Edition Armies of Italy Book: Pg. 21",
 					"Mixed Quality - Inexperienced Infantry Units have Green; Bolt Action, 3rd Edition Armies of Italy Book: Pg. 21",
-					"Defensive Strategy - Enemy units cannot order units that are on the table to Run. First Wave are exempt as they enter the table. Regular or Veteran units on the table before Turn 1 may start the game in Ambush. If using a scenario with Attacker and Defender rules, the Italian player may choose if they Defend or not, unless both players are Italian; Bolt Action, 3rd Edition Armies of Italy Book: Pg. 21"
+					"Defensive Strategy - Enemy units on the table cannot be given the Run order during the first turn. First Wave are exempt as they enter the table. Regular or Veteran units on the table before Turn 1 may start the game in Ambush. If using a scenario with Attacker and Defender rules, the Italian player may choose if they Defend or not, unless both players are Italian; Bolt Action, 3rd Edition Armies of Italy Book: Pg. 21"
 				]
 			},
 			{
@@ -3129,7 +3129,7 @@
 						"chooseOneKey": "natRuUSA"
 					},
 					{
-						"name": "By Air, Land, and Sea (Marines)",
+						"name": "By Air, Land, and Sea (Marines Vet)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -3437,7 +3437,7 @@
 						]
 					},
 					{
-						"name": "Alpini",
+						"name": "Avanti! (Alpini)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -3449,7 +3449,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Bersaglieri",
+						"name": "Avanti! (Bersaglieri)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -3461,7 +3461,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Paracadutisti",
+						"name": "Avanti! (Paracadutisti)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -3473,7 +3473,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Camicie Nere",
+						"name": "Avanti! (Camicie Nere)",
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -4628,7 +4628,7 @@
 						"chooseOneKey": "natRuUSA"
 					},
 					{
-						"name": "By Air, Land, and Sea (Marines)",
+						"name": "By Air, Land, and Sea (Marines Vet)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -4722,7 +4722,7 @@
 						]
 					},
 					{
-						"name": "Alpini",
+						"name": "Avanti! (Alpini)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -4734,7 +4734,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Bersaglieri",
+						"name": "Avanti! (Bersaglieri)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -4746,7 +4746,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Paracadutisti",
+						"name": "Avanti! (Paracadutisti)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -4758,7 +4758,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Camicie Nere",
+						"name": "Avanti! (Camicie Nere)",
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -5865,7 +5865,7 @@
 						"chooseOneKey": "natRuUSA"
 					},
 					{
-						"name": "By Air, Land, and Sea (Marines)",
+						"name": "By Air, Land, and Sea (Marines Vet)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -6307,7 +6307,7 @@
 						]
 					},
 					{
-						"name": "Alpini",
+						"name": "Avanti! (Alpini)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -6319,7 +6319,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Bersaglieri",
+						"name": "Avanti! (Bersaglieri)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -6331,7 +6331,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Paracadutisti",
+						"name": "Avanti! (Paracadutisti)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -6343,7 +6343,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Camicie Nere",
+						"name": "Avanti! (Camicie Nere)",
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -6946,7 +6946,7 @@
 						"chooseOneKey": "natRuUSA"
 					},
 					{
-						"name": "By Air, Land, and Sea (Marines)",
+						"name": "By Air, Land, and Sea (Marines Vet)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -7040,7 +7040,7 @@
 						]
 					},
 					{
-						"name": "Alpini",
+						"name": "Avanti! (Alpini)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -7052,7 +7052,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Bersaglieri",
+						"name": "Avanti! (Bersaglieri)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -7064,7 +7064,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Paracadutisti",
+						"name": "Avanti! (Paracadutisti)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -7076,7 +7076,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Camicie Nere",
+						"name": "Avanti! (Camicie Nere)",
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -7588,7 +7588,7 @@
 						"chooseOneKey": "natRuUSA"
 					},
 					{
-						"name": "By Air, Land, and Sea (Marines)",
+						"name": "By Air, Land, and Sea (Marines Vet)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -8202,7 +8202,7 @@
 						"chooseOneKey": "natRuUSA"
 					},
 					{
-						"name": "By Air, Land, and Sea (Marines)",
+						"name": "By Air, Land, and Sea (Marines Vet)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -8444,7 +8444,7 @@
 						]
 					},
 					{
-						"name": "Alpini",
+						"name": "Avanti! (Alpini)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -8456,7 +8456,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Bersaglieri",
+						"name": "Avanti! (Bersaglieri)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -8468,7 +8468,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Paracadutisti",
+						"name": "Avanti! (Paracadutisti)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -8480,7 +8480,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Camicie Nere",
+						"name": "Avanti! (Camicie Nere)",
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -8593,7 +8593,7 @@
 						]
 					},
 					{
-						"name": "Alpini",
+						"name": "Avanti! (Alpini)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -8605,7 +8605,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Bersaglieri",
+						"name": "Avanti! (Bersaglieri)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -8617,7 +8617,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Paracadutisti",
+						"name": "Avanti! (Paracadutisti)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -8629,7 +8629,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Camicie Nere",
+						"name": "Avanti! (Camicie Nere)",
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -9318,7 +9318,7 @@
 						"chooseOneKey": "natRuUSA"
 					},
 					{
-						"name": "By Air, Land, and Sea (Marines)",
+						"name": "By Air, Land, and Sea (Marines Vet)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -9541,7 +9541,7 @@
 						]
 					},
 					{
-						"name": "Alpini",
+						"name": "Avanti! (Alpini)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -9553,7 +9553,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Bersaglieri",
+						"name": "Avanti! (Bersaglieri)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -9565,7 +9565,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Paracadutisti",
+						"name": "Avanti! (Paracadutisti)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -9577,7 +9577,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Camicie Nere",
+						"name": "Avanti! (Camicie Nere)",
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -9947,7 +9947,7 @@
 						"unlockedByLocal": ["Alpini"]
 					},
 					{
-						"name": "Alpini",
+						"name": "Avanti! (Alpini)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -9959,7 +9959,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Bersaglieri",
+						"name": "Avanti! (Bersaglieri)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -9971,7 +9971,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Paracadutisti",
+						"name": "Avanti! (Paracadutisti)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -9983,7 +9983,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Camicie Nere",
+						"name": "Avanti! (Camicie Nere)",
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -10050,7 +10050,7 @@
 						"unlockedByLocal": ["Alpini"]
 					},
 					{
-						"name": "Alpini",
+						"name": "Avanti! (Alpini)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -10062,7 +10062,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Bersaglieri",
+						"name": "Avanti! (Bersaglieri)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -10074,7 +10074,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Paracadutisti",
+						"name": "Avanti! (Paracadutisti)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -10086,7 +10086,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Camicie Nere",
+						"name": "Avanti! (Camicie Nere)",
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -10315,7 +10315,7 @@
 						"chooseOneKey": "natRuUSA"
 					},
 					{
-						"name": "By Air, Land, and Sea (Marines)",
+						"name": "By Air, Land, and Sea (Marines Vet)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -10402,7 +10402,7 @@
 						"chooseOneKey": "natRuUSA"
 					},
 					{
-						"name": "By Air, Land, and Sea (Marines)",
+						"name": "By Air, Land, and Sea (Marines Vet)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -10484,7 +10484,7 @@
 						"chooseOneKey": "natRuUSA"
 					},
 					{
-						"name": "By Air, Land, and Sea (Marines)",
+						"name": "By Air, Land, and Sea (Marines Vet)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -10566,7 +10566,7 @@
 						"chooseOneKey": "natRuUSA"
 					},
 					{
-						"name": "By Air, Land, and Sea (Marines)",
+						"name": "By Air, Land, and Sea (Marines Vet)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -11326,7 +11326,7 @@
 						]
 					},
 					{
-						"name": "Alpini",
+						"name": "Avanti! (Alpini)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -11338,7 +11338,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Bersaglieri",
+						"name": "Avanti! (Bersaglieri)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -11350,7 +11350,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Paracadutisti",
+						"name": "Avanti! (Paracadutisti)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -11362,7 +11362,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Camicie Nere",
+						"name": "Avanti! (Camicie Nere)",
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -11473,7 +11473,7 @@
 						]
 					},
 					{
-						"name": "Alpini",
+						"name": "Avanti! (Alpini)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -11485,7 +11485,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Bersaglieri",
+						"name": "Avanti! (Bersaglieri)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -11497,7 +11497,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Paracadutisti",
+						"name": "Avanti! (Paracadutisti)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -11509,7 +11509,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Camicie Nere",
+						"name": "Avanti! (Camicie Nere)",
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -13362,7 +13362,7 @@
 						]
 					},
 					{
-						"name": "Alpini",
+						"name": "Avanti! (Alpini)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -13374,7 +13374,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Bersaglieri",
+						"name": "Avanti! (Bersaglieri)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -13386,7 +13386,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Paracadutisti",
+						"name": "Avanti! (Paracadutisti)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -13398,7 +13398,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Camicie Nere",
+						"name": "Avanti! (Camicie Nere)",
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -13533,7 +13533,7 @@
 						]
 					},
 					{
-						"name": "Alpini",
+						"name": "Avanti! (Alpini)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -13545,7 +13545,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Bersaglieri",
+						"name": "Avanti! (Bersaglieri)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -13557,7 +13557,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Paracadutisti",
+						"name": "Avanti! (Paracadutisti)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -13569,7 +13569,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Camicie Nere",
+						"name": "Avanti! (Camicie Nere)",
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -14095,7 +14095,7 @@
 						]
 					},
 					{
-						"name": "Alpini",
+						"name": "Avanti! (Alpini)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -14107,7 +14107,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Bersaglieri",
+						"name": "Avanti! (Bersaglieri)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -14119,7 +14119,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Paracadutisti",
+						"name": "Avanti! (Paracadutisti)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -14131,7 +14131,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Camicie Nere",
+						"name": "Avanti! (Camicie Nere)",
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -16174,7 +16174,7 @@
 						]
 					},
 					{
-						"name": "Alpini",
+						"name": "Avanti! (Alpini)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -16186,7 +16186,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Paracadutisti",
+						"name": "Avanti! (Paracadutisti)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -16198,7 +16198,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Camicie Nere",
+						"name": "Avanti! (Camicie Nere)",
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -18082,7 +18082,7 @@
 						"unlockedByLocal": ["Alpini"]
 					},
 					{
-						"name": "Alpini",
+						"name": "Avanti! (Alpini)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -18094,7 +18094,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Bersaglieri",
+						"name": "Avanti! (Bersaglieri)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -18106,7 +18106,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Paracadutisti",
+						"name": "Avanti! (Paracadutisti)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -18118,7 +18118,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Camicie Nere",
+						"name": "Avanti! (Camicie Nere)",
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -18188,7 +18188,7 @@
 						"unlockedByLocal": ["Alpini"]
 					},
 					{
-						"name": "Alpini",
+						"name": "Avanti! (Alpini)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -18200,7 +18200,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Bersaglieri",
+						"name": "Avanti! (Bersaglieri)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -18212,7 +18212,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Paracadutisti",
+						"name": "Avanti! (Paracadutisti)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -18224,7 +18224,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Camicie Nere",
+						"name": "Avanti! (Camicie Nere)",
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -18999,7 +18999,7 @@
 						"unlockedByLocal": ["Alpini"]
 					},
 					{
-						"name": "Alpini",
+						"name": "Avanti! (Alpini)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -19011,7 +19011,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Bersaglieri",
+						"name": "Avanti! (Bersaglieri)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -19023,7 +19023,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Paracadutisti",
+						"name": "Avanti! (Paracadutisti)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -19035,7 +19035,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Camicie Nere",
+						"name": "Avanti! (Camicie Nere)",
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -19964,7 +19964,7 @@
 						"unlockedByLocal": ["Alpini"]
 					},
 					{
-						"name": "Alpini",
+						"name": "Avanti! (Alpini)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -19976,7 +19976,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Bersaglieri",
+						"name": "Avanti! (Bersaglieri)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -19988,7 +19988,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Paracadutisti",
+						"name": "Avanti! (Paracadutisti)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -20000,7 +20000,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Camicie Nere",
+						"name": "Avanti! (Camicie Nere)",
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -54088,7 +54088,7 @@
 						]
 					},
 					{
-						"name": "Alpini",
+						"name": "Avanti! (Alpini)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -54100,7 +54100,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Bersaglieri",
+						"name": "Avanti! (Bersaglieri)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -54112,7 +54112,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Paracadutisti",
+						"name": "Avanti! (Paracadutisti)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -54124,7 +54124,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Camicie Nere",
+						"name": "Avanti! (Camicie Nere)",
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -56528,7 +56528,7 @@
 						]
 					},
 					{
-						"name": "Alpini",
+						"name": "Avanti! (Alpini)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -56540,7 +56540,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Bersaglieri",
+						"name": "Avanti! (Bersaglieri)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -56552,7 +56552,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Paracadutisti",
+						"name": "Avanti! (Paracadutisti)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -56564,7 +56564,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Camicie Nere",
+						"name": "Avanti! (Camicie Nere)",
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -56652,7 +56652,7 @@
 						]
 					},
 					{
-						"name": "Alpini",
+						"name": "Avanti! (Alpini)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -56664,7 +56664,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Bersaglieri",
+						"name": "Avanti! (Bersaglieri)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -56676,7 +56676,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Paracadutisti",
+						"name": "Avanti! (Paracadutisti)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -56688,7 +56688,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Camicie Nere",
+						"name": "Avanti! (Camicie Nere)",
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -56791,7 +56791,7 @@
 						]
 					},
 					{
-						"name": "Alpini",
+						"name": "Avanti! (Alpini)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -56803,7 +56803,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Bersaglieri",
+						"name": "Avanti! (Bersaglieri)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -56815,7 +56815,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Paracadutisti",
+						"name": "Avanti! (Paracadutisti)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -56827,7 +56827,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Camicie Nere",
+						"name": "Avanti! (Camicie Nere)",
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -58760,7 +58760,7 @@
 						"unlockedByLocal": ["Alpini"]
 					},
 					{
-						"name": "Alpini",
+						"name": "Avanti! (Alpini)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -58772,7 +58772,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Bersaglieri",
+						"name": "Avanti! (Bersaglieri)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -58784,7 +58784,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Paracadutisti",
+						"name": "Avanti! (Paracadutisti)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -58796,7 +58796,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Camicie Nere",
+						"name": "Avanti! (Camicie Nere)",
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -58861,7 +58861,7 @@
 						"unlockedByLocal": ["Alpini"]
 					},
 					{
-						"name": "Alpini",
+						"name": "Avanti! (Alpini)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -58873,7 +58873,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Bersaglieri",
+						"name": "Avanti! (Bersaglieri)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -58885,7 +58885,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Paracadutisti",
+						"name": "Avanti! (Paracadutisti)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -58897,7 +58897,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Camicie Nere",
+						"name": "Avanti! (Camicie Nere)",
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -58968,7 +58968,7 @@
 						"unlockedByLocal": ["Alpini"]
 					},
 					{
-						"name": "Alpini",
+						"name": "Avanti! (Alpini)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -58980,7 +58980,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Bersaglieri",
+						"name": "Avanti! (Bersaglieri)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -58992,7 +58992,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Camicie Nere",
+						"name": "Avanti! (Camicie Nere)",
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -59051,7 +59051,7 @@
 						"addsModels": 1
 					},
 					{
-						"name": "Camicie Nere",
+						"name": "Avanti! (Camicie Nere)",
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -59121,7 +59121,7 @@
 						"unlockedByLocal": ["Alpini"]
 					},
 					{
-						"name": "Alpini",
+						"name": "Avanti! (Alpini)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -59133,7 +59133,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Bersaglieri",
+						"name": "Avanti! (Bersaglieri)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -59145,7 +59145,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Paracadutisti",
+						"name": "Avanti! (Paracadutisti)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -59157,7 +59157,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Camicie Nere",
+						"name": "Avanti! (Camicie Nere)",
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -59224,7 +59224,7 @@
 						"unlockedByLocal": ["Alpini"]
 					},
 					{
-						"name": "Alpini",
+						"name": "Avanti! (Alpini)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -59236,7 +59236,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Bersaglieri",
+						"name": "Avanti! (Bersaglieri)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -59248,7 +59248,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Paracadutisti",
+						"name": "Avanti! (Paracadutisti)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -59260,7 +59260,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Camicie Nere",
+						"name": "Avanti! (Camicie Nere)",
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -59327,7 +59327,7 @@
 						"unlockedByLocal": ["Alpini"]
 					},
 					{
-						"name": "Alpini",
+						"name": "Avanti! (Alpini)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -59339,7 +59339,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Bersaglieri",
+						"name": "Avanti! (Bersaglieri)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -59351,7 +59351,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Paracadutisti",
+						"name": "Avanti! (Paracadutisti)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -59363,7 +59363,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Camicie Nere",
+						"name": "Avanti! (Camicie Nere)",
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -59430,7 +59430,7 @@
 						"unlockedByLocal": ["Alpini"]
 					},
 					{
-						"name": "Alpini",
+						"name": "Avanti! (Alpini)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -59442,7 +59442,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Bersaglieri",
+						"name": "Avanti! (Bersaglieri)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -59454,7 +59454,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Paracadutisti",
+						"name": "Avanti! (Paracadutisti)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -59466,7 +59466,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Camicie Nere",
+						"name": "Avanti! (Camicie Nere)",
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -59536,7 +59536,7 @@
 						"unlockedByLocal": ["Alpini"]
 					},
 					{
-						"name": "Alpini",
+						"name": "Avanti! (Alpini)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -59548,7 +59548,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Bersaglieri",
+						"name": "Avanti! (Bersaglieri)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -59560,7 +59560,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Paracadutisti",
+						"name": "Avanti! (Paracadutisti)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
@@ -59572,7 +59572,7 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Camicie Nere",
+						"name": "Avanti! (Camicie Nere)",
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -59630,7 +59630,7 @@
 						"requireChooseOneKey": "morale"
 					},
 					{
-						"name": "Camicie Nere",
+						"name": "Avanti! (Camicie Nere)",
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -59694,7 +59694,7 @@
 						"addsModels": 1
 					},
 					{
-						"name": "Camicie Nere",
+						"name": "Avanti! (Camicie Nere)",
 						"points": 0,
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -89103,17 +89103,17 @@
 				"options": [
 					{
 						"name": "Inexperienced",
-						"points": 228,
+						"points": 164,
 						"requireChooseOneKey": "morale"
 					},
 					{
 						"name": "Regular",
-						"points": 285,
+						"points": 205,
 						"requireChooseOneKey": "morale"
 					},
 					{
 						"name": "Veteran",
-						"points": 342,
+						"points": 246,
 						"requireChooseOneKey": "morale"
 					},
 					{
@@ -89122,7 +89122,7 @@
 						"points": 10
 					}
 				],
-				"keywords": ["Period: M|L","Damage Value: 9+","Open Topped","Unreliable"],
+				"keywords": ["Period: M|L","Damage Value: 9+","Open Topped","Unreliable","Light HE"],
 				"equipment": ["Hull Mounted Super Heavy AT Gun","Pintle Mounted MMG"]
 			},
 			{
