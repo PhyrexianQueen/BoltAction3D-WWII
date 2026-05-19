@@ -111,6 +111,8 @@
 					{
 						"propertyName": "units",
 						"dataSource": "units",
+						"showModelCount": true,
+						"allowCollapse": true,
 						"label": "Units",
 						"type": "list",
 						"children": [
