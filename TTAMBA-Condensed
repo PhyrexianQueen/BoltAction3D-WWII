@@ -1426,6 +1426,55 @@
 			{
 				"name": "Rifle Platoon",
 				"specialText": "Platoon Commander: 1\n Infantry Squads (Not-Eng): 2\n Infantry Squads (Not-Eng): 0-2\n Medic: 0-1\n FAO (Arty or Air): 0-1\n Sniper: 0-1\n AT Team: 0-1\n Light Mortar: 0-1\n Transport: Per Unit in the Platoon\n",
+				"requiredChildren":[
+					{
+						"name": "Platoon Commander",
+						"points": 0,
+						"elementPropertyName": "units",
+						"in":[
+							["Belgium"],
+							["Bulgaria"],
+							["Chinese Communists (ZC)"],
+							["Chinese Nationalists (ZC)"],
+							["Chinese Warlords (ZC)"],
+							["Danish Partisans (ZC)"],
+							["Danish Regulars (ZC)"],
+							["Finland"],
+							["France"],
+							["Germany"],
+							["Great Britain"],
+							["Greece"],
+							["Hungary"],
+							["Netherlands"],
+							["Norway"],
+							["Partisans"],
+							["Poland"],
+							["Polish Peoples Army (LWP)"],
+							["Romania"],
+							["Slovakia (ZC)"],
+							["Soviet Union"],
+							["Sweden (PL)"],
+							["Switzerland (GKZ)"],
+							["United States of America"]
+						]
+					},
+					{
+						"name": "Platoon Commander (J)",
+						"points": 0,
+						"elementPropertyName": "units",
+						"in":[["Japan"]]
+					},
+					{
+						"name": "Platoon Commander (I)",
+						"points": 0,
+						"elementPropertyName": "units",
+						"in":[
+							["Italian Co-Belligerent Army"],
+							["Italian National Republican Army"],
+							["Royal Italian Army (Regio Esercito)"]
+						]
+					}
+				],
 				"decreaseModelCount": 1,
 				"unlimited": true,
 				"factions": [
@@ -1522,6 +1571,55 @@
 				"unlimited": true,
 				"specialText": "Platoon Commander: 1\n Infantry Squads (Not-Eng): 1\n Infantry Squads (Not-Eng): 0-3\n FAO (Arty or Air): 0-1\n AT Team: 0-1\n Transport: Enough so that every soldier in the platoon may ride. Transports have Recce.\n",
 				"decreaseModelCount": 1,
+				"requiredChildren":[
+					{
+						"name": "Platoon Commander",
+						"points": 0,
+						"elementPropertyName": "units",
+						"in":[
+							["Belgium"],
+							["Bulgaria"],
+							["Chinese Communists (ZC)"],
+							["Chinese Nationalists (ZC)"],
+							["Chinese Warlords (ZC)"],
+							["Danish Partisans (ZC)"],
+							["Danish Regulars (ZC)"],
+							["Finland"],
+							["France"],
+							["Germany"],
+							["Great Britain"],
+							["Greece"],
+							["Hungary"],
+							["Netherlands"],
+							["Norway"],
+							["Partisans"],
+							["Poland"],
+							["Polish Peoples Army (LWP)"],
+							["Romania"],
+							["Slovakia (ZC)"],
+							["Soviet Union"],
+							["Sweden (PL)"],
+							["Switzerland (GKZ)"],
+							["United States of America"]
+						]
+					},
+					{
+						"name": "Platoon Commander (J)",
+						"points": 0,
+						"elementPropertyName": "units",
+						"in":[["Japan"]]
+					},
+					{
+						"name": "Platoon Commander (I)",
+						"points": 0,
+						"elementPropertyName": "units",
+						"in":[
+							["Italian Co-Belligerent Army"],
+							["Italian National Republican Army"],
+							["Royal Italian Army (Regio Esercito)"]
+						]
+					}
+				],
 				"factions": [
 					{
 						"name": "Belgium"
@@ -1622,6 +1720,55 @@
 				"unlimited": true,
 				"specialText": "Platoon Commander: 1\n Engineer Squads: 2\n Engineer Squads: 0-2\n Flame Thrower Teams: 0-3\n Transport: Per Unit in the Platoon\n",
 				"decreaseModelCount": 1,
+				"requiredChildren":[
+					{
+						"name": "Platoon Commander",
+						"points": 0,
+						"elementPropertyName": "units",
+						"in":[
+							["Belgium"],
+							["Bulgaria"],
+							["Chinese Communists (ZC)"],
+							["Chinese Nationalists (ZC)"],
+							["Chinese Warlords (ZC)"],
+							["Danish Partisans (ZC)"],
+							["Danish Regulars (ZC)"],
+							["Finland"],
+							["France"],
+							["Germany"],
+							["Great Britain"],
+							["Greece"],
+							["Hungary"],
+							["Netherlands"],
+							["Norway"],
+							["Partisans"],
+							["Poland"],
+							["Polish Peoples Army (LWP)"],
+							["Romania"],
+							["Slovakia (ZC)"],
+							["Soviet Union"],
+							["Sweden (PL)"],
+							["Switzerland (GKZ)"],
+							["United States of America"]
+						]
+					},
+					{
+						"name": "Platoon Commander (J)",
+						"points": 0,
+						"elementPropertyName": "units",
+						"in":[["Japan"]]
+					},
+					{
+						"name": "Platoon Commander (I)",
+						"points": 0,
+						"elementPropertyName": "units",
+						"in":[
+							["Italian Co-Belligerent Army"],
+							["Italian National Republican Army"],
+							["Royal Italian Army (Regio Esercito)"]
+						]
+					}
+				],
 				"factions": [
 					{
 						"name": "Belgium"
@@ -1722,6 +1869,55 @@
 				"unlimited": true,
 				"specialText": "Platoon Commander: 1\n MG or Mortar Team (Any Mix): 2\n Mortar Teams: 0-3\n MG Teams: 0-3\n AT Teams: 0-3\n Transport: Per Unit in the Platoon\n",
 				"decreaseModelCount": 1,
+				"requiredChildren":[
+					{
+						"name": "Platoon Commander",
+						"points": 0,
+						"elementPropertyName": "units",
+						"in":[
+							["Belgium"],
+							["Bulgaria"],
+							["Chinese Communists (ZC)"],
+							["Chinese Nationalists (ZC)"],
+							["Chinese Warlords (ZC)"],
+							["Danish Partisans (ZC)"],
+							["Danish Regulars (ZC)"],
+							["Finland"],
+							["France"],
+							["Germany"],
+							["Great Britain"],
+							["Greece"],
+							["Hungary"],
+							["Netherlands"],
+							["Norway"],
+							["Partisans"],
+							["Poland"],
+							["Polish Peoples Army (LWP)"],
+							["Romania"],
+							["Slovakia (ZC)"],
+							["Soviet Union"],
+							["Sweden (PL)"],
+							["Switzerland (GKZ)"],
+							["United States of America"]
+						]
+					},
+					{
+						"name": "Platoon Commander (J)",
+						"points": 0,
+						"elementPropertyName": "units",
+						"in":[["Japan"]]
+					},
+					{
+						"name": "Platoon Commander (I)",
+						"points": 0,
+						"elementPropertyName": "units",
+						"in":[
+							["Italian Co-Belligerent Army"],
+							["Italian National Republican Army"],
+							["Royal Italian Army (Regio Esercito)"]
+						]
+					}
+				],
 				"factions": [
 					{
 						"name": "Belgium"
@@ -1822,6 +2018,55 @@
 				"unlimited": true,
 				"specialText": "Platoon Commander: 1\n Field Artillery/AA Gun/AT Gun: 1\n Field Artillery/AA Gun/AT Gun (Any Mix): 0-3\n Transport: Per Unit in the Platoon\n",
 				"decreaseModelCount": 1,
+				"requiredChildren":[
+					{
+						"name": "Platoon Commander",
+						"points": 0,
+						"elementPropertyName": "units",
+						"in":[
+							["Belgium"],
+							["Bulgaria"],
+							["Chinese Communists (ZC)"],
+							["Chinese Nationalists (ZC)"],
+							["Chinese Warlords (ZC)"],
+							["Danish Partisans (ZC)"],
+							["Danish Regulars (ZC)"],
+							["Finland"],
+							["France"],
+							["Germany"],
+							["Great Britain"],
+							["Greece"],
+							["Hungary"],
+							["Netherlands"],
+							["Norway"],
+							["Partisans"],
+							["Poland"],
+							["Polish Peoples Army (LWP)"],
+							["Romania"],
+							["Slovakia (ZC)"],
+							["Soviet Union"],
+							["Sweden (PL)"],
+							["Switzerland (GKZ)"],
+							["United States of America"]
+						]
+					},
+					{
+						"name": "Platoon Commander (J)",
+						"points": 0,
+						"elementPropertyName": "units",
+						"in":[["Japan"]]
+					},
+					{
+						"name": "Platoon Commander (I)",
+						"points": 0,
+						"elementPropertyName": "units",
+						"in":[
+							["Italian Co-Belligerent Army"],
+							["Italian National Republican Army"],
+							["Royal Italian Army (Regio Esercito)"]
+						]
+					}
+				],
 				"factions": [
 					{
 						"name": "Belgium"
@@ -4386,7 +4631,7 @@
 						"addsModels": 1
 					},
 					{
-						"name": "Master Sergeant Jake 'Big Joe' Diamond - Hollywood",
+						"name": "Master Sergeant Jake 'Big Joe' Diamond",
 						"points": 200,
 						"increment": true,
 						"unlockedByLocal": ["Hollywood"],
@@ -4395,13 +4640,13 @@
 						"limit": 1
 					},
 					{
-						"name": "Private Babra - Hollywood",
+						"name": "Private Babra",
 						"points": 20,
 						"increment": true,
 						"max": 1,
 						"addsModels": 1,
 						"limit": 1,
-						"unlockedByLocal": "Master Sergeant Jake 'Big Joe' Diamond - Hollywood"
+						"unlockedByLocal": "Master Sergeant Jake 'Big Joe' Diamond"
 					}
 				],
 				"keywords": ["Period: E|M|L","Sergio's Champion","Hollywood","Mulligan's Mortars","Oh, the hell with your flanks, Roach!","The Air Force has got my orders to blow every bridge in this sector out of existence!","Attack, attack, attack!"],
@@ -9540,7 +9785,7 @@
 				],
 				"keywords": ["Period: E|M|L","Infiltrator","Sniper","Team Weapon","Fanatics","Fieldcraft"],
 				"specialText": "1 Sniper\n 1 Sniper Spotter",
-				"equipment": ["Pistol","Rifle"]
+				"equipment": ["Spotter's Pistol","Sniper Rifle"]
 			},
 			{
 				"name": "Sniper Team (F)",
@@ -9685,7 +9930,7 @@
 				],
 				"keywords": ["Period: E|M","Infiltrator","Sniper","Team Weapon"],
 				"specialText": "1 Sniper\n 1 Sniper Spotter",
-				"equipment": ["Pistol","Rifle"]
+				"equipment": ["Spotter's Pistol","Sniper Rifle"]
 			},
 			{
 				"name": "Sniper Team (S)",
@@ -9716,7 +9961,7 @@
 				],
 				"keywords": ["Period: E|M","Infiltrator","Sniper","Team Weapon","Spirit of William Tell"],
 				"specialText": "1 Sniper\n 1 Sniper Spotter",
-				"equipment": ["Sniper Rifle"]
+				"equipment": ["Sniper Rifle","Rifle"]
 			},
 			{
 				"name": "Sniper, Lone",
@@ -9757,7 +10002,7 @@
 						"requireChooseOneKey": "morale"
 					},
 					{
-						"name": "Rifle",
+						"name": "Sniper Rifle",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 0,
 						"requireChooseOneKey": "priWep"
@@ -9872,7 +10117,7 @@
 				],
 				"keywords": [],
 				"specialText": "1 Soldier \n 1 Weapon Assistant",
-				"equipment": ["AT Rifle"]
+				"equipment": ["AT Rifle Team"]
 			},
 			{
 				"name": "Anti-Tank Rifle Team - Heavy Weapons Platoon",
@@ -9919,7 +10164,7 @@
 				],
 				"keywords": [],
 				"specialText": "1 Soldier \n 1 Weapon Assistant",
-				"equipment": ["AT Rifle"]
+				"equipment": ["AT Rifle Team"]
 			},
 			{
 				"name": "Panzerschreck Anti-Tank Team (F)",
@@ -9957,9 +10202,9 @@
 						"requireChooseOneKey": "morale"
 					}
 				],
-				"keywords": ["Shaped Charge","Team Weapon"],
+				"keywords": [],
 				"specialText": "1 Panzerschreck Operator\n 1 Loader",
-				"equipment": ["Panzerschreck"]
+				"equipment": ["Panzerschreck Team"]
 			},
 			{
 				"name": "Panzerschreck Anti-Tank Team - Heavy Weapons Platoon (F)",
@@ -9994,9 +10239,9 @@
 						"requireChooseOneKey": "morale"
 					}
 				],
-				"keywords": ["Shaped Charge","Team Weapon"],
+				"keywords": [],
 				"specialText": "1 Panzerschreck Operator\n 1 Loader",
-				"equipment": ["Panzerschreck"]
+				"equipment": ["Panzerschreck Team"]
 			},
 			{
 				"name": "Solothurn Anti-Tank Rifle",
@@ -10108,7 +10353,7 @@
 				],
 				"keywords": ["Period: E|M","Hi Rate of Fire","Fixed"],
 				"specialText": "1 Soldier \n 1 Weapon Assistant",
-				"equipment": ["AT Rifle"]
+				"equipment": ["AT Rifle Team"]
 			},
 			{
 				"name": "Solothurn Anti-Tank Rifle - Heavy Weapons Platoon",
@@ -10214,7 +10459,7 @@
 				],
 				"keywords": ["Period: E|M","Hi Rate of Fire","Fixed"],
 				"specialText": "1 Soldier \n 1 Weapon Assistant",
-				"equipment": ["AT Rifle"]
+				"equipment": ["AT Rifle Team"]
 			},
 			{
 				"name": "S-18/100 AT RIfle Team",
@@ -10251,7 +10496,7 @@
 				],
 				"keywords": ["Period: E|M","Fixed"],
 				"specialText": "1 Soldier \n 1 Weapon Assistant",
-				"equipment": ["AT Rifle"]
+				"equipment": ["AT Rifle Team"]
 			},
 			{
 				"name": "S-18/100 AT RIfle Team - Heavy Weapons Platoon",
@@ -10288,7 +10533,7 @@
 				],
 				"keywords": ["Period: E|M","Fixed"],
 				"specialText": "1 Soldier \n 1 Weapon Assistant",
-				"equipment": ["AT Rifle"]
+				"equipment": ["AT Rifle Team"]
 			},
 			{
 				"name": "S-18/1000 AT RIfle Team",
@@ -10325,7 +10570,7 @@
 				],
 				"keywords": ["Period: E|M","Fixed","High Velocity"],
 				"specialText": "1 Soldier \n 1 Weapon Assistant",
-				"equipment": ["AT Rifle"]
+				"equipment": ["AT Rifle Team"]
 			},
 			{
 				"name": "S-18/1000 AT RIfle Team - Heavy Weapons Platoon",
@@ -10362,7 +10607,7 @@
 				],
 				"keywords": ["Period: E|M","Fixed","High Velocity"],
 				"specialText": "1 Soldier \n 1 Weapon Assistant",
-				"equipment": ["AT Rifle"]
+				"equipment": ["AT Rifle Team"]
 			},
 			{
 				"name": "Bazooka",
@@ -10456,9 +10701,9 @@
 						"chooseOneKey": "natRuUSA"
 					}
 				],
-				"keywords": ["Period: M|L","Shaped Charge","Team Weapon"],
+				"keywords": ["Period: M|L"],
 				"specialText": "1 Bazooka Operator\n 1 Loader",
-				"equipment": ["Bazooka"]
+				"equipment": ["Bazooka Team"]
 			},
 			{
 				"name": "Bazooka - Heavy Weapons Platoon",
@@ -10546,9 +10791,9 @@
 						"chooseOneKey": "natRuUSA"
 					}
 				],
-				"keywords": ["Period: M|L","Shaped Charge","Team Weapon"],
+				"keywords": ["Period: M|L"],
 				"specialText": "1 Bazooka Operator\n 1 Loader",
-				"equipment": ["Bazooka"]
+				"equipment": ["Bazooka Team"]
 			},
 			{
 				"name": "Armored Infantry Bazooka - Rifle Platoon",
@@ -10631,9 +10876,9 @@
 						"chooseOneKey": "natRuUSA"
 					}
 				],
-				"keywords": ["Period: M|L","Shaped Charge","Team Weapon","Selection - Armored Infantry"],
+				"keywords": ["Period: M|L","Selection - Armored Infantry"],
 				"specialText": "1 Bazooka Operator\n 1 Loader",
-				"equipment": ["Bazooka"]
+				"equipment": ["Bazooka Team"]
 			},
 			{
 				"name": "Armored Infantry Bazooka - Recce Platoon",
@@ -10716,9 +10961,9 @@
 						"chooseOneKey": "natRuUSA"
 					}
 				],
-				"keywords": ["Period: M|L","Shaped Charge","Team Weapon","Selection - Armored Infantry"],
+				"keywords": ["Period: M|L","Selection - Armored Infantry"],
 				"specialText": "1 Bazooka Operator\n 1 Loader",
-				"equipment": ["Bazooka"]
+				"equipment": ["Bazooka Team"]
 			},
 			{
 				"name": "Recoilless Anti-Tank Rifle",
@@ -10774,9 +11019,9 @@
 						"chooseOneKey": "natRuSwe"
 					}
 				],
-				"keywords": ["Period: E|M|L","Team Weapon"],
+				"keywords": ["Period: E|M|L"],
 				"specialText": "1 AT Rifle Operator\n 1 Weapon Assistant",
-				"equipment": ["Recoilless Rifle"]
+				"equipment": ["Recoilless Rifle Team"]
 			},
 			{
 				"name": "Recoilless Anti-Tank Rifle - Heavy Weapons Platoon",
@@ -10829,9 +11074,9 @@
 						"chooseOneKey": "natRuSwe"
 					}
 				],
-				"keywords": ["Period: E|M|L","Team Weapon"],
+				"keywords": ["Period: E|M|L"],
 				"specialText": "1 AT Rifle Operator\n 1 Weapon Assistant",
-				"equipment": ["Recoilless Rifle"]
+				"equipment": ["Recoilless Rifle Team"]
 			},
 			{
 				"name": "Anti-Tank Rifle Team",
@@ -10917,7 +11162,7 @@
 				],
 				"keywords": ["Period: E|M"],
 				"specialText": "1 AT Rifle Operator\n 1 Weapon Assistant",
-				"equipment": ["Anti-Tank Rifle Team"]
+				"equipment": ["AT Rifle Team"]
 			},
 			{
 				"name": "Anti-Tank Rifle Team (SU)",
@@ -11000,7 +11245,7 @@
 				],
 				"keywords": ["Period: E|M"],
 				"specialText": "1 AT Rifle Operator\n 1 Weapon Assistant",
-				"equipment": ["Anti-Tank Rifle Team"]
+				"equipment": ["AT Rifle Team"]
 			},
 			{
 				"name": "Anti-Tank Rifle Team (SU) Recce",
@@ -11083,7 +11328,7 @@
 				],
 				"keywords": ["Period: E|M"],
 				"specialText": "1 AT Rifle Operator\n 1 Weapon Assistant",
-				"equipment": ["Anti-Tank Rifle Team"]
+				"equipment": ["AT Rifle Team"]
 			},
 			{
 				"name": "Anti-Tank Rifle Team - RegSup",
@@ -11170,7 +11415,7 @@
 				],
 				"keywords": ["Period: E|M"],
 				"specialText": "1 AT Rifle Operator\n 1 Weapon Assistant",
-				"equipment": ["Anti-Tank Rifle Team"]
+				"equipment": ["AT Rifle Team"]
 			},
 			{
 				"name": "Anti-Tank Rifle Team - RegSup Recce",
@@ -11257,7 +11502,7 @@
 				],
 				"keywords": ["Period: E|M"],
 				"specialText": "1 AT Rifle Operator\n 1 Weapon Assistant",
-				"equipment": ["Anti-Tank Rifle Team"]
+				"equipment": ["AT Rifle Team"]
 			},
 			{
 				"name": "Anti-Tank Rifle Team - Heavy Weapons Platoon",
@@ -11381,7 +11626,7 @@
 				],
 				"keywords": ["Period: E|M"],
 				"specialText": "1 AT Rifle Operator\n 1 Weapon Assistant",
-				"equipment": ["Anti-Tank Rifle Team"]
+				"equipment": ["AT Rifle Team"]
 			},
 			{
 				"name": "Panzerschreck Anti-Tank Team",
@@ -11535,9 +11780,9 @@
 						"chooseOneKey": "natRuI"
 					}
 				],
-				"keywords": ["Period: M|L","Shaped Charge","Team Weapon"],
+				"keywords": ["Period: M|L"],
 				"specialText": "1 Panzerschreck Operator\n 1 Loader",
-				"equipment": ["Panzerschreck"]
+				"equipment": ["Panzerschreck Team"]
 			},
 			{
 				"name": "Panzerschreck Anti-Tank Team - Heavy Weapons Platoon",
@@ -11685,9 +11930,9 @@
 						"chooseOneKey": "natRuI"
 					}
 				],
-				"keywords": ["Period: M|L","Shaped Charge","Team Weapon"],
+				"keywords": ["Period: M|L"],
 				"specialText": "1 Panzerschreck Operator\n 1 Loader",
-				"equipment": ["Panzerschreck"]
+				"equipment": ["Panzerschreck Team"]
 			},
 			{
 				"name": "Anti-Tank Rifle Team (J)",
@@ -11793,7 +12038,7 @@
 				],
 				"keywords": ["Period: E|M|L","Fanatics","Fixed","High Rate of Fire"],
 				"specialText": "1 AT Rifle Operator\n 1 Weapon Assistant",
-				"equipment": ["Anti-Tank Rifle Team"]
+				"equipment": ["AT Rifle Team"]
 			},
 			{
 				"name": "Anti-Tank Rifle Team (J) - Heavy Weapons Platoon",
@@ -11896,7 +12141,7 @@
 				],
 				"keywords": ["Period: E|M|L","Fanatics","Fixed","High Rate of Fire"],
 				"specialText": "1 AT Rifle Operator\n 1 Weapon Assistant",
-				"equipment": ["Anti-Tank Rifle Team"]
+				"equipment": ["AT Rifle Team"]
 			},
 			{
 				"name": "Improvised Anti-Tank Team",
@@ -12018,7 +12263,7 @@
 				],
 				"keywords": ["Period: M|L","Fanatics","Infiltrator","Improvised Tank Hunters"],
 				"specialText": "1 NCO\n 1 Soldier",
-				"equipment": []
+				"equipment": ["Rifles"]
 			},
 			{
 				"name": "Improvised Anti-Tank Team - Heavy Weapons Platoon",
@@ -12137,7 +12382,7 @@
 				],
 				"keywords": ["Period: M|L","Fanatics","Infiltrator","Improvised Tank Hunters"],
 				"specialText": "1 NCO\n 1 Soldier",
-				"equipment": []
+				"equipment": ["Rifles"]
 			},
 			{
 				"name": "Kirikomi Tai - Suicide Anti-Infantry Team",
@@ -13083,7 +13328,7 @@
 						"requireChooseOneKey": "morale"
 					},
 					{
-						"name": "Additional Handlers",
+						"name": "Additional Handlers and Dog Mines",
 						"points": 13,
 						"increment": true,
 						"unlockedByLocal": ["Inexperienced"],
@@ -13091,7 +13336,7 @@
 						"addsModels": 1
 					},
 					{
-						"name": "Additional Handlers",
+						"name": "Additional Handlers and Dog Mines",
 						"points": 18,
 						"increment": true,
 						"unlockedByLocal": ["Regular"],
@@ -13158,7 +13403,7 @@
 						"requireChooseOneKey": "morale"
 					},
 					{
-						"name": "Additional Handlers",
+						"name": "Additional Handlers and Dog Mines",
 						"points": 13,
 						"increment": true,
 						"unlockedByLocal": ["Inexperienced"],
@@ -13166,7 +13411,7 @@
 						"addsModels": 1
 					},
 					{
-						"name": "Additional Handlers",
+						"name": "Additional Handlers and Dog Mines",
 						"points": 18,
 						"increment": true,
 						"unlockedByLocal": ["Regular"],
@@ -13238,7 +13483,7 @@
 				],
 				"keywords": ["Period: M|L","Team Weapon"],
 				"specialText": "1 LT Rifle Operator\n 1 Weapon Assistant",
-				"equipment": ["Anti-Tank Rifle"]
+				"equipment": ["AT Rifle Team"]
 			},
 			{
 				"name": "Boys Anti-Tank Rifle Team - Heavy Weapons Platoon",
@@ -13281,7 +13526,7 @@
 				],
 				"keywords": ["Period: M|L","Team Weapon"],
 				"specialText": "1 LT Rifle Operator\n 1 Weapon Assistant",
-				"equipment": ["Anti-Tank Rifle"]
+				"equipment": ["AT Rifle Team"]
 			},
 			{
 				"name": "Suicide AT Team",
@@ -13432,9 +13677,9 @@
 						"requireChooseOneKey": "morale"
 					}
 				],
-				"keywords": ["Period: M","Team Weapon","Fixed"],
+				"keywords": ["Period: M","Fixed"],
 				"specialText": "1 LT Rifle Operator\n 1 Weapon Assistant",
-				"equipment": ["Blacker Bombard"]
+				"equipment": ["Blacker Bombard Team"]
 			},
 			{
 				"name": "Blacker Bombard Anti-Tank Team - Heavy Weapons Platoon",
@@ -13475,9 +13720,9 @@
 						"requireChooseOneKey": "morale"
 					}
 				],
-				"keywords": ["Period: M","Team Weapon","Fixed"],
+				"keywords": ["Period: M","Fixed"],
 				"specialText": "1 LT Rifle Operator\n 1 Weapon Assistant",
-				"equipment": ["Blacker Bombard"]
+				"equipment": ["Blacker Bombard Team"]
 			},
 			{
 				"name": "PIAT Anti-Tank Team",
@@ -13655,9 +13900,9 @@
 						"chooseOneKey": "natRuI"
 					}
 				],
-				"keywords": ["Period: M","Team Weapon","Fixed","Shaped Charge"],
+				"keywords": ["Period: M"],
 				"specialText": "1 PIAT Operator\n 1 Loader",
-				"equipment": ["PIAT"]
+				"equipment": ["PIAT Team"]
 			},
 			{
 				"name": "PIAT Anti-Tank Team - Heavy Weapons Platoon",
@@ -13829,9 +14074,9 @@
 						"chooseOneKey": "natRuI"
 					}
 				],
-				"keywords": ["Period: M","Team Weapon","Fixed","Shaped Charge"],
+				"keywords": ["Period: M"],
 				"specialText": "1 PIAT Operator\n 1 Loader",
-				"equipment": ["PIAT"]
+				"equipment": ["PIAT Team"]
 			},
 			{
 				"name": "Boys Anti-Tank Rifle Team",
@@ -13956,9 +14201,9 @@
 						"chooseOneKey": "natRuGB"
 					}
 				],
-				"keywords": ["Period: E|M","Team Weapon"],
+				"keywords": ["Period: E|M"],
 				"specialText": "1 AT Rifle Operator\n 1 Weapon Assitant",
-				"equipment": ["Anti-Tank Rifle"]
+				"equipment": ["AT Rifle Team"]
 			},
 			{
 				"name": "Boys Anti-Tank Rifle Team - Heavy Weapons Platoon",
@@ -14071,9 +14316,9 @@
 						"chooseOneKey": "natRuGB"
 					}
 				],
-				"keywords": ["Period: E|M","Team Weapon"],
+				"keywords": ["Period: E|M"],
 				"specialText": "1 AT Rifle Operator\n 1 Weapon Assitant",
-				"equipment": ["Anti-Tank Rifle"]
+				"equipment": ["AT Rifle Team"]
 			},
 			{
 				"name": "Flamethrower Team",
@@ -14324,7 +14569,7 @@
 						"requireChooseOneKey": "morale"
 					},
 					{
-						"name": "Flamethrower",
+						"name": "Flamethrower - Team Weapon",
 						"points": 0,
 						"requireChooseOneKey": "priWeapon",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
@@ -15048,7 +15293,7 @@
 						"maxKey": "gun"
 					},
 					{
-						"name": "Flamethrower",
+						"name": "Flamethrower - Team Weapon",
 						"points": 30,
 						"increment": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -15274,7 +15519,7 @@
 						"localLimit": 1
 					},
 					{
-						"name": "Flamethrower",
+						"name": "Flamethrower - Team Weapon",
 						"points": 30,
 						"increment": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -15431,7 +15676,7 @@
 						"localLimit": 1
 					},
 					{
-						"name": "Flamethrower",
+						"name": "Flamethrower - Team Weapon",
 						"points": 30,
 						"increment": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -15566,7 +15811,7 @@
 						"localLimit": 1
 					},
 					{
-						"name": "Flamethrower",
+						"name": "Flamethrower - Team Weapon",
 						"points": 30,
 						"increment": true,
 						"unlockedByLocal": ["Veteran"],
@@ -15699,7 +15944,7 @@
 						"localLimit": 1
 					},
 					{
-						"name": "Flamethrower",
+						"name": "Flamethrower - Team Weapon",
 						"points": 20,
 						"increment": true,
 						"unlockedByLocal": ["Veteran"],
@@ -15815,7 +16060,7 @@
 						"localLimit": 1
 					},
 					{
-						"name": "Flamethrower",
+						"name": "Flamethrower - Team Weapon",
 						"points": 20,
 						"increment": true,
 						"unlockedByLocal": ["Veteran"],
@@ -16071,7 +16316,7 @@
 						"localLimit": 1
 					},
 					{
-						"name": "Flamethrower",
+						"name": "Flamethrower - Team Weapon",
 						"points": 30,
 						"increment": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -16221,7 +16466,7 @@
 						"localLimit": 1
 					},
 					{
-						"name": "Flamethrower",
+						"name": "Flamethrower - Team Weapon",
 						"points": 20,
 						"increment": true,
 						"unlockedByLocal": ["Regular","Veteran"],
@@ -16436,7 +16681,7 @@
 						"localLimit": 1
 					},
 					{
-						"name": "Flamethrower",
+						"name": "Flamethrower - Team Weapon",
 						"points": 30,
 						"increment": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
@@ -59257,7 +59502,8 @@
 				"keywords": ["Period: E|M","Damage Value: 7+","Command Vehicle","Wheeled","Transport","Tow"],
 				"specialText": "Transport: 10\n Tow: L/M AT Gun, L Howitzer, L AA Gun",
 				"equipment": []
-			},{
+			},
+			{
 				"name": "Landing Craft, Assault (GB)",
 				"factions": [],
 				"order": 1,
