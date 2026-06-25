@@ -1,0 +1,65 @@
+
+			{
+				"name": "M4 'Sherman' 75mm Medium Tank",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inexperienced ",
+						"points": 156,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Regular ",
+						"points": 195,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Veteran ",
+						"points": 234,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15,
+						"increment": true,
+						"max": 1,
+						"maxKey": "Pintle"
+					}
+				],
+				"keywords": ["Period: M","Damage Value:9+","Easily Catches Fire","Weak Sides","Improved HE"],
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
