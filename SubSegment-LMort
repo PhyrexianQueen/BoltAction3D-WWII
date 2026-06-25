@@ -1,0 +1,179 @@
+
+			{
+				"name": "Light Mortar Team (USA)",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Mortar Operator",
+						"quantity": 1
+					},
+					{
+						"key": "secondary",
+						"property": "Loader/Assistant",
+						"quantity": 2
+					}
+				],
+				"sortPriority": 7,
+				"limits": [
+					{
+						"key": "Mortar",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inexperienced ",
+						"points": 24,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Regular ",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Veteran ",
+						"points": 46,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Reduced Manning",
+						"points": -5,
+						"addsModels": -1,
+						"availableIn": ["United States of America"],
+						"unlockedByLocal": ["By Air, Land, and Sea (Airborne)","By Air, Land, and Sea (Rangers)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
+					},
+					{
+						"name": "By Air, Land, and Sea (Rangers)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"specialText": "1 Mortar Operator\n 2 Weapon Assitants",
+				"equipment": ["Light Mortar"]
+			},
+			{
+				"name": "Light Mortar Team (USA) Heavy Weapons Platoon",
+				"validationKeys": ["HeavyWepTeams"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Mortar Operator",
+						"quantity": 1
+					},
+					{
+						"key": "secondary",
+						"property": "Loader/Assistant",
+						"quantity": 2
+					}
+				],
+				"sortPriority": 7,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inexperienced ",
+						"points": 24,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Regular ",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Veteran ",
+						"points": 46,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Reduced Manning",
+						"points": -5,
+						"addsModels": -1,
+						"availableIn": ["United States of America"],
+						"unlockedByLocal": ["By Air, Land, and Sea (Airborne)","By Air, Land, and Sea (Rangers)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular"],
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 1,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
+					},
+					{
+						"name": "By Air, Land, and Sea (Rangers)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"specialText": "1 Mortar Operator\n 2 Weapon Assitants",
+				"equipment": ["Light Mortar"]
+			},
