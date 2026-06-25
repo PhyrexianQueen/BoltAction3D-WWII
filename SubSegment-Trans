@@ -1,0 +1,91 @@
+
+			{
+				"name": "Terrangbil m/42 KP",
+				"factions": [],
+				"specialText": "Transport: 16\n Tow: L/M AT Gun, L/M Howitzer, L/H AA Gun",
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden (PL)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (PL)" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden (PL)" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (PL)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (PL)" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 15,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inexperienced ",
+						"points": 78,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Regular ",
+						"points": 97,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Veteran ",
+						"points": 117,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","Tow","Open Topped","Wheeled"],
+				"equipment": ["Pintle Mounted MMG"]
+			},
+			{
+				"name": "Terrangbil m/42 KP - Recce",
+				"factions": [],
+				"specialText": "Transport: 16\n Tow: L/M AT Gun, L/M Howitzer, L/H AA Gun",
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (PL)" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 15,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inexperienced ",
+						"points": 78,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Regular ",
+						"points": 97,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Veteran ",
+						"points": 117,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					}
+				],
+				"keywords": ["Period: M|L","Damage Value: 7+","Transport","Tow","Open Topped","Wheeled"],
+				"equipment": ["Pintle Mounted MMG"]
+			},
