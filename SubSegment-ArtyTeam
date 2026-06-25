@@ -1,0 +1,77 @@
+
+			{
+				"name": "155mm 'Long Tom' Heavy Artillery",
+				"validationKeys": ["ArtyTeams"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Weapon Crew Members",
+						"quantity": 5
+					}
+				],
+				"sortPriority": 5,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inexperienced ",
+						"points": 95,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Regular ",
+						"points": 135,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Veteran ",
+						"points": 178,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Add Spotter",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"addsModels": 1
+					},
+					{
+						"name": "Gun Shield",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 5
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular"],
+						"chooseOneKey": "natRuUSA"
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"chooseOneKey": "natRuUSA"
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"specialText": "5 Crew Members",
+				"equipment": ["Heavy Howitzer Team"]
+			},
