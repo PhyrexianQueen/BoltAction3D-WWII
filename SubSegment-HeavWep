@@ -1,0 +1,82 @@
+
+			{
+				"name": "Heavy Machine Gun",
+				"validationKeys": ["HeavyWepTeams"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (PL)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 0,
+				"models": 4,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "MG Operator",
+						"quantity": 1
+					},
+					{
+						"key": "secondary",
+						"property": "Loader/Assistant",
+						"quantity": 3
+					}
+				],
+				"sortPriority": 7,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inexperienced ",
+						"points": 49,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Regular ",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Veteran ",
+						"points": 91,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Sweden (PL)"]
+					},
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["Sweden (PL)"],
+						"chooseOneKey": "natRuSwe"
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
+					}
+				],
+				"keywords": ["Period: E|M|L"],
+				"specialText": "1 MG Operator\n 3 Weapon Assitants",
+				"equipment": ["HMG"]
+			},
