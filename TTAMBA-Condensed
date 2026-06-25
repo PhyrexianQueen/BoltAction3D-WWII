@@ -115,6 +115,22 @@
 						"allowCollapse": true,
 						"label": "Units",
 						"type": "list",
+						"sortPrioritySeparators": true,
+                        "sortPriorityLabels": {
+                            "1": "Officers",
+                            "2": "Support Units",
+                            "3": "General Infantry Units",
+                            "4": "AT Weapons / Special Weapons Teams",
+                            "5": "Artillery Units",
+                            "6": "Engineer Units",
+                            "7": "Heavy Weapons",
+							"8": "Support Vehicles",
+                            "9": "Armored Vehicles",
+							"10": "Fighter",
+							"11": "Ground Attack / Bomber",
+							"14": "Fortification and Defenses",
+                            "15": "Transports"
+                        },
 						"children": [
 							{
 								"propertyName": "equipment",
@@ -3304,126 +3320,6 @@
 		],
 		"units": [
 			{
-				"name": "---------------------------------------",
-				"factions": [],
-				"availableIn": [
-					
-					{
-						"all": [{ "in": "Rifle Platoon" }]
-					},
-					{
-						"all": [{ "in": "Recce Platoon" }]		
-					},
-					{
-						"all": [{ "in": "Engineer Platoon" }]		
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon" }]		
-					},
-					{
-						"all": [{ "in": "Artillery Platoon" }]		
-					}
-				],
-				"points": 0,
-				"models": 0,
-				"unlockedByLocal":
-					{
-						"quantityRequired":1000,
-						"key": "Splitter"
-					},
-				"sortPriority": 2,
-				"keywords": [],
-				"specialText": "Splitter, Stop Looking",
-				"equipment": []
-			},
-			{
-				"name": "------------------------------------------",
-				"factions": [],
-				"availableIn": [
-					
-					{
-						"all": [{ "in": "Rifle Platoon" }]
-					},
-					{
-						"all": [{ "in": "Recce Platoon" }]		
-					}
-				],
-				"points": 0,
-				"models": 0,
-				"unlockedByLocal":
-					{
-						"quantityRequired":1000,
-						"key": "Splitter"
-					},
-				"sortPriority": 3,
-				"keywords": [],
-				"specialText": "Splitter, Stop Looking",
-				"equipment": []
-			},
-			{
-				"name": "-------------------------------------------",
-				"factions": [],
-				"availableIn": [
-					
-					{
-						"all": [{ "in": "Rifle Platoon" }]
-					},
-					{
-						"all": [{ "in": "Recce Platoon" }]		
-					},
-					{
-						"all": [{ "in": "Engineer Platoon" }]		
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon" }]		
-					},
-					{
-						"all": [{ "in": "Artillery Platoon" }]		
-					}
-				],
-				"points": 0,
-				"models": 0,
-				"unlockedByLocal":
-					{
-						"quantityRequired":1000,
-						"key": "Splitter"
-					},
-				"sortPriority": 4,
-				"keywords": [],
-				"specialText": "Splitter, Stop Looking",
-				"equipment": []
-			},
-			{
-				"name": "--------------------------------------------",
-				"factions": [],
-				"availableIn": [
-					
-					{
-						"all": [{ "in": "Rifle Platoon" }]
-					},
-					{
-						"all": [{ "in": "Recce Platoon" }]		
-					},
-					{
-						"all": [{ "in": "Engineer Platoon" }]		
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon" }]		
-					}
-				],
-				"points": 0,
-				"models": 0,
-				"unlockedByLocal":
-					{
-						"quantityRequired":1000,
-						"key": "Splitter"
-					},
-				"sortPriority": 5,
-				"keywords": [],
-				"specialText": "Splitter, Stop Looking",
-				"equipment": []
-			},
-			{
 				"name": "Company Commander",
 				"validationKeys": ["CompCommander"],
 				"order":1,
@@ -5072,7 +4968,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 1,
 				"limit": 1,
 				"limits": [
 					{
@@ -5399,7 +5295,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 1,
 				"limit": 1,
 				"limits": [
 					{
@@ -5728,7 +5624,7 @@
 						"quantity": 1
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 1,
 				"limit": 1,
 				"limits": [
 					{
@@ -5823,7 +5719,7 @@
 						"quantity": 1
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 1,
 				"limit": 1,
 				"limits": [
 					{
@@ -5918,7 +5814,7 @@
 						"quantity": 1
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 1,
 				"limit": 1,
 				"limits": [
 					{
@@ -6013,7 +5909,7 @@
 						"quantity": 1
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 1,
 				"limit": 1,
 				"limits": [
 					{
@@ -9646,7 +9542,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 2,
+				"sortPriority": 8,
 				"limits": [
 					{
 						"key": "Medic",
@@ -9769,7 +9665,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 2,
+				"sortPriority": 8,
 				"limits": [
 					{
 						"key": "Medic",
@@ -9805,7 +9701,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 2,
+				"sortPriority": 8,
 				"limits": [
 					{
 						"key": "Medic",
@@ -9841,7 +9737,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 2,
+				"sortPriority": 8,
 				"limits": [
 					{
 						"key": "Medic",
@@ -19137,7 +19033,7 @@
 						"quantity": 7
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 6,
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -19231,7 +19127,7 @@
 						"quantity": 7
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 6,
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -19322,7 +19218,7 @@
 						"quantity": 7
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 6,
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -19413,7 +19309,7 @@
 						"quantity": 7
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 6,
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -19532,7 +19428,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 6,
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -19684,7 +19580,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 6,
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -19791,7 +19687,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 6,
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -19861,7 +19757,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 6,
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -19958,7 +19854,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 6,
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -20074,7 +19970,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 6,
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -20181,7 +20077,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 6,
 				"limits": [
 					{
 						"key": "Eng Main",
@@ -20341,7 +20237,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 6,
 				"limits": [
 					{
 						"key": "Eng Main",
@@ -20507,7 +20403,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 6,
 				"limits": [
 					{
 						"key": "Eng Main",
@@ -20626,7 +20522,7 @@
 						"quantity": 6
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 6,
 				"limits": [
 					{
 						"key": "Eng Main",
@@ -20745,7 +20641,7 @@
 						"quantity": 6
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 6,
 				"limits": [
 					{
 						"key": "Eng Main",
@@ -20870,7 +20766,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 6,
 				"limits": [
 					{
 						"key": "Eng Main",
@@ -20929,7 +20825,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 4,
+				"sortPriority": 14,
 				"limits": [
 					{
 						"key": "Eng Main",
@@ -20970,7 +20866,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 4,
+				"sortPriority": 14,
 				"limits": [
 					{
 						"key": "Eng Main",
@@ -21014,7 +20910,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 6,
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -21195,7 +21091,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 6,
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -21291,7 +21187,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 6,
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -21385,7 +21281,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 6,
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -21598,7 +21494,7 @@
 						"quantity": 6
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 6,
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -21643,7 +21539,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 6,
 				"unlockKey": "Ss-Ki",
 				"limits": [
 					{
@@ -21830,7 +21726,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 6,
 				"unlockKey": "Ss-Ki",
 				"limits": [
 					{
@@ -21953,7 +21849,7 @@
 						"quantity": 6
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 6,
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -22052,7 +21948,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 6,
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -22153,7 +22049,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 6,
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -22261,7 +22157,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 6,
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -22399,7 +22295,7 @@
 						"quantity": 6
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 6,
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -22506,7 +22402,7 @@
 						"quantity": 6
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 6,
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -22620,7 +22516,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 6,
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -22696,7 +22592,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 6,
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -22822,7 +22718,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 6,
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -22937,7 +22833,7 @@
 						"quantity": 1
 					}
 				],
-				"sortPriority": 4,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Mortar",
@@ -23038,7 +22934,7 @@
 						"quantity": 1
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Main Team",
@@ -23133,7 +23029,7 @@
 						"quantity": 2
 					}
 				],
-				"sortPriority": 4,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Mortar",
@@ -23221,7 +23117,7 @@
 						"quantity": 2
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Main Team",
@@ -23309,7 +23205,7 @@
 						"quantity": 2
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Main Team",
@@ -23397,7 +23293,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Main Team",
@@ -23480,7 +23376,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Main Team",
@@ -23530,7 +23426,7 @@
 						"quantity": 2
 					}
 				],
-				"sortPriority": 4,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Mortar",
@@ -23580,7 +23476,7 @@
 						"quantity": 2
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Main Team",
@@ -23638,7 +23534,7 @@
 						"quantity": 2
 					}
 				],
-				"sortPriority": 4,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Mortar",
@@ -23711,7 +23607,7 @@
 						"quantity": 2
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Main Team",
@@ -23780,7 +23676,7 @@
 						"quantity": 1
 					}
 				],
-				"sortPriority": 4,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Mortar",
@@ -23876,7 +23772,7 @@
 						"quantity": 1
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Main Team",
@@ -23980,7 +23876,7 @@
 						"quantity": 1
 					}
 				],
-				"sortPriority": 4,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Mortar",
@@ -24134,7 +24030,7 @@
 						"quantity": 1
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Main Team",
@@ -24284,7 +24180,7 @@
 						"quantity": 1
 					}
 				],
-				"sortPriority": 4,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Mortar",
@@ -24428,7 +24324,7 @@
 						"quantity": 1
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Main Team",
@@ -24565,7 +24461,7 @@
 						"quantity": 1
 					}
 				],
-				"sortPriority": 4,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Mortar",
@@ -24681,7 +24577,7 @@
 						"quantity": 1
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Main Team",
@@ -24796,7 +24692,7 @@
 						"quantity": 2
 					}
 				],
-				"sortPriority": 4,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Mortar",
@@ -24882,7 +24778,7 @@
 						"quantity": 2
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Main Team",
@@ -24993,7 +24889,7 @@
 						"quantity": 2
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Main Team",
@@ -25251,7 +25147,7 @@
 						"quantity": 2
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Main Team",
@@ -25438,7 +25334,7 @@
 						"quantity": 2
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Main Team",
@@ -25584,7 +25480,7 @@
 						"quantity": 2
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Main Team",
@@ -25712,7 +25608,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Main Team",
@@ -25776,7 +25672,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Main Team",
@@ -25834,7 +25730,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Main Team",
@@ -25907,7 +25803,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Main Team",
@@ -26129,7 +26025,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Main Team",
@@ -26258,7 +26154,7 @@
 						"quantity": 2
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Main Team",
@@ -26610,7 +26506,7 @@
 						"quantity": 2
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Main Team",
@@ -26717,7 +26613,7 @@
 						"quantity": 2
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Main Team",
@@ -26856,7 +26752,7 @@
 						"quantity": 2
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Main Team",
@@ -26900,7 +26796,7 @@
 						"quantity": 2
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Main Team",
@@ -27016,7 +26912,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Main Team",
@@ -27097,7 +26993,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Main Team",
@@ -27175,7 +27071,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Main Team",
@@ -27233,7 +27129,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Main Team",
@@ -27310,7 +27206,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 7,
 				"limits": [
 					{
 						"key": "Main Team",
@@ -47346,7 +47242,7 @@
 						"quantity": 2
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 2,
 				"limits": [
 					{
 						"key": "Dog Team",
@@ -47610,7 +47506,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -47714,7 +47610,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -47795,7 +47691,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -47880,6 +47776,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -47921,6 +47818,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -47998,6 +47896,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -48039,6 +47938,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -48176,6 +48076,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -48227,6 +48128,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -48332,6 +48234,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -48377,6 +48280,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -48452,6 +48356,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -48491,6 +48396,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -48611,6 +48517,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -48655,6 +48562,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -48756,6 +48664,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -48797,6 +48706,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -48958,6 +48868,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -49011,6 +48922,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -49052,6 +48964,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -49097,6 +49010,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -49154,6 +49068,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -49211,6 +49126,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -49280,6 +49196,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -49329,6 +49246,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -49389,7 +49307,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -49461,6 +49379,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced (Danish)",
@@ -49493,6 +49412,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced (Danish)",
@@ -49530,7 +49450,7 @@
 						"quantity": 4
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -49575,7 +49495,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -49620,7 +49540,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -49674,7 +49594,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -49725,7 +49645,7 @@
 						"quantity": 4
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -49780,6 +49700,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Regular",
@@ -49809,6 +49730,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Regular",
@@ -49846,7 +49768,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -49912,7 +49834,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -49963,7 +49885,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -50014,7 +49936,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -50098,7 +50020,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -50241,7 +50163,7 @@
 						"quantity": 4
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -50369,7 +50291,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -50479,7 +50401,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -50539,7 +50461,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -50609,7 +50531,7 @@
 						"quantity": 4
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -50679,7 +50601,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -50788,6 +50710,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -50820,6 +50743,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Recce",
@@ -50906,6 +50830,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -50938,6 +50863,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Recce",
@@ -51024,6 +50950,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -51068,6 +50995,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Recce",
@@ -51166,6 +51094,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -51210,6 +51139,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Recce",
@@ -51308,6 +51238,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -51352,6 +51283,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Recce",
@@ -51401,7 +51333,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -51460,7 +51392,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -51519,7 +51451,7 @@
 						"quantity": 4
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -51578,7 +51510,7 @@
 						"quantity": 4
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -51637,7 +51569,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -51688,7 +51620,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -51739,7 +51671,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -51792,7 +51724,7 @@
 						"quantity": 4
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -51837,7 +51769,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -51882,7 +51814,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -51943,7 +51875,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -51988,7 +51920,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -52037,6 +51969,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -52066,6 +51999,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Recce",
@@ -52113,6 +52047,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -52142,6 +52077,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Recce",
@@ -52189,6 +52125,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -52218,6 +52155,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Recce",
@@ -52265,6 +52203,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -52294,6 +52233,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Recce",
@@ -52341,6 +52281,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -52370,6 +52311,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Recce",
@@ -52417,6 +52359,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -52446,6 +52389,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Recce",
@@ -52493,6 +52437,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -52522,6 +52467,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Recce",
@@ -52565,7 +52511,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -52610,7 +52556,7 @@
 						"quantity": 4
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -52663,7 +52609,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -52721,7 +52667,7 @@
 						"quantity": 4
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -52766,7 +52712,7 @@
 						"quantity": 4
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -52811,7 +52757,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -52872,6 +52818,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -52907,6 +52854,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Recce",
@@ -52976,6 +52924,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -53014,6 +52963,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -53082,6 +53032,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -53125,6 +53076,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -53198,6 +53150,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -53248,6 +53201,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -53313,6 +53267,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -53353,6 +53308,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -53411,6 +53367,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -53451,6 +53408,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -53509,6 +53467,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -53549,6 +53508,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -53607,6 +53567,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -53647,6 +53608,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -53705,6 +53667,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -53745,6 +53708,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -54221,6 +54185,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -54348,6 +54313,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -54828,6 +54794,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -55298,6 +55265,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -55769,6 +55737,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -55896,6 +55865,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -55954,6 +55924,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -55989,6 +55960,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -56046,7 +56018,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -56145,7 +56117,7 @@
 						"quantity": 4
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -56226,7 +56198,7 @@
 						"quantity": 4
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -56277,7 +56249,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -56328,7 +56300,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -56385,7 +56357,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -56436,7 +56408,7 @@
 						"quantity": 4
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -56491,7 +56463,7 @@
 						"quantity": 1
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -56542,7 +56514,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -56594,7 +56566,7 @@
 						"quantity": 6
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -56646,7 +56618,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -56696,7 +56668,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -56741,7 +56713,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -56790,6 +56762,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -56830,6 +56803,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -56887,7 +56861,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -57023,7 +56997,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -57112,7 +57086,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -57179,7 +57153,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -57268,7 +57242,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -57362,7 +57336,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -57454,7 +57428,7 @@
 						"quantity": 4
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -57608,7 +57582,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -57675,7 +57649,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -57755,7 +57729,7 @@
 						"quantity": 4
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -57835,7 +57809,7 @@
 						"quantity": 4
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -57891,7 +57865,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -57942,7 +57916,7 @@
 						"quantity": 4
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -58016,7 +57990,7 @@
 						"quantity": 7
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -58096,7 +58070,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -58147,7 +58121,7 @@
 						"quantity": 2
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -58196,6 +58170,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -58231,6 +58206,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -58283,6 +58259,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -58318,6 +58295,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -58370,6 +58348,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -58399,6 +58378,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -58445,6 +58425,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -58479,6 +58460,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -58531,6 +58513,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -58566,6 +58549,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -58618,6 +58602,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -58647,6 +58632,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -58693,6 +58679,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -58733,6 +58720,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -58791,6 +58779,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -58826,6 +58815,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -58878,6 +58868,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -58913,6 +58904,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -58965,6 +58957,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -59005,6 +58998,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -59062,6 +59056,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -59102,6 +59097,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -59159,6 +59155,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -59199,6 +59196,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -59256,6 +59254,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -59291,6 +59290,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -59343,6 +59343,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -59378,6 +59379,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -59430,6 +59432,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -59465,6 +59468,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -59517,6 +59521,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -59552,6 +59557,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -59604,6 +59610,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -59639,6 +59646,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -59691,6 +59699,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -59731,6 +59740,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -59788,6 +59798,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -59833,6 +59844,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -59891,7 +59903,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -59980,7 +59992,7 @@
 						"quantity": 6
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -60031,7 +60043,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -60108,7 +60120,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -60258,7 +60270,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -60393,7 +60405,7 @@
 						"quantity": 4
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -60540,7 +60552,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -60623,7 +60635,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -60690,7 +60702,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -60743,6 +60755,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Veteran",
@@ -60793,6 +60806,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -60831,6 +60845,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -60899,6 +60914,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -60947,6 +60963,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -61025,6 +61042,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -61068,6 +61086,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -61141,6 +61160,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -61184,6 +61204,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -61257,6 +61278,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -61300,6 +61322,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -61388,6 +61411,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -61446,6 +61470,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -61516,6 +61541,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -61551,6 +61577,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -61604,6 +61631,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -61660,6 +61688,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -61734,6 +61763,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -61769,6 +61799,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -61822,6 +61853,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -61891,6 +61923,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -61936,6 +61969,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -61999,6 +62033,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -62044,6 +62079,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -62107,6 +62143,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -62152,6 +62189,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -62215,6 +62253,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -62260,6 +62299,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -62323,6 +62363,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -62358,6 +62399,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -62412,6 +62454,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -62448,6 +62491,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -62503,7 +62547,7 @@
 						"quantity": 6
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -62614,7 +62658,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -62725,7 +62769,7 @@
 						"quantity": 4
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -62830,7 +62874,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -62899,7 +62943,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -63013,7 +63057,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -63127,7 +63171,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -63241,7 +63285,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -63358,7 +63402,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -63475,7 +63519,7 @@
 						"quantity": 4
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -63544,7 +63588,7 @@
 						"quantity": 4
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -63617,6 +63661,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -63652,6 +63697,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -63699,6 +63745,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -63728,6 +63775,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -63784,6 +63832,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -63822,6 +63871,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -63884,6 +63934,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -63922,6 +63973,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -63984,6 +64036,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -64027,6 +64080,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -64109,6 +64163,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -64155,6 +64210,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -64203,7 +64259,7 @@
 						"quantity": 6
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -64298,7 +64354,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -64393,7 +64449,7 @@
 						"quantity": 4
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -64488,7 +64544,7 @@
 						"quantity": 4
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -64588,7 +64644,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -64653,7 +64709,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -64750,7 +64806,7 @@
 						"quantity": 7
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -64831,7 +64887,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -64911,7 +64967,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -64996,7 +65052,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -65099,7 +65155,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -65196,7 +65252,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -65298,7 +65354,7 @@
 						"quantity": 4
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -65407,7 +65463,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -65504,7 +65560,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -65601,7 +65657,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -65702,6 +65758,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -65742,6 +65799,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -65830,6 +65888,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -65876,6 +65935,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -65934,6 +65994,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -65969,6 +66030,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -66022,6 +66084,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -66077,6 +66140,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -66150,6 +66214,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -66185,6 +66250,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -66258,6 +66324,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -66293,6 +66360,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -66346,6 +66414,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -66381,6 +66450,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -66434,6 +66504,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -66469,6 +66540,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -66518,7 +66590,7 @@
 						"quantity": 7
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -66561,6 +66633,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -66625,6 +66698,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -66665,6 +66739,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -66717,6 +66792,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -66757,6 +66833,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -66805,7 +66882,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -66859,7 +66936,7 @@
 						"quantity": 4
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -66910,7 +66987,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -66961,7 +67038,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -67017,7 +67094,7 @@
 						"quantity": 4
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -67068,7 +67145,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -67119,7 +67196,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -67170,7 +67247,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -67221,7 +67298,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -67278,7 +67355,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -67332,7 +67409,7 @@
 						"quantity": 4
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -67395,6 +67472,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -67430,6 +67508,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -67498,6 +67577,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -67536,6 +67616,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -67589,6 +67670,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -67624,6 +67706,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -67677,6 +67760,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -67717,6 +67801,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -67775,6 +67860,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -67815,6 +67901,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -67873,6 +67960,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -67918,6 +68006,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -67981,6 +68070,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -68040,6 +68130,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -68132,6 +68223,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -68170,6 +68262,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -68219,7 +68312,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -68280,7 +68373,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -68336,7 +68429,7 @@
 						"quantity": 6
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -68387,7 +68480,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -68438,7 +68531,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -68489,7 +68582,7 @@
 						"quantity": 7
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -68540,7 +68633,7 @@
 						"quantity": 4
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -68591,7 +68684,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -68647,6 +68740,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -68682,6 +68776,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -68735,6 +68830,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -68770,6 +68866,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -69246,6 +69343,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -69368,6 +69466,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -69451,6 +69550,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -69504,6 +69604,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -69992,6 +70093,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -70039,6 +70141,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -70074,6 +70177,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -70122,7 +70226,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -70194,7 +70298,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -70266,7 +70370,7 @@
 						"quantity": 4
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -70382,7 +70486,7 @@
 						"quantity": 4
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -70447,7 +70551,7 @@
 						"quantity": 4
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -70498,7 +70602,7 @@
 						"quantity": 4
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -70557,7 +70661,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -70622,7 +70726,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -70687,7 +70791,7 @@
 						"quantity": 3
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -70764,7 +70868,7 @@
 						"quantity": 4
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -70840,7 +70944,7 @@
 						"quantity": 5
 					}
 				],
-				"sortPriority": 3,
+				"sortPriority": 5,
 				"limits": [
 					{
 						"key": "Gun Team",
@@ -70920,6 +71024,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -70972,6 +71077,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -71042,6 +71148,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -71077,6 +71184,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -71130,6 +71238,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -71182,6 +71291,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -71252,6 +71362,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -71292,6 +71403,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -71350,6 +71462,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -71390,6 +71503,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -71448,6 +71562,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -71498,6 +71613,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -71566,6 +71682,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -71601,6 +71718,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -71654,6 +71772,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -71689,6 +71808,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -71742,6 +71862,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -71789,6 +71910,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -71854,6 +71976,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -71901,6 +72024,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -71966,6 +72090,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -72013,6 +72138,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -72078,6 +72204,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -72125,6 +72252,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -72190,6 +72318,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -72237,6 +72366,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -72302,6 +72432,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -72349,6 +72480,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -72414,6 +72546,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -72449,6 +72582,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -72532,6 +72666,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -72579,6 +72714,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -72634,6 +72770,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -72682,6 +72819,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -72718,7 +72856,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 4,
+				"sortPriority": 14,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -72755,7 +72893,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 4,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -72792,7 +72930,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 4,
+				"sortPriority": 14,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -72835,7 +72973,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -72903,7 +73041,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -72968,7 +73106,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -73021,7 +73159,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -73074,7 +73212,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -73116,7 +73254,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -73170,7 +73308,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -73224,7 +73362,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -73278,7 +73416,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -73329,7 +73467,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -73380,7 +73518,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -73428,7 +73566,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -73476,7 +73614,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -73539,7 +73677,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -73597,7 +73735,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -73660,7 +73798,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -73702,7 +73840,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -73750,7 +73888,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -73801,7 +73939,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -73852,7 +73990,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -73913,7 +74051,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -73955,6 +74093,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -74012,7 +74151,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -74080,7 +74219,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -74138,7 +74277,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -74196,7 +74335,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -74254,7 +74393,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -74312,7 +74451,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -74382,7 +74521,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -74452,7 +74591,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -74522,7 +74661,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -74580,7 +74719,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -74638,7 +74777,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -74690,7 +74829,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -74758,7 +74897,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -74810,7 +74949,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -74862,7 +75001,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -74914,7 +75053,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -74957,7 +75096,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -75000,7 +75139,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -75043,7 +75182,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -75091,7 +75230,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -75134,7 +75273,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -75177,7 +75316,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -75220,7 +75359,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -75263,7 +75402,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -75306,7 +75445,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -75349,7 +75488,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -75392,7 +75531,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -75435,7 +75574,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -75486,7 +75625,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -75531,7 +75670,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -75576,7 +75715,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -75621,7 +75760,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -75663,7 +75802,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -75700,7 +75839,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -75748,7 +75887,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -75791,7 +75930,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -75834,7 +75973,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -75887,7 +76026,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -75929,7 +76068,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -75971,7 +76110,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -76013,7 +76152,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -76055,7 +76194,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -76097,7 +76236,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -76133,7 +76272,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -76169,7 +76308,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -76205,7 +76344,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -76247,7 +76386,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -76289,7 +76428,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -76331,7 +76470,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -76374,7 +76513,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -76422,7 +76561,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -76486,7 +76625,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -76534,7 +76673,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -76582,7 +76721,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -76630,7 +76769,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -76678,7 +76817,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -76726,7 +76865,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -76774,7 +76913,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -76822,7 +76961,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -76865,7 +77004,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -76913,7 +77052,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -76961,7 +77100,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -77009,7 +77148,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -77057,7 +77196,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -77105,7 +77244,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -77153,7 +77292,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -77201,7 +77340,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -77249,7 +77388,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -77298,7 +77437,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -77346,7 +77485,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -77394,7 +77533,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -77442,7 +77581,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -77490,7 +77629,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -77532,7 +77671,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -77568,7 +77707,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -77621,7 +77760,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -77675,7 +77814,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -77729,7 +77868,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -77777,7 +77916,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -77825,7 +77964,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -77873,7 +78012,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -77921,7 +78060,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -77969,7 +78108,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -78023,7 +78162,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -78071,7 +78210,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -78119,7 +78258,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -78167,7 +78306,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -78221,7 +78360,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -78263,7 +78402,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -78311,7 +78450,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -78359,7 +78498,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -78412,7 +78551,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -78460,7 +78599,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -78508,7 +78647,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -78556,7 +78695,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -78604,7 +78743,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -78652,7 +78791,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -78700,7 +78839,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -78748,7 +78887,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -78796,7 +78935,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -78844,7 +78983,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -78892,7 +79031,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -78940,7 +79079,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -78976,7 +79115,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -79012,7 +79151,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -79072,7 +79211,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -79132,7 +79271,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -79180,7 +79319,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -79240,7 +79379,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -79282,7 +79421,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -79324,7 +79463,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -79389,7 +79528,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -79437,7 +79576,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -79485,7 +79624,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -79533,7 +79672,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -79581,7 +79720,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -79629,7 +79768,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -79677,7 +79816,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -79720,7 +79859,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -79762,7 +79901,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -79798,7 +79937,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -79840,7 +79979,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -79882,7 +80021,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -79930,7 +80069,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -79978,7 +80117,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -80020,7 +80159,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -80062,7 +80201,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -80109,7 +80248,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -80156,7 +80295,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -80209,7 +80348,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -80257,7 +80396,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -80304,7 +80443,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -80346,7 +80485,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -80388,7 +80527,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -80430,7 +80569,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -80478,7 +80617,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -80537,7 +80676,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -80596,7 +80735,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -80649,7 +80788,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -80702,7 +80841,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -80744,7 +80883,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -80792,7 +80931,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -80840,7 +80979,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -80893,7 +81032,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -80941,7 +81080,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -80989,7 +81128,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -81037,7 +81176,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -81085,7 +81224,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -81133,7 +81272,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -81204,7 +81343,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -81252,7 +81391,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -81300,7 +81439,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -81348,7 +81487,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -81396,7 +81535,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -81444,7 +81583,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -81492,7 +81631,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -81540,7 +81679,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 8,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -81583,7 +81722,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -81631,7 +81770,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 8,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -81674,7 +81813,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -81727,7 +81866,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -81775,7 +81914,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -81823,7 +81962,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -81876,7 +82015,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -81924,7 +82063,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -81966,7 +82105,7 @@
 				"equipment": ["Front Facing Pintle Mounted MMG","x2"]
 			},
 			{
-				"name": "Sd.Kfz 250/10 & 250/11 Tank Destroyer",
+				"name": "Sd.Kfz 250/10 & 250/11 Tank Destroyer Command Vehicle",
 				"validationKeys": ["TotalVehicle"],
 				"factions": [],
 				"order": 1,
@@ -81977,7 +82116,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 8,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -82042,7 +82181,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 8,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -82095,7 +82234,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 8,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -82148,7 +82287,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -82207,7 +82346,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -82265,7 +82404,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -82323,7 +82462,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -82376,7 +82515,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -82429,7 +82568,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -82477,7 +82616,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -82525,7 +82664,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -82578,7 +82717,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -82626,7 +82765,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 8,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -82663,7 +82802,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -82705,7 +82844,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -82763,7 +82902,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 8,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -82811,7 +82950,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -82853,7 +82992,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 8,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -82896,7 +83035,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -82944,7 +83083,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -82992,7 +83131,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -83040,7 +83179,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -83088,7 +83227,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -83136,7 +83275,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -83184,7 +83323,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -83232,7 +83371,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -83263,7 +83402,7 @@
 				"equipment": ["Hull Mounted Heavy Howitzer","Crew Carried MMG"]
 			},
 			{
-				"name": "Steyr Adgz M35 Heavy Armored Car /w MMG",
+				"name": "Steyr Adgz M35 Heavy Armored Car w/ MMG",
 				"validationKeys": ["TotalVehicle"],
 				"factions": [],
 				"order": 1,
@@ -83274,7 +83413,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -83322,7 +83461,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -83370,7 +83509,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -83418,7 +83557,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -83494,7 +83633,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -83547,7 +83686,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -83590,7 +83729,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -83644,7 +83783,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -83697,7 +83836,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -83739,7 +83878,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -83792,7 +83931,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -83845,7 +83984,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -83898,7 +84037,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -83941,7 +84080,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -84107,7 +84246,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -84264,7 +84403,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -84318,7 +84457,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -84365,7 +84504,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -84412,7 +84551,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -84454,7 +84593,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -84514,7 +84653,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -84562,7 +84701,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -84616,7 +84755,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -84670,7 +84809,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -84728,7 +84867,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -84788,7 +84927,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -84836,7 +84975,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -84884,7 +85023,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -84932,7 +85071,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -84988,7 +85127,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -85039,7 +85178,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -85090,7 +85229,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -85138,7 +85277,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -85180,7 +85319,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -85231,7 +85370,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -85277,7 +85416,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -85328,7 +85467,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -85376,7 +85515,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -85424,7 +85563,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -85472,7 +85611,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -85520,7 +85659,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -85580,7 +85719,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -85628,7 +85767,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -85676,7 +85815,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -85718,7 +85857,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -85766,7 +85905,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -85814,7 +85953,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -85862,7 +86001,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -85910,7 +86049,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -85957,7 +86096,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -86002,7 +86141,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -86050,7 +86189,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -86115,7 +86254,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -86163,7 +86302,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -86228,7 +86367,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -86313,7 +86452,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -86380,7 +86519,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -86416,7 +86555,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -86469,7 +86608,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -86517,7 +86656,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -86565,7 +86704,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -86613,7 +86752,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -86663,7 +86802,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -86710,7 +86849,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -86757,7 +86896,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -86817,7 +86956,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -86865,7 +87004,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -86925,7 +87064,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -86973,7 +87112,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -87021,7 +87160,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -87074,7 +87213,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -87122,7 +87261,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -87170,7 +87309,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -87212,7 +87351,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -87254,7 +87393,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -87361,7 +87500,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -87421,7 +87560,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -87474,7 +87613,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -87527,7 +87666,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -87580,7 +87719,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -87627,7 +87766,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -87669,7 +87808,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -87711,7 +87850,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -87759,7 +87898,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -87807,7 +87946,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -87855,7 +87994,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -87903,7 +88042,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -87951,7 +88090,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -87999,7 +88138,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -88047,7 +88186,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -88095,7 +88234,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -88143,7 +88282,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -88191,7 +88330,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -88252,7 +88391,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -88301,7 +88440,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -88350,7 +88489,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -88410,7 +88549,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -88458,7 +88597,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -88512,7 +88651,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -88566,7 +88705,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -88619,7 +88758,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -88670,7 +88809,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -88735,7 +88874,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -88789,7 +88928,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -88837,7 +88976,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -88885,7 +89024,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -88945,7 +89084,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -88993,7 +89132,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -89048,7 +89187,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -89111,7 +89250,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -89164,7 +89303,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -89206,7 +89345,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -89248,7 +89387,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -89296,7 +89435,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -89344,7 +89483,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -89386,7 +89525,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -89441,7 +89580,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -89502,7 +89641,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockedByLocal":
 					{
 						"quantityRequired":1,
@@ -89560,7 +89699,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -89620,7 +89759,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -89674,7 +89813,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -89723,7 +89862,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -89772,7 +89911,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -89821,7 +89960,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -89870,7 +90009,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -89919,7 +90058,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -89968,7 +90107,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -90017,7 +90156,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -90066,7 +90205,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -90115,7 +90254,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -90164,7 +90303,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -90219,7 +90358,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -90274,7 +90413,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -90330,7 +90469,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -90393,7 +90532,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -90480,7 +90619,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -90536,7 +90675,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -90582,7 +90721,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 8,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -90628,7 +90767,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -90676,7 +90815,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -90727,7 +90866,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -90783,7 +90922,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -90839,7 +90978,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -90892,7 +91031,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -90955,7 +91094,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -91006,7 +91145,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 8,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -91057,7 +91196,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -91113,7 +91252,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -91160,7 +91299,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -91205,7 +91344,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -91274,7 +91413,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -91325,7 +91464,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -91381,7 +91520,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -91437,7 +91576,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -91488,7 +91627,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -91539,7 +91678,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -91587,7 +91726,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -91641,7 +91780,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -91700,7 +91839,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -91754,7 +91893,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -91825,7 +91964,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -91891,7 +92030,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -91963,7 +92102,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -92017,7 +92156,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -92076,7 +92215,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -92136,7 +92275,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -92184,7 +92323,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -92226,7 +92365,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -92273,7 +92412,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -92320,7 +92459,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -92367,7 +92506,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -92437,7 +92576,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -92492,7 +92631,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -92547,7 +92686,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -92602,7 +92741,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -92657,7 +92796,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -92712,7 +92851,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 14,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -92767,7 +92906,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -92822,7 +92961,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -92877,7 +93016,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 8,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -92920,7 +93059,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -92973,7 +93112,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -93016,7 +93155,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -93059,7 +93198,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -93119,7 +93258,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 8,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -93162,7 +93301,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -93210,7 +93349,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -93258,7 +93397,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -93334,7 +93473,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -93399,7 +93538,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -93464,7 +93603,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -93524,7 +93663,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -93578,7 +93717,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -93650,7 +93789,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -93699,7 +93838,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -93747,7 +93886,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -93803,7 +93942,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -93860,7 +93999,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -93917,7 +94056,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -93977,7 +94116,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -94045,7 +94184,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -94110,7 +94249,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -94184,7 +94323,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 4,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -94240,7 +94379,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 4,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -94296,7 +94435,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -94353,7 +94492,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -94410,7 +94549,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -94470,7 +94609,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -94548,7 +94687,8 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 4,
+				"sortPriority": 9,
+				"unlockKey": "CT",
 				"limits": [
 					{
 						"key": "Tanks",
@@ -94607,7 +94747,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -94672,7 +94812,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -94732,7 +94872,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -94805,7 +94945,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -94870,7 +95010,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -94927,7 +95067,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -94984,7 +95124,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -95053,7 +95193,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -95113,7 +95253,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -95178,7 +95318,8 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 4,
+				"sortPriority": 9,
+				"unlockKey": "CT",
 				"limits": [
 					{
 						"key": "Tanks",
@@ -95222,7 +95363,8 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 4,
+				"sortPriority": 9,
+				"unlockKey": "CT",
 				"limits": [
 					{
 						"key": "Tanks",
@@ -95283,7 +95425,8 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 4,
+				"sortPriority": 9,
+				"unlockKey": "CT",
 				"limits": [
 					{
 						"key": "Tanks",
@@ -95339,7 +95482,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -95396,7 +95539,8 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 4,
+				"sortPriority": 9,
+				"unlockKey": "CT",
 				"limits": [
 					{
 						"key": "Tanks",
@@ -95446,7 +95590,8 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 4,
+				"sortPriority": 9,
+				"unlockKey": "CT",
 				"limits": [
 					{
 						"key": "Tanks",
@@ -95502,7 +95647,8 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 4,
+				"sortPriority": 9,
+				"unlockKey": "CT",
 				"limits": [
 					{
 						"key": "Tanks",
@@ -95568,7 +95714,8 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 4,
+				"sortPriority": 9,
+				"unlockKey": "CT",
 				"limits": [
 					{
 						"key": "Tanks",
@@ -95629,7 +95776,8 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 4,
+				"sortPriority": 9,
+				"unlockKey": "CT",
 				"limits": [
 					{
 						"key": "Tanks",
@@ -95690,7 +95838,8 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 4,
+				"sortPriority": 9,
+				"unlockKey": "CT",
 				"limits": [
 					{
 						"key": "Tanks",
@@ -95751,7 +95900,8 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 4,
+				"sortPriority": 9,
+				"unlockKey": "CT",
 				"limits": [
 					{
 						"key": "Tanks",
@@ -95819,7 +95969,8 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 4,
+				"sortPriority": 9,
+				"unlockKey": "CT",
 				"limits": [
 					{
 						"key": "Tanks",
@@ -95876,6 +96027,7 @@
 				"points": 0,
 				"models": 1,
 				"sortPriority": 4,
+				"unlockKey": "CT",
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -95935,7 +96087,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -95992,7 +96144,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -96052,7 +96204,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -96122,7 +96274,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -96187,7 +96339,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -96257,7 +96409,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -96319,7 +96471,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -96376,7 +96528,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -96427,7 +96579,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -96484,7 +96636,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -96546,7 +96698,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -96620,7 +96772,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -96697,7 +96849,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -96762,7 +96914,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -96822,7 +96974,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -96887,7 +97039,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -96944,7 +97096,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -97001,7 +97153,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -97058,7 +97210,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -97116,7 +97268,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -97178,7 +97330,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -97238,7 +97390,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -97303,7 +97455,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockedByLocal":
 					{
 						"quantityRequired":1,
@@ -97351,7 +97503,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -97492,7 +97644,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -97549,7 +97701,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"unlockKey": "CT",
 				"limits": [
 					{
@@ -97612,7 +97764,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -97660,7 +97812,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -97708,7 +97860,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -97756,7 +97908,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -97804,7 +97956,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -97852,7 +98004,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -97900,7 +98052,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -97948,7 +98100,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -97996,7 +98148,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -98044,7 +98196,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -98092,7 +98244,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -98140,7 +98292,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -98188,7 +98340,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -98236,7 +98388,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -98284,7 +98436,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -98332,7 +98484,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -98380,7 +98532,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -98428,7 +98580,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -98476,7 +98628,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -98524,7 +98676,7 @@
 				],
 				"points": 0,
 				"models": 2,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -98572,7 +98724,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -98619,7 +98771,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -98666,7 +98818,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -98713,7 +98865,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -98755,7 +98907,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -98797,7 +98949,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -98839,7 +98991,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -98886,7 +99038,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -98928,7 +99080,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -98970,7 +99122,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -99012,7 +99164,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -99048,7 +99200,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -99091,7 +99243,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -99140,7 +99292,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -99194,7 +99346,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -99248,7 +99400,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -99302,7 +99454,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -99356,7 +99508,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -99405,7 +99557,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -99454,7 +99606,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -99502,7 +99654,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -99538,7 +99690,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -99602,7 +99754,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -99650,7 +99802,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -99698,7 +99850,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -99746,7 +99898,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -99797,7 +99949,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -99863,7 +100015,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -99919,7 +100071,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -99967,7 +100119,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -100015,7 +100167,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -100068,7 +100220,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -100116,7 +100268,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -100165,7 +100317,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -100226,7 +100378,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -100274,7 +100426,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -100322,7 +100474,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -100370,7 +100522,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -100418,7 +100570,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -100469,7 +100621,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -100530,7 +100682,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -100578,7 +100730,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -100626,7 +100778,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -100684,7 +100836,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -100738,7 +100890,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -100792,7 +100944,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -100845,7 +100997,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -100898,7 +101050,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -100952,7 +101104,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -100998,7 +101150,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -101051,7 +101203,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -101093,7 +101245,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -101135,7 +101287,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -101177,7 +101329,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -101225,7 +101377,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -101282,7 +101434,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -101335,7 +101487,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -101382,7 +101534,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -101430,7 +101582,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -101472,7 +101624,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -101577,7 +101729,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -101630,7 +101782,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -101683,7 +101835,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -101736,7 +101888,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -101789,7 +101941,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -101843,7 +101995,7 @@
 				"points": 0,
 				"models": 1,
 				"special": true,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -101925,7 +102077,7 @@
 				"points": 0,
 				"models": 1,
 				"special": true,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -102005,7 +102157,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -102069,7 +102221,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -102133,7 +102285,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -102197,7 +102349,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -102264,7 +102416,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -102336,7 +102488,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -102405,7 +102557,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -102458,7 +102610,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -102511,7 +102663,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -102559,7 +102711,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -102610,7 +102762,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -102684,7 +102836,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -102753,7 +102905,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -102801,7 +102953,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -102870,7 +103022,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -102932,7 +103084,7 @@
 				"limit": 2,
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 14,
 				"limits": [
 					{
 						"key": "Bunkers",
@@ -103006,7 +103158,7 @@
 				"limit": 2,
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 14,
 				"limits": [
 					{
 						"key": "Bunkers",
@@ -103080,7 +103232,7 @@
 				"limit": 2,
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 14,
 				"limits": [
 					{
 						"key": "Bunkers",
@@ -103170,7 +103322,7 @@
 				"limit": 2,
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 14,
 				"limits": [
 					{
 						"key": "Bunkers",
@@ -103228,7 +103380,7 @@
 				"limit": 2,
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 14,
 				"limits": [
 					{
 						"key": "Bunkers",
@@ -103302,7 +103454,7 @@
 				"limit": 2,
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 14,
 				"limits": [
 					{
 						"key": "Bunkers",
@@ -103392,7 +103544,7 @@
 				"limit": 2,
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 14,
 				"limits": [
 					{
 						"key": "Bunkers",
@@ -103482,7 +103634,7 @@
 				"limit": 2,
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 14,
 				"limits": [
 					{
 						"key": "Bunkers",
@@ -103540,7 +103692,7 @@
 				"limit": 2,
 				"points": 0,
 				"models": 1,
-				"sortPriority": 3,
+				"sortPriority": 14,
 				"limits": [
 					{
 						"key": "Bunkers",
@@ -103627,6 +103779,7 @@
 					}
 				],
 				"limit": 2,
+				"sortPriority": 14,
 				"points": 0,
 				"models": 0,
 				"options": [],
@@ -103642,6 +103795,7 @@
 					}
 				],
 				"limit": 2,
+				"sortPriority": 14,
 				"points": 0,
 				"models": 0,
 				"options": [],
@@ -103652,6 +103806,7 @@
 				"name": "Weapon or Gun Pit",
 				"factions": [],
 				"availableIn": ["Fortifications and Defenses"],
+				"sortPriority": 14,
 				"points": 50,
 				"models": 0,
 				"options": [],
@@ -103662,6 +103817,7 @@
 				"name": "Trench Sections",
 				"factions": [],
 				"availableIn": ["Fortifications and Defenses"],
+				"sortPriority": 14,
 				"points": 50,
 				"models": 0,
 				"options": [],
@@ -103679,6 +103835,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 10,
 				"limits": [
 					{
 						"key": "Plane",
@@ -103720,6 +103877,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 10,
 				"limits": [
 					{
 						"key": "Plane",
@@ -103761,6 +103919,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 11,
 				"limits": [
 					{
 						"key": "Plane",
@@ -103803,6 +103962,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 11,
 				"limits": [
 					{
 						"key": "Plane",
@@ -103850,6 +104010,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 10,
 				"limits": [
 					{
 						"key": "Plane",
@@ -103891,6 +104052,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 10,
 				"limits": [
 					{
 						"key": "Plane",
@@ -103932,6 +104094,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 11,
 				"limits": [
 					{
 						"key": "Plane",
@@ -103974,6 +104137,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 11,
 				"limits": [
 					{
 						"key": "Plane",
@@ -104016,6 +104180,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"limits": [
 					{
 						"key": "Plane",
@@ -104059,6 +104224,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 15,
 				"limits": [
 					{
 						"key": "Plane",
@@ -104101,6 +104267,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 10,
 				"limits": [
 					{
 						"key": "Plane",
@@ -104142,6 +104309,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 10,
 				"limits": [
 					{
 						"key": "Plane",
@@ -104183,6 +104351,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 11,
 				"limits": [
 					{
 						"key": "Plane",
@@ -104237,6 +104406,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 11,
 				"limits": [
 					{
 						"key": "Plane",
@@ -104295,6 +104465,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 11,
 				"limits": [
 					{
 						"key": "Plane",
@@ -104336,6 +104507,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 10,
 				"limits": [
 					{
 						"key": "Plane",
@@ -104377,6 +104549,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 10,
 				"limits": [
 					{
 						"key": "Plane",
@@ -104418,6 +104591,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 11,
 				"limits": [
 					{
 						"key": "Plane",
@@ -104459,6 +104633,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 11,
 				"limits": [
 					{
 						"key": "Plane",
@@ -104501,6 +104676,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 11,
 				"limits": [
 					{
 						"key": "Plane",
@@ -104542,6 +104718,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 10,
 				"limits": [
 					{
 						"key": "Plane",
@@ -104583,6 +104760,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 10,
 				"limits": [
 					{
 						"key": "Plane",
@@ -104624,6 +104802,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 11,
 				"limits": [
 					{
 						"key": "Plane",
@@ -104666,6 +104845,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 11,
 				"limits": [
 					{
 						"key": "Plane",
@@ -104707,6 +104887,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 10,
 				"limits": [
 					{
 						"key": "Plane",
@@ -104748,6 +104929,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 10,
 				"limits": [
 					{
 						"key": "Plane",
@@ -104789,6 +104971,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 11,
 				"limits": [
 					{
 						"key": "Plane",
@@ -104843,6 +105026,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 11,
 				"limits": [
 					{
 						"key": "Plane",
@@ -104884,6 +105068,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 10,
 				"limits": [
 					{
 						"key": "Plane",
@@ -104925,6 +105110,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 10,
 				"limits": [
 					{
 						"key": "Plane",
@@ -104966,6 +105152,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 11,
 				"limits": [
 					{
 						"key": "Plane",
@@ -105007,6 +105194,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 11,
 				"limits": [
 					{
 						"key": "Plane",
@@ -105048,6 +105236,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 11,
 				"limits": [
 					{
 						"key": "Plane",
@@ -105105,6 +105294,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 10,
 				"limits": [
 					{
 						"key": "Plane",
@@ -105146,6 +105336,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 11,
 				"limits": [
 					{
 						"key": "Plane",
@@ -105187,6 +105378,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 10,
 				"limits": [
 					{
 						"key": "Plane",
@@ -105231,6 +105423,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 10,
 				"limits": [
 					{
 						"key": "Plane",
@@ -105272,6 +105465,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 11,
 				"limits": [
 					{
 						"key": "Plane",
@@ -105326,6 +105520,7 @@
 				"points": 0,
 				"models": 1,
 				"PL": true,
+				"sortPriority": 10,
 				"limits": [
 					{
 						"key": "Plane",
@@ -105384,6 +105579,7 @@
 				"points": 0,
 				"models": 1,
 				"PL": true,
+				"sortPriority": 11,
 				"limits": [
 					{
 						"key": "Plane",
@@ -105433,6 +105629,7 @@
 				],
 				"points": 0,
 				"models": 1,
+				"sortPriority": 11,
 				"limits": [
 					{
 						"key": "Plane",
