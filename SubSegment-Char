@@ -1,0 +1,80 @@
+
+			{
+				"name": "Lt. General George S. Patton Jr.",
+				"validationKeys": ["CompCommander"],
+				"factions": [],
+				"order": 1,
+				"campaign": true,
+				"compendium": false,
+				"special": false,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Ivory Handle Pistol Pair",
+						"quantity": 1
+					}
+				],
+				"sortPriority": 1,
+				"limit": 1,
+				"limits": [
+					{
+						"key": "Commander",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"addsPrefix": "Veteran ",
+						"points": 215,
+						"availableIn": ["United States of America"],
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "SMGs",
+						"points": 0,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "Pistols",
+						"points": 0,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "Rifle Grenade Adaptor",
+						"campaign": true,
+						"points": 20,
+						"max": 3,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["United States of America"]
+					}
+				],
+				"keywords": ["Period: L","Hold'em by the Nose and Kick'em in the Ass!","I Won't Subsidise Cowardice!","Ol' Blood'n'Guts!","We're Gonna Go Through Them Like crap Through Goose!","General Patton"],
+				"specialText": "Campaign Unit from Italy - Soft Underbelly;\n 1 Officer",
+				"equipment": ["Ivory Handle Pistol Pair"]
+			},
