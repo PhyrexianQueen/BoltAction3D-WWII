@@ -46439,7 +46439,7 @@
 					},
 					{
 						"name": "Automatic Rifle",
-						"points": 4,
+						"points": 6,
 						"increment": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"max": "parentModels",
@@ -46551,7 +46551,7 @@
 					},
 					{
 						"name": "Automatic Rifle",
-						"points": 4,
+						"points": 6,
 						"increment": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"max": "parentModels",
@@ -46681,7 +46681,7 @@
 					},
 					{
 						"name": "Automatic Rifle",
-						"points": 4,
+						"points": 6,
 						"increment": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"max": "parentModels",
@@ -46811,7 +46811,7 @@
 					},
 					{
 						"name": "Automatic Rifle",
-						"points": 4,
+						"points": 6,
 						"increment": true,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"max": "parentModels",
@@ -47297,7 +47297,7 @@
 					},
 					{
 						"name": "Automatic Rifle",
-						"points": 4,
+						"points": 6,
 						"increment": true,
 						"unlockedByLocal": ["Veteran"],
 						"max": "parentModels",
