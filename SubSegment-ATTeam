@@ -1,0 +1,199 @@
+
+			{
+				"name": "Bazooka",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (PL)" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (PL)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 0,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inexperienced ",
+						"points": 42,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Regular ",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Veteran ",
+						"points": 78,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Sweden (PL)"]
+					},
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["Sweden (PL)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular"],
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines Vet)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
+					},
+					{
+						"name": "By Air, Land, and Sea (Rangers)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
+					}
+				],
+				"keywords": ["Period: M|L"],
+				"specialText": "1 Bazooka Operator\n 1 Loader",
+				"equipment": ["Bazooka Team"]
+			},
+			{
+				"name": "Bazooka - Heavy Weapons Platoon",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (PL)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "United States of America" }]			
+					}
+				],
+				"points": 0,
+				"models": 2,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Bazooka",
+						"quantity": 1
+					},
+					{
+						"key": "secondary",
+						"property": "Loader/Assistant",
+						"quantity": 1
+					}
+				],
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inexperienced ",
+						"points": 42,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Regular ",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Veteran ",
+						"points": 78,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Skis",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Sweden (PL)"]
+					},
+					{
+						"name": "Det Fria Kriget",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["Sweden (PL)"]
+					},
+					{
+						"name": "By Air, Land, and Sea (Airborne)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines)",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular"],
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
+					},
+					{
+						"name": "By Air, Land, and Sea (Marines Vet)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
+					},
+					{
+						"name": "By Air, Land, and Sea (Rangers)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": ["United States of America"],
+						"chooseOneKey": "natRuUSA"
+					}
+				],
+				"keywords": ["Period: M|L"],
+				"specialText": "1 Bazooka Operator\n 1 Loader",
+				"equipment": ["Bazooka Team"]
+			},
