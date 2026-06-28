@@ -3465,7 +3465,6 @@
 							"Great Britain",
 							"Greece",
 							"Hungary",
-							"Italy",
 							"Japan",
 							"Netherlands",
 							"Partisans",
@@ -3500,7 +3499,6 @@
 							"Great Britain",
 							"Greece",
 							"Hungary",
-							"Italy",
 							"Japan",
 							"Netherlands",
 							"Partisans",
@@ -3532,7 +3530,6 @@
 							"Great Britain",
 							"Greece",
 							"Hungary",
-							"Italy",
 							"Japan",
 							"Netherlands",
 							"Partisans",
@@ -3562,7 +3559,6 @@
 							"France",
 							"Greece",
 							"Hungary",
-							"Italy",
 							"Netherlands",
 							"Norway",
 							"Poland",
@@ -3588,7 +3584,6 @@
 							"France",
 							"Greece",
 							"Hungary",
-							"Italy",
 							"Netherlands",
 							"Norway",
 							"Poland",
@@ -3611,7 +3606,6 @@
 							"Finland",
 							"France",
 							"Greece",
-							"Italy",
 							"Netherlands",
 							"Norway",
 							"Poland",
@@ -3764,7 +3758,6 @@
 							"France",
 							"Greece",
 							"Hungary",
-							"Italy",
 							"Netherlands",
 							"Norway",
 							"Poland",
@@ -3793,7 +3786,6 @@
 							"France",
 							"Greece",
 							"Hungary",
-							"Italy",
 							"Netherlands",
 							"Norway",
 							"Poland"
@@ -3884,7 +3876,6 @@
 							"France",
 							"Greece",
 							"Hungary",
-							"Italy",
 							"Netherlands",
 							"Norway",
 							"Slovakia (ZC)",
@@ -3912,7 +3903,6 @@
 							"France",
 							"Greece",
 							"Hungary",
-							"Italy",
 							"Netherlands",
 							"Norway",
 							"Slovakia (ZC)",
@@ -4809,7 +4799,7 @@
 						"name": "Winter Equipment",
 						"points": 0,
 						"perModel": true,
-						"unlockedByLocal": ["Alpini"],
+						"name": "Avanti! (Alpini)",
 						"availableIn": [
 							"Royal Italian Army (Regio Esercito)",
 							"Italian Co-Belligerent Army",
@@ -6524,7 +6514,7 @@
 						"name": "Winter Equipment",
 						"points": 0,
 						"perModel": true,
-						"unlockedByLocal": ["Alpini"],
+						"name": "Avanti! (Alpini)",
 						"availableIn": [
 							"Royal Italian Army (Regio Esercito)",
 							"Italian Co-Belligerent Army",
@@ -6898,21 +6888,6 @@
 						"all": [{ "in": "Artillery Platoon" }, { "in": "Hungary" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon" }, { "in": "Italy" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon" }, { "in": "Italy" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon" }, { "in": "Italy" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Italy" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon" }, { "in": "Italy" }]			
-					},
-					{
 						"all": [{ "in": "Rifle Platoon" }, { "in": "Netherlands" }]			
 					},
 					{
@@ -7125,7 +7100,6 @@
 							"Great Britain",
 							"Greece",
 							"Hungary",
-							"Italy",
 							"Japan",
 							"Netherlands",
 							"Partisans",
@@ -7160,7 +7134,6 @@
 							"Great Britain",
 							"Greece",
 							"Hungary",
-							"Italy",
 							"Japan",
 							"Netherlands",
 							"Partisans",
@@ -7192,7 +7165,6 @@
 							"Great Britain",
 							"Greece",
 							"Hungary",
-							"Italy",
 							"Japan",
 							"Netherlands",
 							"Partisans",
@@ -7257,7 +7229,6 @@
 							"France",
 							"Greece",
 							"Hungary",
-							"Italy",
 							"Netherlands",
 							"Norway",
 							"Partisans",
@@ -7313,7 +7284,6 @@
 							"France",
 							"Greece",
 							"Hungary",
-							"Italy",
 							"Netherlands",
 							"Norway",
 							"Partisans",
@@ -7367,7 +7337,6 @@
 							"France",
 							"Greece",
 							"Hungary",
-							"Italy",
 							"Netherlands",
 							"Norway",
 							"Partisans",
@@ -7447,7 +7416,6 @@
 							"Great Britain",
 							"Greece",
 							"Hungary",
-							"Italy",
 							"Netherlands",
 							"Norway",
 							"Partisans",
@@ -7472,7 +7440,6 @@
 							"France",
 							"Greece",
 							"Hungary",
-							"Italy",
 							"Netherlands",
 							"Norway",
 							"Partisans",
@@ -7552,7 +7519,6 @@
 							"France",
 							"Greece",
 							"Hungary",
-							"Italy",
 							"Netherlands",
 							"Norway",
 							"Partisans",
@@ -7581,7 +7547,6 @@
 							"France",
 							"Greece",
 							"Hungary",
-							"Italy",
 							"Netherlands",
 							"Norway",
 							"Partisans",
@@ -8596,7 +8561,7 @@
 						"name": "Winter Equipment",
 						"points": 0,
 						"perModel": true,
-						"unlockedByLocal": ["Alpini"],
+						"name": "Avanti! (Alpini)",
 						"availableIn": [
 							"Royal Italian Army (Regio Esercito)",
 							"Italian Co-Belligerent Army",
@@ -9050,7 +9015,6 @@
 							"Great Britain",
 							"Greece",
 							"Hungary",
-							"Italy",
 							"Japan",
 							"Netherlands",
 							"Partisans",
@@ -9081,7 +9045,6 @@
 							"Great Britain",
 							"Greece",
 							"Hungary",
-							"Italy",
 							"Japan",
 							"Netherlands",
 							"Partisans",
@@ -9449,7 +9412,7 @@
 						"name": "Winter Equipment",
 						"points": 0,
 						"perModel": true,
-						"unlockedByLocal": ["Alpini"],
+						"name": "Avanti! (Alpini)",
 						"availableIn": [
 							"Royal Italian Army (Regio Esercito)",
 							"Italian Co-Belligerent Army",
@@ -9816,12 +9779,6 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Italy" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Italy" }]			
-					},
-					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Netherlands" }]			
 					},
 					{
@@ -9925,7 +9882,6 @@
 							"Chinese Central Army (GKZ)",
 							"Germany",
 							"Great Britain",
-							"Italy",
 							"Sweden (PL)"
 						]
 					},
@@ -9955,7 +9911,6 @@
 							"Chinese Central Army (GKZ)",
 							"Germany",
 							"Great Britain",
-							"Italy",
 							"Sweden (PL)"
 						]
 					},
@@ -10019,7 +9974,6 @@
 							"Chinese Central Army (GKZ)",
 							"Germany",
 							"Great Britain",
-							"Italy",
 							"Sweden (PL)"
 						]
 					},
@@ -10035,7 +9989,6 @@
 							"Chinese Central Army (GKZ)",
 							"Germany",
 							"Great Britain",
-							"Italy",
 							"Sweden (PL)"
 						]
 					},
@@ -10538,12 +10491,6 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Italy" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Italy" }]			
-					},
-					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Netherlands" }]			
 					},
 					{
@@ -10628,7 +10575,6 @@
 							"Great Britain",
 							"Greece",
 							"Hungary",
-							"Italy",
 							"Netherlands",
 							"Norway",
 							"Poland",
@@ -10658,7 +10604,6 @@
 							"Great Britain",
 							"Greece",
 							"Hungary",
-							"Italy",
 							"Netherlands",
 							"Norway",
 							"Poland",
@@ -10707,7 +10652,6 @@
 							"Chinese Central Army (GKZ)",
 							"Germany",
 							"Great Britain",
-							"Italy",
 							"Sweden (PL)"
 						]
 					},
@@ -10723,7 +10667,6 @@
 							"Chinese Central Army (GKZ)",
 							"Germany",
 							"Great Britain",
-							"Italy",
 							"Sweden (PL)"
 						]
 					},
@@ -10789,7 +10732,6 @@
 							"Denmark (GKZ)",
 							"Germany",
 							"Great Britain",
-							"Italy",
 							"Sweden (PL)"
 						]
 					},
@@ -10805,7 +10747,6 @@
 							"Denmark (GKZ)",
 							"Germany",
 							"Great Britain",
-							"Italy",
 							"Sweden (PL)"
 						]
 					},
@@ -11336,7 +11277,7 @@
 						"name": "Winter Equipment",
 						"points": 0,
 						"perModel": true,
-						"unlockedByLocal": ["Alpini"],
+						"name": "Avanti! (Alpini)",
 						"availableIn": [
 							"Royal Italian Army (Regio Esercito)",
 							"Italian Co-Belligerent Army",
@@ -11516,7 +11457,7 @@
 						"name": "Winter Equipment",
 						"points": 0,
 						"perModel": true,
-						"unlockedByLocal": ["Alpini"],
+						"name": "Avanti! (Alpini)",
 						"availableIn": [
 							"Royal Italian Army (Regio Esercito)",
 							"Italian Co-Belligerent Army",
@@ -12614,7 +12555,7 @@
 						"name": "Winter Equipment",
 						"points": 0,
 						"perModel": true,
-						"unlockedByLocal": ["Alpini"],
+						"name": "Avanti! (Alpini)",
 						"availableIn": [
 							"Royal Italian Army (Regio Esercito)",
 							"Italian Co-Belligerent Army",
@@ -15445,7 +15386,7 @@
 						"name": "Winter Equipment",
 						"points": 0,
 						"perModel": true,
-						"unlockedByLocal": ["Alpini"],
+						"name": "Avanti! (Alpini)",
 						"availableIn": [
 							"Royal Italian Army (Regio Esercito)",
 							"Italian Co-Belligerent Army",
@@ -15607,7 +15548,7 @@
 						"name": "Winter Equipment",
 						"points": 0,
 						"perModel": true,
-						"unlockedByLocal": ["Alpini"],
+						"name": "Avanti! (Alpini)",
 						"availableIn": [
 							"Royal Italian Army (Regio Esercito)",
 							"Italian Co-Belligerent Army",
@@ -17916,7 +17857,7 @@
 						"name": "Winter Equipment",
 						"points": 0,
 						"perModel": true,
-						"unlockedByLocal": ["Alpini"],
+						"name": "Avanti! (Alpini)",
 						"availableIn": [
 							"Royal Italian Army (Regio Esercito)",
 							"Italian Co-Belligerent Army",
@@ -18101,7 +18042,7 @@
 						"name": "Winter Equipment",
 						"points": 0,
 						"perModel": true,
-						"unlockedByLocal": ["Alpini"],
+						"name": "Avanti! (Alpini)",
 						"availableIn": [
 							"Royal Italian Army (Regio Esercito)",
 							"Italian Co-Belligerent Army",
@@ -18762,7 +18703,7 @@
 						"name": "Winter Equipment",
 						"points": 0,
 						"perModel": true,
-						"unlockedByLocal": ["Alpini"],
+						"name": "Avanti! (Alpini)",
 						"availableIn": [
 							"Royal Italian Army (Regio Esercito)",
 							"Italian Co-Belligerent Army",
@@ -21420,7 +21361,7 @@
 						"name": "Winter Equipment",
 						"points": 0,
 						"perModel": true,
-						"unlockedByLocal": ["Alpini"],
+						"name": "Avanti! (Alpini)",
 						"availableIn": [
 							"Royal Italian Army (Regio Esercito)",
 							"Italian Co-Belligerent Army",
@@ -25215,7 +25156,6 @@
 							"Great Britain",
 							"Greece",
 							"Hungary",
-							"Italy",
 							"Japan",
 							"Netherlands",
 							"Partisans",
@@ -26192,7 +26132,6 @@
 							"Great Britain",
 							"Greece",
 							"Hungary",
-							"Italy",
 							"Japan",
 							"Netherlands",
 							"Partisans",
@@ -26227,7 +26166,6 @@
 							"Great Britain",
 							"Greece",
 							"Hungary",
-							"Italy",
 							"Japan",
 							"Netherlands",
 							"Partisans",
@@ -57503,7 +57441,7 @@
 						"name": "Winter Equipment",
 						"points": 0,
 						"perModel": true,
-						"unlockedByLocal": ["Alpini"],
+						"name": "Avanti! (Alpini)",
 						"availableIn": [
 							"Royal Italian Army (Regio Esercito)",
 							"Italian Co-Belligerent Army",
@@ -60188,7 +60126,7 @@
 						"name": "Winter Equipment",
 						"points": 0,
 						"perModel": true,
-						"unlockedByLocal": ["Alpini"],
+						"name": "Avanti! (Alpini)",
 						"availableIn": [
 							"Royal Italian Army (Regio Esercito)",
 							"Italian Co-Belligerent Army",
@@ -60323,7 +60261,7 @@
 						"name": "Winter Equipment",
 						"points": 0,
 						"perModel": true,
-						"unlockedByLocal": ["Alpini"],
+						"name": "Avanti! (Alpini)",
 						"availableIn": [
 							"Royal Italian Army (Regio Esercito)",
 							"Italian Co-Belligerent Army",
@@ -60473,7 +60411,7 @@
 						"name": "Winter Equipment",
 						"points": 0,
 						"perModel": true,
-						"unlockedByLocal": ["Alpini"],
+						"name": "Avanti! (Alpini)",
 						"availableIn": [
 							"Royal Italian Army (Regio Esercito)",
 							"Italian Co-Belligerent Army",
@@ -72770,7 +72708,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 15,
+				"sortPriority": 8,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -72819,7 +72757,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 15,
+				"sortPriority": 8,
 				"options": [
 					{
 						"name": "Inexperienced",
@@ -84128,7 +84066,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 1,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -84181,7 +84119,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 1,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -103999,6 +103937,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Air Support"	}, { "in": "Finland" }]			
 					},
 					{
@@ -104047,6 +103988,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Air Support"	}, { "in": "Germany" }]				
 					}
 				],
@@ -104088,6 +104032,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italian National Republican Army" }]			
+					},
 					{
 						"all": [{ "in": "Air Support"	}, { "in": "Germany" }]			
 					}
@@ -104132,6 +104079,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Air Support"	}, { "in": "Germany" }]			
 					}
 				],
@@ -104174,6 +104124,9 @@
 				"PL": true,
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italian National Republican Army" }]			
+					},
 					{
 						"all": [{ "in": "Air Support"	}, { "in": "Germany" }]			
 					}
@@ -104219,6 +104172,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
 						"all": [{ "in": "Air Support"	}, { "in": "Germany" }]			
 					}
 				],
@@ -104262,6 +104218,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italian Co-Belligerent Army" }]			
+					},
+					{
 						"all": [{ "in": "Air Support"	}, { "in": "Great Britain" }]			
 					}
 				],
@@ -104304,6 +104263,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italian Co-Belligerent Army" }]			
+					},
+					{
 						"all": [{ "in": "Air Support"	}, { "in": "Great Britain" }]			
 					}
 				],
@@ -104345,6 +104307,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italian Co-Belligerent Army" }]			
+					},
 					{
 						"all": [{ "in": "Air Support"	}, { "in": "Great Britain" }]			
 					}
@@ -104400,6 +104365,9 @@
 				"order": 1,
 				"PL": true,
 				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italian Co-Belligerent Army" }]			
+					},
 					{
 						"all": [{ "in": "Air Support"	}, { "in": "Great Britain" }]			
 					}
@@ -104460,6 +104428,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italian Co-Belligerent Army" }]			
+					},
+					{
 						"all": [{ "in": "Air Support"	}, { "in": "Great Britain" }]			
 					}
 				],
@@ -104502,7 +104473,13 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Air Support"	}, { "in": "Italy" }]			
+						"all": [{ "in": "Air Support"	}, { "in": "Italian Co-Belligerent Army" }]			
+					},
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
 				],
 				"points": 0,
@@ -104544,7 +104521,13 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Air Support"	}, { "in": "Italy" }]				
+						"all": [{ "in": "Air Support"	}, { "in": "Italian Co-Belligerent Army" }]			
+					},
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
 				],
 				"points": 0,
@@ -104586,7 +104569,13 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Air Support"	}, { "in": "Italy" }]			
+						"all": [{ "in": "Air Support"	}, { "in": "Italian Co-Belligerent Army" }]			
+					},
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
 				],
 				"points": 0,
@@ -104628,7 +104617,13 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Air Support"	}, { "in": "Italy" }]			
+						"all": [{ "in": "Air Support"	}, { "in": "Italian Co-Belligerent Army" }]			
+					},
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
 				],
 				"points": 0,
@@ -104671,7 +104666,13 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Air Support"	}, { "in": "Italy" }]			
+						"all": [{ "in": "Air Support"	}, { "in": "Italian Co-Belligerent Army" }]			
+					},
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italian National Republican Army" }]			
+					},
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
 				],
 				"points": 0,
@@ -105373,6 +105374,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italian Co-Belligerent Army" }]			
+					},
+					{
 						"all": [{ "in": "Air Support"	}, { "in": "United States of America" }]			
 					}
 				],
@@ -105414,6 +105418,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italian Co-Belligerent Army" }]			
+					},
 					{
 						"all": [{ "in": "Air Support"	}, { "in": "United States of America" }]			
 					},
@@ -105459,6 +105466,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italian Co-Belligerent Army" }]			
+					},
 					{
 						"all": [{ "in": "Air Support"	}, { "in": "United States of America" }]			
 					}
@@ -105513,6 +105523,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italian Co-Belligerent Army" }]			
+					},
 					{
 						"all": [{ "in": "Air Support"	}, { "in": "United States of America" }]			
 					}
@@ -105573,6 +105586,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italian Co-Belligerent Army" }]			
+					},
+					{
 						"all": [{ "in": "Air Support"	}, { "in": "United States of America" }]			
 					}
 				],
@@ -105623,6 +105639,9 @@
 				"PL": true,
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "Italian Co-Belligerent Army" }]			
+					},
 					{
 						"all": [{ "in": "Air Support"	}, { "in": "United States of America" }]			
 					}
