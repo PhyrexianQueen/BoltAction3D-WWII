@@ -84235,7 +84235,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 2,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
@@ -84288,7 +84288,7 @@
 				],
 				"points": 0,
 				"models": 1,
-				"sortPriority": 2,
+				"sortPriority": 9,
 				"limits": [
 					{
 						"key": "Tanks",
