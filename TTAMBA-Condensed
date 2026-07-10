@@ -199,8 +199,9 @@
 		]
 	}
 ],
-"data": 
+"data":
 	{
+		"dataTableKeys": ["units"],
 		"factions": [
 			{
 				"name": "Belgium"
@@ -1816,7 +1817,7 @@
 				"definition": "Once Per Game, may attempt to go first in a turn; Bolt Action, 3rd Edition: Pg. ---"
 			},
 			{
-				"name": "Selection - Heavy Weapons Team",
+				"name": "Selection  Team",
 				"definition": "May be taken instead of a Mortar or Machine Gun Team in a Heavy Weapons Platoon; Bolt Action, 3rd Edition: Pg. ---"
 			},
 			{
@@ -8682,7 +8683,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"unlockedByLocalStat": [
                             {
-                                "stat": "mode/ls",
+                                "stat": "models",
                                 "modifier": "above",
                                 "value": 1
                             }
@@ -13018,7 +13019,7 @@
 				"equipment": ["AT Explosive Weapon"]
 			},
 			{
-				"name": "Chinese Suicide AT Team - Heavy Weapons Platoon",
+				"name": "Chinese Suicide AT Team  Platoon",
 				"validationKeys": ["HeavyWepTeams"],
 				"factions": [],
 				"order": 1,
@@ -13173,7 +13174,7 @@
 				"equipment": ["AT Rifle Team"]
 			},
 			{
-				"name": "Chinese AT Rifle Team - Heavy Weapons Platoon",
+				"name": "Chinese AT Rifle Team  Platoon",
 				"validationKeys": ["HeavyWepTeams"],
 				"factions": [],
 				"order": 1,
@@ -13304,7 +13305,7 @@
 				"equipment": ["AT Rifle Team"]
 			},
 			{
-				"name": "AT Rifle w/ vz. 31 Ammunition - Heavy Weapons Platoon",
+				"name": "AT Rifle w/ vz. 31 Ammunition  Platoon",
 				"validationKeys": ["HeavyWepTeams"],
 				"factions": [],
 				"order": 1,
@@ -13436,7 +13437,7 @@
 				"equipment": ["AT Rifle Team"]
 			},
 			{
-				"name": "Czechoslovak Republic AT Rifle Team - Heavy Weapons Platoon",
+				"name": "Czechoslovak Republic AT Rifle Team  Platoon",
 				"validationKeys": ["HeavyWepTeams"],
 				"factions": [],
 				"order": 1,
@@ -13562,7 +13563,7 @@
 				"equipment": ["AT Rifle Team"]
 			},
 			{
-				"name": "Anti-Tank Rifle Team - Heavy Weapons Platoon",
+				"name": "Anti-Tank Rifle Team  Platoon",
 				"validationKeys": ["HeavyWepTeams"],
 				"factions": [],
 				"order": 1,
@@ -13675,7 +13676,7 @@
 				"equipment": ["Panzerschreck Team"]
 			},
 			{
-				"name": "Panzerschreck Anti-Tank Team - Heavy Weapons Platoon (F)",
+				"name": "Panzerschreck Anti-Tank Team  Platoon (F)",
 				"validationKeys": ["HeavyWepTeams"],
 				"factions": [],
 				"order": 1,
@@ -13850,7 +13851,7 @@
 				"equipment": ["AT Rifle Team"]
 			},
 			{
-				"name": "Solothurn Anti-Tank Rifle - Heavy Weapons Platoon",
+				"name": "Solothurn Anti-Tank Rifle  Platoon",
 				"validationKeys": ["HeavyWepTeams"],
 				"factions": [],
 				"order": 1,
@@ -14018,7 +14019,7 @@
 				"equipment": ["AT Rifle Team"]
 			},
 			{
-				"name": "S-18/100 AT RIfle Team - Heavy Weapons Platoon",
+				"name": "S-18/100 AT RIfle Team  Platoon",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -14092,7 +14093,7 @@
 				"equipment": ["AT Rifle Team"]
 			},
 			{
-				"name": "S-18/1000 AT RIfle Team - Heavy Weapons Platoon",
+				"name": "S-18/1000 AT RIfle Team  Platoon",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -14237,7 +14238,7 @@
 				"equipment": ["Bazooka Team"]
 			},
 			{
-				"name": "Bazooka - Heavy Weapons Platoon",
+				"name": "Bazooka  Platoon",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -14436,7 +14437,7 @@
 				"equipment": ["Bazooka Team"]
 			},
 			{
-				"name": "Armored Infantry Bazooka - Recce Platoon",
+				"name": "Armored Infantry Bazooka  Platoon",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -14603,7 +14604,7 @@
 				"equipment": ["AT Rifle Team"]
 			},
 			{
-				"name": "Recoilless Anti-Tank Rifle - Heavy Weapons Platoon",
+				"name": "Recoilless Anti-Tank Rifle  Platoon",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -15155,7 +15156,7 @@
 				"equipment": ["AT Rifle Team"]
 			},
 			{
-				"name": "Anti-Tank Rifle Team - Heavy Weapons Platoon",
+				"name": "Anti-Tank Rifle Team  Platoon",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -15459,7 +15460,7 @@
 				"equipment": ["Panzerschreck Team"]
 			},
 			{
-				"name": "Panzerschreck Anti-Tank Team - Heavy Weapons Platoon",
+				"name": "Panzerschreck Anti-Tank Team  Platoon",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -15739,7 +15740,7 @@
 				"equipment": ["AT Rifle Team"]
 			},
 			{
-				"name": "Anti-Tank Rifle Team (J) - Heavy Weapons Platoon",
+				"name": "Anti-Tank Rifle Team (J)  Platoon",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -15983,7 +15984,7 @@
 				"equipment": ["Rifles"]
 			},
 			{
-				"name": "Improvised Anti-Tank Team - Heavy Weapons Platoon",
+				"name": "Improvised Anti-Tank Team  Platoon",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -16162,7 +16163,7 @@
 				"equipment": ["Satchel Charge / Grenades"]
 			},
 			{
-				"name": "Kirikomi Tai - Suicide Anti-Infantry Team - Heavy Weapons Platoon",
+				"name": "Kirikomi Tai - Suicide Anti-Infantry Team  Platoon",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -16275,7 +16276,7 @@
 				"equipment": ["Satchel Charge / Grenades"]
 			},
 			{
-				"name": "Kirikomi Tai - Suicide Anti-Infantry Team - Heavy Weapons Platoon - ExSel",
+				"name": "Kirikomi Tai - Suicide Anti-Infantry Team  Platoon - ExSel",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -16303,8 +16304,8 @@
 				"quantityLimitedBy": [
 					{
 						"unit": [
-							"Nikuhaku - Suicide Anti-Tank Team - Heavy Weapons Platoon",
-							"Kirikomi Tai - Suicide Anti-Infantry Team - Heavy Weapons Platoon"
+							"Nikuhaku - Suicide Anti-Tank Team  Platoon",
+							"Kirikomi Tai - Suicide Anti-Infantry Team  Platoon"
 						],
 						"ratio": 1,
 						"sharedWithKey": "Kamikaze"
@@ -16388,7 +16389,7 @@
 				"equipment": ["Lunge Explosive"]
 			},
 			{
-				"name": "Nikuhaku - Suicide Anti-Tank Team - Heavy Weapons Platoon",
+				"name": "Nikuhaku - Suicide Anti-Tank Team  Platoon",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -16501,7 +16502,7 @@
 				"equipment": ["Lunge Explosive"]
 			},
 			{
-				"name": "Nikuhaku - Suicide Anti-Tank Team - Heavy Weapons Platoon - ExSel",
+				"name": "Nikuhaku - Suicide Anti-Tank Team  Platoon - ExSel",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -16529,8 +16530,8 @@
 				"quantityLimitedBy": [
 					{
 						"unit": [
-							"Nikuhaku - Suicide Anti-Tank Team - Heavy Weapons Platoon",
-							"Kirikomi Tai - Suicide Anti-Infantry Team - Heavy Weapons Platoon"
+							"Nikuhaku - Suicide Anti-Tank Team  Platoon",
+							"Kirikomi Tai - Suicide Anti-Infantry Team  Platoon"
 						],
 						"ratio": 1,
 						"sharedWithKey": "Kamikaze"
@@ -16688,7 +16689,7 @@
 				"equipment": ["Rifles"]
 			},
 			{
-				"name": "Tank Hunters Anti-Tank Team (Early War) - Heavy Weapons Platoon",
+				"name": "Tank Hunters Anti-Tank Team (Early War)  Platoon",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -16949,7 +16950,7 @@
 				"equipment": ["Rifles"]
 			},
 			{
-				"name": "Tank Hunters Anti-Tank Team (Late War) - Heavy Weapons Platoon",
+				"name": "Tank Hunters Anti-Tank Team (Late War)  Platoon",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -17142,7 +17143,7 @@
 				"equipment": ["Ampulomet"]
 			},
 			{
-				"name": "Ampulomet 'Molotov Launcher' Anti-Tank Team - Heavy Weapons Platoon",
+				"name": "Ampulomet 'Molotov Launcher' Anti-Tank Team  Platoon",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -17299,7 +17300,7 @@
 				"equipment": ["Rifles","Dog Mines"]
 			},
 			{
-				"name": "Dog Mines Anti-Tank Team - Heavy Weapons Platoon",
+				"name": "Dog Mines Anti-Tank Team  Platoon",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -17453,7 +17454,7 @@
 				"equipment": ["AT Rifle Team"]
 			},
 			{
-				"name": "Boys Anti-Tank Rifle Team - Heavy Weapons Platoon",
+				"name": "Boys Anti-Tank Rifle Team  Platoon",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -17572,7 +17573,7 @@
 				"equipment": ["AT Mine"]
 			},
 			{
-				"name": "Suicide AT Team - Heavy Weapons Platoon",
+				"name": "Suicide AT Team  Platoon",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -17685,7 +17686,7 @@
 				"equipment": ["Blacker Bombard Team"]
 			},
 			{
-				"name": "Blacker Bombard Anti-Tank Team - Heavy Weapons Platoon",
+				"name": "Blacker Bombard Anti-Tank Team  Platoon",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -17930,7 +17931,7 @@
 				"equipment": ["PIAT Team"]
 			},
 			{
-				"name": "PIAT Anti-Tank Team - Heavy Weapons Platoon",
+				"name": "PIAT Anti-Tank Team  Platoon",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -18253,7 +18254,7 @@
 				"equipment": ["AT Rifle Team"]
 			},
 			{
-				"name": "Boys Anti-Tank Rifle Team - Heavy Weapons Platoon",
+				"name": "Boys Anti-Tank Rifle Team  Platoon",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -23951,7 +23952,7 @@
 				"equipment": ["Light Mortar"]
 			},
 			{
-				"name": "Light Mortar Team (F|GB|SU) - Heavy Weapons platoon",
+				"name": "Light Mortar Team (F|GB|SU)  platoon",
 				"validationKeys": ["HeavyWepTeams"],
 				"factions": [],
 				"order": 1,
@@ -27253,7 +27254,7 @@
 						"chooseOneKey": "natRuUSA"
 					}
 				],
-				"keywords": ["Period: E|M|L","Selection - Heavy Weapons Team"],
+				"keywords": ["Period: E|M|L","Selection  Team"],
 				"specialText": "1 NCO\n 2 Riflemen",
 				"equipment": ["Rifles"]
 			},
@@ -36842,7 +36843,7 @@
 						"perModel": true
 					}
 				],
-				"keywords": ["Period: M|L","High Level Aptitude and Training","Mechanized - Recce Corps Assault","More NCOs","Recon Troops"],
+				"keywords": ["Period: M|L","High Level Aptitude and Training","Mechanized  Corps Assault","More NCOs","Recon Troops"],
 				"specialText": "Campaign Unit from Italy - Soft Underbelly;\n 2 NCO\n 3 Riflemen",
 				"equipment": ["Rifles"]
 			},
@@ -41039,7 +41040,7 @@
 				"equipment": ["Rifles"]
 			},
 			{
-				"name": "LWP Rifle Squad - Engineers",
+				"name": "LWP Rifle Squad  ",
 				"validationKeys": ["RifleTeams"],
 				"factions": [],
 				"compendium": true,
@@ -41199,7 +41200,7 @@
 				"equipment": ["Rifles"]
 			},
 			{
-				"name": "LWP Veteran Rifle Squad - Engineers",
+				"name": "LWP Veteran Rifle Squad  ",
 				"validationKeys": ["RifleTeams"],
 				"factions": [],
 				"compendium": true,
@@ -47752,7 +47753,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Civilian Car (C) - Recce",
+				"name": "Civilian Car (C) ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -47872,7 +47873,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Jeep (C) - Recce",
+				"name": "Jeep (C) ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -48050,7 +48051,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Light Truck (C) - Recce",
+				"name": "Light Truck (C) ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -48208,7 +48209,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Medium Truck (C) - Recce",
+				"name": "Medium Truck (C) ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -48330,7 +48331,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Buessing-Nag Truck (C) - Recce",
+				"name": "Buessing-Nag Truck (C) ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -48487,7 +48488,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Artillery Tractor (C) - Recce",
+				"name": "Artillery Tractor (C) ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -48634,7 +48635,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Armored Artillery Tractor (C) - Recce",
+				"name": "Armored Artillery Tractor (C) ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -48838,7 +48839,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Horse Drawn Limber (C) - Recce",
+				"name": "Horse Drawn Limber (C) ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -48950,7 +48951,7 @@
 				"equipment": ["Hull Mounted HMG"]
 			},
 			{
-				"name": "M3 White Scout Car (C) - Recce",
+				"name": "M3 White Scout Car (C) ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -49066,7 +49067,7 @@
 				"equipment": []
 			},
 			{
-				"name": "M2 Half Track Transport (C) - Recce",
+				"name": "M2 Half Track Transport (C) ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -49186,7 +49187,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Universal Carrier (C) - Recce",
+				"name": "Universal Carrier (C) ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -49349,7 +49350,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Tempo Gelandewagen 1200 - Recce",
+				"name": "Tempo Gelandewagen 1200 ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -49670,7 +49671,7 @@
 				"equipment": ["Hull Mounted LMG"]
 			},
 			{
-				"name": "Captured T-20 Komsomolets - Recce",
+				"name": "Captured T-20 Komsomolets ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -50674,7 +50675,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Chinese Truck - Recce",
+				"name": "Chinese Truck ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -50794,7 +50795,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Büssing-NAG Heavy Truck - Recce",
+				"name": "Büssing-NAG Heavy Truck ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -50926,7 +50927,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Morris 15cwt Truck - Recce",
+				"name": "Morris 15cwt Truck ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -51070,7 +51071,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Vickers Medium Dragon - Recce",
+				"name": "Vickers Medium Dragon ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -51214,7 +51215,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Adler 12N-3G/3GD Car - Recce",
+				"name": "Adler 12N-3G/3GD Car ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -51939,7 +51940,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Command Car - Recce",
+				"name": "Command Car ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -52017,7 +52018,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Praga RN Heavy Truck - Recce",
+				"name": "Praga RN Heavy Truck ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -52095,7 +52096,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Tatra 85 Super Heavy Truck - Recce",
+				"name": "Tatra 85 Super Heavy Truck ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -52173,7 +52174,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Škoda MTH Tractor - Recce",
+				"name": "Škoda MTH Tractor ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -52251,7 +52252,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Škoda Z Tractor - Recce",
+				"name": "Škoda Z Tractor ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -52329,7 +52330,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Praga III Tractor - Recce",
+				"name": "Praga III Tractor ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -52407,7 +52408,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Praga III Tractor - Recce",
+				"name": "Praga III Tractor ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -52794,7 +52795,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Triangel-Kornbeck Half-Track - Recce",
+				"name": "Triangel-Kornbeck Half-Track ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -52899,7 +52900,7 @@
 				"equipment": ["Turret Mounted F|R MMG and Turret Mounted F|L MMG"]
 			},
 			{
-				"name": "Landing Craft, Personnel (F) - Recce",
+				"name": "Landing Craft, Personnel (F) ",
 				"factions": [],
 				"specialText": "Transport: 36 / 1 Jeep & 16 Soldiers",
 				"order": 1,
@@ -53012,7 +53013,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Landing Craft, Assault (F) - Recce",
+				"name": "Landing Craft, Assault (F) ",
 				"factions": [],
 				"specialText": "Transport: 36;",
 				"order": 1,
@@ -53137,7 +53138,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Landing Craft, Mechanised (F) - Recce",
+				"name": "Landing Craft, Mechanised (F) ",
 				"factions": [],
 				"specialText": "Transport: 100 / 2 Soft-Skin Vehicles / 1 Armored Vehicle DV 9+ or Less;",
 				"order": 1,
@@ -53247,7 +53248,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Laffly V15 Transport Truck - Recce",
+				"name": "Laffly V15 Transport Truck ",
 				"factions": [],
 				"specialText": "Transport: 5\n Tow: L/M AT Gun, L Howitzer, L/H AA Gun",
 				"order": 1,
@@ -53347,7 +53348,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Laffly S15 Half Track Transport - Recce",
+				"name": "Laffly S15 Half Track Transport ",
 				"factions": [],
 				"specialText": "Transport: 5\n Tow: L/M AT Gun, L Howitzer, L/H AA Gun",
 				"order": 1,
@@ -53447,7 +53448,7 @@
 				"equipment": ["Pintle Mounted MMG","x2"]
 			},
 			{
-				"name": "Citroen-Kegresse/Laffly S20TL Transport Truck - Recce",
+				"name": "Citroen-Kegresse/Laffly S20TL Transport Truck ",
 				"factions": [],
 				"specialText": "Transport: 10\n Tow: L/M AT Gun, L Howitzer, L/H AA Gun",
 				"order": 1,
@@ -53547,7 +53548,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Unic/Citreon-Kegresse Half-Track - Recce",
+				"name": "Unic/Citreon-Kegresse Half-Track ",
 				"factions": [],
 				"specialText": "Transport: 5\n Tow: L/M AT Gun, L Howitzer, L/H AA Gun",
 				"order": 1,
@@ -53647,7 +53648,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Lorraine 38 Tracked Transport - Recce",
+				"name": "Lorraine 38 Tracked Transport ",
 				"factions": [],
 				"specialText": "Transport: 12\n Tow: L/M AT Gun, L Howitzer, L/H AA Gun",
 				"order": 1,
@@ -54165,7 +54166,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Truck - Recce",
+				"name": "Truck ",
 				"factions": [],
 				"specialText": "Transport: 12\n Tow: L/M AT Gun, L Howitzer, L AA Gun",
 				"order": 1,
@@ -55717,7 +55718,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Light Truck - Recce",
+				"name": "Light Truck ",
 				"factions": [],
 				"specialText": "Transport: 8\n Tow: L/M AT Gun, L Howitzer, L AA Gun",
 				"order": 1,
@@ -55899,7 +55900,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Berliet VUDB Carrier - Recce",
+				"name": "Berliet VUDB Carrier ",
 				"factions": [],
 				"specialText": "Transport: 12;",
 				"order": 1,
@@ -56743,7 +56744,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Mule (S) - Recce",
+				"name": "Mule (S) ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -58146,7 +58147,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Artillerie Schlepper VA 601(B) - Recce",
+				"name": "Artillerie Schlepper VA 601(B) ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -58235,7 +58236,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Field Cars / Light Trucks - Recce",
+				"name": "Field Cars / Light Trucks ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -58318,7 +58319,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Horse Wagon - Recce",
+				"name": "Horse Wagon ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -58400,7 +58401,7 @@
 				"specialText": "Transport: 3\n Tow: L/M AT Gun, L Howitzer, L AA Gun",
 				"equipment": []
 			},	{
-				"name": "Kettenkrad - Recce",
+				"name": "Kettenkrad ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -58489,7 +58490,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Kübelwagen - Recce",
+				"name": "Kübelwagen ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -58572,7 +58573,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Landwasser Schlepper - Recce",
+				"name": "Landwasser Schlepper ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -58660,7 +58661,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Maultier Half-Track - Recce",
+				"name": "Maultier Half-Track ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -58755,7 +58756,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Raupenschlepper OST - Recce",
+				"name": "Raupenschlepper OST ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -58844,7 +58845,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Schwimmwagen - Recce",
+				"name": "Schwimmwagen ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -58938,7 +58939,7 @@
 				"equipment": ["Forward Facing Pintle Mounted German MMG"]
 			},
 			{
-				"name": "Sd.Kfz 250/1 Half-Track - Recce",
+				"name": "Sd.Kfz 250/1 Half-Track ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -59037,7 +59038,7 @@
 				"equipment": ["Forward Facing Pintle Mounted German MMG"]
 			},
 			{
-				"name": "Sd.Kfz 251/1 'Hanomag' Half-Track - Recce",
+				"name": "Sd.Kfz 251/1 'Hanomag' Half-Track ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -59136,7 +59137,7 @@
 				"equipment": ["Hull Mounted Light AT Gun"]
 			},
 			{
-				"name": "Sd.Kfz 250/10 Half-Track - Recce",
+				"name": "Sd.Kfz 250/10 Half-Track ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -59230,7 +59231,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Sd.Kfz 3 & 6 & 10 Half-Track - Recce",
+				"name": "Sd.Kfz 3 & 6 & 10 Half-Track ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -59319,7 +59320,7 @@
 				"equipment": ["Front Facing Pintle Mounted German MMG"]
 			},
 			{
-				"name": "Sd.Kfz 4 Half-Track - Recce",
+				"name": "Sd.Kfz 4 Half-Track ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -59408,7 +59409,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Sd.Kfz 7 Half-Track - Recce",
+				"name": "Sd.Kfz 7 Half-Track ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -59497,7 +59498,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Trippel SG6 Trippelwagen - Recce",
+				"name": "Trippel SG6 Trippelwagen ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -59586,7 +59587,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Trippel SG6 Trippelwagen, Enlarged - Recce",
+				"name": "Trippel SG6 Trippelwagen, Enlarged ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -59680,7 +59681,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Büssing-NAG Heavy Truck - Recce",
+				"name": "Büssing-NAG Heavy Truck ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -59784,7 +59785,7 @@
 				"equipment": ["Front Facing Pintle Mounted German MMG"]
 			},
 			{
-				"name": "U304(F) Half-Track - Recce",
+				"name": "U304(F) Half-Track ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -60782,7 +60783,7 @@
 				"equipment": []
 			},
 			{
-				"name": "15CWT Trucks - Recce",
+				"name": "15CWT Trucks ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -60900,7 +60901,7 @@
 				"equipment": []
 			},
 			{
-				"name": "M3 White Scout Car - Recce",
+				"name": "M3 White Scout Car ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -61023,7 +61024,7 @@
 				"equipment": []
 			},
 			{
-				"name": "3t Trucks - Recce",
+				"name": "3t Trucks ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -61141,7 +61142,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Bedford QLT - Recce",
+				"name": "Bedford QLT ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -61259,7 +61260,7 @@
 				"equipment": []
 			},
 			{
-				"name": "30CWT Trucks - Recce",
+				"name": "30CWT Trucks ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -61404,7 +61405,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Universal Carrier w/ Bren LMG - Recce",
+				"name": "Universal Carrier w/ Bren LMG ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -61517,7 +61518,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Dorchester 'Guy Lizard' Command Truck - Recce",
+				"name": "Dorchester 'Guy Lizard' Command Truck ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -61628,7 +61629,7 @@
 				"equipment": ["Front Facing Hull Mounted LMG"]
 			},
 			{
-				"name": "Landing Craft, Assault (GB) - Recce",
+				"name": "Landing Craft, Assault (GB) ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -61739,7 +61740,7 @@
 				"equipment": ["Hull Mounted F|L LMG","Hull Mounted F|R LMG"]
 			},
 			{
-				"name": "Landing Craft, Mechanized (GB) - Recce",
+				"name": "Landing Craft, Mechanized (GB) ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -61909,7 +61910,7 @@
 				"equipment": ["Pintle Mounted HMG"]
 			},
 			{
-				"name": "M5 Half-Track - Recce",
+				"name": "M5 Half-Track ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -62019,7 +62020,7 @@
 				"equipment": []
 			},
 			{
-				"name": "M7 'Priest' Kangaroo - Recce",
+				"name": "M7 'Priest' Kangaroo ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -62129,7 +62130,7 @@
 				"equipment": []
 			},
 			{
-				"name": "M4 'Sherman' / 'Ram' Kangaroo - Recce",
+				"name": "M4 'Sherman' / 'Ram' Kangaroo ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -62239,7 +62240,7 @@
 				"equipment": []
 			},
 			{
-				"name": "M3 / M5 'Stuart' Kangaroo - Recce",
+				"name": "M3 / M5 'Stuart' Kangaroo ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -62339,7 +62340,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Terrapin Amphibious Truck - Recce",
+				"name": "Terrapin Amphibious Truck ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -62430,7 +62431,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Utility Cars - Recce",
+				"name": "Utility Cars ",
 				"factions": [],
 				"specialText": "Transport: 3",
 				"order": 1,
@@ -63637,7 +63638,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Breda 61 Artillery Tractor - Recce",
+				"name": "Breda 61 Artillery Tractor ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -63715,7 +63716,7 @@
 				"equipment": ["Froward Facing Pintle Mounted MMG"]
 			},
 			{
-				"name": "SPA 35 Pretetto - Recce",
+				"name": "SPA 35 Pretetto ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -63808,7 +63809,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Fiat 508CM - Recce",
+				"name": "Fiat 508CM ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -63910,7 +63911,7 @@
 				"equipment": ["Forward Facing Pintle Mounted Passenger Operated MMG"]
 			},
 			{
-				"name": "Fiat 665NM Scudato - Recce",
+				"name": "Fiat 665NM Scudato ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -64017,7 +64018,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Autoprotetto S.37 Armored Troop Carrier - Recce",
+				"name": "Autoprotetto S.37 Armored Troop Carrier ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -64144,7 +64145,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Mule - Recce",
+				"name": "Mule ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -65739,7 +65740,7 @@
 				"equipment": []
 			},
 			{
-				"name": "General Purpose Trucks - Recce",
+				"name": "General Purpose Trucks ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -65869,7 +65870,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Light Trucks - Recce",
+				"name": "Light Trucks ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -65970,7 +65971,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Su-Ki 2-Ton Amphibious Truck - Recce",
+				"name": "Su-Ki 2-Ton Amphibious Truck ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -66080,7 +66081,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Type 1 Ho-Ha Half-Track - Recce",
+				"name": "Type 1 Ho-Ha Half-Track ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -66190,7 +66191,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Type 95 Kurogane - Recce",
+				"name": "Type 95 Kurogane ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -66300,7 +66301,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Type 98 Ro-Ke Prime Mover - Recce",
+				"name": "Type 98 Ro-Ke Prime Mover ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -66390,7 +66391,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Type 98 Shi-Ke Prime Mover - Recce",
+				"name": "Type 98 Shi-Ke Prime Mover ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -66480,7 +66481,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Type 98 So-Da Carrier - Recce",
+				"name": "Type 98 So-Da Carrier ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -66679,7 +66680,7 @@
 				"equipment": ["Front Facing Pintle Mounted MMG"]
 			},
 			{
-				"name": "SDKFZ 251/1 Hanomag Half-Track - Recce",
+				"name": "SDKFZ 251/1 Hanomag Half-Track ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -66773,7 +66774,7 @@
 				"equipment": ["Front Facing Pintle Mounted MMG"]
 			},
 			{
-				"name": "SDKFZ 250/1 Half-Track - Recce",
+				"name": "SDKFZ 250/1 Half-Track ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -67448,7 +67449,7 @@
 				"equipment": ["Pintle Mounted Forward and Side Arc MMG"]
 			},
 			{
-				"name": "Aerosan - Recce",
+				"name": "Aerosan ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -67490,7 +67491,7 @@
 				"equipment": ["Pintle Mounted Forward and Side Arc MMG"]
 			},
 			{
-				"name": "GAZ-67 'Jeep' - Transport",
+				"name": "GAZ-67 'Jeep'  ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -67553,7 +67554,7 @@
 				"equipment": []
 			},
 			{
-				"name": "GAZ-67 'Jeep' - Recce",
+				"name": "GAZ-67 'Jeep' ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -67646,7 +67647,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Lend Lease Ford GPA - Recce",
+				"name": "Lend Lease Ford GPA ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -67741,7 +67742,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Half-Tracked Truck - Recce",
+				"name": "Half-Tracked Truck ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -67841,7 +67842,7 @@
 				"equipment": ["Forward Facing Pintle Mounted HMG"]
 			},
 			{
-				"name": "Lend Lease M2 Half Track - Recce",
+				"name": "Lend Lease M2 Half Track ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -67946,7 +67947,7 @@
 				"equipment": ["Forward Facing Pintle Mounted HMG"]
 			},
 			{
-				"name": "Lend Lease M3 White Scout Car Transport- Recce",
+				"name": "Lend Lease M3 White Scout Car Transport",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -68070,7 +68071,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Lend Lease Universal Carrier Transport - Recce",
+				"name": "Lend Lease Universal Carrier Transport ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -68199,7 +68200,7 @@
 				"equipment": ["Hull Mounted LMG"]
 			},
 			{
-				"name": "T-20 Komsomolets - Recce",
+				"name": "T-20 Komsomolets ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -68715,7 +68716,7 @@
 				"equipment": ["Pintle Mounted MMG"]
 			},
 			{
-				"name": "Terrangbil m/42 KP - Recce",
+				"name": "Terrangbil m/42 KP ",
 				"factions": [],
 				"specialText": "Transport: 16\n Tow: L/M AT Gun, L/M Howitzer, L/H AA Gun",
 				"order": 1,
@@ -68805,7 +68806,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Artilleritraktor m/40 & m/43 - Recce",
+				"name": "Artilleritraktor m/40 & m/43 ",
 				"factions": [],
 				"specialText": "Transport: 12\n Tow: Any",
 				"order": 1,
@@ -69318,7 +69319,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Civilian Car - Recce",
+				"name": "Civilian Car ",
 				"factions": [],
 				"specialText": "Transport: 3;",
 				"order": 1,
@@ -69537,7 +69538,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Boat - Recce",
+				"name": "Boat ",
 				"factions": [],
 				"specialText": "Transport: 16;",
 				"order": 1,
@@ -70116,7 +70117,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Horse-Drawn Cart - Recce",
+				"name": "Horse-Drawn Cart ",
 				"factions": [],
 				"specialText": "Transport: 12",
 				"order": 1,
@@ -71017,7 +71018,7 @@
 				"equipment": []
 			},
 			{
-				"name": "LVT Amphibious Troop Transport - Recce",
+				"name": "LVT Amphibious Troop Transport ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -71124,7 +71125,7 @@
 				"equipment": ["Pintle Mounted MMG","x2"]
 			},
 			{
-				"name": "LVT(A)2 Armored Amphibious Troop Transport - Recce",
+				"name": "LVT(A)2 Armored Amphibious Troop Transport ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -71231,7 +71232,7 @@
 				"equipment": []
 			},
 			{
-				"name": "LVT4 'Water Buffalo' Landing Vehicle - Recce",
+				"name": "LVT4 'Water Buffalo' Landing Vehicle ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -71343,7 +71344,7 @@
 				"equipment": ["Front Facing Pintle Mounted HMG"]
 			},
 			{
-				"name": "M2 Half-Track - Recce",
+				"name": "M2 Half-Track ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -71443,7 +71444,7 @@
 				"equipment": ["Front Facing Pintle Mounted HMG"]
 			},
 			{
-				"name": "M2A1 Half-Track - Recce",
+				"name": "M2A1 Half-Track ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -71553,7 +71554,7 @@
 				"equipment": []
 			},
 						{
-				"name": "M3 Half-Track - Recce",
+				"name": "M3 Half-Track ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -71658,7 +71659,7 @@
 				"equipment": []
 			},
 			{
-				"name": "M29 'Weasel' Tracked Transport - Recce",
+				"name": "M29 'Weasel' Tracked Transport ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -71748,7 +71749,7 @@
 				"equipment": []
 			},
 			{
-				"name": "M29C 'Water Weasel' Tracked Transport - Recce",
+				"name": "M29C 'Water Weasel' Tracked Transport ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -71850,7 +71851,7 @@
 				"equipment": []
 			},
 			{
-				"name": "2+ Ton Mack Heavy Truck - Recce",
+				"name": "2+ Ton Mack Heavy Truck ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -71964,7 +71965,7 @@
 				"equipment": []
 			},
 			{
-				"name": "1 1/2 Ton Truck - Recce",
+				"name": "1 1/2 Ton Truck ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -72078,7 +72079,7 @@
 				"equipment": []
 			},
 			{
-				"name": "2 1/2 Ton Truck - Recce",
+				"name": "2 1/2 Ton Truck ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -72192,7 +72193,7 @@
 				"equipment": []
 			},
 			{
-				"name": "3/4 Ton Dodge Truck - Recce",
+				"name": "3/4 Ton Dodge Truck ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -72306,7 +72307,7 @@
 				"equipment": []
 			},
 			{
-				"name": "DUKW Amphibious Truck - Recce",
+				"name": "DUKW Amphibious Truck ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -72420,7 +72421,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Landing Craft, Mechanised (USA) - Recce",
+				"name": "Landing Craft, Mechanised (USA) ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -72522,7 +72523,7 @@
 				"equipment": ["Turret Mounted MMG, F|R; Turret Mounted MMG, F|L"]
 			},
 			{
-				"name": "Landing Craft, Personnel - Recce",
+				"name": "Landing Craft, Personnel ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -72564,7 +72565,7 @@
 				"equipment": ["Turret Mounted MMG, F|R; Turret Mounted MMG, F|L"]
 			},
 			{
-				"name": "Jeep - Transport",
+				"name": "Jeep  ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -72648,7 +72649,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Jeep - Recce",
+				"name": "Jeep ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -72702,7 +72703,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Sd.Kfz 250/10 Half-Track - Command",
+				"name": "Sd.Kfz 250/10 Half-Track ",
 				"validationKeys": ["TotalVehicle","CommandVehicle"],
 				"factions": [],
 				"limits": [
@@ -72751,7 +72752,7 @@
 				"equipment": ["Hull Mounted Light AT Gun","Command Vehicle"]
 			},
 			{
-				"name": "Dorchester 'Guy Lizard' Command Truck - Command",
+				"name": "Dorchester 'Guy Lizard' Command Truck ",
 				"validationKeys": ["TotalVehicle","CommandVehicle"],
 				"factions": [],
 				"limits": [
@@ -75867,6 +75868,64 @@
 				"keywords": ["Period: E|M|L","Damage Value: 7+","Recce"],
 				"specialText": "Wheeled Vehicle",
 				"equipment": ["Turret Mounted Light Autocannon","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Nimbus Motorcycle w/ Sidecar",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Denmark (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inexperienced ",
+						"points": 36,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Regular ",
+						"points": 45,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced (Danish)","Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Forward Facing Sidecar Mounted MMG",
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Forward Facing Sidecar Pintle Mounted MMG",
+						"points": 5,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Forward Facing Sidecar Mounted Light Autocannon",
+						"points": 15,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Damage Value: 6+","Recce","Turn on the Spot"],
+				"specialText": "Wheeled Vehicle",
+				"equipment": []
 			},
 			{
 				"name": "Landsverk Lynx Armored Car",
