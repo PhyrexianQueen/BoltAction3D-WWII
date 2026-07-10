@@ -8,11 +8,11 @@
 "credit": [
 	{
 		"type": "text",
-		"text":"Phy; Hit up the Discord for any questions, thoughts, concerns, or comments! Let's see your ideas!"
+		"text":"Module Creator: Phy (PhyrexianQueen); Hit up the Discord for any questions, thoughts, concerns, or comments! Let's see your ideas! - "
 	},
 	{
 		"type": "url",
-		"text": "Discord!",
+		"text": "TTAMBA Discord",
 		"url": "https://discord.gg/KFB5YBBvMm"
 	}
 ],
@@ -13090,7 +13090,7 @@
 				"equipment": ["AT Explosive Weapon"]
 			},
 			{
-				"name": "Chinese Suicide AT Team  Platoon",
+				"name": "Chinese Suicide AT Team ",
 				"validationKeys": ["HeavyWepTeams"],
 				"factions": [],
 				"order": 1,
@@ -13239,7 +13239,108 @@
 				"equipment": ["AT Rifle Team"]
 			},
 			{
-				"name": "Chinese AT Rifle Team  Platoon",
+				"name": "CEF Bazooka Team",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 2,
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inexperienced ",
+						"points": 53,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Regular ",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Veteran ",
+						"points": 68,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": [],
+				"specialText": "1 Bazooka Operator\n 1 Loader",
+				"equipment": ["Bazooka Team"]
+			},
+			{
+				"name": "CEF Bazooka Team ",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 2,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Bazooka",
+						"quantity": 1
+					},
+					{
+						"key": "secondary",
+						"property": "Loader/Assistant",
+						"quantity": 1
+					}
+				],
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inexperienced ",
+						"points": 53,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Regular ",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Veteran ",
+						"points": 68,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": [],
+				"specialText": "1 Bazooka Operator\n 1 Loader",
+				"equipment": ["Bazooka Team"]
+			},
+			{
+				"name": "Chinese AT Rifle Team ",
 				"validationKeys": ["HeavyWepTeams"],
 				"factions": [],
 				"order": 1,
@@ -13367,7 +13468,7 @@
 				"equipment": ["AT Rifle Team"]
 			},
 			{
-				"name": "AT Rifle w/ vz. 31 Ammunition  Platoon",
+				"name": "AT Rifle w/ vz. 31 Ammunition ",
 				"validationKeys": ["HeavyWepTeams"],
 				"factions": [],
 				"order": 1,
@@ -13499,7 +13600,7 @@
 				"equipment": ["AT Rifle Team"]
 			},
 			{
-				"name": "Czechoslovak Republic AT Rifle Team  Platoon",
+				"name": "Czechoslovak Republic AT Rifle Team ",
 				"validationKeys": ["HeavyWepTeams"],
 				"factions": [],
 				"order": 1,
@@ -13625,7 +13726,7 @@
 				"equipment": ["AT Rifle Team"]
 			},
 			{
-				"name": "Anti-Tank Rifle Team  Platoon",
+				"name": "Anti-Tank Rifle Team ",
 				"validationKeys": ["HeavyWepTeams"],
 				"factions": [],
 				"order": 1,
@@ -13913,7 +14014,7 @@
 				"equipment": ["AT Rifle Team"]
 			},
 			{
-				"name": "Solothurn Anti-Tank Rifle  Platoon",
+				"name": "Solothurn Anti-Tank Rifle ",
 				"validationKeys": ["HeavyWepTeams"],
 				"factions": [],
 				"order": 1,
@@ -14081,7 +14182,7 @@
 				"equipment": ["AT Rifle Team"]
 			},
 			{
-				"name": "S-18/100 AT RIfle Team  Platoon",
+				"name": "S-18/100 AT RIfle Team ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -14155,7 +14256,7 @@
 				"equipment": ["AT Rifle Team"]
 			},
 			{
-				"name": "S-18/1000 AT RIfle Team  Platoon",
+				"name": "S-18/1000 AT RIfle Team ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -14300,7 +14401,7 @@
 				"equipment": ["Bazooka Team"]
 			},
 			{
-				"name": "Bazooka  Platoon",
+				"name": "Bazooka ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -14499,7 +14600,7 @@
 				"equipment": ["Bazooka Team"]
 			},
 			{
-				"name": "Armored Infantry Bazooka  Platoon",
+				"name": "Armored Infantry Bazooka ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -14666,7 +14767,7 @@
 				"equipment": ["AT Rifle Team"]
 			},
 			{
-				"name": "Recoilless Anti-Tank Rifle  Platoon",
+				"name": "Recoilless Anti-Tank Rifle ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -15218,7 +15319,7 @@
 				"equipment": ["AT Rifle Team"]
 			},
 			{
-				"name": "Anti-Tank Rifle Team  Platoon",
+				"name": "Anti-Tank Rifle Team ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -15522,7 +15623,7 @@
 				"equipment": ["Panzerschreck Team"]
 			},
 			{
-				"name": "Panzerschreck Anti-Tank Team  Platoon",
+				"name": "Panzerschreck Anti-Tank Team ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -15802,7 +15903,7 @@
 				"equipment": ["AT Rifle Team"]
 			},
 			{
-				"name": "Anti-Tank Rifle Team (J)  Platoon",
+				"name": "Anti-Tank Rifle Team (J) ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -16046,7 +16147,7 @@
 				"equipment": ["Rifles"]
 			},
 			{
-				"name": "Improvised Anti-Tank Team  Platoon",
+				"name": "Improvised Anti-Tank Team ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -16225,7 +16326,7 @@
 				"equipment": ["Satchel Charge / Grenades"]
 			},
 			{
-				"name": "Kirikomi Tai - Suicide Anti-Infantry Team  Platoon",
+				"name": "Kirikomi Tai - Suicide Anti-Infantry Team ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -16366,7 +16467,7 @@
 				"quantityLimitedBy": [
 					{
 						"unit": [
-							"Nikuhaku - Suicide Anti-Tank Team  Platoon",
+							"Nikuhaku - Suicide Anti-Tank Team ",
 							"Kirikomi Tai - Suicide Anti-Infantry Team  Platoon"
 						],
 						"ratio": 1,
@@ -16451,7 +16552,7 @@
 				"equipment": ["Lunge Explosive"]
 			},
 			{
-				"name": "Nikuhaku - Suicide Anti-Tank Team  Platoon",
+				"name": "Nikuhaku - Suicide Anti-Tank Team ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -16592,7 +16693,7 @@
 				"quantityLimitedBy": [
 					{
 						"unit": [
-							"Nikuhaku - Suicide Anti-Tank Team  Platoon",
+							"Nikuhaku - Suicide Anti-Tank Team ",
 							"Kirikomi Tai - Suicide Anti-Infantry Team  Platoon"
 						],
 						"ratio": 1,
@@ -16751,7 +16852,7 @@
 				"equipment": ["Rifles"]
 			},
 			{
-				"name": "Tank Hunters Anti-Tank Team (Early War)  Platoon",
+				"name": "Tank Hunters Anti-Tank Team (Early War) ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -17012,7 +17113,7 @@
 				"equipment": ["Rifles"]
 			},
 			{
-				"name": "Tank Hunters Anti-Tank Team (Late War)  Platoon",
+				"name": "Tank Hunters Anti-Tank Team (Late War) ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -17205,7 +17306,7 @@
 				"equipment": ["Ampulomet"]
 			},
 			{
-				"name": "Ampulomet 'Molotov Launcher' Anti-Tank Team  Platoon",
+				"name": "Ampulomet 'Molotov Launcher' Anti-Tank Team ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -17362,7 +17463,7 @@
 				"equipment": ["Rifles","Dog Mines"]
 			},
 			{
-				"name": "Dog Mines Anti-Tank Team  Platoon",
+				"name": "Dog Mines Anti-Tank Team ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -17464,6 +17565,12 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
 					},
 					{
@@ -17516,10 +17623,13 @@
 				"equipment": ["AT Rifle Team"]
 			},
 			{
-				"name": "Boys Anti-Tank Rifle Team  Platoon",
+				"name": "Boys Anti-Tank Rifle Team ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
 					}
@@ -17635,7 +17745,7 @@
 				"equipment": ["AT Mine"]
 			},
 			{
-				"name": "Suicide AT Team  Platoon",
+				"name": "Suicide AT Team ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -17748,7 +17858,7 @@
 				"equipment": ["Blacker Bombard Team"]
 			},
 			{
-				"name": "Blacker Bombard Anti-Tank Team  Platoon",
+				"name": "Blacker Bombard Anti-Tank Team ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -17993,7 +18103,7 @@
 				"equipment": ["PIAT Team"]
 			},
 			{
-				"name": "PIAT Anti-Tank Team  Platoon",
+				"name": "PIAT Anti-Tank Team ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -18316,7 +18426,7 @@
 				"equipment": ["AT Rifle Team"]
 			},
 			{
-				"name": "Boys Anti-Tank Rifle Team  Platoon",
+				"name": "Boys Anti-Tank Rifle Team ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -18621,6 +18731,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
 					}
 				],
@@ -18667,7 +18780,10 @@
 					{
 						"name": "Infantry Flamthrower",
 						"points": 0,
-						"availableIn": ["Germany"],
+						"availableIn": [
+							"Chinese Expeditionary Force (GKZ)",
+							"Germany"
+						],
 						"unlockedByLocal": ["Regular","Veteran"],
 						"requireChooseOneKey": "priWeapon"
 					},
@@ -23407,6 +23523,253 @@
 				"equipment": ["Low Velocity Light AT Gun Team"]
 			},
 			{
+				"name": "CEF Light Mortar Team",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Mortar Operator",
+						"quantity": 1
+					},
+					{
+						"key": "secondary",
+						"property": "Loader/Assistant",
+						"quantity": 2
+					}
+				],
+				"sortPriority": 7,
+				"limits": [
+					{
+						"key": "Mortar",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inexperienced ",
+						"points": 24,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Regular ",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Veteran ",
+						"points": 46,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Reduce Manning",
+						"points": -5,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"addsModels": -1
+					}
+				],
+				"keywords": [],
+				"specialText": "1 Mortar Operator\n 2 Weapon Assitants",
+				"equipment": ["Light Mortar Team"]
+			},
+			{
+				"name": "CEF Light Mortar Team ",
+				"validationKeys": ["HeavyWepTeams"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Mortar Operator",
+						"quantity": 1
+					},
+					{
+						"key": "secondary",
+						"property": "Loader/Assistant",
+						"quantity": 2
+					}
+				],
+				"sortPriority": 7,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inexperienced ",
+						"points": 24,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Regular ",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Veteran ",
+						"points": 46,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Reduce Manning",
+						"points": -5,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"addsModels": -1
+					}
+				],
+				"keywords": [],
+				"specialText": "1 Mortar Operator\n 2 Weapon Assitants",
+				"equipment": ["Light Mortar Team"]
+			},
+			{
+				"name": "CEF Medium Mortar Team ",
+				"validationKeys": ["HeavyWepTeams"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Mortar Operator",
+						"quantity": 1
+					},
+					{
+						"key": "secondary",
+						"property": "Loader/Assistant",
+						"quantity": 2
+					}
+				],
+				"sortPriority": 7,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inexperienced ",
+						"points": 34,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Regular ",
+						"points": 45,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Veteran ",
+						"points": 56,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"addsModels": 1
+					}
+				],
+				"keywords": ["Fixed"],
+				"specialText": "1 Mortar Operator\n 2 Weapon Assitants",
+				"equipment": ["Medium Mortar Team"]
+			},
+			{
+				"name": "CEF Heavy Mortar Team ",
+				"validationKeys": ["HeavyWepTeams"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 4,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Mortar Operator",
+						"quantity": 1
+					},
+					{
+						"key": "secondary",
+						"property": "Loader/Assistant",
+						"quantity": 2
+					}
+				],
+				"sortPriority": 7,
+				"limits": [
+					{
+						"key": "Main Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inexperienced ",
+						"points": 49,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Regular ",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Veteran ",
+						"points": 71,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Add Spotter",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"addsModels": 1
+					}
+				],
+				"keywords": ["Fixed"],
+				"specialText": "1 Mortar Operator\n 2 Weapon Assitants",
+				"equipment": ["Heavy Mortar Team"]
+			},
+			{
 				"name": "Danish Greandiers Team",
 				"factions": [],
 				"order": 1,
@@ -23996,7 +24359,7 @@
 				"equipment": ["Light Mortar"]
 			},
 			{
-				"name": "Light Mortar Team (F|GB|SU)  platoon",
+				"name": "Light Mortar Team (F|GB|SU) ",
 				"validationKeys": ["HeavyWepTeams"],
 				"factions": [],
 				"order": 1,
@@ -40194,7 +40557,7 @@
 						"points": 3,
 						"perModel": true,
 						"unlockedByLocal": ["Veteran"],
-						"avadilableIn": ["Japan"],
+						"availableIn": ["Japan"],
 						"chooseOneKey": "natRuJa"
 					}
 				],
@@ -47746,6 +48109,62 @@
 				"equipment": ["Rifles"]
 			},
 			{
+				"name": "CEF Light Anti-Tank Gun",
+				"validationKeys": ["ArtyTeams"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Weapon Crew Members",
+						"quantity": 3
+					}
+				],
+				"sortPriority": 5,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inexperienced ",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Regular ",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Veteran ",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Gun Shield",
+						"points": 5,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": [],
+				"specialText": "3 Crew Members",
+				"equipment": ["Light AT Gun"]
+			},
+			{
 				"name": "Light Anti-Tank Gun (C|D|F|S)",
 				"validationKeys": ["ArtyTeams"],
 				"factions": [],
@@ -47810,6 +48229,7 @@
 							"Chinese Communists (ZC)",
 							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
+							"Chinese Expeditionary Force (GKZ)",
 							"Slovakia (ZC)"
 						]
 					},
@@ -47822,6 +48242,7 @@
 							"Chinese Communists (ZC)",
 							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
+							"Chinese Expeditionary Force (GKZ)",
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
 							"Finland",
@@ -47837,6 +48258,7 @@
 							"Chinese Communists (ZC)",
 							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
+							"Chinese Expeditionary Force (GKZ)",
 							"Finland",
 							"Slovakia (ZC)"
 						]
@@ -50178,6 +50600,9 @@
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Central Army (GKZ)" }]			
 					},
 					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists (GKZ)" }]			
 					},
 					{
@@ -50237,6 +50662,7 @@
 							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"Chinese Central Army (GKZ)",
+							"Chinese Expeditionary Force (GKZ)",
 							"France",
 							"Slovakia (ZC)"
 						]
@@ -50251,6 +50677,7 @@
 							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"Chinese Central Army (GKZ)",
+							"Chinese Expeditionary Force (GKZ)",
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
 							"Finland",
@@ -50268,6 +50695,7 @@
 							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
 							"Chinese Central Army (GKZ)",
+							"Chinese Expeditionary Force (GKZ)",
 							"Finland",
 							"France",
 							"Slovakia (ZC)"
@@ -50296,7 +50724,8 @@
 						"perModel": true,
 						"unlockedByLocal": ["Regular","Veteran"],
 						"availableIn": [
-							"Chinese Central Army (GKZ)"
+							"Chinese Central Army (GKZ)",
+							"Chinese Expeditionary Force (GKZ)"
 						],
 						"chooseOneKey": "natRuCNA-GKZ"
 					}
@@ -50316,6 +50745,9 @@
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Central Army (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists (GKZ)" }]			
@@ -50375,6 +50807,7 @@
 						"availableIn": [
 							"Chinese Nationalists (ZC)",
 							"Chinese Central Army (GKZ)",
+							"Chinese Expeditionary Force (GKZ)",
 							"France",
 							"Slovakia (ZC)"
 						]
@@ -50387,6 +50820,7 @@
 						"availableIn": [
 							"Chinese Nationalists (ZC)",
 							"Chinese Central Army (GKZ)",
+							"Chinese Expeditionary Force (GKZ)",
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
 							"Finland",
@@ -50402,6 +50836,7 @@
 						"availableIn": [
 							"Chinese Nationalists (ZC)",
 							"Chinese Central Army (GKZ)",
+							"Chinese Expeditionary Force (GKZ)",
 							"Finland",
 							"France",
 							"Slovakia (ZC)"
@@ -50424,7 +50859,8 @@
 						"perModel": true,
 						"unlockedByLocal": ["Regular","Veteran"],
 						"availableIn": [
-							"Chinese Central Army (GKZ)"
+							"Chinese Central Army (GKZ)",
+							"Chinese Expeditionary Force (GKZ)"
 						],
 						"chooseOneKey": "natRuCNA-GKZ"
 					}
@@ -50444,6 +50880,9 @@
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Central Army (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists (GKZ)" }]			
@@ -50500,6 +50939,7 @@
 						"availableIn": [
 							"Chinese Nationalists (ZC)",
 							"Chinese Central Army (GKZ)",
+							"Chinese Expeditionary Force (GKZ)",
 							"France"
 						]
 					},
@@ -50511,6 +50951,7 @@
 						"availableIn": [
 							"Chinese Nationalists (ZC)",
 							"Chinese Central Army (GKZ)",
+							"Chinese Expeditionary Force (GKZ)",
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
 							"Finland",
@@ -50525,6 +50966,7 @@
 						"availableIn": [
 							"Chinese Nationalists (ZC)",
 							"Chinese Central Army (GKZ)",
+							"Chinese Expeditionary Force (GKZ)",
 							"Finland",
 							"France"
 						]
@@ -50620,6 +51062,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Central Army (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists (GKZ)" }]			
@@ -50833,6 +51278,21 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Central Army (GKZ)" }]			
 					},
 					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Communists (GKZ)" }]			
 					},
 					{
@@ -50887,6 +51347,9 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Central Army (GKZ)" }]	
 					},
 					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]	
+					},
+					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (GKZ)" }]	
 					},
 					{
@@ -50915,7 +51378,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Büssing-NAG Heavy Truck",
+				"name": "Chinese Büssing-NAG Heavy Truck",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -50933,6 +51396,21 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Central Army (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Communists (GKZ)" }]			
@@ -50981,12 +51459,15 @@
 				"equipment": []
 			},
 			{
-				"name": "Büssing-NAG Heavy Truck ",
+				"name": "Chinese Büssing-NAG Heavy Truck ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Central Army (GKZ)" }]	
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (GKZ)" }]	
@@ -51035,6 +51516,21 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Central Army (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Communists (GKZ)" }]			
@@ -51101,6 +51597,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Central Army (GKZ)" }]	
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (GKZ)" }]	
@@ -51452,6 +51951,206 @@
 				"keywords": [],
 				"specialText": "3 Crew Members",
 				"equipment": ["Light Howitzer Team","Gun Shield"]
+			},
+			{
+				"name": "M3 Half-Track   ",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 15,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inexperienced ",
+						"points": 54,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Regular ",
+						"points": 68,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Veteran ",
+						"points": 82,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Right Rear Facing Pintle Mounted HMG ",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15
+					},
+					{
+						"name": "Left Rear Facing Pintle Mounted HMG ",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15
+					}
+				],
+				"keywords": ["Transport","Tow","Open Topped"],
+				"specialText": "Damage Value: 7+\n Half-Track Vehicle\n Transport: 12\n Tow: L/M/H AT Gun, L/M Howitzer, L/H AA Gun",
+				"equipment": []
+			},
+			{
+				"name": "M3 Half-Track    ",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 15,
+				"options": [
+					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inexperienced ",
+						"points": 54,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Regular ",
+						"points": 68,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Veteran ",
+						"points": 82,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Right Rear Facing Pintle Mounted HMG ",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15
+					},
+					{
+						"name": "Left Rear Facing Pintle Mounted HMG ",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15
+					}
+				],
+				"keywords": ["Transport","Tow","Open Topped"],
+				"specialText": "Damage Value: 7+\n Half-Track Vehicle\n Transport: 12\n Tow: L/M/H AT Gun, L/M Howitzer, L/H AA Gun",
+				"equipment": []
+			},
+			{
+				"name": "Renault UE Supply Tankette",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 15,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inexperienced ",
+						"points": 46,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Regular ",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Veteran ",
+						"points": 64,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Tow"],
+				"specialText": "Damage Value: 7+\n Tracked Vehicle\n Tow: L/M AT Gun, L Howitzer",
+				"equipment": []
+			},
+			{
+				"name": "Renault UE ",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 15,
+				"options": [
+					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inexperienced ",
+						"points": 46,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Regular ",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Veteran ",
+						"points": 64,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Tow"],
+				"specialText": "Damage Value: 7+\n Tracked Vehicle\n Tow: L/M AT Gun, L Howitzer",
+				"equipment": []
 			},
 			{
 				"name": "8cm lehký kanón vz. 17 Anti-Air Light Artillery",
@@ -60978,6 +61677,21 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
@@ -61050,6 +61764,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
 					},
@@ -72763,6 +73480,21 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
@@ -72846,6 +73578,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
 					},
@@ -74569,6 +75304,9 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Central Army (GKZ)" }]			
 					},
 					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Communists (GKZ)" }]			
 					},
 					{
@@ -74625,6 +75363,118 @@
 				"keywords": ["Damage Value: 7+"],
 				"specialText": "Tracked Vehicle",
 				"equipment": []
+			},
+			{
+				"name": "Renault ZB Light Tank",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inexperienced ",
+						"points": 56,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Regular ",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Veteran ",
+						"points": 84,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Turret Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Turret Mounted Low Velocity Light AT Gun",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 20,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": [],
+				"specialText": "Damage Value: 7+\n Tracked Vehicle",
+				"equipment": []
+			},
+			{
+				"name": "M4 A4 'Sherman' 75mm Medium Tank",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"unlockKey": "CT",
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inexperienced ",
+						"points": 168,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Regular ",
+						"points": 210,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Veteran ",
+						"points": 262,
+						"requireChooseOneKey": "morale"
+					},
+					
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Improved HE"],
+				"specialText": "Damage Value: 9+\n Tracked Vehicle",
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
 			},
 			{
 				"name": "Carden-Loyd Mk.VI MG Carrier Tankette",
@@ -74929,6 +75779,9 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Central Army (GKZ)" }]			
 					},
 					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Communists (GKZ)" }]			
 					},
 					{
@@ -74980,8 +75833,8 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
 					}
 				],
-				"keywords": ["Damage Value: 7+"],
-				"specialText": "Tracked Vehicle",
+				"keywords": [],
+				"specialText": "Damage Value: 7+\n Tracked Vehicle",
 				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
 			},
 			{
@@ -86332,6 +87185,58 @@
 				"equipment": ["Hull Mounted Heavy Autocannon"]
 			},
 			{
+				"name": "Willys MB Jeep",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inexperienced ",
+						"points": 34,
+						"availableIn": ["Great Britain"],
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Regular ",
+						"points": 38,
+						"availableIn": ["Great Britain"],
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Veteran ",
+						"points": 42,
+						"availableIn": ["Great Britain"],
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": [],
+				"specialText": "Damage Value: 6+\n Wheeled Vehicle",
+				"equipment": ["Pintle Mounted MMG"]
+			},
+			{
 				"name": "Jeep",
 				"validationKeys": ["TotalVehicle"],
 				"factions": [],
@@ -86356,18 +87261,21 @@
 						"name": "Inexperienced",
 						"addsPrefix": "Inexperienced ",
 						"points": 31,
+						"availableIn": ["Great Britain"],
 						"requireChooseOneKey": "morale"
 					},
 					{
 						"name": "Regular",
 						"addsPrefix": "Regular ",
 						"points": 35,
+						"availableIn": ["Great Britain"],
 						"requireChooseOneKey": "morale"
 					},
 					{
 						"name": "Veteran",
 						"addsPrefix": "Veteran ",
 						"points": 39,
+						"availableIn": ["Great Britain"],
 						"requireChooseOneKey": "morale"
 					},
 					{
@@ -86379,17 +87287,20 @@
 						"name": "Pintle Mounted MMG",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 0,
+						"availableIn": ["Great Britain"],
 						"requireChooseOneKey": "priWeapon"
 					},
 					{
 						"name": "Pintle Mounted HMG",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 10,
+						"availableIn": ["Great Britain"],
 						"requireChooseOneKey": "priWeapon"
 					},
 					{
 						"name": "Recce",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["Great Britain"],
 						"points": 10
 					}
 				],
@@ -101636,6 +102547,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
@@ -101650,6 +102564,15 @@
 					}
 				],
 				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inexperienced ",
+						"points": 108,
+						"availableIn": [
+							"Chinese Expeditionary Force (GKZ)"
+						],
+						"requireChooseOneKey": "morale"
+					},
 					{
 						"name": "Regular",
 						"addsPrefix": "Regular ",
@@ -101670,6 +102593,9 @@
 					{
 						"name": "Recce",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": [
+							"United States of America"
+						],
 						"points": 10
 					}
 				],
