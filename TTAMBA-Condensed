@@ -199,9 +199,9 @@
 		]
 	}
 ],
+"dataTableKeys": ["units"],
 "data":
 	{
-		"dataTableKeys": ["units"],
 		"factions": [
 			{
 				"name": "Belgium"
@@ -47772,6 +47772,12 @@
 				"sortPriority": 15,
 				"options": [
 					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
 						"name": "Inexperienced",
 						"addsPrefix": "Inexperienced ",
 						"points": 14,
@@ -47891,6 +47897,12 @@
 				"models": 1,
 				"sortPriority": 15,
 				"options": [
+					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
 					{
 						"name": "Inexperienced",
 						"addsPrefix": "Inexperienced ",
@@ -48082,6 +48094,12 @@
 				"sortPriority": 15,
 				"options": [
 					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
 						"name": "Inexperienced",
 						"addsPrefix": "Inexperienced ",
 						"points": 18,
@@ -48095,6 +48113,8 @@
 					},
 					{
 						"name": "Front Facing Pintle Mounted MMG",
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 15
 					}
 				],
@@ -48234,6 +48254,12 @@
 				"sortPriority": 15,
 				"options": [
 					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
 						"name": "Inexperienced",
 						"addsPrefix": "Inexperienced ",
 						"points": 22,
@@ -48247,6 +48273,7 @@
 					},
 					{
 						"name": "Front Facing Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 15
 					}
 				],
@@ -48349,6 +48376,12 @@
 				"models": 1,
 				"sortPriority": 15,
 				"options": [
+					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
 					{
 						"name": "Inexperienced",
 						"addsPrefix": "Inexperienced ",
@@ -48488,51 +48521,6 @@
 				"equipment": []
 			},
 			{
-				"name": "Artillery Tractor (C) ",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Danish Partisans (ZC)" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Danish Regulars (ZC)" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Slovakia (ZC)" }]			
-					}
-				],
-				"points": 0,
-				"models": 1,
-				"sortPriority": 15,
-				"options": [
-					{
-						"name": "Inexperienced",
-						"addsPrefix": "Inexperienced ",
-						"points": 12,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Regular",
-						"addsPrefix": "Regular ",
-						"points": 15,
-						"requireChooseOneKey": "morale"
-					}
-				],
-				"keywords": ["Damage Value: 6+","Tow"],
-				"specialText": "Tow: Any",
-				"equipment": []
-			},
-			{
 				"name": "Armored Artillery Tractor (C)",
 				"factions": [],
 				"order": 1,
@@ -48611,48 +48599,6 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Danish Regulars (ZC)" }]			
-					}
-				],
-				"points": 0,
-				"models": 1,
-				"sortPriority": 15,
-				"options": [
-					{
-						"name": "Inexperienced",
-						"addsPrefix": "Inexperienced ",
-						"points": 32,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Regular",
-						"addsPrefix": "Regular ",
-						"points": 35,
-						"requireChooseOneKey": "morale"
-					}
-				],
-				"keywords": ["Damage Value: 7+","Tow"],
-				"specialText": "Tow: Any",
-				"equipment": []
-			},
-			{
-				"name": "Armored Artillery Tractor (C) ",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Danish Partisans (ZC)" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Danish Regulars (ZC)" }]			
 					}
 				],
 				"points": 0,
@@ -48839,60 +48785,6 @@
 				"equipment": []
 			},
 			{
-				"name": "Horse Drawn Limber (C) ",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Chinese Warlords (ZC)" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Danish Partisans (ZC)" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Danish Regulars (ZC)" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Italian Co-Belligerent Army" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Italian National Republican Army" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]	
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Slovakia (ZC)" }]			
-					}
-				],
-				"points": 0,
-				"models": 1,
-				"sortPriority": 15,
-				"options": [
-					{
-						"name": "Inexperienced",
-						"addsPrefix": "Inexperienced ",
-						"points": 8,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Regular",
-						"addsPrefix": "Regular ",
-						"points": 10,
-						"requireChooseOneKey": "morale"
-					}
-				],
-				"keywords": ["Damage Value: 3+","Tow","Slow when Limbered"],
-				"specialText": "Tow: Any",
-				"equipment": []
-			},
-			{
 				"name": "M3 White Scout Car (C)",
 				"factions": [],
 				"order": 1,
@@ -48904,7 +48796,7 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
+						"all": [{ "in": "Engineer Platoon"	, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
@@ -48963,6 +48855,12 @@
 				"models": 1,
 				"sortPriority": 15,
 				"options": [
+					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
 					{
 						"name": "Inexperienced",
 						"addsPrefix": "Inexperienced ",
@@ -49079,6 +48977,12 @@
 				"models": 1,
 				"sortPriority": 15,
 				"options": [
+					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
 					{
 						"name": "Inexperienced",
 						"addsPrefix": "Inexperienced ",
@@ -49199,6 +49103,12 @@
 				"models": 1,
 				"sortPriority": 15,
 				"options": [
+					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
 					{
 						"name": "Inexperienced",
 						"addsPrefix": "Inexperienced ",
@@ -49683,6 +49593,12 @@
 				"models": 1,
 				"sortPriority": 15,
 				"options": [
+					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
 					{
 						"name": "Regular",
 						"addsPrefix": "Regular ",
@@ -54116,9 +54032,6 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (PL)" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Switzerland (GKZ)" }]			
-					},
-					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "United States of America" }]			
 					},
 					{
@@ -54725,9 +54638,6 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (PL)" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Switzerland (GKZ)" }]			
-					},
-					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "United States of America" }]			
 					},
 					{
@@ -55194,9 +55104,6 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (PL)" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Switzerland (GKZ)" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "United States of America" }]			
@@ -56757,6 +56664,12 @@
 				"sortPriority": 15,
 				"options": [
 					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
 						"name": "Inexperienced",
 						"addsPrefix": "Inexperienced ",
 						"points": 6,
@@ -58179,6 +58092,7 @@
 					},
 					{
 						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 10,
 						"requireChooseOneKey": "Recce"
 					}
@@ -58268,6 +58182,7 @@
 					},
 					{
 						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 10,
 						"requireChooseOneKey": "Recce"
 					}
@@ -58345,6 +58260,7 @@
 					},
 					{
 						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 10,
 						"requireChooseOneKey": "Recce"
 					}
@@ -58433,6 +58349,7 @@
 					},
 					{
 						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 10,
 						"requireChooseOneKey": "Recce"
 					}
@@ -58522,6 +58439,7 @@
 					},
 					{
 						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 10,
 						"requireChooseOneKey": "Recce"
 					}
@@ -58599,6 +58517,7 @@
 					},
 					{
 						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 10,
 						"requireChooseOneKey": "Recce"
 					}
@@ -58693,6 +58612,7 @@
 					},
 					{
 						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 10,
 						"requireChooseOneKey": "Recce"
 					},
@@ -58788,6 +58708,7 @@
 					},
 					{
 						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 10,
 						"requireChooseOneKey": "Recce"
 					}
@@ -58877,6 +58798,7 @@
 					},
 					{
 						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 10,
 						"requireChooseOneKey": "Recce"
 					}
@@ -58971,6 +58893,7 @@
 					},
 					{
 						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 10,
 						"requireChooseOneKey": "Recce"
 					},
@@ -59070,6 +58993,7 @@
 					},
 					{
 						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 10,
 						"requireChooseOneKey": "Recce"
 					},
@@ -59169,6 +59093,7 @@
 					},
 					{
 						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 10,
 						"requireChooseOneKey": "Recce"
 					},
@@ -59263,6 +59188,7 @@
 					},
 					{
 						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 10,
 						"requireChooseOneKey": "Recce"
 					}
@@ -59352,6 +59278,7 @@
 					},
 					{
 						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 10,
 						"requireChooseOneKey": "Recce"
 					}
@@ -59441,6 +59368,7 @@
 					},
 					{
 						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 10,
 						"requireChooseOneKey": "Recce"
 					}
@@ -59530,6 +59458,7 @@
 					},
 					{
 						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 10,
 						"requireChooseOneKey": "Recce"
 					}
@@ -59619,6 +59548,7 @@
 					},
 					{
 						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 10,
 						"requireChooseOneKey": "Recce"
 					}
@@ -59713,6 +59643,7 @@
 					},
 					{
 						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 10,
 						"requireChooseOneKey": "Recce"
 					},
@@ -59817,6 +59748,7 @@
 					},
 					{
 						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 10,
 						"requireChooseOneKey": "Recce"
 					},
@@ -62445,6 +62377,12 @@
 				"sortPriority": 15,
 				"options": [
 					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
 						"name": "Inexperienced",
 						"addsPrefix": "Inexperienced ",
 						"points": 14,
@@ -63595,19 +63533,19 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Italian National Republican Army" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Italian National Republican Army" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Italian National Republican Army" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Italian National Republican Army" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Italian National Republican Army" }]			
 					}
 				],
 				"points": 0,
@@ -63643,13 +63581,19 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]	
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Italian National Republican Army" }]	
 					}
 				],
 				"points": 0,
 				"models": 1,
 				"sortPriority": 15,
 				"options": [
+					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
 					{
 						"name": "Inexperienced",
 						"addsPrefix": "Inexperienced ",
@@ -63679,19 +63623,19 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Italian National Republican Army" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Italian National Republican Army" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Italian National Republican Army" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Italian National Republican Army" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Italian National Republican Army" }]			
 					}
 				],
 				"points": 0,
@@ -63721,13 +63665,19 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]	
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Italian National Republican Army" }]	
 					}
 				],
 				"points": 0,
 				"models": 1,
 				"sortPriority": 15,
 				"options": [
+					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
 					{
 						"name": "Inexperienced",
 						"addsPrefix": "Inexperienced ",
@@ -63824,6 +63774,12 @@
 				"models": 1,
 				"sortPriority": 15,
 				"options": [
+					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
 					{
 						"name": "Inexperienced",
 						"addsPrefix": "Inexperienced ",
@@ -63926,6 +63882,12 @@
 				"models": 1,
 				"sortPriority": 15,
 				"options": [
+					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
 					{
 						"name": "Inexperienced",
 						"addsPrefix": "Inexperienced ",
@@ -64033,6 +63995,12 @@
 				"models": 1,
 				"sortPriority": 15,
 				"options": [
+					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
 					{
 						"name": "Inexperienced",
 						"addsPrefix": "Inexperienced ",
@@ -64163,6 +64131,12 @@
 				"models": 1,
 				"sortPriority": 15,
 				"options": [
+					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
 					{
 						"name": "Inexperienced",
 						"addsPrefix": "Inexperienced ",
@@ -66693,6 +66667,12 @@
 				"sortPriority": 15,
 				"options": [
 					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
 						"name": "Inexperienced",
 						"addsPrefix": "Inexperienced ",
 						"points": 50,
@@ -66786,6 +66766,12 @@
 				"models": 1,
 				"sortPriority": 15,
 				"options": [
+					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
 					{
 						"name": "Inexperienced",
 						"addsPrefix": "Inexperienced ",
@@ -69274,9 +69260,6 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (PL)" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Switzerland (GKZ)" }]			
-					},
-					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "United States of America" }]			
 					},
 					{
@@ -70022,9 +70005,6 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (PL)" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Switzerland (GKZ)" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "United States of America" }]			
@@ -95708,7 +95688,7 @@
 						"points": 15
 					}
 				],
-				"keywords": ["Period: M|L","Damage Value:7+","Open Topped","Wheeled"],
+				"keywords": ["Period: M|L","Damage Value:7+","Open Topped","Wheeled","Recce"],
 				"equipment": ["Forward Facing Pintle Mounted HMG"]
 			},
 			{
@@ -101723,7 +101703,7 @@
 						"points": 15
 					}
 				],
-				"keywords": ["Period: E|M|L","Damage Value:7+","Open Topped","Transport","x8"],
+				"keywords": ["Period: E|M|L","Damage Value:7+","Open Topped","Recce"],
 				"equipment": ["Forward Facing Pintle Mounted HMG"]
 			},
 			{
