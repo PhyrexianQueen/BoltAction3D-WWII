@@ -4,7 +4,8 @@
 		"trackHighestDivision": true
 	},
 "disallowMultipleFactions": true,
-"appVersion": 2,
+"singleFaction": true,
+"appVersion": 3.010015,
 "credit": [
 	{
 		"type": "text",
@@ -107,6 +108,12 @@
 		"label": "Factions",
 		"type": "faction",
 		"dataSource": "factions",
+		"divisionProperty": "alignment",
+		"divisions": [
+			"Axis",
+			"Allies",
+			"Neutral"
+		],
 		"children": [
 			{
 				"propertyName": "keywords",
@@ -247,7 +254,10 @@
 			},
 			{
 				"name": "Canada",
-				"alignment": "Allies"
+				"alignment": "Allies",
+				"additionalRules": [
+					"Dogged - All Canadian Infantry and Artillery Units that start the game with or are reduced to 3 or Fewer models gain Stubborn. If they already have Stubborn, they gain Fanatics instead; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 30","Highly Motivated - If a Canadian unit is within 12in of an enemy model, their Order Tests are -1; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 30","Flame Warfare - A Rifle Section per Rifle Platoon may be given a Flamethrower but Infantry Units in the Engineer Platoons may not include Flamethrowers; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 30","Browning Machine Guns - Gain access to MMG/HMG Pintle Upgrades; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 30","Airborne - Some Commonwealth units may be taken as Airborne; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 30"
+				]
 			},
 			{
 				"name": "Chinese Central Army (GKZ)",
@@ -364,7 +374,8 @@
 				"additionalRules": ["Trained Hunstmen - As long as an Infantry Unit has an Ambush order die, it can re-roll morale checks. Units equipped with Rifles/Sniper Rifles add 1 to their To Hit dice when performing an attack from Ambush; Bolt Action 3rd Edition Finland Supplement PDF","Sisu - When an Infantry or Artillery Squad are reduced to 50% or less of it's starting model count, upgrade the Morale by 1. InEx to Reg, Reg to Vet, Vet now have base Morale to 11; Bolt Action 3rd Edition Finland Supplement PDF","Motti - When Outlfanking, Infantry Units ignore the -1 to Order Test when coming on the table; Bolt Action 3rd Edition Finland Supplement PDF","Skis - All Infantry may be equipped with skis for free; Bolt Action 3rd Edition Finland Supplement PDF"]
 			},
 			{
-				"name": "France"
+				"name": "France",
+				"alignment": "Allies"
 			},
 			{
 				"name": "Germany",
@@ -4703,6 +4714,17 @@
 						]
 					},
 					{
+						"name": "Airborne",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"periods": ["latePeriod"],
+						"availableIn": [
+							"Canada"
+						],
+						"chooseOneKey": "natRuCA"
+					},
+					{
 						"name": "War of Resistance (German Trained Division)",
 						"points": 1,
 						"perModel": true,
@@ -6918,6 +6940,17 @@
 						]
 					},
 					{
+						"name": "Airborne",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"periods": ["latePeriod"],
+						"availableIn": [
+							"Canada"
+						],
+						"chooseOneKey": "natRuCA"
+					},
+					{
 						"name": "For King and Country! (Airborne)",
 						"points": 1,
 						"unlockedByLocal": ["Veteran"],
@@ -8858,6 +8891,17 @@
 						]
 					},
 					{
+						"name": "Airborne",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"periods": ["latePeriod"],
+						"availableIn": [
+							"Canada"
+						],
+						"chooseOneKey": "natRuCA"
+					},
+					{
 						"name": "War of Resistance (German Trained Division)",
 						"points": 1,
 						"perModel": true,
@@ -10524,6 +10568,17 @@
 						]
 					},
 					{
+						"name": "Airborne",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"periods": ["latePeriod"],
+						"availableIn": [
+							"Canada"
+						],
+						"chooseOneKey": "natRuCA"
+					},
+					{
 						"name": "War of Resistance (German Trained Division)",
 						"points": 1,
 						"perModel": true,
@@ -11690,6 +11745,17 @@
 						"availableIn": ["Czechoslovak Republic (GKZ)"]
 					},
 					{
+						"name": "Airborne",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"periods": ["latePeriod"],
+						"availableIn": [
+							"Canada"
+						],
+						"chooseOneKey": "natRuCA"
+					},
+					{
 						"name": "War of Resistance (German Trained Division)",
 						"points": 1,
 						"perModel": true,
@@ -12641,6 +12707,17 @@
 							"Czechoslovak Republic (GKZ)",
 							"Denmark (GKZ)"
 						]
+					},
+					{
+						"name": "Airborne",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"periods": ["latePeriod"],
+						"availableIn": [
+							"Canada"
+						],
+						"chooseOneKey": "natRuCA"
 					},
 					{
 						"name": "War of Resistance (German Trained Division)",
@@ -19577,6 +19654,17 @@
 						"unlockedByLocal": "For King and Country! (Airborne)"
 					},
 					{
+						"name": "Airborne",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"periods": ["latePeriod"],
+						"availableIn": [
+							"Canada"
+						],
+						"chooseOneKey": "natRuCA"
+					},
+					{
 						"name": "For King and Country! (Airborne)",
 						"points": 1,
 						"perModel": true,
@@ -19779,6 +19867,17 @@
 						"perModel": true,
 						"availableIn": ["Great Britain"],
 						"unlockedByLocal": "For King and Country! (Airborne)"
+					},
+					{
+						"name": "Airborne",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"periods": ["latePeriod"],
+						"availableIn": [
+							"Canada"
+						],
+						"chooseOneKey": "natRuCA"
 					},
 					{
 						"name": "For King and Country! (Airborne)",
@@ -20326,6 +20425,17 @@
 						"points": 0,
 						"unlockedByLocal": ["Regular","Veteran"],
 						"availableIn": ["Sweden (PL)"]
+					},
+					{
+						"name": "Airborne",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"periods": ["latePeriod"],
+						"availableIn": [
+							"Canada"
+						],
+						"chooseOneKey": "natRuCA"
 					},
 					{
 						"name": "For King and Country! (Airborne)",
@@ -25334,6 +25444,17 @@
 						"unlockedByLocal": "For King and Country! (Airborne)"
 					},
 					{
+						"name": "Airborne",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"periods": ["latePeriod"],
+						"availableIn": [
+							"Canada"
+						],
+						"chooseOneKey": "natRuCA"
+					},
+					{
 						"name": "For King and Country! (Airborne)",
 						"points": 1,
 						"perModel": true,
@@ -25553,6 +25674,17 @@
 						"availableIn": ["Great Britain"],
 						"chooseOneKey": "natRuGB",
 						"unlockedByLocal": "For King and Country! (Airborne)"
+					},
+					{
+						"name": "Airborne",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"periods": ["latePeriod"],
+						"availableIn": [
+							"Canada"
+						],
+						"chooseOneKey": "natRuCA"
 					},
 					{
 						"name": "For King and Country! (Airborne)",
@@ -26460,6 +26592,17 @@
 						"availableIn": ["Great Britain"],
 						"chooseOneKey": "natRuGB",
 						"unlockedByLocal": "For King and Country! (Airborne)"
+					},
+					{
+						"name": "Airborne",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"periods": ["latePeriod"],
+						"availableIn": [
+							"Canada"
+						],
+						"chooseOneKey": "natRuCA"
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger)",
@@ -28178,6 +28321,17 @@
 						]
 					},
 					{
+						"name": "Airborne",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"periods": ["latePeriod"],
+						"availableIn": [
+							"Canada"
+						],
+						"chooseOneKey": "natRuCA"
+					},
+					{
 						"name": "War of Resistance (German Trained Division)",
 						"points": 1,
 						"perModel": true,
@@ -29607,7 +29761,7 @@
 						"name": "Additional Men",
 						"points": 11,
 						"increment": true,
-						"unlockedByLocal": ["Veteran"],
+						"unlockedByLocal": ["Regular"],
 						"availableIn":[
 							"Australia"
 						],
@@ -29644,7 +29798,267 @@
 				],
 				"keywords": ["Behind Enemy Lines","Fieldcraft","Native Troops"],
 				"periods": ["middlePeriod","latePeriod"],
+				"specialText": "Period: M|L\n 1 NCO\n 3 Riflemen",
+				"equipment": ["Rifles"]
+			},
+			{
+				"name": "First Special Service Squad - 'The Devil's Brigade'",
+				"validationKeys": ["RifleTeams"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Canada" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Canada" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Rifles",
+						"quantity": 5
+					}
+				],
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 80,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 16,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn":[
+							"Australia"
+						],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 9,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Infantry LMGs",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "FSS Bazooka",
+						"points": 45,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Demolition Charges",
+						"points": 20,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Behind Enemy Lines","Fieldcraft","Tough Fighters"],
+				"periods": ["middlePeriod","latePeriod"],
 				"specialText": "Period: M|L\n 1 NCO\n 4 Riflemen",
+				"equipment": ["Rifles"]
+			},
+			{
+				"name": "Scout Section",
+				"validationKeys": ["RifleTeams"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Canada" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Canada" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Rifles",
+						"quantity": 3
+					}
+				],
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 45,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn":[
+							"Australia"
+						],
+						"max": 3,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 5,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Demolition Charges",
+						"points": 20,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Behind Enemy Lines","Tough Fighters"],
+				"periods": ["middlePeriod","latePeriod"],
+				"specialText": "Period: M|L\n 1 NCO\n 2 Riflemen",
+				"equipment": ["Rifles"]
+			},
+			{
+				"name": "Scout Section Infiltrators",
+				"validationKeys": ["RifleTeams"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Canada" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Canada" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Rifles",
+						"quantity": 3
+					}
+				],
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					},
+					{
+						"key": "Rifle Team Infiltrator",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 45,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 15,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn":[
+							"Australia"
+						],
+						"max": 3,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 5,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Demolition Charges",
+						"points": 20,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					}
+				],
+				"keywords": ["Infiltrators","Tough Fighters"],
+				"periods": ["middlePeriod","latePeriod"],
+				"specialText": "Period: M|L\n 1 NCO\n 2 Riflemen",
 				"equipment": ["Rifles"]
 			},
 			{
@@ -65199,6 +65613,17 @@
 						"requireChooseOneKey": "morale"
 					},
 					{
+						"name": "Airborne",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"periods": ["latePeriod"],
+						"availableIn": [
+							"Canada"
+						],
+						"chooseOneKey": "natRuCA"
+					},
+					{
 						"name": "For King and Country! (Airborne)",
 						"points": 1,
 						"perModel": true,
@@ -65783,11 +66208,22 @@
 						"availableIn": ["Great Britain"]
 					},
 					{
+						"name": "Airborne",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"periods": ["latePeriod"],
+						"availableIn": [
+							"Canada"
+						],
+						"requireChooseOneKey": "natRuCA"
+					},
+					{
 						"name": "For King and Country! (Airborne)",
 						"points": 1,
 						"perModel": true,
 						"availableIn": ["Great Britain"],
-						"chooseOneKey": "natRuGB"
+						"requireChooseOneKey": "natRuGB"
 					}
 				],
 				"keywords": ["Fixed"],
@@ -75520,6 +75956,98 @@
 				"periods": ["middlePeriod","latePeriod"],
 				"specialText": "Period: M|L\n Damage Value: 7+\n Transport: 16\n Tow: L/M AT Gun, L/M Howitzer, L/H AA Gun\n Wheeled Vehicle",
 				"equipment": ["Pintle Mounted MMG"]
+			},
+			{
+				"name": "Volvo TVB Terrängdragbil m/40",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Sweden (PL)" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (PL)" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Sweden (PL)" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (PL)" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (PL)" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 15,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 17,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 21,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 36,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Transport","Tow"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Period: E|M|L\n Damage Value: 6+\n Transport: 16\n Tow: L/M AT Gun, L/M Howitzer, L AA Gun\n Wheeled Vehicle",
+				"equipment": []
+			},
+			{
+				"name": "Volvo TVB Terrängdragbil m/40 ",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (PL)" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 15,
+				"options": [
+					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 17,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 21,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 36,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Transport","Tow"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Period: E|M|L\n Damage Value: 6+\n Transport: 16\n Tow: L/M AT Gun, L/M Howitzer, L AA Gun\n Wheeled Vehicle",
+				"equipment": []
 			},
 			{
 				"name": "Artilleritraktor m/40 & m/43",
