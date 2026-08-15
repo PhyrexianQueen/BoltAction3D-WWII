@@ -5,7 +5,7 @@
 	},
 "disallowMultipleFactions": true,
 "singleFaction": true,
-"appVersion": 3.010015,
+"appVersion": 2,
 "credit": [
 	{
 		"type": "text",
