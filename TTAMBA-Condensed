@@ -3716,7 +3716,7 @@
 				"options": [
 					{
 						"name": "Inexperienced ",
-						"addsPrefix": "Inexperienced ",
+						"addsPrefix": "Inex. ",
 						"points": 42,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
@@ -7889,7 +7889,7 @@
 				"options": [
 					{
 						"name": "Inexperienced ",
-						"addsPrefix": "Inexperienced ",
+						"addsPrefix": "Inex. ",
 						"points": 21,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
@@ -8566,7 +8566,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"availableIn": [
 							"Australia",
-							"Candada",
+							"Canada",
 							"East Africa",
 							"Great Britain",
 							"India",
@@ -8585,7 +8585,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"availableIn": [
 							"Australia",
-							"Candada",
+							"Canada",
 							"Chinese Central Army (GKZ)",
 							"Chinese Communists (GKZ)",
 							"Chinese Expeditionary Force (GKZ)",
@@ -21633,7 +21633,7 @@
 				"options": [
 					{
 						"name": "Inexperienced ",
-						"addsPrefix": "Inexperienced ",
+						"addsPrefix": "Inex. ",
 						"points": 40,
 						"requireChooseOneKey": "morale"
 					},
@@ -24944,7 +24944,7 @@
 				"options": [
 					{
 						"name": "Inexperienced ",
-						"addsPrefix": "Inexperienced ",
+						"addsPrefix": "Inex. ",
 						"points": 21,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
@@ -25046,7 +25046,7 @@
 				"options": [
 					{
 						"name": "Inexperienced ",
-						"addsPrefix": "Inexperienced ",
+						"addsPrefix": "Inex. ",
 						"points": 21,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
@@ -26809,7 +26809,7 @@
 				"options": [
 					{
 						"name": "Inexperienced ",
-						"addsPrefix": "Inexperienced ",
+						"addsPrefix": "Inex. ",
 						"points": 36,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
@@ -28143,7 +28143,7 @@
 				"options": [
 					{
 						"name": "Inexperienced ",
-						"addsPrefix": "Inexperienced ",
+						"addsPrefix": "Inex. ",
 						"points": 35,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
@@ -28953,7 +28953,7 @@
 				"options": [
 					{
 						"name": "Inexperienced ",
-						"addsPrefix": "Inexperienced ",
+						"addsPrefix": "Inex. ",
 						"points": 55,
 						"availableIn": [
 							"Danish Partisans (ZC)",
@@ -29003,6 +29003,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Canada" }]			
+					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Sweden (PL)" }]			
 					},
@@ -32347,7 +32350,7 @@
 				"options": [
 					{
 						"name": "Inexperienced ",
-						"addsPrefix": "Inexperienced ",
+						"addsPrefix": "Inex. ",
 						"points": 35,
 						"requireChooseOneKey": "morale"
 					},
@@ -52192,7 +52195,7 @@
 				"options": [
 					{
 						"name": "Regular",
-						"addsPrefix": "Regular ",
+						"addsPrefix": "Reg. ",
 						"points": 50,
 						"requireChooseOneKey": "morale"
 					},
@@ -52268,7 +52271,7 @@
 				"options": [
 					{
 						"name": "Inexperienced ",
-						"addsPrefix": "Inexperienced ",
+						"addsPrefix": "Inex. ",
 						"points": 35,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
@@ -52403,7 +52406,7 @@
 				"options": [
 					{
 						"name": "Inexperienced ",
-						"addsPrefix": "Inexperienced ",
+						"addsPrefix": "Inex. ",
 						"points": 25,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
@@ -54048,7 +54051,7 @@
 				"options": [
 					{
 						"name": "Inexperienced ",
-						"addsPrefix": "Inexperienced ",
+						"addsPrefix": "Inex. ",
 						"points": 35,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
@@ -54114,7 +54117,7 @@
 				"options": [
 					{
 						"name": "Inexperienced ",
-						"addsPrefix": "Inexperienced ",
+						"addsPrefix": "Inex. ",
 						"points": 14,
 						"requireChooseOneKey": "morale"
 					},
@@ -54148,7 +54151,7 @@
 				"options": [
 					{
 						"name": "Inexperienced ",
-						"addsPrefix": "Inexperienced ",
+						"addsPrefix": "Inex. ",
 						"points": 14,
 						"requireChooseOneKey": "morale"
 					},
@@ -54781,7 +54784,7 @@
 				"options": [
 					{
 						"name": "Inexperienced ",
-						"addsPrefix": "Inexperienced ",
+						"addsPrefix": "Inex. ",
 						"points": 32,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
@@ -54941,7 +54944,7 @@
 				"options": [
 					{
 						"name": "Inexperienced ",
-						"addsPrefix": "Inexperienced ",
+						"addsPrefix": "Inex. ",
 						"points": 72,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
@@ -55074,7 +55077,7 @@
 				"options": [
 					{
 						"name": "Inexperienced ",
-						"addsPrefix": "Inexperienced ",
+						"addsPrefix": "Inex. ",
 						"points": 122,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
@@ -71583,6 +71586,98 @@
 				"equipment": []
 			},
 			{
+				"name": "C15TA Armored Truck",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Canada" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Canada" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Canada" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Canada" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Canada" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 15,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 45,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 54,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Open Topped","Transport"],
+				"periods": ["latePeriod"],
+				"specialText": "Period: L\n Damage Value: 7+\n Transport: 8\n Wheeled Vehicle",
+				"equipment": ["Hull Mounted, Passenger Operated LMG"]
+			},
+			{
+				"name": "C15TA Armored Truck ",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Canada" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 15,
+				"options": [
+					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 45,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 54,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Open Topped","Transport"],
+				"periods": ["latePeriod"],
+				"specialText": "Period: L\n Damage Value: 7+\n Transport: 8\n Wheeled Vehicle",
+				"equipment": ["Hull Mounted, Passenger Operated LMG"]
+			},
+			{
 				"name": "Heavy Artillery  ",
 				"validationKeys": ["ArtyTeams"],
 				"factions": [],
@@ -78584,6 +78679,21 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Canada" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Canada" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Canada" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Canada" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Canada" }]			
+					},
+					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "United States of America" }]			
 					},
 					{
@@ -78620,6 +78730,20 @@
 						"addsPrefix": "Vet. ",
 						"points": 54,
 						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15,
+						"availableIn": ["Canada"],
+						"chooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 25,
+						"availableIn": ["Canada"],
+						"chooseOneKey": "priWeapon"
 					}
 				],
 				"keywords": ["Transport","Tow","Open Topped","Turn On The Spot"],
@@ -78633,6 +78757,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Canada" }]			
+					},
+					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
@@ -78663,6 +78790,20 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 10,
 						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15,
+						"availableIn": ["Canada"],
+						"chooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 25,
+						"availableIn": ["Canada"],
+						"chooseOneKey": "priWeapon"
 					}
 				],
 				"keywords": ["Transport","Tow","Open Topped","Turn On The Spot"],
@@ -78675,6 +78816,21 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Canada" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Canada" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Canada" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Canada" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Canada" }]			
+					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "United States of America" }]			
 					},
@@ -78712,6 +78868,20 @@
 						"addsPrefix": "Vet. ",
 						"points": 54,
 						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15,
+						"availableIn": ["Canada"],
+						"chooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 25,
+						"availableIn": ["Canada"],
+						"chooseOneKey": "priWeapon"
 					}
 				],
 				"keywords": ["Transport","Tow","Open Topped","Turn On The Spot","Amphibious"],
@@ -78724,6 +78894,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Canada" }]			
+					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "United States of America" }]			
 					}
@@ -78755,6 +78928,20 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 10,
 						"requireChooseOneKey": "Recce"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15,
+						"availableIn": ["Canada"],
+						"chooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 25,
+						"availableIn": ["Canada"],
+						"chooseOneKey": "priWeapon"
 					}
 				],
 				"keywords": ["Transport","Tow","Open Topped","Turn On The Spot","Amphibious"],
@@ -80065,13 +80252,13 @@
 				"options": [
 					{
 						"name": "Inexperienced",
-						"addsPrefix": "Inexperienced ",
+						"addsPrefix": "Inex. ",
 						"points": 124,
 						"requireChooseOneKey": "morale"
 					},
 					{
 						"name": "Regular",
-						"addsPrefix": "Regular ",
+						"addsPrefix": "Reg. ",
 						"points": 155,
 						"requireChooseOneKey": "morale"
 					},
@@ -80115,13 +80302,13 @@
 				"options": [
 					{
 						"name": "Inexperienced",
-						"addsPrefix": "Inexperienced ",
+						"addsPrefix": "Inex. ",
 						"points": 178,
 						"requireChooseOneKey": "morale"
 					},
 					{
 						"name": "Regular",
-						"addsPrefix": "Regular ",
+						"addsPrefix": "Reg. ",
 						"points": 98,
 						"requireChooseOneKey": "morale"
 					},
@@ -80159,13 +80346,13 @@
 				"options": [
 					{
 						"name": "Inexperienced",
-						"addsPrefix": "Inexperienced ",
+						"addsPrefix": "Inex. ",
 						"points": 93,
 						"requireChooseOneKey": "morale"
 					},
 					{
 						"name": "Regular",
-						"addsPrefix": "Regular ",
+						"addsPrefix": "Reg. ",
 						"points": 116,
 						"requireChooseOneKey": "morale"
 					},
@@ -80203,13 +80390,13 @@
 				"options": [
 					{
 						"name": "Inexperienced",
-						"addsPrefix": "Inexperienced ",
+						"addsPrefix": "Inex. ",
 						"points": 93,
 						"requireChooseOneKey": "morale"
 					},
 					{
 						"name": "Regular",
-						"addsPrefix": "Regular ",
+						"addsPrefix": "Reg. ",
 						"points": 116,
 						"requireChooseOneKey": "morale"
 					},
@@ -80247,13 +80434,13 @@
 				"options": [
 					{
 						"name": "Inexperienced",
-						"addsPrefix": "Inexperienced ",
+						"addsPrefix": "Inex. ",
 						"points": 44,
 						"requireChooseOneKey": "morale"
 					},
 					{
 						"name": "Regular",
-						"addsPrefix": "Regular ",
+						"addsPrefix": "Reg. ",
 						"points": 55,
 						"requireChooseOneKey": "morale"
 					},
@@ -80272,6 +80459,741 @@
 				"periods": ["middlePeriod","latePeriod"],
 				"specialText": "Period: M|L\n Damage Value: 7+\n Wheeled Vehicle",
 				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","Twin Hull Mounted MMG"]
+			},
+			{
+				"name": "6pdr Ram Mk.II Cruiser Medium Tank",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 156,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 195,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 234,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15,
+						"chooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 25,
+						"chooseOneKey": "secWeapon"
+					}
+				],
+				"keywords": [],
+				"periods": ["middlePeriod","latePeriod"],
+				"specialText": "Period: M|L\n Damage Value: 9+\n Tracked Vehicle",
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Ram Mk.I Cruiser Medium Tank",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 136,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 175,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 214,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15,
+						"chooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 25,
+						"chooseOneKey": "secWeapon"
+					}
+				],
+				"keywords": [],
+				"periods": ["middlePeriod","latePeriod"],
+				"specialText": "Period: M|L\n Damage Value: 9+\n Tracked Vehicle",
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Unauthorized Badger Medium Tank",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 181,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 220,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 259,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15,
+						"chooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 25,
+						"chooseOneKey": "secWeapon"
+					}
+				],
+				"keywords": [],
+				"periods": ["middlePeriod","latePeriod"],
+				"specialText": "Period: M|L\n Damage Value: 9+\n Tracked Vehicle",
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted Small Vehicle Flamethrower"]
+			},
+			{
+				"name": "75mm Ram Mk.II Cruiser Medium Tank",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 171,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 210,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 249,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15,
+						"chooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 25,
+						"chooseOneKey": "secWeapon"
+					}
+				],
+				"keywords": ["Improved HE"],
+				"periods": ["middlePeriod","latePeriod"],
+				"specialText": "Period: M|L\n Damage Value: 9+\n Tracked Vehicle",
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Ram OP Command Tank",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 101,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 140,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 179,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15,
+						"chooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 25,
+						"chooseOneKey": "secWeapon"
+					}
+				],
+				"keywords": [],
+				"periods": ["middlePeriod","latePeriod"],
+				"specialText": "Period: M|L\n Damage Value: 9+\n Tracked Vehicle",
+				"equipment": ["Turret Mounted MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Badger Medium Tank",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 124,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 155,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 196,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15,
+						"chooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 25,
+						"chooseOneKey": "secWeapon"
+					}
+				],
+				"keywords": [],
+				"periods": ["latePeriod"],
+				"specialText": "Period: L\n Damage Value: 9+\n Tracked Vehicle",
+				"equipment": ["Turret Mounted MMG","Hull Mounted Small Vehicle Flamethrower"]
+			},
+			{
+				"name": "M4A1 'Sherman Skink' Anti-Aircraft Vehicle",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 196,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 245,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 294,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15,
+						"chooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 25,
+						"chooseOneKey": "secWeapon"
+					}
+				],
+				"keywords": [],
+				"periods": ["latePeriod"],
+				"specialText": "Period: L\n Damage Value: 9+\n Tracked Vehicle",
+				"equipment": ["Turret Mounted Quad Light Autocannon","Hull Mounted MMG"]
+			},
+			{
+				"name": "Otter Light Reconnaissance Car",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 52,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 78,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15,
+						"chooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 25,
+						"chooseOneKey": "secWeapon"
+					}
+				],
+				"keywords": ["Open Topped","Recce"],
+				"periods": ["earlyPeriod","mediumPeriod","latePeriod"],
+				"specialText": "Period: E|M|L\n Damage Value: 7+\n Wheeled Vehicle",
+				"equipment": ["Turret Mounted LMG","Hull Mounted AT Rifle"]
+			},
+			{
+				"name": "Fox Armoured Car",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 88,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 106,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15,
+						"chooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 25,
+						"chooseOneKey": "secWeapon"
+					}
+				],
+				"keywords": ["Semi-Independent Maching Guns","Recce"],
+				"periods": ["mediumPeriod","latePeriod"],
+				"specialText": "Period: M|L\n Damage Value: 7+\n Wheeled Vehicle",
+				"equipment": ["Turret Mounted HMG","Turret Mounted MMG"]
+			},
+			{
+				"name": "M29 Weasel, Armed",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 44,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 66,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Forward Facing Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"chooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"chooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Hull Mounted Small Vehicle Flamethrower",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 20,
+						"chooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Hull Mounted Light AT gun",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 35,
+						"chooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Hull Mounted 75mm Recoilles Rifle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 35,
+						"chooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Rear Facing Hull Mounted 75mm Recoilles Rifle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 35,
+						"chooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Open-Topped","Turn On the Spot"],
+				"periods": ["mediumPeriod","latePeriod"],
+				"specialText": "Period: M|L\n Damage Value: 7+\n Tracked Vehicle",
+				"equipment": []
+			},
+			{
+				"name": "M29C Water Weasel, Armed",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 44,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 66,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Forward Facing Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"chooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"chooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Hull Mounted Small Vehicle Flamethrower",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 20,
+						"chooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Hull Mounted Light AT gun",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 35,
+						"chooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Hull Mounted 75mm Recoilles Rifle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 35,
+						"chooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Rear Facing Hull Mounted 75mm Recoilles Rifle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 35,
+						"chooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Open-Topped","Turn On the Spot","Amphibious"],
+				"periods": ["mediumPeriod","latePeriod"],
+				"specialText": "Period: M|L\n Damage Value: 7+\n Tracked Vehicle",
+				"equipment": []
 			},
 			{
 				"name": "Renault FT-17/18 w/ MMG",
@@ -83289,7 +84211,7 @@
 				"options": [
 					{
 						"name": "Inexperienced ",
-						"addsPrefix": "Inexperienced ",
+						"addsPrefix": "Inex. ",
 						"points": 96,
 						"requireChooseOneKey": "morale"
 					},
@@ -83335,7 +84257,7 @@
 				"options": [
 					{
 						"name": "Inexperienced ",
-						"addsPrefix": "Inexperienced ",
+						"addsPrefix": "Inex. ",
 						"points": 86,
 						"requireChooseOneKey": "morale"
 					},
@@ -83381,7 +84303,7 @@
 				"options": [
 					{
 						"name": "Inexperienced ",
-						"addsPrefix": "Inexperienced ",
+						"addsPrefix": "Inex. ",
 						"points": 56,
 						"requireChooseOneKey": "morale"
 					},
@@ -83427,7 +84349,7 @@
 				"options": [
 					{
 						"name": "Inexperienced ",
-						"addsPrefix": "Inexperienced ",
+						"addsPrefix": "Inex. ",
 						"points": 28,
 						"requireChooseOneKey": "morale"
 					},
@@ -98558,18 +99480,86 @@
 						"requireChooseOneKey": "priWeapon"
 					},
 					{
+						"name": "Forward Facing Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"availableIn": ["Canada"],
+						"unavailableWithLocal": "Rear Facing Pintle Mounted MMG",
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 20,
+						"availableIn": ["Canada"],
+						"unavailableWithLocal": "Rear Facing Pintle Mounted HMG",
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
 						"name": "Hull Mounted AT Rifle",
+						"availableIn": [
+							"Australia",
+							"East Africa Command",
+							"India",
+							"New Zealand",
+							"South Africa"
+						],
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 10,
 						"requireChooseOneKey": "priWeapon"
 					},
 					{
+						"name": "Forward Facing Mounted Mortar",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unavailableWithLocal": "Rear Facing Mounted Mortar",
+						"availableIn": ["Canada"],
+						"points": 5
+					},
+					{
+						"name": "Rear Facing Mounted Mortar",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unavailableWithLocal":"Forward Facing Mounted Mortar",
+						"availableIn": ["Canada"],
+						"points": 20,
+						"requireChooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Rear Facing Pintle Mounted LMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"availableIn": ["Canada"],
+						"requireChooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Rear Facing Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15,
+						"availableIn": ["Canada"],
+						"unavailableWithLocal": "Hull Mounted MMG",
+						"requireChooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Rear Facing Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 25,
+						"availableIn": ["Canada"],
+						"unavailableWithLocal": "Hull Mounted HMG",
+						"requireChooseOneKey": "secWeapon"
+					},
+					{
 						"name": "Front Facing Pintle Mounted LMG",
+						"availableIn": [
+							"Australia",
+							"East Africa Command",
+							"India",
+							"New Zealand",
+							"South Africa"
+						],
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 10
 					}
 				],
-				"keywords": ["Open Topped","Recce","Turn On The Spot"],
+				"keywords": ["Open Topped","Recce","Turn On The Spot","Only So Much Room"],
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
 				"spec/ialText": "Period: E|M|L\n Damage Value: 7+\n Tracked Vehicle",
 				"equipment": []
