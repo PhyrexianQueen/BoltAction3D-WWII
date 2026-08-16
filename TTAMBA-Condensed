@@ -366,7 +366,10 @@
 			},
 			{
 				"name": "East Africa Command",
-				"alignment": "Allies"
+				"alignment": "Allies",
+				"additionalRules": [
+					"Pangas - All non-HQ Infantry and Artillery Units are Tough Fighters; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 30"
+				]
 			},
 			{
 				"name": "Finland",
@@ -2317,6 +2320,9 @@
 						"name": "Denmark (GKZ)"
 					},
 					{
+						"name": "East Africa Command"
+					},
+					{
 						"name": "Finland"
 					},
 					{
@@ -2461,6 +2467,9 @@
 						"name": "Danish Regulars (ZC)"
 					},
 					{
+						"name": "East Africa Command"
+					},
+					{
 						"name": "Finland"
 					},
 					{
@@ -2522,6 +2531,40 @@
 					},
 					{
 						"name": "United States of America"
+					}
+				],
+				"points": 0,
+				"models": 0
+			},
+			{
+				"name": "Scout Platoon",
+				"specialText": "Platoon Commander: 1\n Infantry Squads (Not-Eng): 2-4\n Medic: 0-1\n FAO (Arty or Air): 0-1\n Sniper: 0-1\n AT Team: 0-1\n Light Mortar: 0-1\n Transport: Per Unit in the Platoon\n",
+				"decreaseModelCount": 1,
+				"limit": 1,
+				"validations":[
+					{
+						"requiredChildren": [
+							{
+								"key": "PlatCommander",
+								"quantity": 1,
+								"message": "This platoon requires at least 1 Platoon Commander."
+							}
+						]
+					},
+					{
+						"requiredChildren": [
+							{
+								"key": "RifleTeams",
+								"quantity": 2,
+								"message": "This platoon requires at least 2 Rifle Teams"
+							}
+						]
+					}
+				],
+				"unlimited": true,
+				"factions": [
+					{
+						"name": "East Africa Command"
 					}
 				],
 				"points": 0,
@@ -2613,6 +2656,9 @@
 						"name": "Denmark (GKZ)"
 					},
 					{
+						"name": "East Africa Command"
+					},
+					{
 						"name": "Finland"
 					},
 					{
@@ -2678,7 +2724,7 @@
 				],
 				"quantityLimitedBy": [
 					{
-						"unit": "Rifle Platoon",
+						"unit": ["Rifle Platoon","Scout Platoon"],
 						"ratio": 1
 					}
 				],
@@ -2766,6 +2812,9 @@
 						"name": "Denmark (GKZ)"
 					},
 					{
+						"name": "East Africa Command"
+					},
+					{
 						"name": "Finland"
 					},
 					{
@@ -2831,7 +2880,7 @@
 				],
 				"quantityLimitedBy": [
 					{
-						"unit": "Rifle Platoon",
+						"unit": ["Rifle Platoon","Scout Platoon"],
 						"ratio": 1
 					}
 				],
@@ -2919,6 +2968,9 @@
 						"name": "Denmark (GKZ)"
 					},
 					{
+						"name": "East Africa Command"
+					},
+					{
 						"name": "Finland"
 					},
 					{
@@ -2984,7 +3036,7 @@
 				],
 				"quantityLimitedBy": [
 					{
-						"unit": "Rifle Platoon",
+						"unit": ["Rifle Platoon","Scout Platoon"],
 						"ratio": 1
 					}
 				],
@@ -3072,6 +3124,9 @@
 						"name": "Denmark (GKZ)"
 					},
 					{
+						"name": "East Africa Command"
+					},
+					{
 						"name": "Finland"
 					},
 					{
@@ -3137,7 +3192,7 @@
 				],
 				"quantityLimitedBy": [
 					{
-						"unit": "Rifle Platoon",
+						"unit": ["Rifle Platoon","Scout Platoon"],
 						"ratio": 1
 					}
 				],
@@ -3204,6 +3259,9 @@
 					},
 					{
 						"name": "Denmark (GKZ)"
+					},
+					{
+						"name": "East Africa Command"
 					},
 					{
 						"name": "Finland"
@@ -3291,7 +3349,7 @@
 				],
 				"quantityLimitedBy": [
 					{
-						"unit": "Rifle Platoon",
+						"unit": ["Rifle Platoon","Scout Platoon"],
 						"ratio": 1
 					}
 				],
@@ -3391,6 +3449,9 @@
 					},
 					{
 						"name": "Denmark (GKZ)"
+					},
+					{
+						"name": "East Africa Command"
 					},
 					{
 						"name": "Finland"
@@ -3516,6 +3577,9 @@
 					},
 					{
 						"name": "Denmark (GKZ)"
+					},
+					{
+						"name": "East Africa Command"
 					},
 					{
 						"name": "Finland"
@@ -9190,8 +9254,8 @@
 				"equipment": []
 			},
 			{
-				"name": "Company Commander  ",
-				"validationKeys": ["CompCommander"],
+				"name": "Jungle Platoon Commander  ",
+				"validationKeys": ["PlatCommander"],
 				"order":1,
 				"factions": [],
 				"availableIn": [
@@ -19417,18 +19481,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Canada" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Canada" }]			
-					},
-					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
@@ -19504,12 +19556,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Canada" }]			
-					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "East Africa Command" }]			
 					},
@@ -40163,12 +40209,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Australia" }]			
-					},
-					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Canada" }]			
 					},
 					{
@@ -40412,18 +40452,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Canada" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Canada" }]			
-					},
-					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
@@ -40552,18 +40580,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Canada" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Canada" }]			
-					},
-					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
@@ -40660,18 +40676,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Canada" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Canada" }]			
-					},
-					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
@@ -40758,18 +40762,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Canada" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Canada" }]			
-					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
 					},
@@ -41097,18 +41089,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Canada" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Canada" }]			
-					},
-					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
@@ -41392,18 +41372,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Canada" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Canada" }]			
-					},
-					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
@@ -41513,12 +41481,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Australia" }]			
-					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Canada" }]			
 					},
@@ -65762,9 +65724,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Australia" }]			
-					},
-					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Canada" }]			
 					},
 					{
@@ -66267,9 +66226,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Australia" }]			
-					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Canada" }]			
 					},
@@ -67692,36 +67648,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Canada" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Canada" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Canada" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Canada" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Canada" }]			
-					},
-					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
@@ -67830,12 +67756,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Canada" }]			
-					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "East Africa Command" }]			
 					},
@@ -68578,21 +68498,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Australia" }]			
-					},
-					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Canada" }]			
 					},
 					{
@@ -68712,9 +68617,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Australia" }]			
-					},
-					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Canada" }]			
 					},
 					{
@@ -68779,21 +68681,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Australia" }]			
-					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Canada" }]			
 					},
@@ -68929,9 +68816,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Australia" }]			
-					},
-					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Canada" }]			
 					},
 					{
@@ -68999,21 +68883,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Australia" }]			
-					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Canada" }]			
 					},
@@ -69149,9 +69018,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Australia" }]			
-					},
-					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Canada" }]			
 					},
 					{
@@ -69219,21 +69085,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Australia" }]			
-					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Canada" }]			
 					},
@@ -69369,9 +69220,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Australia" }]			
-					},
-					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Canada" }]			
 					},
 					{
@@ -69439,21 +69287,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Australia" }]			
-					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Canada" }]			
 					},
@@ -69578,9 +69411,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Australia" }]			
-					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Canada" }]			
 					},
@@ -80092,12 +79922,6 @@
 				],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
 					},
@@ -93093,12 +92917,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
@@ -93165,12 +92983,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
 					},
@@ -93250,9 +93062,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
@@ -93377,9 +93186,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
@@ -93449,12 +93255,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
 					},
@@ -93667,9 +93467,6 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
@@ -93971,9 +93768,6 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
@@ -94097,9 +93891,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
@@ -94234,12 +94025,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
@@ -94306,9 +94091,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
@@ -94378,9 +94160,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
@@ -94449,9 +94228,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
@@ -94519,9 +94295,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
@@ -94632,9 +94405,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
@@ -94696,12 +94466,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
 					},
@@ -94767,9 +94531,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
@@ -94839,9 +94600,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
@@ -94906,9 +94664,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
@@ -95024,9 +94779,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
@@ -95255,12 +95007,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
@@ -95322,12 +95068,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
 					},
@@ -95391,12 +95131,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
@@ -95458,9 +95192,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
@@ -95619,9 +95350,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
@@ -95816,9 +95544,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
@@ -95883,9 +95608,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
@@ -96163,9 +95885,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
@@ -96235,9 +95954,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
@@ -96354,12 +96070,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
@@ -96417,12 +96127,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
@@ -96473,12 +96177,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
 					},
@@ -96541,12 +96239,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
@@ -96607,12 +96299,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
 					},
@@ -96676,12 +96362,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
 					},
@@ -96755,12 +96435,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
 					},
@@ -96965,9 +96639,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
@@ -97113,12 +96784,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
@@ -97180,12 +96845,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
 					},
@@ -97253,12 +96912,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
 					},
@@ -97372,12 +97025,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
@@ -97431,12 +97078,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
 					},
@@ -97493,9 +97134,6 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
@@ -97555,9 +97193,6 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
@@ -97724,9 +97359,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
@@ -97933,12 +97565,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
@@ -98000,12 +97626,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
@@ -98061,12 +97681,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
 					},
@@ -98125,9 +97739,6 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
@@ -98328,9 +97939,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
@@ -98395,9 +98003,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
@@ -98600,9 +98205,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
@@ -98667,9 +98269,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
@@ -98736,12 +98335,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
@@ -98803,12 +98396,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
 					},
@@ -98885,9 +98472,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
@@ -98954,9 +98538,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
@@ -99022,9 +98603,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
@@ -99103,9 +98681,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
@@ -99171,9 +98746,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
@@ -99238,9 +98810,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
@@ -99312,9 +98881,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
@@ -99598,9 +99164,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
@@ -99675,9 +99238,6 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
@@ -99743,9 +99303,6 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
@@ -99807,12 +99364,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
 					},
@@ -99888,9 +99439,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
@@ -99955,9 +99503,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
@@ -100030,9 +99575,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
@@ -100110,9 +99652,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
@@ -100275,9 +99814,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
@@ -100343,9 +99879,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
@@ -100410,9 +99943,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
@@ -112095,12 +111625,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
@@ -115869,6 +115393,9 @@
 						"all": [{ "in": "Air Support"	}, { "in": "Canada" }]			
 					},
 					{
+						"all": [{ "in": "Air Support"	}, { "in": "East Africa Command" }]			
+					},
+					{
 						"all": [{ "in": "Air Support"	}, { "in": "Italian Co-Belligerent Army" }]			
 					},
 					{
@@ -115922,6 +115449,9 @@
 						"all": [{ "in": "Air Support"	}, { "in": "Canada" }]			
 					},
 					{
+						"all": [{ "in": "Air Support"	}, { "in": "East Africa Command" }]			
+					},
+					{
 						"all": [{ "in": "Air Support"	}, { "in": "Italian Co-Belligerent Army" }]			
 					},
 					{
@@ -115973,6 +115503,9 @@
 					},
 					{
 						"all": [{ "in": "Air Support"	}, { "in": "Canada" }]			
+					},
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "East Africa Command" }]			
 					},
 					{
 						"all": [{ "in": "Air Support"	}, { "in": "Italian Co-Belligerent Army" }]			
@@ -116039,6 +115572,9 @@
 					},
 					{
 						"all": [{ "in": "Air Support"	}, { "in": "Canada" }]			
+					},
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "East Africa Command" }]			
 					},
 					{
 						"all": [{ "in": "Air Support"	}, { "in": "Italian Co-Belligerent Army" }]			
@@ -116109,6 +115645,9 @@
 					},
 					{
 						"all": [{ "in": "Air Support"	}, { "in": "Canada" }]			
+					},
+					{
+						"all": [{ "in": "Air Support"	}, { "in": "East Africa Command" }]			
 					},
 					{
 						"all": [{ "in": "Air Support"	}, { "in": "Italian Co-Belligerent Army" }]			
