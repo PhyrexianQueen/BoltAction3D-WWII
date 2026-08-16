@@ -97431,9 +97431,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
@@ -110743,9 +110740,6 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
-					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
