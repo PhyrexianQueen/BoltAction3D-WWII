@@ -159,7 +159,7 @@
 						"costDisplayIfEmpty": 
 							{
 								"propertyName": "options",
-								"names": ["Regular","Inexperienced","Inexperienced ","Veteran","Hollywood"]
+								"names": ["Regular","Inexperienced","Inexperienced ","Inexperienced  ","Veteran","Hollywood"]
 							},
 						"sortPrioritySeparators": true,
                         "sortPriorityLabels": {
@@ -368,7 +368,7 @@
 				"name": "East Africa Command",
 				"alignment": "Allies",
 				"additionalRules": [
-					"Pangas - All non-HQ Infantry and Artillery Units are Tough Fighters; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 30"
+					"Pangas - All non-HQ Infantry and Artillery Units are Tough Fighters; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 43","Local Area Control - Outflanking EAC Infantry Units may enter anywhere on the chosen side or Enemy's own Table Edge, regardless of turn it became available; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 44","Scouts - A Single Rifle Platoon may be desingated as a Scout Platoon and gain the ability to take Infiltrator special rule if they have 5 or less models. Mandatory Units for +1 per Model, Optional Units for +2 per Model; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 44","Desert Mounted Infantry - All Infantry Units within Rifle, Heavy Weapons or Recce Platoons may be upgraded to Desert Moutned Infantry for +3 per Model; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 44","Nigerian Chindits - Select Squads may be taken as Nigerian Chindits; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 44"
 				]
 			},
 			{
@@ -410,7 +410,10 @@
 			},
 			{
 				"name": "India",
-				"alignment": "Allies"
+				"alignment": "Allies",
+				"additionalRules": [
+					"Superior Endurance - If an Infantry Unit fails a Morale Check, reroll it and apply the second result; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 57","Shared Knowledge - Inexperienced Indian Infantry units have the Green Special rule and may reroll the Green Test; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 57","Mountain Experts - Any Indian Infantry unit may be upgraded to have Fieldcraft for +1 per model; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 57","Ayo Gurkhali! - Some units may be taken as Gurkhas; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 57"
+				]
 			},
 			{
 				"name": "Italian Co-Belligerent Army",
@@ -458,7 +461,10 @@
 			},
 			{
 				"name": "New Zealand",
-				"alignment": "Allies"
+				"alignment": "Allies",
+				"additionalRules": [
+					"Steadfast Under Fire - When rolling for the result of multiple Pin Markers caused by a single source against New Zealand infantry units, reduce the result by 1 to a minimum of 1; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 67","Aggressive Patrolling - Before Infiltrators stage of the 'Start of the Game' section, you may deploy any and all of your Infiltrators first, except against an enemy with the same rule. Infiltrators that did not use this rule may be put into a bag and deployed in the normal Infiltrator stage, or held as First Wave/Reserve as desired. One infantry section of up to 5 men per Rifle Platoon may be upgraded with the Infiltrator specil rule for +1 per Model; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 67","Māori - Must be taken as Reg or Vet and can take Māori for +2 pts per Model. They gain Tough Fighters and Kā mate! Kā ora!; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 67"
+				]
 			},
 			{
 				"name": "Norway",
@@ -494,7 +500,10 @@
 			},
 			{
 				"name": "South Africa",
-				"alignment": "Allies"
+				"alignment": "Allies",
+				"additionalRules": [
+					"Turn the Flank - Your vehicles get a +1 modifier to Order Test when entering from Reserve or Outflanking instead of -1; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 75","Close-In Air Support - When rolling on the Air Strike Table, you may reroll the die; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 75","Shells, Not Lives - When rolling on the Artillery Barrage Table or the Smoke Barrage Table, you may reroll the die; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 75","Up-Gunned Italian Campaign Vehicles - Mid and Late War Shermans and Unniversal Carriers may take additional HMG options; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 75"
+				]
 			},
 			{
 				"name": "Soviet Union",
@@ -536,6 +545,18 @@
 			}
 		],
 		"equipment": [
+			{
+				"name": "Inexperienced",
+				"specialRules": ["Inexperienced"]
+			},
+			{
+				"name": "Inexperienced ",
+				"specialRules": ["Inexperienced"]
+			},
+			{
+				"name": "Inexperienced  ",
+				"specialRules": ["Inexperienced","Green"]
+			},
 			{
 				"name": "Anti-Tank Grenades",
 				"specialRules": ["Tank Hunters"]
@@ -1734,6 +1755,22 @@
 				"definition": "PHY, DON'T FORGET TO ADD THESE"
 			},
 			{
+				"name": "Inexperienced",
+				"definition": "Morale: 8"
+			},
+			{
+				"name": "Regular",
+				"definition": "Morale: 9"
+			},
+			{
+				"name": "Veteran",
+				"definition": "Morale: 10"
+			},
+			{
+				"name": "Green",
+				"definition": "Green"
+			},
+			{
 				"name": "I'll Handle It",
 				"definition": "If the Officer in the Platoon Commander Squad is killed, Sgt. Sawyer takers over as a Veteran Platoon Commander with all Special Rules; Bolt Action, 3rd Edition, Warlord website"
 			},
@@ -2341,6 +2378,9 @@
 						"name": "Hungary"
 					},
 					{
+						"name": "India"
+					},
+					{
 						"name": "Italian Co-Belligerent Army"
 					},
 					{
@@ -2356,6 +2396,9 @@
 						"name": "Netherlands"
 					},
 					{
+						"name": "New Zealand"
+					},
+					{
 						"name": "Norway"
 					},
 					{
@@ -2369,6 +2412,9 @@
 					},
 					{
 						"name": "Slovakia (ZC)"
+					},
+					{
+						"name": "South Africa"
 					},
 					{
 						"name": "Soviet Union"
@@ -2488,6 +2534,9 @@
 						"name": "Hungary"
 					},
 					{
+						"name": "India"
+					},
+					{
 						"name": "Italian Co-Belligerent Army"
 					},
 					{
@@ -2501,6 +2550,9 @@
 					},
 					{
 						"name": "Netherlands"
+					},
+					{
+						"name": "New Zealand"
 					},
 					{
 						"name": "Norway"
@@ -2519,6 +2571,9 @@
 					},
 					{
 						"name": "Slovakia (ZC)"
+					},
+					{
+						"name": "South Africa"
 					},
 					{
 						"name": "Soviet Union"
@@ -2677,6 +2732,9 @@
 						"name": "Hungary"
 					},
 					{
+						"name": "India"
+					},
+					{
 						"name": "Italian Co-Belligerent Army"
 					},
 					{
@@ -2690,6 +2748,9 @@
 					},
 					{
 						"name": "Netherlands"
+					},
+					{
+						"name": "New Zealand"
 					},
 					{
 						"name": "Norway"
@@ -2708,6 +2769,9 @@
 					},
 					{
 						"name": "Slovakia (ZC)"
+					},
+					{
+						"name": "South Africa"
 					},
 					{
 						"name": "Soviet Union"
@@ -2833,6 +2897,9 @@
 						"name": "Hungary"
 					},
 					{
+						"name": "India"
+					},
+					{
 						"name": "Italian Co-Belligerent Army"
 					},
 					{
@@ -2846,6 +2913,9 @@
 					},
 					{
 						"name": "Netherlands"
+					},
+					{
+						"name": "New Zealand"
 					},
 					{
 						"name": "Norway"
@@ -2864,6 +2934,9 @@
 					},
 					{
 						"name": "Slovakia (ZC)"
+					},
+					{
+						"name": "South Africa"
 					},
 					{
 						"name": "Soviet Union"
@@ -2989,6 +3062,9 @@
 						"name": "Hungary"
 					},
 					{
+						"name": "India"
+					},
+					{
 						"name": "Italian Co-Belligerent Army"
 					},
 					{
@@ -3002,6 +3078,9 @@
 					},
 					{
 						"name": "Netherlands"
+					},
+					{
+						"name": "New Zealand"
 					},
 					{
 						"name": "Norway"
@@ -3020,6 +3099,9 @@
 					},
 					{
 						"name": "Slovakia (ZC)"
+					},
+					{
+						"name": "South Africa"
 					},
 					{
 						"name": "Soviet Union"
@@ -3145,6 +3227,9 @@
 						"name": "Hungary"
 					},
 					{
+						"name": "India"
+					},
+					{
 						"name": "Italian Co-Belligerent Army"
 					},
 					{
@@ -3158,6 +3243,9 @@
 					},
 					{
 						"name": "Netherlands"
+					},
+					{
+						"name": "New Zealand"
 					},
 					{
 						"name": "Norway"
@@ -3176,6 +3264,9 @@
 					},
 					{
 						"name": "Slovakia (ZC)"
+					},
+					{
+						"name": "South Africa"
 					},
 					{
 						"name": "Soviet Union"
@@ -3282,6 +3373,9 @@
 						"name": "Hungary"
 					},
 					{
+						"name": "India"
+					},
+					{
 						"name": "Italian Co-Belligerent Army"
 					},
 					{
@@ -3295,6 +3389,9 @@
 					},
 					{
 						"name": "Netherlands"
+					},
+					{
+						"name": "New Zealand"
 					},
 					{
 						"name": "Norway"
@@ -3313,6 +3410,9 @@
 					},
 					{
 						"name": "Slovakia (ZC)"
+					},
+					{
+						"name": "South Africa"
 					},
 					{
 						"name": "Soviet Union"
@@ -3472,6 +3572,9 @@
 						"name": "Hungary"
 					},
 					{
+						"name": "India"
+					},
+					{
 						"name": "Italian Co-Belligerent Army"
 					},
 					{
@@ -3485,6 +3588,9 @@
 					},
 					{
 						"name": "Netherlands"
+					},
+					{
+						"name": "New Zealand"
 					},
 					{
 						"name": "Norway"
@@ -3503,6 +3609,9 @@
 					},
 					{
 						"name": "Slovakia (ZC)"
+					},
+					{
+						"name": "South Africa"
 					},
 					{
 						"name": "Soviet Union"
@@ -3600,6 +3709,9 @@
 						"name": "Hungary"
 					},
 					{
+						"name": "India"
+					},
+					{
 						"name": "Italian Co-Belligerent Army"
 					},
 					{
@@ -3613,6 +3725,9 @@
 					},
 					{
 						"name": "Netherlands"
+					},
+					{
+						"name": "New Zealand"
 					},
 					{
 						"name": "Norway"
@@ -3631,6 +3746,9 @@
 					},
 					{
 						"name": "Slovakia (ZC)"
+					},
+					{
+						"name": "South Africa"
 					},
 					{
 						"name": "Soviet Union"
@@ -3806,6 +3924,15 @@
 				],
 				"options": [
 					{
+						"name": "Inexperienced  ",
+						"addsPrefix": "Inex. ",
+						"points": 42,
+						"requireChooseOneKey": "morale",
+						"availableIn": [
+							"India"
+						]
+					},
+					{
 						"name": "Inexperienced ",
 						"addsPrefix": "Inex. ",
 						"points": 42,
@@ -3845,7 +3972,6 @@
 							"Great Britain",
 							"Greece",
 							"Hungary",
-							"India",
 							"Japan",
 							"Netherlands",
 							"New Zealand",
@@ -4104,7 +4230,7 @@
 						"increment": true,
 						"max": 5,
 						"addsModels": 1,
-						"unlockedByLocal": ["Inexperienced"],
+						"unlockedByLocal": ["Inexperienced","Inexperienced  "],
 						"availableIn": [
 							"Australia",
 							"Canada",
@@ -4161,7 +4287,7 @@
 						"increment": true,
 						"max": 3,
 						"addsModels": 1,
-						"unlockedByLocal": ["Inexperienced"],
+						"unlockedByLocal": ["Inexperienced "],
 						"availableIn": [
 							"Denmark (GKZ)"
 						]
@@ -4178,7 +4304,7 @@
 						]
 					},
 					{
-						"name": " Additional Commandos",
+						"name": "Additional Commandos",
 						"points": 13,
 						"increment": true,
 						"max": 2,
@@ -4188,12 +4314,37 @@
 					},
 					{
 						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Ayo Gurkhali!"],
+						"availableIn": [
+							"India"
+						]
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 5,
+						"unlockedByLocal": ["Ayo Gurkhali!"],
+						"availableIn": [
+							"India"
+						]
+					},
+					{
+						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 1,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByLocal": ["Inexperienced","Inexperienced  ","Regular","Veteran"],
+						"unavailableWithLocal": "Ayo Gurkhali!",
 						"availableIn": [
 							"Australia",
 							"Belgium",
@@ -4300,12 +4451,13 @@
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 5,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByLocal": ["Inexperienced","Inexperienced  ","Regular","Veteran"],
+						"unavailableWithLocal": "Ayo Gurkhali!",
 						"availableIn": [
 							"Australia",
 							"Canada",
-							"East Africa Command",
 							"Great Britain",
+							"East Africa Command",
 							"Hungary",
 							"India",
 							"New Zealand",
@@ -4497,7 +4649,7 @@
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 1,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByLocal": ["Inexperienced","Inexperienced  ","Regular","Veteran"],
 						"availableIn": [
 							"Australia",
 							"Canada",
@@ -4525,7 +4677,7 @@
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 5,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByLocal": ["Inexperienced","Inexperienced  ","Regular","Veteran"],
 						"availableIn": [
 							"Australia",
 							"Canada",
@@ -4740,7 +4892,7 @@
 					{
 						"name": "Intelligence",
 						"limit": 1,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByLocal": ["Inexperienced","Inexperienced  ","Regular","Veteran"],
 						"points": 50,
 						"availableIn": [
 							"Australia",
@@ -4908,6 +5060,13 @@
 						"chooseOneKey": "natRuD-GKZ"
 					},
 					{
+						"name": "Nigerian Chindits",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["East Africa Command"]
+					},
+					{
 						"name": "Defend the Fatherland! (Waffen-SS InEx)",
 						"points": 2,
 						"perModel": true,
@@ -4992,6 +5151,29 @@
 						"unlockedByLocal": ["Regular","Veteran"],
 						"availableIn": ["Great Britain"],
 						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "Fieldcraft",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced  ","Regular","Veteran"],
+						"availableIn": ["India"]
+					},
+					{
+						"name": "Ayo Gurkhali!",
+						"points": 4,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["India"],
+						"chooseOneKey": "natRuInd"
+					},
+					{
+						"name": "Māori",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["New Zealand"],
+						"chooseOneKey": "natRuNZ"
 					},
 					{
 						"name": "Hammer and Sickle (Naval Brigade)",
@@ -7042,6 +7224,13 @@
 						"chooseOneKey": "natRuCA"
 					},
 					{
+						"name": "Nigerian Chindits",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["East Africa Command"]
+					},
+					{
 						"name": "For King and Country! (Airborne)",
 						"points": 1,
 						"unlockedByLocal": ["Veteran"],
@@ -7086,6 +7275,29 @@
 						"availableIn": ["Great Britain"],
 						"perModel": true,
 						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "Fieldcraft",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced  ","Regular","Veteran"],
+						"availableIn": ["India"]
+					},
+					{
+						"name": "Ayo Gurkhali!",
+						"points": 4,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["India"],
+						"chooseOneKey": "natRuInd"
+					},
+					{
+						"name": "Māori",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["New Zealand"],
+						"chooseOneKey": "natRuNZ"
 					},
 					{
 						"name": "Det Fria Kriget",
@@ -7648,6 +7860,9 @@
 						"all": [{ "in": "Rifle Platoon" }, { "in": "East Africa Command" }]			
 					},
 					{
+						"all": [{ "in": "Scout Platoon" }, { "in": "East Africa Command" }]			
+					},
+					{
 						"all": [{ "in": "Recce Platoon" }, { "in": "East Africa Command" }]			
 					},
 					{
@@ -7979,6 +8194,15 @@
 				],
 				"options": [
 					{
+						"name": "Inexperienced  ",
+						"addsPrefix": "Inex. ",
+						"points": 21,
+						"requireChooseOneKey": "morale",
+						"availableIn": [
+							"India"
+						]
+					},
+					{
 						"name": "Inexperienced ",
 						"addsPrefix": "Inex. ",
 						"points": 21,
@@ -8016,7 +8240,6 @@
 							"Great Britain",
 							"Greece",
 							"Hungary",
-							"India",
 							"Japan",
 							"Netherlands",
 							"New Zealand",
@@ -8209,7 +8432,7 @@
 						"increment": true,
 						"max": 5,
 						"addsModels": 1,
-						"unlockedByLocal": ["Inexperienced"],
+						"unlockedByLocal": ["Inexperienced","Inexperienced  "],
 						"availableIn": [
 							"Australia",
 							"Canada",
@@ -8380,12 +8603,37 @@
 					},
 					{
 						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Ayo Gurkhali!"],
+						"availableIn": [
+							"India"
+						]
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 5,
+						"unlockedByLocal": ["Ayo Gurkhali!"],
+						"availableIn": [
+							"India"
+						]
+					},
+					{
+						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 1,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByLocal": ["Inexperienced","Inexperienced  ","Regular","Veteran"],
+						"unavailableWithLocal": "Ayo Gurkhali!",
 						"availableIn": [
 							"Australia",
 							"Belgium",
@@ -8479,7 +8727,8 @@
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 5,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByLocal": ["Inexperienced","Inexperienced  ","Regular","Veteran"],
+						"unavailableWithLocal": "Ayo Gurkhali!",
 						"availableIn": [
 							"Australia",
 							"Canada",
@@ -8487,6 +8736,30 @@
 							"India",
 							"New Zealand",
 							"South Africa"
+						]
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": [
+							"East Africa Command"
+						]
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 5,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": [
+							"East Africa Command"
 						]
 					},
 					{
@@ -8654,7 +8927,7 @@
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 5,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByLocal": ["Inexperienced","Inexperienced  ","Regular","Veteran"],
 						"availableIn": [
 							"Australia",
 							"Canada",
@@ -8673,7 +8946,7 @@
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 1,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByLocal": ["Inexperienced","Inexperienced  ","Regular","Veteran"],
 						"availableIn": [
 							"Australia",
 							"Canada",
@@ -8923,11 +9196,13 @@
 					{
 						"name": "Intelligence",
 						"limit": 1,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByLocal": ["Inexperienced","Inexperienced  ","Regular","Veteran"],
 						"points": 50,
-						"availableIn": [					
+						"availableIn": [
+							"Australia",
 							"Belgium",
 							"Bulgaria",
+							"Canada",
 							"Chinese Communists (ZC)",
 							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
@@ -8935,19 +9210,23 @@
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
 							"Denmark (GKZ)",
+							"East Africa Command",
 							"Finland",
 							"France",
 							"Germany",
 							"Great Britain",
 							"Greece",
 							"Hungary",
+							"India",
 							"Netherlands",
+							"New Zealands",
 							"Norway",
 							"Partisans",
 							"Poland",
 							"Polish Peoples Army (LWP)",
 							"Romania",
 							"Slovakia (ZC)",
+							"South Africa",
 							"Soviet Union",
 							"Sweden (PL)",
 							"Switzerland (GKZ)",
@@ -8962,6 +9241,22 @@
 						"availableIn": [
 							"Chinese Central Army (GKZ)",
 							"Chinese Communists (GKZ)"
+						]
+					},
+					{
+						"name": "Infiltrators",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocalStat": [
+                            {
+                                "stat": "models",
+                                "modifier": "below",
+                                "value": 6
+                            }
+                        ],
+						"availableIn":[
+							"Scout Platoon"
 						]
 					},
 					{
@@ -9110,6 +9405,28 @@
 						"chooseOneKey": "natRuD-GKZ"
 					},
 					{
+						"name": "Pangas",
+						"points": 0,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["East Africa Command"],
+						"requireChooseKey": "pangas"
+					},
+					{
+						"name": "Desert Mounted Infantry",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["East Africa Command"]
+					},
+					{
+						"name": "Nigerian Chindits",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["East Africa Command"]
+					},
+					{
 						"name": "Defend the Fatherland! (Waffen-SS InEx)",
 						"points": 2,
 						"perModel": true,
@@ -9185,6 +9502,29 @@
 						"unlockedByLocal": ["Regular"],
 						"availableIn": ["Great Britain"],
 						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "Fieldcraft",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced  ","Regular","Veteran"],
+						"availableIn": ["India"]
+					},
+					{
+						"name": "Ayo Gurkhali!",
+						"points": 4,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["India"],
+						"chooseOneKey": "natRuInd"
+					},
+					{
+						"name": "Māori",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["New Zealand"],
+						"chooseOneKey": "natRuNZ"
 					},
 					{
 						"name": "Hammer and Sickle (Naval Brigade)",
@@ -10425,6 +10765,9 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
+						"all": [{ "in": "Scout Platoon"	}, { "in": "East Africa Command" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Finland" }]			
 					},
 					{
@@ -10659,6 +11002,22 @@
 						]
 					},
 					{
+						"name": "Infiltrators",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocalStat": [
+                            {
+                                "stat": "models",
+                                "modifier": "below",
+                                "value": 6
+                            }
+                        ],
+						"availableIn":[
+							"Scout Platoon"
+						]
+					},
+					{
 						"name": "Airborne",
 						"points": 1,
 						"perModel": true,
@@ -10722,6 +11081,20 @@
 						"unlockedByLocal": ["Veteran"],
 						"availableIn": ["Chinese Communists (GKZ)"],
 						"chooseOneKey": "natRuCC-GKZ"
+					},
+					{
+						"name": "Desert Mounted Infantry",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["East Africa Command"]
+					},
+					{
+						"name": "Nigerian Chindits",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["East Africa Command"]
 					},
 					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
@@ -10794,6 +11167,21 @@
 						"chooseOneKey": "natRuGB"
 					},
 					{
+						"name": "Fieldcraft",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced  ","Regular","Veteran"],
+						"availableIn": ["India"]
+					},
+					{
+						"name": "Ayo Gurkhali!",
+						"points": 4,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["India"],
+						"chooseOneKey": "natRuInd"
+					},
+					{
 						"name": "Yamato Damashii (Paratroopers)",
 						"points": 1,
 						"perModel": true,
@@ -10832,6 +11220,14 @@
 						"unlockedByLocal": ["Veteran"],
 						"availableIn": ["Japan"],
 						"chooseOneKey": "natRuJa"
+					},
+					{
+						"name": "Māori",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["New Zealand"],
+						"chooseOneKey": "natRuNZ"
 					},
 					{
 						"name": "Hammer and Sickle (Airborne)",
@@ -11054,6 +11450,73 @@
 				"equipment": ["Pistols"]
 			},
 			{
+				"name": "Native Military Corps Medic",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "South Africa" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Pistols",
+						"quantity": 1
+					}
+				],
+				"sortPriority": 2,
+				"limits": [
+					{
+						"key": "Medic",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 25,
+						"requireChooseOneKey": "morale",
+						"availableIn": [
+							"South Africa"
+						]
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 33,
+						"requireChooseOneKey": "morale",
+						"availableIn": [
+							"South Africa"
+						]
+					},
+					{
+						"name": "Additional Unarmed Men",
+						"points": 9,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Unarmed Men",
+						"points": 12,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 2,
+						"addsModels": 1
+					}
+				],
+				"keywords": ["Medic","Self-Defence","Run to Danger"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Period: E|M|L\n 1 Medic",
+				"equipment": ["Pistols"]
+			},
+			{
 				"name": "Sd.Kfz 251/8 Karnkenpanzerwagen Medical Vehicle",
 				"factions": [],
 				"order": 1,
@@ -11104,6 +11567,9 @@
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
+					},
+					{
+						"all": [{ "in": "Scout Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "India" }]			
@@ -11249,10 +11715,7 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "New Zealand" }]			
+						"all": [{ "in": "Scout Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "South Africa" }]			
@@ -11281,7 +11744,11 @@
 						"points": 75,
 						"requireChooseOneKey": "morale",
 						"availableIn":[
-							"Great Britain"
+							"Australia",
+							"Canada",
+							"East Africa Command",
+							"Great Britain",
+							"South Africa"
 						]
 					},
 					{
@@ -11299,7 +11766,11 @@
 						"points": 90,
 						"requireChooseOneKey": "morale",
 						"availableIn":[
-							"Great Britain"
+							"Australia",
+							"Canada",
+							"East Africa Command",
+							"Great Britain",
+							"South Africa"
 						]
 					},
 					{
@@ -11386,6 +11857,9 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
+						"all": [{ "in": "Scout Platoon"	}, { "in": "East Africa Command" }]			
+					},
+					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
@@ -11417,12 +11891,6 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Netherlands" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "New Zealand" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Poland" }]			
@@ -11566,6 +12034,30 @@
 						"unlockedByLocal": "For King and Country! (Commandos)"
 					},
 					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Ayo Gurkhali!"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"availableIn": [
+							"India"
+						]
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"unlockedByLocal": ["Ayo Gurkhali!"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2,
+						"availableIn": [
+							"India"
+						]
+					},
+					{
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
@@ -11573,6 +12065,7 @@
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 2,
+						"unavailableWithLocal": "Ayo Gurkhali!",
 						"availableIn": [
 							"Australia",
 							"Canada",
@@ -11614,6 +12107,7 @@
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 1,
+						"unavailableWithLocal": "Ayo Gurkhali!",
 						"availableIn": [
 							"Australia",
 							"Canada",
@@ -11890,6 +12384,20 @@
 						"chooseOneKey": "natRuCR-GKZ"
 					},
 					{
+						"name": "Desert Mounted Infantry",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["East Africa Command"]
+					},
+					{
+						"name": "Nigerian Chindits",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["East Africa Command"]
+					},
+					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
 						"points": 1,
 						"perModel": true,
@@ -11964,6 +12472,21 @@
 						"unlockedByLocal": ["Regular","Veteran"],
 						"availableIn": ["Great Britain"],
 						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "Fieldcraft",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced  ","Regular","Veteran"],
+						"availableIn": ["India"]
+					},
+					{
+						"name": "Ayo Gurkhali!",
+						"points": 4,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["India"],
+						"chooseOneKey": "natRuInd"
 					},
 					{
 						"name": "Det Fria Kriget",
@@ -12263,6 +12786,9 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
+						"all": [{ "in": "Scout Platoon"	}, { "in": "East Africa Command" }]			
+					},
+					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
@@ -12494,6 +13020,30 @@
 						"unlockedByLocal": "For King and Country! (Commandos)"
 					},
 					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Ayo Gurkhali!"],
+						"availableIn": [
+							"India"
+						]
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 5,
+						"unlockedByLocal": ["Ayo Gurkhali!"],
+						"availableIn": [
+							"India"
+						]
+					},
+					{
 						"name": "SMGs",
 						"points": 4,
 						"increment": true,
@@ -12501,6 +13051,7 @@
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 2,
+						"unavailableWithLocal": "Ayo Gurkhali!",
 						"availableIn": [
 							"Australia",
 							"Canada",
@@ -12527,6 +13078,7 @@
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 1,
+						"unavailableWithLocal": "Ayo Gurkhali!",
 						"availableIn": [
 							"Australia",
 							"Canada",
@@ -12861,6 +13413,20 @@
 						"chooseOneKey": "natRuD-GKZ"
 					},
 					{
+						"name": "Desert Mounted Infantry",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["East Africa Command"]
+					},
+					{
+						"name": "Nigerian Chindits",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["East Africa Command"]
+					},
+					{
 						"name": "Defend the Fatherland! (Fallschirmjäger)",
 						"points": 1,
 						"perModel": true,
@@ -12929,6 +13495,29 @@
 						"unlockedByLocal": ["Regular","Veteran"],
 						"availableIn": ["Great Britain"],
 						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "Fieldcraft",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced  ","Regular","Veteran"],
+						"availableIn": ["India"]
+					},
+					{
+						"name": "Ayo Gurkhali!",
+						"points": 4,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["India"],
+						"chooseOneKey": "natRuInd"
+					},
+					{
+						"name": "Māori",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["New Zealand"],
+						"chooseOneKey": "natRuNZ"
 					},
 					{
 						"name": "Det Fria Kriget",
@@ -14048,6 +14637,9 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
+						"all": [{ "in": "Scout Platoon"	}, { "in": "East Africa Command" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
 					},
 					{
@@ -14348,12 +14940,35 @@
 						"unlockedByLocal": "For King and Country! (Commandos)"
 					},
 					{
+						"name": "Fieldcraft",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced  ","Regular","Veteran"],
+						"availableIn": ["India"]
+					},
+					{
+						"name": "Ayo Gurkhali!",
+						"points": 4,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["India"],
+						"chooseOneKey": "natRuInd"
+					},
+					{
 						"name": "For King and Country! (Guards)",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Regular","Veteran"],
 						"availableIn": ["Great Britain"],
 						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "Māori",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["New Zealand"],
+						"chooseOneKey": "natRuNZ"
 					},
 					{
 						"name": "Hammer and Sickle (Airborne)",
@@ -19241,7 +19856,7 @@
 				"equipment": ["Dog Mines","x2"]
 			},
 			{
-				"name": "Boys Anti-Tank Rifle Team",
+				"name": "Boys Anti-Tank Rifle Team  ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -19305,7 +19920,7 @@
 				"equipment": ["AT Rifle Team"]
 			},
 			{
-				"name": "Boys Anti-Tank Rifle Team ",
+				"name": "Boys Anti-Tank Rifle Team   ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -19476,146 +20091,6 @@
 				"equipment": ["Blacker Bombard Team"]
 			},
 			{
-				"name": "Blacker Bombard Anti-Tank Team  ",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "South Africa" }]			
-					}
-				],
-				"points": 0,
-				"models": 3,
-				"localQuantityDisplay": [
-					{
-						"key": "primary",
-						"property": "Blacker Bombard",
-						"quantity": 1
-					},
-					{
-						"property": "Loader/Assistant",
-						"quantity": 2
-					}
-				],
-				"sortPriority": 4,
-				"limits": [
-					{
-						"key": "AT Team",
-						"limit": 1,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Inexperienced",
-						"addsPrefix": "Inex. ",
-						"points": 28,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Regular",
-						"addsPrefix": "Reg. ",
-						"points": 40,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Veteran",
-						"addsPrefix": "Vet. ",
-						"points": 52,
-						"requireChooseOneKey": "morale"
-					}
-				],
-				"keywords": ["Fixed"],
-				"periods": ["middlePeriod","latePeriod"],
-				"specialText": "Period: M|L\n 1 LT Rifle Operator\n 2 Weapon Assistants",
-				"equipment": ["Blacker Bombard Team"]
-			},
-			{
-				"name": "Blacker Bombard Anti-Tank Team   ",
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "South Africa" }]			
-					}
-				],
-				"points": 0,
-				"models": 3,
-				"localQuantityDisplay": [
-					{
-						"key": "primary",
-						"property": "Blacker Bombard",
-						"quantity": 1
-					},
-					{
-						"property": "Loader/Assistant",
-						"quantity": 2
-					}
-				],
-				"sortPriority": 4,
-				"limits": [
-					{
-						"key": "AT Team",
-						"limit": 3,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Inexperienced",
-						"addsPrefix": "Inex. ",
-						"points": 28,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Regular",
-						"addsPrefix": "Reg. ",
-						"points": 40,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Veteran",
-						"addsPrefix": "Vet. ",
-						"points": 52,
-						"requireChooseOneKey": "morale"
-					}
-				],
-				"keywords": ["Fixed"],
-				"periods": ["middlePeriod","latePeriod"],
-				"specialText": "Period: M|L\n 1 LT Rifle Operator\n 2 Weapon Assistants",
-				"equipment": ["Blacker Bombard Team"]
-			},
-			{
 				"name": "PIAT Anti-Tank Team",
 				"factions": [],
 				"order": 1,
@@ -19634,6 +20109,9 @@
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
+					},
+					{
+						"all": [{ "in": "Scout Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "East Africa Command" }]			
@@ -19692,10 +20170,28 @@
 				],
 				"options": [
 					{
+						"name": "Inexperienced  ",
+						"addsPrefix": "Inex. ",
+						"points": 28,
+						"requireChooseOneKey": "morale",
+						"availableIn":[
+							"India"
+						]
+					},
+					{
 						"name": "Inexperienced",
 						"addsPrefix": "Inex. ",
 						"points": 28,
-						"requireChooseOneKey": "morale"
+						"requireChooseOneKey": "morale",
+						"availableIn":[
+							"Australia",
+							"Canada",
+							"East Africa Command",
+							"Great Britain",
+							"Italian Co-Belligerent Army",
+							"New Zealand",
+							"South Africa"
+						]
 					},
 					{
 						"name": "Regular",
@@ -19784,6 +20280,21 @@
 						"chooseOneKey": "natRuGB"
 					},
 					{
+						"name": "Fieldcraft",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced  ","Regular","Veteran"],
+						"availableIn": ["India"]
+					},
+					{
+						"name": "Ayo Gurkhali!",
+						"points": 4,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["India"],
+						"chooseOneKey": "natRuInd"
+					},
+					{
 						"name": "Folgore AT Grenades",
 						"points": 3,
 						"unlockedByLocal": ["Paracadutisti"],
@@ -19847,6 +20358,14 @@
 							"Italian National Republican Army"
 						],
 						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Māori",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["New Zealand"],
+						"chooseOneKey": "natRuNZ"
 					}
 				],
 				"keywords": [],
@@ -19907,10 +20426,28 @@
 				],
 				"options": [
 					{
+						"name": "Inexperienced  ",
+						"addsPrefix": "Inex. ",
+						"points": 28,
+						"requireChooseOneKey": "morale",
+						"availableIn":[
+							"India"
+						]
+					},
+					{
 						"name": "Inexperienced",
 						"addsPrefix": "Inex. ",
 						"points": 28,
-						"requireChooseOneKey": "morale"
+						"requireChooseOneKey": "morale",
+						"availableIn":[
+							"Australia",
+							"Canada",
+							"East Africa Command",
+							"Great Britain",
+							"Italian Co-Belligerent Army",
+							"New Zealand",
+							"South Africa"
+						]
 					},
 					{
 						"name": "Regular",
@@ -19999,6 +20536,21 @@
 						"chooseOneKey": "natRuGB"
 					},
 					{
+						"name": "Fieldcraft",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced  ","Regular","Veteran"],
+						"availableIn": ["India"]
+					},
+					{
+						"name": "Ayo Gurkhali!",
+						"points": 4,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["India"],
+						"chooseOneKey": "natRuInd"
+					},
+					{
 						"name": "Folgore AT Grenades",
 						"points": 3,
 						"unlockedByLocal": ["Paracadutisti"],
@@ -20062,6 +20614,14 @@
 							"Italian National Republican Army"
 						],
 						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Māori",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["New Zealand"],
+						"chooseOneKey": "natRuNZ"
 					}
 				],
 				"keywords": [],
@@ -20106,6 +20666,9 @@
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
+					},
+					{
+						"all": [{ "in": "Scout Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "East Africa Command" }]			
@@ -20159,10 +20722,30 @@
 				],
 				"options": [
 					{
+						"name": "Inexperienced  ",
+						"addsPrefix": "Inex. ",
+						"points": 18,
+						"requireChooseOneKey": "morale",
+						"availableIn":[
+							"India"
+						]
+					},
+					{
 						"name": "Inexperienced",
 						"addsPrefix": "Inex. ",
 						"points": 18,
-						"requireChooseOneKey": "morale"
+						"requireChooseOneKey": "morale",
+						"availableIn":[
+							"Australia",
+							"Canada",
+							"Chinese Communists (ZC)",
+							"Chinese Nationalists (ZC)",
+							"Chinese Warlords (ZC)",
+							"East Africa Command",
+							"Great Britain",
+							"New Zealand",
+							"South Africa"
+						]
 					},
 					{
 						"name": "Regular",
@@ -20238,6 +20821,29 @@
 						"unlockedByLocal": ["Regular","Veteran"],
 						"availableIn": ["Great Britain"],
 						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "Fieldcraft",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced  ","Regular","Veteran"],
+						"availableIn": ["India"]
+					},
+					{
+						"name": "Ayo Gurkhali!",
+						"points": 4,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["India"],
+						"chooseOneKey": "natRuInd"
+					},
+					{
+						"name": "Māori",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["New Zealand"],
+						"chooseOneKey": "natRuNZ"
 					}
 				],
 				"keywords": [],
@@ -20383,6 +20989,29 @@
 						"unlockedByLocal": ["Regular","Veteran"],
 						"availableIn": ["Great Britain"],
 						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "Fieldcraft",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced  ","Regular","Veteran"],
+						"availableIn": ["India"]
+					},
+					{
+						"name": "Ayo Gurkhali!",
+						"points": 4,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["India"],
+						"chooseOneKey": "natRuInd"
+					},
+					{
+						"name": "Māori",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["New Zealand"],
+						"chooseOneKey": "natRuNZ"
 					}
 				],
 				"keywords": [],
@@ -20555,6 +21184,21 @@
 						"unlockedByLocal": ["Regular","Veteran"],
 						"availableIn": ["Great Britain"],
 						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "Fieldcraft",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced  ","Regular","Veteran"],
+						"availableIn": ["India"]
+					},
+					{
+						"name": "Ayo Gurkhali!",
+						"points": 4,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["India"],
+						"chooseOneKey": "natRuInd"
 					},
 					{
 						"name": "Hammer and Sickle (Airborne)",
@@ -22798,10 +23442,27 @@
 				],
 				"options": [
 					{
+						"name": "Inexperienced  ",
+						"addsPrefix": "Inex. ",
+						"points": 40,
+						"requireChooseOneKey": "morale",
+						"availableIn":[
+							"India"
+						]
+					},
+					{
 						"name": "Inexperienced",
 						"addsPrefix": "Inex. ",
 						"points": 40,
-						"requireChooseOneKey": "morale"
+						"requireChooseOneKey": "morale",
+						"availableIn":[
+							"Australia",
+							"Canada",
+							"East Africa Command",
+							"Great Britain",
+							"New Zealand",
+							"South Africa"
+						]
 					},
 					{
 						"name": "Regular",
@@ -22819,7 +23480,7 @@
 						"name": "Additional Men",
 						"points": 8,
 						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
+						"unlockedByLocal": ["Inexperienced","Inexperienced  "],
 						"max": 5,
 						"addsModels": 1
 					},
@@ -22841,10 +23502,23 @@
 					},
 					{
 						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Ayo Gurkhali!"],
+						"availableIn": [
+							"India"
+						]
+					},
+					{
+						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByLocal": ["Inexperienced","Inexperienced  ","Regular","Veteran"],
 						"max": "parentModels",
+						"unavailableWithLocal": "Ayo Gurkhali!",
 						"maxKey": "gun",
 						"localLimit": 1
 					},
@@ -22852,7 +23526,7 @@
 						"name": "Infantry LMGs",
 						"points": 15,
 						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByLocal": ["Inexperienced","Inexperienced  ","Regular","Veteran"],
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 1
@@ -22861,7 +23535,7 @@
 						"name": "Infantry Flamthrower",
 						"points": 30,
 						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByLocal": ["Inexperienced","Inexperienced  ","Regular","Veteran"],
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 1
@@ -22869,13 +23543,13 @@
 					{
 						"name": "AT Grenades",
 						"points": 2,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByLocal": ["Inexperienced","Inexperienced  ","Regular","Veteran"],
 						"perModel": true
 					},
 					{
 						"name": "Demolition Charges",
 						"points": 20,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByLocal": ["Inexperienced","Inexperienced  ","Regular","Veteran"],
 						"increment": true,
 						"max": 1
 					},
@@ -22943,6 +23617,29 @@
 						"unlockedByLocal": ["Regular","Veteran"],
 						"availableIn": ["Great Britain"],
 						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "Fieldcraft",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced  ","Regular","Veteran"],
+						"availableIn": ["India"]
+					},
+					{
+						"name": "Ayo Gurkhali!",
+						"points": 4,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["India"],
+						"chooseOneKey": "natRuInd"
+					},
+					{
+						"name": "Māori",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["New Zealand"],
+						"chooseOneKey": "natRuNZ"
 					}
 				],
 				"keywords": ["Engineers"],
@@ -25379,6 +26076,9 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
+						"all": [{ "in": "Scout Platoon"	}, { "in": "East Africa Command" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Finland" }]			
 					},
 					{
@@ -25424,10 +26124,24 @@
 				],
 				"options": [
 					{
+						"name": "Inexperienced  ",
+						"addsPrefix": "Inex. ",
+						"points": 21,
+						"availableIn": [
+							"India"
+						],
+						"requireChooseOneKey": "morale"
+					},
+					{
 						"name": "Inexperienced",
 						"addsPrefix": "Inex. ",
 						"points": 21,
 						"availableIn": [
+							"Australia",
+							"Canada",
+							"East Africa Command",
+							"New Zealand",
+							"South Africa",
 							"Great Britain",
 							"Polish Peoples Army (LWP)",
 							"Soviet Union"
@@ -25450,7 +26164,7 @@
 						"name": "Additional Man",
 						"points": 3,
 						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
+						"unlockedByLocal": ["Inexperienced","Inexperienced  "],
 						"max": 1,
 						"addsModels": 1,
 						"availableIn": [
@@ -25558,6 +26272,29 @@
 						"unlockedByLocal": ["Regular","Veteran"],
 						"availableIn": ["Great Britain"],
 						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "Fieldcraft",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced  ","Regular","Veteran"],
+						"availableIn": ["India"]
+					},
+					{
+						"name": "Ayo Gurkhali!",
+						"points": 4,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["India"],
+						"chooseOneKey": "natRuInd"
+					},
+					{
+						"name": "Māori",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["New Zealand"],
+						"chooseOneKey": "natRuNZ"
 					},
 					{
 						"name": "Hammer and Sickle (Airborne)",
@@ -25650,6 +26387,15 @@
 				],
 				"options": [
 					{
+						"name": "Inexperienced  ",
+						"addsPrefix": "Inex. ",
+						"points": 21,
+						"availableIn": [
+							"India"
+						],
+						"requireChooseOneKey": "morale"
+					},
+					{
 						"name": "Inexperienced",
 						"addsPrefix": "Inex. ",
 						"points": 21,
@@ -25658,7 +26404,6 @@
 							"Canada",
 							"East Africa Command",
 							"Great Britain",
-							"India",
 							"New Zealand",
 							"Polish Peoples Army (LWP)",
 							"South Africa",
@@ -25682,7 +26427,7 @@
 						"name": "Additional Man",
 						"points": 3,
 						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
+						"unlockedByLocal": ["Inexperienced","Inexperienced  "],
 						"max": 1,
 						"addsModels": 1,
 						"availableIn": [
@@ -25790,6 +26535,14 @@
 						"unlockedByLocal": ["Regular","Veteran"],
 						"availableIn": ["Great Britain"],
 						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "Māori",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["New Zealand"],
+						"chooseOneKey": "natRuNZ"
 					},
 					{
 						"name": "Hammer and Sickle (Airborne)",
@@ -26593,10 +27346,33 @@
 				],
 				"options": [
 					{
+						"name": "Inexperienced  ",
+						"addsPrefix": "Inex. ",
+						"points": 32,
+						"requireChooseOneKey": "morale",
+						"availableIn":[
+							"India"
+						]
+					},
+					{
 						"name": "Inexperienced",
 						"addsPrefix": "Inex. ",
 						"points": 32,
-						"requireChooseOneKey": "morale"
+						"requireChooseOneKey": "morale",
+						"availableIn":[
+							"Australia",
+							"Canada",
+							"East Africa Command",
+							"Germany",
+							"Great Britain",
+							"New Zealand",
+							"Polish Peoples Army (LWP)",
+							"South Africa",
+							"Soviet Union",
+							"Sweden (PL)",
+							"Switzerland (GKZ)",
+							"United States of America"
+						]
 					},
 					{
 						"name": "Regular",
@@ -26614,7 +27390,7 @@
 						"name": "Add Spotter",
 						"points": 10,
 						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByLocal": ["Inexperienced","Inexperienced  ","Regular","Veteran"],
 						"max": 1,
 						"addsModels": 1,
 						"availableIn": [
@@ -26755,6 +27531,29 @@
 						"unlockedByLocal": ["Regular","Veteran"],
 						"availableIn": ["Great Britain"],
 						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "Fieldcraft",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced  ","Regular","Veteran"],
+						"availableIn": ["India"]
+					},
+					{
+						"name": "Ayo Gurkhali!",
+						"points": 4,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["India"],
+						"chooseOneKey": "natRuInd"
+					},
+					{
+						"name": "Māori",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["New Zealand"],
+						"chooseOneKey": "natRuNZ"
 					},
 					{
 						"name": "Hammer and Sickle (Airborne)",
@@ -27611,9 +28410,6 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
 					},
 					{
@@ -27665,10 +28461,31 @@
 				],
 				"options": [
 					{
+						"name": "Inexperienced  ",
+						"addsPrefix": "Inex. ",
+						"points": 42,
+						"requireChooseOneKey": "morale",
+						"availableIn":[
+							"India"
+						]
+					},
+					{
 						"name": "Inexperienced",
 						"addsPrefix": "Inex. ",
 						"points": 42,
-						"requireChooseOneKey": "morale"
+						"requireChooseOneKey": "morale",
+						"availableIn":[
+							"Australia",
+							"Canada",
+							"Germany",
+							"Great Britain",
+							"New Zealand",
+							"Polish Peoples Army (LWP)",
+							"South Africa",
+							"Soviet Union",
+							"Sweden (PL)",
+							"United States of America"
+						]
 					},
 					{
 						"name": "Regular",
@@ -27686,7 +28503,7 @@
 						"name": "Add Spotter",
 						"points": 10,
 						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByLocal": ["Inexperienced","Inexperienced  ","Regular","Veteran"],
 						"max": 1,
 						"addsModels": 1,
 						"availableIn": [
@@ -27736,6 +28553,13 @@
 						"availableIn": ["Great Britain"],
 						"chooseOneKey": "natRuGB",
 						"unlockedByLocal": "For King and Country! (Airborne)"
+					},
+					{
+						"name": "Fieldcraft",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced  ","Regular","Veteran"],
+						"availableIn": ["India"]
 					},
 					{
 						"name": "Defend the Fatherland! (Gebirgsjäger)",
@@ -27815,6 +28639,14 @@
 						"unlockedByLocal": ["Regular","Veteran"],
 						"availableIn": ["Great Britain"],
 						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "Māori",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["New Zealand"],
+						"chooseOneKey": "natRuNZ"
 					},
 					{
 						"name": "Det Fria Kriget",
@@ -28215,6 +29047,15 @@
 				],
 				"options": [
 					{
+						"name": "Inexperienced  ",
+						"addsPrefix": "Inex. ",
+						"points": 35,
+						"requireChooseOneKey": "morale",
+						"availableIn": [
+							"India"
+						]
+					},
+					{
 						"name": "Inexperienced ",
 						"addsPrefix": "Inex. ",
 						"points": 35,
@@ -28230,6 +29071,11 @@
 						"points": 35,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
+							"Australia",
+							"Canada",
+							"East Africa Command",
+							"New Zealand",
+							"South Africa",
 							"Belgium",
 							"Bulgaria",
 							"Chinese Communists (ZC)",
@@ -28263,6 +29109,12 @@
 						"points": 50,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
+							"Australia",
+							"Canada",
+							"East Africa Command",
+							"New Zealand",
+							"South Africa",
+							"India",
 							"Belgium",
 							"Bulgaria",
 							"Chinese Communists (ZC)",
@@ -28298,6 +29150,12 @@
 						"addsPrefix": "Vet. ",
 						"points": 65,
 						"availableIn": [
+							"Australia",
+							"Canada",
+							"East Africa Command",
+							"New Zealand",
+							"South Africa",
+							"India",
 							"Chinese Nationalists (ZC)",
 							"Chinese Central Army (GKZ)",
 							"Chinese Communists (GKZ)",
@@ -28518,6 +29376,29 @@
 						"unlockedByLocal": ["Regular","Veteran"],
 						"availableIn": ["Great Britain"],
 						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "Fieldcraft",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced  ","Regular","Veteran"],
+						"availableIn": ["India"]
+					},
+					{
+						"name": "Ayo Gurkhali!",
+						"points": 4,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["India"],
+						"chooseOneKey": "natRuInd"
+					},
+					{
+						"name": "Māori",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["New Zealand"],
+						"chooseOneKey": "natRuNZ"
 					},
 					{
 						"name": "Hammer and Sickle (Airborne)",
@@ -35909,6 +36790,221 @@
 				"equipment": ["Rifles","m/23 Rifle Grenade"]
 			},
 			{
+				"name": "Nigerian Chindit section",
+				"validationKeys": ["RifleTeams"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
+					},
+					{
+						"all": [{ "in": "Scout Platoon"	}, { "in": "East Africa Command" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "East Africa Command" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Rifles",
+						"quantity": 5
+					}
+				],
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 80,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 16,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn":[
+							"Australia"
+						],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 9,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Infantry LMGs",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Infiltrators",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocalStat": [
+                            {
+                                "stat": "models",
+                                "modifier": "below",
+                                "value": 6
+                            }
+                        ],
+						"availableIn":[
+							"Scout Platoon"
+						]
+					},
+					{
+						"name": "Pangas",
+						"points": 0,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["East Africa Command"],
+						"requireChooseKey": "pangas"
+					},
+					{
+						"name": "Desert Mounted Infantry",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["East Africa Command"]
+					}
+				],
+				"keywords": ["Behind Enemy Lines","Deep Jungle","Fieldcraft","Superior Ambush Tactics"],
+				"periods": ["middlePeriod","latePeriod"],
+				"specialText": "Period: M|L\n 1 NCO\n 4 Riflemen",
+				"equipment": ["Rifles"]
+			},
+			{
+				"name": "Bren Gun section",
+				"validationKeys": ["RifleTeams"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
+					},
+					{
+						"all": [{ "in": "Scout Platoon"	}, { "in": "East Africa Command" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "East Africa Command" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Rifles",
+						"quantity": 3
+					},
+					{
+						"key": "secondary",
+						"property": "LMGs",
+						"quantity": 2
+					}
+				],
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 80,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 95,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "AA Mounts for both LMGs",
+						"points": 10,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["East Africa Command"]
+					},
+					{
+						"name": "Infiltrators",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocalStat": [
+                            {
+                                "stat": "models",
+                                "modifier": "below",
+                                "value": 6
+                            }
+                        ],
+						"availableIn":[
+							"Scout Platoon"
+						]
+					},
+					{
+						"name": "Pangas",
+						"points": 0,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["East Africa Command"],
+						"requireChooseKey": "pangas"
+					},
+					{
+						"name": "Desert Mounted Infantry",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["East Africa Command"]
+					}
+				],
+				"keywords": [],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Period: E|M|L\n 1 NCO\n 2 Riflemen\n 2 LMG Operators",
+				"equipment": ["Rifles","Infantry LMGs"]
+			},
+			{
 				"name": "Rifle Squad",
 				"validationKeys": ["RifleTeams"],
 				"factions": [],
@@ -40215,12 +41311,6 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
@@ -40231,18 +41321,6 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -40279,10 +41357,35 @@
 					},
 					{
 						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Ayo Gurkhali!"],
+						"availableIn": [
+							"India"
+						]
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 4,
+						"unlockedByLocal": ["Ayo Gurkhali!"],
+						"availableIn": [
+							"India"
+						]
+					},
+					{
+						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
 						"unlockedByLocal": ["Veteran"],
 						"max": "parentModels",
+						"unavailableWithLocal": "Ayo Gurkhali!",
 						"maxKey": "gun",
 						"localLimit": 1
 					},
@@ -40292,6 +41395,7 @@
 						"increment": true,
 						"unlockedByLocal": ["Veteran"],
 						"max": "parentModels",
+						"unavailableWithLocal": "Ayo Gurkhali!",
 						"maxKey": "gun",
 						"localLimit": 4
 					},
@@ -40322,6 +41426,21 @@
 						"points": 1,
 						"unlockedByLocal": ["Veteran"],
 						"perModel": true
+					},
+					{
+						"name": "Fieldcraft",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced  ","Regular","Veteran"],
+						"availableIn": ["India"]
+					},
+					{
+						"name": "Ayo Gurkhali!",
+						"points": 4,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["India"],
+						"chooseOneKey": "natRuInd"
 					},
 					{
 						"name": "Pathfinders",
@@ -40452,12 +41571,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
@@ -40468,18 +41581,6 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -40530,10 +41631,35 @@
 					},
 					{
 						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Ayo Gurkhali!"],
+						"availableIn": [
+							"India"
+						]
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Ayo Gurkhali!"],
+						"availableIn": [
+							"India"
+						]
+					},
+					{
+						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
 						"unlockedByLocal": ["Regular","Veteran"],
 						"max": "parentModels",
+						"unavailableWithLocal": "Ayo Gurkhali!",
 						"maxKey": "gun",
 						"localLimit": 1
 					},
@@ -40543,6 +41669,7 @@
 						"increment": true,
 						"unlockedByLocal": ["Regular","Veteran"],
 						"max": "parentModels",
+						"unavailableWithLocal": "Ayo Gurkhali!",
 						"maxKey": "gun",
 						"localLimit": 1
 					},
@@ -40560,6 +41687,21 @@
 						"points": 2,
 						"unlockedByLocal": ["Regular","Veteran"],
 						"perModel": true
+					},
+					{
+						"name": "Fieldcraft",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced  ","Regular","Veteran"],
+						"availableIn": ["India"]
+					},
+					{
+						"name": "Ayo Gurkhali!",
+						"points": 4,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["India"],
+						"chooseOneKey": "natRuInd"
 					},
 					{
 						"name": "Stubborn",
@@ -40583,6 +41725,9 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
+						"all": [{ "in": "Scout Platoon"	}, { "in": "East Africa Command" }]			
+					},
+					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
@@ -40590,18 +41735,6 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -40638,10 +41771,35 @@
 					},
 					{
 						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Ayo Gurkhali!"],
+						"availableIn": [
+							"India"
+						]
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Ayo Gurkhali!"],
+						"availableIn": [
+							"India"
+						]
+					},
+					{
+						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
 						"unlockedByLocal": ["Veteran"],
 						"max": "parentModels",
+						"unavailableWithLocal": "Ayo Gurkhali!",
 						"maxKey": "gun",
 						"localLimit": 1
 					},
@@ -40651,6 +41809,7 @@
 						"increment": true,
 						"unlockedByLocal": ["Veteran"],
 						"max": "parentModels",
+						"unavailableWithLocal": "Ayo Gurkhali!",
 						"maxKey": "gun",
 						"localLimit": 1
 					},
@@ -40662,6 +41821,21 @@
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 1
+					},
+					{
+						"name": "Fieldcraft",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced  ","Regular","Veteran"],
+						"availableIn": ["India"]
+					},
+					{
+						"name": "Ayo Gurkhali!",
+						"points": 4,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["India"],
+						"chooseOneKey": "natRuInd"
 					}
 				],
 				"keywords": ["Ambush","Behind Enemy Lines","Fieldcraft"],
@@ -40676,28 +41850,16 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "East Africa Command" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "India" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -40736,8 +41898,33 @@
 						"name": "NCO SMG",
 						"points": 3,
 						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Ayo Gurkhali!"],
+						"availableIn": [
+							"India"
+						]
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 8,
+						"unlockedByLocal": ["Ayo Gurkhali!"],
+						"availableIn": [
+							"India"
+						]
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
 						"unlockedByLocal": ["Veteran"],
 						"max": "parentModels",
+						"unavailableWithLocal": "Ayo Gurkhali!",
 						"maxKey": "gun",
 						"localLimit": 1
 					},
@@ -40747,8 +41934,24 @@
 						"increment": true,
 						"unlockedByLocal": ["Veteran"],
 						"max": "parentModels",
+						"unavailableWithLocal": "Ayo Gurkhali!",
 						"maxKey": "gun",
 						"localLimit": 8
+					},
+					{
+						"name": "Fieldcraft",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced  ","Regular","Veteran"],
+						"availableIn": ["India"]
+					},
+					{
+						"name": "Ayo Gurkhali!",
+						"points": 4,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["India"],
+						"chooseOneKey": "natRuInd"
 					}
 				],
 				"keywords": ["Independent","Behind Enemy Lines","Tough Fighters"],
@@ -40763,28 +41966,16 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "East Africa Command" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "India" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -40817,7 +42008,10 @@
 						"increment": true,
 						"unlockedByLocal": ["Veteran"],
 						"max": 1,
-						"addsModels": 1
+						"addsModels": 1,
+						"availableIn": [
+							"Great Britain"
+						]
 					},
 					{
 						"name": "Additional Men",
@@ -40829,7 +42023,7 @@
 					},
 					{
 						"name": "NCO SMG",
-						"points": 4,
+						"points": 3,
 						"increment": true,
 						"unlockedByLocal": ["Veteran"],
 						"max": "parentModels",
@@ -40838,7 +42032,7 @@
 					},
 					{
 						"name": "SMGs",
-						"points": 4,
+						"points": 3,
 						"increment": true,
 						"unlockedByLocal": ["Veteran"],
 						"max": "parentModels",
@@ -40872,6 +42066,21 @@
 						"points": 2,
 						"unlockedByLocal": ["Veteran"],
 						"perModel": true
+					},
+					{
+						"name": "Fieldcraft",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced  ","Regular","Veteran"],
+						"availableIn": ["India"]
+					},
+					{
+						"name": "Ayo Gurkhali!",
+						"points": 4,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["India"],
+						"chooseOneKey": "natRuInd"
 					}
 				],
 				"keywords": ["Independent","Behind Enemy Lines","Tough Fighters"],
@@ -40901,7 +42110,16 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
+						"all": [{ "in": "Scout Platoon"	}, { "in": "East Africa Command" }]			
+					},
+					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "East Africa Command" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "India" }]			
@@ -40941,16 +42159,33 @@
 				],
 				"options": [
 					{
+						"name": "Inexperienced  ",
+						"addsPrefix": "Inex. ",
+						"points": 36,
+						"requireChooseOneKey": "morale",
+						"availableIn":[
+							"India"
+						]
+					},
+					{
 						"name": "Inexperienced",
 						"addsPrefix": "Inex. ",
 						"points": 36,
-						"requireChooseOneKey": "morale"
+						"requireChooseOneKey": "morale",
+						"availableIn":[
+							"Australia",
+							"Canada",
+							"East Africa Command",
+							"Great Britain",
+							"New Zealand",
+							"South Africa"
+						]
 					},
 					{
 						"name": "Additional Men",
 						"points": 9,
 						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
+						"unlockedByLocal": ["Inexperienced","Inexperienced  "],
 						"max": 6,
 						"addsModels": 1
 					},
@@ -40958,17 +42193,30 @@
 						"name": "Pistols",
 						"points": 3,
 						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
+						"unlockedByLocal": ["Inexperienced","Inexperienced  "],
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 9
 					},
 					{
 						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Ayo Gurkhali!"],
+						"availableIn": [
+							"India"
+						]
+					},
+					{
+						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
+						"unlockedByLocal": ["Inexperienced","Inexperienced  "],
 						"max": "parentModels",
+						"unavailableWithLocal": "Ayo Gurkhali!",
 						"maxKey": "gun",
 						"localLimit": 1
 					},
@@ -40976,7 +42224,7 @@
 						"name": "NCO Pistol",
 						"points": -1,
 						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
+						"unlockedByLocal": ["Inexperienced","Inexperienced  "],
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 1
@@ -40984,8 +42232,54 @@
 					{
 						"name": "Motorcycles",
 						"points": 5,
-						"unlockedByLocal": ["Inexperienced"],
+						"unlockedByLocal": ["Inexperienced","Inexperienced  "],
 						"perModel": true
+					},
+					{
+						"name": "Fieldcraft",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced  ","Regular","Veteran"],
+						"availableIn": ["India"]
+					},
+					{
+						"name": "Ayo Gurkhali!",
+						"points": 4,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["India"],
+						"chooseOneKey": "natRuInd"
+					},
+					{
+						"name": "Infiltrators",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocalStat": [
+                            {
+                                "stat": "models",
+                                "modifier": "below",
+                                "value": 6
+                            }
+                        ],
+						"availableIn":[
+							"Scout Platoon"
+						]
+					},
+					{
+						"name": "Pangas",
+						"points": 0,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["East Africa Command"],
+						"requireChooseKey": "pangas"
+					},
+					{
+						"name": "Desert Mounted Infantry",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["East Africa Command"]
 					}
 				],
 				"keywords": ["Get Back in the Fight!","Traffic Direction"],
@@ -41004,6 +42298,18 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "India" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "India" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "New Zealand" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "New Zealand" }]			
 					}
 				],
 				"points": 0,
@@ -41030,10 +42336,22 @@
 				],
 				"options": [
 					{
+						"name": "Inexperienced  ",
+						"addsPrefix": "Inex. ",
+						"points": 36,
+						"requireChooseOneKey": "morale",
+						"availableIn": [
+							"India"
+						]
+					},
+					{
 						"name": "Inexperienced",
 						"addsPrefix": "Inex. ",
 						"points": 36,
-						"requireChooseOneKey": "morale"
+						"requireChooseOneKey": "morale",
+						"availableIn": [
+							"Great Britain"
+						]
 					},
 					{
 						"name": "Additional Unarmed Men",
@@ -41075,6 +42393,21 @@
 						"points": 2,
 						"unlockedByLocal": ["Inexperienced"],
 						"perModel": true
+					},
+					{
+						"name": "Fieldcraft",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced  ","Regular","Veteran"],
+						"availableIn": ["India"]
+					},
+					{
+						"name": "Māori",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["New Zealand"],
+						"chooseOneKey": "natRuNZ"
 					}
 				],
 				"keywords": ["Green"],
@@ -41089,12 +42422,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "India" }]			
 					},
 					{
@@ -41105,12 +42432,6 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -41240,6 +42561,9 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
+						"all": [{ "in": "Scout Platoon"	}, { "in": "East Africa Command" }]			
+					},
+					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
@@ -41286,10 +42610,27 @@
 				],
 				"options": [
 					{
+						"name": "Inexperienced  ",
+						"addsPrefix": "Inex. ",
+						"points": 35,
+						"requireChooseOneKey": "morale",
+						"availableIn": [
+							"India"
+						]
+					},
+					{
 						"name": "Inexperienced",
 						"addsPrefix": "Inex. ",
 						"points": 35,
-						"requireChooseOneKey": "morale"
+						"requireChooseOneKey": "morale",
+						"availableIn": [
+							"Australia",
+							"Canada",
+							"East Africa Command",
+							"Great Britain",
+							"New Zealand",
+							"South Africa"
+						]
 					},
 					{
 						"name": "Regular",
@@ -41307,7 +42648,7 @@
 						"name": "Additional Men",
 						"points": 7,
 						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
+						"unlockedByLocal": ["Inexperienced","Inexperienced  "],
 						"max": 5,
 						"addsModels": 1
 					},
@@ -41329,9 +42670,22 @@
 					},
 					{
 						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Ayo Gurkhali!"],
+						"availableIn": [
+							"India"
+						]
+					},
+					{
+						"name": "NCO SMG",
 						"points": 4,
 						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByLocal": ["Inexperienced","Inexperienced  ","Regular","Veteran"],
+						"unavailableWithLocal": "Ayo Gurkhali!",
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 1
@@ -41340,7 +42694,7 @@
 						"name": "Infantry LMG",
 						"points": 15,
 						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByLocal": ["Inexperienced","Inexperienced  ","Regular","Veteran"],
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 1
@@ -41348,8 +42702,46 @@
 					{
 						"name": "AT Grenades",
 						"points": 2,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByLocal": ["Inexperienced","Inexperienced  ","Regular","Veteran"],
 						"perModel": true
+					},
+					{
+						"name": "Infiltrators",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocalStat": [
+                            {
+                                "stat": "models",
+                                "modifier": "below",
+                                "value": 6
+                            }
+                        ],
+						"availableIn":[
+							"Scout Platoon"
+						]
+					},
+					{
+						"name": "Pangas",
+						"points": 0,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["East Africa Command"],
+						"requireChooseKey": "pangas"
+					},
+					{
+						"name": "Desert Mounted Infantry",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["East Africa Command"]
+					},
+					{
+						"name": "Nigerian Chindits",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["East Africa Command"]
 					},
 					{
 						"name": "For King and Country! (Guards)",
@@ -41358,6 +42750,29 @@
 						"perModel": true,
 						"availableIn": ["Great Britain"],
 						"chooseOneKey": "natRuGB"
+					},
+					{
+						"name": "Fieldcraft",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced  ","Regular","Veteran"],
+						"availableIn": ["India"]
+					},
+					{
+						"name": "Ayo Gurkhali!",
+						"points": 4,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["India"],
+						"chooseOneKey": "natRuInd"
+					},
+					{
+						"name": "Māori",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["New Zealand"],
+						"chooseOneKey": "natRuNZ"
 					}
 				],
 				"keywords": [],
@@ -41372,28 +42787,16 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "East Africa Command" }]			
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "India" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -41426,7 +42829,10 @@
 						"increment": true,
 						"unlockedByLocal": ["Veteran"],
 						"max": 1,
-						"addsModels": 1
+						"addsModels": 1,
+						"availableIn": [
+							"Great Britain"
+						]
 					},
 					{
 						"name": "Additional Men",
@@ -41440,8 +42846,33 @@
 						"name": "NCO SMG",
 						"points": 3,
 						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Ayo Gurkhali!"],
+						"availableIn": [
+							"India"
+						]
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2,
+						"unlockedByLocal": ["Ayo Gurkhali!"],
+						"availableIn": [
+							"India"
+						]
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
 						"unlockedByLocal": ["Veteran"],
 						"max": "parentModels",
+						"unavailableWithLocal": "Ayo Gurkhali!",
 						"maxKey": "gun",
 						"localLimit": 2
 					},
@@ -41451,6 +42882,7 @@
 						"increment": true,
 						"unlockedByLocal": ["Veteran"],
 						"max": "parentModels",
+						"unavailableWithLocal": "Ayo Gurkhali!",
 						"maxKey": "gun",
 						"localLimit": 2
 					},
@@ -41468,6 +42900,21 @@
 						"points": 2,
 						"unlockedByLocal": ["Veteran"],
 						"perModel": true
+					},
+					{
+						"name": "Fieldcraft",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced  ","Regular","Veteran"],
+						"availableIn": ["India"]
+					},
+					{
+						"name": "Ayo Gurkhali!",
+						"points": 4,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["India"],
+						"chooseOneKey": "natRuInd"
 					}
 				],
 				"keywords": ["Behind Enemy Lines","Independent","Securing Beaches","Tough Fighters"],
@@ -41486,30 +42933,6 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Canada" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -45920,6 +47343,131 @@
 				"equipment": ["Rifles"]
 			},
 			{
+				"name": "New Zealand Independent Company Commando Subsection",
+				"validationKeys": ["RifleTeams"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "New Zealand" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "New Zealand" }]			
+					}
+				],
+				"points": 0,
+				"models": 4,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Rifles",
+						"quantity": 4
+					}
+				],
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 68,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 17,
+						"increment": true,
+						"max": 8,
+						"addsModels": 1,
+						"unlockedByLocal": ["Veteran"]
+					},
+					{
+						"name": "NCO SMG",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Veteran"]
+					},
+					{
+						"name": "SMGs",
+						"points": 3,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 11,
+						"unlockedByLocal": ["Veteran"]
+					},
+					{
+						"name": "Infantry LMGs",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2,
+						"unlockedByLocal": ["Veteran"]
+					},
+					{
+						"name": "Vickers K LMGs Upgrade",
+						"points": 5,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2,
+						"unlockedByLocal": ["Infantry LMGs"]
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["New Zealand"]
+					},
+					{
+						"name": "Infiltrators",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"unlockedByLocalStat": [
+                            {
+                                "stat": "models",
+                                "modifier": "below",
+                                "value": 5
+                            }
+                        ],
+						"unavailableWithLocal": ["Behind Enemy Lines"],
+						"requireChooseKey": "secret"
+					},
+					{
+						"name": "Behind Enemy Lines",
+						"points": 0,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["New Zealand"],
+						"unavailableWithLocal": ["Infiltrators"],
+						"requireChooseKey": "secret"
+					},
+					{
+						"name": "Māori",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"availableIn": ["New Zealand"],
+						"chooseOneKey": "natRuNZ"
+					}
+				],
+				"keywords": ["Fieldcraft","Independent","Tough Fighters"],
+				"periods": ["middlePeriod","latePeriod"],
+				"specialText": "Period: M|L\n 1 NCO\n 3 Riflemen",
+				"equipment": ["Rifles"]
+			},
+			{
 				"name": "LWP Rifle Squad",
 				"validationKeys": ["RifleTeams"],
 				"factions": [],
@@ -46927,6 +48475,200 @@
 				"keywords": [],
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
 				"specialText": "Zurn Mission Pack;\n 1 NCO\n 5 Soldiers",
+				"equipment": ["Rifles"]
+			},
+			{
+				"name": "Motorcycle Infantry Section",
+				"validationKeys": ["RifleTeams"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "South Africa" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "South Africa" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Rifles",
+						"quantity": 4
+					}
+				],
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 75,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 90,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 15,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1,
+						"unlockedByLocal": ["Regular"]
+					},
+					{
+						"name": "Additional Men",
+						"points": 18,
+						"increment": true,
+						"max": 8,
+						"addsModels": 1,
+						"unlockedByLocal": ["Veteran"]
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Veteran"]
+					},
+					{
+						"name": "Infantry LMGs",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Veteran"]
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["South Africa"]
+					}
+				],
+				"keywords": [],
+				"periods": ["earlyPeriod","middlePeriod"],
+				"specialText": "Period: E|M\n 1 NCO\n 4 Riflemen",
+				"equipment": ["Rifles","Motorcycles"]
+			},
+			{
+				"name": "Motorised Infantry Section",
+				"validationKeys": ["RifleTeams"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "South Africa" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "South Africa" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Rifles",
+						"quantity": 4
+					}
+				],
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 40,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 8,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1,
+						"unlockedByLocal": ["Inexperienced"]
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1,
+						"unlockedByLocal": ["Regular"]
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"max": 8,
+						"addsModels": 1,
+						"unlockedByLocal": ["Veteran"]
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Veteran"]
+					},
+					{
+						"name": "Infantry LMGs",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Veteran"]
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": ["South Africa"]
+					}
+				],
+				"keywords": ["Motorized Infantry"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Period: E|M|L\n 1 NCO\n 4 Riflemen",
 				"equipment": ["Rifles"]
 			},
 			{
@@ -59550,6 +61292,70 @@
 				"equipment": []
 			},
 			{
+				"name": "Universal Carrier, India Pattern ",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "India" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "India" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "India" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "India" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "India" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "India" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 15,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 45,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 54,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Hull Mounted LMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Hull Mounted AT Rifle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Open Topped","Transport","Recce"],
+				"periods": ["earlyPeriod","mediumPeriod","latePeriod"],
+				"specialText": "Period: E|M|L\n Damage Value: 7+\n Transport: 5\n Tracked Vehicle",
+				"equipment": []
+			},
+			{
 				"name": "Wheeled Artillery Tractor",
 				"factions": [],
 				"order": 1,
@@ -61214,9 +63020,6 @@
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "New Zealand" }]			
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Polish Peoples Army (LWP)" }]			
@@ -65285,9 +67088,6 @@
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "India" }]			
-					},
-					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "New Zealand" }]			
 					},
 					{
@@ -65727,16 +67527,10 @@
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Italian Co-Belligerent Army" }]			
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "India" }]			
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "New Zealand" }]			
@@ -66230,19 +68024,7 @@
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -66362,6 +68144,9 @@
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
+					},
+					{
+						"all": [{ "in": "Scout Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "East Africa Command" }]			
@@ -66576,21 +68361,6 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "India" }]			
 					},
 					{
@@ -66731,9 +68501,6 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "India" }]			
 					},
 					{
@@ -66836,6 +68603,9 @@
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
+					},
+					{
+						"all": [{ "in": "Scout Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "East Africa Command" }]			
@@ -67186,6 +68956,9 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
+						"all": [{ "in": "Scout Platoon"	}, { "in": "East Africa Command" }]			
+					},
+					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
@@ -67412,6 +69185,9 @@
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
+					},
+					{
+						"all": [{ "in": "Scout Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "East Africa Command" }]			
@@ -67648,36 +69424,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "India" }]			
-					},
-					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "New Zealand" }]			
 					},
 					{
@@ -67691,21 +69437,6 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "South Africa" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
@@ -67757,16 +69488,7 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "India" }]			
-					},
-					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "South Africa" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
@@ -67848,6 +69570,9 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
+						"all": [{ "in": "Scout Platoon"	}, { "in": "East Africa Command" }]			
+					},
+					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
@@ -67855,21 +69580,6 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "India" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "New Zealand" }]			
@@ -67981,9 +69691,6 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "India" }]			
-					},
-					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "New Zealand" }]			
 					},
 					{
@@ -68090,6 +69797,9 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
+						"all": [{ "in": "Scout Platoon"	}, { "in": "East Africa Command" }]			
+					},
+					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
@@ -68097,21 +69807,6 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "India" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "New Zealand" }]			
@@ -68202,9 +69897,6 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "India" }]			
-					},
-					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "New Zealand" }]			
 					},
 					{
@@ -68290,6 +69982,9 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
+						"all": [{ "in": "Scout Platoon"	}, { "in": "East Africa Command" }]			
+					},
+					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
@@ -68297,21 +69992,6 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "India" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "New Zealand" }]			
@@ -68327,21 +70007,6 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "South Africa" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
@@ -68424,13 +70089,7 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "India" }]			
-					},
-					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "South Africa" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
@@ -68511,21 +70170,6 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Canada" }]			
-					},
-					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "India" }]			
@@ -68620,9 +70264,6 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "India" }]			
 					},
 					{
@@ -68697,66 +70338,6 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
@@ -68817,18 +70398,6 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Canada" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "South Africa" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
@@ -68899,36 +70468,6 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "India" }]			
-					},
-					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "New Zealand" }]			
 					},
 					{
@@ -68942,21 +70481,6 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "South Africa" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
@@ -69021,16 +70545,7 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "India" }]			
-					},
-					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "South Africa" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
@@ -69101,66 +70616,6 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
@@ -69221,18 +70676,6 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Canada" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "South Africa" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
@@ -69309,6 +70752,9 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
+						"all": [{ "in": "Scout Platoon"	}, { "in": "East Africa Command" }]			
+					},
+					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
@@ -69316,21 +70762,6 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "India" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "New Zealand" }]			
@@ -69346,21 +70777,6 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "HQ Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "South Africa" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Great Britain" }]			
@@ -69418,13 +70834,7 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "India" }]			
-					},
-					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "South Africa" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Great Britain" }]			
@@ -71409,9 +72819,6 @@
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "India" }]			
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "New Zealand" }]			
@@ -79635,6 +81042,9 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
+						"all": [{ "in": "Scout Platoon"	}, { "in": "East Africa Command" }]			
+					},
+					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
@@ -79923,16 +81333,7 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
@@ -80753,6 +82154,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -80815,6 +82219,12 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -84505,6 +85915,73 @@
 				],
 				"keywords": [],
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Period: E|M|L\n Damage Value: 6+\n Wheeled Vehicle",
+				"equipment": []
+			},
+			{
+				"name": "Machine Gun Truck",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 20,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 25,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 30,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Hull Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": [],
+				"periods": ["earlyPeriod","mediumPeriod","latePeriod"],
 				"specialText": "Period: E|M|L\n Damage Value: 6+\n Wheeled Vehicle",
 				"equipment": []
 			},
@@ -92923,9 +94400,6 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
 					},
 					{
@@ -92988,9 +94462,6 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
@@ -93070,9 +94541,6 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
@@ -93189,19 +94657,7 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -93260,12 +94716,6 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
@@ -93473,12 +94923,6 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
@@ -93768,19 +95212,7 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Australia" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -93895,19 +95327,7 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -93963,19 +95383,7 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -94029,12 +95437,6 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
@@ -94095,9 +95497,6 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian Co-Belligerent Army" }]			
 					},
 					{
@@ -94105,12 +95504,6 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -94163,9 +95556,6 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian Co-Belligerent Army" }]			
 					},
 					{
@@ -94173,12 +95563,6 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -94231,9 +95615,6 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian Co-Belligerent Army" }]			
 					},
 					{
@@ -94241,12 +95622,6 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -94299,19 +95674,7 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -94408,22 +95771,10 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian Co-Belligerent Army" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -94467,9 +95818,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian Co-Belligerent Army" }]			
 					},
 					{
@@ -94477,12 +95825,6 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -94535,22 +95877,10 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian Co-Belligerent Army" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -94603,19 +95933,7 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -94668,19 +95986,7 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -94783,19 +96089,7 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -95007,19 +96301,10 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -95069,19 +96354,10 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -95131,19 +96407,10 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -95196,19 +96463,7 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -95547,19 +96802,7 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -95612,19 +96855,7 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -95897,9 +97128,6 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
@@ -96076,12 +97304,6 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
@@ -96133,12 +97355,6 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
@@ -96182,12 +97398,6 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
@@ -96245,12 +97455,6 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
@@ -96304,12 +97508,6 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
@@ -96367,12 +97565,6 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
@@ -96442,12 +97634,6 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
@@ -96515,19 +97701,10 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -96642,19 +97819,10 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -96722,16 +97890,10 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
@@ -96846,19 +98008,10 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -96913,19 +98066,10 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -97029,12 +98173,6 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -97083,12 +98221,6 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -97146,9 +98278,6 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -97250,6 +98379,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
 					}
@@ -97363,13 +98495,7 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
@@ -97434,13 +98560,7 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
@@ -97572,9 +98692,6 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -97630,12 +98747,6 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -97686,12 +98797,6 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -97745,12 +98850,6 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -97816,9 +98915,6 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -97884,9 +98980,6 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -97949,9 +99042,6 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -98014,9 +99104,6 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -98072,16 +99159,10 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
@@ -98205,13 +99286,7 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
@@ -98270,13 +99345,7 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
@@ -98332,19 +99401,10 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -98394,13 +99454,7 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
@@ -98472,13 +99526,7 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
@@ -98542,9 +99590,6 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
@@ -98681,16 +99726,7 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
@@ -98746,16 +99782,7 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
@@ -98817,12 +99844,6 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					},
 					{
@@ -98882,19 +99903,10 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian Co-Belligerent Army" }]			
@@ -99164,19 +100176,7 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -99245,9 +100245,6 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -99288,7 +100285,7 @@
 				"keywords": ["Recce"],
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
 				"specialText": "Period: E|M|L\n Damage Value: 7+\n Wheeled Vehicle",
-				"equipment": ["Turret Mounted MMG","x2"]
+				"equipment": ["Turret Mounted Twin MMG"]
 			},
 			{
 				"name": "Marmon Herrignton Mk.IV Armoured Car",
@@ -99310,9 +100307,6 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -99362,20 +100356,11 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
-					}
+					} 
 				],
 				"points": 0,
 				"models": 1,
@@ -99439,9 +100424,6 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
@@ -99449,9 +100431,6 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -99504,19 +100483,7 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -99583,12 +100550,6 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -99653,16 +100614,10 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
@@ -99814,19 +100769,7 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -99877,9 +100820,6 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
@@ -99944,9 +100884,6 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Canada" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
@@ -99954,9 +100891,6 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					}
 				],
 				"points": 0,
@@ -100049,6 +100983,68 @@
 				"periods": ["earlyPeriod","middlePeriod"],
 				"specialText": "Period: E|M\n Damage Value: 7+\n Wheeled Vehicle",
 				"equipment": ["Turret Mounted MMG","Hull Mounted LMG"]
+			},
+			{
+				"name": "Universal Carrier, India Pattern",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 44,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 66,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 1
+					},
+					{
+						"name": "Hull Mounted LMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Hull Mounted AT Rifle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"requireChooseOneKey": "priWeapon"
+					}
+				],
+				"keywords": ["Open Topped","Recce"],
+				"periods": ["earlyPeriod","mediumPeriod","latePeriod"],
+				"specialText": "Period: E|M|L\n Damage Value: 7+\n Tracked Vehicle",
+				"equipment": ["Pintle Mounted LMG"]
 			},
 			{
 				"name": "Renault Otsu-Gata",
@@ -103801,6 +104797,82 @@
 				"equipment": ["Turret Mounted Low Velocity Light AT Gun","Turret Mounted Coaxial MMG"]
 			},
 			{
+				"name": "Bob Semple Tank",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 40,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 1
+					}
+				],
+				"keywords": ["Currogated Iron Armor","Slow... Pitifully Slow","Unreliable"],
+				"periods": ["earlyPeriod","mediumPeriod"],
+				"specialText": "Period: E|M\n Damage Value: 7+\n Tracked Vehicle",
+				"equipment": ["Turret Mounted LMG","Twin Hull Mounted LMGs","Left Facing LMG","Right Facing LMG","Rear Facing LMG"]
+			},
+			{
+				"name": "Schofield Light Tank",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 88,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 1
+					}
+				],
+				"keywords": ["Railroad Wheels","Dual Mode Suspension"],
+				"periods": ["earlyPeriod","mediumPeriod"],
+				"specialText": "Period: E|M\n Damage Value: 7+\n Tracked/Wheeled Vehicle",
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
 				"name": "LT vz 35 Light Tank",
 				"validationKeys": ["TotalVehicle"],
 				"factions": [],
@@ -104497,6 +105569,331 @@
 				"keywords": ["Recce","Nimble Vehicle"],
 				"specialText": "Damage Value: 7+\n Wheeled Vehicle",
 				"equipment": ["Turret Mounted LMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Grant Command Tank",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 92,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 115,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 138,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Command Vehicle","Vulnerable"],
+				"periods": ["mediumPeriod","latePeriod"],
+				"specialText": "Period: M|L\n Damage Value: 9+\n Tracked Vehicle",
+				"equipment": ["Pintle Mounted LMG"]
+			},
+			{
+				"name": "Marmon-Herrington Mk.I Armored Car",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 56,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 84,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Left Facing MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Recce"],
+				"periods": ["earlyPeriod"],
+				"specialText": "Period: E\n Damage Value: 7+\n Wheeled Vehicle",
+				"equipment": ["Turret Mounted MMG"]
+			},
+			{
+				"name": "Marmon-Herrington Mk.II-III Armored Car",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 62,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 78,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 94,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Left Facing MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"chooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15,
+						"chooseOneKey": "secWeapon"
+					}
+				],
+				"keywords": ["Recce"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Period: E|M|L\n Damage Value: 7+\n Wheeled Vehicle",
+				"equipment": ["Turret Mounted AT Rifle","Turret Mounted Coaxial LMG"]
+			},
+			{
+				"name": "Marmon-Herrington Mk.II-III Turretless Armored Car",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 75,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 90,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unavailableWithLocal":["Hull Mounted Light AT Gun","Hull Mounted Light Autocannon"],
+						"points": 10
+					},
+					{
+						"name": "Left Facing MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted LMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"chooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15,
+						"chooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Pintle Mounted Twin MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"requireChooseOneKey": "priweapon"
+					},
+					{
+						"name": "Hull Mounted Light AT Gun",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 20,
+						"requireChooseOneKey": "priweapon"
+					},
+					{
+						"name": "Hull Mounted Light Autocannon",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 5,
+						"requireChooseOneKey": "priweapon"
+					}
+				],
+				"keywords": ["Recce","Open Topped"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Period: E|M|L\n Damage Value: 7+\n Wheeled Vehicle",
+				"equipment": []
+			},
+			{
+				"name": "Marmon-Herrington Mk.IV Armored Car",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 88,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 110,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 132,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15,
+						"chooseOneKey": "secWeapon"
+					},
+					{
+						"name": "Turret Mounted Coaxial MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 5,
+						"chooseOneKey": "secWeapon"
+					}
+				],
+				"keywords": ["Recce"],
+				"periods": ["latePeriod"],
+				"specialText": "Period: L\n Damage Value: 7+\n Wheeled Vehicle",
+				"equipment": ["Turret Mounted Light AT Gun"]
 			},
 			{
 				"name": "BA-10 Armored Car",
@@ -110750,15 +112147,6 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
 					}
 				],
@@ -111619,19 +113007,7 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "East Africa Command" }]			
-					},
-					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Great Britain" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Armored Platoon"	}, { "in": "South Africa" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "United States of America" }]			
