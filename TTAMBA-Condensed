@@ -69323,6 +69323,13 @@
 						"requireChooseOneKey": "priWeapon"
 					},
 					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 20,
+						"availableIn": ["South Africa"]
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
 						"name": "Hull Mounted Boys AT Rifle",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 10,
@@ -69398,6 +69405,13 @@
 						"name": "Hull Mounted LMG",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 20,
+						"availableIn": ["South Africa"]
 						"requireChooseOneKey": "priWeapon"
 					},
 					{
@@ -99508,6 +99522,24 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 10,
 						"requireChooseOneKey": "M4A3"
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15,
+						"chooseOneKey": "secWeapon",
+						"availableIn": [
+							"South Africa"
+						]
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 25,
+						"chooseOneKey": "secWeapon",
+						"availableIn": [
+							"South Africa"
+						]
 					}
 					
 				],
@@ -99568,6 +99600,24 @@
 						"name": "Command Vehicle",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15,
+						"chooseOneKey": "secWeapon",
+						"availableIn": [
+							"South Africa"
+						]
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 25,
+						"chooseOneKey": "secWeapon",
+						"availableIn": [
+							"South Africa"
+						]
 					}
 					
 				],
@@ -99631,6 +99681,24 @@
 						"name": "Command Vehicle",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15,
+						"chooseOneKey": "secWeapon",
+						"availableIn": [
+							"South Africa"
+						]
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 25,
+						"chooseOneKey": "secWeapon",
+						"availableIn": [
+							"South Africa"
+						]
 					}
 					
 				],
@@ -99709,6 +99777,24 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 5,
 						"requireChooseOneKey": "M4A4"
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15,
+						"chooseOneKey": "secWeapon",
+						"availableIn": [
+							"South Africa"
+						]
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 25,
+						"chooseOneKey": "secWeapon",
+						"availableIn": [
+							"South Africa"
+						]
 					}
 				],
 				"keywords": ["Improved HE"],
@@ -99765,6 +99851,24 @@
 						"name": "Command Vehicle",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15,
+						"chooseOneKey": "secWeapon",
+						"availableIn": [
+							"South Africa"
+						]
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 25,
+						"chooseOneKey": "secWeapon",
+						"availableIn": [
+							"South Africa"
+						]
 					}
 				],
 				"keywords": [],
@@ -99821,6 +99925,24 @@
 						"name": "Command Vehicle",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15,
+						"chooseOneKey": "secWeapon",
+						"availableIn": [
+							"South Africa"
+						]
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 25,
+						"chooseOneKey": "secWeapon",
+						"availableIn": [
+							"South Africa"
+						]
 					}
 				],
 				"keywords": [],
@@ -100093,7 +100215,10 @@
 						"name": "Forward Facing Pintle Mounted HMG",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 20,
-						"availableIn": ["Canada"],
+						"availableIn": [
+							"Canada",
+							"South Africa"
+						],
 						"unavailableWithLocal": "Rear Facing Pintle Mounted HMG",
 						"requireChooseOneKey": "priWeapon"
 					},
