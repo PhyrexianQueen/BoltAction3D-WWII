@@ -374,7 +374,9 @@
 			{
 				"name": "Finland",
 				"alignment": "Axis",
-				"additionalRules": ["Trained Hunstmen - As long as an Infantry Unit has an Ambush order die, it can re-roll morale checks. Units equipped with Rifles/Sniper Rifles add 1 to their To Hit dice when performing an attack from Ambush; Bolt Action 3rd Edition Finland Supplement PDF","Sisu - When an Infantry or Artillery Squad are reduced to 50% or less of it's starting model count, upgrade the Morale by 1. InEx to Reg, Reg to Vet, Vet now have base Morale to 11; Bolt Action 3rd Edition Finland Supplement PDF","Motti - When Outlfanking, Infantry Units ignore the -1 to Order Test when coming on the table; Bolt Action 3rd Edition Finland Supplement PDF","Skis - All Infantry may be equipped with skis for free; Bolt Action 3rd Edition Finland Supplement PDF"]
+				"additionalRules": [
+					"Trained Hunstmen - As long as an Infantry Unit has an Ambush order die, it can re-roll morale checks. Units equipped with Rifles/Sniper Rifles add 1 to their To Hit dice when performing an attack from Ambush; Bolt Action 3rd Edition Finland Supplement PDF","Sisu - When an Infantry or Artillery Squad are reduced to 50% or less of it's starting model count, upgrade the Morale by 1. InEx to Reg, Reg to Vet, Vet now have base Morale to 11; Bolt Action 3rd Edition Finland Supplement PDF","Motti - When Outlfanking, Infantry Units ignore the -1 to Order Test when coming on the table; Bolt Action 3rd Edition Finland Supplement PDF","Skis - All Infantry may be equipped with skis for free; Bolt Action 3rd Edition Finland Supplement PDF"
+				]
 			},
 			{
 				"name": "France",
@@ -468,7 +470,10 @@
 			},
 			{
 				"name": "Norway",
-				"alignment": "Allies"
+				"alignment": "Allies",
+				"additionalRules": [
+					"Battlefield Knowledge - Any Norwegian unit that is set up on the table before Turn 1 may start the game already in Ambush. During the first turn of the game, all Norweigian Infantry units count as having the Fieldcraft Rule. When attempting to an Outflanking Manuever, Norwegian units ignore the -1 Modifier to the Order Test; Bolt Action 3rd Edition Norway Supplement PDF"
+				]
 			},
 			{
 				"name": "Partisans",
@@ -485,7 +490,7 @@
 				"additionalRules": [
 					"The Great Patriotic War - Whenever an Infantry or Artillery unit fails a Morale Test, reroll the Morale Test and you must accept the second roll; Bolt Action, 3rd Edition Rule Book: Pg. 252",
 					"Brunt of the Fighting - The LWP often endured the hardest fighting. All KWP HQ Teams, Infantry Squads/Teams, and Artillery Units are Stubborn; Bolt Action, 3rd Edition Compendium: Pg. 56",
-					"Forlorn Assaults - In Story Scenarios: LWP may always elect to be Attacker, if decline attacker, roll as normal. If LWP Player is Attacker, play the final round without rolling to see if the final turn happens; Bolt Action, 3rd Edition Imperial Japan Army Book: Pg. 23"
+					"Forlorn Assaults - In Story Scenarios: LWP may always elect to be Attacker, if decline attacker, roll as normal. If LWP Player is Attacker, play the final round without rolling to see if the final turn happens; Bolt Action, 3rd Edition Compendium: Pg. 56"
 				]
 			},
 			{
@@ -69326,7 +69331,7 @@
 						"name": "Pintle Mounted HMG",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 20,
-						"availableIn": ["South Africa"]
+						"availableIn": ["South Africa"],
 						"requireChooseOneKey": "priWeapon"
 					},
 					{
@@ -69411,7 +69416,7 @@
 						"name": "Pintle Mounted HMG",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 20,
-						"availableIn": ["South Africa"]
+						"availableIn": ["South Africa"],
 						"requireChooseOneKey": "priWeapon"
 					},
 					{
