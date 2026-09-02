@@ -642,7 +642,7 @@
 			},
 			{
 				"name": "Det Fria Kriget",
-				"specialRules": ["Engineers","Fieldcraft"]
+				"specialRules": ["Stubborn","Fieldcraft"]
 			},
 			{
 				"name": "For King and Country! (Airborne)",
@@ -27599,7 +27599,7 @@
 				"equipment": ["Rifles"]
 			},
 			{
-				"name": "Free Ranger Squad (Engineers)",
+				"name": "Free Ranger Squad ",
 				"validationKeys": ["EngineerTeams"],
 				"factions": [],
 				"order": 1,
@@ -55481,103 +55481,7 @@
 				"equipment": ["Rifles"]
 			},
 			{
-				"name": "Free Ranger Squad, Mounted (Early)",
-				"validationKeys": ["RifleTeams"],
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (PL)" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (PL)" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"localQuantityDisplay": [
-					{
-						"key": "primary",
-						"property": "Rifles",
-						"quantity": 5
-					}
-				],
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 4,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Veteran",
-						"addsPrefix": "Vet. ",
-						"points": 90,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 18,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 3,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "SMGs",
-						"points": 3,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 9
-					},
-					{
-						"name": "Automatic Rifle",
-						"points": 6,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "AT Grenades",
-						"points": 2,
-						"unlockedByLocal": ["Veteran"],
-						"perModel": true
-					},
-					{
-						"name": "Skis",
-						"points": 1,
-						"unlockedByLocal": ["Veteran"],
-						"perModel": true
-					},
-					{
-						"name": "Det Fria Kriget",
-						"points": 2,
-						"unlockedByLocal": ["Veteran"],
-						"perModel": true
-					}
-				],
-				"keywords": ["Behind Enemy Lines","Tough Fighter","Spotting","Skilled Riders","Cavalry"],
-				"periods": ["earlyPeriod"],
-				"specialText": "Period: E\n 1 NCO\n 4 Riflemen",
-				"equipment": ["Rifles"]
-			},
-			{
-				"name": "Free Ranger Squad, Mounted (Late)",
+				"name": "Free Ranger Squad, Mounted",
 				"validationKeys": ["RifleTeams"],
 				"factions": [],
 				"order": 1,
@@ -55657,6 +55561,7 @@
 						"name": "Pansarskott m/45",
 						"points": 2,
 						"unlockedByLocal": ["Veteran"],
+						"periods": ["latePeriod"],
 						"increment": true,
 						"max": 2
 					},
@@ -55674,8 +55579,8 @@
 					}
 				],
 				"keywords": ["Behind Enemy Lines","Tough Fighter","Spotting","Skilled Riders","Cavalry"],
-				"periods": ["middlePeriod","latePeriod"],
-				"specialText": "Period: M|L\n 1 NCO\n 4 Riflemen",
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Period: E|M|L\n 1 NCO\n 4 Riflemen",
 				"equipment": ["Rifles"]
 			},
 			{
@@ -117042,7 +116947,7 @@
 						"requireChooseOneKey": "priWeapon"
 					},
 					{
-						"name": "Casement Heavy Howitzer",
+						"name": "Casement Medium Howitzer",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"periods": ["latePeriod"],
 						"points": 10,
