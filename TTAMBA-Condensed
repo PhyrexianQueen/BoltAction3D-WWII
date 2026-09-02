@@ -55284,102 +55284,7 @@
 				"equipment": ["Rifles"]
 			},
 			{
-				"name": "Free Ranger Squad (Early)",
-				"validationKeys": ["RifleTeams"],
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Sweden (PL)" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Sweden (PL)" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"localQuantityDisplay": [
-					{
-						"key": "primary",
-						"property": "Rifles",
-						"quantity": 5
-					}
-				],
-				"sortPriority": 3,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 4,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Veteran",
-						"addsPrefix": "Vet. ",
-						"points": 65,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 13,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": 5,
-						"addsModels": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 3,
-						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "SMGs",
-						"points": 3,
-						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun"
-					},
-					{
-						"name": "Automatic Rifle",
-						"points": 6,
-						"increment": true,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"localLimit": 1
-					},
-					{
-						"name": "AT Grenades",
-						"points": 2,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"perModel": true
-					},
-					{
-						"name": "Skis",
-						"points": 1,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"perModel": true
-					},
-					{
-						"name": "Det Fria Kriget",
-						"points": 2,
-						"unlockedByLocal": ["Regular","Veteran"],
-						"perModel": true
-					}
-				],
-				"keywords": ["Behind Enemy Lines","Master of the Hunt"],
-				"periods": ["earlyPeriod"],
-				"specialText": "Period: E\n 1 NCO\n 5 Riflemen",
-				"equipment": ["Rifles"]
-			},
-			{
-				"name": "Free Ranger Squad (Late)",
+				"name": "Free Ranger Squad",
 				"validationKeys": ["RifleTeams"],
 				"factions": [],
 				"order": 1,
@@ -55460,6 +55365,7 @@
 						"points": 2,
 						"unlockedByLocal": ["Veteran"],
 						"increment": true,
+						"periods":["latePeriod"],
 						"max": 2
 					},
 					{
@@ -55476,8 +55382,8 @@
 					}
 				],
 				"keywords": ["Behind Enemy Lines","Master of the Hunt"],
-				"periods": ["middlePeriod","latePeriod"],
-				"specialText": "Period: M|L\n 1 NCO\n 5 Riflemen",
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Period: E|M|L\n 1 NCO\n 5 Riflemen",
 				"equipment": ["Rifles"]
 			},
 			{
