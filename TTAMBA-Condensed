@@ -4272,6 +4272,11 @@
 				"specialRules": []
 			},
 			{
+				"name": "Bulldozer Blades",
+				"definition": "Give this vehicle a Down Order to clear obstacles or fill anti-tank ditches. This gap becomes rough ground. This vehicle can assault Buildings and is treated as a Super Heavy Tank; Bolt Action, 3rd Edition Armies of the United States of America Army Book: Pg. 65",
+				"specialRules": []
+			},
+			{
 				"name": "Loudspeaker",
 				"specialRules": ["We’ve got a loudspeaker here and when we go into battle we play music very loud. It kind of… calms us down"]
 			},
@@ -4282,11 +4287,6 @@
 			{
 				"name": "Paint Ammunition",
 				"specialRules": ["We’ve got our own ammunition; it’s filled with paint. When we fire it…it makes pretty pictures. Scares the hell out of people"]
-			},
-			{
-				"name": "Bulldozer Blades",
-				"definition": "Give this vehicle a Down Order to clear obstacles or fill anti-tank ditches. This gap becomes rough ground. This vehicle can assault Buildings and is treated as a Super Heavy Tank; Bolt Action, 3rd Edition Armies of the United States of America Army Book: Pg. 65",
-				"specialRules": []
 			},
 			{
 				"name": "Front Armor",
@@ -4320,7 +4320,7 @@
 			},
 			{
 				"name": "Norden Bomb Sight",
-				"definition": "When performing a bomb run with a Strategic Bomber, reduce the bomb drop radius from D6 to D2 and remove the Random Direction aspect.	",
+				"definition": "When performing a bomb run with a Strategic Bomber, reduce the bomb drop radius from D6 to D2 and remove the Random Direction aspect.",
 				"specialRules": []
 			},
 			{
