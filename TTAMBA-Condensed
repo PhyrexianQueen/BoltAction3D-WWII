@@ -629,7 +629,12 @@
 			},
 			{
 				"name": "Hollywood",
-				"definition": "Morale: 10\n To be hit, opponent must roll a 6+. Gain +1 to Hit on8 their own shots; Bolt Action, 2nd Edition Kelly's Heroes Leaflet",
+				"definition": "Morale: 10\n To be hit, opponent must roll a 6+. Gain +1 to Hit on their own shots; Bolt Action, 2nd Edition Kelly's Heroes Leaflet",
+				"specialRules": []
+			},
+			{
+				"name": "Hollywood Cannon Fodder",
+				"definition": "Morale: 8\n Do not benefit from cover. Require only a 2+ to be hit; Bolt Action, 2nd Edition Kelly's Heroes Leaflet",
 				"specialRules": []
 			},
 			{
@@ -1072,6 +1077,20 @@
 				"specialRules": ["Rear Arc","Air-To-Air"]
 			},
 			{
+				"name": "Rear Facing MMG",
+				"range": 48,
+				"shots": 3,
+				"pen": 0,
+				"specialRules": ["Rear Arc"]
+			},
+			{
+				"name": "Rear Facing Twin MMGs",
+				"range": 48,
+				"shots": 6,
+				"pen": 0,
+				"specialRules": ["Rear Arc"]
+			},
+			{
 				"name": "Topside Rear Facing HMG",
 				"range": 48,
 				"shots": 3,
@@ -1084,15 +1103,32 @@
 				"shots": 2,
 				"pen": "+3",
 				"he": 1,
+				"specialRules": ["Fixed Rear","HE 1in","Air-To-Air"]
+			},
+			{
+				"name": "Rear Facing Twin Light Autocannons",
+				"range": 72,
+				"shots": 4,
+				"pen": "+3",
+				"he": 1,
 				"specialRules": ["Fixed Rear","HE 1in"]
 			},
 			{
 				"name": "Bombs",
-				"specialRules": ["---"]
+				"definition": "Bolt Action, 2nd Edition Warplane Experimental Rules",
+				"range": 12,
+				"shots": 1,
+				"pen": "HE",
+				"he": 3,
+				"specialRules": ["Front Arc","HE 3in","Limited Shots"]
 			},
 			{
 				"name": "Rockets",
-				"specialRules": ["---"]
+				"range": 12,
+				"shots": 1,
+				"pen": "HE",
+				"he": 4,
+				"specialRules": ["Front Arc","HE 4in","Limited Shots"]
 			},
 			{
 				"name": "Multiple Rocket Launcher",
@@ -2049,6 +2085,14 @@
 				"pen": "+7",
 				"he": 3,
 				"specialRules": ["360° Arc","HE 3in","Anti-Tank Gun"]
+			},
+			{
+				"name": "Turret Mounted Uber Heavy AT Gun",
+				"range": 100,
+				"shots": 1,
+				"pen": "+8",
+				"he": "3D6",
+				"specialRules": ["360° Arc","Anti-Tank Gun"]
 			},
 			{
 				"name": "Turret Mounted Super Heavy AT Gun with Light HE",
@@ -3031,6 +3075,14 @@
 				"specialRules": ["Shape Charge","One Shot"]
 			},
 			{
+				"name": "Panzerfaust 30",
+				"definition": "",
+				"range": 6,
+				"shots": 1,
+				"pen": "+6",
+				"specialRules": ["Shape Charge","One Shot","I-SUB"]
+			},
+			{
 				"name": "Pansarskott m/45",
 				"definition": "",
 				"range": 12,
@@ -3461,7 +3513,7 @@
 				]
 			},
 			{
-				"name": "NCO SMG (CS)",
+				"name": "NCO SMG  ",
 				"specialRules": ["Assault"],
 				"range": 12,
 				"shots": 2,
@@ -3478,7 +3530,7 @@
 				]
 			},
 			{
-				"name": "SMGs (CS)",
+				"name": "SMGs  ",
 				"specialRules": ["Assault"],
 				"range": 12,
 				"shots": 2,
@@ -3490,6 +3542,23 @@
 					},
 					{
 						"property": "SMG and Pistol",
+						"quantity": 1
+					}
+				]
+			},
+			{
+				"name": "Upgrade SMG with Suppressed STEN Mk.II SMGs",
+				"specialRules": ["Assault","Suppressed Weapons","I-SUB"],
+				"range": 12,
+				"shots": 2,
+				"pen": 0,
+				"adjustlocalQuantities": [
+					{
+						"property": "SMG and Pistol",
+						"quantity": -1
+					},
+					{
+						"property": "Suppressed SMG and Pistol",
 						"quantity": 1
 					}
 				]
@@ -4285,6 +4354,20 @@
 				"specialRules": ["These tanks are faster than any other tanks in the Europe Theatre of Operations. Forwards or backwards. See man, we like to feel that we can get out of trouble quicker than we got into it"]
 			},
 			{
+				"name": "Sergeant Oddball",
+				"definition": "Adds 2 to a Nexus of Positive Energy Dice Roll; Bolt Action, 2nd Edition Kelly's Heroes Leaflet",
+				"specialRules": ["Nexus of Positive Energy"]
+			},
+			{
+				"name": "Private First Class Moriarty",
+				"definition": "Subtracts 1 to a Nexus of Positive Energy Dice Roll; Bolt Action, 2nd Edition Kelly's Heroes Leaflet",
+				"specialRules": ["Nexus of Positive Energy"]
+			},
+			{
+				"name": "The Bavarian",
+				"specialRules": ["Ve hve gasoleen all over ze place","Limited Tactial Awareness"]
+			},
+			{
 				"name": "Paint Ammunition",
 				"specialRules": ["We’ve got our own ammunition; it’s filled with paint. When we fire it…it makes pretty pictures. Scares the hell out of people"]
 			},
@@ -4451,6 +4534,26 @@
 			{
 				"name": "Liason Officer",
 				"specialRules": ["Liason Officer"]
+			},
+			{
+				"name": "Fanatics",
+				"definition": "Ignore Pin Modifiers on Morale Checks. Loses in Close Combat count as Draws; Bolt Action, 3rd Edition: Pg. 120",
+				"specialRules": []
+			},
+			{
+				"name": "Tough Fighters",
+				"definition": "Model rerolls 1st Failed to Damage in Closed Combat; Bolt Action, 3rd Edition: Pg. 122",
+				"specialRules": []
+			},
+			{
+				"name": "Stubborn",
+				"definition": "Ignores Pins on Morale Tests; Bolt Action, 3rd Edition: Pg. 122",
+				"specialRules": []
+			},
+			{
+				"name": "Shirkers",
+				"definition": "Pins count double and must always take an order test, even without pins; Bolt Action, 3rd Edition: Pg. 121",
+				"specialRules": []
 			},
 			{
 				"name": "Intelligence",
@@ -5035,6 +5138,30 @@
 				"definition": "AT Guns when using a Fire Order (incl. Ambush) have +1 to Hit when targetting Vehicles; Bolt Action, 3rd Edition: Pg. 96"
 			},
 			{
+				"name":"Slow Traverse",
+				"definition": "Cannot be issued orders until at least one unit on the same side has already been given orders; Bolt Action, 2nd Edition Kelly's Heroes Leaflet"
+			},
+			{
+				"name":"Inexplicably Weak Turret Motors",
+				"definition": "When attempting to fire the Uber Heavy AT Gun, you must rotate the model's turret. If you would impact any scenery or other model, you must gently attempt to rotate the gun barrel into the scenery 2-3 more times before abandoning the attempt and end your turn. Traverse motor noises are encouraged; Bolt Action, 2nd Edition Kelly's Heroes Leaflet"
+			},
+			{
+				"name":"A Tiger has only one weak point. That's its ass",
+				"definition": "Any AT Weapon hitting the Tiger in the rear arc gains an additional +2 to pen; Bolt Action, 2nd Edition Kelly's Heroes Leaflet"
+			},
+			{
+				"name":"Nexus of Positive Energy",
+				"definition": "At the start of every turn, roll a D6. 1-2, adds a -1 modifier. 3-4, 0, and 5-6 a +1 modifier. Add Oddball's and Moriarty's Modifiers (bonus modifiers in booklet_ if on the table:\n +2: May convert a failed dice roll to a scucess and vice versa. May choose the first dice to be drawn from the order bag. Nullify Colt's The Air Force has got my orders..\n +1: May add or subtract 1 on a single dice roll of your choice this turn. Nullify Colt's The Air Force has got my orders..\n 0: No effect\n Your opponent may add or subtract 1 to a single dice roll this turn\n -2 Opponent may convert one failed dice roll into a successt. Opponent may choose the first order die to be drawn from the bag\n ; Bolt Action, 2nd Edition Kelly's Heroes Leaflet"
+			},
+			{
+				"name":"Ve hve gasoleen all over ze place",
+				"definition": "If you adopt a cliché, war movie German accent for the entire activation, you may add or remove 1 from a single dice roll during said activation; Bolt Action, 2nd Edition Kelly's Heroes Leaflet"
+			},
+			{
+				"name":"Limited Tactical Awareness",
+				"definition": "If you cannot draw line of sight to an enemy unit, roll a D6. One a 1-3, your activation ends. One a 4-6, you may coninue activation as normal; Bolt Action, 2nd Edition Kelly's Heroes Leaflet"
+			},
+			{
 				"name":"These tanks are faster than any other tanks in the Europe Theatre of Operations. Forwards or backwards. See man, we like to feel that we can get out of trouble quicker than we got into it",
 				"definition": "Vehicle moves as a Wheeled Vehicle, instead of Tracked; Bolt Action, 2nd Edition Kelly's Heroes Leaflet"
 			},
@@ -5165,6 +5292,10 @@
 			{
 				"name": "Master of the Hunt",
 				"definition": "This unit is allowed to make an Advance move. If they do not shoot at the end, you may then turn their dice to an Ambush Order; Bolt Action, 3rd Edition Finalnd Army PDF: Pg. 2"
+			},
+			{
+				"name": "Suppressed Weapons",
+				"definition": "Units firing suppressed weapons that are hidden remain hidden if that's the only weapon type they're firing. When fired in Night Scenarios, do not put muzzle flash markers on the unit; Bolt Action, 2nd Edition Italy - Soft Under Belly Campaign Book: Pg. 108"
 			},
 			{
 				"name": "Assault",
@@ -8429,6 +8560,7 @@
 					},
 					{
 						"name": "Intelligence",
+						"replaceParentName": "HQ Intelligence Officer",
 						"limit": 1,
 						"unlockedByLocal": ["Inexperienced","Inexperienced  ","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "],
 						"points": 50,
@@ -8896,6 +9028,7 @@
 					},
 					{
 						"name": "Intelligence",
+						"replaceParentName": "Intelligence Officer",
 						"limit": 1,
 						"unlockedByLocal": ["Inexperienced","Inexperienced  ","Regular","Veteran"],
 						"points": 50
@@ -9036,6 +9169,7 @@
 					},
 					{
 						"name": "Intelligence",
+						"replaceParentName": "Intelligence Officer",
 						"limit": 1,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 50
@@ -9307,6 +9441,7 @@
 					},
 					{
 						"name": "Intelligence",
+						"replaceParentName": "Intelligence Officer",
 						"limit": 1,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 50
@@ -9491,6 +9626,7 @@
 					},
 					{
 						"name": "Intelligence",
+						"replaceParentName": "Intelligence Officer",
 						"limit": 1,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 50
@@ -13792,6 +13928,7 @@
 					},
 					{
 						"name": "Intelligence",
+						"replaceParentName": "Intelligence Officer",
 						"limit": 1,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 50
@@ -14076,6 +14213,7 @@
 					},
 					{
 						"name": "Intelligence",
+						"replaceParentName": "Intelligence Officer",
 						"limit": 1,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 50
@@ -14285,6 +14423,7 @@
 					},
 					{
 						"name": "Intelligence",
+						"replaceParentName": "Intelligence Officer",
 						"limit": 1,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 50
@@ -16451,7 +16590,8 @@
 							"India",
 							"New Zealand",
 							"South Africa",
-							"Sweden (PL)"
+							"Sweden (PL)",
+							"United States of America"
 						]
 					},
 					{
@@ -16494,7 +16634,8 @@
 							"India",
 							"New Zealand",
 							"South Africa",
-							"Sweden (PL)"
+							"Sweden (PL)",
+							"United States of America"
 						]
 					},
 					{
@@ -52804,7 +52945,7 @@
 						"addsModels": 1
 					},
 					{
-						"name": "NCO SMG (CS)",
+						"name": "NCO SMG  ",
 						"points": 2,
 						"increment": true,
 						"unlockedByLocal": ["Veteran"],
@@ -52813,7 +52954,7 @@
 						"localLimit": 1
 					},
 					{
-						"name": "SMGs (CS)",
+						"name": "SMGs  ",
 						"points": 2,
 						"increment": true,
 						"unlockedByLocal": ["Veteran"],
@@ -52822,9 +52963,13 @@
 						"localLimit": 1
 					},
 					{
-						"name": "Upgrade 2 SMGs with Suppressed STEN Mk.II SMGs",
-						"unlockedByLocal": ["Veteran"],
-						"points": 2
+						"name": "Upgrade SMG with Suppressed STEN Mk.II SMGs",
+						"points": 2,
+						"increment": true,
+						"unlockedByLocal": ["NCO SMG  ","SMGs  "],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
 					},
 					{
 						"name": "Wire Cutters",
@@ -53107,7 +53252,7 @@
 						"addsModels": 1
 					},
 					{
-						"name": "NCO SMG (CS)",
+						"name": "NCO SMG  ",
 						"points": 2,
 						"increment": true,
 						"unlockedByLocal": ["Veteran"],
@@ -53116,7 +53261,7 @@
 						"localLimit": 1
 					},
 					{
-						"name": "SMGs (CS)",
+						"name": "SMGs  ",
 						"points": 2,
 						"increment": true,
 						"unlockedByLocal": ["Veteran"],
@@ -68094,12 +68239,12 @@
 						"requireChooseOneKey": "morale"
 					},
 					{
-						"name": "Right Rear Facing Pintle Mounted HMG ",
+						"name": "Rear Right Facing Pintle Mounted HMG ",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 15
 					},
 					{
-						"name": "Left Rear Facing Pintle Mounted HMG ",
+						"name": "Rear Left Facing Pintle Mounted HMG ",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 15
 					},
@@ -90910,7 +91055,7 @@
 						"requireChooseOneKey": "priWeapon"
 					},
 					{
-						"name": "Turret Mounted Low Velocity AT Gun",
+						"name": "Turret Mounted Low Velocity Light AT Gun",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 30,
 						"requireChooseOneKey": "priWeapon"
@@ -95897,7 +96042,7 @@
 						"requireChooseOneKey": "priWeapon"
 					},
 					{
-						"name": "Turret Mounted Low Velocity AT Gun",
+						"name": "Turret Mounted Low Velocity Light AT Gun",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 30,
 						"requireChooseOneKey": "priWeapon"
@@ -100959,6 +101104,74 @@
 				"periods": ["middlePeriod","latePeriod"],
 				"specialText": "Period: M|L\n Damage Value: 9+\n Tracked Vehicle",
 				"equipment": ["Turret Mounted Super Heavy AT Gun","Turret Mounted Coaxial German MMG","Hull Mounted German MMG"]
+			},
+			{
+				"name": "Hollywood Tiger Tank",
+				"special": true,
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Hollywood Cannon Fodder",
+						"addsPrefix": "Fodder ",
+						"points": 180,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 200,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 245,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 300,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "The Bavarian",
+						"unlockedByLocal": ["Hollywood Cannon Fodder","Inexperienced","Regular","Veteran"],
+						"availableIn":[
+							"Germany"
+						],
+						"points": 25
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn":[
+							"Germany"
+						],
+						"points": 10
+					}
+				],
+				"keywords": ["Slow Traverse","Inexplicably Weak Turret Motors","A Tiger has only one weak point. That's its ass"],
+				"periods": ["middlePeriod","latePeriod"],
+				"specialText": "Period: M|L\n Damage Value: 9+\n Tracked Vehicle",
+				"equipment": ["Turret Mounted Uber Heavy AT Gun","Turret Mounted Coaxial German MMG","Hull Mounted German MMG"]
 			},
 			{
 				"name": "Panzer VI 'Tiger I' Heavy Tank",
@@ -130421,7 +130634,7 @@
 				"keywords": [],
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
 				"specialText": "Period: E|M|L\n Damage Value: 6+\n Single Engine Fighter",
-				"equipment": ["Nose Mounted Light Autocannon","Nose Mounted Twin MMGs","Bombs","2x Rear Facing MMGs"]
+				"equipment": ["Nose Mounted Light Autocannon","Nose Mounted Twin MMGs","Bombs","Rear Facing Twin MMGs"]
 			},
 			{
 				"name": "Bloch MB.162 Heavy Bomber",
@@ -130466,7 +130679,7 @@
 				"keywords": ["Heavy Strategic Bomber"],
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
 				"specialText": "Period: E|M|L\n Damage Value: 6+\n Multi Engine Bomber",
-				"equipment": ["2x Rear Facing Light Autocannon","2x Rear Facing MMG"]
+				"equipment": ["Rear Facing Twin Light Autocannons","Rear Facing MMG"]
 			},
 			{
 				"name": "Messerschmitt Bf-109 Fighter",
