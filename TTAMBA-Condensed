@@ -88820,19 +88820,19 @@
 					{
 						"name": "Two Independent Pintle Mounted MMGs",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"point": 0,
+						"points": 0,
 						"requireChooseOneKey": "priWeapon"
 					},
 					{
 						"name": "Two Independent Pintle Mounted HMGs",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"point": 20,
+						"points": 20,
 						"requireChooseOneKey": "priWeapon"
 					},
 					{
 						"name": "Hull Mounted MMG",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"point": 10
+						"points": 10
 					},
 					{
 						"name": "Recce",
@@ -88910,7 +88910,7 @@
 					{
 						"name": "Pintle Mounted MMG",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"point": 20
+						"points": 20
 					},
 					{
 						"name": "Recce",
@@ -88988,7 +88988,7 @@
 					{
 						"name": "Pintle Mounted MMG",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"point": 20
+						"points": 20
 					},
 					{
 						"name": "Recce",
