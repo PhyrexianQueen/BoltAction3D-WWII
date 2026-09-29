@@ -887,6 +887,94 @@
 				]
 			},
 			{
+				"name": "Right Facing Light AT Gun (F1)",
+				"range": 48,
+				"shots": 1,
+				"pen": "+4",
+				"he": 1,
+				"specialRules": ["Right Arc","HE 1in","Anti-Tank Gun"]
+			},
+			{
+				"name": "Left Facing Light AT Gun (F2)",
+				"range": 48,
+				"shots": 1,
+				"pen": "+4",
+				"he": 1,
+				"specialRules": ["Left Arc","HE 1in","Anti-Tank Gun"]
+			},
+			{
+				"name": "Right Facing Medium AT Gun (F1)",
+				"range": 60,
+				"shots": 1,
+				"pen": "+5",
+				"he": 1,
+				"specialRules": ["Right Arc","HE 1in","Anti-Tank Gun"]
+			},
+			{
+				"name": "Left Facing Medium AT Gun (F2)",
+				"range": 60,
+				"shots": 1,
+				"pen": "+5",
+				"he": 1,
+				"specialRules": ["Left Arc","HE 1in","Anti-Tank Gun"]
+			},
+			{
+				"name": "Left Facing LMG (B2)",
+				"range": 36,
+				"shots": 4,
+				"pen": 0,
+				"specialRules": ["Left Arc"]
+			},
+			{
+				"name": "Left Facing MMG (B2)",
+				"range": 36,
+				"shots": 6,
+				"pen": 0,
+				"specialRules": ["Left Arc"]
+			},
+			{
+				"name": "Right Facing LMG (B1)",
+				"range": 36,
+				"shots": 4,
+				"pen": 0,
+				"specialRules": ["Right Arc"]
+			},
+			{
+				"name": "Right Facing MMG (B1)",
+				"range": 36,
+				"shots": 6,
+				"pen": 0,
+				"specialRules": ["Right Arc"]
+			},
+			{
+				"name": "Left Facing LMG (D2)",
+				"range": 36,
+				"shots": 4,
+				"pen": 0,
+				"specialRules": ["Left Arc"]
+			},
+			{
+				"name": "Left Facing MMG (D2)",
+				"range": 36,
+				"shots": 6,
+				"pen": 0,
+				"specialRules": ["Left Arc"]
+			},
+			{
+				"name": "Right Facing LMG (D1)",
+				"range": 36,
+				"shots": 4,
+				"pen": 0,
+				"specialRules": ["Right Arc"]
+			},
+			{
+				"name": "Right Facing MMG (D1)",
+				"range": 36,
+				"shots": 6,
+				"pen": 0,
+				"specialRules": ["Right Arc"]
+			},
+			{
 				"name": "Nose Mounted Light Autocannon",
 				"range": 72,
 				"shots": 2,
@@ -1780,6 +1868,20 @@
 				"shots": 2,
 				"pen": 0,
 				"specialRules": ["360° Arc"]
+			},
+			{
+				"name": "LMG in Side Arc Firing Port",
+				"range": 36,
+				"shots": 2,
+				"pen": 0,
+				"specialRules": ["Side Arcs"]
+			},
+			{
+				"name": "Rifle in Side Arc Firing Port",
+				"range": 24,
+				"shots": 1,
+				"pen": 0,
+				"specialRules": ["Side Arcs"]
 			},
 			{
 				"name": "Turret Mounted Twin LMGs",
@@ -2758,7 +2860,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 1,
-				"specialRules": ["Indirect Fire","HE 1in"]
+				"specialRules": ["Indirect Fire","HE 1in","Team Weapon"]
 			},
 			{
 				"name": "Light Mortar Team",
@@ -2766,7 +2868,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 1,
-				"specialRules": ["Indirect Fire","HE 1in"]
+				"specialRules": ["Indirect Fire","HE 1in","Team Weapon"]
 			},
 			{
 				"name": "Medium Mortar",
@@ -2774,10 +2876,10 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 2,
-				"specialRules": ["Indirect Fire","HE 2in"]
+				"specialRules": ["Indirect Fire","HE 2in","Team Weapon"]
 			},
 			{
-				"name": "Hull Moutned Medium Mortar",
+				"name": "Hull Mounted Medium Mortar",
 				"range": "12-60",
 				"shots": 1,
 				"pen": "HE",
@@ -2814,7 +2916,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 3,
-				"specialRules": ["Indirect Fire","HE 3in"]
+				"specialRules": ["Indirect Fire","HE 3in","Team Weapon"]
 			},
 			{
 				"name": "Heavy Mortar Team",
@@ -2847,7 +2949,7 @@
 				"shots": 1,
 				"pen": "+4",
 				"he": 1,
-				"specialRules": ["Fixed","HE 1in","Team Weapon"]
+				"specialRules": ["Fixed","HE 1in","Team Weapon","Anti-Tank Gun"]
 			},
 			{
 				"name": "Panzerbüchse 41 Team",
@@ -2863,7 +2965,7 @@
 				"shots": 1,
 				"pen": "+3",
 				"he": 1,
-				"specialRules": ["Fixed","HE 1in","Team Weapon","Low Velocity"]
+				"specialRules": ["Fixed","HE 1in","Team Weapon","Low Velocity","Anti-Tank Gun"]
 			},
 			{
 				"name": "Medium AT Gun Team",
@@ -2871,7 +2973,7 @@
 				"shots": 1,
 				"pen": "+5",
 				"he": 1,
-				"specialRules": ["Fixed","HE 1in","Team Weapon"]
+				"specialRules": ["Fixed","HE 1in","Team Weapon","Anti-Tank Gun"]
 			},
 			{
 				"name": "Heavy AT Gun Team",
@@ -2879,7 +2981,15 @@
 				"shots": 1,
 				"pen": "+6",
 				"he": 2,
-				"specialRules": ["Fixed","HE 2in","Team Weapon"]
+				"specialRules": ["Fixed","HE 2in","Team Weapon","Anti-Tank Gun"]
+			},
+			{
+				"name": "Rotating Platform Mounted Heavy AT Gun",
+				"range": 72,
+				"shots": 1,
+				"pen": "+6",
+				"he": 2,
+				"specialRules": ["360° Arc","HE 2in","Flak","Team Weapon","Anti-Tank Gun","Improvised Role"]
 			},
 			{
 				"name": "Super Heavy AT Gun Team",
@@ -2887,7 +2997,7 @@
 				"shots": 1,
 				"pen": "+7",
 				"he": 3,
-				"specialRules": ["Fixed","HE 2in","Team Weapon"]
+				"specialRules": ["Fixed","HE 2in","Team Weapon","Anti-Tank Gun"]
 			},
 			{
 				"name": "Super Heavy AT Gun Team with Massive Shells",
@@ -2895,7 +3005,7 @@
 				"shots": 1,
 				"pen": "+7",
 				"he": 3,
-				"specialRules": ["Fixed","HE 2in","Team Weapon","Massive Shells"]
+				"specialRules": ["Fixed","HE 2in","Team Weapon","Massive Shells","Anti-Tank Gun"]
 			},
 			{
 				"name": "Super Heavy AT Gun Team with Light HE",
@@ -2903,7 +3013,7 @@
 				"shots": 1,
 				"pen": "+7",
 				"he": 1,
-				"specialRules": ["Rixed","HE 1in","Team Weapon","Anti-Tank Gun"]
+				"specialRules": ["Rixed","HE 1in","Team Weapon","Anti-Tank Gun","Anti-Tank Gun"]
 			},
 			{
 				"name": "Light Howitzer Team",
@@ -2961,6 +3071,13 @@
 				"range": 36,
 				"shots": 6,
 				"pen": "+1"
+			},
+			{
+				"name": "Pintle Mounted MMG w/ Panserpatroner",
+				"specialRules": ["360° Arc","Flak","Panserpatroner"],
+				"range": 36,
+				"shots": 3,
+				"pen": 0
 			},
 			{
 				"name": "AT Rifle",
@@ -3098,6 +3215,15 @@
 				"pen": "HE",
 				"he": 1,
 				"specialRules": ["Indirect","HE 1in"]
+			},
+			{
+				"name": "m/23 Rifle Greande",
+				"definition": "",
+				"range": "6-24",
+				"shots": 1,
+				"pen": "HE",
+				"he": 1,
+				"specialRules": ["Indirect Fire","HE 1in","Team Weapon"]
 			},
 			{
 				"name": "Grb-39 Grenade Launcher",
@@ -3346,6 +3472,40 @@
 				]
 			},
 			{
+				"name": "Upgrade to German MMG",
+				"range": 36,
+				"shots": 7,
+				"pen": 0,
+				"specialRules": ["Front Arc","Flak","Hitler's Buzzsaw"],
+				"adjustlocalQuantities": [
+					{
+						"key": "LMG",
+						"quantity": -1
+					},
+					{
+						"property": "German MMG",
+						"quantity": 1
+					}
+				]
+			},
+			{
+				"name": "Upgrade LMG to MG34",
+				"range": 36,
+				"shots": 5,
+				"pen": 0,
+				"specialRules": ["Front Arc","Flak","Hitler's Buzzsaw"],
+				"adjustlocalQuantities": [
+					{
+						"key": "LMG",
+						"quantity": -1
+					},
+					{
+						"property": "German LMG",
+						"quantity": 1
+					}
+				]
+			},
+			{
 				"name": "Upgrade LMG to MG42 w/ Hitler's Buzzsaw",
 				"range": 36,
 				"shots": 5,
@@ -3406,6 +3566,32 @@
 					},
 					{
 						"property": "LMG and Pistol",
+						"quantity": 1
+					}
+				]
+			},
+			{
+				"name": "Versatile Crew LMG",
+				"definition": "After a target for the Turret Mounted MMG is declared, LMG may be fired at a target in either the Left or Right Arc of the current facing of the turret; Unofficial Content for Bolt Action, 3rd Edition No Peace in Our Time v.1.1 PDF: Pg. 28",
+				"range": 36,
+				"shots": 2,
+				"pen": 0,
+				"specialRules": []
+			},
+			{
+				"name": "MMG Upgrade",
+				"definition": "An additional mini becomes a SECOND loader. Can only fire on a Fire Order, cannot fire on an Advance, even if rotating; Unofficial Content for Bolt Action, 3rd Edition No Peace in Our Time v.1.1 PDF: Pg. 15",
+				"specialRules": ["Team Weapon"],
+				"range": 36,
+				"shots": 6,
+				"pen": 0,
+				"adjustlocalQuantities": [
+					{
+						"key": "primary",
+						"quantity": -1
+					},
+					{
+						"property": "MMG",
 						"quantity": 1
 					}
 				]
@@ -3646,7 +3832,7 @@
 				]
 			},
 			{
-				"name": "Pistol for Unarmed Men",
+				"name": "Pistols for the Unarmed Men",
 				"specialRules": [],
 				"range": 6,
 				"shots": 1,
@@ -3927,6 +4113,40 @@
 				]
 			},
 			{
+				"name": "AT Explosive Weapon",
+				"range": "-",
+				"shots": "-",
+				"pen": "+8",
+				"specialRules": ["Self Sacrifice","Tank Hunters"],
+				"adjustlocalQuantities": [
+					{
+						"key": "primary",
+						"quantity": -1
+					},
+					{
+						"property": "Lunge Explosive",
+						"quantity": 1
+					}
+				]
+			},
+			{
+				"name": "AT Mine",
+				"range": "-",
+				"shots": "-",
+				"pen": "+8",
+				"specialRules": ["Self Sacrifice"],
+				"adjustlocalQuantities": [
+					{
+						"key": "primary",
+						"quantity": -1
+					},
+					{
+						"property": "Lunge Explosive",
+						"quantity": 1
+					}
+				]
+			},
+			{
 				"name": "Lunge Explosive",
 				"range": "-",
 				"shots": "-",
@@ -4056,6 +4276,57 @@
 					},
 					{
 						"property": "Rifle",
+						"quantity": 1
+					}
+				]
+			},
+			{
+				"name": "Rifles and Swords",
+				"specialRules": ["Tough Fighters"],
+				"range": 24,
+				"shots": 1,
+				"pen": 0,
+				"adjustlocalQuantities": [
+					{
+						"key": "primary",
+						"quantity": -1
+					},
+					{
+						"property": "Rifles and Swords",
+						"quantity": 1
+					}
+				]
+			},
+			{
+				"name": "NCO Black-Powder Rifle ",
+				"specialRules": ["Disorienting"],
+				"range": 24,
+				"shots": 1,
+				"pen": 0,
+				"adjustlocalQuantities": [
+					{
+						"key": "NCO",
+						"quantity": -1
+					},
+					{
+						"property": "NCO Black-Powder Rifle",
+						"quantity": 1
+					}
+				]
+			},
+			{
+				"name": "Black-Powder Rifle",
+				"specialRules": ["Disorienting"],
+				"range": 24,
+				"shots": 1,
+				"pen": 0,
+				"adjustlocalQuantities": [
+					{
+						"key": "primary",
+						"quantity": -1
+					},
+					{
+						"property": "Black-Powder Rifle",
 						"quantity": 1
 					}
 				]
@@ -4270,6 +4541,10 @@
 				"specialRules": ["Flak"]
 			},
 			{
+				"name": "Rotating AA Chasis",
+				"specialRules": ["Flak"]
+			},
+			{
 				"name": "Add Schürzen Armor Skirts",
 				"definition": "AT Rifles and weapons with Shaped Charges never get the +1 Pen when hitting this Vehicle in the Side Arc; Bolt Action, 3rd Edition Armies of Germany Book: Pg. 25",
 				"specialRules": []
@@ -4277,6 +4552,24 @@
 			{
 				"name": "Schurzen Skirts",
 				"definition": "AT Rifles and weapons with Shaped Charges never get the +1 Pen when hitting this Vehicle in the Side Arc; Bolt Action, 3rd Edition Armies of Germany Book: Pg. 25",
+				"specialRules": []
+			},
+			{
+				"name": "Anti-Vehicle Mount",
+				"specialRules": ["Fixed Front","Anti-Tank Gun"]
+			},
+			{
+				"name": "Platform Mount",
+				"specialRules": ["360° Arc","Flak"]
+			},
+			{
+				"name": "Pintle Mount",
+				"specialRules": ["Fixed Front","Flak"]
+			},
+			{
+				"name": "Command Bunker",
+				"definition": "As long as the command bunker has no pins, the command bunker may 'Snap To' and apply their morale bonus of +1 to any other friendly bunker on the table. For each other bunker you 'Snap To', you fire one less weapon; Unofficial Content for Bolt Action, 3rd Edition Noe Peace in Our Time v.1.1 PDF: Pg. 35",
+				"validationKeys": ["CommandBunker"],
 				"specialRules": []
 			},
 			{
@@ -4341,8 +4634,18 @@
 				"specialRules": []
 			},
 			{
+				"name": "Reinforced Rear Armor",
+				"definition": "Shots to the Rear add only +1 to Pen Bonus; Unofficial Content for Bolt Action, 3rd Edition Zurn Central Packet: Pg. 73",
+				"specialRules": []
+			},
+			{
 				"name": "Bulldozer Blades",
 				"definition": "Give this vehicle a Down Order to clear obstacles or fill anti-tank ditches. This gap becomes rough ground. This vehicle can assault Buildings and is treated as a Super Heavy Tank; Bolt Action, 3rd Edition Armies of the United States of America Army Book: Pg. 65",
+				"specialRules": []
+			},
+			{
+				"name": "Retractable Wheels",
+				"definition": "Treats Rails as if they are on Roads. Can only switch between modes when issuing a Down Order; Unofficial Content for Bolt Action, 3rd Edition The Limit of Endurance v.2.1 PDF: Pg. 79",
 				"specialRules": []
 			},
 			{
@@ -4665,9 +4968,28 @@
 				"specialRules": ["Blitzkrieg"]
 			},
 			{
+				"name": "Thin Sides",
+				"definition": "Unit Suffers +2 Pen from the sides, instead of +1; Unofficial Content for Bolt Action, 3rd Edition Zurn Central PDF: Pg. 55",
+				"specialRules": []
+			},
+			{
+				"name": "Armored Crew Space",
+				"definition": "Remove Open Topped; Unofficial Content for Bolt Action, 3rd Edition The Limit of Endurance v.2.1 PDF: Pg. 35",
+				"specialRules": []
+			},
+			{
+				"name": "Open Topped Crew Space",
+				"definition": "Add Open Topped; Unofficial Content for Bolt Action, 3rd Edition The Limit of Endurance v.2.1 PDF: Pg. 35",
+				"specialRules": ["Open Topped"]
+			},
+			{
 				"name": "Desert Mounted Infantry",
 				"definition": "When mounted, cannot make Mounted Charges. Ignores movement penalties for moving through any terrain feature designated as Desert Terrain. All Mandatory units must be mounted on mules, horses, or camels; Bolt Action, 3rd Edition Armies of the Commonwealth Army Book: Pg. 44",
 				"specialRules": ["Desert Fighters","Cavalry"]
+			},
+			{
+				"name": "Mountain Engineer",
+				"specialRules": ["Fieldcraft"]
 			},
 			{
 				"name": "War of Resistance (Surprise Troops) ",
@@ -4817,6 +5139,24 @@
 				"specialRules": []
 			},
 			{
+				"name": "Panserpatroner",
+				"definition": "Can Pin Inexperienced or Regular Vehicles as if they were Open-Topped; Unofficial Content for Bolt Action, 3rd Edition A Brief Encounter v.1.5 PDF: Pg. 23"
+			},
+			{
+				"name": "Protracted People's War (Guerillas)",
+				"definition": "Units set up on the table before Tun 1 may start the game already in Ambush; Unofficial Content for Bolt Action, 3rd Edition The Limit of Endurance v.2.1 PDF: Pg. 65",
+				"specialRules": ["Fieldcraft","Behind Enemy Lines"]
+			},
+			{
+				"name": "Protracted People's War (88th Independent Brigade)",
+				"definition": "Considered Airborne for Combat Jump Rules (BA 3rd Edition Rulebook: pg. 282); Unofficial Content for Bolt Action, 3rd Edition The Limit of Endurance v.2.1 PDF: Pg. 65",
+				"specialRules": ["Stubborn"]
+			},
+			{
+				"name": "Protracted People's War (Korean Resistance Fighters)",
+				"specialRules": ["Fanatics"]
+			},
+			{
 				"name": "Avanti! (Alpini)",
 				"definition": "Bolt Action, 3rd Edition Armies of Italy Army Book: Pg. 21",
 				"specialRules": ["Fieldcraft","Winter Equipment"]
@@ -4930,12 +5270,20 @@
 				"definition": "Can Fire Forward, Left, and Right Arcs; Bolt Action, 3rd Edition: Pg. 135"
 			},
 			{
+				"name": "Side Arcs",
+				"definition": "Can in the Left and Right Arcs; Bolt Action, 3rd Edition: Pg. 135"
+			},
+			{
 				"name": "Rear Arc",
 				"definition": "Can Fire to the Rear Arc; Bolt Action, 3rd Edition: Pg. 135"
 			},
 			{
 				"name": "Rear and Side Arcs",
 				"definition": "Can Fire to the Rear, Left, and Right Arcs; Bolt Action, 3rd Edition: Pg. 135"
+			},
+			{
+				"name": "Panserpatroner",
+				"definition": "Can Pin Inexperienced or Regular Vehicles as if they were Open-Topped; Unofficial Content for Bolt Action, 3rd Edition A Brief Encounter v.1.5 PDF: Pg. 23"
 			},
 			{
 				"name": "Vickers K",
@@ -5206,6 +5554,10 @@
 				"definition": "See Full Rules; Bolt Action, 3rd Edition: Pg. 97"
 			},
 			{
+				"name": "Self Sacrifice",
+				"definition": "If this model assaults an enemy vehicle and the model manages to make contact with the target, remove it and immediately resolve a hit against the vhiecle; Unofficial Content for Bolt Action, 3rd Edition The Limit of Endurance v.2.1 PDF: Pg. 79"
+			},
+			{
 				"name": "High Explosive",
 				"definition": "See Full Rules; Bolt Action, 3rd Edition: Pg. 97"
 			},
@@ -5307,7 +5659,7 @@
 			},
 			{
 				"name": "Open Topped",
-				"definition": "Takes Pins from any hits. Additional +1 to Pen and +1 to Damage against top armor; Bolt Action, 3rd Edition: Pg. 149"
+				"definition": "Takes Pins from any hits. Additional +1 to Pen and +1 to Damage against Armored Crew Space; Bolt Action, 3rd Edition: Pg. 149"
 			},
 			{
 				"name": "Bicycles",
@@ -5383,6 +5735,10 @@
 				"definition": "When rolling cover saves, as long as the unit does not have an Advance or Run order, it receives an additional +1 to the roll. Can benefit from special deployment rules, per scenarios; Bolt Action, 3rd Edition: Pg. 120"
 			},
 			{
+				"name": "Disorienting",
+				"definition": "Whenever this unit shoots, it receives 1 pin; Unofficial Content for Bolt Action, 3rd Edition The Limit of Endurance v.2.1 PDF: Pg. 6"
+			},
+			{
 				"name": "Skis",
 				"definition": "Troops ignore movement penalties for Snow or Winter Conditions; Bolt Action, 3rd Edition: Pg. ---"
 			},
@@ -5432,7 +5788,7 @@
 			},
 			{
 				"name": "One-Man Turret",
-				"definition": "Pinned by hits from Small Arms. During an assault, destroyed automatically if damaged. Hits on top armor add additional +1 Pen and +1 to Damage Result; Bolt Action, 3rd Edition: Pg. 149"
+				"definition": "Pinned by hits from Small Arms. During an assault, destroyed automatically if damaged. Hits on Armored Crew Space add additional +1 Pen and +1 to Damage Result; Bolt Action, 3rd Edition: Pg. 149"
 			},
 			{
 				"name": "Recce",
@@ -10009,7 +10365,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["Behind Enemy Lines","Ambush Tactics","Jungle Warefare Experts","Tough Fighters","Infiltration Master"],
+				"keywords": ["Behind Enemy Lines","Ambush Tactics","Jungle Warfare Experts","Tough Fighters","Infiltration Master"],
 				"periods": ["latePeriod"],
 				"specialText": "Bolt Action 3rd Edition Compendium;\n Period: L\n 1 Officer",
 				"equipment": ["Rifles"]
@@ -10085,7 +10441,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["Behind Enemy Lines","Ambush Tactics","Jungle Warefare Experts","Tactical Control","Follow Me!","Demolitions Expert"],
+				"keywords": ["Behind Enemy Lines","Ambush Tactics","Jungle Warfare Experts","Tactical Control","Follow Me!","Demolitions Expert"],
 				"periods": ["latePeriod"],
 				"specialText": "Bolt Action 3rd Edition Compendium;\n Period: L\n 1 Officer",
 				"equipment": ["Rifles","Demolition Charges"]
@@ -10161,7 +10517,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["Behind Enemy Lines","Ambush Tactics","Jungle Warefare Experts","Master of Men's Hearts"],
+				"keywords": ["Behind Enemy Lines","Ambush Tactics","Jungle Warfare Experts","Master of Men's Hearts"],
 				"periods": ["latePeriod"],
 				"specialText": "Bolt Action 3rd Edition Compendium;\n Period: L\n 1 Officer",
 				"equipment": ["Rifles"]
@@ -14842,7 +15198,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
 					},
 					{
-						"name": "SGMs",
+						"name": "SMGs",
 						"points": 4,
 						"increment": true,
 						"max": "parentModels",
@@ -16463,7 +16819,7 @@
 						"availableIn":[
 							"Australia",
 							"Canada",
-							"Chinese Central Army (GKZ)",			
+							"Chinese Central Army (GKZ)",
 							"Chinese Expeditionary Force (GKZ)",
 							"Chinese Warlords - Guangxi Clique (GKZ)",
 							"Chinese Warlords - Ma Clique (GKZ)",
@@ -17591,7 +17947,8 @@
 							"India",
 							"New Zealand",
 							"South Africa",
-							"Sweden (PL)"
+							"Sweden (PL)",
+							"United States of America"
 						]
 					},
 					{
@@ -17619,7 +17976,8 @@
 							"India",
 							"New Zealand",
 							"South Africa",
-							"Sweden (PL)"
+							"Sweden (PL)",
+							"United States of America"
 						]
 					},
 					{
@@ -20916,7 +21274,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["Self Sacrifice","Tank Hunters","Infiltrators"],
+				"keywords": ["Infiltrators"],
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
 				"specialText": "1 Soldier",
 				"equipment": ["AT Explosive Weapon"]
@@ -21027,7 +21385,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["Self Sacrifice","Tank Hunters","Infiltrators"],
+				"keywords": ["Infiltrators"],
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
 				"specialText": "1 Soldier",
 				"equipment": ["AT Explosive Weapon"]
@@ -24078,7 +24436,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["Hi Rate of Fire","Fixed"],
+				"keywords": ["High Rate of Fire","Fixed"],
 				"periods": ["earlyPeriod","middlePeriod"],
 				"specialText": "Period: E|M\n 1 Soldier \n 1 Weapon Assistant",
 				"equipment": ["AT Rifle Team"]
@@ -24235,7 +24593,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["Hi Rate of Fire","Fixed"],
+				"keywords": ["High Rate of Fire","Fixed"],
 				"periods": ["earlyPeriod","middlePeriod"],
 				"specialText": "Period: E|M\n 1 Soldier \n 1 Weapon Assistant",
 				"equipment": ["AT Rifle Team"]
@@ -38269,7 +38627,7 @@
 						"requireChooseOneKey": "morale"
 					},
 					{
-						"name": "Pintle Mounted Tripod",
+						"name": "Pintle Mount",
 						"points": 5,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
 					},
@@ -38350,7 +38708,7 @@
 						]
 					},
 					{
-						"name": "Pintle Mounted Tripod",
+						"name": "Pintle Mount",
 						"points": 5,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"availableIn": [
@@ -41364,7 +41722,7 @@
 					{
 						"name": "Infantry LMGs",
 						"points": 15,
-						"unavailableWithLocal": ["Czechoslovak Republic MMG Squad"],
+						"unavailableWithLocal": ["MMG Upgrade"],
 						"increment": true,
 						"unlockedByLocal": ["Regular","Veteran"],
 						"max": "parentModels",
@@ -41372,7 +41730,7 @@
 						"localLimit": 1
 					},
 					{
-						"name": "Czechoslovak Republic MMG Squad",
+						"name": "MMG Upgrade",
 						"points": 20,
 						"unavailableWithLocal": ["LMG"],
 						"increment": true,
@@ -41907,7 +42265,7 @@
 						"addsModels": 1
 					},
 					{
-						"name": "Pistol for Unarmed Men",
+						"name": "Pistols for the Unarmed Men",
 						"points": 1,
 						"increment": true,
 						"max": "Additional Unarmed Men",
@@ -53471,7 +53829,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["Behind Enemy Lines","Ambush Tactics","Jungle Warefare Experts","Engineers"],
+				"keywords": ["Behind Enemy Lines","Ambush Tactics","Jungle Warfare Experts","Engineers"],
 				"periods": ["latePeriod"],
 				"specialText": "Period: L\n 1 NCO\n 4 Soldiers",
 				"equipment": ["Demolitions Charge","Rifles"]
@@ -91108,7 +91466,7 @@
 						"requireChooseOneKey": "morale"
 					},
 					{
-						"name": "Top Armor",
+						"name": "Armored Crew Space",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 5,
 						"requireChooseOneKey": "top"
@@ -91169,7 +91527,7 @@
 						"requireChooseOneKey": "morale"
 					},
 					{
-						"name": "Top Armor",
+						"name": "Armored Crew Space",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"points": 5,
 						"requireChooseOneKey": "top"
