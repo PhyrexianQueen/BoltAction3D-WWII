@@ -2357,6 +2357,13 @@
 				"specialRules": ["Front Arc","Flak"]
 			},
 			{
+				"name": "Front Facing Pintle Mounted HMG",
+				"range": 36,
+				"shots": 3,
+				"pen": "+1",
+				"specialRules": ["Front Arc","Flak"]
+			},
+			{
 				"name": "Rear Facing Pintle Mounted MMG",
 				"range": 36,
 				"shots": 3,
@@ -88986,9 +88993,19 @@
 						"requireChooseOneKey": "morale"
 					},
 					{
-						"name": "Pintle Mounted MMG",
+						"name": "Right Facing Pintle Mounted HMG ",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"points": 20
+						"points": 15
+					},
+					{
+						"name": "Left Facing Pintle Mounted HMG ",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15
+					},
+					{
+						"name": "Rear Facing Pintle Mounted HMG ",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15
 					},
 					{
 						"name": "Recce",
@@ -89003,7 +89020,7 @@
 				"keywords": ["Transport","Open Topped","Tow"],
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
 				"specialText": "Period: E|M|L\n Damage Value: 7+\n Transport: 10\n Tow: L/M/H AT Gun, L/M Howitzer, L/H AA Gun\n Half-Track Vehicle",
-				"equipment": ["Front Facing Pintle Mounted HMG"]
+				"equipment": ["Pintle Mounted HMG"]
 			},
 			{
 				"name": "M3 Half-Track",
@@ -89091,7 +89108,7 @@
 				"keywords": ["Transport","Tow","Open Topped"],
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
 				"specialText": "Period: E|M|L\n Damage Value: 7+\n Transport: 12\n Tow: L/M/H AT Gun, L/M Howitzer, L/H AA Gun\n Half-Track Vehicle",
-				"equipment": []
+				"equipment": ["Pintle Mounted HMG"]
 			},
 			{
 				"name": "M29 'Weasel' Tracked Transport",
