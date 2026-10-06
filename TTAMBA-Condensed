@@ -6,6 +6,13 @@
 "disallowMultipleFactions": true,
 "singleFaction": true,
 "appVersion": 2,
+"tournamentSubmissionConfig": {
+    "factionLabel": "Nation",
+    "keywordsLabel": "Keywords/Equip",
+    "keywordProperties": ["equipment", "keywords"],
+    "groupLabel": "Platoons",
+    "specialTextIncludes": "Damage Value"
+  },
 "credit": [
 	{
 		"type": "text",
