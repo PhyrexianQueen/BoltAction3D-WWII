@@ -279,7 +279,7 @@
 				"name": "Australia",
 				"alignment": "Allies",
 				"additionalRules": [
-					"Never Give Up - When assaulted in close quarters, Australian infantry and artillery units count as having the Fanatics special rule until the conclusion of the close quarters combat or reduced to a single model; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 15","Aggressive Patrolling - Before Infiltrators stage of the 'Start of the Game' phase, you may deploy any and all of your Infiltrators first, except against another army with the same rule. For any of your Infiltrators not deployed, place them in the order bag as normal. In addition, one infantry section with no more than 5 men per Rifle Platoon may be upgraded with the Infiltrator Special Rule; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 16","Ambush Drills - Australian infantry units may always react to enemy Ambush fire by going Down. Unit stops where the Ambush was decalred and completes its activation. Place the order dice on a Down order. Then Complete the Ambush as normal. Australian Infantry who have already acted may still react by going Down to an Ambush fire made at the end of the turn by a unit which rolls a 4+; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 15"
+					"Never Give Up - When assaulted in close quarters, Australian infantry and artillery units count as having the Fanatics special rule until the conclusion of the close quarters combat or reduced to a single model; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 15","Aggressive Patrolling - Before Infiltrators stage of the 'Start of the Game' phase, you may deploy any and all of your Infiltrators first, except against another army with the same rule. For any of your Infiltrators not deployed, place them in the order bag as normal. In addition, one infantry section with no more than 5 men per Rifle Platoon may be upgraded with the Infiltrator Special Rule; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 16","Ambush Drills - Australian infantry units may always react to enemy Ambush fire by going Down. Unit stops where the Ambush was decalred and completes its activation. Place the order dice on a Down order. Then Complete the Ambush as normal. Australian Infantry who have already acted may still react by going Down to an Ambush fire made at the end of the turn by a unit which rolls a 4+; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 15"
 				]
 			},
 			{
@@ -294,7 +294,7 @@
 				"name": "Canada",
 				"alignment": "Allies",
 				"additionalRules": [
-					"Dogged - All Canadian Infantry and Artillery Units that start the game with or are reduced to 3 or Fewer models gain Stubborn. If they already have Stubborn, they gain Fanatics instead; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 30","Highly Motivated - If a Canadian unit is within 12in of an enemy model, their Order Tests are -1; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 30","Flame Warfare - A Rifle Section per Rifle Platoon may be given a Flamethrower but Infantry Units in the Engineer Platoons may not include Flamethrowers; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 30","Browning Machine Guns - Gain access to MMG/HMG Pintle Upgrades; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 30","Airborne - Some Commonwealth units may be taken as Airborne; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 30"
+					"Dogged - All Canadian Infantry and Artillery Units that start the game with or are reduced to 3 or Fewer models gain Stubborn. If they already have Stubborn, they gain Fanatics instead; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 30","Highly Motivated - If a Canadian unit is within 12in of an enemy model, their Order Tests are -1; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 30","Flame Warfare - A Rifle Section per Rifle Platoon may be given a Flamethrower but Infantry Units in the Engineer Platoons may not include Flamethrowers; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 30","Browning Machine Guns - Gain access to MMG/HMG Pintle Upgrades; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 30","Airborne - Some Commonwealth units may be taken as Airborne; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 30"
 				]
 			},
 			{
@@ -406,7 +406,7 @@
 				"name": "East Africa Command",
 				"alignment": "Allies",
 				"additionalRules": [
-					"Pangas - All non-HQ Infantry and Artillery Units are Tough Fighters; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 43","Local Area Control - Outflanking EAC Infantry Units may enter anywhere on the chosen side or Enemy's own Table Edge, regardless of turn it became available; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 44","Scouts - A Single Rifle Platoon may be desingated as a Scout Platoon and gain the ability to take Infiltrator special rule if they have 5 or less models. Mandatory Units for +1 per Model, Optional Units for +2 per Model; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 44","Desert Mounted Infantry - All Infantry Units within Rifle, Heavy Weapons or Recce Platoons may be upgraded to Desert Mounted Infantry for +3 per Model; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 44","Nigerian Chindits - Select Squads may be taken as Nigerian Chindits; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 44"
+					"Pangas - All non-HQ Infantry and Artillery Units are Tough Fighters; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 43","Local Area Control - Outflanking EAC Infantry Units may enter anywhere on the chosen side or Enemy's own Table Edge, regardless of turn it became available; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 44","Scouts - A Single Rifle Platoon may be desingated as a Scout Platoon and gain the ability to take Infiltrator special rule if they have 5 or less models. Mandatory Units for +1 per Model, Optional Units for +2 per Model; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 44","Desert Mounted Infantry - All Infantry Units within Rifle, Heavy Weapons or Recce Platoons may be upgraded to Desert Mounted Infantry for +3 per Model; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 44","Nigerian Chindits - Select Squads may be taken as Nigerian Chindits; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 44"
 				]
 			},
 			{
@@ -452,7 +452,7 @@
 				"name": "India",
 				"alignment": "Allies",
 				"additionalRules": [
-					"Superior Endurance - If an Infantry Unit fails a Morale Check, reroll it and apply the second result; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 57","Shared Knowledge - Inexperienced Indian Infantry units have the Green Special rule and may reroll the Green Test; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 57","Mountain Experts - Any Indian Infantry unit may be upgraded to have Fieldcraft for +1 per model; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 57","Ayo Gurkhali! - Some units may be taken as Gurkhas; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 57"
+					"Superior Endurance - If an Infantry Unit fails a Morale Check, reroll it and apply the second result; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 57","Shared Knowledge - Inexperienced Indian Infantry units have the Green Special rule and may reroll the Green Test; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 57","Mountain Experts - Any Indian Infantry unit may be upgraded to have Fieldcraft for +1 per model; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 57","Ayo Gurkhali! - Some units may be taken as Gurkhas; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 57"
 				]
 			},
 			{
@@ -503,7 +503,7 @@
 				"name": "New Zealand",
 				"alignment": "Allies",
 				"additionalRules": [
-					"Steadfast Under Fire - When rolling for the result of multiple Pin Markers caused by a single source against New Zealand infantry units, reduce the result by 1 to a minimum of 1; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 67","Aggressive Patrolling - Before Infiltrators stage of the 'Start of the Game' section, you may deploy any and all of your Infiltrators first, except against an enemy with the same rule. Infiltrators that did not use this rule may be put into a bag and deployed in the normal Infiltrator stage, or held as First Wave/Reserve as desired. One infantry section of up to 5 men per Rifle Platoon may be upgraded with the Infiltrator specil rule for +1 per Model; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 67","Māori - Must be taken as Reg or Vet and can take Māori for +2 pts per Model. They gain Tough Fighters and Kā mate! Kā ora!; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 67"
+					"Steadfast Under Fire - When rolling for the result of multiple Pin Markers caused by a single source against New Zealand infantry units, reduce the result by 1 to a minimum of 1; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 67","Aggressive Patrolling - Before Infiltrators stage of the 'Start of the Game' section, you may deploy any and all of your Infiltrators first, except against an enemy with the same rule. Infiltrators that did not use this rule may be put into a bag and deployed in the normal Infiltrator stage, or held as First Wave/Reserve as desired. One infantry section of up to 5 men per Rifle Platoon may be upgraded with the Infiltrator specil rule for +1 per Model; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 67","Māori - Must be taken as Reg or Vet and can take Māori for +2 pts per Model. They gain Tough Fighters and Kā mate! Kā ora!; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 67"
 				]
 			},
 			{
@@ -551,7 +551,7 @@
 				"name": "South Africa",
 				"alignment": "Allies",
 				"additionalRules": [
-					"Turn the Flank - Your vehicles get a +1 modifier to Order Test when entering from Reserve or Outflanking instead of -1; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 75","Close-In Air Support - When rolling on the Air Strike Table, you may reroll the die; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 75","Shells, Not Lives - When rolling on the Artillery Barrage Table or the Smoke Barrage Table, you may reroll the die; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 75","Up-Gunned Italian Campaign Vehicles - Mid and Late War Shermans and Unniversal Carriers may take additional HMG options; Bolt Action, 3rd Edition Armies of the British Commonwealth Book: Pg. 75"
+					"Turn the Flank - Your vehicles get a +1 modifier to Order Test when entering from Reserve or Outflanking instead of -1; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 75","Close-In Air Support - When rolling on the Air Strike Table, you may reroll the die; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 75","Shells, Not Lives - When rolling on the Artillery Barrage Table or the Smoke Barrage Table, you may reroll the die; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 75","Up-Gunned Italian Campaign Vehicles - Mid and Late War Shermans and Unniversal Carriers may take additional HMG options; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 75"
 				]
 			},
 			{
@@ -858,6 +858,7 @@
 				"adjustlocalQuantities": [
 					{
 						"key": "secondary",
+						"property": "Unarmed Soldier",
 						"quantity": 1
 					}
 				]
@@ -1401,6 +1402,15 @@
 				"pen": "+7",
 				"he": 1,
 				"specialRules": ["Front Arc","HE 1in","Anti-Tank Gun"]
+			},
+			{
+				"name": "Hull Mounted Super Heavy AT Gun with Heavy Shell",
+				"definition": "Does not suffer the -1 Penetration Penalty when shooting beyond half range;",
+				"range": 84,
+				"shots": 1,
+				"pen": "+7",
+				"he": 3,
+				"specialRules": ["Front Arc","HE 3in","Anti-Tank Gun"]
 			},
 			{
 				"name": "Rear Facing Hull Mounted Super Heavy AT Gun with Light HE",
@@ -2949,6 +2959,15 @@
 				"specialRules": ["Indirect Fire","Team Weapon","HE 4in","Fixed"]
 			},
 			{
+				"name": "30.5cm Heavy Mortar Team",
+				"definition": "Different from a normal heavy mortar, this Unit uses the 4in diameter template, has a Pen value of +1 and causes D6+2 pins; Bolt Action, 3rd Edition No Peace In Our Time: Pg. 23",
+				"range": "12-72",
+				"shots": 1,
+				"pen": "+1",
+				"he": 3,
+				"specialRules": ["Indirect Fire","Team Weapon","HE 2in","Fixed"]
+			},
+			{
 				"name": "320mm Mortar Team",
 				"definition": "Uses 4in Template, has a Pen of +1, and causes D6 pins but the crew receives a pin each time the weapon is firedBolt Action, 3rd Edition Armies of Japan Army Book: Pg. 47",
 				"range": "12-72",
@@ -2959,6 +2978,15 @@
 			},
 			{
 				"name": "Light AT Gun Team",
+				"range": 48,
+				"shots": 1,
+				"pen": "+4",
+				"he": 1,
+				"specialRules": ["Fixed","HE 1in","Team Weapon","Anti-Tank Gun"]
+			},
+			{
+				"name": "Light AT Gun Team with Improved Ballistics",
+				"definition": "Against targets within half of its range, the Light AT Gun has a base Pen value of +5 instead of +4; Bolt Action, 3rd Edition Armies of the Soviet Union Army Book: Pg. 58",
 				"range": 48,
 				"shots": 1,
 				"pen": "+4",
@@ -2983,6 +3011,15 @@
 			},
 			{
 				"name": "Medium AT Gun Team",
+				"range": 60,
+				"shots": 1,
+				"pen": "+5",
+				"he": 1,
+				"specialRules": ["Fixed","HE 1in","Team Weapon","Anti-Tank Gun"]
+			},
+			{
+				"name": "Medium AT Gun Team with Improved Ballistics",
+				"definition": "Against targets within half of its range, the Medium AT Gun has a base Pen value of +6 instead of +5; Bolt Action, 3rd Edition Armies of the Soviet Union Army Book: Pg. 58",
 				"range": 60,
 				"shots": 1,
 				"pen": "+5",
@@ -3101,10 +3138,24 @@
 				"specialRules": ["Team Weapon"]
 			},
 			{
+				"name": "AT Rifle with vz. 31 Ammunition",
+				"range": 24,
+				"shots": 1,
+				"pen": "+1",
+				"specialRules": ["Team Weapon"]
+			},
+			{
 				"name": "AT Rifle Team",
 				"range": 48,
 				"shots": 1,
 				"pen": "+2",
+				"specialRules": ["Team Weapon"]
+			},
+			{
+				"name": "AT Rifle Team with vz. 31 Ammunition",
+				"range": 24,
+				"shots": 1,
+				"pen": "+1",
 				"specialRules": ["Team Weapon"]
 			},
 			{
@@ -3129,7 +3180,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 1,
-				"specialRules": ["Indirect","HE 1in","BotB"]
+				"specialRules": ["Indirect","HE 1in"]
 			},
 			{
 				"name": "PIAT",
@@ -3211,7 +3262,7 @@
 				"range": 6,
 				"shots": 1,
 				"pen": "+6",
-				"specialRules": ["Shape Charge","One Shot","I-SUB"]
+				"specialRules": ["Shape Charge","One Shot"]
 			},
 			{
 				"name": "Pansarskott m/45",
@@ -3748,7 +3799,7 @@
 			},
 			{
 				"name": "Upgrade SMG with Suppressed STEN Mk.II SMGs",
-				"specialRules": ["Assault","Suppressed Weapons","I-SUB"],
+				"specialRules": ["Assault","Suppressed Weapons"],
 				"range": 12,
 				"shots": 2,
 				"pen": 0,
@@ -4346,6 +4397,23 @@
 				]
 			},
 			{
+				"name": "Black-Powder Rifle for the Unarmed Men",
+				"specialRules": ["Disorienting"],
+				"range": 24,
+				"shots": 1,
+				"pen": 0,
+				"adjustlocalQuantities": [
+					{
+						"key": "secondary",
+						"quantity": -1
+					},
+					{
+						"property": "Black-Powder Rifle",
+						"quantity": 1
+					}
+				]
+			},
+			{
 				"name": "Rifle for Unarmed",
 				"specialRules": [],
 				"range": 24,
@@ -4700,7 +4768,7 @@
 			},
 			{
 				"name": "Fuel Trailer",
-				"definition": "Normal bonus for trying to damage flamethrowing vehicles does not apply to this vehicle; Bolt Action, 3rd Edition Armies of the United States of America Army Book: Pg. 64",
+				"definition": "The normal bonus to damage flamethrowing vehicles does not apply to this unit; Bolt Action, 3rd Edition Rulebook: Pg. 242",
 				"specialRules": []
 			},
 			{
@@ -4711,6 +4779,11 @@
 			{
 				"name": "Remove 'Easily Catches Fire' Special Rule",
 				"definition": "Ignore Easily Catches Fire on this Vehicle.",
+				"specialRules": []
+			},
+			{
+				"name": "Easily Catches Fire",
+				"definition": "If a roll on the Armoured Vehicle Damage Results Tables results in this unit catching fire add D3 pin markers rather than just 1 before taking a morale test; Bolt Action, 3rd Edition Rulebook: Pg. 226",
 				"specialRules": []
 			},
 			{
@@ -4778,7 +4851,7 @@
 				"shots": 2,
 				"pen": 0,
 				"definition": "Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 115",
-				"specialRules": ["I-SUB"]
+				"specialRules": []
 			},
 			{
 				"name": "Upgrade to Vickers K",
@@ -5421,6 +5494,22 @@
 				"he": 1
 			},
 			{
+				"name": "Versatile - Light Howitzer",
+				"indirect": "30-60",
+				"direct": 48,
+				"shots": 1,
+				"pen": "HE",
+				"he": 2
+			},
+			{
+				"name": "Versatile - Medium Howitzer",
+				"indirect": "36-72",
+				"direct": 60,
+				"shots": 1,
+				"pen": "HE",
+				"he": 3
+			},
+			{
 				"name": "Versatile - Light AT Gun",
 				"definition": "This weapon may fire this weapon as a Light AT Gun",
 				"range": 48,
@@ -5617,7 +5706,7 @@
 			},
 			{
 				"name": "Airborne Carriage",
-				"definition": "When the Unit is taken as Airborne, this weapon counts as Light for Towing Purposes; Bolt Action, 3rd Edition: Pg. ---"
+				"definition": "This Unit counts as a Light AT Gun for the Purposes of being Towed; Bolt Action, 3rd Edition Armies of the United States of America Army Book: Pg. 53"
 			},
 			{
 				"name": "Barbed Wire",
@@ -5806,7 +5895,7 @@
 			},
 			{
 				"name": "Recce",
-				"definition": "Can Reverse at Full Advance Speed. Has access to 'Escape' Reaction; Bolt Action, 3rd Edition: Pg. 150"
+				"definition": "Gains access to 'Escape Reaction'. When reversing, volntary or failed order test, Recce Vehicles can reverse at full Advance Rate. Some can reverse at Run, for example if they have Dual Direction STeering; Bolt Action, 3rd Edition: Pg. 150"
 			},
 			{
 				"name": "Reinforced Front Armor",
@@ -5885,7 +5974,7 @@
 				"definition": "Gains Infiltrator. If a unit with this keyword was setup using Infiltrator rules, starts the game Hidden and in Ambush; Bolt Action, 3rd Edition Armies of the Commonwealth Army Book: Pg. 17"
 			},
 			{
-				"name": "Superior Ambush",
+				"name": "Superior Ambush Tactics",
 				"definition": "When deployed on the table, this unit may start the game on Ambush. While this unit is on Ambush, gains Stubborn Special Rule; Bolt Action, 3rd Edition Armies of the Commonwealth Army Book: Pg. 44"
 			},
 			{
@@ -5915,14 +6004,6 @@
 			{
 				"name": "Experimental",
 				"definition": "Requires an additional Order Test; Bolt Action, 3rd Edition: Pg. ---"
-			},
-			{
-				"name": "BotB",
-				"definition": "Bolt Action 2nd Edition Campaign Book: Battle of the Bulge"
-			},
-			{
-				"name": "I-SUB",
-				"definition": "Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly"
 			},
 			{
 				"name": "Act with Courage",
@@ -6026,7 +6107,707 @@
 			},
 			{
 				"name": "Achnacarry Training",
-				"definition": "Can move through impassable mountainous/hilly terrain; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 107"
+				"definition": "Can move through impassable mountainous/hilly terrain; Bolt Action, 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 107"
+			},
+			{
+				"name": "A Hodgepodge of Arms",
+				"definition": "After completing a successful Fire or Advance order, the unit must pass an additional order test. If they fail, they take one pin; Bolt Action: No Peace in Our Time, The Czechoslovak Army in Bolt Action; Pg. 17"
+			},
+			{
+				"name": "Add Frontal Armor Plating",
+				"definition": "This vehicle cannot be damaged by small arms hits from the frontal arc, but will still receive pin markers as normal; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 86"
+			},
+			{
+				"name": "Aggressive Motivation",
+				"definition": "When an infantry unit fails an Order test within 6in remove a model and reroll the Order test (once per order die); Bolt Action, 3rd Edition Zurn Central Game Packet: Pg. 47"
+			},
+			{
+				"name": "Airborne QF 6pdr",
+				"definition": "The QF 6-pdr used by British airborne forces had a special carriage that allowed them to be towed as if they were light anti-tank guns; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 47"
+			},
+			{
+				"name": "Ambulance",
+				"definition": "All infantry and artillery units within 6” of the vehicle count as within 6” of a medic; Bolt Action Rulebook, 3rd Edition; Pg. 149"
+			},
+			{
+				"name": "Armored Gun Boat",
+				"definition": "The first time a damage roll resolved against the Bronekater equals or exceeds the Bronekater’s Damage Value, the result on the Damage Results on Armoured Vehicles table is always considered to be a 1, regardless of the actual result rolled; Bolt Action, 3rd Edition Armies of the Soviet Union Army Book: Pg. 78"
+			},
+			{
+				"name": "Artillery Training",
+				"definition": "If Darby has not been given an order on the current turn, he may act as a spotter forany mortar teams, artillery units, or artillery observers on the table that have been given a Fire order. If he chooses to do so, pull a friendly order die from the bag and place it next Darby’s model with the Fire order facing up. If Darby acts as a spotter he may not use the You Men Snap to Action command to order other units that turn; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 126"
+			},
+			{
+				"name": "Attack, attack, attack!",
+				"definition": "Once per turn, a single American unit can shoot after carrying out a Run order, as long as this move is executed directly towards an enemy unit; Bolt Action Scenario: Kelly's Heroes Pamphlet; Pg. 2"
+			},
+			{
+				"name": "Awkward Transition",
+				"definition": "While capable of both ground and AA fire, the process of switching was cumbersome. Whenever the 8cm vz. 30 fires as Flak, add one pin to the unit to reflect the strain of the process; Bolt Action, 3rd Edition No Peace in Our Time: Pg. 21 "
+			},
+			{
+				"name": "Barrier Troops",
+				"definition": "Any Chinese Nationalist unit with Shirkers that begins the turn within 6” of a unit with Barrier Troops loses Shirkers for that turn only; Bolt Action: The Limit of Endurance China, 1937-45; Pg. 18"
+			},
+			{
+				"name": "Big Shell",
+				"definition": "Because of the sheer size and explosive power of its shell, the howitzer has an enhanced Pen value of +5; Bolt Action, 3rd Edition Armies of the Soviet Union Army Book: Pg. 76"
+			},
+			{
+				"name": "Busy Turret",
+				"definition": "You can either fire the turret’s main gun (or coaxial MMG), or the multiple launcher, but not both in the same turn; Bolt Action, 3rd Edition Armies of the United States of America Army Book: Pg. 63"
+			},
+			{
+				"name": "Cautious Movement",
+				"definition": "If the COPP Commando team is hidden, they may remain hidden after they are given an advance order. To remain hidden, they may not shoot firearms and can only move at a rate of 4in when given the order; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 109"
+			},
+			{
+				"name": "Chained Dogs",
+				"definition": "Any Strafbattalion penal squad or Replacement army squad within 6” of a Feldgendarmerie or Feldjägerkorps squad ignore their shirkers special rule; Bolt Action, 3rd Edition Armies of Germany Army Book: Pg. 33"
+			},
+			{
+				"name": "Charismatic Leader",
+				"definition": "Tuvia and his unit are Stubborn. In addition, any other Veteran unit in the force may be given the Stubborn rule for +1pts per model; Bolt Action Compendium, 3rd Edition; Pg. 64"
+			},
+			{
+				"name": "Comitted to the Cause",
+				"definition": "Gains Stubborn special rule; Bolt Action, 3rd Edition Compendium: Pg. 79"
+			},
+			{
+				"name": "Communications Vehicle",
+				"definition": "While this vehicle is present on the table, friendly vehicles in reserve ignore the usual -1 Morale penalty on tests for entering from reserve; Bolt Action, 3rd Edition Armies of Germany Army Book: Pg. 85"
+			},
+			{
+				"name": "Compact Construction (Mortar Team)",
+				"definition": "Infantry Guns may be taken in Heavy Weapons platoons, and are treated as mortars for the purpose of transportation and movement and movement; Bolt Action: The Limit of Endurance China, 1937-45; Pg. 131"
+			},
+			{
+				"name": "Creaky Knees",
+				"definition": "Local Guard units do not double their movement when given a Run order; Bolt Action, 3rd Edition Armed Neutrality: Pg. 10"
+			},
+			{
+				"name": "Criticism & Self-Criticism",
+				"definition": "The first time a CPC infantry unit destroys or routes an enemy unit, or captures an objective within a 12” range of a Zhĭdaŏyuán, roll 1D6 to determine if any lessons were learned from the unit’s Criticism & Self-Criticism session. On a roll of 4+ the unit may gain Fanatic. If a Fanatic or Stubborn unit succeeds on this roll, replace that rule with Stubborn-Fanatics; This unit counts as Fanatics and does not lose the Fanatics rule when reduced to a single man; Bolt Action: The Limit of Endurance China, 1937-45; Pg. 64 "
+			},
+			{
+				"name": "Deep Strike Mission",
+				"definition": "when a Kaukopartio unit that is outflanking as described in the BA rulebook becomes available, it may enter the battle from anywhere along either the right/left table edge (depending on the chosen side) or any point along the enemy’s own  able edge. For example, if a Kaukopartio decided to outflank left, it could enter from any point along the left table edge (regardless of the turn it became available), or any point along the enemy’s table edge; BOlt Action, 3rd Edition Finland Army List PDF; Pg. 2"
+			},
+			{
+				"name": "Deep Water Vessel",
+				"definition": "Can only be deployed and move in Deep Water; Phyrexian Labs Homebrew Rules"
+			},
+			{
+				"name": "Deflate those Tyres",
+				"definition": "SAS Jeeps may Advance through areas of difficult ground classed as sandy, rocky or anything similar; Bolt Action, 3rd Edition Armies of Great Britain Army Book: Pg. 85"
+			},
+			{
+				"name": "Demolitions Expert",
+				"definition": "Calvert destroys a building with a demolition charge on the score of an 8 instead if a 10 (see HE Weapons Against Buildings in the Bolt Action: 3rd Edition rulebook, page 156); Bolt Action, 3rd Edition Compendium: Pg. 46"
+			},
+			{
+				"name": "Dual Direction Steering",
+				"definition": "If this unit fails an Order Test, this vehicle will always reverse at a Run rate; Bolt Action, 3rd Edition Rulebook: Pg. 150"
+			},
+			{
+				"name": "Easily Catches Fire",
+				"definition": "If a roll on the Armoured Vehicle Damage Results Tables results in this unit catching fire add D3 pin markers rather than just 1 before taking a morale test; Bolt Action, 3rd Edition Rulebook: Pg. 226"
+			},
+			{
+				"name": "Elite of the Elite!",
+				"definition": "Gains Fanatics and Tough Fighters Special Rules; Bolt Action, 3rd Edition Armies of Germany Army Book: Pg. 37"
+			},
+			{
+				"name": "Engineering Selection",
+				"definition": "0–2 of these vehicles can also be taken in an Engineer Platoon instead of one or both of the nonmandatory Engineer squads; Bolt Action, 3rd Edition Armies of Germany Army Book: Pg. 99"
+			},
+			{
+				"name": "Experimental",
+				"definition": "Must pass an order test whenever given an order - even when it has no Pin markers; Bolt Action, 3rd Edition Armed Neutrality: Pg. 25"
+			},
+			{
+				"name": "Extra Selection - AT Team",
+				"definition": "You may take up to 2 suicide teams, in any combination of anti-tank and anti-infantry (see opposite), as a single Anti-tank team selection in each Rifle Platoon; Bolt Action, 3rd Edition Armies of Japan Army Book: Pg. 42"
+			},
+			{
+				"name": "Extra Selection - British Motorcycles",
+				"definition": "You may take up to three Motorcycle and Sidecars as one selection in each Armoured Platoon. A maximum of one light mortar and one anti-tank rifle may be taken in each platoon; Bolt Action, 3rd Edition Armies of Great Britain Pg. 80"
+			},
+			{
+				"name": "Fast (Aircraft)",
+				"definition": "Requires +1 Pin to be Removed; Phyrexian Labs Homebrew Rules"
+			},
+			{
+				"name": "Ferrea Mole, Ferreo Coure",
+				"definition": "This Vehicle may reroll failed Advance or Run Order tests except when Assaulting, Outflanking, or moving onto the table from Reserves; Bolt Action, 3rd Edition Armies of Italy Book: Pg. 21"
+			},
+			{
+				"name": "Fitness is Key",
+				"definition": "SRS sub-sections move at an increased speed of 7in when advancing and at 14in when running; Bolt Action, 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 105"
+			},
+			{
+				"name": "Follow Me!",
+				"definition": "Calvert’s team, and other units of Chindits that are deployed within 12in of Calvert, are allowed to make a Run move after both sides have finished set-up, but before the first turn of the game; Bolt Action Compendium, 3rd Edition; Pg. 46"
+			},
+			{
+				"name": "Vulnerable",
+				"definition": "All shots to the side/rear of this unit get an additional +1 Pen Modifier; Bolt Action, 3rd Edition: Pg. 226"
+			},
+			{
+				"name": "Tow",
+				"definition": "Vehicle may tow Artilley Guns and the Crew may ride on board; Bolt Action, 3rd Edition Rule Book: Pg. 148"
+			},
+			{
+				"name": "Transport",
+				"definition": "Vehicle may carry Infantry Units; Bolt Action, 3rd Edition Rule Book: Pg. 145"
+			},
+			{
+				"name": "Vulnerable Gun Ports",
+				"definition": "When fired at from Point Blank range, or being assaulted, fortifications are treated as if open-topped. Additionally, sniper rifles can always issue pins regardless of penetration; Bolt Action, 3rd Edition No Peace in Our Time: Pg. 35"
+			},
+			{
+				"name": "Fortification",
+				"definition": "This fortification is treated as a vehicle that already suffered an Immobilized result. In scenarios that don’t start units on the table, place this unit within 6in from your table edge as soon as you know which side of the table is yours; Bolt Action, 3rd Edition No Peace in Our Time: Pg. 35"
+			},
+			{
+				"name": "Fortification Gun",
+				"definition": "This vehicle starts the game having already suffered an Immobilised result. In scenarios that do not allow units to start on the table, place this unit in base contact with your table edge as soon as you know which side of the table is yours; Bolt Action: Armies of Germany; Pg. 99"
+			},
+			{
+				"name": "Fortress Switzerland",
+				"definition": "When this Unit begin their turn touching or on a Bridge, Building, or Road/Rails and with no other units within 6in of the terrain, they may execute a Run order, and move 6in towards their own table edge or deployment zone, and roll a D6 on a 2+, destroy the terrain piece inline with the chart. See Further Rules; Bolt Action: Armed Neutrality, The Swiss Army; Pg. 12"
+			},
+			{
+				"name": "Fuel Trailer",
+				"definition": "The normal bonus to damage flamethrowing vehicles does not apply to this unit; Bolt Action, 3rd Edition Rulebook: Pg. 242"
+			},
+			{
+				"name": "Get Back in the Fight",
+				"definition": "If any friendly unit fails an attempt to Rally it can immediately roll a second attempt if within 6in of a Military Police Corps squad; Bolt Action, 3rd Edition Armies of the United States of America Army Book: Pg. 42"
+			},
+			{
+				"name": "Get Back in the Fight, Now!",
+				"definition": "If any Italian unit fails an attempt to Rally, it can immediately roll a second attempt if within 12in of a Carabinieri squad; Bolt Action, 3rd Edition Armies of Italy Army Book: Pg. 37"
+			},
+			{
+				"name": "Götterdämmrung",
+				"definition": "Roll a d6 every time the vehicle completes a move. On a 1, vehicle is immobilised for the rest of the game. On a 2, Breaking down/fuel low: The vehicle may make one more move after this one, then runs out of fuel and is immobilised. On a 3+, continue as normal; Bolt Action, 3rd Edition Armies of Germany Army Book: Pg. 63"
+			},
+			{
+				"name": "Gun Assembly",
+				"definition": "When this Unit unlimbers an Artillery Unit, the Artillery Unit receives a pin marker. When this Unit limbers an Artillery Unit, this Unit and consequently the transported artillery unit, each receive a pin marker; Bolt Action, 3rd Edition Armies of the Commonwealth Army Book: Pg. 112"
+			},
+			{
+				"name": "Hitler's Buzz Saw",
+				"definition": "German light and medium machine guns fire 1 extra shot; Bolt Action: Armies of Germany; Pg. 22"
+			},
+			{
+				"name": "Harassing the Rear",
+				"definition": "When outflanking, this unit may enter from anywhere along the declared table edge or any point along the enemy’s own table edge; Bolt Action, 3rd Edition No Peace in Our Time: Pg. 41"
+			},
+			{
+				"name": "Harassing Unit",
+				"definition": "Slovakian cavalry units may not move into contact with an enemy unit while mounted. On the other hand, Slovakian cavalry sections do not suffer the -1 to their leadership roll to arrive from reserve; Bolt Action, 3rd Edition Zurn Central Packet: Pg. 69"
+			},
+			{
+				"name": "Heavy Strategic Bomber",
+				"definition": "Not required to be the first order pulled from a bag when they are off the table, but are when they are on the table. When an aircraft with the Strategic Bomber comes on the table, declare if it is making a strafing run or a bombing run. During a bombing run, it can only be attacked by aircraft, or units equipped with Heavy/Light Autocannons with Flak, or Heavy/Medium/Light AT/Howitzers with Flak. During a strafing run, it can be attacked as normal per the experimental rules. Place the bomber or the marker on the table. Following the tail of the bomber, you may place 7 Tokens in line with the bomber, up to 24in from the bomber. Then, for each token, roll D6 and move the token in a random direction that many inches. The attack is automatically successful, perform an Indirect Heavy Howitzer attack centered on the Token; Phyrexian Labs Homebrew Rules"
+			},
+			{
+				"name": "High Level Aptitude and Training",
+				"definition": "Assault troop sections ignore 1 pin when taking order tests. They still take the test if they only have 1 pin, as Regulars; Bolt Action, 2nd Edition Campaign Book - Italy, Soft Under Belly: Pg. 97"
+			},
+			{
+				"name": "High Velocity",
+				"definition": "Does not suffer -1 Penalty when shooting beyond half range; ;Bolt Action: Armed Neutrality, The Swiss Army; Pg. 15"
+			},
+			{
+				"name": "Hollywood NCO",
+				"definition": "Counts as a Major; Bolt Action Scenario: Kelly's Heroes Pamphlet; Pg. 3"
+			},
+			{
+				"name": "Hollywood One-Handed Tommy Gun Maestro",
+				"definition": "Big Joe rolls 3 dice to attack with his SMG rather than the normal 2. All rolls to hit are successful on a 2+, no matter what modifiers are in play. This rule is only valid as long as the player adopts a feet astride, semi-lunge stance with one elbow tucked into the hip for rolling. One-handed rolling only; anything even close to emulating a proper firing stance invalidates this rule; Bolt Action Scenario: Kelly's Heroes Pamphlet; Pg. 3"
+			},
+			{
+				"name": "Immobile",
+				"definition": "Once deployed, this gun cannot be moved. In scenarios that do not allow units to start on the table, place this unit within 6in of your table edge as soon as you know which side of the table is yours; Bolt Action, 3rd Edition Armies of Japan Army Book: Pg. 47"
+			},
+			{
+				"name": "Improvised Role",
+				"definition": "Each time it shoots, except as flak, it gains one pin marker upon itself to represent both the mechanical strain on the gun and that upon its crew; Bolt Action, 3rd Edition Armed Neutrality: Pg. 19"
+			},
+			{
+				"name": "Improvised Tank Hunters",
+				"definition": "The unit has the normal rules for Tank Hunters and may also re-roll failed rolls to hit against vehicles. However, they always use the Superficial Damage chart against fully enclosed armoured targets; Bolt Action: Armies of Imperial Japan; Pg. 42"
+			},
+			{
+				"name": "Independent Operative",
+				"definition": "This Unit never suffers any penalties for losing its NCO as effectively, all models are NCOs intheir own right. In addition, enemy snipers may not use their ability to target a specific NCO model within the unit; Bolt Action, 3rd Edition Compendium: Pg. 19"
+			},
+			{
+				"name": "Indian National Army",
+				"definition": "The INA is not subject to any of the Imperial Japanese Army special rules. In addition, any units of Indian troops fighting for the Allies count as Fanatics in close quarters against INA units; Bolt Action, 3rd Edition Armies of Japan Army Book: Pg. 38"
+			},
+			{
+				"name": "Infiltration Master",
+				"definition": "When any friendly Infantry Units that are Outflanking become available, they may enter the game either by their chosen short table edge, as normal, or from any point on the enemy table edge; Bolt Action Compendium, 3rd Edition; Pg. 46"
+			},
+			{
+				"name": "Inspiring Rhetoric",
+				"definition": "Inexperienced squads within 12in do not suffer the -1 to hit penalty for being Inexperienced; Bolt Action: The Limit of Endurance China, 1937-45; Pg. 64 "
+			},
+			{
+				"name": "Japanese War Dogs",
+				"definition": "This unit may never be taken as a mandatory infantry squad in a Rifle or Infantry Recce Platoon; Bolt Action, 3rd Edition Armies of Japan Army Book: Pg. 34"
+			},
+			{
+				"name": "Jettison Fuel Trailer",
+				"definition": "The normal bonus to damage flamethrowing vehicles does not apply to this unit; Bolt Action, 3rd Edition Rulebook: Pg. 242"
+			},
+			{
+				"name": "Jungle Warfare Experts",
+				"definition": "Treat any terrain classed as jungle or woodland as open; Bolt Action Compendium, 3rd Edition; Pg. 46"
+			},
+			{
+				"name": "Kamikaze",
+				"definition": "If a suicide anti-tank team assaults or is assaulted by an enemy vehicle, when the model is in contact with the enemy, remove it and immediately resolve a hit against the vehicle with a Penetration value of +8 (no other penetration modifiers apply). Note that these units and their dice are always ignored for the purpose of victory conditions, for both sides; Bolt Action: Armies of Imperial Japan; Pg. 41"
+			},
+			{
+				"name": "Landing Craft",
+				"definition": "The standard rules for transports apply to landing craft, with the exception that units must begin the game on landing craft and cannot mount onto them unless the landing craft is partially on solid ground; Bolt Action, 3rd Edition Rulebook: Pg. 286"
+			},
+			{
+				"name": "Large Cargo Aircraft",
+				"definition": "---"
+			},
+			{
+				"name": "Large Cargo Glider",
+				"definition": "---"
+			},
+			{
+				"name": "Logistical Hustler",
+				"definition": "Up to two squads in any force containing Crapgame may have any model exchange a rifle for an SMG for +3pts per model and include an LMG for +20pts. MMG and Bazooka team choices in the Theatre Selector are also doubled; Bolt Action: Scenario: Kelly's Heroes Pamphlet; Pg. 4"
+			},
+			{
+				"name": "Logistics Unit",
+				"definition": "---"
+			},
+			{
+				"name": "Long Range Penetration",
+				"definition": "When outflanking, as described in the Bolt Action rulebook (see page 172), this Unit may re-roll failed order tests for coming onto the table; Bolt Action, 3rd Edition Armies of the United States of America Army Book: Pg. 41"
+			},
+			{
+				"name": "Low Ammunition",
+				"definition": "On a Fire or Advance order, roll a D6after firing. On a 1 this squad has run out of ammunition and may no longer fire; Bolt Action, 3rd Edition The Limits of Endurance: Pg. 75"
+			},
+			{
+				"name": "Low Angle Fire",
+				"definition": "Mortar has a Minimum Range of 6in; Bolt Action: Armies of Imperial Japan; Pg. 44"
+			},
+			{
+				"name": "LZ Signals",
+				"definition": "If at least one unit with LZ Signals is not in Reserve, then any friendly paratroopers, pathfinders, and glider units in reserve may re-roll failed order tests to come onto the table from reserve; Bolt Action, 3rd Edition Armies of the United States of America Army Book: Pg. 36"
+			},
+			{
+				"name": "Manco la fortuna!",
+				"definition": "Unit Gains the Fanatics Special Rule; Bolt Action, 3rd Edition Armies of Italy Army Book: Pg. 34"
+			},
+			{
+				"name": "Mobile Fortress",
+				"definition": "There is no penetration modifier for hitting this unit from the side or top, and the penetration modifier for hitting a this unit in its rear arc is reduced to +1; Bolt Action, 3rd Edition Armies of Germany Army Book: Pg. 63"
+			},
+			{
+				"name": "Master of Men's Hearts",
+				"definition": "; Bolt Action Compendium, 3rd Edition; Pg. 48"
+			},
+			{
+				"name": "Master of the Hunt",
+				"definition": "; Bolt Action: Finland Army List; Pg. 2"
+			},
+			{
+				"name": "Mechanized Infantry",
+				"definition": ""
+			},
+			{
+				"name": "Mechanized Corps Assault",
+				"definition": ""
+			},
+			{
+				"name": "Medieval in Savagery",
+				"definition": ""
+			},
+			{
+				"name": "Medium Strategic Bomber",
+				"definition": ""
+			},
+			{
+				"name": "Mine Clearing Experts",
+				"definition": "; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 96"
+			},
+			{
+				"name": "Minimal Training",
+				"definition": ""
+			},
+			{
+				"name": "Mixed Numbers",
+				"definition": "; Bolt Action: No Peace in Our Time, The Czechoslovak Army in Bolt Action; Pg. 17"
+			},
+			{
+				"name": "More NCOs",
+				"definition": ""
+			},
+			{
+				"name": "Mortar Support",
+				"definition": "; Bolt Action: Scenario: Kelly's Heroes Pamphlet; Pg. 4"
+			},
+			{
+				"name": "Motorized Infantry",
+				"definition": ""
+			},
+			{
+				"name": "Mulligan's Mortars",
+				"definition": "; Bolt Action Scenario: Kelly's Heroes Pamphlet; Pg. 2"
+			},
+			{
+				"name": "Multi-Propulsion",
+				"definition": ""
+			},
+			{
+				"name": "Multiple Flamethrowers",
+				"definition": ""
+			},
+			{
+				"name": "Multiple Launcher",
+				"definition": ""
+			},
+			{
+				"name": "Nation Divided",
+				"definition": "; Bolt Action: No Peace in Our Time, The Czechoslovak Army in Bolt Action; Pg. 14"
+			},
+			{
+				"name": "National Pride",
+				"definition": "; Bolt Action Compendium, 3rd Edition; Pg. 65"
+			},
+			{
+				"name": "Native Troops",
+				"definition": "; Bolt Action: Armies of the Commonwealth; Pg. 19"
+			},
+			{
+				"name": "NCO Apprenticeship",
+				"definition": "; Bolt Action Campaign: Italy Tough Gut; Pg. 98"
+			},
+			{
+				"name": "Nimble Vehicle",
+				"definition": ""
+			},
+			{
+				"name": "No Ground-attack Aircraft",
+				"definition": "; Bolt Action: Armies of Imperial Japan; Pg. 27 "
+			},
+			{
+				"name": "No National Characteristic: COPP",
+				"definition": ""
+			},
+			{
+				"name": "No National Characteristic: PPA",
+				"definition": "; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 105"
+			},
+			{
+				"name": "No National Characteristic: Special Raiders",
+				"definition": ""
+			},
+			{
+				"name": "No Smoke Rounds",
+				"definition": "; Bolt Action: Armies of Germany; Pg. 48"
+			},
+			{
+				"name": "Not One Step Back",
+				"definition": "; Bolt Action: Armies of the Soviet Union; Pg. 28"
+			},
+			{
+				"name": "Oh, the hell with your flanks, Roach!",
+				"definition": "; Bolt Action Scenario: Kelly's Heroes Pamphlet; Pg. 2"
+			},
+			{
+				"name": "One Man Turret",
+				"definition": ""
+			},
+			{
+				"name": "One, Not Both!",
+				"definition": ""
+			},
+			{
+				"name": "Only So Much Room",
+				"definition": ""
+			},
+			{
+				"name": "Open Rear Door",
+				"definition": ""
+			},
+			{
+				"name": "Outflanking",
+				"definition": ""
+			},
+			{
+				"name": "Paranoia",
+				"definition": ""
+			},
+			{
+				"name": "Party Indoctrination",
+				"definition": ""
+			},
+			{
+				"name": "Polygot Unit",
+				"definition": "; Bolt Action: No Peace in Our Time, The Czechoslovak Army in Bolt Action; Pg. 40"
+			},
+			{
+				"name": "Poor Morale",
+				"definition": ""
+			},
+			{
+				"name": "Private First Class Moriarty",
+				"definition": ""
+			},
+			{
+				"name": "Prototype  ",
+				"definition": ""
+			},
+			{
+				"name": "Rally to the Cause",
+				"definition": "; Bolt Action Compendium, 3rd Edition; Pg. 78"
+			},
+			{
+				"name": "Ranger Force T12",
+				"definition": ""
+			},
+			{
+				"name": "Ready and Waiting",
+				"definition": "; Bolt Action: No Peace in Our Time, The Czechoslovak Army in Bolt Action; Pg. 15"
+			},
+			{
+				"name": "Reckless Charge",
+				"definition": ""
+			},
+			{
+				"name": "Recon Troops",
+				"definition": ""
+			},
+			{
+				"name": "Regimental Units",
+				"definition": ""
+			},
+			{
+				"name": "Remote Controlled",
+				"definition": ""
+			},
+			{
+				"name": "Remote Operated Mine",
+				"definition": "; Bolt Action: Armies of Germany; Pg. 48"
+			},
+			{
+				"name": "Right/Rear Facing Pintle Mounted MMG",
+				"definition": ""
+			},
+			{
+				"name": "RTU",
+				"definition": "; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 106"
+			},
+			{
+				"name": "Run to Danger",
+				"definition": "; Bolt Action: Armies of the Commonwealth; Pg. 75"
+			},
+			{
+				"name": "Sabotage!",
+				"definition": ""
+			},
+			{
+				"name": "SABS",
+				"definition": ""
+			},
+			{
+				"name": "Scary Blighters!",
+				"definition": ""
+			},
+			{
+				"name": "Securing Beaches",
+				"definition": ""
+			},
+			{
+				"name": "Select Fire",
+				"definition": ""
+			},
+			{
+				"name": "Selection - Armored Infantry",
+				"definition": ""
+			},
+			{
+				"name": "Selection - US Marine Infantry",
+				"definition": ""
+			},
+			{
+				"name": "Selection Team",
+				"definition": "; Bolt Action: Armies of the United States; Pg. 48"
+			},
+			{
+				"name": "Self Sacrifice",
+				"definition": "; Bolt Action: The Limit of Endurance China, 1937-45; Pg. 24 "
+			},
+			{
+				"name": "Semi-Independent Machine Guns",
+				"definition": ""
+			},
+			{
+				"name": "Sergeant Oddball",
+				"definition": ""
+			},
+			{
+				"name": "Sergio's Champion",
+				"definition": "; Bolt Action Scenario: Kelly's Heroes Pamphlet; Pg. 3"
+			},
+			{
+				"name": "Severly Outdated",
+				"definition": ""
+			},
+			{
+				"name": "Shared Platform",
+				"definition": ""
+			},
+			{
+				"name": "Shoot 'n' Scoot",
+				"definition": ""
+			},
+			{
+				"name": "Skilled Riders",
+				"definition": ""
+			},
+			{
+				"name": "Slow (Aircraft)",
+				"definition": ""
+			},
+			{
+				"name": "Slow Towing",
+				"definition": ""
+			},
+			{
+				"name": "Slow when Limbered",
+				"definition": ""
+			},
+			{
+				"name": "Slow-Pitifully",
+				"definition": ""
+			},
+			{
+				"name": "Slow... Pitifully Slow",
+				"definition": ""
+			},
+			{
+				"name": "Spirit of William Tell",
+				"definition": "; Bolt Action: Armed Neutrality, The Swiss Army; Pg. 13 "
+			},
+			{
+				"name": "Spotter",
+				"definition": "; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 126"
+			},
+			{
+				"name": "Spotting",
+				"definition": "; Bolt Action Sweden"
+			},
+			{
+				"name": "Stationary Firing Platform",
+				"definition": ""
+			},
+			{
+				"name": "Steady Shots",
+				"definition": ""
+			},
+			{
+				"name": "Stealth Reconnaissance",
+				"definition": ""
+			},
+			{
+				"name": "Strict Discipline",
+				"definition": "; Bolt Action: Armies of Japan; Pg. 27 "
+			},
+			{
+				"name": "Stubborn Fanatics",
+				"definition": ""
+			},
+			{
+				"name": "Superior Ambush Tactics",
+				"definition": ""
+			},
+			{
+				"name": "Tactical Control",
+				"definition": "; Bolt Action Compendium, 3rd Edition; Pg. 46"
+			},
+			{
+				"name": "Tank Riders",
+				"definition": ""
+			},
+			{
+				"name": "The Air Force has got my orders to blow every bridge in this sector out of existence!",
+				"definition": "; Bolt Action Scenario: Kelly's Heroes Pamphlet; Pg. 2"
+			},
+			{
+				"name": "There to Shoot",
+				"definition": ""
+			},
+			{
+				"name": "Too Many Jobs!",
+				"definition": ""
+			},
+			{
+				"name": "Too Many Turrets!",
+				"definition": ""
+			},
+			{
+				"name": "Tough Disciplinarian",
+				"definition": "; Bolt Action Campaign: Italy Tough Gut; Pg. 96"
+			},
+			{
+				"name": "Tough Fighters (Mounted)",
+				"definition": "Gains the Tough Fighters Special Rule while Mounted, loses Tough Fighters while Dismounted without another Tough Fighters Source; Bolt Action, 3rd Edition No Peace In Our Time: Pg. 12"
+			},
+			{
+				"name": "Tough Tank Hunters",
+				"definition": "; Bolt Action: Armies of the Soviet Union; Pg. 48"
+			},
+			{
+				"name": "Tractor Factory Flaw",
+				"definition": ""
+			},
+			{
+				"name": "Traffic Direction",
+				"definition": ""
+			},
+			{
+				"name": "Type B",
+				"definition": ""
+			},
+			{
+				"name": "Uncertain Mettle",
+				"definition": ""
+			},
+			{
+				"name": "Undermanned",
+				"definition": ""
+			},
+			{
+				"name": "Uneasy in the Saddle",
+				"definition": "; Bolt Action: No Peace in Our Time, The Czechoslovak Army in Bolt Action; Pg. 17"
+			},
+			{
+				"name": "Unprepared - HGD",
+				"definition": ""
+			},
+			{
+				"name": "Unwieldy Carriage",
+				"definition": ""
+			},
+			{
+				"name": "Vengeance",
+				"definition": ""
 			}
 		],
 		"platoons": [
@@ -11372,7 +12153,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["Sergio's Champion","Hollywood","Mulligan's Mortars","Oh, the hell with your flanks, Roach!","The Air Force has got my orders to blow every bridge in this sector out of existence!","Attack, attack, attack!"],
+				"keywords": ["Sergio's Champion","Mulligan's Mortars","Oh, the hell with your flanks, Roach!","The Air Force has got my orders to blow every bridge in this sector out of existence!","Attack, attack, attack!"],
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
 				"specialText": "Kelly's Heroes Leaflet;\n Period: E|M|L\n 1 (Ex)Officer, 2 Soldiers",
 				"equipment": ["SMGs"]
@@ -11440,7 +12221,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["Hollywood NCO","Hollywood One-Handed Tommy Gun Maestro","Hollywood","Mulligan's Mortars","Oh, the hell with your flanks, Roach!","The Air Force has got my orders to blow every bridge in this sector out of existence!","Attack, attack, attack!"],
+				"keywords": ["Hollywood NCO","Hollywood One-Handed Tommy Gun Maestro","Mulligan's Mortars","Oh, the hell with your flanks, Roach!","The Air Force has got my orders to blow every bridge in this sector out of existence!","Attack, attack, attack!"],
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
 				"specialText": "Kelly's Heroes Leaflet;\n Period: E|M|L\n 1 NCO, 2 Soldiers",
 				"equipment": ["SMGs"]
@@ -11492,7 +12273,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["Logistical Hustler","Mortar Suppoert","Hollywood","Mulligan's Mortars","Oh, the hell with your flanks, Roach!","The Air Force has got my orders to blow every bridge in this sector out of existence!","Attack, attack, attack!"],
+				"keywords": ["Logistical Hustler","Mortar Support","Mulligan's Mortars","Oh, the hell with your flanks, Roach!","The Air Force has got my orders to blow every bridge in this sector out of existence!","Attack, attack, attack!"],
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
 				"specialText": "Kelly's Heroes Leaflet;\n Period: E|M|L\n 1 MG Operator, 1 Weapon Assistant",
 				"equipment": ["SMGs"]
@@ -23298,10 +24079,10 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["vz. 31 Ammunition"],
+				"keywords": [],
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
 				"specialText": "1 Soldier \n 1 Weapon Assistant",
-				"equipment": ["AT Rifle Team"]
+				"equipment": ["AT Rifle Team with vz. 31 Ammunition"]
 			},
 			{
 				"name": "AT Rifle w/ vz. 31 Ammunition ",
@@ -23372,10 +24153,10 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["vz. 31 Ammunition"],
+				"keywords": [],
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
 				"specialText": "1 Soldier \n 1 Weapon Assistant",
-				"equipment": ["AT Rifle Team"]
+				"equipment": ["AT Rifle Team with vz. 31 Ammunition"]
 			},
 			{
 				"name": "Panzerschreck Anti-Tank Team  ",
@@ -25149,7 +25930,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["Fanatics","Infiltrator","Kamikaze","Extra Selection"],
+				"keywords": ["Fanatics","Infiltrator","Kamikaze","Extra Selection - AT Team"],
 				"periods": ["middlePeriod","latePeriod"],
 				"specialText": "Period: M|L\n 1 Soldier",
 				"equipment": ["Satchel Charge / Grenades"]
@@ -25207,7 +25988,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["Fanatics","Infiltrator","Kamikaze","Extra Selection"],
+				"keywords": ["Fanatics","Infiltrator","Kamikaze"],
 				"periods": ["middlePeriod","latePeriod"],
 				"specialText": "Period: M|L\n 1 Soldier",
 				"equipment": ["Satchel Charge / Grenades"]
@@ -25278,7 +26059,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["Fanatics","Infiltrator","Kamikaze","Extra Selection"],
+				"keywords": ["Fanatics","Infiltrator","Kamikaze","Extra Selection - AT Team"],
 				"periods": ["middlePeriod","latePeriod"],
 				"specialText": "Period: M|L\n 1 Soldier",
 				"equipment": ["Satchel Charge / Grenades"]
@@ -25346,7 +26127,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["Fanatics","Infiltrator","Kamikaze","Extra Selection"],
+				"keywords": ["Fanatics","Infiltrator","Kamikaze","Extra Selection - AT Team"],
 				"periods": ["middlePeriod","latePeriod"],
 				"specialText": "Period: M|L\n 1 Soldier",
 				"equipment": ["Satchel Charge / Grenades"]
@@ -25407,7 +26188,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["Fanatics","Infiltrator","Kamikaze","Extra Selection","Tank Hunters"],
+				"keywords": ["Fanatics","Infiltrator","Kamikaze","Extra Selection - AT Team","Tank Hunters"],
 				"periods": ["middlePeriod","latePeriod"],
 				"specialText": "Period: M|L\n 1 Soldier",
 				"equipment": ["Lunge Explosive"]
@@ -25465,7 +26246,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["Fanatics","Infiltrator","Kamikaze","Extra Selection","Tank Hunters"],
+				"keywords": ["Fanatics","Infiltrator","Kamikaze","Extra Selection - AT Team","Tank Hunters"],
 				"periods": ["middlePeriod","latePeriod"],
 				"specialText": "Period: M|L\n 1 Soldier",
 				"equipment": ["Lunge Explosive"]
@@ -25536,7 +26317,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["Fanatics","Infiltrator","Kamikaze","Extra Selection","Tank Hunters"],
+				"keywords": ["Fanatics","Infiltrator","Kamikaze","Extra Selection - AT Team","Tank Hunters"],
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
 				"specialText": "Period: E|M|L\n 1 Soldier",
 				"equipment": ["Lunge Explosive"]
@@ -25604,7 +26385,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["Fanatics","Infiltrator","Kamikaze","Extra Selection","Tank Hunters"],
+				"keywords": ["Fanatics","Infiltrator","Kamikaze","Tank Hunters"],
 				"periods": ["middlePeriod","latePeriod"],
 				"specialText": "Period: M|L\n 1 Soldier",
 				"equipment": ["Lunge Explosive"]
@@ -30564,7 +31345,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["I-SUB","Stubborn","Engineers"],
+				"keywords": ["Stubborn","Engineers"],
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
 				"specialText": "Period: E|M|L\n Campaign Unit from Italy - Soft Underbelly 1 NCO\n 4 Riflemen",
 				"equipment": ["Rifles"]
@@ -49750,7 +50531,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["Mechanised Infantry"],
+				"keywords": ["Mechanized Infantry"],
 				"periods": ["middlePeriod","latePeriod"],
 				"specialText": "Period: M|L\n 1 NCO\n 4 Riflemen",
 				"equipment": ["Rifles"]
@@ -51351,7 +52132,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["Unprepared - HGD","Motorised Infantry"],
+				"keywords": ["Unprepared - HGD","Motorized Infantry"],
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
 				"specialText": "Period: E|M|L\n Campaign Unit from Italy - Soft Underbelly;\n 1 NCO\n 4 Riflemen",
 				"equipment": ["Rifles"]
@@ -51457,7 +52238,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["Motorised Infantry"],
+				"keywords": ["Motorized Infantry"],
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
 				"specialText": "Period: E|M|L\n Campaign Unit from Italy - Soft Underbelly;\n 1 NCO\n 4 Riflemen",
 				"equipment": ["Rifles"]
@@ -52030,7 +52811,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["Ambush","Behind Enemy Lines","Fieldcraft"],
+				"keywords": ["Superior Ambush Tactics","Deep Jungle","Behind Enemy Lines","Fieldcraft"],
 				"periods": ["middlePeriod","latePeriod"],
 				"specialText": "Period: M|L\n 1 NCO\n 4 Riflemen",
 				"equipment": ["Rifles"]
@@ -53448,7 +54229,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["High Level Aptitude and Training","Mechanized  Corps Assault","More NCOs","Recon Troops"],
+				"keywords": ["High Level Aptitude and Training","Mechanized Corps Assault","More NCOs","Recon Troops"],
 				"periods": ["middlePeriod","latePeriod"],
 				"specialText": "Period: M|L\n Campaign Unit from Italy - Soft Underbelly;\n 2 NCO\n 3 Riflemen",
 				"equipment": ["Rifles"]
@@ -59515,7 +60296,7 @@
 				"equipment": ["Rifles","Motorcycles"]
 			},
 			{
-				"name": "Motorised Infantry Section",
+				"name": "Motorized Infantry Section",
 				"validationKeys": ["RifleTeams"],
 				"factions": [],
 				"order": 1,
@@ -63217,7 +63998,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["Mechanised Infantry","Selection - Armored Infantry"],
+				"keywords": ["Mechanized Infantry","Selection - Armored Infantry"],
 				"periods": ["middlePeriod","latePeriod"],
 				"specialText": "Period: M|L\n 1 NCO\n 2 Riflemen\n 1 Mortar Operator",
 				"equipment": ["Light Mortar Team","Rifles"]
@@ -63342,7 +64123,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["Mechanised Infantry","Selection - Armored Infantry"],
+				"keywords": ["Mechanized Infantry","Selection - Armored Infantry"],
 				"periods": ["middlePeriod","latePeriod"],
 				"specialText": "Period: M|L\n 1 NCO\n 5 Riflemen",
 				"equipment": ["Rifles"]
@@ -63462,7 +64243,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["Mechanised Infantry","Selection - Armored Infantry"],
+				"keywords": ["Mechanized Infantry","Selection - Armored Infantry"],
 				"periods": ["middlePeriod","latePeriod"],
 				"specialText": "Period: M|L\n 1 NCO\n 5 Riflemen",
 				"equipment": ["Rifles"]
@@ -66509,10 +67290,10 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["Improved Ballistic Performance"],
+				"keywords": [],
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
 				"specialText": "3 Crew Members",
-				"equipment": ["Light AT Gun Team","Gun Shield"]
+				"equipment": ["Light AT Gun Team with Improved Ballistics","Gun Shield"]
 			},
 			{
 				"name": "Medium AT Gun",
@@ -68986,10 +69767,10 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["Flak","HE (CR Special)"],
+				"keywords": ["Flak"],
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
 				"specialText": "5 Crew Members",
-				"equipment": ["Heavy Mortar Team"]
+				"equipment": ["30.5cm Heavy Mortar Team"]
 			},
 			{
 				"name": "2 cm VKPL vz. 36 Light Anti-Air Gun",
@@ -70218,7 +70999,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Landing Craft, Mechanised",
+				"name": "Landing Craft, Mechanized",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -85892,10 +86673,10 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["Improved Ballistics"],
+				"keywords": [],
 				"periods": ["middlePeriod","latePeriod"],
 				"specialText": "Period: M|L\n 5 Crew Members",
-				"equipment": ["Light AT Gun Team","Gun Shield"]
+				"equipment": ["Light AT Gun Team with Improved Ballistics","Gun Shield"]
 			},
 			{
 				"name": "M-13 Mortar",
@@ -86016,10 +86797,10 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["Improved Ballistics"],
+				"keywords": [],
 				"periods": ["middlePeriod","latePeriod"],
 				"specialText": "Period: M|L\n 3 Crew Members",
-				"equipment": ["Medium AT Gun Team","Gun Shield"]
+				"equipment": ["Medium AT Gun Team with Improved Ballistics","Gun Shield"]
 			},
 			{
 				"name": "76mm ZiS-3 Divisional Gun",
@@ -89753,7 +90534,7 @@
 				"equipment": []
 			},
 			{
-				"name": "Landing Craft, Mechanised                                   ",
+				"name": "Landing Craft, Mechanized                                   ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -105031,10 +105812,10 @@
 						"requireChooseOneKey": "RAS"
 					}
 				],
-				"keywords": ["Dual Mode Suspension","Recce","Transport"],
+				"keywords": ["Recce","Transport"],
 				"periods": ["earlyPeriod","middlePeriod"],
 				"specialText": "Period: E|M\n  Damage Value: 7+\n Transport: 5\n Tracked/Wheeled Vehicle",
-				"equipment": []
+				"equipment": ["Dual Mode Suspension"]
 			},
 			{
 				"name": "Sd.Kfz 263 Panzerfunkwagen Command Vehicle",
@@ -109500,7 +110281,7 @@
 						"ChooseOneKey": "priWeapon"
 					}
 				],
-				"keywords": ["Recce","I-SUB"],
+				"keywords": ["Recce"],
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
 				"specialText": "Period: E|M|L\n Damage Value: 6+\n Wheeled Vehicle",
 				"equipment": []
@@ -109539,7 +110320,7 @@
 						"points": 10
 					}
 				],
-				"keywords": ["Recce","Easily Catches Fire","I-SUB"],
+				"keywords": ["Recce","Easily Catches Fire"],
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
 				"specialText": "Period: E|M|L\n Damage Value: 6+\n Wheeled Vehicle",
 				"equipment": ["Hull Mounted Infantry Flamethrower"]
@@ -110118,7 +110899,7 @@
 						"points": 10
 					}
 				],
-				"keywords": ["Recce","Turn On The Spot","Questionable Firing Platform"],
+				"keywords": ["Recce","Extra Selection - British Motorcycles","Turn On The Spot","Questionable Firing Platform"],
 				"periods": ["earlyPeriod"],
 				"specialText": "Period: E\n Damage Value: 6+\n Wheeled Vehicle",
 				"equipment": ["Hull Mounted Light Mortar"]
@@ -125615,10 +126396,10 @@
 						"points": 10
 					}
 				],
-				"keywords": ["Open Topped","Experimental","Slow","Extra Frontal Armor","Slow Load","Heavy Shell"],
+				"keywords": ["Open Topped","Experimental","Slow","Extra Frontal Armor","Slow Load"],
 				"periods": ["middlePeriod","latePeriod"],
 				"specialText": "Period: M|L\n Damage Value: 6+\n Tracked Vehicle",
-				"equipment": ["Hull Mounted Super Heavy AT Gun"]
+				"equipment": ["Hull Mounted Super Heavy AT Gun with Heavy Shell"]
 			},
 			{
 				"name": "5.3cm Fahrpanzer Mobile Artillery Piece",
@@ -128068,7 +128849,7 @@
 						"points": 25
 					}
 				],
-				"keywords": ["Ranger Force T12","Open Topped","Shoot 'n' Scoot","I-SUB"],
+				"keywords": ["Ranger Force T12","Open Topped","Shoot 'n' Scoot"],
 				"periods": ["middlePeriod","latePeriod"],
 				"specialText": "Period: M|L\n Damage Value: 7+\n Half-Track Vehicle",
 				"equipment": ["Hull Mounted Medium AT Gun with Improved HE"]
@@ -129064,7 +129845,7 @@
 						"requireChooseOneKey": "priWEaponUpgrade"
 					}
 				],
-				"keywords": ["Hollywood"],
+				"keywords": [],
 				"periods": ["latePeriod"],
 				"specialText": "Period: L\n Damage Value: 9+\n Tracked Vehicle",
 				"equipment": ["Turret Mounted Heavy AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
