@@ -29,7 +29,8 @@
 	{
 		"name": "Range",
 		"abbreviation": "Rng",
-		"trail": "\""
+		"trail": "\"",
+		"string": true
 	},
 	{
 		"name": "Indirect",
@@ -55,11 +56,13 @@
 	{
 		"name": "HE",
 		"abbreviation": "HE",
-		"trail": "\""
+		"trail": "\"",
+		"string": true
 	},
 	{
 		"name": "Special",
-		"abbreviation": "Special"
+		"abbreviation": "Special",
+		"string": true
 	}
 ],
 "toggles": [
@@ -294,7 +297,7 @@
 				"name": "Canada",
 				"alignment": "Allies",
 				"additionalRules": [
-					"Dogged - All Canadian Infantry and Artillery Units that start the game with or are reduced to 3 or Fewer models gain Stubborn. If they already have Stubborn, they gain Fanatics instead; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 30","Highly Motivated - If a Canadian unit is within 12in of an enemy model, their Order Tests are -1; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 30","Flame Warfare - A Rifle Section per Rifle Platoon may be given a Flamethrower but Infantry Units in the Engineer Platoons may not include Flamethrowers; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 30","Browning Machine Guns - Gain access to MMG/HMG Pintle Upgrades; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 30","Airborne - Some Commonwealth units may be taken as Airborne; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 30"
+					"Dogged - All Canadian Infantry and Artillery Units that start the game with or are reduced to 3 or Fewer models gain Stubborn. If they already have Stubborn, they gain Fanatics instead; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 30","Highly Motivated - If a Canadian unit is within 12” of an enemy model, their Order Tests are -1; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 30","Flame Warfare - A Rifle Section per Rifle Platoon may be given a Flamethrower but Infantry Units in the Engineer Platoons may not include Flamethrowers; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 30","Browning Machine Guns - Gain access to MMG/HMG Pintle Upgrades; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 30","Airborne - Some Commonwealth units may be taken as Airborne; Bolt Action, 3rd Edition Armies of the British Commonwealth Army Book: Pg. 30"
 				]
 			},
 			{
@@ -302,7 +305,7 @@
 				"alignment": "Allies",
 				"GKZ": true,
 				"additionalRules": [
-					"Nationalist Chinese Army","Inconsistent Morale - Any Unit that is not Veteran, Stubborn, or Fanatic loses 1 point of morale if the Chinese force has taken more casualties than the opposing force by at least 2 Order Dice. Any unit that is not Veteran, Stubborn, or Fanatic gainst 1 point of morale if the Chinese force has inflicted more casualties by 2 Order Dice; The Limit of Endurance, Pg. 11","An Inch of Mountain, an Inch of Blood - Non-Vehicle units ignore the negative modifier for Pins so long as the unit has one Pin, is within 1in of cover and in LOS to at least 1 Enemy Unit or while in a building and in LOS to at least 1 Enamy Unit; The Limit of Endurance, Pg.11","Scorched Earth - Any enemy unit coming on from Reserve attempting to enter the battlefield before Turn 3 suffers an additional -1 to their order test. Any enemy unit that are Outflanking suffer an additional -1 penalty to their order test; The Limit of Endurance, Pg. 12","Magnetic Warefare - Any unit on the table at the start of the game may start the game with an Ambush order. Pull an Order Dice from the bag and place an Ambush Order next to the unit, before draing Order Dice for the 1st Round; The Limit of Endurance, Pg. 12","War of Resistance - Some units are eligible for additional keywords and rules: German Trained Division, Surprise Troops, Dare to Die Corps; The Limit of Endurance, Pg. 13"
+					"Nationalist Chinese Army","Inconsistent Morale - Any Unit that is not Veteran, Stubborn, or Fanatic loses 1 point of morale if the Chinese force has taken more casualties than the opposing force by at least 2 Order Dice. Any unit that is not Veteran, Stubborn, or Fanatic gainst 1 point of morale if the Chinese force has inflicted more casualties by 2 Order Dice; The Limit of Endurance, Pg. 11","An Inch of Mountain, an Inch of Blood - Non-Vehicle units ignore the negative modifier for Pins so long as the unit has one Pin, is within 1” of cover and in LOS to at least 1 Enemy Unit or while in a building and in LOS to at least 1 Enamy Unit; The Limit of Endurance, Pg.11","Scorched Earth - Any enemy unit coming on from Reserve attempting to enter the battlefield before Turn 3 suffers an additional -1 to their order test. Any enemy unit that are Outflanking suffer an additional -1 penalty to their order test; The Limit of Endurance, Pg. 12","Magnetic Warefare - Any unit on the table at the start of the game may start the game with an Ambush order. Pull an Order Dice from the bag and place an Ambush Order next to the unit, before draing Order Dice for the 1st Round; The Limit of Endurance, Pg. 12","War of Resistance - Some units are eligible for additional keywords and rules: German Trained Division, Surprise Troops, Dare to Die Corps; The Limit of Endurance, Pg. 13"
 				]
 			},
 			{
@@ -310,7 +313,7 @@
 				"alignment": "Allies",
 				"GKZ": true,
 				"additionalRules": [
-					"Nationalist Chinese Army","Inconsistent Morale - Any Unit that is not Veteran, Stubborn, or Fanatic loses 1 point of morale if the Chinese force has taken more casualties than the opposing force by at least 2 Order Dice. Any unit that is not Veteran, Stubborn, or Fanatic gainst 1 point of morale if the Chinese force has inflicted more casualties by 2 Order Dice; The Limit of Endurance, Pg. 11","Ambush! - Recce Platoons do not require transports. All non-Heavy Weapons/Weapon Team Infantry Units gain Infiltrator for Free; The Limit of Endurance, Pg. 64","Party Commands the Gun - Gain access to a Zhĭdaŏyuán Political Officer; The Limit of Endurance, Pg. 64","Sparrow Warfare - After setup, but before Turn 1, all non-Infiltrator Infatry Units can make a 9in movement. If infiltrators are deployed in their Deplyoment Zone, they may also make this 9in move. During the game, all units with Infiltrators, may make an Advance Movement and be placed on Ambush if they are not farther away from the closest visible enemy than when they started. This move does not trigger enemy Ambush, but is considered a Run Order for the purposes of Hidden Deployment; The Limit of Endurance, Pg. 64","Protracted People's War - Gain access to specific units: Guerillas, 88th Independent Brigade, and Korean Resistance Fighters; The Limit of Endurance, Pg. 64"
+					"Nationalist Chinese Army","Inconsistent Morale - Any Unit that is not Veteran, Stubborn, or Fanatic loses 1 point of morale if the Chinese force has taken more casualties than the opposing force by at least 2 Order Dice. Any unit that is not Veteran, Stubborn, or Fanatic gainst 1 point of morale if the Chinese force has inflicted more casualties by 2 Order Dice; The Limit of Endurance, Pg. 11","Ambush! - Recce Platoons do not require transports. All non-Heavy Weapons/Weapon Team Infantry Units gain Infiltrator for Free; The Limit of Endurance, Pg. 64","Party Commands the Gun - Gain access to a Zhĭdaŏyuán Political Officer; The Limit of Endurance, Pg. 64","Sparrow Warfare - After setup, but before Turn 1, all non-Infiltrator Infatry Units can make a 9” movement. If infiltrators are deployed in their Deplyoment Zone, they may also make this 9” move. During the game, all units with Infiltrators, may make an Advance Movement and be placed on Ambush if they are not farther away from the closest visible enemy than when they started. This move does not trigger enemy Ambush, but is considered a Run Order for the purposes of Hidden Deployment; The Limit of Endurance, Pg. 64","Protracted People's War - Gain access to specific units: Guerillas, 88th Independent Brigade, and Korean Resistance Fighters; The Limit of Endurance, Pg. 64"
 				]
 			},
 			{
@@ -318,10 +321,10 @@
 				"alignment": "Allies",
 				"ZC": true,
 				"additionalRules": [
-					"Flag - One soldier in an officer squad may replace all their weapons with a flag. Units within 12in may reroll failed Rally Order Tests; Zurn Mission Pack, Pg. 45",
+					"Flag - One soldier in an officer squad may replace all their weapons with a flag. Units within 12” may reroll failed Rally Order Tests; Zurn Mission Pack, Pg. 45",
 					"Geurilla Tactics - Chiense Regular and Veteran Infantry gain Fieldcraft; Zurn Mission Pack, Pg. 45",
 					"Localized Support - Chinese forces do not suffer the -1 penalty to arrive from Reserves or when Outflanking; Zurn Mission Pack, Pg. 45",
-					"Sparrow Tactics - At the start of the game, all of your Regular and Veteran infantry units may perform a free 9in move. This can trigger Ambush orders; Zurn Mission Pack, Pg. 45",
+					"Sparrow Tactics - At the start of the game, all of your Regular and Veteran infantry units may perform a free 9” move. This can trigger Ambush orders; Zurn Mission Pack, Pg. 45",
 					"Bodyguard - (Warlords and Nationalists Only) - If an Officer is wounded by a sniper, if there are squad memebers still alive, one of the other squad members may be removed instead; Zurn Mission Pack, Pg. 45"
 				]
 			},
@@ -338,7 +341,7 @@
 				"alignment": "Allies",
 				"GKZ": true,
 				"additionalRules": [
-					"Nationalist Chinese Army","Inconsistent Morale - Any Unit that is not Veteran, Stubborn, or Fanatic loses 1 point of morale if the Chinese force has taken more casualties than the opposing force by at least 2 Order Dice. Any unit that is not Veteran, Stubborn, or Fanatic gainst 1 point of morale if the Chinese force has inflicted more casualties by 2 Order Dice; The Limit of Endurance, Pg. 11","Top Heavy Command - Warlords may take a Company Commander in the mandatory officer slot for their mandatory Rifle Platoon; The Limit of Endurance, Pg. 84","Efficient Conscription - Guangxi Clique Rifle Platoons may Contain an extra squad of infantry as well as take 11 addition men instead of the usual 9; The Limit of Endurance, Pg. 86","Well Trained Militia - Every Inexperienced unit that has one or more pin markers can make a test to lose one pin marker if there are any enemy units within 12in immediately before an order is given to it. They lose a pin on successful test of a 4,5,6 on a D6. Still takes an order test even if the last pin is removed; The Limit of Endurance, Pg. 86"
+					"Nationalist Chinese Army","Inconsistent Morale - Any Unit that is not Veteran, Stubborn, or Fanatic loses 1 point of morale if the Chinese force has taken more casualties than the opposing force by at least 2 Order Dice. Any unit that is not Veteran, Stubborn, or Fanatic gainst 1 point of morale if the Chinese force has inflicted more casualties by 2 Order Dice; The Limit of Endurance, Pg. 11","Top Heavy Command - Warlords may take a Company Commander in the mandatory officer slot for their mandatory Rifle Platoon; The Limit of Endurance, Pg. 84","Efficient Conscription - Guangxi Clique Rifle Platoons may Contain an extra squad of infantry as well as take 11 addition men instead of the usual 9; The Limit of Endurance, Pg. 86","Well Trained Militia - Every Inexperienced unit that has one or more pin markers can make a test to lose one pin marker if there are any enemy units within 12” immediately before an order is given to it. They lose a pin on successful test of a 4,5,6 on a D6. Still takes an order test even if the last pin is removed; The Limit of Endurance, Pg. 86"
 				]
 			},
 			{
@@ -370,7 +373,7 @@
 				"alignment": "Allies",
 				"ZC": true,
 				"additionalRules": [
-					"Flag - One soldier in an officer squad may replace all their weapons with a flag. Units within 12in may reroll failed Rally Order Tests; Zurn Mission Pack, Pg. 45",
+					"Flag - One soldier in an officer squad may replace all their weapons with a flag. Units within 12” may reroll failed Rally Order Tests; Zurn Mission Pack, Pg. 45",
 					"Geurilla Tactics - Chiense Regular and Veteran Infantry gain Fieldcraft; Zurn Mission Pack, Pg. 45",
 					"Localized Support - Chinese forces do not suffer the -1 penalty to arrive from Reserves or when Outflanking; Zurn Mission Pack, Pg. 45",
 					"Bodyguard - If an Officer is wounded by a sniper, if there are squad memebers still alive, one of the other squad members may be removed instead; Zurn Mission Pack, Pg. 45"
@@ -459,7 +462,7 @@
 				"name": "Italian Co-Belligerent Army",
 				"alignment": "Allies",
 				"additionalRules": ["Italian Co-Belligerent Army is a Late War Army, all options for this army are Late War; Bolt Action, 3rd Edition Armies of Italy Book: Pg. 87",
-					"Vendetta! - When a unit with at least 1 pin is issued an order and is within 12in of an enemy unit, it may test to remove a pin before the Order Test; Bolt Action, 3rd Edition Armies of Italy Book: Pg. 94",
+					"Vendetta! - When a unit with at least 1 pin is issued an order and is within 12” of an enemy unit, it may test to remove a pin before the Order Test; Bolt Action, 3rd Edition Armies of Italy Book: Pg. 94",
 					"Inter-Allied Coordination - Forward Artillery Observers get a reroll on Artillery/Smoke Barrage tables and Intelligence Officers may reroll the dice when using Intelligence; Bolt Action, 3rd Edition Armies of Italy Book: Pg. 94",
 					"Avanti! - Co-Belligerent Version - Some units may be taken as Bersaglieri, Paracadutisti, or Alpini. This includes units from other army books; Bolt Action, 3rd Edition Armies of Italy Book: Pg. 94"
 				]
@@ -469,7 +472,7 @@
 				"alignment": "Axis",
 				"additionalRules": ["Italian National Republican Army is a Late War Army, all options for this army are Late War; Bolt Action, 3rd Edition Armies of Italy Book: Pg. 87",
 					"Civil War! - All Inexperienced Infantry and Artillery units have Conflicting Loyalties so long as they are not the following units or have the following rules:\n • Camicie Nere\n • Republican National Guard\n • Shirkers\n • Fanatics; Bolt Action, 3rd Edition Armies of Italy Book: Pg. 89",
-					"No Defeatism! - All Friendly Units within 6in of a Company or Platoon Commander ignore the Shirkers rule; Bolt Action, 3rd Edition Armies of Italy Book: Pg. 89",
+					"No Defeatism! - All Friendly Units within 6” of a Company or Platoon Commander ignore the Shirkers rule; Bolt Action, 3rd Edition Armies of Italy Book: Pg. 89",
 					"Avanti! - National Republican Version - Some units may be taken as Bersaglieri, Paracadutisti, Alpini, or Camicie Nere unless otherwise noted. This includes units from other army books; Bolt Action, 3rd Edition Armies of Italy Book: Pg. 94",
 					"German Support - Any Infantry LMG/MMG can be upgraded to the German Version, gaining Hitler's Buzzsaw. Infantry Units except HQ and Support Weapon Teams can include up to 2 Panzerfausts. Gain access to Select Armies of Germany units; Bolt Action, 3rd Edition Armies of Italy Book: Pg. 94"
 				]
@@ -489,9 +492,9 @@
 				"name": "Japan",
 				"alignment": "Axis",
 				"additionalRules": [
-					"Banzai! - Counts as a 'You Men Snap to Action', except if the order is successful, assign a Run Order to the Officer and ALL Infantry units within 6in with out an order are issued a Run Order (No Order Test Required for those issued an Order in this manner); Bolt Action, 3rd Edition Imperial Japan Army Book: Pg. 23",
+					"Banzai! - Counts as a 'You Men Snap to Action', except if the order is successful, assign a Run Order to the Officer and ALL Infantry units within 6” with out an order are issued a Run Order (No Order Test Required for those issued an Order in this manner); Bolt Action, 3rd Edition Imperial Japan Army Book: Pg. 23",
 					"Death Before Dishonour - Gyokusai - All Japanese Infantry and Artillery Units have the Fanatics special Rule and automatically pass morale checks for being assaulted by enemy tanks. (Artillery is still destroyed as normal); Bolt Action, 3rd Edition Imperial Japan Army Book: Pg. 23",
-					"Lack of Radios - Can take Command Vehicle on a vehicle that normally doesn't have the Command Vehicle Rule for Free or 10 points. If taken for free, the radius is reduced to 6in; Bolt Action, 3rd Edition Imperial Japan Army Book: Pg. 23",
+					"Lack of Radios - Can take Command Vehicle on a vehicle that normally doesn't have the Command Vehicle Rule for Free or 10 points. If taken for free, the radius is reduced to 6”; Bolt Action, 3rd Edition Imperial Japan Army Book: Pg. 23",
 					"Yamato Damashii - Select Units gain the ability to be Home Defence, Paratroopers, SNLF, Veteran Jungle Fighters; Bolt Action, 3rd Edition Imperial Japan Army Book: Pg. 23"
 				]
 			},
@@ -557,7 +560,7 @@
 			{
 				"name": "Soviet Union",
 				"alignment": "Allies",
-				"additionalRules": ["The Great Patriotic War - Whenever an Infantry or Artillery Unit fails a morale check and would be desroyed as a result, take the test again and apply the second result; Bolt Action, 3rd Edition Soviet Union Army Book: Pg. 27","For the Motherland! - Every Inexperienced Unit that has one or more Pins and an enemy unit within 12in may take a test immediately before recieving an Order. Roll a D6. 4,5,6: Remove 1 Pin. 1,2,3: Nothing happens. You must still take an order test, even if no pins remain; Bolt Action, 3rd Edition Soviet Union Army Book: Pg. 27","Lack of Radios - During List Building, when giving a vehicle the Command Vehicle rule, instead of paying 10pts, you may instead take this rule for Free but reduce the range of Command Vehicle to 6in instead of 12in; Bolt Action, 3rd Edition Soviet Union Army Book: Pg. 28","Massed Batteries - When rolling to determine Fire for Effect! during an Artillery Strike, roll 2 Dice instead of one and choose the higher value; Bolt Action, 3rd Edition Soviet Union Army Book: Pg. 28","Flying Tank - When a Soviet Forward Air Observer calls in an Air Strike, 4,5,6 are considered Ground-Attack Aircraft. Additionally, if a ground-attack aircraft type is rolled, driving away the aircraft requires 5 hits instead of the usual 3; Bolt Action, 3rd Edition Soviet Union Army Book: Pg. 28","Not One Step Back! - When a friendly Infantry Unit with 3 or more Models fails an Order Test within 6in of a Commissar, remove a model from the unit and re-roll the dice; Bolt Action, 3rd Edition Soviet Union Army Book: Pg. 28","Hammer and Sickle - Gain Access to the Airborne, NKVD, and Naval Brigade special rules; Bolt Action, 3rd Edition Soviet Union Army Book: Pg. 28"]
+				"additionalRules": ["The Great Patriotic War - Whenever an Infantry or Artillery Unit fails a morale check and would be desroyed as a result, take the test again and apply the second result; Bolt Action, 3rd Edition Soviet Union Army Book: Pg. 27","For the Motherland! - Every Inexperienced Unit that has one or more Pins and an enemy unit within 12” may take a test immediately before recieving an Order. Roll a D6. 4,5,6: Remove 1 Pin. 1,2,3: Nothing happens. You must still take an order test, even if no pins remain; Bolt Action, 3rd Edition Soviet Union Army Book: Pg. 27","Lack of Radios - During List Building, when giving a vehicle the Command Vehicle rule, instead of paying 10pts, you may instead take this rule for Free but reduce the range of Command Vehicle to 6” instead of 12”; Bolt Action, 3rd Edition Soviet Union Army Book: Pg. 28","Massed Batteries - When rolling to determine Fire for Effect! during an Artillery Strike, roll 2 Dice instead of one and choose the higher value; Bolt Action, 3rd Edition Soviet Union Army Book: Pg. 28","Flying Tank - When a Soviet Forward Air Observer calls in an Air Strike, 4,5,6 are considered Ground-Attack Aircraft. Additionally, if a ground-attack aircraft type is rolled, driving away the aircraft requires 5 hits instead of the usual 3; Bolt Action, 3rd Edition Soviet Union Army Book: Pg. 28","Not One Step Back! - When a friendly Infantry Unit with 3 or more Models fails an Order Test within 6” of a Commissar, remove a model from the unit and re-roll the dice; Bolt Action, 3rd Edition Soviet Union Army Book: Pg. 28","Hammer and Sickle - Gain Access to the Airborne, NKVD, and Naval Brigade special rules; Bolt Action, 3rd Edition Soviet Union Army Book: Pg. 28"]
 			},
 			{
 				"name": "Sweden (PL)",
@@ -576,7 +579,7 @@
 				"alignment": "Neutral",
 				"GKZ": true,
 				"additionalRules": [
-					"Exceptional Marksmanship - When given a Fire Order, Swiss Soldiers armed with Rifles gain 2in of Range making Rifle Range 26in total; Armed Neutrality Communiy Rules: Pg. 3",
+					"Exceptional Marksmanship - When given a Fire Order, Swiss Soldiers armed with Rifles gain 2” of Range making Rifle Range 26” total; Armed Neutrality Communiy Rules: Pg. 3",
 					"Rather Die than Live in Slavery - When any Swiss Infantry Unit is reduced below 50% of its starting strength, gains Fanatics; Armed Neutrality Communiy Rules: Pg. 3",
 					"Dialed In - Swiss Weapons firing Indirect may use a Spotter even if the unit firing the weapon is Inexperienced; Armed Neutrality Communiy Rules: Pg. 3"
 				]
@@ -900,7 +903,7 @@
 				"shots": 1,
 				"pen": "+4",
 				"he": 1,
-				"specialRules": ["Right Arc","HE 1in","Anti-Tank Gun"]
+				"specialRules": ["Right Arc","HE 1”","Anti-Tank Gun"]
 			},
 			{
 				"name": "Left Facing Light AT Gun (F2)",
@@ -908,7 +911,7 @@
 				"shots": 1,
 				"pen": "+4",
 				"he": 1,
-				"specialRules": ["Left Arc","HE 1in","Anti-Tank Gun"]
+				"specialRules": ["Left Arc","HE 1”","Anti-Tank Gun"]
 			},
 			{
 				"name": "Right Facing Medium AT Gun (F1)",
@@ -916,7 +919,7 @@
 				"shots": 1,
 				"pen": "+5",
 				"he": 1,
-				"specialRules": ["Right Arc","HE 1in","Anti-Tank Gun"]
+				"specialRules": ["Right Arc","HE 1”","Anti-Tank Gun"]
 			},
 			{
 				"name": "Left Facing Medium AT Gun (F2)",
@@ -924,7 +927,7 @@
 				"shots": 1,
 				"pen": "+5",
 				"he": 1,
-				"specialRules": ["Left Arc","HE 1in","Anti-Tank Gun"]
+				"specialRules": ["Left Arc","HE 1”","Anti-Tank Gun"]
 			},
 			{
 				"name": "Left Facing LMG (B2)",
@@ -988,7 +991,7 @@
 				"shots": 2,
 				"pen": "+3",
 				"he": 1,
-				"specialRules": ["Fixed Front","HE 1in"]
+				"specialRules": ["Fixed Front","HE 1”"]
 			},
 			{
 				"name": "Nose Mounted Twin Light Autocannons",
@@ -996,7 +999,7 @@
 				"shots": 4,
 				"pen": "+3",
 				"he": 1,
-				"specialRules": ["Fixed Front","HE 1in"]
+				"specialRules": ["Fixed Front","HE 1”"]
 			},
 			{
 				"name": "Nose Mounted Quad Light Autocannons",
@@ -1004,7 +1007,7 @@
 				"shots": 8,
 				"pen": "+3",
 				"he": 1,
-				"specialRules": ["Fixed Front","HE 1in"]
+				"specialRules": ["Fixed Front","HE 1”"]
 			},
 			{
 				"name": "Nose Mounted Heavy Autocannon",
@@ -1012,7 +1015,7 @@
 				"shots": 2,
 				"pen": "+2",
 				"he": 1,
-				"specialRules": ["Fixed Front","HE 1in"]
+				"specialRules": ["Fixed Front","HE 1”"]
 			},
 			{
 				"name": "Nose Mounted MMG",
@@ -1069,7 +1072,7 @@
 				"shots": 2,
 				"pen": "+3",
 				"he": 1,
-				"specialRules": ["Fixed Front","HE 1in"]
+				"specialRules": ["Fixed Front","HE 1”"]
 			},
 			{
 				"name": "Wing Mounted Twin Light Autocannons",
@@ -1077,7 +1080,7 @@
 				"shots": 4,
 				"pen": "+3",
 				"he": 1,
-				"specialRules": ["Fixed Front","HE 1in"]
+				"specialRules": ["Fixed Front","HE 1”"]
 			},
 			{
 				"name": "Wing Mounted Quad Light Autocannons",
@@ -1085,7 +1088,7 @@
 				"shots": 8,
 				"pen": "+3",
 				"he": 1,
-				"specialRules": ["Fixed Front","HE 1in"]
+				"specialRules": ["Fixed Front","HE 1”"]
 			},
 			{
 				"name": "Wing Mounted MMG",
@@ -1135,7 +1138,7 @@
 				"shots": 2,
 				"pen": "+3",
 				"he": 1,
-				"specialRules": ["Fixed Rear","HE 1in"]
+				"specialRules": ["Fixed Rear","HE 1”"]
 			},
 			{
 				"name": "Rear Mounted MMG",
@@ -1199,7 +1202,7 @@
 				"shots": 2,
 				"pen": "+3",
 				"he": 1,
-				"specialRules": ["Fixed Rear","HE 1in","Air-To-Air"]
+				"specialRules": ["Fixed Rear","HE 1”","Air-To-Air"]
 			},
 			{
 				"name": "Rear Facing Twin Light Autocannons",
@@ -1207,7 +1210,7 @@
 				"shots": 4,
 				"pen": "+3",
 				"he": 1,
-				"specialRules": ["Fixed Rear","HE 1in"]
+				"specialRules": ["Fixed Rear","HE 1”"]
 			},
 			{
 				"name": "Bombs",
@@ -1216,7 +1219,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 3,
-				"specialRules": ["Front Arc","HE 3in","Limited Shots"]
+				"specialRules": ["Front Arc","HE 3”","Limited Shots"]
 			},
 			{
 				"name": "Rockets",
@@ -1224,7 +1227,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 4,
-				"specialRules": ["Front Arc","HE 4in","Limited Shots"]
+				"specialRules": ["Front Arc","HE 4”","Limited Shots"]
 			},
 			{
 				"name": "Multiple Rocket Launcher",
@@ -1249,7 +1252,7 @@
 				"shots": 2,
 				"pen": "+3",
 				"he": 1,
-				"specialRules": ["Fixed Front","HE 1in"]
+				"specialRules": ["Fixed Front","HE 1”"]
 			},
 			{
 				"name": "Rear Mounted Light Autocannon",
@@ -1257,7 +1260,7 @@
 				"shots": 2,
 				"pen": "+3",
 				"he": 1,
-				"specialRules": ["Rear Arc","HE 1in"]
+				"specialRules": ["Rear Arc","HE 1”"]
 			},
 			{
 				"name": "Rear Facing Hull Mounted Light Autocannon",
@@ -1265,7 +1268,7 @@
 				"shots": 2,
 				"pen": "+3",
 				"he": 1,
-				"specialRules": ["Rear Arc","HE 1in"]
+				"specialRules": ["Rear Arc","HE 1”"]
 			},
 			{
 				"name": "Front Facing Light Autocannon",
@@ -1273,7 +1276,7 @@
 				"shots": 2,
 				"pen": "+3",
 				"he": 1,
-				"specialRules": ["Fixed Front","HE 1in"]
+				"specialRules": ["Fixed Front","HE 1”"]
 			},
 			{
 				"name": "Front Facing Sidecar Light Autocannon",
@@ -1281,7 +1284,7 @@
 				"shots": 2,
 				"pen": "+3",
 				"he": 1,
-				"specialRules": ["Fixed Front","HE 1in"]
+				"specialRules": ["Fixed Front","HE 1”"]
 			},
 			{
 				"name": "Hull Mounted Heavy Autocannon",
@@ -1289,7 +1292,7 @@
 				"shots": 2,
 				"pen": "+2",
 				"he": 1,
-				"specialRules": ["Front Arc","HE 1in"]
+				"specialRules": ["Front Arc","HE 1”"]
 			},
 			{
 				"name": "Rear Facing Hull Mounted Heavy Autocannon",
@@ -1297,7 +1300,7 @@
 				"shots": 2,
 				"pen": "+2",
 				"he": 1,
-				"specialRules": ["Rear Arc","HE 1in"]
+				"specialRules": ["Rear Arc","HE 1”"]
 			},
 			{
 				"name": "Hull Mounted Light AT Gun",
@@ -1305,7 +1308,7 @@
 				"shots": 1,
 				"pen": "+4",
 				"he": 1,
-				"specialRules": ["Fixed Front","HE 1in","Anti-Tank Gun"]
+				"specialRules": ["Fixed Front","HE 1”","Anti-Tank Gun"]
 			},
 			{
 				"name": "Rear Facing Light AT Gun",
@@ -1313,7 +1316,7 @@
 				"shots": 1,
 				"pen": "+4",
 				"he": 1,
-				"specialRules": ["Rear Arc","HE 1in","Anti-Tank Gun"]
+				"specialRules": ["Rear Arc","HE 1”","Anti-Tank Gun"]
 			},
 			{
 				"name": "Rear Facing Hull Mounted Light AT Gun",
@@ -1321,7 +1324,7 @@
 				"shots": 1,
 				"pen": "+4",
 				"he": 1,
-				"specialRules": ["Rear Arc","HE 1in","Anti-Tank Gun"]
+				"specialRules": ["Rear Arc","HE 1”","Anti-Tank Gun"]
 			},
 			{
 				"name": "Hull Mounted Panzerbüchse 41",
@@ -1329,7 +1332,7 @@
 				"shots": 1,
 				"pen": "+4",
 				"he": 1,
-				"specialRules": ["Front Arc","HE 1in","Anti-Tank Gun","Squeeze-bore (P41)"]
+				"specialRules": ["Front Arc","HE 1”","Anti-Tank Gun","Squeeze-bore (P41)"]
 			},
 			{
 				"name": "Front Facing Light AT Gun",
@@ -1337,7 +1340,7 @@
 				"shots": 1,
 				"pen": "+4",
 				"he": 1,
-				"specialRules": ["Fixed Front","HE 1in","Anti-Tank Gun"]
+				"specialRules": ["Fixed Front","HE 1”","Anti-Tank Gun"]
 			},
 			{
 				"name": "Hull Mounted Medium AT Gun",
@@ -1345,7 +1348,7 @@
 				"shots": 1,
 				"pen": "+5",
 				"he": 1,
-				"specialRules": ["Fixed Front","HE 1in","Anti-Tank Gun"]
+				"specialRules": ["Fixed Front","HE 1”","Anti-Tank Gun"]
 			},
 			{
 				"name": "Rear Facing Hull Mounted Medium AT Gun",
@@ -1353,7 +1356,7 @@
 				"shots": 1,
 				"pen": "+5",
 				"he": 1,
-				"specialRules": ["Rear Arc","HE 1in","Anti-Tank Gun"]
+				"specialRules": ["Rear Arc","HE 1”","Anti-Tank Gun"]
 			},
 			{
 				"name": "Hull Mounted Medium AT Gun with Improved HE",
@@ -1361,7 +1364,7 @@
 				"shots": 1,
 				"pen": "+5",
 				"he": 2,
-				"specialRules": ["Fixed Front","HE 2in","Anti-Tank Gun"]
+				"specialRules": ["Fixed Front","HE 2”","Anti-Tank Gun"]
 			},
 			{
 				"name": "Hull Mounted Medium AT Gun with Improved HE (M3 Lee)",
@@ -1369,7 +1372,7 @@
 				"shots": 1,
 				"pen": "+5",
 				"he": 2,
-				"specialRules": ["Front Arc","Side Arc","HE 2in","Anti-Tank Gun"]
+				"specialRules": ["Front Arc","Side Arc","HE 2”","Anti-Tank Gun"]
 			},
 			{
 				"name": "Front Facing Medium AT Gun",
@@ -1377,7 +1380,7 @@
 				"shots": 1,
 				"pen": "+5",
 				"he": 1,
-				"specialRules": ["Fixed Front","HE 1in","Anti-Tank Gun"]
+				"specialRules": ["Fixed Front","HE 1”","Anti-Tank Gun"]
 			},
 			{
 				"name": "Hull Mounted Heavy AT Gun",
@@ -1385,7 +1388,7 @@
 				"shots": 1,
 				"pen": "+6",
 				"he": 2,
-				"specialRules": ["Fixed Front","HE 2in","Anti-Tank Gun"]
+				"specialRules": ["Fixed Front","HE 2”","Anti-Tank Gun"]
 			},
 			{
 				"name": "Hull Mounted Super Heavy AT Gun",
@@ -1393,7 +1396,7 @@
 				"shots": 1,
 				"pen": "+7",
 				"he": 3,
-				"specialRules": ["Front Arc","HE 3in","Anti-Tank Gun"]
+				"specialRules": ["Front Arc","HE 3”","Anti-Tank Gun"]
 			},
 			{
 				"name": "Hull Mounted Super Heavy AT Gun with Light HE",
@@ -1401,7 +1404,7 @@
 				"shots": 1,
 				"pen": "+7",
 				"he": 1,
-				"specialRules": ["Front Arc","HE 1in","Anti-Tank Gun"]
+				"specialRules": ["Front Arc","HE 1”","Anti-Tank Gun"]
 			},
 			{
 				"name": "Hull Mounted Super Heavy AT Gun with Heavy Shell",
@@ -1410,7 +1413,7 @@
 				"shots": 1,
 				"pen": "+7",
 				"he": 3,
-				"specialRules": ["Front Arc","HE 3in","Anti-Tank Gun"]
+				"specialRules": ["Front Arc","HE 3”","Anti-Tank Gun"]
 			},
 			{
 				"name": "Rear Facing Hull Mounted Super Heavy AT Gun with Light HE",
@@ -1418,7 +1421,7 @@
 				"shots": 1,
 				"pen": "+7",
 				"he": 1,
-				"specialRules": ["Rear Arc","HE 1in","Anti-Tank Gun"]
+				"specialRules": ["Rear Arc","HE 1”","Anti-Tank Gun"]
 			},
 			{
 				"name": "Hull Mounted Light Howitzer",
@@ -1427,7 +1430,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 2,
-				"specialRules": ["Fixed Front","HE 2in"]
+				"specialRules": ["Fixed Front","HE 2”"]
 			},
 			{
 				"name": "Front Facing Hull Mounted Light Howitzer",
@@ -1436,7 +1439,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 2,
-				"specialRules": ["Front Arc","HE 2in"]
+				"specialRules": ["Front Arc","HE 2”"]
 			},
 			{
 				"name": "Rear Facing Hull Mounted Light Howitzer",
@@ -1445,7 +1448,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 2,
-				"specialRules": ["Front Arc","HE 2in"]
+				"specialRules": ["Front Arc","HE 2”"]
 			},
 			{
 				"name": "Hull Mounted Light Howitzer with 25pdr AT Shell",
@@ -1454,7 +1457,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 2,
-				"specialRules": ["Fixed Front","HE 2in","Versatile - Light AT Gun"]
+				"specialRules": ["Fixed Front","HE 2”","Versatile - Light AT Gun"]
 			},
 			{
 				"name": "Light Howitzer Team with 25pdr AT Shell",
@@ -1463,7 +1466,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 2,
-				"specialRules": ["Fixed Front","HE 2in","Versatile - Light AT Gun","Team Weapon"]
+				"specialRules": ["Fixed Front","HE 2”","Versatile - Light AT Gun","Team Weapon"]
 			},
 			{
 				"name": "Hull Mounted Light Howitzer with Anti-Tank Ammunition",
@@ -1472,7 +1475,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 2,
-				"specialRules": ["Fixed Front","HE 2in","Versatile - Medium AT Gun"]
+				"specialRules": ["Fixed Front","HE 2”","Versatile - Medium AT Gun"]
 			},
 			{
 				"name": "Hull Mounted Medium Howitzer",
@@ -1481,7 +1484,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 3,
-				"specialRules": ["Fixed Front","HE 3in"]
+				"specialRules": ["Fixed Front","HE 3”"]
 			},
 			{
 				"name": "Front Facing Hull Mounted Medium Howitzer",
@@ -1490,7 +1493,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 3,
-				"specialRules": ["Front Arc","HE 3in"]
+				"specialRules": ["Front Arc","HE 3”"]
 			},
 			{
 				"name": "Rear Facing Hull Mounted Medium Howitzer",
@@ -1499,7 +1502,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 3,
-				"specialRules": ["Front Arc","HE 3in"]
+				"specialRules": ["Front Arc","HE 3”"]
 			},
 			{
 				"name": "Hull Mounted Medium Howitzer with Heavy Anti-Tank Ammunition",
@@ -1508,7 +1511,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 3,
-				"specialRules": ["Fixed Front","HE 3in","Versatile - Heavy AT Gun"]
+				"specialRules": ["Fixed Front","HE 3”","Versatile - Heavy AT Gun"]
 			},
 			{
 				"name": "Hull Mounted Heavy Howitzer",
@@ -1517,7 +1520,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 4,
-				"specialRules": ["Fixed Front","HE 4in"]
+				"specialRules": ["Fixed Front","HE 4”"]
 			},
 			{
 				"name": "Hull Mounted Rocket Mortar",
@@ -1527,7 +1530,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 4,
-				"specialRules": ["Fixed Front","HE 4in"]
+				"specialRules": ["Fixed Front","HE 4”"]
 			},
 			{
 				"name": "Hull Mounted 75mm Recoilles Rifle",
@@ -1536,7 +1539,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 2,
-				"specialRules": ["Front Arc","HE 2in"]
+				"specialRules": ["Front Arc","HE 2”"]
 			},
 			{
 				"name": "Rear Facing Mounted 75mm Recoilles Rifle",
@@ -1545,7 +1548,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 2,
-				"specialRules": ["Rear Arc","HE 2in"]
+				"specialRules": ["Rear Arc","HE 2”"]
 			},
 			{
 				"name": "Hull Mounted AT Rifle",
@@ -1832,7 +1835,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 2,
-				"specialRules": ["360° Arc","HE 2in"]
+				"specialRules": ["360° Arc","HE 2”"]
 			},
 			{
 				"name": "Turret Mounted Coaxial Light Howitzer",
@@ -1841,7 +1844,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 2,
-				"specialRules": ["360° Arc","HE 2in","Coaxial"]
+				"specialRules": ["360° Arc","HE 2”","Coaxial"]
 			},
 			{
 				"name": "Turret A Mounted Light Howitzer",
@@ -1850,7 +1853,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 2,
-				"specialRules": ["360° Arc","HE 2in"]
+				"specialRules": ["360° Arc","HE 2”"]
 			},
 			{
 				"name": "Front and Side Facing Turret Mounted Light Howitzer",
@@ -1859,7 +1862,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 2,
-				"specialRules": ["Front and Side Arcs","HE 2in"]
+				"specialRules": ["Front and Side Arcs","HE 2”"]
 			},
 			{
 				"name": "Turret Mounted Medium Howitzer",
@@ -1868,7 +1871,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 3,
-				"specialRules": ["360° Arc","HE 3in"]
+				"specialRules": ["360° Arc","HE 3”"]
 			},
 			{
 				"name": "Turret Mounted Heavy Howitzer",
@@ -1877,7 +1880,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 4,
-				"specialRules": ["360° Arc","HE 4in"]
+				"specialRules": ["360° Arc","HE 4”"]
 			},
 			{
 				"name": "Turret Mounted LMG",
@@ -2039,7 +2042,7 @@
 				"shots": 2,
 				"pen": "+3",
 				"he": 1,
-				"specialRules": ["360° Arc","HE 1in"]
+				"specialRules": ["360° Arc","HE 1”"]
 			},
 			{
 				"name": "Turret Mounted Twin Light Autocannons",
@@ -2047,7 +2050,7 @@
 				"shots": 4,
 				"pen": "+3",
 				"he": 1,
-				"specialRules": ["360° Arc","HE 1in"]
+				"specialRules": ["360° Arc","HE 1”"]
 			},
 			{
 				"name": "Turret Mounted Triple Light Autocannons",
@@ -2055,7 +2058,7 @@
 				"shots": 6,
 				"pen": "+3",
 				"he": 1,
-				"specialRules": ["360° Arc","HE 1in"]
+				"specialRules": ["360° Arc","HE 1”"]
 			},
 			{
 				"name": "Turret Mounted Heavy Autocannon",
@@ -2063,7 +2066,7 @@
 				"shots": 2,
 				"pen": "+2",
 				"he": 1,
-				"specialRules": ["360° Arc","HE 1in"]
+				"specialRules": ["360° Arc","HE 1”"]
 			},
 			{
 				"name": "Turret Mounted Coaxial LMG",
@@ -2099,16 +2102,16 @@
 				"shots": 1,
 				"pen": "+4",
 				"he": 1,
-				"specialRules": ["360° Arc","HE 1in","Anti-Tank Gun"]
+				"specialRules": ["360° Arc","HE 1”","Anti-Tank Gun"]
 			},
 			{
 				"name": "Turret Mounted Light AT Gun with Improved Ballistics",
-				"definition": "When firing at a unit within 24in, this gun has a Pen rating of +5 instead of +4; Bolt Action, 3rd Edition Armies of Italy Army Book: Pg. 56",
+				"definition": "When firing at a unit within 24”, this gun has a Pen rating of +5 instead of +4; Bolt Action, 3rd Edition Armies of Italy Army Book: Pg. 56",
 				"range": 48,
 				"shots": 1,
 				"pen": "+4",
 				"he": 1,
-				"specialRules": ["360° Arc","HE 1in","Anti-Tank Gun"]
+				"specialRules": ["360° Arc","HE 1”","Anti-Tank Gun"]
 			},
 			{
 				"name": "Turret Mounted Light AT Gun with Littlejohn Adaptor",
@@ -2131,7 +2134,7 @@
 				"shots": 1,
 				"pen": "+4",
 				"he": 1,
-				"specialRules": ["360° Arc","HE 1in","Anti-Tank Gun","Coaxial"]
+				"specialRules": ["360° Arc","HE 1”","Anti-Tank Gun","Coaxial"]
 			},
 			{
 				"name": "Rear Left Facing Turret C Light AT Gun",
@@ -2139,7 +2142,7 @@
 				"shots": 1,
 				"pen": "+4",
 				"he": 1,
-				"specialRules": ["Rear Arc","Left Arc","HE 1in","Anti-Tank Gun"]
+				"specialRules": ["Rear Arc","Left Arc","HE 1”","Anti-Tank Gun"]
 			},
 			{
 				"name": "Rear Right Facing Turret B Light AT Gun",
@@ -2147,7 +2150,7 @@
 				"shots": 1,
 				"pen": "+4",
 				"he": 1,
-				"specialRules": ["Rear Arc","Right Arc","HE 1in","Anti-Tank Gun"]
+				"specialRules": ["Rear Arc","Right Arc","HE 1”","Anti-Tank Gun"]
 			},
 			{
 				"name": "Turret Mounted Panzerbüchse 41",
@@ -2155,7 +2158,7 @@
 				"shots": 1,
 				"pen": "+4",
 				"he": 1,
-				"specialRules": ["360° Arc","HE 1in","Anti-Tank Gun","Squeeze-bore (P41)"]
+				"specialRules": ["360° Arc","HE 1”","Anti-Tank Gun","Squeeze-bore (P41)"]
 			},
 			{
 				"name": "Turret Mounted Medium AT Gun",
@@ -2163,7 +2166,7 @@
 				"shots": 1,
 				"pen": "+5",
 				"he": 1,
-				"specialRules": ["360° Arc","HE 1in","Anti-Tank Gun"]
+				"specialRules": ["360° Arc","HE 1”","Anti-Tank Gun"]
 			},
 			{
 				"name": "Turret Mounted Medium AT Gun with Improved HE",
@@ -2171,7 +2174,7 @@
 				"shots": 1,
 				"pen": "+5",
 				"he": 2,
-				"specialRules": ["360° Arc","HE 2in","Anti-Tank Gun","Improved HE"]
+				"specialRules": ["360° Arc","HE 2”","Anti-Tank Gun","Improved HE"]
 			},
 			{
 				"name": "Turret Mounted Heavy AT Gun",
@@ -2179,7 +2182,7 @@
 				"shots": 1,
 				"pen": "+6",
 				"he": 2,
-				"specialRules": ["360° Arc","HE 2in","Anti-Tank Gun"]
+				"specialRules": ["360° Arc","HE 2”","Anti-Tank Gun"]
 			},
 			{
 				"name": "Turret Mounted Heavy AT Gun with Improved HE",
@@ -2187,7 +2190,7 @@
 				"shots": 1,
 				"pen": "+6",
 				"he": 3,
-				"specialRules": ["360° Arc","HE 3in","Anti-Tank Gun"]
+				"specialRules": ["360° Arc","HE 3”","Anti-Tank Gun"]
 			},
 			{
 				"name": "Front and Side Facing Turret Mounted Heavy AT Gun",
@@ -2195,7 +2198,7 @@
 				"shots": 1,
 				"pen": "+6",
 				"he": 2,
-				"specialRules": ["Front and Side Arcs","HE 2in","Anti-Tank Gun"]
+				"specialRules": ["Front and Side Arcs","HE 2”","Anti-Tank Gun"]
 			},
 			{
 				"name": "Turret Mounted Super Heavy AT Gun",
@@ -2203,7 +2206,7 @@
 				"shots": 1,
 				"pen": "+7",
 				"he": 3,
-				"specialRules": ["360° Arc","HE 3in","Anti-Tank Gun"]
+				"specialRules": ["360° Arc","HE 3”","Anti-Tank Gun"]
 			},
 			{
 				"name": "Turret Mounted Uber Heavy AT Gun",
@@ -2219,7 +2222,7 @@
 				"shots": 1,
 				"pen": "+7",
 				"he": 1,
-				"specialRules": ["360° Arc","HE 1in","Anti-Tank Gun"]
+				"specialRules": ["360° Arc","HE 1”","Anti-Tank Gun"]
 			},
 			{
 				"name": "Turret Mounted Super Heavy AT Gun with Heavy Shell",
@@ -2228,7 +2231,7 @@
 				"shots": 1,
 				"pen": "+7",
 				"he": 3,
-				"specialRules": ["360° Arc","HE 3in","Anti-Tank Gun"]
+				"specialRules": ["360° Arc","HE 3”","Anti-Tank Gun"]
 			},
 			{
 				"name": "Turret Mounted 128mm Kwk 44",
@@ -2237,7 +2240,7 @@
 				"shots": 1,
 				"pen": "+7",
 				"he": 3,
-				"specialRules": ["360° Arc","HE 3in","Anti-Tank Gun"]
+				"specialRules": ["360° Arc","HE 3”","Anti-Tank Gun"]
 			},
 			{
 				"name": "Turret Mounted Medium AT Gun with Coaxial HMG",
@@ -2286,7 +2289,7 @@
 				"shots": 2,
 				"pen": "+3",
 				"he": 1,
-				"specialRules": ["360° Arc","Flak","HE 1in"]
+				"specialRules": ["360° Arc","Flak","HE 1”"]
 			},
 			{
 				"name": "Pintle Mounted Light Autocannon Team",
@@ -2294,7 +2297,7 @@
 				"shots": 2,
 				"pen": "+3",
 				"he": 1,
-				"specialRules": ["360° Arc","Flak","HE 1in","Team Weapon"]
+				"specialRules": ["360° Arc","Flak","HE 1”","Team Weapon"]
 			},
 			{
 				"name": "Pintle Mounted Heavy Autocannon",
@@ -2302,7 +2305,7 @@
 				"shots": 2,
 				"pen": "+2",
 				"he": 1,
-				"specialRules": ["360° Arc","Flak","HE 1in"]
+				"specialRules": ["360° Arc","Flak","HE 1”"]
 			},
 			{
 				"name": "Pintle Mounted Heavy Autocannon Team",
@@ -2310,7 +2313,7 @@
 				"shots": 2,
 				"pen": "+2",
 				"he": 1,
-				"specialRules": ["360° Arc","Flak","HE 1in","Team Weapon"]
+				"specialRules": ["360° Arc","Flak","HE 1”","Team Weapon"]
 			},
 			{
 				"name": "Pintle Mounted LMG",
@@ -2608,7 +2611,7 @@
 				"shots": 1,
 				"pen": "+4",
 				"he": 1,
-				"specialRules": ["360° Arc","HE 1in","Anti-Tank Gun","Flak"]
+				"specialRules": ["360° Arc","HE 1”","Anti-Tank Gun","Flak"]
 			},
 			{
 				"name": "Platform Mounted Medium AT Gun",
@@ -2616,7 +2619,7 @@
 				"shots": 1,
 				"pen": "+5",
 				"he": 1,
-				"specialRules": ["360° Arc","HE 1in","Anti-Tank Gun","Flak"]
+				"specialRules": ["360° Arc","HE 1”","Anti-Tank Gun","Flak"]
 			},
 			{
 				"name": "Platform Mounted Medium AT Gun Team",
@@ -2624,7 +2627,7 @@
 				"shots": 1,
 				"pen": "+5",
 				"he": 1,
-				"specialRules": ["360° Arc","HE 1in","Flak","Anti-Tank Gun"]
+				"specialRules": ["360° Arc","HE 1”","Flak","Anti-Tank Gun"]
 			},
 			{
 				"name": "Platform Mounted Heavy AT Gun",
@@ -2632,7 +2635,7 @@
 				"shots": 1,
 				"pen": "+6",
 				"he": 2,
-				"specialRules": ["360° Arc","HE 2in","Anti-Tank Gun","Flak"]
+				"specialRules": ["360° Arc","HE 2”","Anti-Tank Gun","Flak"]
 			},
 			{
 				"name": "Platform Mounted Super Heavy AT Gun",
@@ -2640,7 +2643,7 @@
 				"shots": 1,
 				"pen": "+7",
 				"he": 3,
-				"specialRules": ["360° Arc","HE 3in","Anti-Tank Gun","Flak"]
+				"specialRules": ["360° Arc","HE 3”","Anti-Tank Gun","Flak"]
 			},
 			{
 				"name": "Platform Mounted Super Heavy AT Gun Team",
@@ -2648,7 +2651,7 @@
 				"shots": 1,
 				"pen": "+7",
 				"he": 3,
-				"specialRules": ["360° Arc","HE 3in","Anti-Tank Gun","Flak","Team Weapon"]
+				"specialRules": ["360° Arc","HE 3”","Anti-Tank Gun","Flak","Team Weapon"]
 			},
 			{
 				"name": "Platform Mounted Light Autocannon",
@@ -2656,7 +2659,7 @@
 				"shots": 2,
 				"pen": "+3",
 				"he": 1,
-				"specialRules": ["360° Arc","HE 1in","Flak"]
+				"specialRules": ["360° Arc","HE 1”","Flak"]
 			},
 			{
 				"name": "Platform Mounted Twin Light Autocannons",
@@ -2664,7 +2667,7 @@
 				"shots": 4,
 				"pen": "+3",
 				"he": 1,
-				"specialRules": ["360° Arc","HE 1in","Flak"]
+				"specialRules": ["360° Arc","HE 1”","Flak"]
 			},
 			{
 				"name": "Platform Mounted Twin Light Autocannon Team",
@@ -2672,7 +2675,7 @@
 				"shots": 4,
 				"pen": "+3",
 				"he": 1,
-				"specialRules": ["360° Arc","HE 1in","Flak","Team Weapon"]
+				"specialRules": ["360° Arc","HE 1”","Flak","Team Weapon"]
 			},
 			{
 				"name": "Platform Mounted Triple Light Autocannons",
@@ -2680,7 +2683,7 @@
 				"shots": 6,
 				"pen": "+3",
 				"he": 1,
-				"specialRules": ["360° Arc","HE 1in","Flak"]
+				"specialRules": ["360° Arc","HE 1”","Flak"]
 			},
 			{
 				"name": "Platform Mounted Triple Light Autocannon Team",
@@ -2688,7 +2691,7 @@
 				"shots": 6,
 				"pen": "+3",
 				"he": 1,
-				"specialRules": ["360° Arc","HE 1in","Flak","Team Weapon"]
+				"specialRules": ["360° Arc","HE 1”","Flak","Team Weapon"]
 			},
 			{
 				"name": "Platform Mounted Quad Light Autocannons",
@@ -2696,7 +2699,7 @@
 				"shots": 8,
 				"pen": "+3",
 				"he": 1,
-				"specialRules": ["360° Arc","HE 1in","Flak"]
+				"specialRules": ["360° Arc","HE 1”","Flak"]
 			},
 			{
 				"name": "Platform Mounted Quad Light Autocannon Team",
@@ -2704,7 +2707,7 @@
 				"shots": 8,
 				"pen": "+3",
 				"he": 1,
-				"specialRules": ["360° Arc","HE 1in","Flak","Team Weapon"]
+				"specialRules": ["360° Arc","HE 1”","Flak","Team Weapon"]
 			},
 			{
 				"name": "Platform Mounted Light Autocannon Team",
@@ -2712,7 +2715,7 @@
 				"shots": 2,
 				"pen": "+3",
 				"he": 1,
-				"specialRules": ["360° Arc","HE 1in","Flak","Team Weapon"]
+				"specialRules": ["360° Arc","HE 1”","Flak","Team Weapon"]
 			},
 			{
 				"name": "Light Autocannon Team",
@@ -2720,7 +2723,7 @@
 				"shots": 2,
 				"pen": "+3",
 				"he": 1,
-				"specialRules": ["Fixed Front","HE 1in","Flak","Team Weapon"]
+				"specialRules": ["Fixed Front","HE 1”","Flak","Team Weapon"]
 			},
 			{
 				"name": "Heavy Autocannon Team",
@@ -2728,7 +2731,7 @@
 				"shots": 2,
 				"pen": "+2",
 				"he": 1,
-				"specialRules": ["360° Arc","HE 1in","Flak"]
+				"specialRules": ["360° Arc","HE 1”","Flak"]
 			},
 			{
 				"name": "Platform Mounted Heavy Autocannon",
@@ -2736,7 +2739,7 @@
 				"shots": 2,
 				"pen": "+2",
 				"he": 1,
-				"specialRules": ["360° Arc","HE 1in","Flak"]
+				"specialRules": ["360° Arc","HE 1”","Flak"]
 			},
 			{
 				"name": "Platform Mounted Heavy Autocannon Team",
@@ -2744,7 +2747,7 @@
 				"shots": 2,
 				"pen": "+2",
 				"he": 1,
-				"specialRules": ["360° Arc","HE 1in","Flak","Team Weapon"]
+				"specialRules": ["360° Arc","HE 1”","Flak","Team Weapon"]
 			},
 			{
 				"name": "Platform Mounted Medium Mortar",
@@ -2752,7 +2755,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 2,
-				"specialRules": ["360° Arc","Indirect Fire","HE 2in"]
+				"specialRules": ["360° Arc","Indirect Fire","HE 2”"]
 			},
 			{
 				"name": "Rear Facing Turret Mounted MMG",
@@ -2838,7 +2841,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 1,
-				"specialRules": ["Indirect Fire","HE 1in"]
+				"specialRules": ["Indirect Fire","HE 1”"]
 			},
 			{
 				"name": "Hull Mounted Light Mortar",
@@ -2846,11 +2849,11 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 1,
-				"specialRules": ["Front Arc","Indirect Fire","HE 1in"]
+				"specialRules": ["Front Arc","Indirect Fire","HE 1”"]
 			},
 			{
 				"name": "Two Independent Hull Mounted Light Mortars",
-				"specialRules": ["Front Arc","Indirect Fire","HE 1in","Hull Mounted Light Mortar","Independent"]
+				"specialRules": ["Front Arc","Indirect Fire","HE 1”","Hull Mounted Light Mortar","Independent"]
 			},
 			{
 				"name": "Rear Mounted Light Mortar",
@@ -2858,7 +2861,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 1,
-				"specialRules": ["Rear Arc","Indirect Fire","HE 1in"]
+				"specialRules": ["Rear Arc","Indirect Fire","HE 1”"]
 			},
 			{
 				"name": "Infantry Light Mortar",
@@ -2866,7 +2869,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 1,
-				"specialRules": ["Indirect Fire","Team Weapon","HE 1in"],
+				"specialRules": ["Indirect Fire","Team Weapon","HE 1”"],
 				"adjustlocalQuantities": [
 					{
 						"key": "primary",
@@ -2884,7 +2887,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 1,
-				"specialRules": ["Indirect Fire","HE 1in","Team Weapon"]
+				"specialRules": ["Indirect Fire","HE 1”","Team Weapon"]
 			},
 			{
 				"name": "Light Mortar Team",
@@ -2892,7 +2895,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 1,
-				"specialRules": ["Indirect Fire","HE 1in","Team Weapon"]
+				"specialRules": ["Indirect Fire","HE 1”","Team Weapon"]
 			},
 			{
 				"name": "Medium Mortar",
@@ -2900,7 +2903,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 2,
-				"specialRules": ["Indirect Fire","HE 2in","Team Weapon"]
+				"specialRules": ["Indirect Fire","HE 2”","Team Weapon"]
 			},
 			{
 				"name": "Hull Mounted Medium Mortar",
@@ -2908,7 +2911,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 2,
-				"specialRules": ["Front Arc","Indirect Fire","HE 2in"]
+				"specialRules": ["Front Arc","Indirect Fire","HE 2”"]
 			},
 			{
 				"name": "Rear Facing Medium Mortar",
@@ -2916,7 +2919,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 2,
-				"specialRules": ["Rear Arc","Indirect Fire","HE 2in"]
+				"specialRules": ["Rear Arc","Indirect Fire","HE 2”"]
 			},
 			{
 				"name": "Rear Facing Hull Mounted Twin Medium Mortars",
@@ -2924,7 +2927,7 @@
 				"shots": 2,
 				"pen": "HE",
 				"he": 2,
-				"specialRules": ["Rear Arc","Indirect Fire","HE 2in"]
+				"specialRules": ["Rear Arc","Indirect Fire","HE 2”"]
 			},
 			{
 				"name": "Medium Mortar Team",
@@ -2932,7 +2935,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 2,
-				"specialRules": ["Indirect Fire","Team Weapon","HE 2in","Fixed"]
+				"specialRules": ["Indirect Fire","Team Weapon","HE 2”","Fixed"]
 			},
 			{
 				"name": "Heavy Mortar",
@@ -2940,7 +2943,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 3,
-				"specialRules": ["Indirect Fire","HE 3in","Team Weapon"]
+				"specialRules": ["Indirect Fire","HE 3”","Team Weapon"]
 			},
 			{
 				"name": "Heavy Mortar Team",
@@ -2948,7 +2951,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 3,
-				"specialRules": ["Indirect Fire","Team Weapon","HE 3in","Fixed"]
+				"specialRules": ["Indirect Fire","Team Weapon","HE 3”","Fixed"]
 			},
 			{
 				"name": "Super Heavy Mortar Team",
@@ -2956,25 +2959,25 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 4,
-				"specialRules": ["Indirect Fire","Team Weapon","HE 4in","Fixed"]
+				"specialRules": ["Indirect Fire","Team Weapon","HE 4”","Fixed"]
 			},
 			{
 				"name": "30.5cm Heavy Mortar Team",
-				"definition": "Different from a normal heavy mortar, this Unit uses the 4in diameter template, has a Pen value of +1 and causes D6+2 pins; Bolt Action, 3rd Edition No Peace In Our Time: Pg. 23",
+				"definition": "Different from a normal heavy mortar, this Unit uses the 4” diameter template, has a Pen value of +1 and causes D6+2 pins; Bolt Action, 3rd Edition No Peace In Our Time: Pg. 23",
 				"range": "12-72",
 				"shots": 1,
 				"pen": "+1",
 				"he": 3,
-				"specialRules": ["Indirect Fire","Team Weapon","HE 2in","Fixed"]
+				"specialRules": ["Indirect Fire","Team Weapon","HE 2”","Fixed"]
 			},
 			{
 				"name": "320mm Mortar Team",
-				"definition": "Uses 4in Template, has a Pen of +1, and causes D6 pins but the crew receives a pin each time the weapon is firedBolt Action, 3rd Edition Armies of Japan Army Book: Pg. 47",
+				"definition": "Uses 4” Template, has a Pen of +1, and causes D6 pins but the crew receives a pin each time the weapon is firedBolt Action, 3rd Edition Armies of Japan Army Book: Pg. 47",
 				"range": "12-72",
 				"shots": 1,
 				"pen": "HE",
 				"he": 4,
-				"specialRules": ["Indirect Fire","Team Weapon","HE 3in"]
+				"specialRules": ["Indirect Fire","Team Weapon","HE 3”"]
 			},
 			{
 				"name": "Light AT Gun Team",
@@ -2982,7 +2985,7 @@
 				"shots": 1,
 				"pen": "+4",
 				"he": 1,
-				"specialRules": ["Fixed","HE 1in","Team Weapon","Anti-Tank Gun"]
+				"specialRules": ["Fixed","HE 1”","Team Weapon","Anti-Tank Gun"]
 			},
 			{
 				"name": "Light AT Gun Team with Improved Ballistics",
@@ -2991,7 +2994,7 @@
 				"shots": 1,
 				"pen": "+4",
 				"he": 1,
-				"specialRules": ["Fixed","HE 1in","Team Weapon","Anti-Tank Gun"]
+				"specialRules": ["Fixed","HE 1”","Team Weapon","Anti-Tank Gun"]
 			},
 			{
 				"name": "Panzerbüchse 41 Team",
@@ -2999,7 +3002,7 @@
 				"shots": 1,
 				"pen": "+4",
 				"he": 1,
-				"specialRules": ["Fixed","HE 1in","Anti-Tank Gun","Squeeze-bore (P41)"]
+				"specialRules": ["Fixed","HE 1”","Anti-Tank Gun","Squeeze-bore (P41)"]
 			},
 			{
 				"name": "Low Velocity Light AT Gun Team",
@@ -3007,7 +3010,7 @@
 				"shots": 1,
 				"pen": "+3",
 				"he": 1,
-				"specialRules": ["Fixed","HE 1in","Team Weapon","Low Velocity","Anti-Tank Gun"]
+				"specialRules": ["Fixed","HE 1”","Team Weapon","Low Velocity","Anti-Tank Gun"]
 			},
 			{
 				"name": "Medium AT Gun Team",
@@ -3015,7 +3018,7 @@
 				"shots": 1,
 				"pen": "+5",
 				"he": 1,
-				"specialRules": ["Fixed","HE 1in","Team Weapon","Anti-Tank Gun"]
+				"specialRules": ["Fixed","HE 1”","Team Weapon","Anti-Tank Gun"]
 			},
 			{
 				"name": "Medium AT Gun Team with Improved Ballistics",
@@ -3024,7 +3027,7 @@
 				"shots": 1,
 				"pen": "+5",
 				"he": 1,
-				"specialRules": ["Fixed","HE 1in","Team Weapon","Anti-Tank Gun"]
+				"specialRules": ["Fixed","HE 1”","Team Weapon","Anti-Tank Gun"]
 			},
 			{
 				"name": "Heavy AT Gun Team",
@@ -3032,7 +3035,7 @@
 				"shots": 1,
 				"pen": "+6",
 				"he": 2,
-				"specialRules": ["Fixed","HE 2in","Team Weapon","Anti-Tank Gun"]
+				"specialRules": ["Fixed","HE 2”","Team Weapon","Anti-Tank Gun"]
 			},
 			{
 				"name": "Rotating Platform Mounted Heavy AT Gun",
@@ -3040,7 +3043,7 @@
 				"shots": 1,
 				"pen": "+6",
 				"he": 2,
-				"specialRules": ["360° Arc","HE 2in","Flak","Team Weapon","Anti-Tank Gun","Improvised Role"]
+				"specialRules": ["360° Arc","HE 2”","Flak","Team Weapon","Anti-Tank Gun","Improvised Role"]
 			},
 			{
 				"name": "Super Heavy AT Gun Team",
@@ -3048,7 +3051,7 @@
 				"shots": 1,
 				"pen": "+7",
 				"he": 3,
-				"specialRules": ["Fixed","HE 2in","Team Weapon","Anti-Tank Gun"]
+				"specialRules": ["Fixed","HE 2”","Team Weapon","Anti-Tank Gun"]
 			},
 			{
 				"name": "Super Heavy AT Gun Team with Massive Shells",
@@ -3056,7 +3059,7 @@
 				"shots": 1,
 				"pen": "+7",
 				"he": 3,
-				"specialRules": ["Fixed","HE 2in","Team Weapon","Massive Shells","Anti-Tank Gun"]
+				"specialRules": ["Fixed","HE 2”","Team Weapon","Massive Shells","Anti-Tank Gun"]
 			},
 			{
 				"name": "Super Heavy AT Gun Team with Light HE",
@@ -3064,7 +3067,7 @@
 				"shots": 1,
 				"pen": "+7",
 				"he": 1,
-				"specialRules": ["Rixed","HE 1in","Team Weapon","Anti-Tank Gun","Anti-Tank Gun"]
+				"specialRules": ["Rixed","HE 1”","Team Weapon","Anti-Tank Gun","Anti-Tank Gun"]
 			},
 			{
 				"name": "Light Howitzer Team",
@@ -3073,7 +3076,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 2,
-				"specialRules": ["Fixed","HE 2in","Team Weapon"]
+				"specialRules": ["Fixed","HE 2”","Team Weapon"]
 			},
 			{
 				"name": "Light Howitzer Team with Light Shell",
@@ -3082,7 +3085,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 1,
-				"specialRules": ["Fixed","HE 1in","Team Weapon"]
+				"specialRules": ["Fixed","HE 1”","Team Weapon"]
 			},
 			{
 				"name": "Medium Howitzer Team",
@@ -3091,7 +3094,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 3,
-				"specialRules": ["Fixed","HE 3in","Team Weapon"]
+				"specialRules": ["Fixed","HE 3”","Team Weapon"]
 			},
 			{
 				"name": "Heavy Howitzer Team",
@@ -3100,7 +3103,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 4,
-				"specialRules": ["Fixed","HE 4in","Team Weapon"]
+				"specialRules": ["Fixed","HE 4”","Team Weapon"]
 			},
 			{
 				"name": "LMG Team",
@@ -3164,7 +3167,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 2,
-				"specialRules": ["Fixed","HE 2in","Team Weapon"]
+				"specialRules": ["Fixed","HE 2”","Team Weapon"]
 			},
 			{
 				"name": "Blacker Bombard Team",
@@ -3172,7 +3175,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 2,
-				"specialRules": ["Fixed","HE 2in","Team Weapon"]
+				"specialRules": ["Fixed","HE 2”","Team Weapon"]
 			},
 			{
 				"name": "Rifle Grenade Adaptor",
@@ -3180,7 +3183,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 1,
-				"specialRules": ["Indirect","HE 1in"]
+				"specialRules": ["Indirect","HE 1”"]
 			},
 			{
 				"name": "PIAT",
@@ -3279,7 +3282,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 1,
-				"specialRules": ["Indirect","HE 1in"]
+				"specialRules": ["Indirect","HE 1”"]
 			},
 			{
 				"name": "m/23 Rifle Greande",
@@ -3288,7 +3291,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 1,
-				"specialRules": ["Indirect Fire","HE 1in","Team Weapon"]
+				"specialRules": ["Indirect Fire","HE 1”","Team Weapon"]
 			},
 			{
 				"name": "Grb-39 Grenade Launcher",
@@ -3297,7 +3300,7 @@
 				"shots": 1,
 				"pen": "+3 / HE",
 				"he": 1,
-				"specialRules": ["Shape Charge","HE 1in"]
+				"specialRules": ["Shape Charge","HE 1”"]
 			},
 			{
 				"name": "Type 89 Grenade Launcher",
@@ -3306,7 +3309,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 1,
-				"specialRules": ["Indirect","Low-angle Fire","Targetting","HE 1in"]
+				"specialRules": ["Indirect","Low-angle Fire","Targetting","HE 1”"]
 			},
 			{
 				"name": "Sturmpistole",
@@ -3323,15 +3326,15 @@
 				"shots": 1,
 				"pen": "-",
 				"he": 2,
-				"specialRules": ["HE 2in","Team Weapon","Fixed"]
+				"specialRules": ["HE 2”","Team Weapon","Fixed"]
 			},
 			{
 				"name": "Heavy Charge",
-				"definition": "Before moving on an Advance, place a 4in template in contact with the center of the frunt hull of the vehicle, then execute a reverse move straight back. Any model hit by the tempalte counts as hit by a heavy howitzer, except Pen is +5 and that units in buildings suffer 4D6 hits instead; Bolt Action, 3rd Edition Armies of Germany Army Book: Pg. 73",
+				"definition": "Before moving on an Advance, place a 4” template in contact with the center of the frunt hull of the vehicle, then execute a reverse move straight back. Any model hit by the tempalte counts as hit by a heavy howitzer, except Pen is +5 and that units in buildings suffer 4D6 hits instead; Bolt Action, 3rd Edition Armies of Germany Army Book: Pg. 73",
 				"shots": 1,
 				"pen": "+5",
 				"he": 4,
-				"specialRules": ["HE 4in"]
+				"specialRules": ["HE 4”"]
 			},
 			{
 				"name": "Hull Mounted Multiple Rocket Launcher",
@@ -3339,7 +3342,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 3,
-				"specialRules": ["Front Arc","HE 3in","Multiple Launcher"]
+				"specialRules": ["Front Arc","HE 3”","Multiple Launcher"]
 			},
 			{
 				"name": "Multiple Rocket Launcher Team",
@@ -3347,7 +3350,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 3,
-				"specialRules": ["Fixed Front","HE 3in","Multiple Launcher","Team Weapon"]
+				"specialRules": ["Fixed Front","HE 3”","Multiple Launcher","Team Weapon"]
 			},
 			{
 				"name": "Forward Facing Multiple Rocket Launcher",
@@ -3355,7 +3358,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 3,
-				"specialRules": ["Front Arc","HE 3in","Multiple Launcher"]
+				"specialRules": ["Front Arc","HE 3”","Multiple Launcher"]
 			},
 			{
 				"name": "Turret Mounted Multiple Rocket Launcher",
@@ -3363,7 +3366,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 3,
-				"specialRules": ["360° Arc","HE 3in","Multiple Launcher"]
+				"specialRules": ["360° Arc","HE 3”","Multiple Launcher"]
 			},
 			{
 				"name": "Heavy Rocket Launcher Team",
@@ -3372,7 +3375,7 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 4,
-				"specialRules": ["Fixed Front","HE 4in","Team Weapon","Multiple Rocket Launcer"]
+				"specialRules": ["Fixed Front","HE 4”","Team Weapon","Multiple Rocket Launcer"]
 			},
 			{
 				"name": "Turret Mounted Flamethrower",
@@ -4556,12 +4559,12 @@
 				"shots": 1,
 				"pen": "HE",
 				"he": 3,
-				"definition": "Place a Demo Charge with a Fire Order by placing a marker in base contact with a single soldier in your squad. Removed if this unit is Assaulted or Defeated. To trigger charge, make a Run or and move at min. 3in away. If in contact with a Vehicle or Building, counts as direct hit, not template; Bolt Action, 3rd Edition Armies of Books",
+				"definition": "Place a Demo Charge with a Fire Order by placing a marker in base contact with a single soldier in your squad. Removed if this unit is Assaulted or Defeated. To trigger charge, make a Run or and move at min. 3” away. If in contact with a Vehicle or Building, counts as direct hit, not template; Bolt Action, 3rd Edition Armies of Books",
 				"specialRules": ["One shot"]
 			},
 			{
 				"name": "Bangalore Torpedoes",
-				"definition": "To use, unit must start their turn within 2in of the target Mine, Barbed Wire, or other obstacle. Then Advance further than 2in from the target. May not shoot off this Advance. Detonate the explosive if no friendly unit within 2in. Roll 2D6, on a result of 6+, destroy the obstacle; Bolt Action, 2nd Edition Campaign Book - Italy, Soft Under Belly: Pg. 165",
+				"definition": "To use, unit must start their turn within 2” of the target Mine, Barbed Wire, or other obstacle. Then Advance further than 2” from the target. May not shoot off this Advance. Detonate the explosive if no friendly unit within 2”. Roll 2D6, on a result of 6+, destroy the obstacle; Bolt Action, 2nd Edition Campaign Book - Italy, Soft Under Belly: Pg. 165",
 				"specialRules": []
 			},
 			{
@@ -4656,25 +4659,25 @@
 			},
 			{
 				"name": "Command Vehicle",
-				"definition": "Adds morale bonus of +1 to itself and friendly vehicles within 12in and may use Snap To; Bolt Action, 3rd Edition: Pg. 113",
+				"definition": "Adds morale bonus of +1 to itself and friendly vehicles within 12” and may use Snap To; Bolt Action, 3rd Edition: Pg. 113",
 				"validationKeys": ["CommandVehicle"],
 				"specialRules": []
 			},
 			{
 				"name": "Command Vehicle ",
-				"definition": "Adds morale bonus of +1 to itself and friendly vehicles within 12in and may use Snap To; Bolt Action, 3rd Edition: Pg. 113",
+				"definition": "Adds morale bonus of +1 to itself and friendly vehicles within 12” and may use Snap To; Bolt Action, 3rd Edition: Pg. 113",
 				"validationKeys": ["CommandVehicleR"],
 				"specialRules": []
 			},
 			{
 				"name": "Command Vehicle w/ Radios",
-				"definition": "Adds morale bonus of +1 to itself and friendly vehicles within 12in and may use Snap To; Bolt Action, 3rd Edition: Pg. 113",
+				"definition": "Adds morale bonus of +1 to itself and friendly vehicles within 12” and may use Snap To; Bolt Action, 3rd Edition: Pg. 113",
 				"validationKeys": ["CommandVehicle"],
 				"specialRules": []
 			},
 			{
 				"name": "Command Vehicle w/o Radios",
-				"definition": "Adds morale bonus of +1 to itself and friendly vehicles within 6in and may use Snap To; Bolt Action, 3rd Edition Armies of the Soviet Union Army Book: Pg. 28",
+				"definition": "Adds morale bonus of +1 to itself and friendly vehicles within 6” and may use Snap To; Bolt Action, 3rd Edition Armies of the Soviet Union Army Book: Pg. 28",
 				"validationKeys": ["CommandVehicle"],
 				"specialRules": []
 			},
@@ -4828,7 +4831,7 @@
 			},
 			{
 				"name": "Improved HE",
-				"definition": "Increase HE Value by 1 (I.E. From HE 1in to HE 2in); Bolt Action, 3rd Edition: Pg. ---",
+				"definition": "Increase HE Value by 1 (I.E. From HE 1” to HE 2”); Bolt Action, 3rd Edition: Pg. ---",
 				"specialRules": []
 			},
 			{
@@ -5033,12 +5036,12 @@
 			},
 			{
 				"name": "SN-42 Body Armor",
-				"definition": "Hits from Small Arms, HE Weapons, and Close-Quarters Combat suffer a -1 modifier when rolling to damage soldiers wearing body armor. Units in Body Armor when issued a Run Order, move 6in instead of 12in; Bolt Action, 3rd Edition Armies of the Soviet Union Army Book: Pg. 29",
+				"definition": "Hits from Small Arms, HE Weapons, and Close-Quarters Combat suffer a -1 modifier when rolling to damage soldiers wearing body armor. Units in Body Armor when issued a Run Order, move 6” instead of 12”; Bolt Action, 3rd Edition Armies of the Soviet Union Army Book: Pg. 29",
 				"specialRules": []
 			},
 			{
 				"name": "Guard Dogs",
-				"definition": "Can spot Hidden Enemies within 24in instead of 12in; Bolt Action, 3rd Edition Armies of the Soviet Union Army Book: Pg. 29",
+				"definition": "Can spot Hidden Enemies within 24” instead of 12”; Bolt Action, 3rd Edition Armies of the Soviet Union Army Book: Pg. 29",
 				"specialRules": ["Tough Fighters"]
 			},
 			{
@@ -5386,11 +5389,11 @@
 			},
 			{
 				"name": "Squeeze-bore (P41)",
-				"definition": "When firing within 12in, add +2 to Pen. If firing over half range, reduce Pen by -2 instead of the -1; Bolt Action, 3rd Edition Armies of Germany Army Book: Pg. 53"
+				"definition": "When firing within 12”, add +2 to Pen. If firing over half range, reduce Pen by -2 instead of the -1; Bolt Action, 3rd Edition Armies of Germany Army Book: Pg. 53"
 			},
 			{
 				"name": "Squeeze-bore (EW141)",
-				"definition": "When firing at targets within 18in, +3 to Pen; Bolt Action, 3rd Edition Armies of Germany Army Book: Pg. 57"
+				"definition": "When firing at targets within 18”, +3 to Pen; Bolt Action, 3rd Edition Armies of Germany Army Book: Pg. 57"
 			},
 			{
 				"name": "Experimental (EW141)",
@@ -5402,7 +5405,7 @@
 			},
 			{
 				"name": "Improved HE",
-				"definition": "Increase HE Value by 1 (I.E. From HE 1in to HE 2in); Bolt Action, 3rd Edition: Pg. ---"
+				"definition": "Increase HE Value by 1 (I.E. From HE 1” to HE 2”); Bolt Action, 3rd Edition: Pg. ---"
 			},
 			{
 				"name": "Coaxial",
@@ -5562,27 +5565,27 @@
 			},
 			{
 				"name": "Low-angle Fire",
-				"definition": "All Japanese Light Mortars have a minimum range of 6in instead of 12in; Bolt Action, 3rd Edition Armies of Japan Army Book: Pg. 25"
+				"definition": "All Japanese Light Mortars have a minimum range of 6” instead of 12”; Bolt Action, 3rd Edition Armies of Japan Army Book: Pg. 25"
 			},
 			{
 				"name": "Targetting",
 				"definition": "All Knee Mortars must target the same unit when fired but may select a different target than the other non-mortar weapons; Bolt Action, 3rd Edition Armies of Japan Army Book: Pg. 25"
 			},
 			{
-				"name": "HE 1in",
-				"definition": "Use 1in Template to determine hits. Pen +1 when HE is used; Bolt Action, 3rd Edition: Pg. 97"
+				"name": "HE 1”",
+				"definition": "Use 1” Template to determine hits. Pen +1 when HE is used; Bolt Action, 3rd Edition: Pg. 97"
 			},
 			{
-				"name": "HE 2in",
-				"definition": "Use 2in Template to determine hits. Pen +2 when HE is used; Bolt Action, 3rd Edition: Pg. 97"
+				"name": "HE 2”",
+				"definition": "Use 2” Template to determine hits. Pen +2 when HE is used; Bolt Action, 3rd Edition: Pg. 97"
 			},
 			{
-				"name": "HE 3in",
-				"definition": "Use 3in Template to determine hits. Pen +3 when HE is used; Bolt Action, 3rd Edition: Pg. 97"
+				"name": "HE 3”",
+				"definition": "Use 3” Template to determine hits. Pen +3 when HE is used; Bolt Action, 3rd Edition: Pg. 97"
 			},
 			{
-				"name": "HE 4in",
-				"definition": "Use 4in Template to determine hits. Pen +4 when HE is used; Bolt Action, 3rd Edition: Pg. 97"
+				"name": "HE 4”",
+				"definition": "Use 4” Template to determine hits. Pen +4 when HE is used; Bolt Action, 3rd Edition: Pg. 97"
 			},
 			{
 				"name": "Anti-Tank Gun",
@@ -5618,7 +5621,7 @@
 			},
 			{
 				"name":"We’ve got a loudspeaker here and when we go into battle we play music very loud. It kind of… calms us down",
-				"definition": "Any other Oddball Sherman within 12in loses D3 pins; Bolt Action, 2nd Edition Kelly's Heroes Leaflet"
+				"definition": "Any other Oddball Sherman within 12” loses D3 pins; Bolt Action, 2nd Edition Kelly's Heroes Leaflet"
 			},
 			{
 				"name":"We’ve got our own ammunition; it’s filled with paint. When we fire it…it makes pretty pictures. Scares the hell out of people",
@@ -5698,11 +5701,11 @@
 			},
 			{
 				"name": "Wheeled",
-				"definition": "Advance: 12in; Run: 24in; Doubled on Roads; Bolt Action, 3rd Edition: Pg. 133"
+				"definition": "Advance: 12”; Run: 24”; Doubled on Roads; Bolt Action, 3rd Edition: Pg. 133"
 			},
 			{
 				"name": "Half-Track",
-				"definition": "Advance: 9in; Run: 18in; Doubled on Roads; Bolt Action, 3rd Edition: Pg. 133"
+				"definition": "Advance: 9”; Run: 18”; Doubled on Roads; Bolt Action, 3rd Edition: Pg. 133"
 			},
 			{
 				"name": "Airborne Carriage",
@@ -5722,7 +5725,7 @@
 			},
 			{
 				"name": "Multiple Launcher",
-				"definition": "This unit receives 1 Pin when firing. Counts as Light Howizter when being towed. Only ever hits on a 6. Select primary target, then measure all units within 6in. If there is a friendly unit within 6in, cannot fire and counts as a miss. Units within your minimum range automatically miss. Then roll to hit each unit independently; Bolt Action, 3rd Edition: Pg. 102"
+				"definition": "This unit receives 1 Pin when firing. Counts as Light Howizter when being towed. Only ever hits on a 6. Select primary target, then measure all units within 6”. If there is a friendly unit within 6”, cannot fire and counts as a miss. Units within your minimum range automatically miss. Then roll to hit each unit independently; Bolt Action, 3rd Edition: Pg. 102"
 			},
 			{
 				"name": "Shaped Charge",
@@ -5766,7 +5769,7 @@
 			},
 			{
 				"name": "Bicycles",
-				"definition": "When moving entirely on a road, on Run Orders, may move 24in; Bolt Action, 3rd Edition: Pg. 119"
+				"definition": "When moving entirely on a road, on Run Orders, may move 24”; Bolt Action, 3rd Edition: Pg. 119"
 			},
 			{
 			
@@ -5803,7 +5806,7 @@
 			},
 			{
 				"name": "Medic",
-				"definition": "When a friendly inf. or arty unit within 6in suffer damage from Small Arms, roll a D6 for each Damage. On a 6, ignore that damage; Bolt Action, 3rd Edition: Pg. 113"
+				"definition": "When a friendly inf. or arty unit within 6” suffer damage from Small Arms, roll a D6 for each Damage. On a 6, ignore that damage; Bolt Action, 3rd Edition: Pg. 113"
 			},
 			{
 				"name": "Motorcycles",
@@ -5811,11 +5814,11 @@
 			},
 			{
 				"name": "Bicycles",
-				"definition": "When mounted and moving entirely on a road, double their Run move to 24in, Any order other than Run allows the unit to dismounted, abandon the bikes for the rest of the game, replace the bike models with ones on foot, and gain a pin; Bolt Action, 3rd Edition: Pg. 119"
+				"definition": "When mounted and moving entirely on a road, double their Run move to 24”, Any order other than Run allows the unit to dismounted, abandon the bikes for the rest of the game, replace the bike models with ones on foot, and gain a pin; Bolt Action, 3rd Edition: Pg. 119"
 			},
 			{
 				"name": "Signaling Bugles",
-				"definition": "All Inexperienced Enemy Infantry and Artillery Units within 36in of a Signaling Bugle suffer from a -1 modified to their morale value so long as they do not have LOS to a model with a Signaling Bugle; Bolt Action, 3rd Edition Armies of Japan Army Book: Pg. 25"
+				"definition": "All Inexperienced Enemy Infantry and Artillery Units within 36” of a Signaling Bugle suffer from a -1 modified to their morale value so long as they do not have LOS to a model with a Signaling Bugle; Bolt Action, 3rd Edition Armies of Japan Army Book: Pg. 25"
 			},
 			{
 				"name": "Observer",
@@ -5847,7 +5850,7 @@
 			},
 			{
 				"name": "Sniper",
-				"definition": "Can use Scope at 36in to 12in for a sniper shot. +1 to hit, +1 to damage, no cover save, can pick the NCO of a squad as the wound target; Bolt Action, 3rd Edition: Pg. 122"
+				"definition": "Can use Scope at 36” to 12” for a sniper shot. +1 to hit, +1 to damage, no cover save, can pick the NCO of a squad as the wound target; Bolt Action, 3rd Edition: Pg. 122"
 			},
 			{
 				"name": "Spotters",
@@ -5879,15 +5882,15 @@
 			},
 			{
 				"name": "Command Vehicle",
-				"definition": "Adds morale bonus of +1 to itself and friendly vehicles within 12in and may use Snap To; Bolt Action, 3rd Edition: Pg. 113"
+				"definition": "Adds morale bonus of +1 to itself and friendly vehicles within 12” and may use Snap To; Bolt Action, 3rd Edition: Pg. 113"
 			},
 			{
 				"name": "Fast",
-				"definition": "Tracked Vehicles with Fast Advance at 12in and Run at 24in; Bolt Action, 3rd Edition: Pg. 149"
+				"definition": "Tracked Vehicles with Fast Advance at 12” and Run at 24”; Bolt Action, 3rd Edition: Pg. 149"
 			},
 			{
 				"name": "Medical Vehicle",
-				"definition": "When a friendly inf. or arty unit within 6in suffer damage from Small Arms, roll a D6 for each Damage. On a 6, ignore that damage; Bolt Action, 3rd Edition: Pg. 149"
+				"definition": "When a friendly inf. or arty unit within 6” suffer damage from Small Arms, roll a D6 for each Damage. On a 6, ignore that damage; Bolt Action, 3rd Edition: Pg. 149"
 			},
 			{
 				"name": "One-Man Turret",
@@ -5903,7 +5906,7 @@
 			},
 			{
 				"name": "Slow",
-				"definition": "Advanced at 6in, Run at 12in; Bolt Action, 3rd Edition: Pg. 150"
+				"definition": "Advanced at 6”, Run at 12”; Bolt Action, 3rd Edition: Pg. 150"
 			},
 			{
 				"name": "Desert Fighters",
@@ -5955,7 +5958,7 @@
 			},
 			{
 				"name": "Massed Batteries",
-				"definition": "When resolving Fire For Effect!, resolve the D6+6in by rolling 2D6 and picking the highest to use for the D6+6in; Bolt Action, 3rd Edition : Pg. ---"
+				"definition": "When resolving Fire For Effect!, resolve the D6+6” by rolling 2D6 and picking the highest to use for the D6+6”; Bolt Action, 3rd Edition : Pg. ---"
 			},
 			{
 				"name": "Green",
@@ -5987,7 +5990,7 @@
 			},
 			{
 				"name": "That's How You Do It!",
-				"definition": "If any friendly unit within 6in of Sergeant Sawyer's Model fails an Order Check, they may immediately re-roll.; Bolt Action, 3rd Edition, Warlord website"
+				"definition": "If any friendly unit within 6” of Sergeant Sawyer's Model fails an Order Check, they may immediately re-roll.; Bolt Action, 3rd Edition, Warlord website"
 			},
 			{
 				"name": "Quit Ya Whining!",
@@ -6007,7 +6010,7 @@
 			},
 			{
 				"name": "Act with Courage",
-				"definition": "All units within 12in ignore one pin when making order test. Must still test even with one pin; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 125"
+				"definition": "All units within 12” ignore one pin when making order test. Must still test even with one pin; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 125"
 			},
 			{
 				"name": "Act with Initiative",
@@ -6035,11 +6038,11 @@
 			},
 			{
 				"name": "Recon Troops",
-				"definition": "Can spot hidden units at 18in; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 114"
+				"definition": "Can spot hidden units at 18”; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 114"
 			},
 			{
 				"name": "Escape Reaction",
-				"definition": "When Attacked or Assault, may issue a run order and move up to 6in away from the attacking unit; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 114"
+				"definition": "When Attacked or Assault, may issue a run order and move up to 6” away from the attacking unit; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 114"
 			},
 			{
 				"name": "Jittery",
@@ -6051,7 +6054,7 @@
 			},
 			{
 				"name": "Light Recognition",
-				"definition": "Increase Night Detection Range by 6in; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 115"
+				"definition": "Increase Night Detection Range by 6”; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 115"
 			},
 			{
 				"name": "Ivory Handle Pistol Pair",
@@ -6083,11 +6086,11 @@
 			},
 			{
 				"name": "Hold'em by the Nose and Kick'em in the Ass!",
-				"definition": "Outflanking Units may come in 12in further than normal; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 127"
+				"definition": "Outflanking Units may come in 12” further than normal; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 127"
 			},
 			{
 				"name": "I Won't Subsidise Cowardice!",
-				"definition": "Units within 12in of Patton have their Morale raised by 1 and Reroll Failed Morale Tests. (Order Tests are not Morale Tests); Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 127"
+				"definition": "Units within 12” of Patton have their Morale raised by 1 and Reroll Failed Morale Tests. (Order Tests are not Morale Tests); Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 127"
 			},
 			{
 				"name": "Ol' Blood'n'Guts!",
@@ -6099,11 +6102,11 @@
 			},
 			{
 				"name": "Lead From the Front",
-				"definition": "When a unit is within 12in of a Company or Platoon Commander, they may ignore one pin when making order test. Must still test even with one pin; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 127"
+				"definition": "When a unit is within 12” of a Company or Platoon Commander, they may ignore one pin when making order test. Must still test even with one pin; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 127"
 			},
 			{
 				"name": "Able Leadership",
-				"definition": "All Units with 'Rangers Lead the Way!' within 12in ignore one pin when making order test. Must still test even with one pin; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 116"
+				"definition": "All Units with 'Rangers Lead the Way!' within 12” ignore one pin when making order test. Must still test even with one pin; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 116"
 			},
 			{
 				"name": "Achnacarry Training",
@@ -6119,7 +6122,7 @@
 			},
 			{
 				"name": "Aggressive Motivation",
-				"definition": "When an infantry unit fails an Order test within 6in remove a model and reroll the Order test (once per order die); Bolt Action, 3rd Edition Zurn Central Game Packet: Pg. 47"
+				"definition": "When an infantry unit fails an Order test within 6” remove a model and reroll the Order test (once per order die); Bolt Action, 3rd Edition Zurn Central Game Packet: Pg. 47"
 			},
 			{
 				"name": "Airborne QF 6pdr",
@@ -6159,7 +6162,7 @@
 			},
 			{
 				"name": "Cautious Movement",
-				"definition": "If the COPP Commando team is hidden, they may remain hidden after they are given an advance order. To remain hidden, they may not shoot firearms and can only move at a rate of 4in when given the order; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 109"
+				"definition": "If the COPP Commando team is hidden, they may remain hidden after they are given an advance order. To remain hidden, they may not shoot firearms and can only move at a rate of 4” when given the order; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 109"
 			},
 			{
 				"name": "Chained Dogs",
@@ -6243,11 +6246,11 @@
 			},
 			{
 				"name": "Fitness is Key",
-				"definition": "SRS sub-sections move at an increased speed of 7in when advancing and at 14in when running; Bolt Action, 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 105"
+				"definition": "SRS sub-sections move at an increased speed of 7” when advancing and at 14” when running; Bolt Action, 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 105"
 			},
 			{
 				"name": "Follow Me!",
-				"definition": "Calvert’s team, and other units of Chindits that are deployed within 12in of Calvert, are allowed to make a Run move after both sides have finished set-up, but before the first turn of the game; Bolt Action Compendium, 3rd Edition; Pg. 46"
+				"definition": "Calvert’s team, and other units of Chindits that are deployed within 12” of Calvert, are allowed to make a Run move after both sides have finished set-up, but before the first turn of the game; Bolt Action Compendium, 3rd Edition; Pg. 46"
 			},
 			{
 				"name": "Vulnerable",
@@ -6267,7 +6270,7 @@
 			},
 			{
 				"name": "Fortification",
-				"definition": "This fortification is treated as a vehicle that already suffered an Immobilized result. In scenarios that don’t start units on the table, place this unit within 6in from your table edge as soon as you know which side of the table is yours; Bolt Action, 3rd Edition No Peace in Our Time: Pg. 35"
+				"definition": "This fortification is treated as a vehicle that already suffered an Immobilized result. In scenarios that don’t start units on the table, place this unit within 6” from your table edge as soon as you know which side of the table is yours; Bolt Action, 3rd Edition No Peace in Our Time: Pg. 35"
 			},
 			{
 				"name": "Fortification Gun",
@@ -6275,7 +6278,7 @@
 			},
 			{
 				"name": "Fortress Switzerland",
-				"definition": "When this Unit begin their turn touching or on a Bridge, Building, or Road/Rails and with no other units within 6in of the terrain, they may execute a Run order, and move 6in towards their own table edge or deployment zone, and roll a D6 on a 2+, destroy the terrain piece inline with the chart. See Further Rules; Bolt Action: Armed Neutrality, The Swiss Army; Pg. 12"
+				"definition": "When this Unit begin their turn touching or on a Bridge, Building, or Road/Rails and with no other units within 6” of the terrain, they may execute a Run order, and move 6” towards their own table edge or deployment zone, and roll a D6 on a 2+, destroy the terrain piece inline with the chart. See Further Rules; Bolt Action: Armed Neutrality, The Swiss Army; Pg. 12"
 			},
 			{
 				"name": "Fuel Trailer",
@@ -6283,11 +6286,11 @@
 			},
 			{
 				"name": "Get Back in the Fight",
-				"definition": "If any friendly unit fails an attempt to Rally it can immediately roll a second attempt if within 6in of a Military Police Corps squad; Bolt Action, 3rd Edition Armies of the United States of America Army Book: Pg. 42"
+				"definition": "If any friendly unit fails an attempt to Rally it can immediately roll a second attempt if within 6” of a Military Police Corps squad; Bolt Action, 3rd Edition Armies of the United States of America Army Book: Pg. 42"
 			},
 			{
 				"name": "Get Back in the Fight, Now!",
-				"definition": "If any Italian unit fails an attempt to Rally, it can immediately roll a second attempt if within 12in of a Carabinieri squad; Bolt Action, 3rd Edition Armies of Italy Army Book: Pg. 37"
+				"definition": "If any Italian unit fails an attempt to Rally, it can immediately roll a second attempt if within 12” of a Carabinieri squad; Bolt Action, 3rd Edition Armies of Italy Army Book: Pg. 37"
 			},
 			{
 				"name": "Götterdämmrung",
@@ -6311,7 +6314,7 @@
 			},
 			{
 				"name": "Heavy Strategic Bomber",
-				"definition": "Not required to be the first order pulled from a bag when they are off the table, but are when they are on the table. When an aircraft with the Strategic Bomber comes on the table, declare if it is making a strafing run or a bombing run. During a bombing run, it can only be attacked by aircraft, or units equipped with Heavy/Light Autocannons with Flak, or Heavy/Medium/Light AT/Howitzers with Flak. During a strafing run, it can be attacked as normal per the experimental rules. Place the bomber or the marker on the table. Following the tail of the bomber, you may place 7 Tokens in line with the bomber, up to 24in from the bomber. Then, for each token, roll D6 and move the token in a random direction that many inches. The attack is automatically successful, perform an Indirect Heavy Howitzer attack centered on the Token; Phyrexian Labs Homebrew Rules"
+				"definition": "Not required to be the first order pulled from a bag when they are off the table, but are when they are on the table. When an aircraft with the Strategic Bomber comes on the table, declare if it is making a strafing run or a bombing run. During a bombing run, it can only be attacked by aircraft, or units equipped with Heavy/Light Autocannons with Flak, or Heavy/Medium/Light AT/Howitzers with Flak. During a strafing run, it can be attacked as normal per the experimental rules. Place the bomber or the marker on the table. Following the tail of the bomber, you may place 7 Tokens in line with the bomber, up to 24” from the bomber. Then, for each token, roll D6 and move the token in a random direction that many inches. The attack is automatically successful, perform an Indirect Heavy Howitzer attack centered on the Token; Phyrexian Labs Homebrew Rules"
 			},
 			{
 				"name": "High Level Aptitude and Training",
@@ -6331,7 +6334,7 @@
 			},
 			{
 				"name": "Immobile",
-				"definition": "Once deployed, this gun cannot be moved. In scenarios that do not allow units to start on the table, place this unit within 6in of your table edge as soon as you know which side of the table is yours; Bolt Action, 3rd Edition Armies of Japan Army Book: Pg. 47"
+				"definition": "Once deployed, this gun cannot be moved. In scenarios that do not allow units to start on the table, place this unit within 6” of your table edge as soon as you know which side of the table is yours; Bolt Action, 3rd Edition Armies of Japan Army Book: Pg. 47"
 			},
 			{
 				"name": "Improvised Role",
@@ -6355,7 +6358,7 @@
 			},
 			{
 				"name": "Inspiring Rhetoric",
-				"definition": "Inexperienced squads within 12in do not suffer the -1 to hit penalty for being Inexperienced; Bolt Action: The Limit of Endurance China, 1937-45; Pg. 64 "
+				"definition": "Inexperienced squads within 12” do not suffer the -1 to hit penalty for being Inexperienced; Bolt Action: The Limit of Endurance China, 1937-45; Pg. 64 "
 			},
 			{
 				"name": "Japanese War Dogs",
@@ -6403,7 +6406,7 @@
 			},
 			{
 				"name": "Low Angle Fire",
-				"definition": "Mortar has a Minimum Range of 6in; Bolt Action: Armies of Imperial Japan; Pg. 44"
+				"definition": "Mortar has a Minimum Range of 6”; Bolt Action: Armies of Imperial Japan; Pg. 44"
 			},
 			{
 				"name": "LZ Signals",
@@ -6419,123 +6422,155 @@
 			},
 			{
 				"name": "Master of Men's Hearts",
-				"definition": "; Bolt Action Compendium, 3rd Edition; Pg. 48"
+				"definition": "Once per game, any friendly squad within 12” of Fergusson can re-roll a failed morale test; Bolt Action Compendium, 3rd Edition; Pg. 48"
 			},
 			{
 				"name": "Master of the Hunt",
-				"definition": "; Bolt Action: Finland Army List; Pg. 2"
+				"definition": "This Unit can move into an ambush position. In other words, they are allowed to make an Advance move and if they do not shoot any weapons, this Unit can turn their dice to an Ambush order; Bolt Action: Finland Army List; Pg. 2"
 			},
 			{
 				"name": "Mechanized Infantry",
-				"definition": ""
+				"definition": "This unit can re-roll any failed order test that is required to mount or dismount a transport vehicle. In addition, if their transport vehicle is destroyed, this unit suffers D3 hits rather than D6 hits; Bolt Action, 3rd Edition Armies of the United States of America Army Book: Pg. 33"
 			},
 			{
 				"name": "Mechanized Corps Assault",
-				"definition": ""
+				"definition": "The Recce Corps Assault Troop Section must always be taken with 15cwt Trucks, M3 White Scout Cars, or M5 Half-tracks; Bolt Action, 2nd Edition Campaign Book - Italy, Soft Under Belly: Pg. 97"
 			},
 			{
 				"name": "Medieval in Savagery",
-				"definition": ""
+				"definition": "If this Unit is killed during close quarters fighting, it is given two free attacks. The player controlling this unit should resolve these attacks immediately, before removing the models;  Bolt Action Compendium, 3rd Edition; Pg. 48"
+			},
+			{
+				"name": "Light Strategic Bomber",
+				"definition": "Not required to be the first order pulled from a bag when they are off the table, but are when they are on the table. When an aircraft with the Strategic Bomber comes on the table, declare if it is making a strafing run or a bombing run. During a bombing run, it can only be attacked by aircraft, or units equipped with Heavy/Light Autocannons with Flak, or Heavy/Medium/Light AT/Howitzers with Flak. During a strafing run, it can be attacked as normal per the experimental rules. Place the bomber or the marker on the table. Following the tail of the bomber, you may place 3 Tokens in line with the bomber, up to 24” from the bomber. Then, for each token, roll D6 and move the token in a random direction that many inches. The attack is automatically successful, perform an Indirect Heavy Howitzer attack centered on the Token; Phyrexian Labs Homebrew Rules"
 			},
 			{
 				"name": "Medium Strategic Bomber",
-				"definition": ""
+				"definition": "Not required to be the first order pulled from a bag when they are off the table, but are when they are on the table. When an aircraft with the Strategic Bomber comes on the table, declare if it is making a strafing run or a bombing run. During a bombing run, it can only be attacked by aircraft, or units equipped with Heavy/Light Autocannons with Flak, or Heavy/Medium/Light AT/Howitzers with Flak. During a strafing run, it can be attacked as normal per the experimental rules. Place the bomber or the marker on the table. Following the tail of the bomber, you may place 5 Tokens in line with the bomber, up to 24” from the bomber. Then, for each token, roll D6 and move the token in a random direction that many inches. The attack is automatically successful, perform an Indirect Heavy Howitzer attack centered on the Token; Phyrexian Labs Homebrew Rules"
 			},
 			{
 				"name": "Mine Clearing Experts",
-				"definition": "; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 96"
+				"definition": "The squad is equipped with mine clearance equipment, see Minfield Rules in the Rulebook; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 96"
 			},
 			{
 				"name": "Minimal Training",
-				"definition": ""
+				"definition": "This Unit may not use any of their nation’s special rules; Bolt Action, 3rd Edition Armies of the United States of America Army Book: Pg. 42"
+			},
+			{
+				"name": "We Ain't Footsloggers",
+				"definition": "This Unit always counts as having lost their NCO; Bolt Action, 3rd Edition Armies of the United States of America Army Book: Pg. 42"
 			},
 			{
 				"name": "Mixed Numbers",
-				"definition": "; Bolt Action: No Peace in Our Time, The Czechoslovak Army in Bolt Action; Pg. 17"
+				"definition": "The starting number of minis in this Unit is always considered their full strength number; Bolt Action: No Peace in Our Time, The Czechoslovak Army in Bolt Action; Pg. 17"
 			},
 			{
 				"name": "More NCOs",
-				"definition": ""
+				"definition": "If one NCO is killed, the other NCO takes over with no penalty to order and morale tests; Bolt Action, 2nd Edition Campaign Book - Italy, Soft Under Belly: Pg. 97"
 			},
 			{
 				"name": "Mortar Support",
-				"definition": "; Bolt Action: Scenario: Kelly's Heroes Pamphlet; Pg. 4"
+				"definition": "Even if the scenario does not call for it, any force containing Crapgame receives a pregame bombardment. However, this comes courtesy of Mulligan; see the special rules for Mulligan's Mortars; Bolt Action: Scenario: Kelly's Heroes Pamphlet; Pg. 4"
 			},
 			{
 				"name": "Motorized Infantry",
-				"definition": ""
+				"definition": "Armoured Rifle squads can re-roll any failed order test that is required to mount or dismount a transport vehicle; Bolt Action, 2nd Edition Campaign Book - Italy, Soft Under Belly: Pg. 111"
 			},
 			{
 				"name": "Mulligan's Mortars",
-				"definition": "; Bolt Action Scenario: Kelly's Heroes Pamphlet; Pg. 2"
+				"definition": "Any pre-game bombardment used by Kelly’s Heroes, is activated on the roll of a D6. On the roll of a 1-2 the American force is hit. American soldiers cannot be killed by Mulligan’s Mortars, only pin markers can be distributed. On a 3-4, carry out the normal rules on the enemy force. On a roll of 5-6, Mulligan is late: try again before the next turn.; Bolt Action Scenario: Kelly's Heroes Pamphlet; Pg. 2"
 			},
 			{
 				"name": "Multi-Propulsion",
-				"definition": ""
-			},
-			{
-				"name": "Multiple Flamethrowers",
-				"definition": ""
-			},
-			{
-				"name": "Multiple Launcher",
-				"definition": ""
-			},
-			{
-				"name": "Nation Divided",
-				"definition": "; Bolt Action: No Peace in Our Time, The Czechoslovak Army in Bolt Action; Pg. 14"
-			},
-			{
-				"name": "National Pride",
-				"definition": "; Bolt Action Compendium, 3rd Edition; Pg. 65"
-			},
-			{
-				"name": "Native Troops",
-				"definition": "; Bolt Action: Armies of the Commonwealth; Pg. 19"
-			},
-			{
-				"name": "NCO Apprenticeship",
-				"definition": "; Bolt Action Campaign: Italy Tough Gut; Pg. 98"
-			},
-			{
-				"name": "Nimble Vehicle",
-				"definition": ""
-			},
-			{
-				"name": "No Ground-attack Aircraft",
-				"definition": "; Bolt Action: Armies of Imperial Japan; Pg. 27 "
-			},
-			{
-				"name": "No National Characteristic: COPP",
-				"definition": ""
-			},
-			{
-				"name": "No National Characteristic: PPA",
-				"definition": "; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 105"
-			},
-			{
-				"name": "No National Characteristic: Special Raiders",
-				"definition": ""
-			},
-			{
-				"name": "No Smoke Rounds",
-				"definition": "; Bolt Action: Armies of Germany; Pg. 48"
-			},
-			{
-				"name": "Not One Step Back",
-				"definition": "; Bolt Action: Armies of the Soviet Union; Pg. 28"
+				"definition": "When this vehicle rolls an Immobilize on the Damage Tables for the first time, instead of being immobilized, the vehicle gains the Slow rule. Any subsequent Immobilized results immobilize the vehicle; Phyrexian Labs Homebrew Rules"
 			},
 			{
 				"name": "Oh, the hell with your flanks, Roach!",
-				"definition": "; Bolt Action Scenario: Kelly's Heroes Pamphlet; Pg. 2"
+				"definition": "No force under the command of Colt may ever attempt to outflank. Under any circumstances. Ever; Bolt Action Scenario: Kelly's Heroes Pamphlet; Pg. 2"
+			},
+			{
+				"name": "Sergio's Champion",
+				"definition": "Kelly’s team and any Hollywood unit within 6” automatically passes order checks and morale checks. This rule is only valid as long as the player still rolls the dice, but does so with squinty eyes and a poker face. Any emotion displayed invalidates this special rule; Bolt Action Scenario: Kelly's Heroes Pamphlet; Pg. 3"
+			},
+			{
+				"name": "The Air Force has got my orders to blow every bridge in this sector out of existence!",
+				"definition": "Any bridge on the battlefield will be attacked by air at the beginning turn 1. Roll a D6 for each bridge, on a 5+ it is destroyed. If any bridges survive then roll a D6 at the beginning of each subsequent turn. On a 4+ the remaining bridges are attacked again; Bolt Action Scenario: Kelly's Heroes Pamphlet; Pg. 2"
+			},
+			{
+				"name": "Tough Disciplinarian",
+				"definition": "Units with the desertion special rule in any force led by Utili need to roll 1, instead of 1 or 2, to desert.; Bolt Action Campaign: Italy Tough Gut: Pg. 96"
+			},
+			{
+				"name": "Tough Fighters (Mounted)",
+				"definition": "Gains the Tough Fighters Special Rule while Mounted, loses Tough Fighters while Dismounted without another Tough Fighters Source; Bolt Action, 3rd Edition No Peace In Our Time: Pg. 12"
+			},
+			{
+				"name": "Unprepared - HGD",
+				"definition": "Similar to the Green special rule, when the unit first takes a casualty roll a D6. On a roll of a 1 or 2, the unit becomes Inexperienced, on a roll of 3, 4 or 5 the unit remains Regular. On a roll of 6 the unit has a number of battle-hardened Tunisian campaign survivors that bolster the unit; it becomes Veteran; Bolt Action 2nd Edition Campaign Book: Italy: Soft Underbelly: Pg. 88"
+			},
+			{
+				"name": "Multiple Flamethrowers",
+				"definition": "The vehicle can only use 1 flamethrower per turn; Bolt Action, 3rd Edition Armies of Germany Army Book: Pg. 69"
+			},
+			{
+				"name": "Multiple Launcher",
+				"definition": "Counts as a Heavy Mortar, but never ranges in. Every time it is fired, pick the first target as normal, then checkwhich other enemy units are within 6” of the original template. These are additional targets unless they are within minimum range. If there are friendly units within 6” of the original template, you cannot fire and the shot is wasted. Unit firing a Multiple Launcher receives 1 Pin after firing; Bolt Action, 3rd Edition Rulebook: Pg. 102"
+			},
+			{
+				"name": "Nation Divided",
+				"definition": "When reservists are assigned an order die during the first turn, the player rolls a D6 for each Reservist unit to find out what unit has shown up. On a 1-3 Czech reservists have arrived eager but untested, and gain the Green Special Rule. On a 4-5, Slovak reservists arrived, of uncertain morale, and immediately gain D2 pins. On a 6, Sudetenland reservists arrived, surprisingly showing up at all, and immediately gain the Shirkers special rule.; Bolt Action: No Peace in Our Time, The Czechoslovak Army in Bolt Action; Pg. 14"
+			},
+			{
+				"name": "National Pride",
+				"definition": "This Unit gains the Fanatics Special Rule. In addition, one other Regular or Veteran unit in the force may be given the Fanatics rule for +1pts per model; Bolt Action Compendium, 3rd Edition; Pg. 65"
+			},
+			{
+				"name": "Native Troops",
+				"definition": "This unit does not benefit from the Never Give Up Army Special Rule; Bolt Action: Armies of the Commonwealth; Pg. 19"
+			},
+			{
+				"name": "NCO Apprenticeship",
+				"definition": "Fallschirmjäger officers give a further +1 command bonus to Fallschirmjäger units when they are making order tests; Bolt Action Campaign: Italy Tough Gut: Pg. 98"
+			},
+			{
+				"name": "Nimble Vehicle",
+				"definition": "May Advance through rough terrain, but only moving 9” and with only 1 pivot; Bolt Action, 3rd Edition Zurn Central Mission Packet"
+			},
+			{
+				"name": "No Ground-attack Aircraft",
+				"definition": "When rolling on the Warplane Type Table, a roll of 1–3 is a Strafing Fighter, and a roll of 4–6 is a Fighter-bomber; Bolt Action: Armies of Imperial Japan; Pg. 27 "
+			},
+			{
+				"name": "No National Characteristic: COPP",
+				"definition": "This Unit does not benefit from the a National Characteristic Army special rule; Bolt Action Campaign: Italy Soft Under Belly: Pg. 109"
+			},
+			{
+				"name": "No National Characteristic: PPA",
+				"definition": "This Unit does not benefit from the a National Characteristic Army special rule; Bolt Action Campaign: Italy Soft Under Belly: Pg. 105"
+			},
+			{
+				"name": "No National Characteristic: Special Raiders",
+				"definition": "This Unit does not benefit from the a National Characteristic Army special rule; Bolt Action Campaign: Italy Soft Under Belly: Pg. 105"
+			},
+			{
+				"name": "No Smoke Rounds",
+				"definition": "This Unit cannot fire smoke; Bolt Action: Armies of Germany; Pg. 48"
+			},
+			{
+				"name": "Private First Class Moriarty",
+				"definition": "Subtracts 1 to a Nexus of Positive Energy Dice Roll; Bolt Action, 2nd Edition Kelly's Heroes Leaflet"
+			},
+			{
+				"name": "Not One Step Back",
+				"definition": "Commissars are political officers and do not confer a morale bonus to nearby troops. If soldiers show signs of disobeying orders the commissars will not hesitate to shoot them; Bolt Action: Armies of the Soviet Union; Pg. 28"
 			},
 			{
 				"name": "One Man Turret",
-				"definition": ""
+				"definition": "This Unit must always take an Order Test when issuing an Advance order, even if it is not pinned. Cannot fire both the Main Gun and any Rear-Facing Turret MGs in the same turn; Bolt Action, 3rd Edition Rulebook: Pg. 149"
 			},
 			{
 				"name": "One, Not Both!",
-				"definition": ""
+				"definition": "This Unit may only fire the Main Gun or the MMG, but not both; Bolt Action, 3rd Edition Armies of Germany Army Book: Pg. 67"
 			},
 			{
 				"name": "Only So Much Room",
@@ -6563,10 +6598,6 @@
 			},
 			{
 				"name": "Poor Morale",
-				"definition": ""
-			},
-			{
-				"name": "Private First Class Moriarty",
 				"definition": ""
 			},
 			{
@@ -6603,11 +6634,7 @@
 			},
 			{
 				"name": "Remote Operated Mine",
-				"definition": "; Bolt Action: Armies of Germany; Pg. 48"
-			},
-			{
-				"name": "Right/Rear Facing Pintle Mounted MMG",
-				"definition": ""
+				"definition": "The model itself is just a marker, and it is treated as a one-shot weapon with a range of 18”. Goliaths can only target stationary vehicles or a unit inside a building. Goliaths are fired as normal, except that instead of rolling to hit, roll on the following chart. Note that if a Recce vehicle reacts to the Goliath attack by moving, the mine automatically scores a result of 1–4. Dice Effect 1–4 The Goliath breaks down, or is damaged or prematurely detonated by enemy fire. The Goliath model is removed and has no effect. 5–6 The Goliath reaches the target and is detonated. If the target is a vehicle, it suffers a hit with a Pen of +7 (no Pen modifiers apply). If the target is a unit inside a building, the unit is hit by the equivalent of a heavy howitzer – remember that if this explosion scores 12 or more hits, it brings down the entire building, killing everyone inside.; Bolt Action: Armies of Germany; Pg. 48"
 			},
 			{
 				"name": "RTU",
@@ -6658,14 +6685,6 @@
 				"definition": ""
 			},
 			{
-				"name": "Sergeant Oddball",
-				"definition": ""
-			},
-			{
-				"name": "Sergio's Champion",
-				"definition": "; Bolt Action Scenario: Kelly's Heroes Pamphlet; Pg. 3"
-			},
-			{
 				"name": "Severly Outdated",
 				"definition": ""
 			},
@@ -6683,7 +6702,7 @@
 			},
 			{
 				"name": "Slow (Aircraft)",
-				"definition": ""
+				"definition": "Requires -1 Pin to be Removed; Phyrexian Labs Homebrew Rules"
 			},
 			{
 				"name": "Slow Towing",
@@ -6746,10 +6765,6 @@
 				"definition": ""
 			},
 			{
-				"name": "The Air Force has got my orders to blow every bridge in this sector out of existence!",
-				"definition": "; Bolt Action Scenario: Kelly's Heroes Pamphlet; Pg. 2"
-			},
-			{
 				"name": "There to Shoot",
 				"definition": ""
 			},
@@ -6760,14 +6775,6 @@
 			{
 				"name": "Too Many Turrets!",
 				"definition": ""
-			},
-			{
-				"name": "Tough Disciplinarian",
-				"definition": "; Bolt Action Campaign: Italy Tough Gut; Pg. 96"
-			},
-			{
-				"name": "Tough Fighters (Mounted)",
-				"definition": "Gains the Tough Fighters Special Rule while Mounted, loses Tough Fighters while Dismounted without another Tough Fighters Source; Bolt Action, 3rd Edition No Peace In Our Time: Pg. 12"
 			},
 			{
 				"name": "Tough Tank Hunters",
@@ -6796,10 +6803,6 @@
 			{
 				"name": "Uneasy in the Saddle",
 				"definition": "; Bolt Action: No Peace in Our Time, The Czechoslovak Army in Bolt Action; Pg. 17"
-			},
-			{
-				"name": "Unprepared - HGD",
-				"definition": ""
 			},
 			{
 				"name": "Unwieldy Carriage",
@@ -77943,7 +77946,7 @@
 				"equipment": []
 			},
 			{
-				"name": "3.7in QF Dual Purpose AA/AT Gun",
+				"name": "3.7” QF Dual Purpose AA/AT Gun",
 				"validationKeys": ["ArtyTeams"],
 				"factions": [],
 				"order": 1,
@@ -79304,7 +79307,7 @@
 				"keywords": ["Transport","Open Topped","Tow"],
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
 				"specialText": "Period: E|M|L\n Damage Value: 7+\n Transport: 8\n Tow: L/M AT Gun, L Howitzer, L AA Gun\n Wheeled Vehicle",
-				"equipment": []
+				"equipment": ["Front Facing Pintle Mounted HMG"]
 			},
 			{
 				"name": "3t Trucks",
@@ -107744,7 +107747,7 @@
 				"equipment": []
 			},
 			{
-				"name": "3in Mortar Carrier",
+				"name": "3” Mortar Carrier",
 				"validationKeys": ["TotalVehicle"],
 				"factions": [],
 				"order": 1,
