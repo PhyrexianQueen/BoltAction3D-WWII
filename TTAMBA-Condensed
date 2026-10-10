@@ -130153,7 +130153,7 @@
 					{
 						"name": "Pintle Mounted HMG",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"points": 15,
+						"points": 25,
 						"increment": true,
 						"max": 1,
 						"maxKey": "Pintle"
