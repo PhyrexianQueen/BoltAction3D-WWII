@@ -9622,6 +9622,187 @@
 						]
 					},
 					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Japan"],
+							["Recce Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"],
+							["Recce Platoon", "United States of America"]
+						]
+					},
+					{
 						"name": "Bicycles (GKZ)",
 						"points": 1,
 						"perModel": true,
@@ -10560,10 +10741,191 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
 					},
 					{
-						"name": "Bicycles",
+						"name": "Bicycles ",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Yamato Damashii (Paratroopers)"]
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Japan"],
+							["Recce Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"],
+							["Recce Platoon", "United States of America"]
+						]
 					},
 					{
 						"name": "Intelligence",
@@ -10647,7 +11009,183 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "HQ Platoon" }, { "in": "Royal Italian Army (Regio Esercito)" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Rifles",
+						"quantity": 1
+					}
+				],
+				"sortPriority": 1,
+				"limits": [
+					{
+						"key": "Commander",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 42,
+						"requireChooseOneKey": "morale"
 					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 78,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"max": 4,
+						"addsModels": 1,
+						"unlockedByLocal": ["Inexperienced"]
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"max": 4,
+						"addsModels": 1,
+						"unlockedByLocal": ["Regular"]
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"max": 4,
+						"addsModels": 1,
+						"unlockedByLocal": ["Veteran"]
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "NCO Pistol",
+						"points": -1,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Pistols",
+						"points": -1,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 3,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Intelligence",
+						"replaceParentName": "Intelligence Officer",
+						"limit": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 50
+					},
+					{
+						"name": "Folgore AT Grenades",
+						"points": 3,
+						"unlockedByLocal": ["Paracadutisti"],
+						"perModel": true
+					},
+					{
+						"name": "Avanti! (Alpini)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian Co-Belligerent Army",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Avanti! (Bersaglieri)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian Co-Belligerent Army",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Avanti! (Paracadutisti)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian Co-Belligerent Army",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Avanti! (Camicie Nere)",
+						"points": 0,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian Co-Belligerent Army",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Wire Cutters",
+						"points": 1,
+						"perModel": true,
+						"special": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
+					}
+				],
+				"keywords": [],
+				"periods": ["earlyPeriod","middlePeriod"],
+				"specialText": "Period: E|M\n 1 Officer",
+				"equipment": ["Rifles"]
+			},
+			{
+				"name": "Company Commander    ",
+				"validationKeys": ["CompCommander"],
+				"order":1,
+				"factions": [],
+				"availableIn": [
 					{
 						"all": [{ "in": "HQ Platoon" }, { "in": "Italian National Republican Army" }]			
 					},
@@ -10764,28 +11302,6 @@
 						"perModel": true
 					},
 					{
-						"name": "Horses   ",
-						"points": 3,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
-						"name": "Motorcycles   ",
-						"points": 5,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
 						"name": "Avanti! (Alpini)",
 						"points": 1,
 						"perModel": true,
@@ -10842,8 +11358,8 @@
 					}
 				],
 				"keywords": [],
-				"periods": ["earlyPeriod","middlePeriod"],
-				"specialText": "Period: E|M\n 1 Officer",
+				"periods": ["latePeriod"],
+				"specialText": "Period: L\n 1 Officer",
 				"equipment": ["Rifles"]
 			},
 			{
@@ -12426,6 +12942,187 @@
 						"availableIn": [
 							"Czechoslovak Republic (GKZ)",
 							"Denmark (GKZ)"
+						]
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Japan"],
+							["Recce Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"],
+							["Recce Platoon", "United States of America"]
 						]
 					},
 					{
@@ -14482,6 +15179,187 @@
 						]
 					},
 					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Japan"],
+							["Recce Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"],
+							["Recce Platoon", "United States of America"]
+						]
+					},
+					{
 						"name": "Bicycles (GKZ)",
 						"points": 1,
 						"perModel": true,
@@ -15345,10 +16223,191 @@
 						"points": 50
 					},
 					{
-						"name": "Bicycles",
+						"name": "Bicycles ",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Yamato Damashii (Paratroopers)"]
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Japan"],
+							["Recce Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"],
+							["Recce Platoon", "United States of America"]
+						]
 					},
 					{
 						"name": "Yamato Damashii (Home Defence)",
@@ -15416,21 +16475,6 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon" }, { "in": "Italian Co-Belligerent Army" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon" }, { "in": "Italian Co-Belligerent Army" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon" }, { "in": "Italian Co-Belligerent Army" }]			
-					},
-					{
-						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Italian Co-Belligerent Army" }]			
-					},
-					{
-						"all": [{ "in": "Artillery Platoon" }, { "in": "Italian Co-Belligerent Army" }]			
-					},
-					{
 						"all": [{ "in": "Rifle Platoon" }, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					},
 					{
@@ -15444,6 +16488,369 @@
 					},
 					{
 						"all": [{ "in": "Artillery Platoon" }, { "in": "Royal Italian Army (Regio Esercito)" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Rifles",
+						"quantity": 1
+					}
+				],
+				"sortPriority": 1,
+				"limits": [
+					{
+						"key": "Commander",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 21,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 30,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 39,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"max": 4,
+						"addsModels": 1,
+						"unlockedByLocal": ["Inexperienced"]
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"max": 4,
+						"addsModels": 1,
+						"unlockedByLocal": ["Regular"]
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"max": 4,
+						"addsModels": 1,
+						"unlockedByLocal": ["Veteran"]
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "SMGs",
+						"points": 4,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Pistols",
+						"points": -1,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 4,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Intelligence",
+						"replaceParentName": "Intelligence Officer",
+						"limit": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 50
+					},
+					{
+						"name": "Folgore AT Grenades",
+						"points": 3,
+						"unlockedByLocal": ["Paracadutisti"],
+						"perModel": true
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Japan"],
+							["Recce Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"],
+							["Recce Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Avanti! (Alpini)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian Co-Belligerent Army",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Avanti! (Bersaglieri)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian Co-Belligerent Army",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Avanti! (Paracadutisti)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian Co-Belligerent Army",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Avanti! (Camicie Nere)",
+						"points": 0,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian Co-Belligerent Army",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Wire Cutters",
+						"points": 1,
+						"perModel": true,
+						"special": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
+					}
+				],
+				"keywords": [],
+				"periods": ["earlyPeriod","middlePeriod"],
+				"specialText": "Period: E|M\n 1 Officer",
+				"equipment": ["Rifles"]
+			},
+			{
+				"name": "Platoon Commander   ",
+				"validationKeys": ["PlatCommander"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Italian Co-Belligerent Army" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon" }, { "in": "Italian Co-Belligerent Army" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon" }, { "in": "Italian Co-Belligerent Army" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Italian Co-Belligerent Army" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon" }, { "in": "Italian Co-Belligerent Army" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon" }, { "in": "Italian National Republican Army" }]			
@@ -15561,28 +16968,6 @@
 						"perModel": true
 					},
 					{
-						"name": "Horses   ",
-						"points": 3,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
-						"name": "Motorcycles   ",
-						"points": 5,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
 						"name": "Avanti! (Alpini)",
 						"points": 1,
 						"perModel": true,
@@ -15639,8 +17024,8 @@
 					}
 				],
 				"keywords": [],
-				"periods": ["earlyPeriod","middlePeriod"],
-				"specialText": "Period: E|M\n 1 Officer",
+				"periods": ["latePeriod"],
+				"specialText": "Period: L\n 1 Officer",
 				"equipment": ["Rifles"]
 			},
 			{
@@ -15782,7 +17167,7 @@
 						"addsModels": 1
 					},
 					{
-						"name": "Bicycles",
+						"name": "Bicycles ",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Yamato Damashii (Paratroopers)"]
@@ -16409,6 +17794,187 @@
 						"availableIn": ["Czechoslovak Republic (GKZ)"]
 					},
 					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Japan"],
+							["Recce Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"],
+							["Recce Platoon", "United States of America"]
+						]
+					},
+					{
 						"name": "Remove Pistol",
 						"points": 0,
 						"perModel": true,
@@ -16896,7 +18462,7 @@
 				"equipment": ["Pistols"]
 			},
 			{
-				"name": "Medic   ",
+				"name": "Medic    ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -16905,7 +18471,311 @@
 					},
 					{
 						"all": [{ "in": "Rifle Platoon" }, { "in": "Italian National Republican Army" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Pistols",
+						"quantity": 1
+					}
+				],
+				"sortPriority": 2,
+				"limits": [
+					{
+						"key": "Medic",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 23,
+						"requireChooseOneKey": "morale",
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian Co-Belligerent Army",
+							"Italian National Republican Army"
+						]
 					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 30,
+						"requireChooseOneKey": "morale",
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian Co-Belligerent Army",
+							"Italian National Republican Army"
+						]
+					},
+					{
+						"name": "Additional Men",
+						"points": 8,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Avanti! (Alpini)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian Co-Belligerent Army",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Avanti! (Bersaglieri)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian Co-Belligerent Army",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Avanti! (Paracadutisti)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian Co-Belligerent Army",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Avanti! (Camicie Nere)",
+						"points": 0,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian Co-Belligerent Army",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Japan"],
+							["Recce Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"],
+							["Recce Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Wire Cutters",
+						"points": 1,
+						"perModel": true,
+						"special": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
+					}
+				],
+				"keywords": ["Medic","Self-Defence"],
+				"periods": ["latePeriod"],
+				"specialText": "Period: L\n 1 Medic",
+				"equipment": ["Pistols"]
+			},
+			{
+				"name": "Medic   ",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
@@ -17015,25 +18885,184 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Horses   ",
-						"points": 3,
+						"name": "Bicycles",
+						"points": 1,
 						"perModel": true,
-						"chooseOneKey": "mobile",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
 						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"]
 						]
 					},
 					{
-						"name": "Motorcycles   ",
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Japan"],
+							["Recce Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
 						"points": 5,
 						"perModel": true,
-						"chooseOneKey": "mobile",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
 						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"],
+							["Recce Platoon", "United States of America"]
 						]
 					},
 					{
@@ -17968,6 +19997,187 @@
 						"availableIn": ["Czechoslovak Republic (GKZ)"]
 					},
 					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Japan"],
+							["Recce Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"],
+							["Recce Platoon", "United States of America"]
+						]
+					},
+					{
 						"name": "Airborne",
 						"points": 1,
 						"perModel": true,
@@ -18264,10 +20474,191 @@
 						"localLimit": 1
 					},
 					{
-						"name": "Bicycles",
+						"name": "Bicycles ",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Yamato Damashii (Paratroopers)"]
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Japan"],
+							["Recce Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"],
+							["Recce Platoon", "United States of America"]
+						]
 					},
 					{
 						"name": "Yamato Damashii (Paratroopers)",
@@ -19014,6 +21405,187 @@
 						]
 					},
 					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Japan"],
+							["Recce Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"],
+							["Recce Platoon", "United States of America"]
+						]
+					},
+					{
 						"name": "Airborne",
 						"points": 1,
 						"perModel": true,
@@ -19590,10 +22162,191 @@
 						"localLimit": 1
 					},
 					{
-						"name": "Bicycles",
+						"name": "Bicycles ",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Yamato Damashii (Paratroopers)"]
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Japan"],
+							["Recce Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"],
+							["Recce Platoon", "United States of America"]
+						]
 					},
 					{
 						"name": "Yamato Damashii (Paratroopers)",
@@ -19878,12 +22631,6 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon" }, { "in": "Italian National Republican Army" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					}
 				],
 				"points": 0,
@@ -20005,25 +22752,184 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Horses   ",
-						"points": 3,
+						"name": "Bicycles",
+						"points": 1,
 						"perModel": true,
-						"chooseOneKey": "mobile",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
 						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"]
 						]
 					},
 					{
-						"name": "Motorcycles   ",
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Japan"],
+							["Recce Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
 						"points": 5,
 						"perModel": true,
-						"chooseOneKey": "mobile",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
 						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"],
+							["Recce Platoon", "United States of America"]
 						]
 					},
 					{
@@ -20035,8 +22941,8 @@
 					}
 				],
 				"keywords": ["Infiltrator","Observer"],
-				"periods": ["earlyPeriod","middlePeriod"],
-				"specialText": "Period: E|M\n 1 Forward Observer",
+				"periods": ["latePeriod"],
+				"specialText": "Period: L\n 1 Forward Observer",
 				"equipment": ["Rifles"]
 			},
 			{
@@ -20055,7 +22961,325 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon" }, { "in": "Italian National Republican Army" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Rifles",
+						"quantity": 1
+					}
+				],
+				"sortPriority": 2,
+				"limits": [
+					{
+						"key": "Observer",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 75,
+						"requireChooseOneKey": "morale"
 					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 90,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Pistols",
+						"points": -1,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Folgore AT Grenades",
+						"points": 3,
+						"unlockedByLocal": ["Paracadutisti"],
+						"perModel": true
+					},
+					{
+						"name": "Avanti! (Alpini)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian Co-Belligerent Army",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Avanti! (Bersaglieri)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian Co-Belligerent Army",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Avanti! (Paracadutisti)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian Co-Belligerent Army",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Avanti! (Camicie Nere)",
+						"points": 0,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian Co-Belligerent Army",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Japan"],
+							["Recce Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"],
+							["Recce Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Wire Cutters",
+						"points": 1,
+						"perModel": true,
+						"special": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
+					}
+				],
+				"keywords": ["Infiltrator","Observer"],
+				"periods": ["latePeriod"],
+				"specialText": "Period: L\n 1 Forward Observer",
+				"equipment": ["Rifles"]
+			},
+			{
+				"name": "Forward Artillery Observer     ",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					},
@@ -20182,25 +23406,508 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Horses   ",
-						"points": 3,
+						"name": "Bicycles",
+						"points": 1,
 						"perModel": true,
-						"chooseOneKey": "mobile",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
 						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"]
 						]
 					},
 					{
-						"name": "Motorcycles   ",
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Japan"],
+							["Recce Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
 						"points": 5,
 						"perModel": true,
-						"chooseOneKey": "mobile",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"],
+							["Recce Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Wire Cutters",
+						"points": 1,
+						"perModel": true,
+						"special": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
+					}
+				],
+				"keywords": ["Infiltrator","Observer"],
+				"periods": ["earlyPeriod","middlePeriod"],
+				"specialText": "Period: E|M\n 1 Forward Observer",
+				"equipment": ["Rifles"]
+			},
+			{
+				"name": "Forward Air Observer     ",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Rifles",
+						"quantity": 1
+					}
+				],
+				"sortPriority": 2,
+				"limits": [
+					{
+						"key": "Observer",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 75,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 90,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 11,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 14,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 2,
+						"addsModels": 1
+					},
+					{
+						"name": "Pistols",
+						"points": -1,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 2
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1
+					},
+					{
+						"name": "Folgore AT Grenades",
+						"points": 3,
+						"unlockedByLocal": ["Paracadutisti"],
+						"perModel": true
+					},
+					{
+						"name": "Avanti! (Alpini)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
 						"availableIn": [
 							"Royal Italian Army (Regio Esercito)",
 							"Italian Co-Belligerent Army",
 							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Avanti! (Bersaglieri)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian Co-Belligerent Army",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Avanti! (Paracadutisti)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian Co-Belligerent Army",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Avanti! (Camicie Nere)",
+						"points": 0,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian Co-Belligerent Army",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Japan"],
+							["Recce Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"],
+							["Recce Platoon", "United States of America"]
 						]
 					},
 					{
@@ -20525,6 +24232,187 @@
 						"localLimit": 2
 					},
 					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Japan"],
+							["Recce Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"],
+							["Recce Platoon", "United States of America"]
+						]
+					},
+					{
 						"name": "Hammer and Sickle (Airborne)",
 						"points": 1,
 						"perModel": true,
@@ -20651,6 +24539,187 @@
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 2
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "bicyclesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Japan"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Horses"],
+						"availableIn": [
+							["Rifle Platoon", "Japan"],
+							["Engineer Platoon", "Japan"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Horses",
+						"points": 2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "horsesHQ",
+								"quantity":1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Motorcycles","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Japan"],
+							["Recce Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 2,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Rifle Platoon", "Germany"],
+							["Engineer Platoon", "Germany"],
+							["Rifle Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Engineer Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Rifle Platoon", "Italian Co-Belligerent Army"],
+							["Engineer Platoon", "Italian Co-Belligerent Army"],
+							["Rifle Platoon", "Italian National Republican Army"],
+							["Engineer Platoon", "Italian National Republican Army"],
+							["Rifle Platoon", "Soviet Union"],
+							["Engineer Platoon", "Soviet Union"],
+							["Rifle Platoon", "United States of America"],
+							["Engineer Platoon", "United States of America"]
+						]
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByKey": [
+							{
+								"key": "motorcyclesHQ",
+								"quantity": 1,
+								"scope": "ancestor",
+								"ancestor": { "propertyName": "platoons" }
+							}
+						],
+						"unavailableWithLocal": ["Horses","Bicycles"],
+						"availableIn": [
+							["Recce Platoon", "Germany"],
+							["Recce Platoon", "Royal Italian Army (Regio Esercito)"],
+							["Recce Platoon", "Italian Co-Belligerent Army"],
+							["Recce Platoon", "Italian National Republican Army"],
+							["Recce Platoon", "Soviet Union"],
+							["Recce Platoon", "United States of America"]
+						]
 					},
 					{
 						"name": "Hammer and Sickle (Airborne)",
@@ -21496,7 +25565,7 @@
 						"requireChooseOneKey": "morale"
 					},
 					{
-						"name": "Bicycles",
+						"name": "Bicycles ",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Yamato Damashii (Paratroopers)"]
@@ -21764,7 +25833,7 @@
 						"points": 0
 					},
 					{
-						"name": "Bicycles",
+						"name": "Bicycles ",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Yamato Damashii (Paratroopers)"]
@@ -23356,7 +27425,7 @@
 						"addsModels": 1
 					},
 					{
-						"name": "Bicycles",
+						"name": "Bicycles ",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Yamato Damashii (Paratroopers)"]
@@ -23479,7 +27548,7 @@
 						"addsModels": 1
 					},
 					{
-						"name": "Bicycles",
+						"name": "Bicycles ",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Yamato Damashii (Paratroopers)"]
@@ -25651,7 +29720,7 @@
 						"addsModels": 1
 					},
 					{
-						"name": "Bicycles",
+						"name": "Bicycles ",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Yamato Damashii (Paratroopers)"]
@@ -25785,7 +29854,7 @@
 						"addsModels": 1
 					},
 					{
-						"name": "Bicycles",
+						"name": "Bicycles ",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Yamato Damashii (Paratroopers)"]
@@ -29207,28 +33276,6 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Horses   ",
-						"points": 3,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
-						"name": "Motorcycles   ",
-						"points": 5,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
 						"name": "Wire Cutters",
 						"points": 1,
 						"perModel": true,
@@ -29299,7 +33346,7 @@
 						"perModel": true
 					},
 					{
-						"name": "Bicycles",
+						"name": "Bicycles ",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Yamato Damashii (Paratroopers)"]
@@ -32163,28 +36210,6 @@
 						"perModel": true
 					},
 					{
-						"name": "Horses   ",
-						"points": 3,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
-						"name": "Motorcycles   ",
-						"points": 5,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
 						"name": "Avanti! (Alpini)",
 						"points": 1,
 						"perModel": true,
@@ -32433,7 +36458,7 @@
 						"max": 1
 					},
 					{
-						"name": "Bicycles",
+						"name": "Bicycles ",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Yamato Damashii (Paratroopers)"]
@@ -35382,28 +39407,6 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Horses   ",
-						"points": 3,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
-						"name": "Motorcycles   ",
-						"points": 5,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
 						"name": "Wire Cutters",
 						"points": 1,
 						"perModel": true,
@@ -35534,28 +39537,6 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Horses   ",
-						"points": 3,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
-						"name": "Motorcycles   ",
-						"points": 5,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
 						"name": "Wire Cutters",
 						"points": 1,
 						"perModel": true,
@@ -35627,7 +39608,7 @@
 						"addsModels": 1
 					},					
 					{
-						"name": "Bicycles",
+						"name": "Bicycles ",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Yamato Damashii (Paratroopers)"]
@@ -35749,9 +39730,9 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"max": 1,
 						"addsModels": 1
-					},					
+					},
 					{
-						"name": "Bicycles",
+						"name": "Bicycles ",
 						"points": 1,
 						"perModel": true,
 						"unlockedByLocal": ["Yamato Damashii (Paratroopers)"]
@@ -36974,28 +40955,6 @@
 							"Italian National Republican Army"
 						],
 						"chooseOneKey": "natRuI"
-					},
-					{
-						"name": "Horses   ",
-						"points": 3,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
-						"name": "Motorcycles   ",
-						"points": 5,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
 					},
 					{
 						"name": "Wire Cutters",
@@ -38962,28 +42921,6 @@
 						"chooseOneKey": "natRuI"
 					},
 					{
-						"name": "Horses   ",
-						"points": 3,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
-						"name": "Motorcycles   ",
-						"points": 5,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
 						"name": "Wire Cutters",
 						"points": 1,
 						"perModel": true,
@@ -40302,6 +44239,19 @@
 						"maxKey": "gun",
 						"localLimit": 5,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Behind Enemy Lines",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unavailableWithLocal": ["Infiltrator"]
+					},
+					{
+						"name": "Infiltrators",
+						"points": 0,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"maxPerParent": 1,
+						"unavailableWithLocal": ["Behind Enemy Lines"]
 					},
 					{
 						"name": "Demolition Charges",
@@ -48315,6 +52265,7 @@
 					{
 						"name": "Add Horses",
 						"points": 4,
+						"key": "horsesHQ",
 						"unlockedByLocal": ["Regular","Veteran"],
 						"perModel": true
 					},
@@ -48562,6 +52513,7 @@
 						"points": 5,
 						"unlockedByLocal": ["Inexperienced"],
 						"perModel": true,
+						"key": "motorcyclesHQ",
 						"unlockedByLocalStat": [
                             {
                                 "stat": "models",
@@ -48708,6 +52660,7 @@
 					{
 						"name": "Motorcycles",
 						"points": 5,
+						"key": "motorcyclesHQ",
 						"unlockedByLocal": ["Veteran"],
 						"perModel": true
 					},
@@ -49583,6 +53536,7 @@
 					{
 						"name": "Bicycles",
 						"points": 1,
+						"key": "bicyclesHQ",
 						"unlockedByLocal": ["Regular","Veteran"],
 						"perModel": true
 					},
@@ -49809,6 +53763,7 @@
 					{
 						"name": "Bicycles",
 						"points": 1,
+						"key": "bicyclesHQ",
 						"unlockedByLocal": ["Inexperienced"],
 						"perModel": true
 					},
@@ -49837,6 +53792,7 @@
 			{
 				"name": "Kradschützen",
 				"validationKeys": ["RifleTeams"],
+				"key": "motorcyclesHQ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -50200,6 +54156,7 @@
 					{
 						"name": "Bicycles",
 						"points": 1,
+						"key": "bicyclesHQ",
 						"unlockedByLocal": ["Inexperienced"],
 						"perModel": true
 					},
@@ -50720,6 +54677,7 @@
 					{
 						"name": "Bicycles",
 						"points": 1,
+						"key": "bicyclesHQ",
 						"unlockedByLocal": ["Inexperienced"],
 						"perModel": true
 					},
@@ -50958,6 +54916,7 @@
 						"increment": true,
 						"unlockedByLocal": ["Regular","Veteran"],
 						"max": 1,
+						"key": "bicyclesHQ",
 						"maxKey": "restricted"
 					},
 					{
@@ -51380,6 +55339,7 @@
 					{
 						"name": "Bicycles",
 						"points": 1,
+						"key": "bicyclesHQ",
 						"perModel": true,
 						"unlockedByLocal": ["Inexperienced"]
 					},
@@ -51523,6 +55483,7 @@
 					{
 						"name": "Add Horses",
 						"points": 3,
+						"key": "horsesHQ",
 						"unlockedByLocal": ["Regular","Veteran"],
 						"perModel": true
 					},
@@ -55006,28 +58967,6 @@
 						"perModel": true
 					},
 					{
-						"name": "Horses   ",
-						"points": 3,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
-						"name": "Motorcycles   ",
-						"points": 5,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
 						"name": "Axis Support",
 						"points": 0,
 						"limit": 1,
@@ -55153,28 +59092,6 @@
 						"perModel": true
 					},
 					{
-						"name": "Horses   ",
-						"points": 3,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
-						"name": "Motorcycles   ",
-						"points": 5,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
 						"name": "Wire Cutters",
 						"points": 1,
 						"perModel": true,
@@ -55291,28 +59208,6 @@
 						"perModel": true
 					},
 					{
-						"name": "Horses   ",
-						"points": 3,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
-						"name": "Motorcycles   ",
-						"points": 5,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
 						"name": "Wire Cutters",
 						"points": 1,
 						"perModel": true,
@@ -55409,28 +59304,6 @@
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 1
-					},
-					{
-						"name": "Horses   ",
-						"points": 3,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
-						"name": "Motorcycles   ",
-						"points": 5,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
 					},
 					{
 						"name": "Axis Support",
@@ -55599,28 +59472,6 @@
 						"perModel": true
 					},
 					{
-						"name": "Horses   ",
-						"points": 3,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
-						"name": "Motorcycles   ",
-						"points": 5,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
 						"name": "Axis Support",
 						"points": 0,
 						"limit": 1,
@@ -55721,28 +59572,6 @@
 						"perModel": true
 					},
 					{
-						"name": "Horses   ",
-						"points": 3,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
-						"name": "Motorcycles   ",
-						"points": 5,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
 						"name": "Wire Cutters",
 						"points": 1,
 						"perModel": true,
@@ -55837,26 +59666,11 @@
 						"perModel": true
 					},
 					{
-						"name": "Horses   ",
-						"points": 3,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
-						"name": "Motorcycles   ",
+						"name": "Motorcycles",
 						"points": 5,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
+						"key": "motorcyclesHQ",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"perModel": true
 					},
 					{
 						"name": "Wire Cutters",
@@ -55968,28 +59782,6 @@
 						"perModel": true
 					},
 					{
-						"name": "Horses   ",
-						"points": 3,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
-						"name": "Motorcycles   ",
-						"points": 5,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
 						"name": "Wire Cutters",
 						"points": 1,
 						"perModel": true,
@@ -56079,28 +59871,6 @@
 						"points": 3,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"perModel": true
-					},
-					{
-						"name": "Horses   ",
-						"points": 3,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
-						"name": "Motorcycles   ",
-						"points": 5,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
 					},
 					{
 						"name": "Wire Cutters",
@@ -56203,28 +59973,6 @@
 						"points": 3,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"perModel": true
-					},
-					{
-						"name": "Horses   ",
-						"points": 3,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
-						"name": "Motorcycles   ",
-						"points": 5,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
 					},
 					{
 						"name": "Wire Cutters",
@@ -56330,28 +60078,6 @@
 						"perModel": true
 					},
 					{
-						"name": "Horses   ",
-						"points": 3,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
-						"name": "Motorcycles   ",
-						"points": 5,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
 						"name": "Wire Cutters",
 						"points": 1,
 						"perModel": true,
@@ -56451,28 +60177,6 @@
 						"points": 1,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"perModel": true
-					},
-					{
-						"name": "Horses   ",
-						"points": 3,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
-						"name": "Motorcycles   ",
-						"points": 5,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
 					},
 					{
 						"name": "Wire Cutters",
@@ -56576,28 +60280,6 @@
 						"perModel": true
 					},
 					{
-						"name": "Horses   ",
-						"points": 3,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
-						"name": "Motorcycles   ",
-						"points": 5,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
 						"name": "Wire Cutters",
 						"points": 1,
 						"perModel": true,
@@ -56699,28 +60381,6 @@
 						"perModel": true
 					},
 					{
-						"name": "Horses   ",
-						"points": 3,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
-						"name": "Motorcycles   ",
-						"points": 5,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
 						"name": "Wire Cutters",
 						"points": 1,
 						"perModel": true,
@@ -56794,15 +60454,11 @@
 						"perModel": true
 					},
 					{
-						"name": "Motorcycles",
+						"name": "Horses",
 						"points": 2,
 						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
+						"key": "horsesHQ",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
 					},
 					{
 						"name": "Wire Cutters",
@@ -56937,26 +60593,11 @@
 						"perModel": true
 					},
 					{
-						"name": "Horses   ",
-						"points": 3,
+						"name": "Horses",
+						"points": 2,
 						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
-						"name": "Motorcycles   ",
-						"points": 5,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
+						"key": "horsesHQ",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
 					},
 					{
 						"name": "Axis Support",
@@ -57015,7 +60656,6 @@
 					}
 				],
 				"sortPriority": 3,
-				
 				"requiredChildren": [
 					{
 						"elementPropertyName": "options",
@@ -57126,26 +60766,11 @@
 						"perModel": true
 					},
 					{
-						"name": "Horses   ",
-						"points": 3,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
-						"name": "Motorcycles   ",
+						"name": "Motorcycles",
 						"points": 5,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
+						"key": "motorcyclesHQ",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"perModel": true
 					},
 					{
 						"name": "Axis Support",
@@ -57280,28 +60905,6 @@
 						"points": 2,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"perModel": true
-					},
-					{
-						"name": "Horses   ",
-						"points": 3,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
-					},
-					{
-						"name": "Motorcycles   ",
-						"points": 5,
-						"perModel": true,
-						"chooseOneKey": "mobile",
-						"availableIn": [
-							"Royal Italian Army (Regio Esercito)",
-							"Italian Co-Belligerent Army",
-							"Italian National Republican Army"
-						]
 					},
 					{
 						"name": "Wire Cutters",
@@ -57509,6 +61112,7 @@
 						"name": "Bicycles",
 						"points": 1,
 						"perModel": true,
+						"key": "bicyclesHQ",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
 					},
 					{
@@ -57657,6 +61261,7 @@
 						"name": "Bicycles",
 						"points": 1,
 						"perModel": true,
+						"key": "bicyclesHQ",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
 					},
 					{
@@ -57885,6 +61490,7 @@
 			{
 				"name": "Japanese or Manchukuoan Cavalry Squad",
 				"validationKeys": ["RifleTeams"],
+				"key": "horsesHQ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -60470,6 +64076,7 @@
 						"name": "Horses",
 						"points": 3,
 						"perModel": true,
+						"key": "horsesHQ",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"availableIn": ["Soviet Union"]
 					},
@@ -60582,6 +64189,7 @@
 						"name": "Horses",
 						"points": 3,
 						"perModel": true,
+						"key": "horsesHQ",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"availableIn": ["Soviet Union"]
 					},
@@ -60796,6 +64404,7 @@
 			{
 				"name": "Motorcycle Squad",
 				"validationKeys": ["RifleTeams"],
+				"key": "motorcyclesHQ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -63311,7 +66920,7 @@
 				"keywords": [],
 				"periods": ["earlyPeriod","middlePeriod"],
 				"specialText": "Period: E|M\n 1 NCO\n 4 Soldiers",
-				"equipment": ["Rifles","Motocycles"]
+				"equipment": ["Rifles","Motorcycles"]
 			},
 			{
 				"name": "Local Defense Volunteer Squads",
@@ -64139,6 +67748,7 @@
 					}
 				],
 				"unlockKey": "TNVol",
+				"key": "horsesHQ",
 				"points": 0,
 				"models": 6,
 				"localQuantityDisplay": [
@@ -64380,6 +67990,7 @@
 						"name": "Cavalry",
 						"points": 3,
 						"unlockedByLocal": ["Regular"],
+						"key": "horsesHQ",
 						"perModel": true
 					},
 					{
@@ -65616,6 +69227,7 @@
 				"validationKeys": ["RifleTeams"],
 				"factions": [],
 				"order": 1,
+				"key": "motorcyclesHQ",
 				"availableIn": [
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "United States of America" }]			
