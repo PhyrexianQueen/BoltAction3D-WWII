@@ -291,7 +291,10 @@
 			},
 			{
 				"name": "Bulgaria",
-				"alignment": "Axis"
+				"alignment": "Axis",
+				"additionalRules": [
+					"Axis Support - You may include a single unit from either the German or Royal Italian Army (Regio Esercito) List. They do not benefit from the Army Special Rules, except Hitler's Buzzsaw. It fills a normal slot in the platoon but does not count towards the mandatory requirement. This unit may not be a Veteran Unit or a vehicle with Damage Value 10 or Higher; Bolt Action 3rd Edition Bulgarian Supplement PDF","Roving Patrols - Enemy Snipers, Observers, and Spotters cannot use their Special Deployment Rules and must be deployared like the rest of the force. In addition, enemies must always come in from their own table edge when arriving from reserve; Bolt Action 3rd Edition Bulgarian Supplement PDF"
+				]
 			},
 			{
 				"name": "Canada",
@@ -3784,6 +3787,23 @@
 				]
 			},
 			{
+				"name": "Upgrade to NCO SMG",
+				"specialRules": ["Assault"],
+				"range": 12,
+				"shots": 2,
+				"pen": 0,
+				"adjustlocalQuantities": [
+					{
+						"key": "secondary",
+						"quantity": -1
+					},
+					{
+						"property": "NCO SMG",
+						"quantity": 1
+					}
+				]
+			},
+			{
 				"name": "SMGs  ",
 				"specialRules": ["Assault"],
 				"range": 12,
@@ -5668,6 +5688,10 @@
 				"definition": "See Full Rules; Bolt Action, 3rd Edition: Pg. 97"
 			},
 			{
+				"name": "Hybrid Gun",
+				"definition": "When given an Advance Order, the barrel can be changed between either a Light AT Gun or a Light Howitzer, even when moving. Must declare how the unit is starting before the game starts; Bolt Action 3rd Edition Bulgarian Supplement PDF"
+			},
+			{
 				"name": "Howitzer",
 				"definition": "Can shoot Direct or Indirect; Bolt Action, 3rd Edition: Pg. 97"
 			},
@@ -5770,6 +5794,10 @@
 			{
 				"name": "Bicycles",
 				"definition": "When moving entirely on a road, on Run Orders, may move 24”; Bolt Action, 3rd Edition: Pg. 119"
+			},
+			{
+				"name": "Bulgarian Cavalry Training",
+				"definition": "May not move into contact with an enemy unit while mounted. Bulgarian Cavalry Sections do not suffer the -1 to morale when moving on from Reserve; Bolt Action 3rd Edition Bulgarian Supplement PDF"
 			},
 			{
 			
@@ -6810,9 +6838,6 @@
 						"name": "Belgium"
 					},
 					{
-						"name": "Bulgaria"
-					},
-					{
 						"name": "Canada"
 					},
 					{
@@ -6948,6 +6973,9 @@
 				],
 				"factions": [
 					{
+						"name": "Bulgaria"
+					},
+					{
 						"name": "Romania"
 					}
 				],
@@ -6985,9 +7013,6 @@
 					},
 					{
 						"name": "Belgium"
-					},
-					{
-						"name": "Bulgaria"
 					},
 					{
 						"name": "Canada"
@@ -7137,6 +7162,9 @@
 				"unlimited": true,
 				"factions": [
 					{
+						"name": "Bulgaria"
+					},
+					{
 						"name": "Romania"
 					}
 				],
@@ -7213,9 +7241,6 @@
 					},
 					{
 						"name": "Belgium"
-					},
-					{
-						"name": "Bulgaria"
 					},
 					{
 						"name": "Canada"
@@ -7376,6 +7401,9 @@
 				],
 				"factions": [
 					{
+						"name": "Bulgaria"
+					},
+					{
 						"name": "Romania"
 					}
 				],
@@ -7419,9 +7447,6 @@
 					},
 					{
 						"name": "Belgium"
-					},
-					{
-						"name": "Bulgaria"
 					},
 					{
 						"name": "Canada"
@@ -7577,6 +7602,9 @@
 				],
 				"factions": [
 					{
+						"name": "Bulgaria"
+					},
+					{
 						"name": "Romania"
 					}
 				],
@@ -7620,9 +7648,6 @@
 					},
 					{
 						"name": "Belgium"
-					},
-					{
-						"name": "Bulgaria"
 					},
 					{
 						"name": "Canada"
@@ -7778,6 +7803,9 @@
 				],
 				"factions": [
 					{
+						"name": "Bulgaria"
+					},
+					{
 						"name": "Romania"
 					}
 				],
@@ -7821,9 +7849,6 @@
 					},
 					{
 						"name": "Belgium"
-					},
-					{
-						"name": "Bulgaria"
 					},
 					{
 						"name": "Canada"
@@ -7979,6 +8004,9 @@
 				],
 				"factions": [
 					{
+						"name": "Bulgaria"
+					},
+					{
 						"name": "Romania"
 					}
 				],
@@ -8003,9 +8031,6 @@
 					},
 					{
 						"name": "Belgium"
-					},
-					{
-						"name": "Bulgaria"
 					},
 					{
 						"name": "Canada"
@@ -8161,6 +8186,9 @@
 				"specialText": "Platoon Command Vehicle: 1\n Vehicle: 1\n Vehicles: 0-3",
 				"decreaseModelCount": 1,
 				"factions": [
+					{
+						"name": "Bulgaria"
+					},
 					{
 						"name": "Romania"
 					}
@@ -8519,7 +8547,7 @@
 						"all": [{ "in": "HQ Platoon" }, { "in": "Belgium" }]			
 					},
 					{
-						"all": [{ "in": "HQ Platoon" }, { "in": "Bulgaria" }]			
+						"all": [{ "in": "HQ Platoon " }, { "in": "Bulgaria" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon" }, { "in": "Canada" }]			
@@ -9086,6 +9114,7 @@
 						"localLimit": 1,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"availableIn": [
+							"Bulgaria",
 							"Norway",
 							"Poland",
 							"Chinese Communists (ZC)",
@@ -9108,6 +9137,7 @@
 						"localLimit": 2,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"availableIn": [
+							"Bulgaria",
 							"Norway",
 							"Poland",
 							"Chinese Communists (ZC)",
@@ -9157,7 +9187,6 @@
 						"availableIn": [
 							"Australia",
 							"Belgium",
-							"Bulgaria",
 							"Canada",
 							"Chinese Central Army (GKZ)",
 							"Chinese Communists (GKZ)",
@@ -9194,7 +9223,6 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"availableIn": [
 							"Belgium",
-							"Bulgaria",
 							"France",
 							"Greece",
 							"Hungary",
@@ -10225,6 +10253,9 @@
 				"factions": [],
 				"availableIn": [
 					{
+						"all": [{ "in": "HQ Platoon " }, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "HQ Platoon " }, { "in": "Romania" }]			
 					}
 				],
@@ -10345,9 +10376,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -10368,6 +10400,9 @@
 				"order":1,
 				"factions": [],
 				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon " }, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "HQ Platoon " }, { "in": "Romania" }]			
 					}
@@ -10486,9 +10521,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -12778,9 +12814,6 @@
 						"all": [{ "in": "HQ Platoon" }, { "in": "Australia" }]			
 					},
 					{
-						"all": [{ "in": "HQ Platoon" }, { "in": "Bulgaria" }]			
-					},
-					{
 						"all": [{ "in": "HQ Platoon" }, { "in": "Canada" }]			
 					},
 					{
@@ -13264,6 +13297,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "HQ Platoon " }, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "HQ Platoon " }, { "in": "Romania" }]			
 					}
 				],
@@ -13303,6 +13339,7 @@
 						"addsPrefix": "Inex. ",
 						"points": 17,
 						"availableIn": [
+							"Bulgaria",
 							"Romania"
 						],
 						"requireChooseOneKey": "morale"
@@ -13312,6 +13349,7 @@
 						"addsPrefix": "Reg. ",
 						"points": 25,
 						"availableIn": [
+							"Bulgaria",
 							"Romania"
 						],
 						"requireChooseOneKey": "morale"
@@ -13321,9 +13359,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"equipment": ["Unarmed"],
@@ -13337,6 +13376,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "HQ Platoon " }, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "HQ Platoon " }, { "in": "Romania" }]			
 					}
 				],
@@ -13376,6 +13418,7 @@
 						"addsPrefix": "Inex. ",
 						"points": 17,
 						"availableIn": [
+							"Bulgaria",
 							"Romania"
 						],
 						"requireChooseOneKey": "morale"
@@ -13385,6 +13428,7 @@
 						"addsPrefix": "Reg. ",
 						"points": 25,
 						"availableIn": [
+							"Bulgaria",
 							"Romania"
 						],
 						"requireChooseOneKey": "morale"
@@ -13394,9 +13438,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"equipment": ["Unarmed"],
@@ -13481,7 +13526,7 @@
 				"keywords": ["Inspiring Presence","Self-Defence"]
 			},
 			{
-				"name": "Chaplain   ",
+				"name": "Chaplain    ",
 				"factions": [],
 				"order": 1,
 				"availableIn": [
@@ -13489,10 +13534,149 @@
 						"all": [{ "in": "HQ Platoon" }, { "in": "Italian Co-Belligerent Army" }]		
 					},
 					{
-						"all": [{ "in": "HQ Platoon" }, { "in": "Royal Italian Army (Regio Esercito)" }]		
+						"all": [{ "in": "HQ Platoon" }, { "in": "Italian National Republican Army" }]		
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Unarmed",
+						"quantity": 1
+					}
+				],
+				"sortPriority": 2,
+				"limits": [
+					{
+						"key": "Chaplain",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 17,
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian Co-Belligerent Army",
+							"Italian National Republican Army"
+						],
+						"requireChooseOneKey": "morale"
 					},
 					{
-						"all": [{ "in": "HQ Platoon" }, { "in": "Italian National Republican Army" }]		
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 25,
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian Co-Belligerent Army",
+							"Italian National Republican Army"
+						],
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 33,
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian Co-Belligerent Army",
+							"Italian National Republican Army"
+						],
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Folgore AT Grenades",
+						"points": 3,
+						"unlockedByLocal": ["Paracadutisti"],
+						"perModel": true
+					},
+					{
+						"name": "Avanti! (Alpini)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian Co-Belligerent Army",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Avanti! (Bersaglieri)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian Co-Belligerent Army",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Avanti! (Paracadutisti)",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian Co-Belligerent Army",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Avanti! (Camicie Nere)",
+						"points": 0,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian Co-Belligerent Army",
+							"Italian National Republican Army"
+						],
+						"chooseOneKey": "natRuI"
+					},
+					{
+						"name": "Horses   ",
+						"points": 3,
+						"perModel": true,
+						"chooseOneKey": "mobile",
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian Co-Belligerent Army",
+							"Italian National Republican Army"
+						]
+					},
+					{
+						"name": "Motorcycles   ",
+						"points": 5,
+						"perModel": true,
+						"chooseOneKey": "mobile",
+						"availableIn": [
+							"Royal Italian Army (Regio Esercito)",
+							"Italian Co-Belligerent Army",
+							"Italian National Republican Army"
+						]
+					}
+				],
+				"equipment": ["Unarmed"],
+				"periods": ["latePeriod"],
+				"specialText": "Period: L\n 1 Chaplain",
+				"keywords": ["Inspiring Presence","Self-Defence"]
+			},
+			{
+				"name": "Chaplain   ",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon" }, { "in": "Royal Italian Army (Regio Esercito)" }]		
 					}
 				],
 				"points": 0,
@@ -13665,19 +13849,19 @@
 						"all": [{ "in": "Artillery Platoon" }, { "in": "Belgium" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon" }, { "in": "Bulgaria" }]			
+						"all": [{ "in": "Rifle Platoon " }, { "in": "Bulgaria" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon" }, { "in": "Bulgaria" }]			
+						"all": [{ "in": "Recce Platoon " }, { "in": "Bulgaria" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon" }, { "in": "Bulgaria" }]			
+						"all": [{ "in": "Engineer Platoon " }, { "in": "Bulgaria" }]			
 					},
 					{
-						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Bulgaria" }]			
+						"all": [{ "in": "Heavy Weapons Platoon " }, { "in": "Bulgaria" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon" }, { "in": "Bulgaria" }]			
+						"all": [{ "in": "Artillery Platoon " }, { "in": "Bulgaria" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon" }, { "in": "Canada" }]			
@@ -14661,6 +14845,7 @@
 						"localLimit": 1,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"availableIn": [
+							"Bulgaria",
 							"Chinese Communists (ZC)",
 							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
@@ -14683,6 +14868,7 @@
 						"localLimit": 2,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"availableIn": [
+							"Bulgaria",
 							"Chinese Communists (ZC)",
 							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
@@ -14732,7 +14918,6 @@
 						"availableIn": [
 							"Australia",
 							"Belgium",
-							"Bulgaria",
 							"Canada",
 							"Chinese Central Army (GKZ)",
 							"Chinese Communists (GKZ)",
@@ -14768,7 +14953,6 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"availableIn": [
 							"Belgium",
-							"Bulgaria",
 							"France",
 							"Greece",
 							"Hungary",
@@ -17514,6 +17698,9 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Belgium" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Canada" }]			
 					},
 					{
@@ -17645,7 +17832,6 @@
 						"availableIn": [
 							"Australia",
 							"Belgium",
-							"Bulgaria",
 							"Canada",
 							"Chinese Communists (ZC)",
 							"Chinese Nationalists (ZC)",
@@ -18287,6 +18473,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon " }, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -18354,9 +18543,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -18376,6 +18566,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon " }, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]			
 					}
@@ -18444,9 +18637,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -19158,6 +19352,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon " }, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
 					},
 					{
@@ -19208,9 +19405,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped","Medical Vehicle","Ambulance"],
@@ -19261,6 +19459,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon " }, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -19299,9 +19500,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Medic","Ambulance","Medical Vehicle"],
@@ -19315,6 +19517,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon " }, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -19353,9 +19558,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Medic","Ambulance","Medical Vehicle"],
@@ -21812,6 +22018,12 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon " }, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon " }, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
 					},
 					{
@@ -21924,9 +22136,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -21947,6 +22160,12 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon " }, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon " }, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
 					},
 					{
@@ -22059,9 +22278,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -22405,6 +22625,12 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon " }, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon " }, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]			
 					},
 					{
@@ -22490,9 +22716,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -22513,6 +22740,12 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon " }, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon " }, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]			
 					},
 					{
@@ -22598,9 +22831,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -24868,6 +25102,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Australia" }]			
 					},
 					{
@@ -24974,6 +25211,7 @@
 						"requireChooseOneKey": "morale",
 						"availableIn":[
 							"Australia",
+							"Bulgaria",
 							"Canada",
 							"Chinese Communists (ZC)",
 							"Chinese Nationalists (ZC)",
@@ -25005,6 +25243,7 @@
 						"requireChooseOneKey": "morale",
 						"availableIn":[
 							"Australia",
+							"Bulgaria",
 							"Canada",
 							"Chinese Communists (ZC)",
 							"Chinese Nationalists (ZC)",
@@ -25329,6 +25568,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -25386,9 +25628,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -25408,6 +25651,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]			
 					}
@@ -25454,9 +25700,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -26367,11 +26614,167 @@
 				"equipment": ["AT Mine"]
 			},
 			{
+				"name": "Panzerschreck Team   ",
+				"validationKeys": ["HeavyWepTeams"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Bulgaria" }]			
+					}
+
+				],
+				"points": 0,
+				"models": 2,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "AT Rifle",
+						"quantity": 1
+					},
+					{
+						"key": "secondary",
+						"property": "Loader/Assistant",
+						"quantity": 1
+					}
+				],
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ", 
+						"points": 63,
+						"requireChooseOneKey": "morale",
+						"availableIn":[
+							"Bulgaria"
+						]
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ", 
+						"points": 80,
+						"requireChooseOneKey": "morale",
+						"availableIn":[
+							"Bulgaria"
+						]
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ", 
+						"points": 88,
+						"requireChooseOneKey": "morale",
+						"availableIn":[
+							"Bulgaria"
+						]
+					},
+					{
+						"name": "Wire Cutters",
+						"points": 1,
+						"perModel": true,
+						"special": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
+					}
+				],
+				"keywords": [],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "1 Weapon Operator\n 1 Weapon Assistant",
+				"equipment": ["Panzerschreck Team"]
+			},
+			{
+				"name": "Panzerschreck Team    ",
+				"validationKeys": ["HeavyWepTeams"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Bulgaria" }]			
+					}
+				],
+				"points": 0,
+				"models": 2,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "AT Rifle",
+						"quantity": 1
+					},
+					{
+						"key": "secondary",
+						"property": "Loader/Assistant",
+						"quantity": 1
+					}
+				],
+				"sortPriority": 4,
+				"limits": [
+					{
+						"key": "AT Team",
+						"limit": 3,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ", 
+						"points": 63,
+						"requireChooseOneKey": "morale",
+						"availableIn":[
+							"Bulgaria"
+						]
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ", 
+						"points": 80,
+						"requireChooseOneKey": "morale",
+						"availableIn":[
+							"Bulgaria"
+						]
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ", 
+						"points": 88,
+						"requireChooseOneKey": "morale",
+						"availableIn":[
+							"Bulgaria"
+						]
+					},
+					{
+						"name": "Wire Cutters",
+						"points": 1,
+						"perModel": true,
+						"special": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
+					}
+				],
+				"keywords": [],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "1 Weapon Operator\n 1 Weapon Assistant",
+				"equipment": ["Panzerschreck Team"]
+			},
+			{
 				"name": "AT Rifle Team",
 				"validationKeys": ["HeavyWepTeams"],
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Central Army (GKZ)" }]			
 					},
@@ -26429,6 +26832,7 @@
 						"points": 18,
 						"requireChooseOneKey": "morale",
 						"availableIn":[
+							"Bulgaria",
 							"Chinese Central Army (GKZ)",
 							"Chinese Warlords (GKZ)",
 							"Czechoslovak Republic (GKZ)",
@@ -26450,6 +26854,7 @@
 						"points": 25,
 						"requireChooseOneKey": "morale",
 						"availableIn":[
+							"Bulgaria",
 							"Chinese Central Army (GKZ)",
 							"Chinese Warlords (GKZ)",
 							"Czechoslovak Republic (GKZ)",
@@ -26472,6 +26877,7 @@
 						"points": 33,
 						"requireChooseOneKey": "morale",
 						"availableIn":[
+							"Bulgaria",
 							"Chinese Central Army (GKZ)",
 							"Chinese Warlords (GKZ)",
 							"Finland",
@@ -26538,6 +26944,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Central Army (GKZ)" }]			
 					},
 					{
@@ -26585,6 +26994,7 @@
 						"points": 18,
 						"requireChooseOneKey": "morale",
 						"availableIn":[
+							"Bulgaria",
 							"Chinese Central Army (GKZ)",
 							"Chinese Warlords (GKZ)",
 							"Czechoslovak Republic (GKZ)",
@@ -26606,6 +27016,7 @@
 						"points": 25,
 						"requireChooseOneKey": "morale",
 						"availableIn":[
+							"Bulgaria",
 							"Chinese Central Army (GKZ)",
 							"Chinese Warlords (GKZ)",
 							"Czechoslovak Republic (GKZ)",
@@ -26628,6 +27039,7 @@
 						"points": 33,
 						"requireChooseOneKey": "morale",
 						"availableIn":[
+							"Bulgaria",
 							"Chinese Central Army (GKZ)",
 							"Chinese Warlords (GKZ)",
 							"Finland",
@@ -26693,10 +27105,16 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Romania" }]			
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Romania" }]			
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Romania" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Romania" }]			
 					}
 				],
 				"points": 0,
@@ -26755,9 +27173,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -26777,6 +27196,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Romania" }]			
 					}
@@ -26834,9 +27256,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -28468,10 +28891,10 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Italian National Republican Army" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Romania" }]			
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Romania" }]			
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Romania" }]			
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Romania" }]			
 					}
 				],
 				"points": 0,
@@ -28789,7 +29212,13 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Romania" }]			
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Romania" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon "	}, { "in": "Romania" }]			
@@ -28851,9 +29280,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -28874,6 +29304,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -28930,9 +29363,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -28953,7 +29387,13 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Romania" }]			
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Romania" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon "	}, { "in": "Romania" }]			
@@ -29015,9 +29455,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -29037,6 +29478,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Romania" }]			
 					}
@@ -29094,9 +29538,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -29117,6 +29562,12 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Rifle Platoon" }, { "in": "Italian National Republican Army" }]			
 					},
@@ -29263,9 +29714,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -29286,6 +29738,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Italian National Republican Army" }]			
 					},
@@ -29420,9 +29875,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -32663,6 +33119,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "Australia" }]			
 					},
 					{
@@ -32693,7 +33152,7 @@
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "New Zealand" }]			
 					},
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Romania" }]			
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Romania" }]			
 					},
 					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "South Africa" }]			
@@ -32998,7 +33457,10 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Romania" }]			
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Romania" }]			
 					}
 				],
 				"points": 0,
@@ -33059,9 +33521,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -33081,6 +33544,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Engineer Platoon" }, { "in": "Romania" }]			
 					}
@@ -33143,9 +33609,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -34787,6 +35254,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
 					},
 					{
@@ -34967,9 +35437,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -35378,6 +35849,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
 					},
 					{
@@ -35457,9 +35931,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -35529,6 +36004,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
 					},
 					{
@@ -35575,9 +36053,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -36059,6 +36538,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Engineer Platoon" }, { "in": "Italian Co-Belligerent Army" }]			
 					},
 					{
@@ -36250,9 +36732,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -37578,6 +38061,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Central Army (GKZ)" }]			
 					},
 					{
@@ -37630,6 +38116,7 @@
 						"points": 21,
 						"requireChooseOneKey": "morale",
 						"availableIn":[
+							"Bulgaria",
 							"Chinese Central Army (GKZ)",
 							"Chinese Warlords (GKZ)",
 							"France",
@@ -37662,6 +38149,7 @@
 						"points": 30,
 						"requireChooseOneKey": "morale",
 						"availableIn":[
+							"Bulgaria",
 							"Chinese Central Army (GKZ)",
 							"Chinese Warlords (GKZ)",
 							"France",
@@ -37686,6 +38174,7 @@
 						"points": 39,
 						"requireChooseOneKey": "morale",
 						"availableIn":[
+							"Bulgaria",
 							"Chinese Central Army (GKZ)",
 							"Chinese Warlords (GKZ)",
 							"France",
@@ -37796,6 +38285,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Central Army (GKZ)" }]			
 					},
 					{
@@ -37851,6 +38343,7 @@
 						"points": 21,
 						"requireChooseOneKey": "morale",
 						"availableIn":[
+							"Bulgaria",
 							"Chinese Central Army (GKZ)",
 							"Chinese Warlords (GKZ)",
 							"France",
@@ -37883,6 +38376,7 @@
 						"points": 30,
 						"requireChooseOneKey": "morale",
 						"availableIn":[
+							"Bulgaria",
 							"Chinese Central Army (GKZ)",
 							"Chinese Warlords (GKZ)",
 							"France",
@@ -37908,6 +38402,7 @@
 						"points": 39,
 						"requireChooseOneKey": "morale",
 						"availableIn":[
+							"Bulgaria",
 							"Chinese Central Army (GKZ)",
 							"Chinese Warlords (GKZ)",
 							"France",
@@ -38441,7 +38936,10 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Romania" }]			
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Romania" }]			
 					}
 				],
 				"points": 0,
@@ -38497,9 +38995,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -38520,7 +39019,10 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Romania" }]			
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Romania" }]			
 					}
 				],
 				"points": 0,
@@ -38576,9 +39078,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -38599,13 +39102,10 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Rifle Platoon" }, { "in": "Italian Co-Belligerent Army" }]			
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Bulgaria" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon" }, { "in": "Italian National Republican Army" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
+						"all": [{ "in": "Rifle Platoon" }, { "in": "Romania" }]			
 					}
 				],
 				"points": 0,
@@ -38661,9 +39161,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -38683,6 +39184,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Romania" }]			
 					}
@@ -38746,9 +39250,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -40334,6 +40839,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -40398,9 +40906,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -40420,6 +40929,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon " }, { "in": "Romania" }]			
 					}
@@ -40485,9 +40997,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -40508,6 +41021,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
@@ -40599,6 +41115,7 @@
 						"points": 36,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
+							"Bulgaria",
 							"Chinese Communists (ZC)",
 							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
@@ -40636,6 +41153,7 @@
 						"points": 45,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
+							"Bulgaria",
 							"Chinese Communists (ZC)",
 							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
@@ -40701,6 +41219,7 @@
 						"increment": true,
 						"unlockedByLocal": ["Inexperienced ","Inexperienced","Regular","Veteran"],
 						"availableIn": [
+							"Bulgaria",
 							"Chinese Communists (ZC)",
 							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
@@ -41632,6 +42151,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -41696,9 +42218,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -42000,6 +42523,9 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Australia" }]
 					},
 					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Canada" }]
 					},
 					{
@@ -42124,6 +42650,7 @@
 						"requireChooseOneKey": "morale",
 						"availableIn": [
 							"Australia",
+							"Bulgaria",
 							"Canada",
 							"East Africa Command",
 							"New Zealand",
@@ -42163,6 +42690,7 @@
 						"requireChooseOneKey": "morale",
 						"availableIn": [
 							"Australia",
+							"Bulgaria",
 							"Canada",
 							"East Africa Command",
 							"New Zealand",
@@ -42205,6 +42733,7 @@
 						"points": 65,
 						"availableIn": [
 							"Australia",
+							"Bulgaria",
 							"Canada",
 							"East Africa Command",
 							"New Zealand",
@@ -42707,9 +43236,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -42729,6 +43259,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Romania" }]			
 					}
@@ -42786,9 +43319,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -49313,6 +49847,206 @@
 				"equipment": ["Rifles"]
 			},
 			{
+				"name": "Bulgarian Mounted Section",
+				"validationKeys": ["RifleTeams"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Bulgaria" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Cavalry Carbines",
+						"quantity": 5
+					}
+				],
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 80,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 16,
+						"increment": true,
+						"max": 4,
+						"addsModels": 1,
+						"unlockedByLocal": ["Veteran"]
+					},
+					{
+						"name": "Infantry LMGs",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Wire Cutters",
+						"points": 1,
+						"perModel": true,
+						"special": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
+					}
+				],
+				"keywords": ["Cavalry","Bulgarian Cavalry Training"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": ["Cavalry Carbines"]
+			},
+			{
+				"name": "Bulgarian Infantry Section",
+				"validationKeys": ["RifleTeams"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Bulgaria" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"localQuantityDisplay": [
+					{
+						"key": "secondary",
+						"property": "NCO Pistol",
+						"quantity": 1
+					},
+					{
+						"key": "primary",
+						"property": "Rifles",
+						"quantity": 4
+					}
+				],
+				"sortPriority": 3,
+				"requiredChildren": [
+					{
+						"elementPropertyName": "options",
+						"name": "Engineers",
+						"in": [
+							[
+								"Engineer Platoon "
+							]
+						]
+					}
+				],
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 34,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 49,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1,
+						"unlockedByLocal": ["Inexperienced"]
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1,
+						"unlockedByLocal": ["Regular"]
+					},
+					{
+						"name": "Upgrade to NCO SMG",
+						"points": 5,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Infantry LMGs",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Engineers",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 1,
+						"perModel": true,
+						"availableIn":[
+							"Engineer Platoon "
+						]
+					},
+					{
+						"name": "Shirkers",
+						"points": -2,
+						"perModel": true,
+						"unlockedByLocal": ["Inexperienced"]
+					},
+					{
+						"name": "Wire Cutters",
+						"points": 1,
+						"perModel": true,
+						"special": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
+					}
+				],
+				"keywords": [],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": ["Pistols","Rifles"]
+			},
+			{
 				"name": "Warlord Conscription Squad",
 				"validationKeys": ["RifleTeams"],
 				"factions": [],
@@ -51796,6 +52530,12 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
 					},
 					{
@@ -51868,9 +52608,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -51891,6 +52632,12 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
 					},
@@ -52026,9 +52773,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -52159,6 +52907,12 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
 					},
 					{
@@ -52274,9 +53028,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -52414,6 +53169,12 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
 					},
 					{
@@ -52527,9 +53288,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -52684,6 +53446,12 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
 					},
 					{
@@ -52767,9 +53535,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -52913,6 +53682,12 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
 					},
 					{
@@ -53030,9 +53805,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -53165,6 +53941,12 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
 					},
 					{
@@ -53270,9 +54052,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -53293,6 +54076,12 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
 					},
@@ -53408,9 +54197,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -53431,6 +54221,12 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
 					},
@@ -53545,9 +54341,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -53684,6 +54481,12 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
 					},
 					{
@@ -53772,9 +54575,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -53796,6 +54600,12 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
 					},
@@ -53912,9 +54722,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -53935,6 +54746,12 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
 					},
@@ -54035,9 +54852,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -54058,6 +54876,12 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
 					},
@@ -54165,9 +54989,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -54188,6 +55013,12 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
 					},
@@ -54279,9 +55110,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -54302,6 +55134,12 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
 					},
@@ -54451,9 +55289,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -54475,16 +55314,22 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon "	}, { "in": "Romania" }]			
+						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
 					},
 					{
-						"all": [{ "in": "Recce Platoon "	}, { "in": "Romania" }]			
+						"all": [{ "in": "Recce Platoon " }, { "in": "Romania" }]		
 					}
 				],
 				"points": 0,
@@ -54565,9 +55410,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -54589,16 +55435,22 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon "	}, { "in": "Romania" }]			
+						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
 					},
 					{
-						"all": [{ "in": "Recce Platoon "	}, { "in": "Romania" }]			
+						"all": [{ "in": "Recce Platoon " }, { "in": "Romania" }]		
 					}
 				],
 				"points": 0,
@@ -54686,9 +55538,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -54710,16 +55563,22 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon "	}, { "in": "Romania" }]			
+						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
 					},
 					{
-						"all": [{ "in": "Recce Platoon "	}, { "in": "Romania" }]			
+						"all": [{ "in": "Recce Platoon " }, { "in": "Romania" }]		
 					}
 				],
 				"points": 0,
@@ -54800,9 +55659,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -54824,16 +55684,22 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon "	}, { "in": "Romania" }]			
+						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
 					},
 					{
-						"all": [{ "in": "Recce Platoon "	}, { "in": "Romania" }]			
+						"all": [{ "in": "Recce Platoon " }, { "in": "Romania" }]		
 					}
 				],
 				"points": 0,
@@ -54960,9 +55826,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -54984,16 +55851,22 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon "	}, { "in": "Romania" }]			
+						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
 					},
 					{
-						"all": [{ "in": "Recce Platoon "	}, { "in": "Romania" }]			
+						"all": [{ "in": "Recce Platoon " }, { "in": "Romania" }]		
 					}
 				],
 				"points": 0,
@@ -55088,9 +55961,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -55112,16 +55986,22 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon "	}, { "in": "Romania" }]			
+						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
 					},
 					{
-						"all": [{ "in": "Recce Platoon "	}, { "in": "Romania" }]			
+						"all": [{ "in": "Recce Platoon " }, { "in": "Romania" }]		
 					}
 				],
 				"points": 0,
@@ -55227,9 +56107,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -55251,16 +56132,22 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon "	}, { "in": "Romania" }]			
+						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
 					},
 					{
-						"all": [{ "in": "Recce Platoon "	}, { "in": "Romania" }]			
+						"all": [{ "in": "Recce Platoon " }, { "in": "Romania" }]		
 					}
 				],
 				"points": 0,
@@ -55348,9 +56235,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -55372,16 +56260,22 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon "	}, { "in": "Romania" }]			
+						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
 					},
 					{
-						"all": [{ "in": "Recce Platoon "	}, { "in": "Romania" }]			
+						"all": [{ "in": "Recce Platoon " }, { "in": "Romania" }]		
 					}
 				],
 				"points": 0,
@@ -55492,9 +56386,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -55516,16 +56411,22 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon "	}, { "in": "Romania" }]			
+						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
 					},
 					{
-						"all": [{ "in": "Recce Platoon "	}, { "in": "Romania" }]			
+						"all": [{ "in": "Recce Platoon " }, { "in": "Romania" }]		
 					}
 				],
 				"points": 0,
@@ -55669,9 +56570,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -55691,6 +56593,12 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
 					},
@@ -55760,9 +56668,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -58848,6 +59757,12 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon " }, { "in": "Bulgaria" }]		
+					},
+					{
+						"all": [{ "in": "Recce Platoon " }, { "in": "Bulgaria" }]		
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					},
 					{
@@ -58971,9 +59886,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -59227,6 +60143,12 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon " }, { "in": "Bulgaria" }]		
+					},
+					{
+						"all": [{ "in": "Recce Platoon " }, { "in": "Bulgaria" }]		
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					},
 					{
@@ -59310,9 +60232,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -59333,6 +60256,12 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon " }, { "in": "Bulgaria" }]		
+					},
+					{
+						"all": [{ "in": "Recce Platoon " }, { "in": "Bulgaria" }]		
+					},
 					{
 						"all": [{ "in": "Rifle Platoon" }, { "in": "Italian National Republican Army" }]			
 					},
@@ -59476,9 +60405,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -60480,6 +61410,12 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon " }, { "in": "Bulgaria" }]		
+					},
+					{
+						"all": [{ "in": "Recce Platoon " }, { "in": "Bulgaria" }]		
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					},
 					{
@@ -60604,9 +61540,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -60627,6 +61564,12 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon " }, { "in": "Bulgaria" }]		
+					},
+					{
+						"all": [{ "in": "Recce Platoon " }, { "in": "Bulgaria" }]		
+					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Italian Co-Belligerent Army" }]			
 					},
@@ -60777,9 +61720,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -75495,6 +76439,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -75552,9 +76499,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -75765,6 +76713,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -75822,9 +76773,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -76744,6 +77696,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -76810,6 +77765,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Romania" }]			
 					}
@@ -76951,6 +77909,65 @@
 				"equipment": ["Heavy Howitzer Team"]
 			},
 			{
+				"name": "Light Anti-Air Gun Team ",
+				"validationKeys": ["ArtyTeamsR"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Weapon Crew Members",
+						"quantity": 3
+					}
+				],
+				"sortPriority": 5,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 25,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 46,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Wire Cutters",
+						"points": 1,
+						"perModel": true,
+						"special": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
+					}
+				],
+				"keywords": [],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "3 Crew Members",
+				"equipment": ["Platform Mounted Light Autocannon Team"]
+			},
+			{
 				"name": "Light Anti-Air Gun Team",
 				"validationKeys": ["ArtyTeamsR"],
 				"factions": [],
@@ -77074,7 +78091,10 @@
 				"order": 1,
 				"availableIn": [
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Romania" }]			
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Romania" }]			
 					}
 				],
 				"points": 0,
@@ -77131,9 +78151,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -77154,6 +78175,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
 					},
@@ -77256,9 +78280,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -77279,6 +78304,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
 					},
@@ -77359,9 +78387,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -77382,6 +78411,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
 					},
@@ -77484,9 +78516,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -77507,6 +78540,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
 					},
@@ -77614,9 +78650,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -77637,6 +78674,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
 					},
@@ -77739,9 +78779,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -77762,6 +78803,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
 					},
@@ -77922,9 +78966,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -77945,6 +78990,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
 					},
@@ -78025,9 +79073,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -78138,6 +79187,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
 					},
 					{
@@ -78230,9 +79282,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -78253,6 +79306,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
 					},
@@ -78322,9 +79378,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -78345,6 +79402,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
 					},
@@ -78409,9 +79469,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -78432,6 +79493,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
 					},
@@ -78519,9 +79583,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -78542,6 +79607,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
 					},
@@ -78635,9 +79703,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -78658,6 +79727,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
 					},
@@ -78722,9 +79794,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -78745,6 +79818,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
 					},
@@ -78803,9 +79879,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -78825,6 +79902,24 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
 					},
@@ -78942,9 +80037,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Transport","Tow","Open Topped"],
@@ -78957,6 +80053,24 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
 					},
@@ -79074,9 +80188,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Transport","Tow","Open Topped"],
@@ -79089,6 +80204,24 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
 					},
@@ -79197,9 +80330,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Transport","Tow","Slow Towing"],
@@ -79213,6 +80347,24 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
 					},
 					{
@@ -79329,9 +80481,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Transport","Tow"],
@@ -79345,6 +80498,24 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
 					},
 					{
@@ -79461,9 +80632,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Transport"],
@@ -79476,6 +80648,24 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
 					},
@@ -79493,6 +80683,24 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Romania" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Romania" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Romania" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Romania" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Romania" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Romania" }]			
 					}
 				],
 				"points": 0,
@@ -79505,9 +80713,38 @@
 						"in": [
 							[
 								"Recce Platoon"
+							],
+							[
+								"Recce Platoon "
 							]
 						],
 						"points": 10
+					},
+					{
+						"elementPropertyName": "options",
+						"name": "Axis Support",
+						"in": [
+							[
+								"HQ Platoon "
+							],
+							[
+								"Rifle Platoon "
+							],
+							[
+								"Recce Platoon "
+							],
+							[
+								"Engineer Platoon "
+							],
+							[
+								"Artillery Platoon "
+							],
+							[
+								"Heavy Weapons Platoon "
+							]
+						],
+						"points": 0,
+						"limit": 1
 					}
 				],
 				"options": [
@@ -79531,6 +80768,16 @@
 							"Recce Platoon",
 							"Recce Platoon "
 						]
+					},
+					{
+						"name": "Axis Support",
+						"points": 0,
+						"limit": 1,
+						"availableIn":[
+							"Bulgaria",
+							"Romania"
+						],
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Transport","Tow","Amphibious"],
@@ -79543,6 +80790,24 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
 					},
@@ -79665,9 +80930,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Transport","Tow"],
@@ -79680,6 +80946,24 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
 					},
@@ -79797,9 +81081,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Transport","Tow"],
@@ -79812,6 +81097,24 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
 					},
@@ -79929,9 +81232,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Transport","Amphibious"],
@@ -79944,6 +81248,24 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
 					},
@@ -80066,9 +81388,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Transport","Tow","Open Topped"],
@@ -80081,6 +81404,24 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
 					},
@@ -80223,9 +81564,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Transport","Tow","Open Topped"],
@@ -80238,6 +81580,24 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
 					},
@@ -80360,9 +81720,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Transport","Tow","Open Topped","Command Vehicle"],
@@ -80375,6 +81736,24 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
 					},
@@ -80492,9 +81871,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Transport","Tow"],
@@ -80507,6 +81887,24 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
 					},
@@ -80624,9 +82022,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Transport","Tow"],
@@ -80639,6 +82038,24 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
 					},
@@ -80756,9 +82173,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Transport","Tow"],
@@ -80771,6 +82189,24 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
 					},
@@ -80888,9 +82324,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Transport","Amphibious"],
@@ -80903,6 +82340,24 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
 					},
@@ -81017,9 +82472,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Transport","Tow","Amphibious"],
@@ -81032,6 +82488,24 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
 					},
@@ -81154,9 +82628,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Transport","Tow"],
@@ -81169,6 +82644,24 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Germany" }]			
 					},
@@ -81296,9 +82789,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Transport","Tow"],
@@ -84938,6 +86432,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -84983,9 +86480,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -85244,6 +86742,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -85295,9 +86796,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -85431,6 +86933,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -85482,9 +86987,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -85582,6 +87088,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Italian Co-Belligerent Army" }]			
 					},
@@ -85714,9 +87223,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -85860,6 +87370,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
 					},
 					{
@@ -85988,9 +87501,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -86134,6 +87648,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Italian Co-Belligerent Army" }]			
 					},
 					{
@@ -86265,9 +87782,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -86288,6 +87806,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Italian Co-Belligerent Army" }]			
 					},
@@ -86372,9 +87893,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -86395,6 +87917,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Italian Co-Belligerent Army" }]			
 					},
@@ -86485,9 +88010,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					},
 					{
 						"name": "Wire Cutters",
@@ -86648,6 +88174,24 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Italian National Republican Army" }]			
 					},
 					{
@@ -86783,9 +88327,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Transport"],
@@ -86798,6 +88343,24 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Italian National Republican Army" }]			
 					},
@@ -86934,9 +88497,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Transport","Tow","Open Topped"],
@@ -86949,6 +88513,24 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Italian National Republican Army" }]			
 					},
@@ -87100,9 +88682,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Transport","Tow","Open Topped"],
@@ -91105,6 +92688,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Sweden (PL)" }]			
 					}
 				],
@@ -91146,7 +92732,9 @@
 					},
 					{
 						"name": "Skis",
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],"availableIn": [
+							"Sweden (PL)"
+						],
 						"points": 4
 					},
 					{
@@ -91161,6 +92749,72 @@
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
 				"specialText": "Period: E|M|L\n 3 Crew Members",
 				"equipment": ["Light AT Gun Team","Gun Shield"]
+			},
+			{
+				"name": "Skoda 37mm/70mm Hybrid Gun",
+				"validationKeys": ["ArtyTeams"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Weapon Crew Members",
+						"quantity": 3
+					}
+				],
+				"sortPriority": 5,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 40,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Skis",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],"availableIn": [
+							"Sweden (PL)"
+						],
+						"points": 4
+					},
+					{
+						"name": "Wire Cutters",
+						"points": 1,
+						"perModel": true,
+						"special": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
+					}
+				],
+				"keywords": ["Hybrid Weapon"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Period: E|M|L\n 3 Crew Members",
+				"equipment": ["Light AT Gun Team","Light Howtizer Team","Gun Shield"]
 			},
 			{
 				"name": "Bofors 40mm m/36 Anti-Air Gun",
@@ -94564,6 +96218,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
 					{
@@ -94613,9 +96270,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Engineering Selection","Fortification Gun"],
@@ -100176,6 +101834,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
 					},
 					{
@@ -100227,6 +101888,7 @@
 						"name": "Command Vehicle ",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
 						"points": 10
@@ -100547,6 +102209,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
 					}
 				],
@@ -100582,6 +102247,17 @@
 					{
 						"name": "Command Vehicle",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn":[
+							"France"
+						],
+						"points": 10
+					},
+					{
+						"name": "Command Vehicle ",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn":[
+							"Bulgaria"
+						],
 						"points": 10
 					}
 				],
@@ -100589,6 +102265,53 @@
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
 				"specialText": "Damage Value: 8+\n Tracked Vehicle",
 				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","Reinforced Front Armor"]
+			},
+			{
+				"name": "CV33 Tankette",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 44,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle ",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn":[
+							"Bulgaria"
+						],
+						"points": 10
+					}
+				],
+				"keywords": [],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Damage Value: 7+\n Tracked Vehicle",
+				"equipment": ["Hull Mounted MMG"]
 			},
 			{
 				"name": "Laffly W15 TCC",
@@ -100712,6 +102435,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
 					{
@@ -100776,9 +102502,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped"],
@@ -100792,6 +102519,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -100859,6 +102589,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
 					{
@@ -100908,9 +102641,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Remote Controlled"],
@@ -101092,6 +102826,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
 					{
@@ -101156,9 +102893,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped"],
@@ -101172,6 +102910,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -101237,9 +102978,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Armored All Round","One Man Turret","Slow"],
@@ -101253,6 +102995,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -101318,9 +103063,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped"],
@@ -101334,6 +103080,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -101399,9 +103148,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped","One, Not Both!"],
@@ -101415,6 +103165,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -101480,9 +103233,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Command Vehicle"],
@@ -101496,6 +103250,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -101567,9 +103324,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Weak Sides"],
@@ -101583,6 +103341,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -101648,9 +103409,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Weak Sides"],
@@ -101664,6 +103426,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -101729,9 +103494,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Stationary Firing Platform"],
@@ -101850,9 +103616,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Reinforced Front Armor"],
@@ -101910,6 +103677,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -101975,9 +103745,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped","Recce"],
@@ -101991,6 +103762,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -102056,9 +103830,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": [],
@@ -102072,6 +103847,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -102142,9 +103920,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": [],
@@ -102158,6 +103937,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -102223,9 +104005,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": [],
@@ -102239,6 +104022,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -102316,9 +104102,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped"],
@@ -102333,6 +104120,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
 					{
@@ -102397,9 +104187,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped"],
@@ -102414,6 +104205,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
 					{
@@ -102478,9 +104272,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped"],
@@ -102494,6 +104289,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -102559,9 +104357,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped"],
@@ -102575,6 +104374,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -102640,9 +104442,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped","One, Not Both!"],
@@ -102656,6 +104459,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -102721,9 +104527,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped"],
@@ -102737,6 +104544,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -102802,9 +104612,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped"],
@@ -102818,6 +104629,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -102883,9 +104697,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped"],
@@ -102899,6 +104714,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -102964,9 +104782,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Recce","Turn On the Spot"],
@@ -102980,6 +104799,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -103045,9 +104867,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped","One, Not Both!"],
@@ -103061,6 +104884,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -103111,9 +104937,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Slow"],
@@ -103127,6 +104954,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -103177,9 +105007,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Slow"],
@@ -103193,6 +105024,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -103270,9 +105104,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Stationary Firing Platform"],
@@ -103286,6 +105121,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -103363,9 +105201,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Stationary Firing Platform","Open Topped"],
@@ -103379,6 +105218,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -103444,9 +105286,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped"],
@@ -103460,6 +105303,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -103537,9 +105383,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped","Turn On the Spot"],
@@ -103553,6 +105400,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -103621,9 +105471,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["One Man Turret","Slow... Pitifully Slow"],
@@ -103637,6 +105488,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -103719,9 +105573,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["One Man Turret"],
@@ -103735,6 +105590,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -103800,9 +105658,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["One Man Turret","Slow","Armored All Around"],
@@ -103816,6 +105675,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -103881,9 +105743,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["One Man Turret","Slow","Armored All Around"],
@@ -103897,6 +105760,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -103962,9 +105828,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Slow","Armored All Around"],
@@ -103979,6 +105846,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
 					{
@@ -104043,9 +105913,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["One Man Turret"],
@@ -104060,6 +105931,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
 					{
@@ -104124,9 +105998,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": [],
@@ -104140,6 +106015,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -104205,9 +106083,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Recce"],
@@ -104267,6 +106146,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
 					{
@@ -104322,9 +106204,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": [],
@@ -104338,6 +106221,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -104388,9 +106274,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped","Flak"],
@@ -104404,6 +106291,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -104460,9 +106350,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": [],
@@ -104476,6 +106367,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -104532,9 +106426,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Slow"],
@@ -104548,6 +106443,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -104613,9 +106511,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped"],
@@ -104629,6 +106528,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -104694,9 +106596,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": [],
@@ -104710,6 +106613,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -104769,9 +106675,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Recce","Fast"],
@@ -104785,6 +106692,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -104841,9 +106751,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Multiple Flamethrowers"],
@@ -104858,6 +106769,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
 					{
@@ -104925,9 +106839,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": [],
@@ -104942,6 +106857,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
 					{
@@ -105009,9 +106927,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": [],
@@ -105025,6 +106944,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -105102,9 +107024,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": [],
@@ -105118,6 +107041,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -105183,9 +107109,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": [],
@@ -105199,6 +107126,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -105263,9 +107193,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": [],
@@ -105279,6 +107210,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -105338,9 +107272,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": [],
@@ -105354,6 +107289,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -105410,9 +107348,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": [],
@@ -105426,6 +107365,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -105482,9 +107424,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": [],
@@ -105498,6 +107441,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -105563,9 +107509,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": [],
@@ -105579,6 +107526,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -105655,9 +107605,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": [],
@@ -105671,6 +107622,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -105747,9 +107701,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Reinforced Front Armor"],
@@ -105986,6 +107941,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
 					{
@@ -106050,9 +108008,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped"],
@@ -106067,6 +108026,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
 					{
@@ -106131,9 +108093,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Recce"],
@@ -106147,6 +108110,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -106217,9 +108183,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Stationary Firing Platform"],
@@ -106233,6 +108200,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -106298,9 +108268,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Stationary Firing Platform"],
@@ -106314,6 +108285,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -106379,9 +108353,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped","Slow"],
@@ -106395,6 +108370,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -106460,9 +108438,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped"],
@@ -106476,6 +108455,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -106541,9 +108523,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped","Stationary Firing Platform"],
@@ -106557,6 +108540,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -106622,9 +108608,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Amphibious"],
@@ -106638,6 +108625,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -106726,9 +108716,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": [],
@@ -106742,6 +108733,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -106807,9 +108801,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Stationary Firing Platform"],
@@ -106823,6 +108818,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -106888,9 +108886,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["One, Not Both!","Open Topped"],
@@ -106904,6 +108903,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -106969,9 +108971,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["One, Not Both!","Open Topped"],
@@ -106985,6 +108988,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -107068,9 +109074,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Recce","Open Topped"],
@@ -107084,6 +109091,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -107149,9 +109159,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Recce","Open Topped"],
@@ -107165,6 +109176,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -107222,9 +109236,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Recce","Open Topped","Command Vehicle"],
@@ -107238,6 +109253,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -107303,9 +109321,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Recce","Dual Directional Steering"],
@@ -107319,6 +109338,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -107376,9 +109398,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Recce","Dual Directional Steering","Command Vehicle"],
@@ -107392,6 +109415,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -107462,9 +109488,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Recce","Dual Directional Steering"],
@@ -107478,6 +109505,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -107543,9 +109573,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Recce","Dual Directional Steering","Open Topped"],
@@ -107559,6 +109590,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -107624,9 +109658,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Recce","Dual Directional Steering"],
@@ -107640,6 +109675,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -107710,9 +109748,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Recce","Dual Directional Steering","Open Topped"],
@@ -107726,6 +109765,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -107791,9 +109833,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Recce","Dual Directional Steering","Open Topped"],
@@ -107807,6 +109850,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -107877,9 +109923,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped"],
@@ -107893,6 +109940,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -107972,9 +110022,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped","Command Vehicle"],
@@ -107988,6 +110039,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -108055,9 +110109,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped","Command Vehicle"],
@@ -108071,6 +110126,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -108138,9 +110196,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped","Command Vehicle","Transport","Tow"],
@@ -108154,6 +110213,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -108230,9 +110292,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped"],
@@ -108246,6 +110309,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -108321,9 +110387,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped"],
@@ -108337,6 +110404,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -108412,9 +110482,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped","Recce"],
@@ -108428,6 +110499,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -108498,9 +110572,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped","Recce","Stationary Firing Platform"],
@@ -108514,6 +110589,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -108584,9 +110662,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped","Multiple Flamethrowers"],
@@ -108600,6 +110679,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -108665,9 +110747,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped"],
@@ -108681,6 +110764,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -108746,9 +110832,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped"],
@@ -108762,6 +110849,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -108832,9 +110922,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped"],
@@ -108848,6 +110939,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -108913,9 +111007,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped","Recce"],
@@ -108929,6 +111024,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -108980,9 +111078,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped","Command Vehicle","Communications Vehicle"],
@@ -108996,6 +111095,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -109055,9 +111157,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped","Medical Vehicle","Ambulance"],
@@ -109071,6 +111174,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -109146,9 +111252,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped","Transport"],
@@ -109162,6 +111269,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -109224,9 +111334,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Transport","Tow","Command Vehicle"],
@@ -109240,6 +111351,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -109296,9 +111410,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Recce","Transport"],
@@ -109312,6 +111427,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -109369,9 +111487,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Command Vehicle","Recce","Dual Direction Steering"],
@@ -109385,6 +111504,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -109450,9 +111572,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": [],
@@ -109466,6 +111589,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -109531,9 +111657,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped","Stationary Firing Platform"],
@@ -109547,6 +111674,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -109612,9 +111742,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped","Stationary Firing Platform"],
@@ -109628,6 +111759,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -109693,9 +111827,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped","Stationary Firing Platform"],
@@ -109709,6 +111844,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -109774,9 +111912,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped","Stationary Firing Platform"],
@@ -109790,6 +111929,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -109855,9 +111997,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped"],
@@ -109871,6 +112014,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -109936,9 +112082,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped","Armored All Round"],
@@ -109952,6 +112099,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -110011,9 +112161,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped","One, Not Both!"],
@@ -110027,6 +112178,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -110104,9 +112258,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Recce","Dual Direction Steering"],
@@ -110120,6 +112275,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -110185,9 +112343,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": [],
@@ -110201,6 +112360,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -110294,9 +112456,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": [],
@@ -110310,6 +112473,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -110380,9 +112546,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": [],
@@ -110396,6 +112563,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -110452,9 +112622,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": [],
@@ -110469,6 +112640,9 @@
 				"campaign": true,
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -110539,9 +112713,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Vulnerable"],
@@ -110556,6 +112731,9 @@
 				"campaign": true,
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -110626,9 +112804,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": [],
@@ -110686,6 +112865,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -110756,9 +112938,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Amphibious"],
@@ -110772,6 +112955,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -110842,9 +113028,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped"],
@@ -110858,6 +113045,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -110928,9 +113118,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped"],
@@ -110944,6 +113135,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -111001,9 +113195,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped","Command Vehicle"],
@@ -111017,6 +113212,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
@@ -111082,9 +113280,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped"],
@@ -117963,6 +120162,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					},
 					{
@@ -118031,9 +120233,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["One Man Turret","Slow"],
@@ -118047,6 +120250,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					},
@@ -118116,9 +120322,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["One Man Turret","Slow","Ferrea Mole, Ferreo Coure"],
@@ -118132,6 +120339,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
 					},
@@ -118234,9 +120444,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": [],
@@ -118320,6 +120531,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
 					},
 					{
@@ -118396,9 +120610,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Slow","Tracked"],
@@ -118412,6 +120627,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
 					},
@@ -118474,9 +120692,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Recce","One Man Turret","Vulnerable","Ferrea Mole, Ferreo Coure"],
@@ -118490,6 +120709,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
 					},
@@ -118552,9 +120774,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Command Vehicle","Open Topped","Recce","One Man Turret","Vulnerable","Ferrea Mole, Ferreo Coure"],
@@ -118568,6 +120791,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
 					},
@@ -118640,9 +120866,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["One Man Turret","Vulnerable"],
@@ -118656,6 +120883,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					},
@@ -118725,9 +120955,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Ferrea Mole, Ferreo Coure","Vulnerable"],
@@ -118741,6 +120972,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
 					},
@@ -118818,9 +121052,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Ferrea Mole, Ferreo Coure","Vulnerable","Slow"],
@@ -118834,6 +121069,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
 					},
@@ -118911,9 +121149,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Ferrea Mole, Ferreo Coure","Vulnerable"],
@@ -118927,6 +121166,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
 					},
@@ -119004,9 +121246,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Ferrea Mole, Ferreo Coure","Vulnerable"],
@@ -119020,6 +121263,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					},
@@ -119101,9 +121347,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Armored All Round","Slow","One Man Turret"],
@@ -119117,6 +121364,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
 					},
@@ -119184,9 +121434,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped","Slow","Vulnerable"],
@@ -119200,6 +121451,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
 					},
@@ -119267,9 +121521,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped","Slow","Vulnerable","Command Vehicle"],
@@ -119283,6 +121538,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
 					},
@@ -119360,9 +121618,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Vulnerable"],
@@ -119376,6 +121635,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
 					},
@@ -119442,9 +121704,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": [],
@@ -119458,6 +121721,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					},
@@ -119516,9 +121782,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped","Vulnerable"],
@@ -119603,6 +121870,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -119664,9 +121934,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Command Vehicle  ","Vulnerable"],
@@ -119681,6 +121952,9 @@
 				"order": 1,
 				"PL": true,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
 					},
@@ -119753,9 +122027,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped","Experimental"],
@@ -119769,6 +122044,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
 					},
@@ -119858,9 +122136,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": [],
@@ -119874,6 +122153,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
 					},
@@ -119963,9 +122245,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": [],
@@ -119979,6 +122262,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
 					},
@@ -120051,9 +122337,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped"],
@@ -120067,6 +122354,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
 					},
@@ -120139,9 +122429,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Flak","Stationary Firing Platform"],
@@ -120155,6 +122446,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
 					},
@@ -120227,9 +122521,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Flak","Stationary Firing Platform","Slow","Versatile-Medium"],
@@ -120243,6 +122538,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					},
@@ -120312,9 +122610,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Recce","Dual Direction Steering"],
@@ -120328,6 +122627,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian Co-Belligerent Army" }]			
 					},
@@ -120408,9 +122710,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Recce","Dual Direction Steering"],
@@ -120424,6 +122727,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian Co-Belligerent Army" }]			
 					},
@@ -120498,9 +122804,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Recce","Dual Direction Steering","Open Topped","Transport"],
@@ -120594,6 +122901,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					},
 					{
@@ -120680,9 +122990,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Recce","Open Topped"],
@@ -120696,6 +123007,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					},
@@ -120783,9 +123097,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Open Topped"],
@@ -120917,6 +123232,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian Co-Belligerent Army" }]			
 					},
 					{
@@ -121003,9 +123321,10 @@
 						"points": 0,
 						"limit": 1,
 						"availableIn":[
+							"Bulgaria",
 							"Romania"
 						],
-						"requireChooseOneKey": "RAS"
+						"requireChooseOneKey": "AS"
 					}
 				],
 				"keywords": ["Recce","Turn on the Spot"],
