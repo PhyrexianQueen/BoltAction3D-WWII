@@ -452,7 +452,10 @@
 			},
 			{
 				"name": "Hungary",
-				"alignment": "Axis"
+				"alignment": "Axis",
+				"additionalRules": [
+					"Axis Support - You may include a single unit from either the German or Royal Italian Army (Regio Esercito) List. They do not benefit from the Army Special Rules, except Hitler's Buzzsaw. It fills a normal slot in the platoon but does not count towards the mandatory requirement. This unit may not be a Veteran Unit or a vehicle with Damage Value 10 or Higher; Bolt Action 3rd Edition Bulgarian Supplement PDF","Roving Patrols - Enemies cannot Outflank and cannot use the Infiltrators special rule for deployment; Bolt Action 3rd Edition Bulgarian Supplement PDF"
+				]
 			},
 			{
 				"name": "India",
@@ -6901,9 +6904,6 @@
 						"name": "Greece"
 					},
 					{
-						"name": "Hungary"
-					},
-					{
 						"name": "India"
 					},
 					{
@@ -6974,6 +6974,9 @@
 				"factions": [
 					{
 						"name": "Bulgaria"
+					},
+					{
+						"name": "Hungary"
 					},
 					{
 						"name": "Romania"
@@ -7078,9 +7081,6 @@
 						"name": "Greece"
 					},
 					{
-						"name": "Hungary"
-					},
-					{
 						"name": "India"
 					},
 					{
@@ -7163,6 +7163,9 @@
 				"factions": [
 					{
 						"name": "Bulgaria"
+					},
+					{
+						"name": "Hungary"
 					},
 					{
 						"name": "Romania"
@@ -7306,9 +7309,6 @@
 						"name": "Greece"
 					},
 					{
-						"name": "Hungary"
-					},
-					{
 						"name": "India"
 					},
 					{
@@ -7402,6 +7402,9 @@
 				"factions": [
 					{
 						"name": "Bulgaria"
+					},
+					{
+						"name": "Hungary"
 					},
 					{
 						"name": "Romania"
@@ -7512,9 +7515,6 @@
 						"name": "Greece"
 					},
 					{
-						"name": "Hungary"
-					},
-					{
 						"name": "India"
 					},
 					{
@@ -7603,6 +7603,9 @@
 				"factions": [
 					{
 						"name": "Bulgaria"
+					},
+					{
+						"name": "Hungary"
 					},
 					{
 						"name": "Romania"
@@ -7713,9 +7716,6 @@
 						"name": "Greece"
 					},
 					{
-						"name": "Hungary"
-					},
-					{
 						"name": "India"
 					},
 					{
@@ -7804,6 +7804,9 @@
 				"factions": [
 					{
 						"name": "Bulgaria"
+					},
+					{
+						"name": "Hungary"
 					},
 					{
 						"name": "Romania"
@@ -7914,9 +7917,6 @@
 						"name": "Greece"
 					},
 					{
-						"name": "Hungary"
-					},
-					{
 						"name": "India"
 					},
 					{
@@ -8005,6 +8005,9 @@
 				"factions": [
 					{
 						"name": "Bulgaria"
+					},
+					{
+						"name": "Hungary"
 					},
 					{
 						"name": "Romania"
@@ -8096,9 +8099,6 @@
 						"name": "Greece"
 					},
 					{
-						"name": "Hungary"
-					},
-					{
 						"name": "India"
 					},
 					{
@@ -8188,6 +8188,9 @@
 				"factions": [
 					{
 						"name": "Bulgaria"
+					},
+					{
+						"name": "Hungary"
 					},
 					{
 						"name": "Romania"
@@ -8548,6 +8551,9 @@
 					},
 					{
 						"all": [{ "in": "HQ Platoon " }, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon " }, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon" }, { "in": "Canada" }]			
@@ -8932,6 +8938,7 @@
 							"Finland",
 							"France",
 							"Greece",
+							"Hungary",
 							"Netherlands",
 							"Norway",
 							"Poland",
@@ -9123,6 +9130,7 @@
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
 							"Finland",
+							"Hungary",
 							"Romania",
 							"Slovakia (ZC)",
 							"Switzerland (GKZ)"
@@ -9146,6 +9154,7 @@
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
 							"Finland",
+							"Hungary",
 							"Romania",
 							"Slovakia (ZC)",
 							"Switzerland (GKZ)"
@@ -9198,7 +9207,6 @@
 							"East Africa Command",
 							"France",
 							"Greece",
-							"Hungary",
 							"India",
 							"Netherlands",
 							"New Zealand",
@@ -9225,7 +9233,6 @@
 							"Belgium",
 							"France",
 							"Greece",
-							"Hungary",
 							"Netherlands",
 							"Poland"
 						]
@@ -10256,6 +10263,9 @@
 						"all": [{ "in": "HQ Platoon " }, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "HQ Platoon " }, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "HQ Platoon " }, { "in": "Romania" }]			
 					}
 				],
@@ -10377,6 +10387,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -10402,6 +10413,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "HQ Platoon " }, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon " }, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon " }, { "in": "Romania" }]			
@@ -10522,6 +10536,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -13300,6 +13315,9 @@
 						"all": [{ "in": "HQ Platoon " }, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "HQ Platoon " }, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "HQ Platoon " }, { "in": "Romania" }]			
 					}
 				],
@@ -13340,6 +13358,7 @@
 						"points": 17,
 						"availableIn": [
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "morale"
@@ -13350,6 +13369,7 @@
 						"points": 25,
 						"availableIn": [
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "morale"
@@ -13360,6 +13380,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -13379,6 +13400,9 @@
 						"all": [{ "in": "HQ Platoon " }, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "HQ Platoon " }, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "HQ Platoon " }, { "in": "Romania" }]			
 					}
 				],
@@ -13419,6 +13443,7 @@
 						"points": 17,
 						"availableIn": [
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "morale"
@@ -13429,6 +13454,7 @@
 						"points": 25,
 						"availableIn": [
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "morale"
@@ -13439,6 +13465,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -13852,16 +13879,31 @@
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon " }, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Recce Platoon " }, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon " }, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Engineer Platoon " }, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Engineer Platoon " }, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon " }, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Heavy Weapons Platoon " }, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Artillery Platoon " }, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon " }, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon" }, { "in": "Canada" }]			
@@ -14852,6 +14894,7 @@
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
 							"Finland",
+							"Hungary",
 							"Slovakia (ZC)",
 							"Switzerland (GKZ)",
 							"Poland",
@@ -14875,6 +14918,7 @@
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
 							"Finland",
+							"Hungary",
 							"Slovakia (ZC)",
 							"Switzerland (GKZ)",
 							"Poland",
@@ -14931,7 +14975,6 @@
 							"Germany",
 							"Great Britain",
 							"Greece",
-							"Hungary",
 							"India",
 							"Netherlands",
 							"New Zealand",
@@ -14955,7 +14998,6 @@
 							"Belgium",
 							"France",
 							"Greece",
-							"Hungary",
 							"Netherlands",
 							"Partisans",
 							"Sweden (PL)"
@@ -17764,6 +17806,9 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "India" }]			
 					},
 					{
@@ -17853,7 +17898,6 @@
 							"Germany",
 							"Great Britain",
 							"Greece",
-							"Hungary",
 							"Inda",
 							"Japan",
 							"Netherlands",
@@ -18476,6 +18520,9 @@
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon " }, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -18544,6 +18591,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -18568,6 +18616,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon " }, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]			
@@ -18638,6 +18689,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -19355,6 +19407,9 @@
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon " }, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
 					},
 					{
@@ -19406,6 +19461,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -19462,6 +19518,9 @@
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon " }, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -19501,6 +19560,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -19520,6 +19580,9 @@
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon " }, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -19559,6 +19622,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -21070,10 +21134,10 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Greece" }]			
 					},
 					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]		
 					},
 					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Hungary" }]		
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "India" }]			
@@ -22021,7 +22085,13 @@
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon " }, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Recce Platoon " }, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon " }, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
@@ -22137,6 +22207,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -22163,7 +22234,13 @@
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon " }, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Recce Platoon " }, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon " }, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
@@ -22279,6 +22356,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -22628,7 +22706,13 @@
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon " }, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Recce Platoon " }, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon " }, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]			
@@ -22717,6 +22801,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -22743,7 +22828,13 @@
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon " }, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Recce Platoon " }, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon " }, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]			
@@ -22832,6 +22923,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -25144,6 +25236,9 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "India" }]			
 					},
 					{
@@ -25224,6 +25319,7 @@
 							"France",
 							"Germany",
 							"Great Britain",
+							"Hungary",
 							"India",
 							"New Zealand",
 							"Norway",
@@ -25256,6 +25352,7 @@
 							"France",
 							"Germany",
 							"Great Britain",
+							"Hungary",
 							"India",
 							"New Zealand",
 							"Norway",
@@ -25571,6 +25668,9 @@
 						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -25629,6 +25729,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -25653,6 +25754,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]			
@@ -25701,6 +25805,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -26624,6 +26729,12 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Hungary" }]			
 					}
 
 				],
@@ -26656,7 +26767,8 @@
 						"points": 63,
 						"requireChooseOneKey": "morale",
 						"availableIn":[
-							"Bulgaria"
+							"Bulgaria",
+							"Hungary"
 						]
 					},
 					{
@@ -26665,7 +26777,8 @@
 						"points": 80,
 						"requireChooseOneKey": "morale",
 						"availableIn":[
-							"Bulgaria"
+							"Bulgaria",
+							"Hungary"
 						]
 					},
 					{
@@ -26674,7 +26787,8 @@
 						"points": 88,
 						"requireChooseOneKey": "morale",
 						"availableIn":[
-							"Bulgaria"
+							"Bulgaria",
+							"Hungary"
 						]
 					},
 					{
@@ -26698,6 +26812,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
 					}
 				],
 				"points": 0,
@@ -26729,7 +26846,8 @@
 						"points": 63,
 						"requireChooseOneKey": "morale",
 						"availableIn":[
-							"Bulgaria"
+							"Bulgaria",
+							"Hugnary"
 						]
 					},
 					{
@@ -26738,7 +26856,8 @@
 						"points": 80,
 						"requireChooseOneKey": "morale",
 						"availableIn":[
-							"Bulgaria"
+							"Bulgaria",
+							"Hungary"
 						]
 					},
 					{
@@ -26747,7 +26866,8 @@
 						"points": 88,
 						"requireChooseOneKey": "morale",
 						"availableIn":[
-							"Bulgaria"
+							"Bulgaria",
+							"Hungary"
 						]
 					},
 					{
@@ -26789,6 +26909,12 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Finland" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Slovakia (ZC)" }]			
@@ -26836,6 +26962,7 @@
 							"Chinese Central Army (GKZ)",
 							"Chinese Warlords (GKZ)",
 							"Czechoslovak Republic (GKZ)",
+							"Hungary",
 							"Slovakia (ZC)"
 						]
 					},
@@ -26859,6 +26986,7 @@
 							"Chinese Warlords (GKZ)",
 							"Czechoslovak Republic (GKZ)",
 							"Finland",
+							"Hungary",
 							"Slovakia (ZC)"
 						]
 					},
@@ -26881,6 +27009,7 @@
 							"Chinese Central Army (GKZ)",
 							"Chinese Warlords (GKZ)",
 							"Finland",
+							"Hungary",
 							"Slovakia (ZC)"
 						]
 					},
@@ -26959,6 +27088,9 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Finland" }]			
 					},
 					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Slovakia (ZC)" }]			
 					},
 					{
@@ -26998,6 +27130,7 @@
 							"Chinese Central Army (GKZ)",
 							"Chinese Warlords (GKZ)",
 							"Czechoslovak Republic (GKZ)",
+							"Hungary",
 							"Slovakia (ZC)"
 						]
 					},
@@ -27021,6 +27154,7 @@
 							"Chinese Warlords (GKZ)",
 							"Czechoslovak Republic (GKZ)",
 							"Finland",
+							"Hungary",
 							"Slovakia (ZC)"
 						]
 					},
@@ -27043,6 +27177,7 @@
 							"Chinese Central Army (GKZ)",
 							"Chinese Warlords (GKZ)",
 							"Finland",
+							"Hungary",
 							"Slovakia (ZC)"
 						]
 					},
@@ -27111,6 +27246,12 @@
 						"all": [{ "in": "Recce Platoon "	}, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon "	}, { "in": "Romania" }]			
 					},
 					{
@@ -27174,6 +27315,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -27198,6 +27340,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Romania" }]			
@@ -27257,6 +27402,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -29218,6 +29364,12 @@
 						"all": [{ "in": "Recce Platoon "	}, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon "	}, { "in": "Romania" }]			
 					},
 					{
@@ -29281,6 +29433,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -29305,6 +29458,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Romania" }]			
@@ -29364,6 +29520,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -29393,6 +29550,12 @@
 						"all": [{ "in": "Recce Platoon "	}, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon "	}, { "in": "Romania" }]			
 					},
 					{
@@ -29456,6 +29619,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -29480,6 +29644,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Romania" }]			
@@ -29539,6 +29706,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -29567,6 +29735,12 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon" }, { "in": "Italian National Republican Army" }]			
@@ -29715,6 +29889,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -29740,6 +29915,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Italian National Republican Army" }]			
@@ -29876,6 +30054,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -33146,6 +33325,9 @@
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "India" }]			
 					},
 					{
@@ -33460,6 +33642,9 @@
 						"all": [{ "in": "Engineer Platoon "	}, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Engineer Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -33522,6 +33707,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -33546,6 +33732,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Engineer Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Engineer Platoon" }, { "in": "Romania" }]			
@@ -33610,6 +33799,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -35257,6 +35447,9 @@
 						"all": [{ "in": "Engineer Platoon "	}, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
 					},
 					{
@@ -35438,6 +35631,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -35855,6 +36049,9 @@
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
 					},
 					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Engineer Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -35932,6 +36129,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -36010,6 +36208,9 @@
 						"all": [{ "in": "Engineer Platoon"	}, { "in": "Germany" }]			
 					},
 					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Engineer Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -36054,6 +36255,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -36541,6 +36743,9 @@
 						"all": [{ "in": "Engineer Platoon "	}, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Engineer Platoon" }, { "in": "Italian Co-Belligerent Army" }]			
 					},
 					{
@@ -36733,6 +36938,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -38076,6 +38282,9 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Norway" }]			
 					},
 					{
@@ -38120,6 +38329,7 @@
 							"Chinese Central Army (GKZ)",
 							"Chinese Warlords (GKZ)",
 							"France",
+							"Hungary",
 							"Norway",
 							"Poland",
 							"Sweden (PL)"
@@ -38153,6 +38363,7 @@
 							"Chinese Central Army (GKZ)",
 							"Chinese Warlords (GKZ)",
 							"France",
+							"Hungary",
 							"Norway",
 							"Poland",
 							"Sweden (PL)"
@@ -38178,6 +38389,7 @@
 							"Chinese Central Army (GKZ)",
 							"Chinese Warlords (GKZ)",
 							"France",
+							"Hungary",
 							"Norway",
 							"Poland",
 							"Sweden (PL)"
@@ -38303,6 +38515,9 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
 					},
 					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Norway" }]			
 					},
 					{
@@ -38347,6 +38562,7 @@
 							"Chinese Central Army (GKZ)",
 							"Chinese Warlords (GKZ)",
 							"France",
+							"Hungary",
 							"Norway",
 							"Poland",
 							"Sweden (PL)"
@@ -38380,6 +38596,7 @@
 							"Chinese Central Army (GKZ)",
 							"Chinese Warlords (GKZ)",
 							"France",
+							"Hungary",
 							"Norway",
 							"Poland",
 							"Romania",
@@ -38406,6 +38623,7 @@
 							"Chinese Central Army (GKZ)",
 							"Chinese Warlords (GKZ)",
 							"France",
+							"Hungary",
 							"Norway",
 							"Poland",
 							"Sweden (PL)"
@@ -38939,6 +39157,9 @@
 						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -38996,6 +39217,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -39020,6 +39242,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Romania" }]			
@@ -39079,6 +39304,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -39103,6 +39329,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Rifle Platoon" }, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon" }, { "in": "Romania" }]			
@@ -39162,6 +39391,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -39186,6 +39416,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Romania" }]			
@@ -39251,6 +39484,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -40842,6 +41076,9 @@
 						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -40907,6 +41144,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -40931,6 +41169,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon " }, { "in": "Romania" }]			
@@ -40998,6 +41239,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -41064,6 +41306,9 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
 					},
 					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Norway" }]			
 					},
 					{
@@ -41122,6 +41367,7 @@
 							"Czechoslovak Republic (GKZ)",
 							"Denmark (GKZ)",
 							"France",
+							"Hungary",
 							"Norway",
 							"Poland",
 							"Slovakia (ZC)"
@@ -41166,6 +41412,7 @@
 							"Danish Regulars (ZC)",
 							"Denmark (GKZ)",
 							"France",
+							"Hungary",
 							"Norway",
 							"Poland",
 							"Romania",
@@ -41232,6 +41479,7 @@
 							"Danish Regulars (ZC)",
 							"Finland",
 							"France",
+							"Hungary",
 							"Norway",
 							"Poland",
 							"Romania",
@@ -42154,6 +42402,9 @@
 						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -42219,6 +42470,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -42572,6 +42824,9 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "India" }]
@@ -43237,6 +43492,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -43261,6 +43517,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon" }, { "in": "Romania" }]			
@@ -43320,6 +43579,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -50047,6 +50307,255 @@
 				"equipment": ["Pistols","Rifles"]
 			},
 			{
+				"name": "Hungarian Infantry Section",
+				"validationKeys": ["RifleTeams"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Hungary" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"localQuantityDisplay": [
+					{
+						"key": "secondary",
+						"property": "NCO Pistol",
+						"quantity": 1
+					},
+					{
+						"key": "primary",
+						"property": "Rifles",
+						"quantity": 4
+					}
+				],
+				"sortPriority": 3,
+				"requiredChildren": [
+					{
+						"elementPropertyName": "options",
+						"name": "Engineers",
+						"in": [
+							[
+								"Engineer Platoon "
+							]
+						]
+					}
+				],
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 34,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 49,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 64,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"max": 8,
+						"addsModels": 1,
+						"unlockedByLocal": ["Inexperienced"]
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"max": 8,
+						"addsModels": 1,
+						"unlockedByLocal": ["Regular"]
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"max": 8,
+						"addsModels": 1,
+						"unlockedByLocal": ["Veteran"]
+					},
+					{
+						"name": "Upgrade to NCO SMG",
+						"points": 5,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Infantry LMGs",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Panzerfaust",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "AT Grenades",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 2,
+						"perModel": true
+					},
+					{
+						"name": "Engineers",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 1,
+						"perModel": true,
+						"availableIn":[
+							"Engineer Platoon "
+						]
+					},
+					{
+						"name": "Infantry Flamethrower",
+						"unlockedByLocal": ["Engineers"],
+						"points": 30,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"availableIn":[
+							"Engineer Platoon"
+						]
+					},
+					{
+						"name": "Stubborn",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"chooseOneKey": "special"
+					},
+					{
+						"name": "Fieldcraft",
+						"points": 1,
+						"perModel": true,
+						"unlockedByLocal": ["Veteran"],
+						"chooseOneKey": "special"
+					},
+					{
+						"name": "Wire Cutters",
+						"points": 1,
+						"perModel": true,
+						"special": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
+					}
+				],
+				"keywords": [],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": ["Pistols","Rifles"]
+			},
+			{
+				"name": "Hungarian Cavalry Section",
+				"validationKeys": ["RifleTeams"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Hungary" }]			
+					}
+				],
+				"points": 0,
+				"models": 6,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Cavalry Carbines",
+						"quantity": 6
+					}
+				],
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 96,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 16,
+						"increment": true,
+						"max": 4,
+						"addsModels": 1,
+						"unlockedByLocal": ["Veteran"]
+					},
+					{
+						"name": "Infantry LMGs",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Panzerfausts",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Wire Cutters",
+						"points": 1,
+						"perModel": true,
+						"special": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
+					}
+				],
+				"keywords": ["Cavalry","Hungaryn Cavalry Training"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "1 NCO\n 5 Riflemen",
+				"equipment": ["Cavalry Carbines"]
+			},
+			{
 				"name": "Warlord Conscription Squad",
 				"validationKeys": ["RifleTeams"],
 				"factions": [],
@@ -52536,6 +53045,12 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
 					},
 					{
@@ -52609,6 +53124,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -52643,6 +53159,12 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
@@ -52774,6 +53296,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -52919,6 +53442,12 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
 					},
 					{
@@ -53029,6 +53558,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -53181,6 +53711,12 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
 					},
 					{
@@ -53289,6 +53825,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -53458,6 +53995,12 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
 					},
 					{
@@ -53536,6 +54079,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -53694,6 +54238,12 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
 					},
 					{
@@ -53806,6 +54356,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -53953,6 +54504,12 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
 					},
 					{
@@ -54053,6 +54610,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -54087,6 +54645,12 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
@@ -54198,6 +54762,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -54232,6 +54797,12 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
@@ -54342,6 +54913,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -54493,6 +55065,12 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
 					},
 					{
@@ -54576,6 +55154,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -54611,6 +55190,12 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
@@ -54723,6 +55308,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -54757,6 +55343,12 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
@@ -54853,6 +55445,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -54887,6 +55480,12 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
@@ -54990,6 +55589,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -55024,6 +55624,12 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
@@ -55111,6 +55717,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -55145,6 +55752,12 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
@@ -55290,6 +55903,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -55324,6 +55938,12 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
@@ -55411,6 +56031,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -55445,6 +56066,12 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
@@ -55539,6 +56166,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -55573,6 +56201,12 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
@@ -55660,6 +56294,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -55694,6 +56329,12 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
@@ -55827,6 +56468,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -55861,6 +56503,12 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
@@ -55962,6 +56610,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -55996,6 +56645,12 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
@@ -56108,6 +56763,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -56142,6 +56798,12 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
@@ -56236,6 +56898,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -56270,6 +56933,12 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
@@ -56387,6 +57056,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -56421,6 +57091,12 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
@@ -56571,6 +57247,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -56604,6 +57281,12 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon " }, { "in": "Romania" }]		
@@ -56669,6 +57352,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -59763,6 +60447,12 @@
 						"all": [{ "in": "Recce Platoon " }, { "in": "Bulgaria" }]		
 					},
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					},
 					{
@@ -59887,6 +60577,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -60149,6 +60840,12 @@
 						"all": [{ "in": "Recce Platoon " }, { "in": "Bulgaria" }]		
 					},
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					},
 					{
@@ -60233,6 +60930,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -60261,6 +60959,12 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon " }, { "in": "Bulgaria" }]		
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon" }, { "in": "Italian National Republican Army" }]			
@@ -60406,6 +61110,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -61416,6 +62121,12 @@
 						"all": [{ "in": "Recce Platoon " }, { "in": "Bulgaria" }]		
 					},
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					},
 					{
@@ -61541,6 +62252,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -61569,6 +62281,12 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon " }, { "in": "Bulgaria" }]		
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Italian Co-Belligerent Army" }]			
@@ -61721,6 +62439,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -70349,6 +71068,9 @@
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Finland" }]			
 					},
 					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Slovakia (ZC)" }]			
 					}
 				],
@@ -70391,6 +71113,7 @@
 							"Chinese Warlords (ZC)",
 							"Chinese Communists (GKZ)",
 							"Chinese Expeditionary Force (GKZ)",
+							"Hungary",
 							"Slovakia (ZC)"
 						]
 					},
@@ -70408,6 +71131,7 @@
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
 							"Finland",
+							"Hungary",
 							"Slovakia (ZC)"
 						]
 					},
@@ -70423,6 +71147,7 @@
 							"Chinese Communists (GKZ)",
 							"Chinese Expeditionary Force (GKZ)",
 							"Finland",
+							"Hungary",
 							"Slovakia (ZC)"
 						]
 					},
@@ -71986,13 +72711,16 @@
 				"equipment": ["Heavy AT Gun Team"]
 			},
 			{
-				"name": "Heavy AT Gun",
+				"name": "Heavy Anti-Tank Gun Team",
 				"validationKeys": ["ArtyTeams"],
 				"factions": [],
 				"order": 1,
 				"availableIn": [
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Finland" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
 					}
 				],
 				"points": 0,
@@ -72014,6 +72742,15 @@
 				],
 				"options": [
 					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 85,
+						"availableIn": [
+							"Hungary"
+						],
+						"requireChooseOneKey": "morale"
+					},
+					{
 						"name": "Regular",
 						"addsPrefix": "Reg. ",
 						"points": 100,
@@ -72023,7 +72760,15 @@
 						"name": "Veteran",
 						"addsPrefix": "Vet. ",
 						"points": 110,
-						"requireChooseOneKey": "morale"
+						"requireChooseOneKey": "morale",
+						"availableIn": ["Finland"]
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 115,
+						"requireChooseOneKey": "morale",
+						"availableIn": ["Hungary"]
 					},
 					{
 						"name": "Skis and Ahkio Sledge",
@@ -72199,6 +72944,9 @@
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
 					}
 				],
 				"points": 0,
@@ -74317,7 +75065,7 @@
 				"keywords": [],
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
 				"specialText": "4 Crew Members",
-				"equipment": ["Platform Mounted Heavy AT Gun"]
+				"equipment": ["Platform Mounted Heavy AT Gun Team"]
 			},
 			{
 				"name": "8.35 cm PL kanón vz. 22 Anti-Air Flak Gun",
@@ -76215,7 +76963,7 @@
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Greece" }]			
 					},
 					{
-						"all": [{ "in": "Artillery Platoon"	}, { "in": "Hungary" }]			
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]		
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Italian Co-Belligerent Army" }]			
@@ -76442,6 +77190,9 @@
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -76500,6 +77251,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -76774,6 +77526,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -77699,6 +78452,9 @@
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -77743,7 +78499,8 @@
 						"points": 5,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"availableIn":[
-							"Romania"
+							"Romania",
+							"Hungary"
 						]
 					},
 					{
@@ -77767,6 +78524,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Romania" }]			
@@ -77819,6 +78579,7 @@
 						"points": 5,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"availableIn":[
+							"Hungary",
 							"Romania"
 						]
 					},
@@ -77841,6 +78602,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
+					},
 					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Romania" }]			
 					}
@@ -77966,6 +78730,65 @@
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
 				"specialText": "3 Crew Members",
 				"equipment": ["Platform Mounted Light Autocannon Team"]
+			},
+			{
+				"name": "Heavy Anti-Air Gun Team     ",
+				"validationKeys": ["ArtyTeamsR"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
+					}
+				],
+				"points": 0,
+				"models": 4,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Weapon Crew Members",
+						"quantity": 4
+					}
+				],
+				"sortPriority": 5,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Wire Cutters",
+						"points": 1,
+						"perModel": true,
+						"special": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
+					}
+				],
+				"keywords": [],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "4 Crew Members",
+				"equipment": ["Platform Mounted Heavy Autocannon Team"]
 			},
 			{
 				"name": "Light Anti-Air Gun Team",
@@ -78094,6 +78917,9 @@
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -78152,6 +78978,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -78180,6 +79007,9 @@
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Romania" }]			
@@ -78281,6 +79111,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -78309,6 +79140,9 @@
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Romania" }]			
@@ -78388,6 +79222,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -78416,6 +79251,9 @@
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Romania" }]			
@@ -78517,6 +79355,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -78545,6 +79384,9 @@
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Romania" }]			
@@ -78651,6 +79493,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -78679,6 +79522,9 @@
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Romania" }]			
@@ -78780,6 +79626,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -78811,6 +79658,9 @@
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Romania" }]			
@@ -78967,6 +79817,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -78995,6 +79846,9 @@
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Romania" }]			
@@ -79074,6 +79928,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -79193,6 +80048,9 @@
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
 					},
 					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -79283,6 +80141,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -79311,6 +80170,9 @@
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Romania" }]			
@@ -79379,6 +80241,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -79407,6 +80270,9 @@
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Romania" }]			
@@ -79470,6 +80336,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -79498,6 +80365,9 @@
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Romania" }]			
@@ -79584,6 +80454,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -79612,6 +80483,9 @@
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Romania" }]			
@@ -79704,6 +80578,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -79732,6 +80607,9 @@
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Romania" }]			
@@ -79795,6 +80673,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -79823,6 +80702,9 @@
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Romania" }]			
@@ -79880,6 +80762,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -79937,6 +80820,24 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon "	}, { "in": "Romania" }]			
@@ -80038,6 +80939,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -80088,6 +80990,24 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon "	}, { "in": "Romania" }]			
@@ -80189,6 +81109,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -80239,6 +81160,24 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon "	}, { "in": "Romania" }]			
@@ -80331,6 +81270,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -80383,6 +81323,24 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
 					},
 					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "HQ Platoon "	}, { "in": "Romania" }]			
 					},
 					{
@@ -80482,6 +81440,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -80534,6 +81493,24 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
 					},
 					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "HQ Platoon "	}, { "in": "Romania" }]			
 					},
 					{
@@ -80633,6 +81610,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -80683,6 +81661,24 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon "	}, { "in": "Romania" }]			
@@ -80775,6 +81771,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -80825,6 +81822,24 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon "	}, { "in": "Romania" }]			
@@ -80931,6 +81946,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -80981,6 +81997,24 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon "	}, { "in": "Romania" }]			
@@ -81082,6 +82116,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -81132,6 +82167,24 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon "	}, { "in": "Romania" }]			
@@ -81233,6 +82286,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -81283,6 +82337,24 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon "	}, { "in": "Romania" }]			
@@ -81389,6 +82461,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -81439,6 +82512,24 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon "	}, { "in": "Romania" }]			
@@ -81565,6 +82656,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -81615,6 +82707,24 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon "	}, { "in": "Romania" }]			
@@ -81721,6 +82831,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -81771,6 +82882,24 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon "	}, { "in": "Romania" }]			
@@ -81872,6 +83001,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -81922,6 +83052,24 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon "	}, { "in": "Romania" }]			
@@ -82023,6 +83171,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -82073,6 +83222,24 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon "	}, { "in": "Romania" }]			
@@ -82174,6 +83341,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -82224,6 +83392,24 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon "	}, { "in": "Romania" }]			
@@ -82325,6 +83511,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -82375,6 +83562,24 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon "	}, { "in": "Romania" }]			
@@ -82473,6 +83678,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -82523,6 +83729,24 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon "	}, { "in": "Romania" }]			
@@ -82629,6 +83853,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -82679,6 +83904,24 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon "	}, { "in": "Romania" }]			
@@ -82790,6 +84033,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -86435,6 +87679,9 @@
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -86481,6 +87728,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -86745,6 +87993,9 @@
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -86797,6 +88048,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -86936,6 +88188,9 @@
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -86988,6 +88243,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -87090,6 +88346,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Italian Co-Belligerent Army" }]			
@@ -87224,6 +88483,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -87373,6 +88633,9 @@
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Artillery Platoon" }, { "in": "Italian National Republican Army" }]			
 					},
 					{
@@ -87502,6 +88765,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -87651,6 +88915,9 @@
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Italian Co-Belligerent Army" }]			
 					},
 					{
@@ -87783,6 +89050,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -87808,6 +89076,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Italian Co-Belligerent Army" }]			
@@ -87894,6 +89165,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -87919,6 +89191,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Italian Co-Belligerent Army" }]			
@@ -88011,6 +89286,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -88192,6 +89468,24 @@
 						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Italian National Republican Army" }]			
 					},
 					{
@@ -88328,6 +89622,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -88360,6 +89655,24 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Italian National Republican Army" }]			
@@ -88498,6 +89811,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -88530,6 +89844,24 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "HQ Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "Italian National Republican Army" }]			
@@ -88683,6 +90015,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -96224,6 +97557,9 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -96271,6 +97607,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -102274,6 +103611,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					}
 				],
 				"points": 0,
@@ -102300,10 +103640,20 @@
 						"requireChooseOneKey": "morale"
 					},
 					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 76,
+						"requireChooseOneKey": "morale",
+						"availableIn":[
+							"Hungary"
+						]
+					},
+					{
 						"name": "Command Vehicle ",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"availableIn":[
-							"Bulgaria"
+							"Bulgaria",
+							"Hungary"
 						],
 						"points": 10
 					}
@@ -102312,6 +103662,426 @@
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
 				"specialText": "Damage Value: 7+\n Tracked Vehicle",
 				"equipment": ["Hull Mounted MMG"]
+			},
+			{
+				"name": "CV35 Tankette",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 54,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 76,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle ",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn":[
+							"Hungary"
+						],
+						"points": 10
+					}
+				],
+				"keywords": [],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Damage Value: 7+\n Tracked Vehicle",
+				"equipment": ["Hull Mounted Twin MMG"]
+			},
+			{
+				"name": "38M Toldi II/IIa Light Tank",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 72,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 90,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 108,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Turret Mounted AT Rifle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Turret Mounted Light AT Gun",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 35,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Reinforced Armor",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 20
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": [],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Damage Value: 8+\n Tracked Vehicle",
+				"equipment": ["Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "40M Turán Medium Tank",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 140,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 175,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 210,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": [],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Damage Value: 9+\n Tracked Vehicle",
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "4iM Turán II Medium Tank",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 146,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 195,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 230,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": [],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Damage Value: 9+\n Tracked Vehicle",
+				"equipment": ["Turret Mounted Medium AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "43M Zrínyi Assault Gun",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 160,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 200,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 240,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Forward Facing Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": [],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Damage Value: 9+\n Tracked Vehicle",
+				"equipment": ["Hull Mounted Medium Howitzer","Crew Carried MMG"]
+			},
+			{
+				"name": "Toldi Armored Car",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 64,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 80,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 96,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Recce"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Damage Value: 7+\n Wheeled Vehicle",
+				"equipment": ["Turret Mounted AT Rifle","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "CSAVA 39M Armored Recon. Car",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 64,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 80,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 96,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Recce","Dual Direction Steering"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Damage Value: 7+\n Wheeled Vehicle",
+				"equipment": ["Turret Mounted AT Rifle","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "CSAVA 40M Armored Recon. Car",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 64,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 80,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 96,
+						"requireChooseOneKey": "morale"
+					}
+				],
+				"keywords": ["Recce","Dual Direction Steering","Command Vehicle"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Damage Value: 7+\n Wheeled Vehicle",
+				"equipment": ["Turret Mounted MMG"]
 			},
 			{
 				"name": "Laffly W15 TCC",
@@ -102441,6 +104211,9 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -102503,6 +104276,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -102524,6 +104298,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -102595,6 +104372,9 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -102642,6 +104422,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -102832,6 +104613,9 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -102894,6 +104678,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -102915,6 +104700,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -102979,6 +104767,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -103000,6 +104789,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -103064,6 +104856,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -103085,6 +104878,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -103149,6 +104945,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -103170,6 +104967,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -103234,6 +105034,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -103255,6 +105056,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -103325,6 +105129,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -103346,6 +105151,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -103410,6 +105218,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -103431,6 +105240,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -103495,6 +105307,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -103617,6 +105430,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -103684,6 +105498,9 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -103746,6 +105563,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -103767,6 +105585,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -103831,6 +105652,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -103852,6 +105674,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -103921,6 +105746,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -103942,6 +105768,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -104006,6 +105835,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -104027,6 +105857,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -104103,6 +105936,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -104126,6 +105960,9 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -104188,6 +106025,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -104211,6 +106049,9 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -104273,6 +106114,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -104294,6 +106136,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -104358,6 +106203,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -104379,6 +106225,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -104443,6 +106292,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -104464,6 +106314,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -104528,6 +106381,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -104549,6 +106403,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -104613,6 +106470,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -104634,6 +106492,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -104698,6 +106559,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -104719,6 +106581,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -104783,6 +106648,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -104804,6 +106670,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -104868,6 +106737,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -104889,6 +106759,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -104938,6 +106811,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -104959,6 +106833,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -105008,6 +106885,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -105029,6 +106907,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -105105,6 +106986,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -105126,6 +107008,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -105202,6 +107087,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -105223,6 +107109,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -105287,6 +107176,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -105308,6 +107198,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -105384,6 +107277,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -105405,6 +107299,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -105472,6 +107369,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -105493,6 +107391,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -105574,6 +107475,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -105595,6 +107497,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -105659,6 +107564,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -105680,6 +107586,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -105744,6 +107653,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -105765,6 +107675,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -105829,6 +107742,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -105852,6 +107766,9 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -105914,6 +107831,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -105937,6 +107855,9 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -105999,6 +107920,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -106020,6 +107942,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -106084,6 +108009,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -106152,6 +108078,9 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -106205,6 +108134,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -106226,6 +108156,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -106275,6 +108208,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -106296,6 +108230,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -106351,6 +108288,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -106372,6 +108310,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -106427,6 +108368,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -106448,6 +108390,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -106512,6 +108457,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -106533,6 +108479,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -106597,6 +108546,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -106618,6 +108568,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -106676,6 +108629,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -106697,6 +108651,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -106752,6 +108709,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -106775,6 +108733,9 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -106840,6 +108801,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -106863,6 +108825,9 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -106928,6 +108893,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -106949,6 +108915,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -107025,6 +108994,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -107046,6 +109016,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -107110,6 +109083,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -107131,6 +109105,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -107194,6 +109171,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -107215,6 +109193,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -107273,6 +109254,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -107294,6 +109276,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -107349,6 +109334,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -107370,6 +109356,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -107425,6 +109414,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -107446,6 +109436,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -107510,6 +109503,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -107531,6 +109525,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -107606,6 +109603,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -107627,6 +109625,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -107702,6 +109703,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -107947,6 +109949,9 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -108009,6 +110014,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -108032,6 +110038,9 @@
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
 					},
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
 					}
 				],
@@ -108094,6 +110103,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -108115,6 +110125,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -108184,6 +110197,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -108205,6 +110219,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -108269,6 +110286,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -108290,6 +110308,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -108354,6 +110375,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -108375,6 +110397,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -108439,6 +110464,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -108460,6 +110486,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -108524,6 +110553,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -108545,6 +110575,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -108609,6 +110642,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -108630,6 +110664,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -108717,6 +110754,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -108738,6 +110776,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -108802,6 +110843,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -108823,6 +110865,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -108887,6 +110932,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -108908,6 +110954,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -108972,6 +111021,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -108993,6 +111043,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -109075,6 +111128,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -109096,6 +111150,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -109160,6 +111217,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -109181,6 +111239,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -109237,6 +111298,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -109258,6 +111320,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -109322,6 +111387,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -109343,6 +111409,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -109399,6 +111468,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -109420,6 +111490,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -109489,6 +111562,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -109510,6 +111584,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -109574,6 +111651,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -109595,6 +111673,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -109659,6 +111740,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -109680,6 +111762,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -109749,6 +111834,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -109770,6 +111856,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -109834,6 +111923,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -109855,6 +111945,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -109924,6 +112017,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -109945,6 +112039,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -110023,6 +112120,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -110044,6 +112142,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -110110,6 +112211,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -110131,6 +112233,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -110197,6 +112302,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -110218,6 +112324,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -110293,6 +112402,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -110314,6 +112424,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -110388,6 +112501,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -110409,6 +112523,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -110483,6 +112600,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -110504,6 +112622,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -110573,6 +112694,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -110594,6 +112716,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -110663,6 +112788,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -110684,6 +112810,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -110748,6 +112877,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -110769,6 +112899,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -110833,6 +112966,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -110854,6 +112988,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -110923,6 +113060,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -110944,6 +113082,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -111008,6 +113149,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -111029,6 +113171,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -111079,6 +113224,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -111100,6 +113246,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -111158,6 +113307,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -111179,6 +113329,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -111253,6 +113406,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -111274,6 +113428,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -111335,6 +113492,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -111356,6 +113514,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -111411,6 +113572,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -111432,6 +113594,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -111488,6 +113653,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -111509,6 +113675,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -111573,6 +113742,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -111594,6 +113764,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -111658,6 +113831,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -111679,6 +113853,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -111743,6 +113920,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -111764,6 +113942,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -111828,6 +114009,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -111849,6 +114031,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -111913,6 +114098,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -111934,6 +114120,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -111998,6 +114187,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -112019,6 +114209,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -112083,6 +114276,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -112104,6 +114298,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -112162,6 +114359,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -112183,6 +114381,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -112259,6 +114460,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -112280,6 +114482,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -112344,6 +114549,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -112365,6 +114571,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -112457,6 +114666,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -112478,6 +114688,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -112547,6 +114760,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -112568,6 +114782,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -112623,6 +114840,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -112645,6 +114863,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -112714,6 +114935,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -112736,6 +114958,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -112805,6 +115030,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -112870,6 +115096,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -112939,6 +115168,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -112960,6 +115190,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -113029,6 +115262,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -113050,6 +115284,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -113119,6 +115356,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -113140,6 +115378,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -113196,6 +115437,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -113217,6 +115459,9 @@
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Germany" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -113281,6 +115526,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -120165,6 +122411,9 @@
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					},
 					{
@@ -120234,6 +122483,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -120252,6 +122502,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
@@ -120323,6 +122576,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -120341,6 +122595,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
@@ -120445,6 +122702,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -120534,6 +122792,9 @@
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
 					},
 					{
@@ -120611,6 +122872,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -120629,6 +122891,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
@@ -120693,6 +122958,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -120711,6 +122977,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
@@ -120775,6 +123044,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -120793,6 +123063,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
@@ -120867,6 +123140,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -120885,6 +123159,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
@@ -120956,6 +123233,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -120974,6 +123252,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
@@ -121053,6 +123334,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -121071,6 +123353,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
@@ -121150,6 +123435,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -121168,6 +123454,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
@@ -121247,6 +123536,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -121265,6 +123555,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
@@ -121348,6 +123641,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -121366,6 +123660,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
@@ -121435,6 +123732,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -121453,6 +123751,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
@@ -121522,6 +123823,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -121540,6 +123842,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
@@ -121619,6 +123924,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -121637,6 +123943,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
@@ -121705,6 +124014,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -121723,6 +124033,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
@@ -121783,6 +124096,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -121864,13 +124178,16 @@
 				"equipment": []
 			},
 			{
-				"name": "Semovente M40/M41 Carro Camando",
+				"name": "Semovente M40/M41 Carro Camando ",
 				"validationKeys": ["TotalVehicle"],
 				"factions": [],
 				"order": 1,
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Romania" }]			
@@ -121935,6 +124252,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -121954,6 +124272,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
@@ -122028,6 +124349,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -122046,6 +124368,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
@@ -122137,6 +124462,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -122155,6 +124481,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
@@ -122246,6 +124575,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -122264,6 +124594,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
@@ -122338,6 +124671,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -122356,6 +124690,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
@@ -122430,6 +124767,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -122448,6 +124786,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian National Republican Army" }]			
@@ -122522,6 +124863,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -122540,6 +124882,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
@@ -122611,6 +124956,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -122629,6 +124975,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian Co-Belligerent Army" }]			
@@ -122711,6 +125060,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -122729,6 +125079,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian Co-Belligerent Army" }]			
@@ -122805,6 +125158,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -122904,6 +125258,9 @@
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
 					},
 					{
@@ -122991,6 +125348,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -123009,6 +125367,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Royal Italian Army (Regio Esercito)" }]			
@@ -123098,6 +125459,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
@@ -123235,6 +125597,9 @@
 						"all": [{ "in": "Armored Platoon "	}, { "in": "Bulgaria" }]			
 					},
 					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
+					},
+					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Italian Co-Belligerent Army" }]			
 					},
 					{
@@ -123322,6 +125687,7 @@
 						"limit": 1,
 						"availableIn":[
 							"Bulgaria",
+							"Hungary",
 							"Romania"
 						],
 						"requireChooseOneKey": "AS"
