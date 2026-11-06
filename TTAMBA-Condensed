@@ -287,7 +287,10 @@
 			},
 			{
 				"name": "Belgium",
-				"alignment": "Allies"
+				"alignment": "Allies",
+				"additionalRules": [
+					"Forward Artillery Doctrine - Can call in a artillery barrage twice per FAO. Must resolve the first barrage before calling the second; Bolt Action 3rd Edition Belgian Supplement PDF","Highly-Motivated Reserves - Each Inexperienced unit with at least one or more pin markers can make a test to lose one pin marker if there are any enemy units within 12” before issuing an order to this unit, 4+ is a success. Must pass an Order Test after, even if no pins remain; Bolt Action 3rd Edition Belgian Supplement PDF","VB Launcher - Gain access to the VB Launcher; Bolt Action 3rd Edition Belgian Supplement PDF"
+				]
 			},
 			{
 				"name": "Bulgaria",
@@ -448,7 +451,10 @@
 			},
 			{
 				"name": "Greece",
-				"alignment": "Allies"
+				"alignment": "Allies",
+				"additionalRules": [
+					"Battlefield Knowledge - Any unit that starts on the table before Turn 1 may start in Ambush. All Infantry have Fieldcraft during the first turn. When Outflanking, ignore the -1 modified for Order Tests; Bolt Action 3rd Edition Greek Supplement PDF","VB Launcher - Gain access to the VB Launcher; Bolt Action 3rd Edition Greek Supplement PDF"
+				]
 			},
 			{
 				"name": "Hungary",
@@ -506,7 +512,10 @@
 			},
 			{
 				"name": "Netherlands",
-				"alignment": "Allies"
+				"alignment": "Allies",
+				"additionalRules": [
+					"Forward Artillery Doctrine - Can call in a artillery barrage twice per FAO. Must resolve the first barrage before calling the second; Bolt Action 3rd Edition Dutch Supplement PDF","Highly-Motivated Reserves - Each Inexperienced unit with at least one or more pin markers can make a test to lose one pin marker if there are any enemy units within 12” before issuing an order to this unit, 4+ is a success. Must pass an Order Test after, even if no pins remain; Bolt Action 3rd Edition Dutch Supplement PDF"
+				]
 			},
 			{
 				"name": "New Zealand",
@@ -902,6 +911,11 @@
 						"quantity": 1
 					}
 				]
+			},
+			{
+				"name": "Severly Outdated",
+				"definition": "Weapons with this keyword always need a 6 to hit their target when firing indirect, even if firing at the same unit that hasn't moved on subsequent turns; Bolt Action 3rd Edition Dutch Supplement PDF",
+				"specialRules": []
 			},
 			{
 				"name": "Right Facing Light AT Gun (F1)",
@@ -3391,6 +3405,14 @@
 				"pen": "+2",
 				"he": 2,
 				"specialRules": ["360° Arc"]
+			},
+			{
+				"name": "Turret Mounted Coaxial Automatic Rifle",
+				"definition": "",
+				"range": 24,
+				"shots": 1,
+				"pen": 0,
+				"specialRules": ["360° Arc","Coaxial"]
 			},
 			{
 				"name": "Turret Mounted Coaxial Flamethrower",
@@ -5946,6 +5968,10 @@
 			{
 				"name": "Ancillary",
 				"definition": "May not be given the Command Vehicle Special Rule; Bolt Action, 3rd Edition Armies of the Soviet Union Army Book: Pg. 77"
+			},
+			{
+				"name": "Articulated Hull",
+				"definition": "Vehicles with this keyword can move through rough ground at an Advance Speed."
 			},
 			{
 				"name": "Just a Cart",
@@ -9121,6 +9147,7 @@
 						"localLimit": 1,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"availableIn": [
+							"Belgium",
 							"Bulgaria",
 							"Norway",
 							"Poland",
@@ -9130,8 +9157,11 @@
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
 							"Finland",
+							"Greece",
 							"Hungary",
 							"Romania",
+							"Netherlands",
+							"Norway",
 							"Slovakia (ZC)",
 							"Switzerland (GKZ)"
 						]
@@ -9145,7 +9175,10 @@
 						"localLimit": 2,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"availableIn": [
+							"Belgium",
 							"Bulgaria",
+							"Greece",
+							"Netherlands",
 							"Norway",
 							"Poland",
 							"Chinese Communists (ZC)",
@@ -9156,6 +9189,7 @@
 							"Finland",
 							"Hungary",
 							"Romania",
+							"Norway",
 							"Slovakia (ZC)",
 							"Switzerland (GKZ)"
 						]
@@ -9195,7 +9229,6 @@
 						"unavailableWithLocal": "Ayo Gurkhali!",
 						"availableIn": [
 							"Australia",
-							"Belgium",
 							"Canada",
 							"Chinese Central Army (GKZ)",
 							"Chinese Communists (GKZ)",
@@ -9206,9 +9239,7 @@
 							"Chinese Warlords - Yunnan Clique (GKZ)",
 							"East Africa Command",
 							"France",
-							"Greece",
 							"India",
-							"Netherlands",
 							"New Zealand",
 							"Poland",
 							"Polish Peoples Army (LWP)",
@@ -9230,10 +9261,7 @@
 						"localLimit": 3,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"availableIn": [
-							"Belgium",
 							"France",
-							"Greece",
-							"Netherlands",
 							"Poland"
 						]
 					},
@@ -14887,6 +14915,7 @@
 						"localLimit": 1,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"availableIn": [
+							"Belgium",
 							"Bulgaria",
 							"Chinese Communists (ZC)",
 							"Chinese Nationalists (ZC)",
@@ -14894,7 +14923,9 @@
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
 							"Finland",
+							"Greece",
 							"Hungary",
+							"Netherlands",
 							"Slovakia (ZC)",
 							"Switzerland (GKZ)",
 							"Poland",
@@ -14911,6 +14942,7 @@
 						"localLimit": 2,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"availableIn": [
+							"Belgium",
 							"Bulgaria",
 							"Chinese Communists (ZC)",
 							"Chinese Nationalists (ZC)",
@@ -14918,7 +14950,9 @@
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
 							"Finland",
+							"Greece",
 							"Hungary",
+							"Netherlands",
 							"Slovakia (ZC)",
 							"Switzerland (GKZ)",
 							"Poland",
@@ -14961,7 +14995,6 @@
 						"unavailableWithLocal": "Ayo Gurkhali!",
 						"availableIn": [
 							"Australia",
-							"Belgium",
 							"Canada",
 							"Chinese Central Army (GKZ)",
 							"Chinese Communists (GKZ)",
@@ -14974,9 +15007,7 @@
 							"France",
 							"Germany",
 							"Great Britain",
-							"Greece",
 							"India",
-							"Netherlands",
 							"New Zealand",
 							"Partisans",
 							"Polish Peoples Army (LWP)",
@@ -14995,10 +15026,7 @@
 						"localLimit": 2,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"availableIn": [
-							"Belgium",
 							"France",
-							"Greece",
-							"Netherlands",
 							"Partisans",
 							"Sweden (PL)"
 						]
@@ -17803,6 +17831,9 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Germany" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Greece" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
@@ -17897,7 +17928,6 @@
 							"France",
 							"Germany",
 							"Great Britain",
-							"Greece",
 							"Inda",
 							"Japan",
 							"Netherlands",
@@ -17941,7 +17971,6 @@
 							"Hungary",
 							"India",
 							"Japan",
-							"Netherlands",
 							"New Zealand",
 							"Partisans",
 							"Poland",
@@ -19930,8 +19959,7 @@
 							"France",			
 							"Germany",			
 							"Great Britain",	
-							"India",		
-							"Netherlands",	
+							"India",
 							"New Zealand",		
 							"Poland",			
 							"Romania",	
@@ -21293,7 +21321,6 @@
 							"Greece",
 							"Hungary",
 							"India",
-							"Netherlands",
 							"New Zealand",
 							"Poland",
 							"Romania",
@@ -21438,6 +21465,7 @@
 							"France",
 							"Greece",
 							"Hungary",
+							"Netherlands",
 							"Norway",
 							"Poland",
 							"Romania",
@@ -21461,6 +21489,7 @@
 							"France",
 							"Greece",
 							"Hungary",
+							"Netherlands",
 							"Norway",
 							"Poland",
 							"Romania",
@@ -25194,6 +25223,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon "	}, { "in": "Bulgaria" }]			
 					},
 					{
@@ -25236,10 +25268,16 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Greece" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "India" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Netherlands" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "New Zealand" }]			
@@ -25306,6 +25344,7 @@
 						"requireChooseOneKey": "morale",
 						"availableIn":[
 							"Australia",
+							"Belgium",
 							"Bulgaria",
 							"Canada",
 							"Chinese Communists (ZC)",
@@ -25319,8 +25358,10 @@
 							"France",
 							"Germany",
 							"Great Britain",
+							"Greece",
 							"Hungary",
 							"India",
+							"Netherlands",
 							"New Zealand",
 							"Norway",
 							"Polish Peoples Army (LWP)",
@@ -25340,6 +25381,7 @@
 						"availableIn":[
 							"Australia",
 							"Bulgaria",
+							"Belgium",
 							"Canada",
 							"Chinese Communists (ZC)",
 							"Chinese Nationalists (ZC)",
@@ -25352,9 +25394,11 @@
 							"France",
 							"Germany",
 							"Great Britain",
+							"Greece",
 							"Hungary",
 							"India",
 							"New Zealand",
+							"Netherlands",
 							"Norway",
 							"Polish Peoples Army (LWP)",
 							"Romania",
@@ -25407,7 +25451,7 @@
 							"Norway",
 							"Sweden (PL)"
 						],
-						"unlockedByLocal": "Defend the Fatherland! (Gebirgsjäger)"
+						"unlockedByLocal": ["Regular","Veteran"]
 					},
 					{
 						"name": "Gebirgsjäger Winter Equipment",
@@ -26911,10 +26955,22 @@
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Finland" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Greece" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Greece" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Netherlands" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Slovakia (ZC)" }]			
@@ -26962,7 +27018,9 @@
 							"Chinese Central Army (GKZ)",
 							"Chinese Warlords (GKZ)",
 							"Czechoslovak Republic (GKZ)",
+							"Greece",
 							"Hungary",
+							"Netherlands",
 							"Slovakia (ZC)"
 						]
 					},
@@ -26986,7 +27044,9 @@
 							"Chinese Warlords (GKZ)",
 							"Czechoslovak Republic (GKZ)",
 							"Finland",
+							"Greece",
 							"Hungary",
+							"Netherlands",
 							"Slovakia (ZC)"
 						]
 					},
@@ -27009,7 +27069,9 @@
 							"Chinese Central Army (GKZ)",
 							"Chinese Warlords (GKZ)",
 							"Finland",
+							"Greece",
 							"Hungary",
+							"Netherlands",
 							"Slovakia (ZC)"
 						]
 					},
@@ -27088,7 +27150,13 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Finland" }]			
 					},
 					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Greece" }]			
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Hungary" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Netherlands" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Slovakia (ZC)" }]			
@@ -27130,7 +27198,9 @@
 							"Chinese Central Army (GKZ)",
 							"Chinese Warlords (GKZ)",
 							"Czechoslovak Republic (GKZ)",
+							"Greece",
 							"Hungary",
+							"Netherlands",
 							"Slovakia (ZC)"
 						]
 					},
@@ -27154,7 +27224,9 @@
 							"Chinese Warlords (GKZ)",
 							"Czechoslovak Republic (GKZ)",
 							"Finland",
+							"Greece",
 							"Hungary",
+							"Netherlands",
 							"Slovakia (ZC)"
 						]
 					},
@@ -27177,7 +27249,9 @@
 							"Chinese Central Army (GKZ)",
 							"Chinese Warlords (GKZ)",
 							"Finland",
+							"Greece",
 							"Hungary",
+							"Netherlands",
 							"Slovakia (ZC)"
 						]
 					},
@@ -31974,6 +32048,12 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
 					},
 					{
@@ -32044,6 +32124,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Belgium" }]			
+					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Expeditionary Force (GKZ)" }]			
 					},
@@ -35138,189 +35221,6 @@
 				"equipment": ["Rifles"]
 			},
 			{
-				"name": "Infantry Section ",
-				"validationKeys": ["EngineerTeams"],
-				"factions": [],
-				"order": 1,
-				"availableIn": [
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "France" }]			
-					},
-					{
-						"all": [{ "in": "Engineer Platoon"	}, { "in": "Norway" }]			
-					}
-				],
-				"points": 0,
-				"models": 5,
-				"localQuantityDisplay": [
-					{
-						"key": "primary",
-						"property": "Rifles",
-						"quantity": 5
-					}
-				],
-				"sortPriority": 6,
-				"limits": [
-					{
-						"key": "Rifle Team",
-						"limit": 4,
-						"perParent": true
-					}
-				],
-				"options": [
-					{
-						"name": "Inexperienced",
-						"addsPrefix": "Inex. ",
-						"points": 40,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Regular",
-						"addsPrefix": "Reg. ",
-						"points": 55,
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Veteran",
-						"addsPrefix": "Vet. ",
-						"points": 70,
-						"availableIn":[
-							"Norway"
-						],
-						"requireChooseOneKey": "morale"
-					},
-					{
-						"name": "Additional Men",
-						"points": 8,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced"],
-						"max": 6,
-						"addsModels": 1
-					},
-					{
-						"name": "Additional Men",
-						"points": 11,
-						"increment": true,
-						"unlockedByLocal": ["Regular"],
-						"max": 6,
-						"addsModels": 1
-					},
-					{
-						"name": "Additional Men",
-						"points": 14,
-						"increment": true,
-						"unlockedByLocal": ["Veteran"],
-						"max": 6,
-						"addsModels": 1
-					},
-					{
-						"name": "Pistol",
-						"points": -1,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"availableIn":[
-							"France"
-						],
-						"localLimit": 1
-					},
-					{
-						"name": "NCO SMG",
-						"points": 4,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"availableIn":[
-							"France"
-						],
-						"localLimit": 1
-					},
-					{
-						"name": "Infantry LMGs",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"availableIn":[
-							"France"
-						],
-						"localLimit": 2
-					},
-					{
-						"name": "Infantry LMGs",
-						"points": 15,
-						"increment": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"max": "parentModels",
-						"maxKey": "gun",
-						"availableIn":[
-							"Norway"
-						],
-						"localLimit": 1
-					},
-					{
-						"name": "Anti-Tank Grenades",
-						"points": 2,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"availableIn":[
-							"France"
-						],
-						"perModel": true
-					},
-					{
-						"name": "Anti-Tank Grenades",
-						"points": 2,
-						"unlockedByLocal": ["Veteran"],
-						"availableIn":[
-							"Norway"
-						],
-						"perModel": true
-					},
-					{
-						"name": "VB Launcher",
-						"points": 20,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"availableIn":[
-							"France"
-						],
-						"increment": true,
-						"max": 1
-					},
-					{
-						"name": "Skis",
-						"points": 0,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"availableIn":[
-							"Norway"
-						],
-						"perModel": true
-					},
-					{
-						"name": "Senegalese Tirailleurs",
-						"points": 1,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"availableIn":[
-							"France"
-						],
-						"perModel": true
-					},
-					{
-						"name": "Wire Cutters",
-						"points": 1,
-						"perModel": true,
-						"special": true,
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
-					}
-				],
-				"keywords": ["Engineers"],
-				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
-				"specialText": "1 NCO\n 4 Riflemen",
-				"equipment": ["Rifles"]
-			},
-			{
 				"name": "Infantry Section   ",
 				"validationKeys": ["EngineerTeamsR"],
 				"factions": [],
@@ -38282,6 +38182,9 @@
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
 					},
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Greece" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
@@ -38329,6 +38232,7 @@
 							"Chinese Central Army (GKZ)",
 							"Chinese Warlords (GKZ)",
 							"France",
+							"Greece",
 							"Hungary",
 							"Norway",
 							"Poland",
@@ -38363,6 +38267,7 @@
 							"Chinese Central Army (GKZ)",
 							"Chinese Warlords (GKZ)",
 							"France",
+							"Greece",
 							"Hungary",
 							"Norway",
 							"Poland",
@@ -38389,6 +38294,7 @@
 							"Chinese Central Army (GKZ)",
 							"Chinese Warlords (GKZ)",
 							"France",
+							"Greece",
 							"Hungary",
 							"Norway",
 							"Poland",
@@ -38515,6 +38421,9 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
 					},
 					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Greece" }]			
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
@@ -38562,6 +38471,7 @@
 							"Chinese Central Army (GKZ)",
 							"Chinese Warlords (GKZ)",
 							"France",
+							"Greece",
 							"Hungary",
 							"Norway",
 							"Poland",
@@ -38596,6 +38506,7 @@
 							"Chinese Central Army (GKZ)",
 							"Chinese Warlords (GKZ)",
 							"France",
+							"Greece",
 							"Hungary",
 							"Norway",
 							"Poland",
@@ -38730,6 +38641,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
@@ -38787,6 +38701,7 @@
 						"points": 21,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
+							"Belgium",
 							"Chinese Communists (ZC)",
 							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
@@ -38799,6 +38714,7 @@
 						"points": 30,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
+							"Belgium",
 							"Chinese Communists (ZC)",
 							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
@@ -38813,6 +38729,7 @@
 						"points": 39,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
+							"Belgium",
 							"Chinese Communists (ZC)",
 							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
@@ -38838,6 +38755,9 @@
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Belgium" }]			
+					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
@@ -38896,6 +38816,7 @@
 						"points": 21,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
+							"Belgium",
 							"Chinese Communists (ZC)",
 							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
@@ -38908,6 +38829,7 @@
 						"points": 30,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
+							"Belgium",
 							"Chinese Communists (ZC)",
 							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
@@ -38922,6 +38844,7 @@
 						"points": 39,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
+							"Belgium",
 							"Chinese Communists (ZC)",
 							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
@@ -40754,6 +40677,9 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "India" }]			
 					},
 					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "New Zealand" }]			
 					},
 					{
@@ -40818,6 +40744,7 @@
 							"East Africa Command",
 							"Germany",
 							"Great Britain",
+							"Netherlands",
 							"New Zealand",
 							"Polish Peoples Army (LWP)",
 							"South Africa",
@@ -40853,6 +40780,7 @@
 							"Germany",
 							"Great Britain",
 							"India",
+							"Netherlands",
 							"New Zealand",
 							"Polish Peoples Army (LWP)",
 							"South Africa",
@@ -41264,6 +41192,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]			
 					},
 					{
@@ -41304,6 +41235,9 @@
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Greece" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
@@ -41360,6 +41294,7 @@
 						"points": 36,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
+							"Belgium",
 							"Bulgaria",
 							"Chinese Communists (ZC)",
 							"Chinese Nationalists (ZC)",
@@ -41367,6 +41302,7 @@
 							"Czechoslovak Republic (GKZ)",
 							"Denmark (GKZ)",
 							"France",
+							"Greece",
 							"Hungary",
 							"Norway",
 							"Poland",
@@ -41399,6 +41335,7 @@
 						"points": 45,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
+							"Belgium",
 							"Bulgaria",
 							"Chinese Communists (ZC)",
 							"Chinese Nationalists (ZC)",
@@ -41412,6 +41349,7 @@
 							"Danish Regulars (ZC)",
 							"Denmark (GKZ)",
 							"France",
+							"Greece",
 							"Hungary",
 							"Norway",
 							"Poland",
@@ -41432,6 +41370,7 @@
 							"Chinese Warlords (ZC)",
 							"Finland",
 							"France",
+							"Greece",
 							"Germany",
 							"Great Britain",
 							"Greece",
@@ -41466,6 +41405,7 @@
 						"increment": true,
 						"unlockedByLocal": ["Inexperienced ","Inexperienced","Regular","Veteran"],
 						"availableIn": [
+							"Belgium",
 							"Bulgaria",
 							"Chinese Communists (ZC)",
 							"Chinese Nationalists (ZC)",
@@ -41479,6 +41419,7 @@
 							"Danish Regulars (ZC)",
 							"Finland",
 							"France",
+							"Greece",
 							"Hungary",
 							"Norway",
 							"Poland",
@@ -42775,6 +42716,9 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Australia" }]
 					},
 					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Belgium" }]
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Bulgaria" }]
 					},
 					{
@@ -42826,10 +42770,19 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Great Britain" }]			
 					},
 					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Greece" }]
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon "	}, { "in": "Hungary" }]			
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "India" }]
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Netherlands" }]
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Norway" }]
 					},
 					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Poland" }]
@@ -42905,6 +42858,7 @@
 						"requireChooseOneKey": "morale",
 						"availableIn": [
 							"Australia",
+							"Belgium",
 							"Bulgaria",
 							"Canada",
 							"East Africa Command",
@@ -42945,6 +42899,7 @@
 						"requireChooseOneKey": "morale",
 						"availableIn": [
 							"Australia",
+							"Belgium",
 							"Bulgaria",
 							"Canada",
 							"East Africa Command",
@@ -42988,6 +42943,7 @@
 						"points": 65,
 						"availableIn": [
 							"Australia",
+							"Belgium",
 							"Bulgaria",
 							"Canada",
 							"East Africa Command",
@@ -43001,6 +42957,7 @@
 							"Finland",
 							"France",
 							"Great Britain",
+							"Greece",
 							"Polish Peoples Army (LWP)",
 							"Slovakia (ZC)",
 							"Soviet Union",
@@ -43070,6 +43027,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"availableIn": [
 							"Denmark (GKZ)",
+							"Greece",
 							"Norway"
 						]
 					},
@@ -43905,6 +43863,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Belgium" }]
+					},
+					{
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Czechoslovak Republic (GKZ)" }]
 					},
 					{
@@ -43952,6 +43913,7 @@
 						"addsPrefix": "Inex. ",
 						"points": 55,
 						"availableIn": [
+							"Belgium",
 							"Czechoslovak Republic (GKZ)"
 						],
 						"requireChooseOneKey": "morale"
@@ -43960,6 +43922,15 @@
 						"name": "Regular",
 						"addsPrefix": "Reg. ",
 						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 85,
+						"availableIn": [
+							"Belgium"
+						],
 						"requireChooseOneKey": "morale"
 					},
 					{
@@ -50307,6 +50278,64 @@
 				"equipment": ["Pistols","Rifles"]
 			},
 			{
+				"name": "Greek Cavalry Section",
+				"validationKeys": ["RifleTeams"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Greece" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Greece" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Cavalry Carbines",
+						"quantity": 5
+					}
+				],
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 80,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 16,
+						"increment": true,
+						"max": 5,
+						"addsModels": 1,
+						"unlockedByLocal": ["Veteran"]
+					},
+					{
+						"name": "Wire Cutters",
+						"points": 1,
+						"perModel": true,
+						"special": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
+					}
+				],
+				"keywords": ["Cavalry"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": ["Cavalry Carbines"]
+			},
+			{
 				"name": "Hungarian Infantry Section",
 				"validationKeys": ["RifleTeams"],
 				"factions": [],
@@ -50449,7 +50478,7 @@
 						"maxKey": "gun",
 						"localLimit": 1,
 						"availableIn":[
-							"Engineer Platoon"
+							"Engineer Platoon "
 						]
 					},
 					{
@@ -50554,6 +50583,253 @@
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
 				"specialText": "1 NCO\n 5 Riflemen",
 				"equipment": ["Cavalry Carbines"]
+			},
+			{
+				"name": "Dutch Infantry Section",
+				"validationKeys": ["RifleTeams"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Netherlands" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Rifles",
+						"quantity": 5
+					}
+				],
+				"sortPriority": 3,
+				"requiredChildren": [
+					{
+						"elementPropertyName": "options",
+						"name": "Engineers",
+						"in": [
+							[
+								"Engineer Platoon"
+							]
+						]
+					}
+				],
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"max": 6,
+						"addsModels": 1,
+						"unlockedByLocal": ["Inexperienced"]
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"max": 6,
+						"addsModels": 1,
+						"unlockedByLocal": ["Regular"]
+					},
+					{
+						"name": "Infantry LMGs",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Engineers",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 1,
+						"perModel": true,
+						"availableIn":[
+							"Engineer Platoon"
+						]
+					},
+					{
+						"name": "Wire Cutters",
+						"points": 1,
+						"perModel": true,
+						"special": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
+					}
+				],
+				"keywords": [],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": ["Rifles"]
+			},
+			{
+				"name": "Dutch Motorcycle Section",
+				"validationKeys": ["RifleTeams"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Netherlands" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Rifles",
+						"quantity": 5
+					}
+				],
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 75,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 15,
+						"increment": true,
+						"max": 6,
+						"addsModels": 1,
+						"unlockedByLocal": ["Regular"]
+					},
+					{
+						"name": "Infantry LMGs",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Wire Cutters",
+						"points": 1,
+						"perModel": true,
+						"special": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
+					}
+				],
+				"keywords": [],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": ["Rifles","Motorcycles"]
+			},
+			{
+				"name": "Indonesian Infantry Section",
+				"validationKeys": ["RifleTeams"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Netherlands" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Rifles",
+						"quantity": 5
+					}
+				],
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Unarmed Men",
+						"points": 5,
+						"increment": true,
+						"max": 6,
+						"addsModels": 1,
+						"unlockedByLocal": ["Inexperienced"]
+					},
+					{
+						"name": "Pistols for the Unarmed Men",
+						"points": 1,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 6,
+						"unlockedByLocal": ["Additional Unarmed Men"]
+					},
+					{
+						"name": "Infantry LMGs",
+						"points": 15,
+						"increment": true,
+						"max": "parentModels",
+						"maxKey": "gun",
+						"localLimit": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Wire Cutters",
+						"points": 1,
+						"perModel": true,
+						"special": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
+					}
+				],
+				"keywords": [],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": ["Rifles"]
 			},
 			{
 				"name": "Warlord Conscription Squad",
@@ -52288,10 +52564,34 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "France" }]			
+					},
+					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "France" }]			
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Greece" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Greece" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Greece" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Norway" }]			
 					},
 					{
 						"all": [{ "in": "Rifle Platoon"	}, { "in": "Norway" }]			
@@ -52310,6 +52610,17 @@
 					}
 				],
 				"sortPriority": 3,
+				"requiredChildren": [
+					{
+						"elementPropertyName": "options",
+						"name": "Engineers",
+						"in": [
+							[
+								"Engineer Platoon"
+							]
+						]
+					}
+				],
 				"limits": [
 					{
 						"key": "Rifle Team",
@@ -52383,6 +52694,7 @@
 						"max": "parentModels",
 						"maxKey": "gun",
 						"availableIn":[
+							"Belgium",
 							"France"
 						],
 						"localLimit": 1
@@ -52407,9 +52719,20 @@
 						"max": "parentModels",
 						"maxKey": "gun",
 						"availableIn":[
+							"Greece",
 							"Norway"
 						],
 						"localLimit": 1
+					},
+					{
+						"name": "Automatic Rifle",
+						"points": 6,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn":[
+							"Belgium"
+						],
+						"increment": true,
+						"max": 1
 					},
 					{
 						"name": "Anti-Tank Grenades",
@@ -52434,7 +52757,9 @@
 						"points": 20,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"availableIn":[
-							"France"
+							"Belgium",
+							"France",
+							"Greece"
 						],
 						"increment": true,
 						"max": 1
@@ -52449,11 +52774,166 @@
 						"perModel": true
 					},
 					{
+						"name": "Bicycles",
+						"points": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn":[
+							"Belgium"
+						],
+						"perModel": true
+					},
+					{
 						"name": "Senegalese Tirailleurs",
 						"points": 1,
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
 						"availableIn":[
 							"France"
+						],
+						"perModel": true
+					},
+					{
+						"name": "Tough Fighters",
+						"points": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn":[
+							"Greece"
+						],
+						"perModel": true
+					},
+					{
+						"name": "Engineers",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 1,
+						"perModel": true,
+						"availableIn":[
+							"Engineer Platoon"
+						]
+					},
+					{
+						"name": "Wire Cutters",
+						"points": 1,
+						"perModel": true,
+						"special": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
+					}
+				],
+				"keywords": [],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": ["Rifles"]
+			},
+			{
+				"name": "Belgian Grenadier Section",
+				"validationKeys": ["RifleTeams"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Belgium" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Rifles",
+						"quantity": 5
+					}
+				],
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					},
+					{
+						"key": "Grenaders Team",
+						"limit": 1,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 65,
+						"availableIn":[
+							"Norway"
+						],
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 7,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 10,
+						"increment": true,
+						"unlockedByLocal": ["Regular"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"availableIn":[
+							"Belgium",
+							"France"
+						],
+						"localLimit": 1
+					},
+					{
+						"name": "Infantry Light Mortar",
+						"points": 20,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"availableIn":[
+							"Belgium"
+						],
+						"localLimit": 3
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn":[
+							"Belgium"
 						],
 						"perModel": true
 					},
@@ -52468,6 +52948,222 @@
 				"keywords": [],
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
 				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": ["Rifles"]
+			},
+			{
+				"name": "Belgian Cavalry Section",
+				"validationKeys": ["RifleTeams"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Belgium" }]			
+					}
+				],
+				"points": 0,
+				"models": 5,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Cavalry CArbines",
+						"quantity": 5
+					}
+				],
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 5,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"availableIn":[
+							"Belgium",
+							"France"
+						],
+						"localLimit": 1
+					},
+					{
+						"name": "Horses",
+						"points": 3,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"chooseOneKey": "trans",
+						"availableIn":[
+							"Belgium"
+						],
+						"perModel": true
+					},
+					{
+						"name": "Motorcycles",
+						"points": 5,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"chooseOneKey": "trans",
+						"availableIn":[
+							"Belgium"
+						],
+						"perModel": true
+					},
+					{
+						"name": "Wire Cutters",
+						"points": 1,
+						"perModel": true,
+						"special": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
+					}
+				],
+				"keywords": [],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "1 NCO\n 4 Riflemen",
+				"equipment": ["Cavalry Carbines"]
+			},
+			{
+				"name": "Chasseurs Ardennais",
+				"validationKeys": ["RifleTeams"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Belgium" }]			
+					}
+				],
+				"points": 0,
+				"models": 6,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Rifles",
+						"quantity": 6
+					}
+				],
+				"sortPriority": 3,
+				"limits": [
+					{
+						"key": "Rifle Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 65,
+						"availableIn":[
+							"Belgium"
+						],
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Additional Men",
+						"points": 13,
+						"increment": true,
+						"unlockedByLocal": ["Veteran"],
+						"max": 6,
+						"addsModels": 1
+					},
+					{
+						"name": "NCO SMG",
+						"points": 4,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"availableIn":[
+							"Belgium",
+							"France"
+						],
+						"localLimit": 1
+					},
+					{
+						"name": "Automatic Rifle",
+						"points": 6,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"availableIn":[
+							"Belgium"
+						],
+						"localLimit": 1
+					},
+					{
+						"name": "VB Launcer",
+						"points": 20,
+						"increment": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"max": "parentModels",
+						"maxKey": "gun",
+						"availableIn":[
+							"Belgium"
+						],
+						"localLimit": 1
+					},
+					{
+						"name": "AT Grenades",
+						"points": 2,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn":[
+							"Belgium"
+						],
+						"perModel": true
+					},
+					{
+						"name": "Tough Fighters",
+						"points": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn":[
+							"Belgium"
+						],
+						"perModel": true
+					},
+					{
+						"name": "Bicycles",
+						"points": 1,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"availableIn":[
+							"Belgium"
+						],
+						"perModel": true
+					},
+					{
+						"name": "Wire Cutters",
+						"points": 1,
+						"perModel": true,
+						"special": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
+					}
+				],
+				"keywords": [],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "1 NCO\n 5 Riflemen",
 				"equipment": ["Rifles"]
 			},
 			{
@@ -71358,6 +72054,451 @@
 				"equipment": ["Pintle Mounted Heavy Autocannon Team"]
 			},
 			{
+				"name": "Ford Marmon-Herrington Armored Tractor",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Belgium" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 15,
+				"requiredChildren": [
+					{
+						"elementPropertyName": "options",
+						"name": "Recce",
+						"in": [
+							[
+								"Recce Platoon"
+							]
+						],
+						"points": 10
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 31,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 39,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 47,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"availableIn":[
+							"Recce Platoon"
+						]
+					}
+				],
+				"keywords": ["Transport","Tow","Open Topped"],
+				"periods": ["earlyPeriod","mediumPeriod","latePeriod"],
+				"specialText": "Damage Value: 7+\n Transport: 4\n Tow: L/M/H AT Gun, L/M Howitzer, L/H AA Gun\n Tracked Vehicle",
+				"equipment": []
+			},
+			{
+				"name": "Utility B Armored Tractor",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Belgium" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 15,
+				"requiredChildren": [
+					{
+						"elementPropertyName": "options",
+						"name": "Recce",
+						"in": [
+							[
+								"Recce Platoon"
+							]
+						],
+						"points": 10
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 21,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 29,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 37,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"availableIn":[
+							"Recce Platoon"
+						]
+					}
+				],
+				"keywords": ["Transport","Tow","Open Topped","Slow"],
+				"periods": ["earlyPeriod","mediumPeriod","latePeriod"],
+				"specialText": "Damage Value: 7+\n Transport: 4\n Tow: L/M/H AT Gun, L/M Howitzer, L/H AA Gun\n Tracked Vehicle",
+				"equipment": []
+			},
+			{
+				"name": "Vickers Utility Tractor",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Belgium" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 15,
+				"requiredChildren": [
+					{
+						"elementPropertyName": "options",
+						"name": "Recce",
+						"in": [
+							[
+								"Recce Platoon"
+							]
+						],
+						"points": 10
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 37,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 45,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 53,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"availableIn":[
+							"Recce Platoon"
+						]
+					}
+				],
+				"keywords": ["Tow","Slow"],
+				"periods": ["earlyPeriod","mediumPeriod","latePeriod"],
+				"specialText": "Damage Value: 7+\n Tow: L/M/H AT Gun, L/M Howitzer, L/H AA Gun\n Tracked Vehicle",
+				"equipment": []
+			},
+			{
+				"name": "Field Cars",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Belgium" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 21,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 25,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 29,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": [],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Damage Value: 6+\n Tracked Vehicle",
+				"equipment": ["Rear Faceing Pintle Mounted MMG"]
+			},
+			{
+				"name": "Heavy Field Cars",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Belgium" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 27,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 31,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Rear Faceing Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 6
+					}
+				],
+				"keywords": ["Command Vehicle"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Damage Value: 6+\n Tracked Vehicle",
+				"equipment": []
+			},
+			{
+				"name": "Field Cars",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Belgium" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 15,
+				"requiredChildren": [
+					{
+						"elementPropertyName": "options",
+						"name": "Recce",
+						"in": [
+							[
+								"Recce Platoon"
+							]
+						],
+						"points": 10
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 15,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 19,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 23,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"availableIn":[
+							"Recce Platoon"
+						]
+					}
+				],
+				"keywords": ["Transport"],
+				"periods": ["earlyPeriod","mediumPeriod","latePeriod"],
+				"specialText": "Damage Value: 6+\n Transport: 4\n Wheeled Vehicle",
+				"equipment": []
+			},
+			{
+				"name": "Heavy Field Cars",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Belgium" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 15,
+				"requiredChildren": [
+					{
+						"elementPropertyName": "options",
+						"name": "Recce",
+						"in": [
+							[
+								"Recce Platoon"
+							]
+						],
+						"points": 10
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 17,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 21,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 25,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"availableIn":[
+							"Recce Platoon"
+						]
+					}
+				],
+				"keywords": ["Transport"],
+				"periods": ["earlyPeriod","mediumPeriod","latePeriod"],
+				"specialText": "Damage Value: 6+\n Transport: 6\n Wheeled Vehicle",
+				"equipment": []
+			},
+			{
 				"name": "Jeep ",
 				"factions": [],
 				"order": 1,
@@ -72460,6 +73601,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Finland" }]			
 					},
 					{
@@ -72485,6 +73629,13 @@
 				],
 				"options": [
 					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 49,
+						"requireChooseOneKey": "morale",
+						"availableIn": ["Belgium"]
+					},
+					{
 						"name": "Regular",
 						"addsPrefix": "Reg. ",
 						"points": 70,
@@ -72493,8 +73644,22 @@
 					{
 						"name": "Veteran",
 						"addsPrefix": "Vet. ",
+						"points": 90,
+						"requireChooseOneKey": "morale",
+						"availableIn": ["Belgium"]
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
 						"points": 80,
 						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 90,
+						"requireChooseOneKey": "morale",
+						"availableIn": ["Belgium"]
 					},
 					{
 						"name": "Skis and Ahkio Sledge",
@@ -72517,10 +73682,16 @@
 			},
 			{
 				"name": "Light AT Gun Team",
-				"validationKeys": ["ArtyTeamsR"],
+				"validationKeys": ["ArtyTeamsR","ArtyTeams"],
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Greece" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Netherlands" }]			
+					},
 					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Romania" }]			
 					}
@@ -72544,8 +73715,8 @@
 				],
 				"options": [
 					{
-						"name": "Regular",
-						"addsPrefix": "Reg. ",
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
 						"points": 32,
 						"requireChooseOneKey": "morale"
 					},
@@ -73185,6 +74356,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Communists (ZC)" }]			
 					},
 					{
@@ -73216,6 +74390,12 @@
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Greece" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Netherlands" }]			
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Poland" }]			
@@ -73258,6 +74438,7 @@
 						"points": 32,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
+							"Belgium",
 							"Chinese Communists (ZC)",
 							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
@@ -73265,6 +74446,8 @@
 							"Chinese Communists (GKZ)",
 							"Chinese Expeditionary Force (GKZ)",
 							"France",
+							"Greece",
+							"Netherlands",
 							"Poland",
 							"Slovakia (ZC)"
 						]
@@ -73275,6 +74458,7 @@
 						"points": 45,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
+							"Belgium",
 							"Chinese Communists (ZC)",
 							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
@@ -73285,6 +74469,8 @@
 							"Danish Regulars (ZC)",
 							"Finland",
 							"France",
+							"Greece",
+							"Netherlands",
 							"Poland",
 							"Slovakia (ZC)"
 						]
@@ -73295,6 +74481,7 @@
 						"points": 59,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
+							"Belgium",
 							"Chinese Communists (ZC)",
 							"Chinese Nationalists (ZC)",
 							"Chinese Warlords (ZC)",
@@ -73303,6 +74490,8 @@
 							"Chinese Expeditionary Force (GKZ)",
 							"Finland",
 							"France",
+							"Greece",
+							"Netherlands",
 							"Poland",
 							"Slovakia (ZC)"
 						]
@@ -73323,9 +74512,17 @@
 						"name": "Add Spotter",
 						"unlockedByLocal": ["Inexperienced ","Inexperienced","Regular","Veteran"],
 						"points": 10,
-						"addsModels": 1,
 						"availableIn": [
 							"Chinese Communists (GKZ)"
+						],
+						"addsModels": 1
+					},
+					{
+						"name": "Severly Outdated",
+						"unlockedByLocal": ["Inexperienced ","Inexperienced","Regular","Veteran"],
+						"points": -10,
+						"availableIn": [
+							"Netherlands"
 						]
 					},
 					{
@@ -73364,6 +74561,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
@@ -73389,6 +74589,12 @@
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Greece" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Netherlands" }]			
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Poland" }]			
@@ -73431,10 +74637,13 @@
 						"points": 72,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
+							"Belgium",
 							"Chinese Nationalists (ZC)",
 							"Chinese Central Army (GKZ)",
 							"Chinese Expeditionary Force (GKZ)",
 							"France",
+							"Greece",
+							"Netherlands",
 							"Poland",
 							"Slovakia (ZC)"
 						]
@@ -73445,6 +74654,7 @@
 						"points": 85,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
+							"Belgium",
 							"Chinese Nationalists (ZC)",
 							"Chinese Central Army (GKZ)",
 							"Chinese Expeditionary Force (GKZ)",
@@ -73452,6 +74662,8 @@
 							"Danish Regulars (ZC)",
 							"Finland",
 							"France",
+							"Greece",
+							"Netherlands",
 							"Poland",
 							"Slovakia (ZC)"
 						]
@@ -73462,11 +74674,14 @@
 						"points": 99,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
+							"Belgium",
 							"Chinese Nationalists (ZC)",
 							"Chinese Central Army (GKZ)",
 							"Chinese Expeditionary Force (GKZ)",
 							"Finland",
 							"France",
+							"Greece",
+							"Netherlands",
 							"Poland",
 							"Slovakia (ZC)"
 						]
@@ -73481,6 +74696,14 @@
 						"unlockedByLocal": ["Inexperienced ","Inexperienced","Regular","Veteran"],
 						"points": 10,
 						"addsModels": 1
+					},
+					{
+						"name": "Severly Outdated",
+						"unlockedByLocal": ["Inexperienced ","Inexperienced","Regular","Veteran"],
+						"points": -10,
+						"availableIn": [
+							"Netherlands"
+						]
 					},
 					{
 						"name": "War of Resistance (German Trained Division)",
@@ -73513,6 +74736,9 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "Chinese Nationalists (ZC)" }]			
 					},
 					{
@@ -73538,6 +74764,12 @@
 					},
 					{
 						"all": [{ "in": "Artillery Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Greece" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Netherlands" }]			
 					}
 				],
 				"points": 0,
@@ -73574,10 +74806,13 @@
 						"points": 122,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
+							"Belgium",
 							"Chinese Nationalists (ZC)",
 							"Chinese Central Army (GKZ)",
 							"Chinese Expeditionary Force (GKZ)",
-							"France"
+							"France",
+							"Greece",
+							"Netherlands"
 						]
 					},
 					{
@@ -73586,13 +74821,16 @@
 						"points": 135,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
+							"Belgium",
 							"Chinese Nationalists (ZC)",
 							"Chinese Central Army (GKZ)",
 							"Chinese Expeditionary Force (GKZ)",
 							"Danish Partisans (ZC)",
 							"Danish Regulars (ZC)",
 							"Finland",
-							"France"
+							"France",
+							"Greece",
+							"Netherlands"
 						]
 					},
 					{
@@ -73601,11 +74839,14 @@
 						"points": 149,
 						"requireChooseOneKey": "morale",
 						"availableIn": [
+							"Belgium",
 							"Chinese Nationalists (ZC)",
 							"Chinese Central Army (GKZ)",
 							"Chinese Expeditionary Force (GKZ)",
 							"Finland",
-							"France"
+							"France",
+							"Greece",
+							"Netherlands"
 						]
 					},
 					{
@@ -73618,6 +74859,14 @@
 						"unlockedByLocal": ["Inexperienced ","Inexperienced","Regular","Veteran"],
 						"points": 10,
 						"addsModels": 1
+					},
+					{
+						"name": "Severly Outdated",
+						"unlockedByLocal": ["Inexperienced ","Inexperienced","Regular","Veteran"],
+						"points": -10,
+						"availableIn": [
+							"Netherlands"
+						]
 					},
 					{
 						"name": "War of Resistance (German Trained Division)",
@@ -76498,6 +77747,24 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "France" }]			
 					},
 					{
@@ -76553,7 +77820,18 @@
 					{
 						"name": "Pintle Mounted MMG",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"points": 15
+						"points": 15,
+						"availableIn":[
+							"France"
+						]
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 20,
+						"availableIn":[
+							"Belgium"
+						]
 					},
 					{
 						"name": "Recce",
@@ -77114,6 +78392,24 @@
 				"order": 1,
 				"availableIn": [
 					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Belgium" }]			
+					},
+					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "France" }]			
 					},
 					{
@@ -77179,7 +78475,7 @@
 				"keywords": ["Transport"],
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
 				"specialText": "Period: E|M|L\n Damage Value: 7+\n Transport: 12\n Wheeled Vehicle",
-				"equipment": []
+				"equipment": ["Forward Facing Pintle Mounted LMG"]
 			},
 			{
 				"name": "German Heavy Artillery",
@@ -78674,10 +79970,13 @@
 			},
 			{
 				"name": "Light Anti-Air Gun Team ",
-				"validationKeys": ["ArtyTeamsR"],
+				"validationKeys": ["ArtyTeamsR","ArtyTeams"],
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Netherlands" }]			
+					},
 					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Bulgaria" }]			
 					}
@@ -78732,11 +80031,144 @@
 				"equipment": ["Platform Mounted Light Autocannon Team"]
 			},
 			{
-				"name": "Heavy Anti-Air Gun Team     ",
-				"validationKeys": ["ArtyTeamsR"],
+				"name": "Light Anti-Air Gun Team         ",
+				"validationKeys": ["ArtyTeamsR","ArtyTeams"],
 				"factions": [],
 				"order": 1,
 				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Greece" }]			
+					}
+				],
+				"points": 0,
+				"models": 3,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Weapon Crew Members",
+						"quantity": 3
+					}
+				],
+				"sortPriority": 5,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 25,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 35,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 46,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Platform Mounted Light Autocannon Team",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "],
+						"points": 0,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Platform Mounted Twin Light Autocannon Team",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "],
+						"points": 30,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Wire Cutters",
+						"points": 1,
+						"perModel": true,
+						"special": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
+					}
+				],
+				"keywords": [],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "3 Crew Members",
+				"equipment": []
+			},
+			{
+				"name": "Heavy Anti-Air Gun Team ",
+				"validationKeys": ["ArtyTeamsR","ArtyTeams"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Netherlands" }]			
+					}
+				],
+				"points": 0,
+				"models": 4,
+				"localQuantityDisplay": [
+					{
+						"key": "primary",
+						"property": "Weapon Crew Members",
+						"quantity": 4
+					}
+				],
+				"sortPriority": 5,
+				"limits": [
+					{
+						"key": "Gun Team",
+						"limit": 4,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 40,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 50,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 61,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Wire Cutters",
+						"points": 1,
+						"perModel": true,
+						"special": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
+					}
+				],
+				"keywords": [],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "4 Crew Members",
+				"equipment": ["Platform Mounted Heavy Autocannon Team"]
+			},
+			{
+				"name": "Heavy Anti-Air Gun Team     ",
+				"validationKeys": ["ArtyTeamsR","ArtyTeams"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Artillery Platoon "	}, { "in": "Belgium" }]			
+					},
 					{
 						"all": [{ "in": "Artillery Platoon "	}, { "in": "Hungary" }]			
 					}
@@ -85534,6 +86966,89 @@
 				"equipment": ["Front Facing Pintle Mounted HMG"]
 			},
 			{
+				"name": "M3 White Scout Car       ",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Netherlands" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 15,
+				"requiredChildren": [
+					{
+						"elementPropertyName": "options",
+						"name": "Recce",
+						"in": [
+							[
+								"Recce Platoon"
+							]
+						],
+						"points": 10
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 59,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 68,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 77,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Rear Left Facing Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15
+					},
+					{
+						"name": "Rear Right Facing Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15
+					},
+					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"availableIn":[
+							"Recce Platoon",
+							"Recce Platoon "
+						]
+					}
+				],
+				"keywords": ["Transport","Open Topped","Tow"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Damage Value: 7+\n Transport: 8\n Tow: L/M AT Gun, L Howitzer, L AA Gun\n Wheeled Vehicle",
+				"equipment": ["Front Facing Pintle Mounted HMG"]
+			},
+			{
 				"name": "3t Trucks",
 				"factions": [],
 				"order": 1,
@@ -86097,6 +87612,24 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "East Africa Command" }]			
 					},
 					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Greece" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Greece" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Greece" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Greece" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Greece" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Greece" }]			
+					},
+					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "India" }]			
 					},
 					{
@@ -86282,9 +87815,9 @@
 						]
 					}
 				],
-				"keywords": ["Transport","Tow"],
+				"keywords": ["Transport","Tow","Open Topped","Turn on the Spot"],
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
-				"specialText": "Period: E|M|L\n Damage Value: 6+\n Transport: 5\n Tow: L/M AT Gun\n Tracked Vehicle",
+				"specialText": "Period: E|M|L\n Damage Value: 7+\n Transport: 5\n Tow: L/M AT Gun\n Tracked Vehicle",
 				"equipment": []
 			},
 			{
@@ -90334,6 +91867,83 @@
 				"periods": ["latePeriod"],
 				"specialText": "Period: L\n Damage Value: 7+\n Transport: 8\n Wheeled Vehicle",
 				"equipment": ["Hull Mounted, Passenger Operated LMG"]
+			},
+			{
+				"name": "Overalwagen APC",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Netherlands" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 15,
+				"requiredChildren": [
+					{
+						"elementPropertyName": "options",
+						"name": "Recce",
+						"in": [
+							[
+								"Recce Platoon"
+							]
+						],
+						"points": 10
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 38,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 47,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 56,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Front Facing Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"availableIn":[
+							"Recce Platoon"
+						]
+					}
+				],
+				"keywords": ["Tow","Transport"],
+				"periods": ["earlyPeriod","mediumPeriod","latePeriod"],
+				"specialText": "Damage Value: 7+\n Transport: 12\n Tow: L/M AT Gun, L Howitzer, L AA Gun \n Wheeled Vehicle",
+				"equipment": []
 			},
 			{
 				"name": "Half-Track Truck ",
@@ -94619,19 +96229,19 @@
 					{
 						"name": "Inexperienced",
 						"addsPrefix": "Inex. ",
-						"points": 17,
+						"points": 21,
 						"requireChooseOneKey": "morale"
 					},
 					{
 						"name": "Regular",
 						"addsPrefix": "Reg. ",
-						"points": 21,
+						"points": 26,
 						"requireChooseOneKey": "morale"
 					},
 					{
 						"name": "Veteran",
 						"addsPrefix": "Vet. ",
-						"points": 36,
+						"points": 32,
 						"requireChooseOneKey": "morale"
 					},
 					{
@@ -94644,7 +96254,7 @@
 						]
 					}
 				],
-				"keywords": ["Transport","Tow"],
+				"keywords": ["Transport","Tow","Articulated Hull"],
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
 				"specialText": "Period: E|M|L\n Damage Value: 6+\n Transport: 16\n Tow: L/M AT Gun, L/M Howitzer, L AA Gun\n Wheeled Vehicle",
 				"equipment": []
@@ -97308,6 +98918,24 @@
 						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Italian Co-Belligerent Army" }]			
 					},
 					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
 						"all": [{ "in": "HQ Platoon"	}, { "in": "United States of America" }]			
 					},
 					{
@@ -97406,6 +99034,181 @@
 				"keywords": ["Transport","Tow"],
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
 				"specialText": "Period: E|M|L\n Damage Value: 6+\n Transport: 3\n Tow: L AT Gun",
+				"equipment": []
+			},
+			{
+				"name": "Light Utility Truck",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Netherlands" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 15,
+				"requiredChildren": [
+					{
+						"elementPropertyName": "options",
+						"name": "Recce",
+						"in": [
+							[
+								"Recce Platoon"
+							]
+						],
+						"points": 10
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 14,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 18,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 22,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Rear Right Facing Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unavailableWithLocal": ["Rear Facing Hull Mounted Light AT Gun","Hull Mounted Light AT Gun"],
+						"points": 15
+					},
+					{
+						"name": "Rear Left Facing Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unavailableWithLocal": ["Rear Facing Hull Mounted Light AT Gun","Hull Mounted Light AT Gun"],
+						"points": 15
+					},
+					{
+						"name": "Rear Facing Hull Mounted Light AT Gun",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unavailableWithLocal": ["Rear Right Facing Pintle Mounted MMG","Rear Left Facing Pintle Mounted MMG","Hull Mounted Light AT Gun"],
+						"points": 50
+					},
+					{
+						"name": "Hull Mounted Light AT Gun",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"unavailableWithLocal": ["Rear Right Facing Pintle Mounted MMG","Rear Left Facing Pintle Mounted MMG","Rear Facing Hull Mounted Light AT Gun"],
+						"points": 50
+					},
+					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"availableIn":[
+							"Recce Platoon"
+						]
+					}
+				],
+				"keywords": ["Tow","Transport"],
+				"periods": ["earlyPeriod","mediumPeriod","latePeriod"],
+				"specialText": "Damage Value: 6+\n Transport: 3\n Tow: L AT Gun\n Wheeled Vehicle",
+				"equipment": []
+			},
+			{
+				"name": "Armed Truck",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "HQ Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Rifle Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Engineer Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Artillery Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Heavy Weapons Platoon"	}, { "in": "Netherlands" }]			
+					},
+					{
+						"all": [{ "in": "Recce Platoon"	}, { "in": "Netherlands" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 15,
+				"requiredChildren": [
+					{
+						"elementPropertyName": "options",
+						"name": "Recce",
+						"in": [
+							[
+								"Recce Platoon"
+							]
+						],
+						"points": 10
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 38,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 47,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 56,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Amphibious",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"availableIn": ["United States of America"]
+					},
+					{
+						"name": "Recce",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"availableIn":[
+							"Recce Platoon",
+							"Recce Platoon "
+						]
+					}
+				],
+				"keywords": ["Transport","Tow"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "PDamage Value: 6+\n Transport: 12\n Tow: L/M AT Gun, L Howitzer, L AA Gun",
 				"equipment": []
 			},
 			{
@@ -101566,6 +103369,406 @@
 				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG"]
 			},
 			{
+				"name": "FT-17 Light Tank",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Belgium" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 24,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 30,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 36,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["One Man Turret","Slow... Pitifully Slow"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Damage Value: 7+\n Tracked Vehicle",
+				"equipment": ["Turret Mounted MMG"]
+			},
+			{
+				"name": "FT-18 Light Tank",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Belgium" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 54,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 66,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["One Man Turret","Slow... Pitifully Slow"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Damage Value: 7+\n Tracked Vehicle",
+				"equipment": ["Turret Mounted Low Velocity Light AT Gun"]
+			},
+			{
+				"name": "T15 Light Tank",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Belgium" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 54,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 66,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["One Man Turret"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Damage Value: 7+\n Tracked Vehicle",
+				"equipment": ["Turret Mounted HMG"]
+			},
+			{
+				"name": "Vickers Carden-Loyd Mk.VI 47mm FRC Tank Destroyer",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Belgium" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 68,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 85,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 102,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Open Topped"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Damage Value: 7+\n Tracked Vehicle",
+				"equipment": ["Hull Mounted Light AT Gun"]
+			},
+			{
+				"name": "T-13 Tank Hunter",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Belgium" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 76,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 93,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 110,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Open Topped"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Damage Value: 7+\n Tracked Vehicle",
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial Automatic Rifle"]
+			},
+			{
+				"name": "Minerva Armored Car",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Belgium" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 40,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 72,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Open Topped","Recce"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Damage Value: 7+\n Wheeled Vehicle",
+				"equipment": ["Forward Facing Pintle Mounted MMG"]
+			},
+			{
+				"name": "ACG-1 Recce Tank",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Belgium" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 108,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 135,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 162,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Recce"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Damage Value: 8+\n Tracked Vehicle",
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Nimrod Self-Propelled Anti-Aircraft Gun",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Hungary" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 68,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 85,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 102,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Open Topped"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Damage Value: 8+\n Tracked Vehicle",
+				"equipment": ["Turret Mounted Heavy Autocannon"]
+			},
+			{
 				"name": "PVM39 Light Armored Car",
 				"validationKeys": ["TotalVehicle"],
 				"factions": [],
@@ -104141,6 +106344,9 @@
 				"availableIn": [
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "France" }]			
+					},
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Greece" }]			
 					},
 					{
 						"all": [{ "in": "Armored Platoon"	}, { "in": "Poland" }]			
@@ -122381,7 +124587,7 @@
 					{
 						"name": "Command Vehicle",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"points": 1
+						"points": 10
 					},
 					{
 						"name": "Hull Mounted LMG",
@@ -127598,6 +129804,18 @@
 						"addsPrefix": "Vet. ",
 						"points": 162,
 						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle w/ Radios",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"chooseOneKey": "Command"
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"chooseOneKey": "Command"
 					}
 				],
 				"keywords": ["Command Vehicle"],
@@ -127653,6 +129871,18 @@
 						"name": "Turret Mounted MMG",
 						"points": -30,
 						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Command Vehicle w/ Radios",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"chooseOneKey": "Command"
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"chooseOneKey": "Command"
 					}
 				],
 				"keywords": ["Recce","One Man Turret"],
@@ -127698,6 +129928,18 @@
 						"addsPrefix": "Vet. ",
 						"points": 54,
 						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle w/ Radios",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"chooseOneKey": "Command"
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"chooseOneKey": "Command"
 					}
 				],
 				"keywords": ["Stationary Firing Platform","Flak"],
@@ -127743,12 +129985,659 @@
 						"addsPrefix": "Vet. ",
 						"points": 114,
 						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle w/ Radios",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"chooseOneKey": "Command"
+					},
+					{
+						"name": "Command Vehicle w/o Radios",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"chooseOneKey": "Command"
 					}
 				],
 				"keywords": ["Stationary Firing Platform","Flak"],
 				"periods": ["middlePeriod","latePeriod"],
 				"specialText": "Period: M|L\n Damage Value: 7+\n Wheeled Vehicle",
 				"equipment": ["Turret Mounted Low Velocity Light AT Gun","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "Vickers Light Tank ",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Greece" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 68,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 85,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 102,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Recce"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Damage Value: 7+\n Tracked Vehicle",
+				"equipment": ["Turret Mounted HMG","Turret Mounted Coaxial MMG"]
+			},
+			{
+				"name": "L3/35 Tankette ",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Greece" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 52,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 78,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": [],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Damage Value: 7+\n Tracked Vehicle",
+				"equipment": ["Hull Mounted Twin MMGs"]
+			},
+			{
+				"name": "Peerless Armored Car",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Greece" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 64,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 80,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 96,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Recce"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Damage Value: 7+\n Wheeled Vehicle",
+				"equipment": ["Turret Mounted Twin MMGs"]
+			},
+			{
+				"name": "M3 White Scout Car         ",
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Netherlands" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 61,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 70,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 79,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Rear Left Facing Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15
+					},
+					{
+						"name": "Rear Right Facing Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15
+					}
+				],
+				"keywords": ["Open Topped","Recce"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Damage Value: 7+\n Wheeled Vehicle",
+				"equipment": ["Front Facing Pintle Mounted HMG"]
+			},
+			{
+				"name": "Carden Lloyd Tankette",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Netherlands" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 36,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 45,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Open Topped"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Damage Value: 7+\n Tracked Vehicle",
+				"equipment": ["Hull Mounted MMG"]
+			},
+			{
+				"name": "Vickers Light Tank",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Netherlands" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 60,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 75,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 90,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Turret Mounted HMG with Coaxial MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Turret Mounted Twin HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Amphibious",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Open Topped"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Damage Value: 7+\n Tracked Vehicle",
+				"equipment": []
+			},
+			{
+				"name": "Marmon-Herrington CTLS Light Tank",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Netherlands" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 65,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 80,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 90,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Amphibious",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0
+					}
+				],
+				"keywords": ["Open Topped"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Damage Value: 7+\n Tracked Vehicle",
+				"equipment": ["Hull Mounted Twin MMG","Turret Mounted MMG"]
+			},
+			{
+				"name": "Marmon-Herrington Armored Car",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Netherlands" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 64,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 80,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 96,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Recce"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Damage Value: 7+\n Wheeled Vehicle",
+				"equipment": ["Turret Mounted Twin MMG"]
+			},
+			{
+				"name": "Alvis-Straussler Armored Car",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Netherlands" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 64,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 80,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 96,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Recce"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Damage Value: 7+\n Wheeled Vehicle",
+				"equipment": ["Turret Mounted MMG","Hull Mounted MMG"]
+			},
+			{
+				"name": "Landswerk Armored Car",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Netherlands" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 114,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 130,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 146,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Recce"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Damage Value: 7+\n Wheeled Vehicle",
+				"equipment": ["Turret Mounted Light AT Gun","Turret Mounted Coaxial MMG","Hull Mounted MMG","Rear Facing Hull Mounted MMG"]
+			},
+			{
+				"name": "Overalwagen Patrol Truck",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Netherlands" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 44,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 55,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 66,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Front Facing Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Front Facing Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"requireChooseOneKey": "priWeapon"
+					},
+					{
+						"name": "Rear Left Facing Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15
+					},
+					{
+						"name": "Rear Right Facing Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 15
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Recce","Open Topped"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Damage Value: 7+\n Wheeled Vehicle",
+				"equipment": []
+			},
+			{
+				"name": "Overalwagen Navy Gun Truck",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon "	}, { "in": "Netherlands" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 79,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 90,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 101,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					}
+				],
+				"keywords": ["Open Topped"],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Damage Value: 7+\n Wheeled Vehicle",
+				"equipment": ["Rear Facing Light Howitzer","Front Facing Pintle Mounted MMG"]
 			},
 			{
 				"name": "Bob Semple Tank",
@@ -127780,7 +130669,7 @@
 					{
 						"name": "Command Vehicle",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"points": 1
+						"points": 10
 					}
 				],
 				"keywords": ["Slow... Pitifully Slow","Unreliable"],
@@ -127818,7 +130707,7 @@
 					{
 						"name": "Command Vehicle",
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"points": 1
+						"points": 10
 					}
 				],
 				"keywords": [],
@@ -135382,6 +138271,68 @@
 				"keywords": ["Recce"],
 				"periods": ["middlePeriod","latePeriod"],
 				"specialText": "Period: M|L\n Damage Value: 6+\n Wheeled Vehicle",
+				"equipment": []
+			},
+			{
+				"name": "Jeep, Recon ",
+				"validationKeys": ["TotalVehicle"],
+				"factions": [],
+				"order": 1,
+				"availableIn": [
+					{
+						"all": [{ "in": "Armored Platoon"	}, { "in": "Netherlands" }]			
+					}
+				],
+				"points": 0,
+				"models": 1,
+				"sortPriority": 9,
+				"limits": [
+					{
+						"key": "Tanks",
+						"limit": 5,
+						"perParent": true
+					}
+				],
+				"options": [
+					{
+						"name": "Inexperienced",
+						"addsPrefix": "Inex. ",
+						"points": 34,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Regular",
+						"addsPrefix": "Reg. ",
+						"points": 38,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Veteran",
+						"addsPrefix": "Vet. ",
+						"points": 42,
+						"requireChooseOneKey": "morale"
+					},
+					{
+						"name": "Command Vehicle",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10
+					},
+					{
+						"name": "Pintle Mounted MMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 0,
+						"requireChooseOneKey": "pintle"
+					},
+					{
+						"name": "Pintle Mounted HMG",
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
+						"points": 10,
+						"requireChooseOneKey": "pintle"
+					}
+				],
+				"keywords": [],
+				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
+				"specialText": "Damage Value: 6+\n Wheeled Vehicle",
 				"equipment": []
 			},
 			{
