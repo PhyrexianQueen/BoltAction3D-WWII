@@ -76611,7 +76611,7 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran","Inexperienced","Regular","Veteran","Inexperienced   ","Regular   ","Veteran   "]
 					}
 				],
-				"keywords": ["Flak"],
+				"keywords": [],
 				"periods": ["earlyPeriod","middlePeriod","latePeriod"],
 				"specialText": "5 Crew Members",
 				"equipment": ["30.5cm Heavy Mortar Team"]
