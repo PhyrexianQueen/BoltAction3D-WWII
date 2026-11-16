@@ -45237,6 +45237,23 @@
 						"localLimit": 1
 					},
 					{
+						"name": "Infiltrators",
+						"points": 1,
+						"perModel": true,
+						"limits": [{ "key": "Infiltrators", "limit": 1, "perGrandparent": true }],
+						"unlockedByLocalStat": [
+                            {
+                                "stat": "models",
+                                "modifier": "below",
+                                "value": 6
+                            }
+                        ],
+						"availableIn":[
+							"Rifle Platoon"
+						],
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
 						"name": "Wire Cutters",
 						"points": 1,
 						"perModel": true,
@@ -45319,6 +45336,23 @@
 						"name": "Anti-Tank Grenades",
 						"points": 2,
 						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Infiltrators",
+						"points": 1,
+						"perModel": true,
+						"limits": [{ "key": "Infiltrators", "limit": 1, "perGrandparent": true }],
+						"unlockedByLocalStat": [
+                            {
+                                "stat": "models",
+                                "modifier": "below",
+                                "value": 6
+                            }
+                        ],
+						"availableIn":[
+							"Rifle Platoon"
+						],
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
 					},
 					{
@@ -45438,6 +45472,23 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
 					},
 					{
+						"name": "Infiltrators",
+						"points": 1,
+						"perModel": true,
+						"limits": [{ "key": "Infiltrators", "limit": 1, "perGrandparent": true }],
+						"unlockedByLocalStat": [
+                            {
+                                "stat": "models",
+                                "modifier": "below",
+                                "value": 6
+                            }
+                        ],
+						"availableIn":[
+							"Rifle Platoon"
+						],
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
 						"name": "Wire Cutters",
 						"points": 1,
 						"perModel": true,
@@ -45547,6 +45598,23 @@
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
 					},
 					{
+						"name": "Infiltrators",
+						"points": 1,
+						"perModel": true,
+						"limits": [{ "key": "Infiltrators", "limit": 1, "perGrandparent": true }],
+						"unlockedByLocalStat": [
+                            {
+                                "stat": "models",
+                                "modifier": "below",
+                                "value": 6
+                            }
+                        ],
+						"availableIn":[
+							"Rifle Platoon"
+						],
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
 						"name": "Wire Cutters",
 						"points": 1,
 						"perModel": true,
@@ -45638,6 +45706,23 @@
 						"limit": 2,
 						"points": 2,
 						"perModel": true,
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
+						"name": "Infiltrators",
+						"points": 1,
+						"perModel": true,
+						"limits": [{ "key": "Infiltrators", "limit": 1, "perGrandparent": true }],
+						"unlockedByLocalStat": [
+                            {
+                                "stat": "models",
+                                "modifier": "below",
+                                "value": 6
+                            }
+                        ],
+						"availableIn":[
+							"Rifle Platoon"
+						],
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
 					},
 					{
@@ -45735,6 +45820,7 @@
 						"max": "parentModels",
 						"maxKey": "gun",
 						"localLimit": 1,
+						"limits": [{ "key": "Infiltrators", "limit": 1, "perGrandparent": true }],
 						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
 					},
 					{
@@ -59908,6 +59994,24 @@
 						"availableIn": ["East Africa Command"]
 					},
 					{
+						"name": "Infiltrators",
+						"points": 1,
+						"perModel": true,
+						"limits": [{ "key": "Infiltrators", "limit": 1, "perGrandparent": true }],
+						"unlockedByLocalStat": [
+                            {
+                                "stat": "models",
+                                "modifier": "below",
+                                "value": 6
+                            }
+                        ],
+						"availableIn":[
+							["Rifle Platoon","Australia"],
+							["Rifle Platoon","New Zealand"]
+						],
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
+					},
+					{
 						"name": "Wire Cutters",
 						"points": 1,
 						"perModel": true,
@@ -59937,12 +60041,6 @@
 					},
 					{
 						"all": [{ "in": "Recce Platoon"	}, { "in": "India" }]			
-					},
-					{
-						"all": [{ "in": "Rifle Platoon"	}, { "in": "New Zealand" }]			
-					},
-					{
-						"all": [{ "in": "Recce Platoon"	}, { "in": "New Zealand" }]			
 					}
 				],
 				"points": 0,
@@ -60172,6 +60270,24 @@
 						"points": 2,
 						"unlockedByLocal": ["Inexperienced"],
 						"perModel": true
+					},
+					{
+						"name": "Infiltrators",
+						"points": 1,
+						"perModel": true,
+						"limits": [{ "key": "Infiltrators", "limit": 1, "perGrandparent": true }],
+						"unlockedByLocalStat": [
+                            {
+                                "stat": "models",
+                                "modifier": "below",
+                                "value": 6
+                            }
+                        ],
+						"availableIn":[
+							["Rifle Platoon","Australia"],
+							["Rifle Platoon","New Zealand"]
+						],
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
 					},
 					{
 						"name": "Wire Cutters",
@@ -60420,6 +60536,24 @@
 						"unlockedByLocal": ["Regular","Veteran"],
 						"availableIn": ["New Zealand"],
 						"chooseOneKey": "natRuNZ"
+					},
+					{
+						"name": "Infiltrators",
+						"points": 1,
+						"perModel": true,
+						"limits": [{ "key": "Infiltrators", "limit": 1, "perGrandparent": true }],
+						"unlockedByLocalStat": [
+                            {
+                                "stat": "models",
+                                "modifier": "below",
+                                "value": 6
+                            }
+                        ],
+						"availableIn":[
+							["Rifle Platoon","Australia"],
+							["Rifle Platoon","New Zealand"]
+						],
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
 					},
 					{
 						"name": "Wire Cutters",
@@ -65168,17 +65302,21 @@
 					},
 					{
 						"name": "Infiltrators",
-						"unlockedByLocal": ["Inexperienced","Regular","Veteran"],
-						"points": 0,
+						"points": 1,
+						"perModel": true,
+						"limits": [{ "key": "Infiltrators", "limit": 1, "perGrandparent": true }],
 						"unlockedByLocalStat": [
                             {
                                 "stat": "models",
                                 "modifier": "below",
-                                "value": 5
+                                "value": 6
                             }
                         ],
-						"unavailableWithLocal": ["Behind Enemy Lines"],
-						"requireChooseKey": "secret"
+						"availableIn":[
+							["Rifle Platoon","Australia"],
+							["Rifle Platoon","New Zealand"]
+						],
+						"unlockedByLocal": ["Inexperienced","Regular","Veteran"]
 					},
 					{
 						"name": "Behind Enemy Lines",
